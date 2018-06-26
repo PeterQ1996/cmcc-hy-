@@ -114,26 +114,27 @@ class ContentGet_360(ContentGetHtml):
                     hmd = hashlib.md5()  #
                     hmd.update(hostname_encode)  # 生成文件的MD5值，MD5是一种哈希算法
                     md5_filename = hmd.hexdigest()  #
-                    with open(projectPath + "/web_scan_probe/html" + "/" + md5_filename,
-                              "w") as K:
-                        K.write(html1)
-                    #       with open("/home/hadoop/qianhuhai/com-fj-phishing-2/png" + "/" + md5_filename,
-                    #                 "w") as J:
-                    #           J.write(png.content)
+                    if not os.path.exists(projectPath+'/web_scan_probe/html'+'/'+md5_filename) :
+                        with open(projectPath + "/web_scan_probe/html" + "/" + md5_filename,
+                                  "w") as K:
+                            K.write(html1)
+                        #       with open("/home/hadoop/qianhuhai/com-fj-phishing-2/png" + "/" + md5_filename,
+                        #                 "w") as J:
+                        #           J.write(png.content)
 
-                    with open(projectPath + "/web_scan_probe/png" + "/" + md5_filename,
-                              "wb") as J:
-                        J.write(png)
-
-
-                    with open(projectPath + '/web_scan_probe/web_360_level'+'/'+md5_filename,
-                              'w') as f:
-                        f.write(html2)
+                        with open(projectPath + "/web_scan_probe/png" + "/" + md5_filename,
+                                  "wb") as J:
+                            J.write(png)
 
 
-                    with open(projectPath + '/web_scan_probe/web_chinaz_level'+'/'+md5_filename,
-                              'w') as f:
-                        f.write(html3)
+                        with open(projectPath + '/web_scan_probe/web_360_level'+'/'+md5_filename,
+                                  'w') as f:
+                            f.write(html2)
+
+
+                        with open(projectPath + '/web_scan_probe/web_chinaz_level'+'/'+md5_filename,
+                                  'w') as f:
+                            f.write(html3)
 
                     '''
                     验证

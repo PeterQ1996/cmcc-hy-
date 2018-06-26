@@ -2,7 +2,7 @@
 import threading
 import time
 from com.fj.src.spyder.ThreadsClass import MyThread
-from .ContentGet_360 import ContentGetHtml1
+from .ContentGet_360 import ContentGet_360
 
 
 class MyThread1(MyThread):
