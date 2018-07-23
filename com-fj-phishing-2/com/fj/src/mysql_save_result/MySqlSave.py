@@ -8,9 +8,11 @@ import time
 import datetime
 # sys.path.extend(['/home/qianhuhai/Documents/PycharmProjects/com-fj-phishing-2'])
 # print(os.getcwd())
+
 def ConnectToSql():
-    os.chdir('/home/qianhuhai/PycharmProjects/com-fj-phishing-2/')
-    projectPath=os.getcwd()
+    projectPath = os.getcwd()
+
+
     # 打开数据库连接
     db = pymysql.connect(host="172.28.19.238", user="AthenaR",
                          password="GYzKyTeB", db="test_qhh", port=33061, charset='utf8')

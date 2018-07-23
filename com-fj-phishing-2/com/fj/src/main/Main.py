@@ -1,18 +1,18 @@
 #!/usr/bin/env python
 #-*-coding:utf-8-*-
 
+
+
 import os,sys
+projectPath=os.getcwd()
+sys.path.append(projectPath)
+
 from com.fj.src.spyder import AsynchronousCrawler
 from com.fj.src.algorithm.model_predict import ModelRun
 from com.fj.src.spyder.web_scan_probe import ContentGet_360
 from com.fj.src.mysql_save_result import MySqlSave
 
-
-
 #lujing
-projectPath=os.getcwd()
-sys.path.append(projectPath)
-
 
 
 if __name__ == "__main__":
@@ -20,10 +20,10 @@ if __name__ == "__main__":
     # while(1):
     # dc=DomainConsumer("thread-1","1")
     try:
-        g = open(projectPath + "/data/part-r-00000", 'r')  #输入待检测网站
+        g = open(projectPath + "/data/part-r-00", 'r')  #输入待检测网站
     except:
         os.chdir(projectPath)
-        g = open("data/part-r-00000", 'r')  # 输入待检测网站
+        g = open("data/part-r-00", 'r')  # 输入待检测网站
     param = []
     for i in g.readlines():
         ki, vl = i.split('\t')
