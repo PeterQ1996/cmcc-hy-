@@ -89,7 +89,7 @@ class ContentGet_360(ContentGetHtml):
 
 
                 params_png = "&render_all=0&wait=0.5"  ###
-                splash_url_png = "http://172.18.2.67:8050/render.png?"  ###
+                splash_url_png = "http://172.28.19.231:8050/render.png?"  ###
                 oneUrlPng = splash_url_png + detect_url + params_png  ###
                 url_request = request.Request(oneUrlPng)  ###query下载图片
                 png = request.urlopen(url_request).read()
@@ -165,7 +165,7 @@ class ContentGet_360(ContentGetHtml):
 
             # self.result.append(0)
         ###result=[0,1,0,1,...]  len(result)=len(self.url_list)
-        with open(projectPath + "/web_scan_probe/web-content", "a") as L:
+        with open(projectPath + "/web_scan_probe/web-content", 'w') as L:
             for i in self.l:
                 L.write(str(i).strip("[]") + '\n')
         return "scrapy end"
