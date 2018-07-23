@@ -19,6 +19,7 @@ from io import StringIO
 
 timeout = 5
 socket.setdefaulttimeout(timeout)  #设置超时，　网页请求超时，则返回空，
+
 projectPath=os.getcwd() #获得工程根目录
 
 #
@@ -44,7 +45,7 @@ def parse_diaoyu_sec(param,conf):
 def splashRun(detect_url):
     params_html = "&wait=0.5"  ###
 
-    splash_url_html = "http://172.18.2.67:8050/render.html?"  ###
+    splash_url_html = "http://172.28.19.231:8050/render.html?"  ###
     oneUrlHtml = splash_url_html + detect_url + params_html  ###
 
     url_request = request.Request(oneUrlHtml)
@@ -79,7 +80,7 @@ class ContentGet_360(ContentGetHtml):
                 detect_url = "url=http://" + hostname.strip('\n\r')  ###
                 params_html = "&wait=0.5"  ###
 
-                splash_url_html = "http://172.18.2.67:8050/render.html?"  ###
+                splash_url_html = "http://172.28.19.231:8050/render.html?"  ###
                 oneUrlHtml = splash_url_html + detect_url + params_html  ###
 
                 url_request = request.Request(oneUrlHtml)
@@ -114,13 +115,11 @@ class ContentGet_360(ContentGetHtml):
                     hmd = hashlib.md5()  #
                     hmd.update(hostname_encode)  # 生成文件的MD5值，MD5是一种哈希算法
                     md5_filename = hmd.hexdigest()  #
-                    if not os.path.exists(projectPath+'/web_scan_probe/html'+'/'+md5_filename) :
+                    if not os.path.isfile(projectPath+'/web_scan_probe/html'+'/'+md5_filename) :
                         with open(projectPath + "/web_scan_probe/html" + "/" + md5_filename,
                                   "w") as K:
                             K.write(html1)
-                        #       with open("/home/hadoop/qianhuhai/com-fj-phishing-2/png" + "/" + md5_filename,
-                        #                 "w") as J:
-                        #           J.write(png.content)
+
 
                         with open(projectPath + "/web_scan_probe/png" + "/" + md5_filename,
                                   "wb") as J:
