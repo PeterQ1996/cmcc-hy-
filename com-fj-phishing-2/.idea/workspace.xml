@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ea7b529-845a-4c82-b145-fe09d51ac39c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/com-fj-phishing-2.iml" afterPath="$PROJECT_DIR$/.idea/com-fj-phishing-2.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/move_documents/MoveDocuments.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.python-version" afterPath="$PROJECT_DIR$/.python-version" />
-      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ContentGet_360.py" afterPath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ContentGet_360.py" />
-      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ThreadsClass.py" afterPath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ThreadsClass.py" />
-      <change beforePath="$PROJECT_DIR$/data/file_list_03.txt" afterPath="$PROJECT_DIR$/data/file_list_03.txt" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/main/Main.py" afterPath="$PROJECT_DIR$/com/fj/src/main/Main.py" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/22cde374551ea8319a3b98653fd0bce8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/2985b48038d679eabcb6e9475134bd2f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/7e033c3c6b14bd0e1e846edf1ca1b3ac" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/aa6481c4e7af7a242d6b66f465bc2c65" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/af8dc2449cca61fabd9c6bb680f64af8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/png/22cde374551ea8319a3b98653fd0bce8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/png/2985b48038d679eabcb6e9475134bd2f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/png/7e033c3c6b14bd0e1e846edf1ca1b3ac" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/png/aa6481c4e7af7a242d6b66f465bc2c65" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/png/af8dc2449cca61fabd9c6bb680f64af8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web-content" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/22cde374551ea8319a3b98653fd0bce8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/2985b48038d679eabcb6e9475134bd2f" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/7e033c3c6b14bd0e1e846edf1ca1b3ac" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/aa6481c4e7af7a242d6b66f465bc2c65" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/af8dc2449cca61fabd9c6bb680f64af8" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/data/part-r-00" afterPath="$PROJECT_DIR$/data/part-r-00" />
+      <change beforePath="$PROJECT_DIR$/data/web-content" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/DataOutput.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/HtmlDownloader.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/HtmlParser.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/SogouDictParser.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/SpiderMan.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/UrlManager.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/__init__.py" afterPath="$PROJECT_DIR$/com/fj/src/mysql_save_result/TextClean.py" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/getCategory.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sogou_spyder_master/scel2txt.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web_scan_probe/web-content" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,13 +53,14 @@
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$MySqlSave.coverage" NAME="MySqlSave Coverage Results" MODIFIED="1527744124742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/mysql_save_result" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$DataQingXi.coverage" NAME="DataQingXi Coverage Results" MODIFIED="1527067686947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/model_train" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$AsynchronousCrawler_.coverage" NAME="AsynchronousCrawler  Coverage Results" MODIFIED="1527575647589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/spyder" />
-    <SUITE FILE_PATH="coverage/com_fj_phishing_2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1529462995973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/main" />
+    <SUITE FILE_PATH="coverage/com_fj_phishing_2$Main.coverage" NAME="Main Coverage Results" MODIFIED="1532332579648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/main" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$TfidfExtract.coverage" NAME="TfidfExtract Coverage Results" MODIFIED="1527140315587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/model_train" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1527066122141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/test" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$ContentGetHtml__1_.coverage" NAME="ContentGetHtml (1) Coverage Results" MODIFIED="1529401157955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$test.coverage" NAME="test Coverage Results" MODIFIED="1527658138583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/test" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$DataExtract.coverage" NAME="DataExtract Coverage Results" MODIFIED="1527068141279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/model_train" />
     <SUITE FILE_PATH="coverage/com_fj_phishing_2$Qingxi.coverage" NAME="Qingxi Coverage Results" MODIFIED="1527478064077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/fj/src/white_list" />
+    <SUITE FILE_PATH="coverage/com_fj_phishing_2$MoveDocuments.coverage" NAME="MoveDocuments Coverage Results" MODIFIED="1530595343639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/move_documents" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -49,25 +76,26 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="com-fj-phishing-2" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContentGetHtml.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/ContentGetHtml.py">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/fj/src/main/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="e#40#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContentGet_360.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContentGet_360.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ContentGet_360.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+            <state relative-caret-position="1440">
+              <caret line="91" column="39" lean-forward="false" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="54" />
               <folding>
                 <element signature="e#119#145#0" expanded="true" />
               </folding>
@@ -75,14 +103,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webScanProbe.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/webScanProbe.py">
+      <file leaf-file-name="ThreadsClass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/ThreadsClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySqlSave.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/fj/src/mysql_save_result/MySqlSave.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="43" />
               <folding>
-                <element signature="e#26#77#0" expanded="true" />
+                <element signature="e#21#35#0" expanded="true" />
+                <marker date="1532395965775" expanded="true" signature="1790:1994" ph="insert into t_fraud_web_phish... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextClean.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/fj/src/mysql_save_result/TextClean.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web-content" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_scan_probe/web-content">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web-content-clean" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web_scan_probe/web-content-clean">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part-r-00" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/part-r-00">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,10 +179,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>container</find>
-      <find>abc</find>
-      <find>0be</find>
-      <find>0</find>
       <find>1</find>
       <find>print</find>
       <find>sxcb</find>
@@ -126,8 +203,12 @@
       <find>mobilegw.alipay.com</find>
       <find>xsfa.cpic.com.cn</find>
       <find>diao</find>
-      <find>ctx10.com</find>
       <find>605e966473bed8f99de6720a6cef0657</find>
+      <find>1006c.com</find>
+      <find>bomao88.com</find>
+      <find>chinaszrj.com</find>
+      <find>ctx10.com</find>
+      <find>cpw62.com</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/html</dir>
@@ -139,9 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com/fj/src/Main/main.py" />
-        <option value="$PROJECT_DIR$/com/fj/src/Main/KafkaComsumer.py" />
-        <option value="$PROJECT_DIR$/com/fj/src/main/KafkaComsumer.py" />
         <option value="$PROJECT_DIR$/com/fj/src/main/DomainGet.py" />
         <option value="$PROJECT_DIR$/com/fj/src/ETL/DetectData.py" />
         <option value="$PROJECT_DIR$/com/fj/src/main/ThreadsClass.py" />
@@ -183,13 +261,16 @@
         <option value="$PROJECT_DIR$/com/fj/src/spyder/ContentGetHtml.py" />
         <option value="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ContentGetHtml.py" />
         <option value="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web-content" />
-        <option value="$PROJECT_DIR$/com/fj/src/main/Main.py" />
-        <option value="$PROJECT_DIR$/data/part-r-00" />
-        <option value="$PROJECT_DIR$/com/fj/src/mysql_save_result/MySqlSave.py" />
         <option value="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ThreadsClass.py" />
-        <option value="$PROJECT_DIR$/web_scan_probe/web-content" />
         <option value="$PROJECT_DIR$/data/file_list_03.txt" />
+        <option value="$PROJECT_DIR$/move_documents/MoveDocuments.py" />
         <option value="$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ContentGet_360.py" />
+        <option value="$PROJECT_DIR$/web_scan_probe/web-content-clean" />
+        <option value="$PROJECT_DIR$/com/fj/src/mysql_save_result/MySqlSave.py" />
+        <option value="$PROJECT_DIR$/data/part-r-00" />
+        <option value="$PROJECT_DIR$/web_scan_probe/web-content" />
+        <option value="$PROJECT_DIR$/com/fj/src/mysql_save_result/TextClean.py" />
+        <option value="$PROJECT_DIR$/com/fj/src/main/Main.py" />
       </list>
     </option>
   </component>
@@ -206,10 +287,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="742" />
-    <option name="y" value="-28" />
-    <option name="width" value="1743" />
-    <option name="height" value="1084" />
+    <option name="x" value="308" />
+    <option name="y" value="227" />
+    <option name="width" value="1241" />
+    <option name="height" value="796" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,7 +308,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,6 +337,19 @@
             <path>
               <item name="com-fj-phishing-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="com-fj-phishing-2" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="spyder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-fj-phishing-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com-fj-phishing-2" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com-fj-phishing-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com-fj-phishing-2" type="462c0819:PsiDirectoryNode" />
               <item name="web_scan_probe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -267,12 +361,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.remoteExternalTools" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -280,6 +374,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="0c35d8d2ee229e132b8f0fdae0cd0a00&#9;FILE&#9;file:///home/qianhuhai/PycharmProjects/com-fj-phishing-2/web_scan_probe/html/0c35d8d2ee229e132b8f0fdae0cd0a00&#10;/home/qianhuhai/PycharmProjects/com-fj-phishing-2/com/fj/src/main/data/&#9;null&#9;null&#10;/home/qianhuhai/PycharmProjects/com-fj-phishing-2/file_02/5ed50ca7923ff30d55fd223d254ce3ed&#9;FILE&#9;file:///home/qianhuhai/PycharmProjects/com-fj-phishing-2/file_02/5ed50ca7923ff30d55fd223d254ce3ed" />
+    <property name="tags.panel.proportion" value="0.5" />
+    <property name="python.debugger.dataview.coloredbydefault" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -291,19 +388,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/com/fj/src/spyder/KafkaTool" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/com/fj/src/algorithm" />
-      <recent name="$PROJECT_DIR$/com/fj/src/spyder" />
-      <recent name="$PROJECT_DIR$/com/fj/src/sogou_spyder_master" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/com/fj/src/sogou_spyder_master" />
       <recent name="$PROJECT_DIR$/com/fj/src/white_list" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/com/fj/src/spyder" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com/fj/src/spyder/KafkaTool" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/com/fj/src/algorithm" />
+      <recent name="$PROJECT_DIR$/com/fj/src/spyder" />
+      <recent name="$PROJECT_DIR$/com/fj/src/sogou_spyder_master" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -421,6 +518,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="MoveDocuments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/move_documents" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="com-fj-phishing-2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/move_documents/MoveDocuments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="MySqlSave" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -435,25 +551,6 @@
       <module name="com-fj-phishing-2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/fj/src/mysql_save_result/MySqlSave.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/fj/src/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="com-fj-phishing-2" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/fj/src/test/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -553,19 +650,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MySqlSave" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ContentGetHtml" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ContentGetHtml (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MySqlSave" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ContentGetHtml" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ContentGetHtml (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.MoveDocuments" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ContentGetHtml (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ContentGetHtml" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MySqlSave" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MoveDocuments" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ContentGetHtml (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ContentGetHtml" />
+        <item index="4" class="java.lang.String" itemvalue="Python.MySqlSave" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +687,42 @@
       <option name="project" value="LOCAL" />
       <updated>1529984394690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python3.6-&gt;python3.5&#10;修改ContentGet_360">
+      <created>1529995429708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529995429708</updated>
+    </task>
+    <task id="LOCAL-00003" summary="python3.6-&gt;python3.5&#10;修改ContentGet_360">
+      <created>1532330891780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532330891780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="python3.6-&gt;python3.5&#10;修改ContentGet_360">
+      <created>1532330933894</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532330933894</updated>
+    </task>
+    <task id="LOCAL-00005" summary="python3.6-&gt;python3.5&#10;修改ContentGet_360">
+      <created>1532333165739</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1532333165740</updated>
+    </task>
+    <task id="LOCAL-00006" summary="python3.6-&gt;python3.5&#10;修改ContentGet_360">
+      <created>1532335103322</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1532335103322</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -603,30 +735,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="742" y="-28" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27329844" sideWeight="0.461581" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32041883" sideWeight="0.5522388" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35135135" sideWeight="0.65161777" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27329844" sideWeight="0.538419" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28026533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810867" sideWeight="0.49087894" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277487" sideWeight="0.4870094" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27015707" sideWeight="0.49087894" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32670158" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31937173" sideWeight="0.5522388" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36649215" sideWeight="0.65161777" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14659686" sideWeight="0.50912106" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17247097" sideWeight="0.4935065" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13598673" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39904988" sideWeight="0.49312612" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29441062" sideWeight="0.5064935" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39790577" sideWeight="0.49312612" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10902896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49185187" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25814536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34031415" sideWeight="0.4884956" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -659,7 +794,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增钓鱼网站" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增钓鱼网站" />
+    <MESSAGE value="python3.6-&gt;python3.5&#10;修改ContentGet_360" />
+    <option name="LAST_COMMIT_MESSAGE" value="python3.6-&gt;python3.5&#10;修改ContentGet_360" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,192 +811,15 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/vocabulary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/unknowndata.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/main/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.python-version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/2cbd67122f071a433f0594cb9a24e2bb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/0a7e71fbafc403f786dd689cf22ca2e7">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="261" column="32" lean-forward="false" selection-start-line="261" selection-start-column="32" selection-end-line="261" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/putsql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/white_list/Qingxi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/white_list/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934812">
-          <caret line="51934" column="77" lean-forward="false" selection-start-line="51934" selection-start-column="77" selection-end-line="51934" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/test/test.py" />
-    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_train/DataCopy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_predict/DataExtract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="8" />
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="29" />
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_predict/GetLabel1data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_predict/DataQingXi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#34#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_predict/ModelRun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_train/ModelRun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/unknowndata03.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/unknowndata01.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="42" column="1106" lean-forward="false" selection-start-line="42" selection-start-column="1106" selection-end-line="42" selection-end-column="1106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/7e033c3c6b14bd0e1e846edf1ca1b3ac">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3024">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/2985b48038d679eabcb6e9475134bd2f">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/aa6481c4e7af7a242d6b66f465bc2c65">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/af8dc2449cca61fabd9c6bb680f64af8">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/22cde374551ea8319a3b98653fd0bce8">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="337" column="57" lean-forward="true" selection-start-line="337" selection-start-column="57" selection-end-line="337" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/2985b48038d679eabcb6e9475134bd2f" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/aa6481c4e7af7a242d6b66f465bc2c65" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/af8dc2449cca61fabd9c6bb680f64af8" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/22cde374551ea8319a3b98653fd0bce8" />
     <entry file="file://$PROJECT_DIR$/web_scan_probe/html/6b0be80bc1a14ca0eecffa3f97b59a76">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1260">
@@ -897,45 +856,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_scan_probe/html/0c35d8d2ee229e132b8f0fdae0cd0a00">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_scan_probe/web_360_level/0ae3ba49964595a014954d86c57b37e0">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252">
           <caret line="268" column="30" lean-forward="true" selection-start-line="268" selection-start-column="30" selection-end-line="268" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/web-content">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="168" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/part-r-00">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="143" column="10" lean-forward="false" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web-content">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -960,88 +884,253 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/AsynchronousCrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/mysql_save_result/MySqlSave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/ContentGetHtml.py">
+    <entry file="file://$PROJECT_DIR$/.python-version">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#40#66#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/ThreadsClass.py">
+    <entry file="file://$PROJECT_DIR$/data/unknowndata03.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="-2355">
+          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/fj/src/main/Main.py">
+    <entry file="file://$PROJECT_DIR$/file_02/5ed50ca7923ff30d55fd223d254ce3ed">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="88">
+          <caret line="5230" column="65" lean-forward="true" selection-start-line="5230" selection-start-column="53" selection-end-line="5230" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pyenv/versions/anaconda3-5.0.1/envs/python354/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_01/ada7e19aadc2dd24938fec249172550c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="63" selection-start-column="89" selection-end-line="64" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/html/0ae3ba49964595a014954d86c57b37e0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/html/1da25cfc5e81ba366b6be24c97709351">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file_01/bd7ec742897f8434196e7dde452f4f75">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="636" column="9" lean-forward="true" selection-start-line="636" selection-start-column="9" selection-end-line="636" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/aa6481c4e7af7a242d6b66f465bc2c65" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web-content" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/web_360_level/7e033c3c6b14bd0e1e846edf1ca1b3ac" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/web_scan_probe/html/7e033c3c6b14bd0e1e846edf1ca1b3ac" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_train/DataCopy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/html/0a7e71fbafc403f786dd689cf22ca2e7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="121" column="12" lean-forward="true" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/html/0c8ee9ef9d4a858387a3081827c0dada">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2880">
+          <caret line="0" column="547" lean-forward="false" selection-start-line="0" selection-start-column="547" selection-end-line="0" selection-end-column="547" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/html/2b3706540825fc0a0ef6c5e5946ee471">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/html/0c35d8d2ee229e132b8f0fdae0cd0a00">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/move_documents/MoveDocuments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/unknowndata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="6" column="6977" lean-forward="false" selection-start-line="6" selection-start-column="6977" selection-end-line="6" selection-end-column="6977" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/putsql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ThreadsClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="324">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/algorithm/model_predict/DataQingXi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#24#40#0" expanded="false" />
+            <element signature="e#25#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/file_list_03.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_scan_probe/web-content">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="125" lean-forward="true" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="128" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/webScanProbe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="1036">
+          <caret line="151" column="44" lean-forward="false" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/ContentGetHtml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#26#77#0" expanded="true" />
+            <element signature="e#40#66#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="256" column="19" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="258" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/web-content" />
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/AsynchronousCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/web_scan_probe/ContentGet_360.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="73" column="16" lean-forward="true" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        <state relative-caret-position="1440">
+          <caret line="91" column="39" lean-forward="false" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="54" />
           <folding>
             <element signature="e#119#145#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/vocabulary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="0" column="3229" lean-forward="false" selection-start-line="0" selection-start-column="3219" selection-end-line="0" selection-end-column="3229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/spyder/ThreadsClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/file_list_03.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="80" column="34" lean-forward="true" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/part-r-00">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/mysql_save_result/TextClean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/web-content">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="63" lean-forward="false" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_scan_probe/web-content-clean">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/mysql_save_result/MySqlSave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#21#35#0" expanded="true" />
+            <marker date="1532395965775" expanded="true" signature="1790:1994" ph="insert into t_fraud_web_phish... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/fj/src/main/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
