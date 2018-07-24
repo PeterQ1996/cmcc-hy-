@@ -2,7 +2,7 @@
 #-*-coding:utf-8-*-
 
 
-
+import traceback
 import os,sys
 projectPath=os.getcwd()#lujing
 sys.path.append(projectPath)
@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     # while(1):
     # dc=DomainConsumer("thread-1","1")
-
+  try:
     for parent,dirnames,filenames in os.walk("/data/qianhuhai/"):
       for dirname in dirnames:
          for filename in filenames:
@@ -28,6 +28,7 @@ if __name__ == "__main__":
             except:
                 os.chdir(projectPath)
                 g = open("/data/qianhuhai/"+dirname+filename, 'r')  # 输入待检测网站
+
             param = []
             for i in g.readlines():
                 ki, vl = i.split('\t')
@@ -52,3 +53,5 @@ if __name__ == "__main__":
 
             TextClean.TextClean()
 
+  except:
+      traceback.print_exc()
