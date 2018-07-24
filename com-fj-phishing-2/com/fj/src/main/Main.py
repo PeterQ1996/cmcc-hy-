@@ -16,18 +16,21 @@ from com.fj.src.mysql_save_result import TextClean
 
 
 if __name__ == "__main__":
+  day=sys.argv[1]
 
     # while(1):
     # dc=DomainConsumer("thread-1","1")
   try:
-    for parent,dirnames,filenames in os.walk("/data/qianhuhai/"):
+    for parent,dirnames,filenames in os.walk("/data/qianhuhai/"+day+'/'):
       for dirname in dirnames:
-         for filename in filenames:
+
+        for parent,dirnames,filenames in os.walk(os.path.join(parent,dirname)):
+          for filename in filenames:
             try:
-                g = open("/data/qianhuhai/"+dirname+filename, 'r')  #输入待检测网站
+                g = open("/data/qianhuhai/"+day+'/'+dirname+'/'+filename, 'r')  #输入待检测网站
             except:
                 os.chdir(projectPath)
-                g = open("/data/qianhuhai/"+dirname+filename, 'r')  # 输入待检测网站
+                g = open("/data/qianhuhai/"+day+'/'+dirname+'/'+filename, 'r')  # 输入待检测网站
 
             param = []
             for i in g.readlines():
