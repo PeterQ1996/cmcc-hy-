@@ -165,7 +165,7 @@ class ContentGet_360(ContentGetHtml):
 
             # self.result.append(0)
         ###result=[0,1,0,1,...]  len(result)=len(self.url_list)
-        with open(projectPath + "/web_scan_probe/web-content", 'w') as L:
+        with open(projectPath + "/web_scan_probe/web-content", 'a') as L:
             for i in self.l:
                 L.write(str(i).strip("[]") + '\n')
         return "scrapy end"

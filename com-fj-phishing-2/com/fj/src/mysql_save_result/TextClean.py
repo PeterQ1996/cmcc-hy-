@@ -9,7 +9,7 @@ def TextClean():
     flag=0
     projectPath = os.getcwd()
     f=open(projectPath+"/web_scan_probe/web-content",'r')
-    g=open(projectPath+"/web_scan_probe/web-content-clean",'w')
+    g=open(projectPath+"/web_scan_probe/web-content-clean",'a')
     columns=len(list(f))
     f.close()
     f = open(projectPath + "/web_scan_probe/web-content", 'r')
