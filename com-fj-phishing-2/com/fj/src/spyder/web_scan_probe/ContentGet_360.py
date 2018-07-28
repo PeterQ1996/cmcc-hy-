@@ -13,6 +13,7 @@ import traceback
 import socket
 import os
 import threading
+import configparser
 from com.fj.src.spyder.ContentGetHtml import ContentGetHtml
 from lxml import etree
 from io import StringIO
@@ -20,8 +21,12 @@ from io import StringIO
 timeout = 5
 socket.setdefaulttimeout(timeout)  #设置超时，　网页请求超时，则返回空，
 
+cp=configparser.SafeConfigParser() #配置文件
 projectPath=os.getcwd() #获得工程根目录
-
+#-*-
+cp.read('config.conf')#获取本机IP
+IP=cp.get('localhost_ip','IP')
+#-*-
 #
 SEC=5
 randomSEC=SEC+random.randint(0,9)/10
@@ -43,9 +48,10 @@ def parse_diaoyu_sec(param,conf):
         traceback.print_exc()
 #爬虫请求
 def splashRun(detect_url):
+    
     params_html = "&wait=0.5"  ###
 
-    splash_url_html = "http://172.28.19.231:8050/render.html?"  ###
+    splash_url_html = "http://"+IP+":8050/render.html?"  ###
     oneUrlHtml = splash_url_html + detect_url + params_html  ###
 
     url_request = request.Request(oneUrlHtml)
@@ -80,7 +86,7 @@ class ContentGet_360(ContentGetHtml):
                 detect_url = "url=http://" + hostname.strip('\n\r')  ###
                 params_html = "&wait=0.5"  ###
 
-                splash_url_html = "http://172.28.19.231:8050/render.html?"  ###
+                splash_url_html = "http://"+IP+":8050/render.html?"  ###
                 oneUrlHtml = splash_url_html + detect_url + params_html  ###
 
                 url_request = request.Request(oneUrlHtml)
@@ -89,7 +95,7 @@ class ContentGet_360(ContentGetHtml):
 
 
                 params_png = "&render_all=0&wait=0.5"  ###
-                splash_url_png = "http://172.28.19.231:8050/render.png?"  ###
+                splash_url_png = "http://"+IP+":8050/render.png?"  ###
                 oneUrlPng = splash_url_png + detect_url + params_png  ###
                 url_request = request.Request(oneUrlPng)  ###query下载图片
                 png = request.urlopen(url_request).read()
@@ -143,7 +149,9 @@ class ContentGet_360(ContentGetHtml):
                     if diaoyu_sec_360=='有虚假或欺诈':
                          self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
                                    similarityValue, imitate, md5_filename,diaoyu_sec_360])
-
+                         print(diaoyu_sec_360)
+                         with open("/home/qianhuhai/cmcc-hy-/com-fj-phishing-2/log","a") as log:
+                            log.write(hostname+firstVisitTime+diaoyu_sec_360)
                     # else:
                     #   if diaoyu_sec_chinaz=='危险':
                     #      self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
