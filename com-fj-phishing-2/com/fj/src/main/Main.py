@@ -50,11 +50,14 @@ if __name__ == "__main__":
             # AsynchronousCrawler.AsynchronousCrawlerTxt().readUrl(domainInfo=param)
             g.close()
 
-
+         
             # MySqlSave.ConnectToSql()#存入数据库
             # ModelRun.modelrun()
 
             TextClean.TextClean()
-
+            try:
+             os.remove("/home/qianhuhai/cmcc-hy-/com-fj-phishing-2/web_scan_probe/web-content")
+            except:
+             traceback.print_exc()
   except:
       traceback.print_exc()
