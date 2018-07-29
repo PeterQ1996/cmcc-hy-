@@ -109,8 +109,8 @@ class ContentGet_360(ContentGetHtml):
                 '''
                 站长之家－金山毒霸
                 '''
-                detect_url_chinaz = "url=http://"+"tool.chinaz.com/webscan/?host="+hostname.strip('\n\r')
-                html3=splashRun(detect_url=detect_url_chinaz)
+                #detect_url_chinaz = "url=http://"+"tool.chinaz.com/webscan/?host="+hostname.strip('\n\r')
+                #html3=splashRun(detect_url=detect_url_chinaz)
 
                 if html1 != '' and html2 != '':  # 如果文本非空，才保存
 
@@ -137,9 +137,9 @@ class ContentGet_360(ContentGetHtml):
                             f.write(html2)
 
 
-                        with open(projectPath + '/web_scan_probe/web_chinaz_level'+'/'+md5_filename,
-                                  'w') as f:
-                            f.write(html3)
+                       # with open(projectPath + '/web_scan_probe/web_chinaz_level'+'/'+md5_filename,
+                       #           'w') as f:
+                       #     f.write(html3)
 
                     '''
                     验证
@@ -151,7 +151,7 @@ class ContentGet_360(ContentGetHtml):
                                    similarityValue, imitate, md5_filename,diaoyu_sec_360])
                          
                     with open(projectPath+"/log","a") as log:
-                          log.write(hostname+firstVisitTime+diaoyu_sec_360+"/n")
+                          log.write(hostname+firstVisitTime+diaoyu_sec_360+"\n")
                     # else:
                     #   if diaoyu_sec_chinaz=='危险':
                     #      self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
