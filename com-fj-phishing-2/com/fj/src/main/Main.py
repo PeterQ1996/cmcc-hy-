@@ -56,8 +56,8 @@ if __name__ == "__main__":
 
             TextClean.TextClean()
             try:
-             os.remove("/home/qianhuhai/cmcc-hy-/com-fj-phishing-2/web_scan_probe/web-content")
+                os.remove(projectPath+"/web_scan_probe/web-content")
             except:
-             traceback.print_exc()
+                traceback.print_exc()
   except:
       traceback.print_exc()
