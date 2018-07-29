@@ -47,11 +47,11 @@ def TextClean():
 
         record=strHostName+','+strIp+','+ipBelong+','+found_time+','+lastTime+','+userSet+','+visitNum+','+ strImitate+','+\
                     strMd5_Filename +','+str(0)
-
-        if flag!=columns:
-          g.write(record+'\n')
-        else:
-          g.write(record)
+        g.write(record+'\n')
+      #  if flag!=columns:
+      #    g.write(record+'\n')
+      #  else:
+      #    g.write(record)
      except:
         traceback.print_exc()
     f.close()

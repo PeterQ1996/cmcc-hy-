@@ -150,8 +150,8 @@ class ContentGet_360(ContentGetHtml):
                          self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
                                    similarityValue, imitate, md5_filename,diaoyu_sec_360])
                          
-                    with open("/home/qianhuhai/cmcc-hy-/com-fj-phishing-2/log","a") as log:
-                          log.write(hostname+firstVisitTime+diaoyu_sec_360)
+                    with open(projectPath+"/log","a") as log:
+                          log.write(hostname+firstVisitTime+diaoyu_sec_360+"/n")
                     # else:
                     #   if diaoyu_sec_chinaz=='危险':
                     #      self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
