@@ -103,8 +103,8 @@ class ContentGet_360(ContentGetHtml):
                 '''
                 360验证结果
                 '''
-                detect_url_360 = "url=http://" + "webscan.360.cn/index/checkwebsite?url=" + hostname.strip('\n\r')  ###
-                html2=splashRun(detect_url=detect_url_360)
+                # detect_url_360 = "url=http://" + "webscan.360.cn/index/checkwebsite?url=" + hostname.strip('\n\r')  ###
+                # html2=splashRun(detect_url=detect_url_360)
 
                 '''
                 站长之家－金山毒霸
@@ -112,7 +112,7 @@ class ContentGet_360(ContentGetHtml):
                 #detect_url_chinaz = "url=http://"+"tool.chinaz.com/webscan/?host="+hostname.strip('\n\r')
                 #html3=splashRun(detect_url=detect_url_chinaz)
 
-                if html1 != '' and html2 != '':  # 如果文本非空，才保存
+                if html1 != '': #and html2 != '':  # 如果文本非空，才保存
 
 
                     # found_sensitive_words=keyword_processor.extract_keywords(returned_url_request_unicode)
@@ -121,6 +121,7 @@ class ContentGet_360(ContentGetHtml):
                     hmd = hashlib.md5()  #
                     hmd.update(hostname_encode)  # 生成文件的MD5值，MD5是一种哈希算法
                     md5_filename = hmd.hexdigest()  #
+
                     if not os.path.isfile(projectPath+'/web_scan_probe/html'+'/'+md5_filename) :
                         with open(projectPath + "/web_scan_probe/html" + "/" + md5_filename,
                                   "w") as K:
@@ -132,9 +133,9 @@ class ContentGet_360(ContentGetHtml):
                             J.write(png)
 
 
-                        with open(projectPath + '/web_scan_probe/web_360_level'+'/'+md5_filename,
-                                  'w') as f:
-                            f.write(html2)
+                        # with open(projectPath + '/web_scan_probe/web_360_level'+'/'+md5_filename,
+                        #           'w') as f:
+                        #     f.write(html2)
 
 
                        # with open(projectPath + '/web_scan_probe/web_chinaz_level'+'/'+md5_filename,
@@ -144,20 +145,21 @@ class ContentGet_360(ContentGetHtml):
                     '''
                     验证
                     '''
-                    diaoyu_sec_360 = parse_diaoyu_sec(html2, 1)  # 360验证结果
+                    #diaoyu_sec_360 = parse_diaoyu_sec(html2, 1)  # 360验证结果
+
                     # diaoyu_sec_chinaz = parse_diaoyu_sec(html3, 2)  # chinaz验证结果
-                    if diaoyu_sec_360=='有虚假或欺诈':
-                         self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
-                                   similarityValue, imitate, md5_filename,diaoyu_sec_360])
+                    #if diaoyu_sec_360=='有虚假或欺诈':
+                    #     self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
+                    #               similarityValue, imitate, md5_filename,diaoyu_sec_360])
                          
-                    with open(projectPath+"/log","a") as log:
-                          log.write(hostname+firstVisitTime+diaoyu_sec_360+"\n")
+                    #with open(projectPath+"/log","a") as log:
+                    #      log.write(hostname+firstVisitTime+diaoyu_sec_360+"\n")
                     # else:
                     #   if diaoyu_sec_chinaz=='危险':
                     #      self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
                     #                    similarityValue, imitate, md5_filename, diaoyu_sec_chinaz])
 
-                    time.sleep(randomSEC)# 休眠５秒
+                    #time.sleep(randomSEC)# 休眠５秒
                 # if found_sensitive_words_len>1:
                 #         self.result.append(1)
                 # else:
@@ -173,9 +175,9 @@ class ContentGet_360(ContentGetHtml):
 
             # self.result.append(0)
         ###result=[0,1,0,1,...]  len(result)=len(self.url_list)
-        with open(projectPath + "/web_scan_probe/web-content", 'a') as L:
-            for i in self.l:
-                L.write(str(i).strip("[]") + '\n')
+        # with open(projectPath + "/web_scan_probe/web-content", 'a') as L:
+        #     for i in self.l:
+        #         L.write(str(i).strip("[]") + '\n')
         return "scrapy end"
 
 
