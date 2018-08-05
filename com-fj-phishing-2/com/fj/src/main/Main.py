@@ -11,6 +11,7 @@ sys.path.append(projectPath)
 from com.fj.src.spyder import AsynchronousCrawler
 from com.fj.src.algorithm.model_predict import ModelRun
 from com.fj.src.spyder.web_scan_probe import ContentGet_360
+from com.fj.src.spyder.web_scan_probe.selenium＿method import SeleniumMethod
 from com.fj.src.mysql_save_result import MySqlSave
 from com.fj.src.mysql_save_result import TextClean
 
@@ -19,22 +20,33 @@ if __name__ == "__main__":
 
     # while(1):
     # dc=DomainConsumer("thread-1","1")
+    phontomJsPath = "phantomjs-2.1.1-linux-x86_64/bin/phantomjs"
+    url360 = "http://webscan.360.cn/index/checkwebsite?url="
+    user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
+    proxy = 'http://www.xicidaili.com/wt'
 
     for parent, dirnames, filenames in os.walk("/data/qianhuhai/" + day + '/'):
         for dirname in dirnames:
-            print(parent)
-            for parent, dirnames, filenames in os.walk("/data/qianhuhai/" + day + '/' + dirname):
+            print(dirname)
+            rootPath = "/data/qianhuhai/" + day + '/' + dirname
+            print(rootPath)
+
+            for parent, dirnames, filenames in os.walk(rootPath):
+                print(filenames)
                 if len(filenames) == 0:
                     print("file为空")
                     break
                 try:
                     for filename in filenames:
+
                         if not os.path.isfile("/data/qianhuhai/" + day + '/' + dirname + '/' + filename):
                             print("没有文件")
+
                             break
                         else:
                             g = open("/data/qianhuhai/" + day + '/' + dirname + '/' + filename, 'r')  # 输入待检测网站
                             print("有文件")
+                            print(dirname)
                         param = []
                         for i in g.readlines():
                             ki, vl = i.split('\t')
@@ -47,7 +59,10 @@ if __name__ == "__main__":
                         #    ,"www.100585.cn;47.90.53.47:80;其他;0;1526427560271;3;46;0.53846157;10086.cn"
                         #    ]
                         #
-                        print("奇怪")
+
+                        sm=SeleniumMethod(phontomJsPath,proxy,param,url360,user_agent)
+
+                        sm.getIpList()
                         ContentGet_360.ContentGet_360().run(param=param)
                         # AsynchronousCrawler.AsynchronousCrawlerTxt().readUrl(domainInfo=param)
 
