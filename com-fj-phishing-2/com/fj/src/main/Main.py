@@ -15,12 +15,15 @@ from com.fj.src.spyder.web_scan_probe.selenium＿method import SeleniumMethod
 from com.fj.src.mysql_save_result import MySqlSave
 from com.fj.src.mysql_save_result import TextClean
 
+
 if __name__ == "__main__":
     day = sys.argv[1]
 
     # while(1):
     # dc=DomainConsumer("thread-1","1")
-    phontomJsPath = "phantomjs-2.1.1-linux-x86_64/bin/phantomjs"
+    phantomJsPath = projectPath+"/phantomjs-2.1.1-linux-x86_64/bin/phantomjs"
+    print(phantomJsPath)
+
     url360 = "http://webscan.360.cn/index/checkwebsite?url="
     user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
     proxy = 'http://www.xicidaili.com/wt'
@@ -32,7 +35,7 @@ if __name__ == "__main__":
             print(rootPath)
 
             for parent, dirnames, filenames in os.walk(rootPath):
-                print(filenames)
+
                 if len(filenames) == 0:
                     print("file为空")
                     break
@@ -45,6 +48,7 @@ if __name__ == "__main__":
                             break
                         else:
                             g = open("/data/qianhuhai/" + day + '/' + dirname + '/' + filename, 'r')  # 输入待检测网站
+                            print("/data/qianhuhai/" + day + '/' + dirname + '/' + filename)
                             print("有文件")
                             print(dirname)
                         param = []
@@ -60,9 +64,10 @@ if __name__ == "__main__":
                         #    ]
                         #
 
-                        sm=SeleniumMethod(phontomJsPath,proxy,param,url360,user_agent)
+                        sm=SeleniumMethod(phantomJsPath,proxy,param,url360,user_agent)
 
                         sm.getIpList()
+
                         ContentGet_360.ContentGet_360().run(param=param)
                         # AsynchronousCrawler.AsynchronousCrawlerTxt().readUrl(domainInfo=param)
 
@@ -77,4 +82,4 @@ if __name__ == "__main__":
                         if os.path.isfile(projectPath + "web_scan_probe/web-content"):
                             os.remove(projectPath + "/web_scan_probe/web-content")
                 except:
-                    print("没有file")
+                    print("system error")
