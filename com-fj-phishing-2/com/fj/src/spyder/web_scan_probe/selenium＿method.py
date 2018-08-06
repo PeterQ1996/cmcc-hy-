@@ -11,7 +11,7 @@ from selenium.webdriver.common.proxy import *
 from bs4 import BeautifulSoup
 import hashlib
 import traceback
-
+import re
 projectPath=os.getcwd()
 sys.path.append(projectPath)
 
@@ -56,7 +56,7 @@ class SeleniumMethod():
 
     def getIpList(self):
 
-        try:
+
             driver = webdriver.PhantomJS(executable_path= self.phantomJsPath)
             driver.set_window_size(1366, 768)
 
@@ -71,30 +71,35 @@ class SeleniumMethod():
                     hmd = hashlib.md5()  #
                     hmd.update(hostname_encode)  # 生成文件的MD5值，MD5是一种哈希算法
                     md5_filename = hmd.hexdigest()
+                    try:
+                        driver.get("http://webscan.360.cn/index/checkwebsite?url="+hostname.strip('\r\n'))
 
-                    driver.get(self.url360+hostname)
 
+                        #inputs = driver.find_elements_by_id('webscan6').text
 
-            #inputs = driver.find_elements_by_id('webscan6').text
+                        diaoyu_sec_360 = driver.find_element_by_xpath('//*[@id="diaoyu_sec"]')
+                        diaoyu_report_360 = driver.find_element_by_xpath('//*[@id="report_diaoyu"]/div[1]')
+                        print("diaoyu_sec:"+diaoyu_sec_360.text)
+                        print("diaoyu_report:" + diaoyu_report_360.text)
 
-                    diaoyu_sec_360 = driver.find_element_by_xpath('//*[@id="diaoyu_sec"]')
-                    print("diaoyu_sec:"+diaoyu_sec_360.text)
+                        if diaoyu_sec_360.text == '有虚假或欺诈':
+                            self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
+                                           similarityValue, imitate, md5_filename, diaoyu_sec_360.text])
+                        elif len(re.findall(u"虚假或恶意内容",diaoyu_report_360.text))!=0:
+                            self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
+                                           similarityValue, imitate, md5_filename, diaoyu_report_360.text])
+                        with open(projectPath+"/log","a") as log:
+                                  log.write(hostname+','+diaoyu_sec_360.text+diaoyu_report_360.text+"\n")
 
-                    if diaoyu_sec_360.text == '有虚假或欺诈':
-                        self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
-                                       similarityValue, imitate, md5_filename, diaoyu_sec_360])
+                        time.sleep(randomSEC) #shuimianyixia
+                    except:
+                            traceback.print_exc()
+                            print("Warning:the phantomjs has error")
 
-                    with open(projectPath+"/log","a") as log:
-                              log.write(hostname+diaoyu_sec_360.text+"\n")
-
-                    time.sleep(randomSEC) #shuimianyixia
-        except:
-                traceback.print_exc()
-
-        with open(projectPath + "/web_scan_probe/web-content", 'a') as L:
-            for i in self.l:
-                L.write(str(i).strip("[]") + '\n')
-        return "scrapy end"
+            with open(projectPath + "/web_scan_probe/web-content", 'a') as L:
+               for i in self.l:
+                  L.write(str(i).strip("[]") + '\n')
+            return "scrapy end"
 
 
 if __name__ == '__main__':
@@ -110,7 +115,8 @@ if __name__ == '__main__':
     #                        ,"zf.crv.com.cn;120.192.82.239:80;其他;0;1526427860332;1;5;0.61538464;cmbc.com.cn"
     #                        ,"tech.cpic.com.cn;117.131.74.128:80;其他;0;1526428690318;5;18;0.625;epicc.com.cn"
     #                        ]
-    param=['07bbb.com;:80;其他;0;1532509056196;2;6;0.5555556;ccb.com', '1.bengne.com.cn;47.75.92.206:80;其他;0;1532509068879;2;2;0.53333336;cmbc.com.cn']
+    param=['07bbb.com;:80;其他;0;1532509056196;2;6;0.5555556;ccb.com', '1.bengne.com.cn;47.75.92.206:80;其他;0;1532509068879;2;2;0.53333336;cmbc.com.cn',
+           'cc599.com;:80;其他;0;1532509056196;2;6;0.5555556;ccb.com']
     sm=SeleniumMethod(phontomJsPath,proxy,param,url360,url_agent)
     listBack=sm.getIpList()
     print(listBack)
