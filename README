@@ -1,1 +1,36 @@
-hello,github
+报错:
+Traceback (most recent call last):
+  File "com/fj/src/spyder/web_scan_probe/selenium＿method.py", line 60, in getIpList
+    driver = webdriver.PhantomJS(executable_path= self.phantomJsPath)
+  File "/home/qianhuhai/.pyenv/versions/anaconda3-5.0.1/envs/python354/lib/python3.5/site-packages/selenium/webdriver/phantomjs/webdriver.py", line 56, in __init__
+    self.service.start()
+  File "/home/qianhuhai/.pyenv/versions/anaconda3-5.0.1/envs/python354/lib/python3.5/site-packages/selenium/webdriver/common/service.py", line 98, in start
+    self.assert_process_still_running()
+  File "/home/qianhuhai/.pyenv/versions/anaconda3-5.0.1/envs/python354/lib/python3.5/site-packages/selenium/webdriver/common/service.py", line 111, in assert_process_still_running
+    % (self.path, return_code)
+selenium.common.exceptions.WebDriverException: Message: Service /home/qianhuhai/cmcc-hy-/com-fj-phishing-2/phantomjs-2.1.1-linux-x86_64/bin/phantomjs unexpectedly exited. Status code was: 127
+
+
+解决办法:
+在Linux系统上写的一个爬虫程序用到了selenium的webdriver和phantomjs，运行没有问题。但是当部署在centos服务器上时却出现了错误。 
+错误信息如下
+
+selenium.common.exceptions.WebDriverException: Message: Service ./phantomjs-2.1.1-linux-x86_64/bin/phantomjs unexpectedly exited. Status code was: 127
+
+解决方法是安装fontconfig 
+执行命令yum -y install fontconfig即可安装 
+但是安装fontconfig需要依赖FreeType，所以需要先安装FreeType
+
+下载freetype-2.8.1.tar.bz2包，然后 
+解压
+
+tar -jxvf freetype-2.8.1.tar.bz2
+cd freetype-2.8.1
+./configure 配置
+make install 编译安装
+
+另外在解压bz2的时候也报错了，原因是少了bzip2库
+
+yum install bzip2
+
+安装这个库，即可解压成功
