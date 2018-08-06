@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-
-
+import os,sys
+projectPath=os.getcwd()
+sys.path.append(projectPath) #增加搜索路径
 #白名单过滤的域名，会去３６０网站去验证其安全等级，
 #非白名单的ｕｒｌ的也会下载其网站信息，并存储到路径projectPath下（工程的根目录）
 #动态的内容也通过splash加载，
@@ -11,17 +12,19 @@ import random
 import hashlib
 import traceback
 import socket
-import os
+
 import threading
 import configparser
 from com.fj.src.spyder.ContentGetHtml import ContentGetHtml
 from lxml import etree
 from io import StringIO
 
+
+
 timeout = 5
 socket.setdefaulttimeout(timeout)  #设置超时，　网页请求超时，则返回空，
 
-cp=configparser.SafeConfigParser() #配置文件
+cp=configparser.ConfigParser() #配置文件
 projectPath=os.getcwd() #获得工程根目录
 #-*-
 cp.read('config.conf')#获取本机IP
@@ -114,6 +117,7 @@ class ContentGet_360(ContentGetHtml):
 
                 if html1 != '': #and html2 != '':  # 如果文本非空，才保存
 
+                    print(html1)
 
                     # found_sensitive_words=keyword_processor.extract_keywords(returned_url_request_unicode)
                     # found_sensitive_words_len=len(found_sensitive_words)
@@ -181,11 +185,11 @@ class ContentGet_360(ContentGetHtml):
         return "scrapy end"
 
 
-# if __name__ == '__main__':
-#         param = ["tk.haotibang.com;101.200.86.162:80;其他;0;1526426870510;1;18;0.5625;taobao.com"
-#                          ,"zs.ylzpay.com;202.101.157.200:8060;其他;0;1526426405595;1;4;0.61538464;alipay.com"
-#                             ,"zf.crv.com.cn;120.192.82.239:80;其他;0;1526427860332;1;5;0.61538464;cmbc.com.cn"
-#                             ,"tech.cpic.com.cn;117.131.74.128:80;其他;0;1526428690318;5;18;0.625;epicc.com.cn"
-#                             ,"www.100585.cn;47.90.53.47:80;其他;0;1526427560271;3;46;0.53846157;10086.cn"]
-#
-#         ContentGet_360().run(param=param)
+if __name__ == '__main__':
+        param = ["tk.haotibang.com;101.200.86.162:80;其他;0;1526426870510;1;18;0.5625;taobao.com"
+                         ,"zs.ylzpay.com;202.101.157.200:8060;其他;0;1526426405595;1;4;0.61538464;alipay.com"
+                            ,"zf.crv.com.cn;120.192.82.239:80;其他;0;1526427860332;1;5;0.61538464;cmbc.com.cn"
+                            ,"tech.cpic.com.cn;117.131.74.128:80;其他;0;1526428690318;5;18;0.625;epicc.com.cn"
+                            ,"www.100585.cn;47.90.53.47:80;其他;0;1526427560271;3;46;0.53846157;10086.cn"]
+
+        ContentGet_360().run(param=param)
