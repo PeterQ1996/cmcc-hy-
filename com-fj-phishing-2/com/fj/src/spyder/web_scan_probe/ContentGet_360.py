@@ -117,7 +117,7 @@ class ContentGet_360(ContentGetHtml):
 
                 if html1 != '': #and html2 != '':  # 如果文本非空，才保存
 
-                    print(html1)
+                
 
                     # found_sensitive_words=keyword_processor.extract_keywords(returned_url_request_unicode)
                     # found_sensitive_words_len=len(found_sensitive_words)
