@@ -88,8 +88,12 @@ class SeleniumMethod():
                         elif len(re.findall(u"虚假或恶意内容",diaoyu_report_360.text))!=0:
                             self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
                                            similarityValue, imitate, md5_filename, diaoyu_report_360.text])
+
+                        elif len(re.findall(u"含有大量未经证实的信息，访问含有欺诈内容的网站",diaoyu_report_360.text))!=0:
+                            self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
+                                           similarityValue, imitate, md5_filename, diaoyu_report_360.text])
                         with open(projectPath+"/log","a") as log:
-                                  log.write(hostname+','+diaoyu_sec_360.text+diaoyu_report_360.text+"\n")
+                                  log.write(hostname+'|'+diaoyu_sec_360.text+"|"+diaoyu_report_360.text+"\n")
 
                         time.sleep(randomSEC) #shuimianyixia
                     except:
