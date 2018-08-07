@@ -21,10 +21,10 @@ import time
 projectPath=os.getcwd()
 sys.path.append(projectPath)
 
-SEC=5
-randomSEC=SEC+random.randint(0,9)/10 #sleep时间
+# SEC=5
+# randomSEC=SEC+random.randint(0,9)/10 #sleep时间
 
-LOADSEC=40 #加载时延
+LOADSEC=10 #加载时延
 
 class SeleniumMethod():
 
@@ -124,7 +124,7 @@ class SeleniumMethod():
                         with open(projectPath+"/log","a") as log:
                                   log.write(hostname+'|'+diaoyu_sec_360.text+"|"+diaoyu_report_360.text+"\n")
 
-                        time.sleep(randomSEC) #shuimianyixia
+                        # time.sleep(randomSEC) #shuimianyixia
                     except:
                             traceback.print_exc()
                             print("Warning:the phantomjs has error")

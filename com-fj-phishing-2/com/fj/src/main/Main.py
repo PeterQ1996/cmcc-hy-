@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
                         sm.getIpList()
 
-                        ContentGet_360.ContentGet_360().run(param=param)
+                        ContentGet_360.ContentGet_360().run(param=black)
                         # AsynchronousCrawler.AsynchronousCrawlerTxt().readUrl(domainInfo=param)
 
                         try:
