@@ -1,0 +1,88 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+            <meta name="keywords" content="Bohua Casino">
+                <meta name="description" content="Bohua Casino">
+                                    <link rel="shortcut icon" href="/cl/tpl/bohua/ver1/image/favicon.ico" type="image/x-icon">
+        <title>Bohua Casino</title>
+
+    <style>
+        html{width: 100%;height: 100%;}
+        body{width: 100%;height: 100%;margin: 0;overflow:hidden;overflow-x: auto;*overflow:visible;*overflow-x:visible;_overflow:hidden;_overflow-x:auto;}
+    </style>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script>
+        if (self != top){
+            top.location.href = self.location.href;
+        }
+        var bbiniframe = true;
+    </script>
+    <link rel="apple-touch-icon" href="/m/img/appIcon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/m/img/appIcon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/m/img/appIcon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/m/img/appIcon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/m/img/appIcon/apple-touch-icon-180x180.png">
+</head>
+<body>
+<iframe src="//6887lll.com/cl/index.php?module=System&amp;method=first" name="mem_index" frameborder="0" width="100%" height="100%" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+<iframe src="" name="act" frameborder="0" width="0" height="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <iframe src="/app/member/upupFlash.php?uid=" name="upupMsg" frameborder="0" width="0" height="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+
+
+<!-- 流量統計 -->
+<div style="display:none"><script async="" src="https://www.googletagmanager.com/gtag/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-77281412-5', {
+    'dimension1': 'bohua',
+    'dimension2': '',
+    'dimension3': '',
+    'dimension4': '',
+    'dimension5': '',
+    'dimension6': '',
+    'sample_rate': 10
+  });
+</script></div>
+
+<script> 
+            var xhttp = new XMLHttpRequest(),
+                getCookie = getcookie('SESSION_ID'),
+                recycleLock = false;
+
+            // 取得SESSION_ID
+            function getcookie(cookiename) {
+                var cookiestring = document.cookie;
+                var cookiearray = cookiestring.split(';');
+
+                for(var i =0 ; i < cookiearray.length ; ++i){ 
+                    if(cookiearray[i].trim().match('^'+cookiename+'=')){ 
+                        return cookiearray[i].replace('SESSION_ID=','').trim();
+                    }
+                } 
+                return null;
+            }
+
+            if (getCookie !== null && getCookie !== 'guest') {
+                xhttp.open('GET', '/infe/rest/walletrecycle/recycle?action=in', false);
+                xhttp.send();
+            }
+
+
+            window.onbeforeunload = function () {
+                if (recycleLock) {
+                    return;
+                }
+
+                recycleLock = true;
+
+                // 重新載入頁面更新SESSION_ID
+                getCookie = getcookie('SESSION_ID');
+
+                if (getCookie !== null && getCookie !== 'guest') {
+                    xhttp.open('GET', '/infe/rest/walletrecycle/recycle?action=out', false);
+                    xhttp.send();
+                }
+            };
+         </script></body></html>

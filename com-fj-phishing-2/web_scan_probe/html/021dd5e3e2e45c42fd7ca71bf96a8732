@@ -1,0 +1,2259 @@
+<!DOCTYPE html><html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<title>腾讯道学</title>
+	<link rel="stylesheet" type="text/css" href="/fo2015/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/dao2015/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/fo2015/css/media.css">
+<script src="http://jsqmt.qq.com/cdn_djl.js" type="text/javascript" async=""></script><script type="text/javascript" async="" src="//mat1.gtimg.com/www/js/qq2012/suggestion.v1.0.4.2.js"></script><script charset="utf-8" type="text/javascript" src="//mat1.gtimg.com/www/mb/js/portal/mi.MiniNav__v1.0.0.js"></script><script src="http://jqmt.qq.com/cdn_dianjiliu.js?a=0.3042496887825368"></script></head>
+<body class="daoxue" style="margin:0; background-image: url(/404-1.gif);">
+<!--微博js-->  
+<!--script src="http://mat1.gtimg.com/www/mb/js/portal/mi.Portal_2012111404.js" charset="utf-8"></script-->
+
+<script src="http://mat1.gtimg.com/www/mb/js/portal/mi.Portal_20131225_01.js" charset="utf-8"></script><!--[if !IE]>|xGv00|4e7ffc19cba1b0565e6608ab371748a7<![endif]-->
+<!-- 全站迷你导航 --> 
+<style type="text/css">
+/*带一键登录全站迷你导航 v20130219 loginall @goldenchen*/
+.mininav{width:100%;height:28px;background:#fdfdfd url(//mat1.gtimg.com/www/images/qq2012/mininav.png) repeat-x top center;border-bottom:1px solid #ebebeb;}
+.mininavInner{width:1000px;height:28px;margin:0 auto!important;}
+.mininavInner a{color:#666;text-decoration:none;font-family:"宋体";}
+.mininavInner a:hover{color:#2d374b;}
+.mininavInner .mininavLeft{float:left;margin-top:8px;color:#c7c7c7;font-size:12px;}
+.mininavInner .mininavLeft .fl{color:#c7c7c7;}
+</style>
+<div class="mininav" id="topNav">
+	<div class="mininavInner">
+		<div class="mininavLeft">
+			<div class="fl">
+				<a href="http://www.qq.com/" target="_blank" id="qqindex" bosszone="qqindex">腾讯网首页</a> | <a href="http://www.qq.com/map/" target="_blank" id="webmap" bosszone="webmap">网站地图</a>
+			</div>
+		</div>
+
+
+		<style type="text/css">
+				ul,li{margin:0;padding:0;}
+				li{list-style:none;}
+				.fl{float:left;}
+				.fr{float:right;}
+				.dis{display:block;}
+				.undis{display:none;}
+				.loginSmartTop,.loginSmartBottom{background-image:url(//mat1.gtimg.com/www/images/qq2012/qqbg_1.5.2.png); background-repeat:no-repeat;}
+				a.login,a.login:hover,a.weiboLogin,a.weiboLogin:hover,a.qzoneLogin,a.qzoneLogin:hover,a.mailLogin,a.mailLogin:hover,a.pengyouLogin,a.pengyouLogin:hover,.mininavRight .weibo,.mininavRight .weibo:hover,.mininavRight .qzone,.mininavRight .qzone:hover,.mininavRight .mail,.mininavRight .mail:hover,.mininavRight .pengyou,.mininavRight .pengyou:hover{background-image:url(//mat1.gtimg.com/www/images/qq2012/loginall_1.2.png); background-repeat:no-repeat;}
+				a.login{width:70px;height:28px;display:block;float:right;background-position:left -450px;}
+				a.login:hover{background-position:left -500px;}
+				a.weiboLogin{width:30px;height:28px;display:block;float:right;background-position:left -50px;}
+				a.weiboLogin:hover{background-position:right -50px;}
+				a.qzoneLogin{width:30px;height:28px;display:block;float:right;background-position:left -100px;}
+				a.qzoneLogin:hover{background-position:right -100px;}
+				a.mailLogin{width:30px;height:28px;display:block;float:right;background-position:left -150px;}
+				a.mailLogin:hover{background-position:right -150px;}
+				a.pengyouLogin{width:28px;height:28px;display:block;float:right;background-position:left -200px;}
+				a.pengyouLogin:hover{background-position:right -200px;}
+				.mininavRight{font-size:12px;}
+				.mininavRight .weibo{background-position:7px -243px;}
+				.mininavRight .weibo:hover{background-position:-79px -243px;}
+				.mininavRight .qzone{background-position:7px -294px;}
+				.mininavRight .qzone:hover{background-position:-74px -294px;}
+				.mininavRight .mail{background-position:7px -340px;}
+				.mininavRight .mail:hover{background-position:-77px -340px;}
+				.mininavRight .pengyou{background-position:7px -394px;}
+				.mininavRight .pengyou:hover{background-position:-76px -394px;}
+				.mininavRight{float:right;color:#c7c7c7;line-height:28px;}
+				.mininavRight a{color:#666;}
+				.mininavRight .qqNameLayout{margin-right:4px;color:#c7c7c7;}
+				.mininavRight .qqName{margin-right:12px;color:#666;float:left;}
+				.mininavRight .weibo{font-family:Tahoma,"宋体";padding:0 7px;display:block;height:28px;float:left;text-indent:17px;}
+				.mininavRight .weibo:hover{color:#fff;background-color:#458fce;}
+				.mininavRight .qzone{font-family:Tahoma,"宋体";padding:0 7px;display:block;height:28px;float:left;text-indent:22px;}
+				.mininavRight .qzone:hover{color:#fff;background-color:#458fce;}
+				.mininavRight .mail{font-family:Tahoma,"宋体";padding:0 7px;display:block;height:28px;float:left;text-indent:19px;}
+				.mininavRight .mail:hover{color:#fff;background-color:#458fce;}
+				.mininavRight .pengyou{font-family:Tahoma,"宋体";padding:0 7px;display:block;height:28px;float:left;text-indent:20px;}
+				.mininavRight .pengyou:hover{color:#fff;background-color:#458fce;}
+				.loginSmartBox{width:120px;height:auto;background:#fffbef;position:absolute;top:28px;z-index:100;}
+				.loginSmartTop{width:120px;height:3px;overflow:hidden;background-position:-350px -210px;}
+				.loginSmartBottom{width:120px;height:3px;overflow:hidden;background-position:-350px -230px;}
+				.loginSmartContent{width:118px;border-left:1px solid #f1f1f1;border-right:1px solid #f1f1f1;}
+				.loginSmartInner{width:116px;border-left:1px solid #f4d9a4;border-right:1px solid #f4d9a4;}
+				.loginSmartInner ul{width:100%;padding:2px 0;}
+				.loginSmartInner li{width:100%;height:20px;line-height:20px;color:#666;text-indent:8px;text-align:left;}
+				.loginSmartInner li a{color:#666;}
+				.loginSmartInner li a:hover span{color:#cd0200;}
+				.loginSmartInner li a span,.loginSmartInner li a:hover span{font-family:Tahoma;}
+				#pengyouIcon{position:relative;z-index:10000;}
+				#mailIcon{position:relative;z-index:10000;}
+				#qzoneIcon{position:relative;z-index:10000;}
+				#weiboIcon{position:relative;z-index:10000;}
+				#loginOut:hover{text-decoration:underline;color:#cd0200;}
+				.loginBg{width:100%;min-width:1024px;position:absolute;top:0;left:0;z-index:8888;display:none;background:url(//mat1.gtimg.com/www/images/qq2012/alphabg.png); _background:#000;_opacity:0.3_;filter:alpha(opacity=30);}
+
+				.mininavRight .qzone{width:auto;}
+				.mininavLeft div{line-height:14px;}
+				.mininavRight div{line-height:28px;}
+				</style>
+				<div class="mininavRight" id="logkey" bosszone="logkey">
+					<div id="loginAll" class="fr">
+						<a href="http://mail.qq.com" class="mailLogin" id="qmail" target="_blank" bosszone="qmail"></a>
+						<a href="http://qzone.qq.com" class="qzoneLogin" id="qzone" target="_blank" bosszone="qzone"></a>
+						<a href="javascript:void(0);" class="login" onclick="userLogin();" target="_self" id="onekey" bosszone="onekey"></a>
+					</div>
+					<div id="logined" class="fr" style="display:none;">
+						<div id="mailIcon" class="fr" bosszone="qmailinfor">
+							<a href="http://mail.qq.com" class="mail" id="mailNum" style="padding:0 15px;" target="_blank"></a>
+							<div class="loginSmartBox undis" id="mailSmart" style="right:0;">
+								<div class="loginSmartTop"></div>
+								<div class="loginSmartContent">
+									<div class="loginSmartInner">
+										<ul>
+											<li id="mailTitle">QQ邮箱:</li>
+											<li id="inboxLi" class="undis"><a href="http://mail.qq.com" target="_blank">未读邮件 (<span id="inboxNum"></span>)</a></li>
+											<li id="bottleLi" class="undis"><a href="http://mail.qq.com" target="_blank">漂流瓶 (<span id="bottleNum"></span>)</a></li>
+											<li id="gmailLi" class="undis"><a href="http://mail.qq.com" target="_blank">群邮件 (<span id="gmailNum"></span>)</a></li>
+											<li id="dmailLi" class="undis"><a href="http://mail.qq.com" target="_blank">文件夹 (<span id="dmailNum"></span>)</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="loginSmartBottom"></div>
+							</div>
+						</div>
+						<div id="qzoneIcon" class="fr" bosszone="qzoneinfor">
+							<a href="http://qzone.qq.com" class="qzone" id="qzoneNum" style="padding:0 16px;" target="_blank"></a>
+							<div class="loginSmartBox undis" id="qzoneSmart" style="right:0;">
+								<div class="loginSmartTop"></div>
+								<div class="loginSmartContent">
+									<div class="loginSmartInner">
+										<ul>
+											<li id="qzoneTitle">QQ空间:</li>
+											<li id="passiveLi" class="undis"><a href="http://qzone.qq.com" target="_blank">我的动态 (<span id="passiveNum"></span>)</a></li>
+											<li id="InitLi" class="undis"><a href="http://qzone.qq.com" target="_blank">好友动态 (<span id="InitNum"></span>)</a></li>
+											<li id="AboutLi" class="undis"><a href="http://qzone.qq.com" target="_blank">我的参与 (<span id="AboutNum"></span>)</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="loginSmartBottom"></div>
+							</div>
+						</div>
+						<div class="qqNameLayout fr">
+							<span class="qqName">您好，<span id="userName"></span> <span>[</span><a href="javascript:void(0);" id="loginOut" target="_self" bosszone="logquit">退出</a><span>]</span></span>|
+						</div>
+					</div>
+				</div>
+
+				<div id="loginBg" class="loginBg"></div>
+				<div id="login_div" style="position:fixed;_position:absolute;width:400px;height:382px;padding:0;margin:0;top:50%;left:-9999px;margin:-165px 0 0 -276px;_margin-top:0;z-index:99999;visibility:hidden;">
+					<iframe id="login_frame" height="100%" scrolling="auto" width="100%" frameborder="0" src=""></iframe>
+				</div> 
+
+				<script type="text/javascript">var MI = {};(function(b){var a=document.createElement("script");a.setAttribute("charset","utf-8");a.setAttribute("type","text/javascript");a.setAttribute("src",b);document.getElementsByTagName("head")[0].appendChild(a)})("//mat1.gtimg.com/www/mb/js/portal/mi.MiniNav__v1.0.0.js");</script>
+				<script type="text/javascript" src="//mat1.gtimg.com/www/ptlogin/js/ptlogin.js" charset="utf-8"></script><!--[if !IE]>|xGv00|e108740a42e61fb8c900cb7f4512d5a8<![endif]--><!--[if !IE]>|xGv00|fcb7151e303110b6aedb3a23e34141e5<![endif]-->
+	</div>
+</div>
+<script type="text/javascript">
+(function(){var e={webmap:"webmap",qqindex:"qqindex",logkey:"logkey",onekey:"onekey",weibo:"weibo",qzone:"qzone",qmail:"qmail",friend:"friend",loginOut:"logquit",weiboIcon:"weiboinfor",qzoneIcon:"qzoneinfor",mailIcon:"qmailinfor",pengyouIcon:"friendinfor"},t=function(){for(var t in e){if(!e.hasOwnProperty(t))return;var n=document.getElementById(t);n&&n.setAttribute("bossZone",e[t])}};t()})()
+</script>
+<script type="text/javascript">
+//移动端左右边距
+if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){document.getElementsByTagName("body")[0].style.minWidth = "1028px";}
+</script><!--[if !IE]>|xGv00|391c10b45046351ab35a91ecc9e5bb6e<![endif]--><!--[if !IE]>|xGv00|f05dc60e89d8cdcee830e5616292c425<![endif]--> 
+<!-- /全站迷你导航 --> 
+<!-- 主导航 -->
+<div class="mainNav" id="channel_nav" bosszone="mainNAV">
+	<h1 class="logo"><a target="_blank" href="http://dao.qq.com/" class="channel_logo"><span>腾讯道学</span></a></h1>
+	<div class="sub"><a href="#" class="rss" target="_blank">RSS</a></div>
+	<div class="link"> <a href="http://ru.qq.com/" target="_blank">腾讯儒学</a>|<a href="http://foxue.qq.com/" target="_blank">腾讯佛学</a> </div>
+	<!--增加搜狗搜索-->
+	<style>
+#channel_nav .Form-Crumbs-Article-QQ .submit {float:right;width:50px;height:26px;border:none;font-size:12px;background: url(//mat1.gtimg.com/www/images/qq2012/sogouNewUi_v1.png) left bottom no-repeat;cursor:pointer;}
+#channel_nav .Form-Crumbs-Article-QQ .inputWarp{float:right;width:229px;height:24px;margin:0;padding:0;line-height:22px;background:none;border:#c9c9c9 1px solid;border-right:none;}
+#channel_nav .Form-Crumbs-Article-QQ .txtArea{width:200px;height: 20px;margin:2px auto 0 2px;font-size:14px;line-height:20px;border:none;color:#424242;outline:none;inline:none;}
+#channel_nav .Form-Crumbs-Article-QQ .SosonLogo{float:right;width:18px;height:18px;margin:3px 3px 0 0;background:url(//mat1.gtimg.com/www/images/qq2012/sogouNewUi_v1.png) left top no-repeat;}
+#channel_nav .Form-Crumbs-Article-QQ .SosonLogo span{display:none;}
+
+/*=S soso smart */
+/* 整个smartbox 样式 */ 
+.soso-smart-m{position:absolute;z-index:9999;margin:0;background:#fff;border:1px solid #ccc;cursor:default;}
+.soso-smart-m td{font-size:13px;line-height:22px;font-family:"宋体";}
+/* 未选中行的样式 */
+.soso-smart-a{}
+/* 选择行的样式 */
+.soso-smart-b{background:#D8ECFF;}
+/* 文本样式 */
+.soso-smart-c{padding-left:3px;white-space:nowrap;text-align:left;overflow:hidden;}
+/*=E soso smart */
+</style>
+<div class="Form-Crumbs-Article-QQ" role="search">
+<form name="soso_search_box" action="https://www.sogou.com/sogou" method="get" target="_blank" bosszone="soso">
+<input class="submit" value="" role="button" type="submit" onclick="registerZone2({bossZone:'soso',url:''},1);{var sourceid = document.getElementsByName('sourceid');sourceid[0].value = '';}">
+
+<div class="inputWarp"><a href="https://www.sogou.com/" target="_blank" class="SosonLogo" title="上网从搜狗开始"><span>搜狗</span></a>
+<input id="sogouSite" type="hidden" name="site" value="dao.qq.com">
+<input class="txtArea" name="query" value="请输入关键词" x-webkit-speech="" x-webkit-grammar="builtin:translate" autocomplete="off" onfocus="if(this.value=='请输入关键词')this.value=''" type="text"></div>
+<input type="hidden" name="pid" value="sogou-wsse-b58ac8403eb9cf17-0050"><input type="hidden" name="sourceid" value="sugg"><input type="hidden" name="idx" value="f"><input type="hidden" name="ori" value="请输入关键词" disabled=""><input type="hidden" name="origCid" value="" disabled=""></form>
+</div>
+<script type="text/javascript">
+	(function(d, fname, useSuggest,isChannelPage,pid) {
+		var frm = d.forms[fname], elems = frm.elements, input = elems['query'];
+		var IS_MSIE = navigator.userAgent.toLowerCase().indexOf('msie') != -1 && !window.opera;
+		var isIE6 = navigator.userAgent.toLowerCase().indexOf('msie 6.0') != -1;
+	  var sHost = location.host||'www.qq.com',sitePrefix='www';
+		 //var sHost = "sports.qq.com/lottery";
+    var CPID = new Array();
+		//if(sHost == 'localhost') return;
+		if(sHost){
+			var arr = sHost.replace(/\.qq\.com$/i,'').split('.');
+			//sitePrefix = arr.pop();
+			sitePrefix = arr[0];
+			document.getElementById("sogouSite").value = sitePrefix + ".qq.com";
+		}
+        getCPID();
+		createHiddenInput('pid',CPID[0],false);
+		var scField = createHiddenInput('sourceid',CPID[1],false);
+        var sub = document.getElementById("sub");
+       // sub.onclick = changeSugg();
+		if(typeof sosoArticlKey != 'undefined' && sosoArticlKey.length){
+			setFieldValue(input,sosoArticlKey);
+		}
+		
+		function disableHidden(inpt) {
+			inpt.disabled = 'disabled';
+		}
+		function getCPID(){
+                        var path = window.location.pathname;
+                        if(sitePrefix == "tech"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0001";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                         if(sitePrefix == "sports"){
+
+                             //var path ="/d/f_players/5/4647/";
+                             if(path.indexOf("lottery") != -1){
+                                 CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0021";
+                                 CPID[1] = "sugg";
+                                 return;
+                             }
+                             if(path.indexOf("csocce") != -1){
+                                 CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0020";
+                                 CPID[1] = "sugg";
+                                 return;
+                             }
+                             if(path.indexOf("nba") != -1){
+                                 CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0019";
+                                 CPID[1] = "sugg";
+                                 return;
+                             }
+                             if(path.indexOf("f_players") != -1){
+                                 CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0002";
+                                 CPID[1] = "sugg";
+                                 return;
+                             }
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0018";
+                            CPID[1] = "sugg";
+                             return;
+                        }
+                         if(sitePrefix == "news"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0004";
+                            CPID[1] = "sugg";
+                             return;
+                        }
+                        if(sitePrefix == "cul"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-00024";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                        if(sitePrefix == "fashion"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0005";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                        if(sitePrefix == "house"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0006";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                        if(sitePrefix == "games"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0007";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+
+                        if(sitePrefix == "ent"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0009";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                        if(sitePrefix == "comic"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0010";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                         if(sitePrefix == "blog"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0011";
+                            CPID[1] = "sugg";
+                             return;
+                        }
+                         if(sitePrefix == "cd"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0012";
+                            CPID[1] = "sugg";
+                             return;
+                        }
+                         if(sitePrefix == "weather"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0014";
+                            CPID[1] = "sugg";
+                             return;
+                        }
+                         if(sitePrefix == "auto"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0013";
+                            CPID[1] = "sugg";
+                             return;
+                        }
+                         if(sitePrefix == "kid"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0015";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                         if(sitePrefix == "finance"){
+                            if(path.indexOf("fund") != -1){
+                                CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0017";
+                                CPID[1] = "sugg";
+                                return;
+                            }
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0017";
+                            CPID[1] = "sugg";
+                             return;
+                        }
+
+                        if(sitePrefix == "gongyi"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0022";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                        if(sitePrefix == "foxue"){
+                            CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0023";
+                            CPID[1] = "sugg";
+                            return;
+                        }
+                        CPID[0] = "sogou-wsse-b58ac8403eb9cf17-0050";
+                        CPID[1] = "sugg";
+
+                        
+                        
+                }
+		function createHiddenInput(name, value, disabled) {
+			if(elems[name]) {
+				elems[name].value = value;
+				if(disabled) elems[name].disabled = 'disabled';
+				else elems[name].removeAttribute('disabled');
+				return elems[name];
+			}
+			try{
+				var element = document.createElement('<input name="'+name+'" />');
+			}catch(e){}
+			
+			if(!element || element.nodeName.toUpperCase() != 'INPUT'){
+				var element = document.createElement('input');		
+			}
+			element.type = 'hidden';
+			element.name = name;
+			element.value = value;
+			if(disabled)
+				element.disabled = disabled;
+			frm.appendChild(element);
+			return element;
+		}
+		
+		function setFieldValue(field, val) {
+			field.value = val;
+		}
+		if(useSuggest) {
+			var fnToRun = function() {
+				var fileLoaded = function() {
+				  if (IS_MSIE && ac.readyState != "complete" && ac.readyState != "loaded") return;
+				  if(!sososmart) return;
+				  var divs = frm.getElementsByTagName('div');
+				  var inputWrap;
+				  for(var i=0,len=divs.length;i<len;i++){
+				  	if(divs[i].className != 'inputWarp') continue;
+				  	inputWrap = divs[i];
+				  	break;
+				  }
+				  
+				  sososmart.init(frm,input,true,'',true,inputWrap,null,null,CPID[0],scField);
+				}
+				var ac = d.createElement('script');
+				ac.type = 'text/javascript';
+				ac.async = true;
+				ac.src = '//mat1.gtimg.com/www/js/qq2012/suggestion.v1.0.4.2.js';
+				var s = d.getElementsByTagName('script')[0];
+				
+				if(IS_MSIE && !window.opera) {
+					ac.onreadystatechange = fileLoaded;
+				} else {
+					ac.onload = fileLoaded;
+				}
+				s.parentNode.insertBefore(ac, s);
+			};
+			if(IS_MSIE){
+				if(window.attachEvent){
+					window.attachEvent('onload',fnToRun,false);
+				}else{
+					window.addEventListener('load',fnToRun);
+				}
+			}else{
+				fnToRun();
+			}
+		}
+
+	})(document, 'soso_search_box', true,true, "sogou-wsse-b58ac8403eb9cf17-0007");
+
+</script><!--[if !IE]>|xGv00|5ac3c28f48f26d334291556960a566a1<![endif]-->
+	<style type="text/css">
+	.Form-Crumbs-Article-QQ{padding-top:12px;}
+	.Form-Crumbs-Article-QQ .txtArea{border:0;}
+	</style>
+	<!--增加搜狗搜索-->
+</div>
+<style>
+/*mainNav*/
+.mainNav{ height:50px; line-height:20px; margin:0 auto; overflow:hidden; width:1000px;}
+.mainNav .logo{ float:left; padding:10px 0;}
+.mainNav .logo a{ background:url(http://mat1.gtimg.com/rushidao/dao2013/logo_dao.jpg) no-repeat; display:block; height:30px; width:142px;}
+.mainNav .logo a span{ display:none;}
+.mainNav .sub{ float:left; padding:16px 0 0 10px;}
+.mainNav .sub .rss{ background:url(http://mat1.gtimg.com/www/images/channel_logo/rss_logo.png) left 1px no-repeat; color:#666; font-family:Arial,sans-serif; font-size:11px; padding-left:16px;}
+.mainNav .link{ color:#d4d4d4; float:left; padding:16px 0 0 20px;}
+.mainNav .link a{ margin:0 10px;}
+.mainNav .toolbar{ float:right; padding-top:14px;}
+</style><!--[if !IE]>|xGv00|40d2325ef539f7dc9b326249e85a911f<![endif]-->
+<!-- /主导航 --> 
+<!-- 频道导航 -->
+<div class="channelNavWp">
+	<div class="channelNav" id="channelNav">
+		<ul bosszone="foxuedaohang">
+		    <li class="current">
+		    	<a href="http://foxue.qq.com/">首页</a>
+		    </li>
+            <li>
+            	<a href="http://rufodao.qq.com/l/daoxue/daoxuexinwen/daoxuezixun2015/list2015114152030.htm" target="_blank">资讯</a>
+            </li>
+			<li>
+				<a href="http://rufodao.qq.com/l/daoxue/daoxuexinwen/daojioafaxun/list2015114152723.htm
+" target="_blank">法讯</a>
+			</li>
+			<li>
+				<a href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/list2015114153737.htm" target="_blank">道学苑</a>
+			</li>
+			<li>
+				<a href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/list201511416749.htm" target="_blank">仙真高隐</a>
+			</li>
+			<li>
+				<a href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/list2015114161304.htm" target="_blank">丹道养生</a>
+			</li>
+			<li>
+				<a href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/list2015114161605.htm" target="_blank">民俗道艺</a>
+			</li>
+			<li>
+				<a href="http://rufodao.qq.com/dao/hongdaojiangtang/index.htm" target="_blank">弘道讲堂</a>
+			</li>
+		</ul>
+	</div>
+</div><!--[if !IE]>|xGv00|13c2be2b9856aab6d12b99057742fcb9<![endif]-->
+<!-- /频道导航 -->
+
+<div class="container">
+             <div class="layout clearfix">
+                         <div class="main">
+                                      <!-- 焦点图 -->
+	                                <div id="switchable" class="ecope_switchable">
+    <div class="sc_container focus_pic">
+        <ul>
+
+<li style="position: absolute; display: none; z-index: 1; top: 0px; left: 0px;">
+   <a href="http://rufodao.qq.com/a/20180703/020359.htm" target="_blank"><div class="con">
+<div class="t">道：我们凭什么信仰，又该如何面对现实生活？</div>
+<div class="desp"><div class="title">道：我们凭什么信仰，又该如何面对现实生活？</div>
+<div class="content">信道，不一定要过什么样的生活。也不是说信仰道教，生活就不“被动”了，因为没有人可以自由修改自己的命运。</div></div>
+<img src="http://img1.gtimg.com/rushidao/pics/hv1/238/7/2283/148454098.jpg" alt="道：我们凭什么信仰，又该如何面对现实生活？"></div></a>
+</li>
+
+<li style="position: absolute; display: block; z-index: 2; top: 0px; left: 0px;">
+   <a href="http://rufodao.qq.com/a/20180702/018002.htm" target="_blank"><div class="con">
+<div class="t">天机不可泄露：古代官方对天学的垄断与禁止</div>
+<div class="desp"><div class="title">天机不可泄露：古代官方对天学的垄断与禁止</div>
+<div class="content">中国古代素重天文历法，认为其垂象吉凶、关乎国运，因而星象之学被掌控于官方手中。</div></div>
+<img src="http://img1.gtimg.com/rushidao/pics/hv1/175/220/2282/148443325.jpg" alt="天机不可泄露：古代官方对天学的垄断与禁止"></div></a>
+</li>
+
+<li style="position: absolute; display: none; z-index: 1; top: 0px; left: 0px;">
+   <a href="http://rufodao.qq.com/a/20180627/017081.htm" target="_blank"><div class="con">
+<div class="t">佛道辩论中有关“道生万物”的辩败所思</div>
+<div class="desp"><div class="title">佛道辩论中有关“道生万物”的辩败所思</div>
+<div class="content">万物之所以能够自化，是因为各自禀赋了道性——即其本身具有阴阳和合而自生的特性，但此道性并非道赋予的，而是万物生来既有的。</div></div>
+<img src="http://img1.gtimg.com/rushidao/pics/hv1/173/155/2282/148426748.jpg" alt="佛道辩论中有关“道生万物”的辩败所思"></div></a>
+</li>
+
+<li style="position: absolute; display: none; z-index: 1; top: 0px; left: 0px;">
+   <a href="http://rufodao.qq.com/a/20180628/019360.htm" target="_blank"><div class="con">
+<div class="t">修道这些事儿：道人究竟应该信仰什么？</div>
+<div class="desp"><div class="title">修道这些事儿：道人究竟应该信仰什么？</div>
+<div class="content">对历代仙真有所信仰，是因为他们都曾经以身证道，学习他们走过的路、修过的道，可以更好地洞明自己修证过程中的得失。</div></div>
+<img src="http://img1.gtimg.com/rushidao/pics/hv1/206/116/2282/148416836.jpg" alt="修道这些事儿：道人究竟应该信仰什么？"></div></a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ul>
+    </div>  
+<div class="sc_index"><a href="#" class="" data-index="0">1</a><a href="#" data-index="1" class="current">2</a><a href="#" data-index="2">3</a><a href="#" data-index="3">4</a></div></div><!--[if !IE]>|xGv00|d9e8642256bf7ca3f6b82eef5323105c<![endif]-->
+                                      <!-- 焦点图结束 -->
+
+                                      <!-- 道学资讯 -->
+	                                <div class="news zixun">
+	<div class="title">道学资讯</div>
+	<div class="content clearfix">
+		<div class="list">
+			<ul>
+				<li class="first"><a target="_blank" href="/a/20180612/024582.htm" title="粤港道教界举办纯阳宝诞道曲演唱会">粤港道教界举办纯阳宝诞道曲演唱会</a></li>
+<!--[if !IE]>|xGv00|73d4925463f2028f68e99d7e00535025<![endif]-->				             <li><a target="_blank" href="/a/20180612/027327.htm" title="石家庄第二届旅发大会，道教“非遗”项目汇演">石家庄第二届旅发大会，道教“非遗”项目汇演</a></li>
+<li><a target="_blank" href="/a/20180609/013307.htm" title="“中国古代中医的重新发现”国际学术交流会举行">“中国古代中医的重新发现”国际学术交流会举行</a></li>
+<li><a target="_blank" href="/a/20180609/013032.htm" title="国学传承工程2018届第十次大课暨毕业典礼落幕">国学传承工程2018届第十次大课暨毕业典礼落幕</a></li>
+<li><a target="_blank" href="/a/20180607/025538.htm" title="云南省道协与省民族宗教委业务四处到盘龙区调研">云南省道协与省民族宗教委业务四处到盘龙区调研</a></li>
+<!--[if !IE]>|xGv00|3fcf81c78953bd53e876c4ebe69b9431<![endif]-->			            </ul>
+		</div>
+		<div class="pic_news">
+			<div class="item"><a target="_blank" href="http://img1.gtimg.com/rushidao/pics/hv1/21/49/2283/148464591.jpg" title="九宫山举行纪念“张道清”真人诞辰900周年庆典"><img src="http://img1.gtimg.com/rushidao/pics/hv1/21/49/2283/148464591.jpg" alt="九宫山举行纪念“张道清”真人诞辰900周年庆典"><p>九宫山举行纪念“张道清”真人诞辰900周年庆典</p></a></div>
+<div class="item"><a target="_blank" href="/a/20180614/013976.htm" title="辽宁省人大常委代表团莅临茅山乾元观考察调研"><img src="http://img1.gtimg.com/rushidao/pics/hv1/154/154/2280/148296424.jpg" alt="辽宁省人大常委代表团莅临茅山乾元观考察调研"><p>辽宁省人大常委代表团莅临茅山乾元观考察调研</p></a></div>
+<!--[if !IE]>|xGv00|da8fb4a5c0f99c959235ac769ee52ea8<![endif]-->
+		</div>
+	</div>
+</div><!--[if !IE]>|xGv00|a86fa5129f994754fc984dafc0b8017a<![endif]-->
+                                      <!-- 道学资讯结束 -->
+
+                                      <div class="line"></div>
+   
+                                      <!-- 明德讲堂 -->
+	                                <div class="news jiangtang">
+	<div class="title">弘道讲堂<a href="http://rufodao.qq.com/l/daoxue/hongdaojiangtang2015/list2015114162540.htm" target="_blank">更多</a></div>
+	<div class="content">
+		<div id="carousel" class="ecope_carousel">
+			<a class="slidearrow cs_prev" href="javascript:;"></a>
+	        <div class="cs_wrapper" style="overflow: hidden; position: relative;">
+	            <ul class="cs_list" style="position: absolute; width: 1730px; left: 0px;">
+                                     <li><div class="st"><a target="_blank" href="/a/20170615/017432.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/204/94/2217/144184599.jpg" alt="伍虎勇道长：国家级非遗之无锡道乐"><div class="text"><p class="name">伍虎勇道长：国家级非遗之无锡道乐</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170606/043090.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/250/53/2215/144044140.jpg" alt="钟云龙道长：武当功夫与道教文化"><div class="text"><p class="name">钟云龙道长：武当功夫与道教文化</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170309/032332.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/171/132/2192/142568631.jpg" alt="39、王重阳与全真教：马丹阳是王重阳祖师第一个度化的人"><div class="text"><p class="name">39、王重阳与全真教：马丹阳是王</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170309/031113.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/202/128/2192/142567642.jpg" alt="38、王重阳与全真教：传道路上题诗预言皆验证 修行妙语太一教主竟不识"><div class="text"><p class="name">38、王重阳与全真教：传道路上题</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170309/028510.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/137/121/2192/142565792.jpg" alt="37、王重阳与全真教：史料中是如何记载重阳祖师“焚庵东去”的 "><div class="text"><p class="name">37、王重阳与全真教：史料中是如</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170303/019593.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/35/203/2190/142456550.jpg" alt="36、王重阳与全真教：王重阳祖师预知未来的神功"><div class="text"><p class="name">36、王重阳与全真教：王重阳祖师</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170303/018649.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/16/199/2190/142455511.jpg" alt="35、王重阳与全真教：王重阳祖师亲戚中也有不少修仙爱好者"><div class="text"><p class="name">35、王重阳与全真教：王重阳祖师</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170303/018020.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/151/196/2190/142454881.jpg" alt="34、王重阳与全真教：重阳祖师第一个真正意义上的徒弟“史疯子”"><div class="text"><p class="name">34、王重阳与全真教：重阳祖师第</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170301/045235.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/144/196/2190/142454874.jpg" alt="33、王重阳与全真教：和重阳祖师一起修行的异人"><div class="text"><p class="name">33、王重阳与全真教：和重阳祖师</p></div></a></div></li>
+<li><div class="st"><a target="_blank" href="/a/20170301/035035.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/90/21/2190/142410195.jpg" alt="32、王重阳与全真教：“活死人墓”和“茅庵”是什么关系"><div class="text"><p class="name">32、王重阳与全真教：“活死人墓</p></div></a></div></li>
+<!--[if !IE]>|xGv00|2fc23498405cc5500d1834583dd7dd13<![endif]-->	                
+	            </ul>
+	        </div>
+	        <a class="slidearrow cs_next" href="javascript:;"></a>
+	    </div>
+	</div>
+</div><!--[if !IE]>|xGv00|9cc6e8d451aafca4e1cdd73e945aadd8<![endif]-->
+                                      <!-- 明德讲堂结束 -->
+
+                                      <div class="line"></div>
+
+                                      <!-- 今日推荐 -->
+	                                <div class="news tuijian">
+    <div id="tab" class="ecope_tab">
+        <ul class="tab_menu title">
+            <li class="current" data-index="0">今日推荐<div class="pointer"></div></li>
+            <li data-index="1">道学苑<div class="pointer"></div></li>
+            <li data-index="2">仙真高隐<div class="pointer"></div></li>
+            <li data-index="3">丹道<div class="pointer"></div></li>
+            <li data-index="4">养生<div class="pointer"></div></li>
+            <li class="last" data-index="5">民俗道艺<div class="pointer"></div></li>
+        </ul>
+        <div class="tab_wrapper">
+            <div class="tab_content" id="tuijian_tab_content">
+                <div class="tab_box tab_box_show">
+                    <!-- 今日推荐 -->
+                    <ul>
+                        <li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180115/022284.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/209/242/2259/146953394.jpg" alt="中华道学百问丨葛洪对医学的贡献主要表现在哪些方面？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daojiaochagnshi2015/list2015114153906.htm">道教常识</a><a target="_blank" class="t" href="/a/20180115/022284.htm">中华道学百问丨葛洪对医学的贡献主要表现在</a>
+</div>
+<div class="desp">葛洪，字稚川，东晋著名道士。著述颇丰，涵盖宗教、哲学、教育u、医学、炼丹等多个方面。他的医学成就和炼丹经验，对我国乃至世界的化学、冶炼、医药、科技等影响</div>
+<div class="tips">
+<span class="name">李信军</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%AD%E5%8D%8E%E9%81%93%E5%AD%A6%E7%99%BE%E9%97%AE" title="中华道学百问">中华道学百问</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%91%9B%E6%B4%AA" title="葛洪">葛洪</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%8C%BB%E5%AD%A6%E8%B4%A1%E7%8C%AE" title="医学贡献">医学贡献</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<!--[if !IE]>|xGv00|7a2183cb5c299c90d185b09ceec7e37b<![endif]-->
+                        <li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/025088.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/160/91/2282/148410415.jpg" alt="大明张天师评传丨张正常：天师道迎来千载难逢的重要机会"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180627/025088.htm">大明张天师评传丨张正常：天师道迎来千载难</a>
+</div>
+<div class="desp">张正常天师想着这些年和朱元璋的交往，心中顿时踌躇满志。走在进京的驿道上，张正常天师就像当年李白进京会见唐玄宗一样，心中充满了“放歌大笑出门去”的感觉。</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88" title="天师">天师</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E6%9C%9D" title="明朝">明朝</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%9C%B1%E5%85%83%E7%92%8B" title="朱元璋">朱元璋</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<!--[if !IE]>|xGv00|0cdd227006a4e690c6372b30a8129805<![endif]-->
+                        <li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180206/014034.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/30/3/2263/147152370.jpg" alt="《驻云飞》（三十）丨丹道修真总结：作此一歌劝知音，直言无隐莫生怨"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20180206/014034.htm">《驻云飞》（三十）丨丹道修真总结：作此一</a>
+</div>
+<div class="desp">炼金丹者“法”的正确和“财”的有无，是判断丹法正歧的唯一标准。前面借助解读二十四首《驻云飞》的内容，就是希望通过悟元子宗师的权威影响力，去告诫道教修行者</div>
+<div class="tips">
+<span class="name">袭明居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%A9%BB%E4%BA%91%E9%A3%9E" title="驻云飞">驻云飞</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BF%AE%E7%9C%9F" title="修真">修真</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180206/014034.htm">11</a>
+</div>
+</div>
+</div></li>
+<!--[if !IE]>|xGv00|7af264e9d03b9f0dd65cf5f8bed5ee39<![endif]-->
+                        <li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180703/018397.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/162/3/2283/148453002.jpg" alt="道医养生笔记丨小暑 桑拿天中胃肠会略显虚弱"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180703/018397.htm">道医养生笔记丨小暑 桑拿天中胃肠会略显虚</a>
+</div>
+<div class="desp">这时尤其要注意饮食卫生，不要吃阴寒的、不易消化吸收的食物，要讲究饮食的寒热平衡。</div>
+<div class="tips">
+<span class="name">李博成</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB" title="道医">道医</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%85%BB%E7%94%9F" title="养生">养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%8A%82%E6%B0%94" title="节气">节气</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<!--[if !IE]>|xGv00|096534b76272644a5ffdc960a8a31307<![endif]-->
+                        <li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180702/032088.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/207/240/2282/148448457.jpg" alt="伐坛破庙：《哪吒闹海》中的中华文化与道教元素"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180702/032088.htm">伐坛破庙：《哪吒闹海》中的中华文化与道教</a>
+</div>
+<div class="desp">祖天师以后，各个道派蓬勃发展，史载很多祖师爷也常常焚符破庙，伐诛邪伪。此伐坛破庙的手段跟具体操作仍在现在的道门中隐秘传承。</div>
+<div class="tips">
+<span class="name">人参不虚</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89" title="封神演义">封神演义</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%BE%99" title="龙">龙</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%96%87%E5%8C%96" title="文化">文化</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%A7%91%E4%BB%AA" title="科仪">科仪</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<!--[if !IE]>|xGv00|79d4bf677d392eecf88a851063b3ffc5<![endif]-->
+                    </ul>
+                </div>
+                <div class="tab_box">
+                    <!-- 道学苑 -->
+                    <ul>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180703/020892.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/20/7/2283/148453880.jpg" alt="妖怪精魅图鉴 谈谈另一个神秘的世界"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180703/020892.htm">妖怪精魅图鉴 谈谈另一个神秘的世界</a>
+</div>
+<div class="desp">科学昌明的现代社会，人们不再相信这类奇谈怪论。然而人类特有的好奇感与心灵深处的焦虑感却对那个永远存在的未知世界，抱着看一看瞧一瞧的态度，这亦是火爆流行的</div>
+<div class="tips">
+<span class="name">李远国 李黎鹤</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A6%96%E6%80%AA" title="妖怪">妖怪</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%B2%BE%E9%AD%85" title="精魅">精魅</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%A5%9E%E7%A7%98" title="神秘">神秘</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180702/031959.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/143/240/2282/148448393.jpg" alt="道，究竟是怎么样的一种存在？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180702/031959.htm">道，究竟是怎么样的一种存在？</a>
+</div>
+<div class="desp">虚的妙用在于开启生命智慧，从繁复万象中解脱出来，从欲望挣扎中解脱出来，从人我分别中解脱出来，直透生命的真实，如大鹏鸟一般翱翔于江河大地，万水千山。</div>
+<div class="tips">
+<span class="name">赵大山</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6%E8%8B%91" title="道学苑">道学苑</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%BE%B7%E7%BB%8F" title="道德经">道德经</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%99%9A%E6%97%A0" title="虚无">虚无</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180702/031959.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180702/022050.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/81/226/2282/148444761.jpg" alt="道门的“鸡汤”与“毒药”，你干了几碗？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180702/022050.htm">道门的“鸡汤”与“毒药”，你干了几碗？</a>
+</div>
+<div class="desp">当年陈寅恪先生论及学问之时，曾赋诗曰：“吾侪所学关天意，并世相知妒道真。”其中意趣，若引申至今日之道门，或也不虚。</div>
+<div class="tips">
+<span class="name">三晚居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6%E7%90%86%E8%AE%BA" title="道学理论">道学理论</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%B8%A1%E6%B1%A4" title="鸡汤">鸡汤</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%AF%92%E8%8D%AF" title="毒药">毒药</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180702/021040.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/244/223/2282/148444159.jpg" alt="道：我们凭什么信仰，又该如何面对现实生活？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180702/021040.htm">道：我们凭什么信仰，又该如何面对现实生活</a>
+</div>
+<div class="desp">信道，不一定要过什么样的生活。也不是说信仰道教，生活就不“被动”了，因为没有人可以自由修改自己的命运。但最起码能够真诚面对命运与欲望本身，或者至少能够“</div>
+<div class="tips">
+<span class="name">三晚居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BF%A1%E4%BB%B0" title="信仰">信仰</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B4%87%E5%B0%9A" title="崇尚">崇尚</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%96%87%E5%8C%96" title="文化">文化</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180702/021040.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/024511.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/125/90/2282/148410125.jpg" alt="亿年前的哺乳动物化石，为何命名“混元兽”？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180627/024511.htm">亿年前的哺乳动物化石，为何命名“混元兽”</a>
+</div>
+<div class="desp">混元兽的命名有着深厚的道学根源。“混元”，源于道教，在中华文化中生根，并在新的历史环境下不断演绎出新的文化活力。</div>
+<div class="tips">
+<span class="name">止水</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6%E8%8B%91" title="道学苑">道学苑</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%BE%B7%E7%BB%8F" title="道德经">道德经</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%80%81%E5%AD%90" title="老子">老子</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180627/024511.htm">14</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/021839.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/225/84/2282/148408695.jpg" alt="修道这些事儿：道人究竟应该信仰什么？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="">学道体悟</a><a target="_blank" class="t" href="/a/20180627/021839.htm">修道这些事儿：道人究竟应该信仰什么？</a>
+</div>
+<div class="desp">对历代仙真有所信仰，是因为他们都曾经以身证道，学习他们走过的路、修过的道，可以更好地洞明自己修证过程中的得失。</div>
+<div class="tips">
+<span class="name">武当玄拙</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6%E8%8B%91" title="道学苑">道学苑</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BF%AE%E8%A1%8C" title="修行">修行</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180627/021839.htm">1</a>
+</div>
+</div>
+</div></li>
+</ul>
+<ul class="second">
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/017081.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/27/79/2282/148407222.jpg" alt="佛道辩论中有关“道生万物”的辩败所思"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180627/017081.htm">佛道辩论中有关“道生万物”的辩败所思</a>
+</div>
+<div class="desp">大道生化对人间母性概念的超越，还在于其“功成而不居”。万物之所以能够自化，是因为各自禀赋了道性——即其本身具有阴阳和合而自生的特性——但此道性并非道赋予</div>
+<div class="tips">
+<span class="name">清虚道人</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%AF%8D%E6%80%A7" title="母性">母性</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%90%86%E8%AE%BA" title="理论">理论</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180627/017081.htm">37</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180626/029361.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/248/47/2282/148399283.jpg" alt="得意忘言：“道不可言”恰是信道者的幸运"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="">学道体悟</a><a target="_blank" class="t" href="/a/20180626/029361.htm">得意忘言：“道不可言”恰是信道者的幸运</a>
+</div>
+<div class="desp">人无法从这个世界中找到他们的道，于是他们必须放弃那手中的立言文字，放弃一切归属此世的东西，直接地面对那纯一无二的大道。只有这样，人才能真正地明悟大道。</div>
+<div class="tips">
+<span class="name">含章</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6%E8%8B%91" title="道学苑">道学苑</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93" title="道">道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%BE%B7%E7%BB%8F" title="道德经">道德经</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180626/029361.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180622/032012.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/236/180/2281/148368161.jpg" alt="修道这些事儿：你正遭遇的一切，皆当是修行"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="">学道体悟</a><a target="_blank" class="t" href="/a/20180622/032012.htm">修道这些事儿：你正遭遇的一切，皆当是修行</a>
+</div>
+<div class="desp">修的意义，是要实现心性上的通明，以真常之心去对待生命中的所有过往，对万事万物均可以生出慈悲心和感恩心。</div>
+<div class="tips">
+<span class="name">武当玄拙</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6%E8%8B%91" title="道学苑">道学苑</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BF%AE%E8%A1%8C" title="修行">修行</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180622/032012.htm">2</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180621/025128.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/126/131/2281/148355556.png" alt="修道，就是在和自己的魔障做斗争"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180621/025128.htm">修道，就是在和自己的魔障做斗争</a>
+</div>
+<div class="desp">世人因是非而会产生分别，因分别又容易出现执念，如此等人总是难悟真道。修行需要的不是论资排辈，而是需要同修路上的每一个人互为镜鉴，一起臻达明理明心的道果。</div>
+<div class="tips">
+<span class="name">清虚道人</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BF%AE%E8%A1%8C" title="修行">修行</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%AD%94%E9%9A%9C" title="魔障">魔障</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%90%86%E8%AE%BA" title="理论">理论</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180621/025128.htm">12</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180621/024160.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/0/130/2281/148355175.jpg" alt="世奉天师道，他却为何认定“三张”是伪法？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/daoxuelilun2015/list2015114154728.htm">道学理论</a><a target="_blank" class="t" href="/a/20180621/024160.htm">世奉天师道，他却为何认定“三张”是伪法？</a>
+</div>
+<div class="desp">寇谦之以礼教为准则，通过增订戒律和斋醮仪范的方式来增加天师道的庄严性，使散乱于民间的教团组织完成了与上层社会审美相一致的自我改造，真正开启了道教信仰升格</div>
+<div class="tips">
+<span class="name">清虚道人</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88%E9%81%93" title="天师道">天师道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BC%A0%E7%BB%9F" title="传统">传统</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%94%B9%E9%9D%A9" title="改革">改革</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180621/024160.htm">4</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180614/024744.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/247/171/2280/148300852.jpg" alt="天机如何泄露：传统文化中的术数"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/list2015114153737.htm">道学苑</a><a target="_blank" class="t" href="/a/20180614/024744.htm">天机如何泄露：传统文化中的术数</a>
+</div>
+<div class="desp">“天机”原义为万物的自然秉性，后来逐渐衍生出了“天命”等意。中国古代的术数学就是一种窥测天机的学问。本文对术数学的基本类型加以介绍，并强调术数学在历史中</div>
+<div class="tips">
+<span class="name">牧之</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%9C%AF%E6%95%B0" title="术数">术数</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E6%9C%BA" title="天机">天机</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%96%B9%E6%9C%AF" title="方术">方术</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180614/024744.htm">2</a>
+</div>
+</div>
+</div></li>
+</ul>
+<!--[if !IE]>|xGv00|e29d2b106938b46c6467ea4ee58468f6<![endif]-->
+                    <a href="javascript:;" lazysrc="http://rufodao.qq.com/l/daoxue/daoxueyuan2015/list2015114153737.htm" target="_blank" class="more"><span>点击查看更多</span></a>
+                </div>
+                <div class="tab_box">
+                    <!-- 仙真高隐 -->
+                    <ul>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/024470.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/68/90/2282/148410068.png" alt="大明张天师评传丨张正常：朱元璋命其拿出自己的看家本领"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180627/024470.htm">大明张天师评传丨张正常：朱元璋命其拿出自</a>
+</div>
+<div class="desp">一是要张正常替他“上天文书”，使其称帝师出有名，奉天承运。为何？张正常天师在百姓看来，向来是玉皇大帝在人间的代言人。所以天师的号召力正是朱元璋所需要的。</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88" title="天师">天师</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E6%9C%9D" title="明朝">明朝</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E6%9C%9D%E5%8E%86%E5%8F%B2" title="明朝历史">明朝历史</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/022537.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/93/86/2282/148409073.jpg" alt="大明张天师评传丨张正常：神权领袖和政权领袖的第一次会面"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180627/022537.htm">大明张天师评传丨张正常：神权领袖和政权领</a>
+</div>
+<div class="desp">哎，还是张养浩那篇《山坡羊 潼关怀古》揭示了千年来的历史真实：峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。伤心秦汉经行处，宫阙万间都做了土。兴，</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88" title="天师">天师</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E6%9C%9D" title="明朝">明朝</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%9C%B1%E5%85%83%E7%92%8B" title="朱元璋">朱元璋</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/020456.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/23/82/2282/148407983.jpg" alt="大明张天师评传丨张正常：暗下决心准备投靠朱元璋"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180627/020456.htm">大明张天师评传丨张正常：暗下决心准备投靠</a>
+</div>
+<div class="desp">朱元璋表现的殷勤备至，对于祖天师充满溢美之词，认为其道法高超，天地鬼神，悉听其命，辅国济民，功莫大焉！朱元璋还勉励张正常继承祖辈法术，清净修道，以期对国</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88" title="天师">天师</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%9C%B1%E5%85%83%E7%92%8B" title="朱元璋">朱元璋</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E6%9C%9D" title="明朝">明朝</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180627/020148.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/195/81/2282/148407900.jpg" alt="大明张天师评传丨张正常：为朱元璋献上天运有归之符"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180627/020148.htm">大明张天师评传丨张正常：为朱元璋献上天运</a>
+</div>
+<div class="desp">由此可见，生逢改朝换代之乱世，既是“白骨露于野，千里无鸡鸣”的悲惨之时，也是像张正常这样高瞻远瞩、长袖善舞之人大展宏图之时。</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88" title="天师">天师</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E6%9C%9D" title="明朝">明朝</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%9C%B1%E5%85%83%E7%92%8B" title="朱元璋">朱元璋</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180614/029171.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/210/182/2280/148303620.jpg" alt="大明张天师评传丨张正常：为整个天师道的前程去押上一次赌注　　"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180614/029171.htm">大明张天师评传丨张正常：为整个天师道的前</a>
+</div>
+<div class="desp">张正常天师二十四那年，如其父所言，继嗣天师。他继位后立刻重整旗鼓，传授经文符箓，为周围人士画符祛病。同时，张正常认识到，不依国主，法事难立，于是他静观事</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%BC%A0%E6%AD%A3%E5%B8%B8" title="张正常">张正常</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180614/029171.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180614/028048.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/92/178/2280/148302482.jpg" alt="大明张天师评传丨张正常：其名虽“正常”，其实很“异常”"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180614/028048.htm">大明张天师评传丨张正常：其名虽“正常”，</a>
+</div>
+<div class="desp">张正常天师虽名“正常”，但有很多奇闻轶事。他诞生前其父梦见神人，有异常之相；而且他的相貌异于常人，双目炯炯有神。此外，张正常天师天赋很高，七岁便通读老子</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%BC%A0%E6%AD%A3%E5%B8%B8" title="张正常">张正常</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+</ul>
+<ul class="second">
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180614/026710.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/92/175/2280/148301717.jpg" alt="大明张天师评传丨张正常：挽天师道命运于狂澜"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180614/026710.htm">大明张天师评传丨张正常：挽天师道命运于狂</a>
+</div>
+<div class="desp">张正常于洪武十年就坐化飞升，但其对天师道在明代的发展很重要。他于乱世执掌天师府，以慧眼看中朱元璋，大力支持，从而为天师道在明代的尊崇地位赢得了先机。同时</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%BC%A0%E6%AD%A3%E5%B8%B8" title="张正常">张正常</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180614/025882.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/29/174/2280/148301399.jpg" alt="大明张天师评传丨张正常：龙星再集于亥，大振玄风"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180614/025882.htm">大明张天师评传丨张正常：龙星再集于亥，大</a>
+</div>
+<div class="desp">明代的第一位天师是第四十二代天师张正常。其父为第三十九代天师，曾预言张正常天师将“龙星再集于亥，大振玄风”。果不其然，张正常与明代的开国皇帝朱元璋来往甚</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix"><li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li></ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180613/018997.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/60/110/2280/148285110.jpg" alt="大明张天师评传丨沉浮与共"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180613/018997.htm">大明张天师评传丨沉浮与共</a>
+</div>
+<div class="desp">天师道在宋元时代备受朝廷重视，龙虎山道教因之兴盛，逐渐统领三山符箓。元代，龙虎山高道辈出，既有张留孙自成一家，也有留居龙虎山者。明代，天师世家一度超越孔</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E4%BB%A3%E9%81%93%E6%95%99" title="明代道教">明代道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%BE%99%E8%99%8E%E5%B1%B1" title="龙虎山">龙虎山</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88%E5%BA%9C" title="天师府">天师府</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180612/043456.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/225/86/2280/148279155.jpg" alt="大明张天师评传丨道教的挑战与嬗变"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180612/043456.htm">大明张天师评传丨道教的挑战与嬗变</a>
+</div>
+<div class="desp">明清两代的道教发展可以分为两部分：就正统道教而言，上清、灵宝两派归入正一但保持系统，全真道教则有清代王常月祖师中兴、崂山派建立；同时，政府鼓励民间宗教发</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E4%BB%A3%E9%81%93%E6%95%99" title="明代道教">明代道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%BE%99%E8%99%8E%E5%B1%B1" title="龙虎山">龙虎山</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88%E5%BA%9C" title="天师府">天师府</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%BC%A0%E5%A4%A9%E5%B8%88" title="张天师">张天师</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180612/043456.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180612/042173.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/198/83/2280/148278363.jpg" alt="大明张天师评传丨身份的隐忧"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180612/042173.htm">大明张天师评传丨身份的隐忧</a>
+</div>
+<div class="desp">本文认为，朱元璋革天师道教主的天师名号而改称大真人的行为仅仅是出于政治考量，而无关其于道教的重视。自洪武至嘉靖，历代君王都对道士优宠有加，重视神仙方术，</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88%E5%BA%9C" title="天师府">天师府</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E4%BB%A3%E9%81%93%E6%95%99" title="明代道教">明代道教</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180612/037863.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/63/77/2280/148276698.jpg" alt="大明张天师评传丨“天亦有师乎?”"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/gaodao2015/list201511416934.htm">高道</a><a target="_blank" class="t" href="/a/20180612/037863.htm">大明张天师评传丨“天亦有师乎?”</a>
+</div>
+<div class="desp">关于明代道教的整体情况究竟如何，十分复杂。一些学者认为，明代是道教由盛转衰的转折点；另一些则认为，明代道教十分兴盛。本文分析了明太祖朱元璋在开国后的整体</div>
+<div class="tips">
+<span class="name">贾来生</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A7%E6%98%8E%E5%BC%A0%E5%A4%A9%E5%B8%88%E8%AF%84%E4%BC%A0" title="大明张天师评传">大明张天师评传</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%98%8E%E4%BB%A3%E9%81%93%E6%95%99" title="明代道教">明代道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E5%B8%88%E5%BA%9C" title="天师府">天师府</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+</ul>
+<!--[if !IE]>|xGv00|a2bff9b52db85e6f53d6a9e8cb61fb80<![endif]-->
+                    <a href="javascript:;" lazysrc="http://rufodao.qq.com/l/daoxue/xianzhengaoyin2015/list201511416749.htm" target="_blank" class="more"><span>点击查看更多</span></a>
+                </div>
+                <div class="tab_box">
+                    <!-- 丹道 -->
+                    <ul>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180115/015674.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/66/231/2259/146950446.jpg" alt="《驻云飞》（二十九）丨悟元子：道教金丹文化发展的巅峰"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20180115/015674.htm">《驻云飞》（二十九）丨悟元子：道教金丹文</a>
+</div>
+<div class="desp">悟元子是一位真正意义上完成中国丹道太极修真文化，走向三教文化大融合的道教文化集大成者。道家道教丹道文化语言系统，发展到悟元子时代，已经走向学术体系的巅峰。</div>
+<div class="tips">
+<span class="name">袭明居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%A9%BB%E4%BA%91%E9%A3%9E" title="驻云飞">驻云飞</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%B4%A1%E7%8C%AE" title="贡献">贡献</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180115/015674.htm">3</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180104/015858.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/180/124/2258/146858250.jpg" alt="内丹中的“龙虎”、“二炁”如何与天文学相联系？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20180104/015858.htm">内丹中的“龙虎”、“二炁”如何与天文学相</a>
+</div>
+<div class="desp">中华文明的核心思想之一是天人合一，内丹家视人体如天地，与天地同司造化。内丹采药之功之中的龙虎、二炁比喻什么？如何升降？天心如何与人心相合？本文尝试建立内</div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%86%85%E4%B8%B9%E5%A4%A9%E6%96%87%E5%AD%A6" title="内丹天文学">内丹天文学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%B5%91%E5%A4%A9%E8%AF%B4" title="浑天说">浑天说</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180104/015858.htm">7</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171218/015233.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/234/210/2255/146685159.jpg" alt="地下海潮天上月：内丹修炼中竟有天文学的讲究？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171218/015233.htm">地下海潮天上月：内丹修炼中竟有天文学的讲</a>
+</div>
+<div class="desp">白玉蟾真人之高足彭耜在《道阃元枢歌》中以“海潮”、 “月” 比喻内丹修炼，作者以龙门一家之言略析之，试探究其真正内涵。</div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%9C%88" title="月">月</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%B5%B7%E6%BD%AE" title="海潮">海潮</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171218/015233.htm">4</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171214/021897.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/151/85/2255/146653201.jpg" alt="高道唏嘘：“人生自信两百年” 神水究竟玄在何处？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171214/021897.htm">高道唏嘘：“人生自信两百年” 神水究竟玄</a>
+</div>
+<div class="desp">道教祖师在描述神水时多用隐喻，使之蒙上神秘面纱。作者运用自身实修亲证，结合内丹经典，对神水的来源、运行路线以及归于中宫黄庭之后的变化等问题，作出龙门派的</div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%A5%9E%E6%B0%B4" title="神水">神水</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171214/021897.htm">7</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171208/012887.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/76/77/2254/146586061.jpg" alt="邵雍三吟之内丹学内涵：宇宙在乎手，万物在乎身"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171208/012887.htm">邵雍三吟之内丹学内涵：宇宙在乎手，万物在</a>
+</div>
+<div class="desp">邵雍承传了陈抟祖师之内丹学，受到白玉蟾祖师之推崇。不仅在儒学上承前启后，易学上成就卓越，还是真正的内丹理论家。今以其《宇宙吟》、《冬至吟》、《观物吟》为</div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93%E5%85%BB%E7%94%9F" title="丹道养生">丹道养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171208/012887.htm">16</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171206/034774.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/166/6/2254/146568046.jpg" alt="观天之道，执天之行：什么是内丹天文学思想？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171206/034774.htm">观天之道，执天之行：什么是内丹天文学思想</a>
+</div>
+<div class="desp">《阴符经》中说“观天之道，执天之行，尽矣”，深刻揭示了内丹学的本质，即天道与丹道一理，同源于“天人合一”的思想。</div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93%E5%85%BB%E7%94%9F" title="丹道养生">丹道养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171206/034774.htm">3</a>
+</div>
+</div>
+</div></li>
+</ul>
+<ul class="second">
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171206/022689.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/238/248/2253/146564803.jpg" alt="《驻云飞》（二十八）丨一部悟真的丹道文化，全从密扣玄关去领悟其义"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171206/022689.htm">《驻云飞》（二十八）丨一部悟真的丹道文化</a>
+</div>
+<div class="desp">我们只有明白了《悟真篇》的那些炼金丹的道理，才能够完成炼金丹的窃阴阳、夺造化、扭气机、转生杀的“造化在手”的修为。</div>
+<div class="tips">
+<span class="name">袭明居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%A9%BB%E4%BA%91%E9%A3%9E" title="驻云飞">驻云飞</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BF%AE%E7%9C%9F" title="修真">修真</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171206/022689.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171114/017527.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/130/11/2250/146309185.jpg" alt="内丹研究之实事求是：坚持理论与实践的统一"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171114/017527.htm">内丹研究之实事求是：坚持理论与实践的统一</a>
+</div>
+<div class="desp">理论与实践的统一，是内丹研究的一个最基本的原则。或者说检验内丹真理的标准只能是人体自身的实践。</div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93%E5%85%BB%E7%94%9F" title="丹道养生">丹道养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%AE%9E%E4%BA%8B%E6%B1%82%E6%98%AF" title="实事求是">实事求是</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171114/017527.htm">2</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171113/013268.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/6/198/2249/146291721.jpg" alt=" 《驻云飞》（二十七）丨道家我命由我不由天的修真秘密在哪里"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171113/013268.htm"> 《驻云飞》（二十七）丨道家我命由我不由</a>
+</div>
+<div class="desp">道家道教金丹文化依赖的是传统易道文化强劲的文化软实力作基础，它离不开金丹文化生生不已的源动力，注定跟道家道教“悟真”的金丹文化体系的构建，有着极其重要的</div>
+<div class="tips">
+<span class="name">袭明居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93" title="丹道">丹道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%A9%BB%E4%BA%91%E9%A3%9E" title="驻云飞">驻云飞</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171113/013268.htm">6</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171110/014821.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/17/111/2249/146269547.jpg" alt="《驻云飞》（二十六）丨着力道家金丹术语解读，清除丹道文化中的污秽道法"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171110/014821.htm">《驻云飞》（二十六）丨着力道家金丹术语解</a>
+</div>
+<div class="desp">着力道家金丹文化术语的解读，清除传统道家道教丹道文化中那些戕害慧命性命的污秽道法，是丹道文化正本清源的大业，是学界与教界还原道家道教悟真文化体系迫在眉睫</div>
+<div class="tips">
+<span class="name">袭明居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93%E5%85%BB%E7%94%9F" title="丹道养生">丹道养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6%E4%B8%93%E6%A0%8F" title="道学专栏">道学专栏</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%A9%BB%E4%BA%91%E9%A3%9E" title="驻云飞">驻云飞</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171110/014821.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171109/019992.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/170/67/2249/146258480.jpg" alt="揭秘：修真之人如何真正做到“天根月窟闲来往”？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171109/019992.htm">揭秘：修真之人如何真正做到“天根月窟闲来</a>
+</div>
+<div class="desp">无论对于一阳初动无孔双吹，还是一阳来复得甘露，均可比拟天地二炁的运动。如修真之人能真正作到“天根月窟闲来往”， 则必重返童年之精神！ </div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%B9%E9%81%93%E5%85%BB%E7%94%9F" title="丹道养生">丹道养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%A9%E6%A0%B9%E6%9C%88%E7%AA%9F" title="天根月窟">天根月窟</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171109/019992.htm">5</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20171108/026891.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/106/20/2249/146246431.jpg" alt="赤血、白血、白乳——内丹修真中的三大关键词辨析"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm">丹道</a><a target="_blank" class="t" href="/a/20171108/026891.htm">赤血、白血、白乳——内丹修真中的三大关键</a>
+</div>
+<div class="desp">在内丹真修中，赤血为坎中之阳，即先天元精，白血为甘露，为先天元精所化，用明师下手法可得之。 “白膏”、“白乳”，比喻先天性光， “金光满室”，比喻先天命光。</div>
+<div class="tips">
+<span class="name">卢理湘</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%86%85%E4%B8%B9%E4%BF%AE%E7%82%BC" title="内丹修炼">内丹修炼</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%B5%A4%E8%A1%80" title="赤血">赤血</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%99%BD%E8%A1%80" title="白血">白血</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%99%BD%E4%B9%B3" title="白乳">白乳</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20171108/026891.htm">1</a>
+</div>
+</div>
+</div></li>
+</ul>
+<!--[if !IE]>|xGv00|09852ed3ec971d4e465c4340a5f0d951<![endif]-->
+                    <a href="javascript:;" lazysrc="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/dandao2015/list2015114161401.htm" target="_blank" class="more"><span>点击查看更多</span></a>
+                </div>
+                <div class="tab_box">
+                    <!-- 养生 -->
+                    <ul>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180619/021700.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/149/42/2281/148332884.jpg" alt="道医养生笔记丨夏至：爱莲说还不够 得吃！"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180619/021700.htm">道医养生笔记丨夏至：爱莲说还不够 得吃！</a>
+</div>
+<div class="desp">夏至时节的饮食更是要以清泻暑热、增进食欲为主要目标，犹如《吕氏春秋》中所说，“凡食无强厚味，无以烈味重酒”。所以，古人更视荷花为药食同源之上品。</div>
+<div class="tips">
+<span class="name">李博成</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB" title="道医">道医</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%8A%82%E6%B0%94" title="节气">节气</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%85%BB%E7%94%9F" title="养生">养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BC%A0%E7%BB%9F" title="传统">传统</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180619/021700.htm">2</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180614/016382.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/78/160/2280/148297878.jpg" alt="道医养生笔记丨端午名字中的禁忌，你都记住了么？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180614/016382.htm">道医养生笔记丨端午名字中的禁忌，你都记住</a>
+</div>
+<div class="desp">端午节有众多别名，而每一个别名往往隐藏着养生的要点。端午名“端阳”，寓意这一日湿热深重，需要预防五毒，以艾草、菖蒲、佩兰等物祛湿散热。端午又名“归宁”，</div>
+<div class="tips">
+<span class="name">吕方舟</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB%E5%85%BB%E7%94%9F%E7%AC%94%E8%AE%B0" title="道医养生笔记">道医养生笔记</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%AB%AF%E5%8D%88" title="端午">端午</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180614/016382.htm">11</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180607/022383.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/74/162/2279/148233359.jpg" alt="道医养生笔记丨实用、可靠：古时富二代的养生秘诀《遵生八笺》"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180607/022383.htm">道医养生笔记丨实用、可靠：古时富二代的养</a>
+</div>
+<div class="desp">当下，人们养生重“术”不重“道”，只学习一些技巧却没有关注对养生的系统认识。本文介绍了明代著作《遵生八笺》，从八个方面入手，介绍了如何建立养生系统从而正</div>
+<div class="tips">
+<span class="name">吕方舟</span><ul class="clearfix"><li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB%E5%85%BB%E7%94%9F%E7%AC%94%E8%AE%B0" title="道医养生笔记">道医养生笔记</a></li></ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180605/033408.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/251/68/2279/148209566.jpg" alt="防暑利器：西瓜，你吃得正确么？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180605/033408.htm">防暑利器：西瓜，你吃得正确么？</a>
+</div>
+<div class="desp">夏季高温高湿，需要预防火热之“病邪”，而素有“天然白虎汤”美誉的西瓜刚好能起到这一药效。本文详细而全面地介绍了西瓜瓜瓤、内皮、外皮、种子的不同功效，西瓜</div>
+<div class="tips">
+<span class="name">人参不虚</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%98%B2%E6%9A%91" title="防暑">防暑</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB" title="道医">道医</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180605/031119.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/179/64/2279/148208474.jpg" alt="祛湿利器：薏米，你吃对了么？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180605/031119.htm">祛湿利器：薏米，你吃对了么？</a>
+</div>
+<div class="desp">薏米又称作薏苡仁，具有利水渗湿、健脾止泻、排脓、解毒散结等功效。其味淡，能渗湿，对人体伤害小而药效好。选购薏米时，要注意选购小粒薏米，营养更好。不过，脾</div>
+<div class="tips">
+<span class="name">人参不虚</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%A5%9B%E6%B9%BF" title="祛湿">祛湿</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB" title="道医">道医</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%98%B2%E6%9A%91" title="防暑">防暑</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180605/022435.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/222/55/2279/148206222.jpg" alt="夏日防暑，不要忘记的一种蔬菜"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180605/022435.htm">夏日防暑，不要忘记的一种蔬菜</a>
+</div>
+<div class="desp">夏季高温高湿，相对应的，人体也自有内热、湿气深重。夏季食补需注意清热祛湿，而冬瓜便是合适的食材。本文从冬瓜的药性原理，冬瓜子、皮的对应症状，食用的禁忌注</div>
+<div class="tips">
+<span class="name">人参不虚</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB" title="道医">道医</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%98%B2%E6%9A%91" title="防暑">防暑</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%A3%9F%E8%A1%A5" title="食补">食补</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+</ul>
+<ul class="second">
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180604/017902.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/4/253/2278/148191469.jpg" alt="道医养生笔记丨芒种将来迎仲夏，且种菖蒲降毒物"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180604/017902.htm">道医养生笔记丨芒种将来迎仲夏，且种菖蒲降</a>
+</div>
+<div class="desp">芒种宣示着中国农忙季节的到来，“麦至是而始可收，稻过是而不可种”，两茬作物皆系于这一个节气。芒种开始，仲夏来临，阳光雨水的增加带来的是毒物的活跃，人们常</div>
+<div class="tips">
+<span class="name">李博成</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB%E5%85%BB%E7%94%9F%E7%AC%94%E8%AE%B0" title="道医养生笔记">道医养生笔记</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%8A%92%E7%A7%8D" title="芒种">芒种</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%8F%96%E8%92%B2" title="菖蒲">菖蒲</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180604/017902.htm">6</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180522/026992.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/122/50/2277/148074797.jpg" alt="道教戒律中的养生观"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180522/026992.htm">道教戒律中的养生观</a>
+</div>
+<div class="desp">道教十分重视戒律。作者指出，持奉戒律不仅有伦理道德的作用，而且也有养生保健的意义。道教戒律为道教徒制定了一套顺应天时的生活方式，潜移默化地影响着他们的行</div>
+<div class="tips">
+<span class="name">万勇</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%88%92%E5%BE%8B" title="戒律">戒律</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%85%BB%E7%94%9F" title="养生">养生</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180514/028699.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/240/214/2275/147986685.jpg" alt="叩齿固肾：谈一谈道医思想中的口腔保健"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180514/028699.htm">叩齿固肾：谈一谈道医思想中的口腔保健</a>
+</div>
+<div class="desp">中国很早就有了对口腔卫生的认识，也衍生出了很多牙齿保健的方法。道医作为中国医学文化中的重要构成，极大地促进了中国古代口腔医学的发展。本文就介绍了道医中的</div>
+<div class="tips">
+<span class="name">牧之</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB" title="道医">道医</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%8F%A3%E8%85%94" title="口腔">口腔</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180514/017838.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/241/189/2275/147980311.jpg" alt="道医养生笔记丨小满：恭喜你的身体将获得新一年的能量"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180514/017838.htm">道医养生笔记丨小满：恭喜你的身体将获得新</a>
+</div>
+<div class="desp">5月21日，人们将迎来夏季的第二个节气——小满。这个节气表征物候，其中最为重要的就是小麦了。经历了秋播、冬灌、春穗之后，小麦在此时逐渐成熟，而中医学常常</div>
+<div class="tips">
+<span class="name">李博成</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B0%8F%E6%BB%A1" title="小满">小满</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB%E5%85%BB%E7%94%9F%E7%AC%94%E8%AE%B0" title="道医养生笔记">道医养生笔记</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B0%8F%E9%BA%A6" title="小麦">小麦</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180514/017838.htm">2</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180502/027449.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/10/16/2274/147870940.jpg" alt="道医养生笔记丨立夏养生：神气始发越，万物渐隆盛"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180502/027449.htm">道医养生笔记丨立夏养生：神气始发越，万物</a>
+</div>
+<div class="desp">立夏是一年的第七个节期，“节已先交，气尚未变”，其承冬春之藏而发夏日之长，在养生之中十分重要。本文从运动、饮食、休息等方面介绍了立夏养生要点，并谈论了凉</div>
+<div class="tips">
+<span class="name">吕方舟</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%8C%BB" title="道医">道医</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%85%BB%E7%94%9F" title="养生">养生</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%AB%8B%E5%A4%8F" title="立夏">立夏</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180502/027449.htm">3</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180426/026420.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/232/68/2273/147819397.jpg" alt="道医养生笔记丨高道冷谦养生法：四季导引调精气"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm">养生</a><a target="_blank" class="t" href="/a/20180426/026420.htm">道医养生笔记丨高道冷谦养生法：四季导引调</a>
+</div>
+<div class="desp">冷谦为元末明初一高道，其著《修龄要旨》，总结了过往及其本人的养生秘诀。他认为，四季变化，人体内之气也有变化，宜导引调理。本文就总结了四季之中的导引方法，</div>
+<div class="tips">
+<span class="name">吕方舟</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%AF%BC%E5%BC%95" title="导引">导引</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%86%B7%E8%B0%A6" title="冷谦">冷谦</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%9B%9B%E5%AD%A3" title="四季">四季</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%85%BB%E7%94%9F" title="养生">养生</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+</ul>
+<!--[if !IE]>|xGv00|51b25aada7abf800cf241f5a9ceec398<![endif]-->
+                    <a href="javascript:;" lazysrc="http://rufodao.qq.com/l/daoxue/dandaoyangsheng2015/yangsheng2015/list2015114161431.htm" target="_blank" class="more"><span>点击查看更多</span></a>
+                </div>
+                <div class="tab_box">
+                    <!-- 民俗道艺 -->
+                    <ul>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180702/025406.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/171/230/2282/148445871.jpg" alt="龙的含义：《哪吒闹海》中的中华文化与道教元素"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180702/025406.htm">龙的含义：《哪吒闹海》中的中华文化与道教</a>
+</div>
+<div class="desp">笔者认为中华文化的龙可能代表着如下意思：龙代表着自然界的生气循环往复，周而复始。龙是自然界中的存在。山有龙脉、水有源头、土有五土龙神…而龙正是山水、平原</div>
+<div class="tips">
+<span class="name">人参不虚</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%B8%AD%E5%8D%8E%E6%96%87%E5%8C%96" title="中华文化">中华文化</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B0%81%E7%A5%9E%E6%BC%94%E4%B9%89" title="封神演义">封神演义</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%BE%99" title="龙">龙</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180625/031530.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/241/252/2281/148386526.jpg" alt="镜中黄老，清静无为：天津博物馆藏“弈棋人物故事”铜镜赏析"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180625/031530.htm">镜中黄老，清静无为：天津博物馆藏“弈棋人</a>
+</div>
+<div class="desp">见微知著，“弈棋人物故事”铜镜虽是小物件，却反映了古人的精神追求和审美取向，这都与中华文明的重要组成部分——道家思想息息相关。</div>
+<div class="tips">
+<span class="name">赵洋</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%B0%91%E4%BF%97%E9%81%93%E8%89%BA" title="民俗道艺">民俗道艺</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%95%99" title="道教">道教</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AE%B6" title="道家">道家</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180622/029453.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/194/176/2281/148367099.jpg" alt="秋日忆山居"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180622/029453.htm">秋日忆山居</a>
+</div>
+<div class="desp">仙翁览黄卷，飞鸟时相亲。清风偶一缕，樵声或得闻。</div>
+<div class="tips">
+<span class="name">清凉</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E5%AD%A6" title="道学">道学</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%B0%91%E4%BF%97%E9%81%93%E8%89%BA" title="民俗道艺">民俗道艺</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%BE%99%E9%97%A8%E6%B4%9E" title="龙门洞">龙门洞</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%AF%97" title="诗">诗</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180622/029453.htm">1</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180613/021446.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/217/114/2280/148286287.jpg" alt="每遇节庆倍思贤：端午日悼屈原，我们在追思什么？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/jieqing2015/list2015114161743.htm">节庆</a><a target="_blank" class="t" href="/a/20180613/021446.htm">每遇节庆倍思贤：端午日悼屈原，我们在追思</a>
+</div>
+<div class="desp">屈原倡导举贤授能，富国强兵但却被贬斥流放，但他依旧忠心不改，以身殉国，成为忠义的代表，受到后世的尊奉。正是这种风骨、功行使得屈原受到后世的敬仰和纪念，而</div>
+<div class="tips">
+<span class="name">武当玄拙</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%AB%AF%E5%8D%88" title="端午">端午</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B1%88%E5%8E%9F" title="屈原">屈原</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%8A%9F%E8%A1%8C" title="功行">功行</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180613/021446.htm">29</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180611/028030.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/95/34/2280/148265765.jpg" alt="玄乐道炁：谈谈道乐与养生"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/daoyue2015/list2015114161653.htm">道乐</a><a target="_blank" class="t" href="/a/20180611/028030.htm">玄乐道炁：谈谈道乐与养生</a>
+</div>
+<div class="desp">道教音乐是道教文化的重要组成部分。其在科仪中能够烘托道教的神圣氛围，又兼具祈禳、济度、通神等宗教性功能。在日常生活中则能为道门中人提供一种音乐审美，同时</div>
+<div class="tips">
+<span class="name">牧之</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E4%B9%90" title="道乐">道乐</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%85%BB%E7%94%9F" title="养生">养生</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180608/019505.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/18/194/2279/148241463.jpg" alt="声无哀乐，暗含至和：且看嵇康琴音中的无为之道"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180608/019505.htm">声无哀乐，暗含至和：且看嵇康琴音中的无为</a>
+</div>
+<div class="desp">嵇康是魏晋时期的名士，尤擅琴、乐。他曾作《声无哀乐论》与《琴赋。他提出音乐本无喜怒哀乐，只是勾动了人内心本有的情感。他反对音乐背负政治功能，而应暗含至和</div>
+<div class="tips">
+<span class="name">牧之</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B5%87%E5%BA%B7" title="嵇康">嵇康</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%AD%8F%E6%99%8B" title="魏晋">魏晋</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%8F%A4%E7%90%B4" title="古琴">古琴</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+</ul>
+<ul class="second">
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180607/023419.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/250/163/2279/148233790.jpg" alt="道由心学，感于神明：焚香与生活的修行"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180607/023419.htm">道由心学，感于神明：焚香与生活的修行</a>
+</div>
+<div class="desp">自古读书以香为友，独处以香为伴；书画会友，以香增其儒雅；参玄论道，以香致其灵慧；衣需香熏，被需香暖；调弦抚琴，清香一炷可佐其心而导其韵；幽窗破寂，绣阁助</div>
+<div class="tips">
+<span class="name">牧之</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E4%BF%AE%E8%A1%8C" title="修行">修行</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%84%9A%E9%A6%99" title="焚香">焚香</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180529/024164.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/102/53/2278/148140567.jpg" alt="这竟是张果老传下的神仙乐章"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180529/024164.htm">这竟是张果老传下的神仙乐章</a>
+</div>
+<div class="desp">道情，是中国戏曲文化中的一朵奇葩。相传，张果老乃是道情戏的始祖，他或以道情警戒不肖之徒，或以此为修道者指点迷津、后世道人在云游时也常效仿祖师。后来，道情</div>
+<div class="tips">
+<span class="name">万法勇</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%83%85" title="道情">道情</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%85%AB%E4%BB%99" title="八仙">八仙</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%BC%A0%E6%9E%9C%E8%80%81" title="张果老">张果老</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E8%93%9D%E9%87%87%E5%92%8C" title="蓝采和">蓝采和</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180529/022497.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/101/50/2278/148139801.png" alt="婴戏图中的道家“童真”与民间信仰"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/list20151116151630.htm">书画</a><a target="_blank" class="t" href="/a/20180529/022497.htm">婴戏图中的道家“童真”与民间信仰</a>
+</div>
+<div class="desp">道家素来重视婴儿，可以说，婴孩的纯真状态是修道者所寻求至高境界，故有“复归于婴儿”的说法。中国传统中有婴戏图的艺术形式，其中体现了道教特色，也体现出当时</div>
+<div class="tips">
+<span class="name">止水</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A9%B4%E5%84%BF" title="婴儿">婴儿</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A9%B4%E6%88%8F%E5%9B%BE" title="婴戏图">婴戏图</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%B0%91%E9%97%B4%E4%BF%A1%E4%BB%B0" title="民间信仰">民间信仰</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180525/020661.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/135/164/2277/148103880.jpg" alt="道服与汉服到底是不是一回事儿？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180525/020661.htm">道服与汉服到底是不是一回事儿？</a>
+</div>
+<div class="desp">汉服与道教道服一体同源，同是华夏文化之瑰宝，但二者之间仍旧有所差异。盖因汉服常因时代变化而移风易俗，而道教则始终保持传统。本文细数了当下惯用的道服类型，</div>
+<div class="tips">
+<span class="name">万法勇</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93%E6%9C%8D" title="道服">道服</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%B1%89%E6%9C%8D" title="汉服">汉服</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%96%8B%E9%86%AE%E7%A7%91%E4%BB%AA" title="斋醮科仪">斋醮科仪</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180525/020661.htm">16</a>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180524/030774.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/192/133/2277/148096032.jpg" alt="仙人骑凤披彩霞：武当山金殿屋脊兽的独特魅力"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/jianzhu2015/list2015114161721.htm">建筑</a><a target="_blank" class="t" href="/a/20180524/030774.htm">仙人骑凤披彩霞：武当山金殿屋脊兽的独特魅</a>
+</div>
+<div class="desp">武当山道教建筑群，是道教建筑中的瑰宝，独具特色。本文从武当山太和宫金殿的屋脊兽入手，将之与当时的建筑脊兽进行对比。重点突出了“骑凤仙人”形象，并对其加以</div>
+<div class="tips">
+<span class="name">止水</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E6%AD%A6%E5%BD%93%E5%B1%B1" title="武当山">武当山</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%B1%8B%E8%84%8A%E5%85%BD" title="屋脊兽">屋脊兽</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%AA%E5%92%8C%E5%AE%AB" title="太和宫">太和宫</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%87%91%E6%AE%BF" title="金殿">金殿</a></li>
+</ul>
+</div>
+</div>
+</div></li>
+<li><div class="q_tpwrap clearfix">
+<a target="_blank" class="pic" href="/a/20180517/019588.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/46/93/2276/148020661.jpg" alt="为何道教很难产生“灭霸”？"></a><div class="text">
+<div class="name">
+<a target="_blank" class="navigation" href="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/wenyi2015/list2015114162324.htm">文艺</a><a target="_blank" class="t" href="/a/20180517/019588.htm">为何道教很难产生“灭霸”？</a>
+</div>
+<div class="desp">近日《复联3》上映，大反派灭霸为了他认为的“正义”毁灭了世界上一半的物种。笔者认为这一行为与道教不合，因为道教以道为立教根基，主张道法自然，不应以人的局</div>
+<div class="tips">
+<span class="name">三晚居士</span><ul class="clearfix">
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E9%81%93" title="道">道</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E7%94%B5%E5%BD%B1" title="电影">电影</a></li>
+<li><a target="_blank" href="http://rushidao.qq.com/dc_column_article/TagsList.htm?tags=%E5%A4%8D%E8%81%943" title="复联3">复联3</a></li>
+</ul>
+<a target="_blank" class="comments" href="/a/20180517/019588.htm">62</a>
+</div>
+</div>
+</div></li>
+</ul>
+<!--[if !IE]>|xGv00|fadbf9b5854a95e1612efd12bdab992d<![endif]-->
+                    <a href="javascript:;" lazysrc="http://rufodao.qq.com/l/daoxue/minsudaoyi2015/list2015114161605.htm" target="_blank" class="more"><span>点击查看更多</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--[if !IE]>|xGv00|a57ed3eade1d2174577f8066de617a8d<![endif]-->
+                                      <!-- 今日推荐结束 -->
+                         </div>
+                         <div class="extra">
+                                <div class="aside zhuanlan">
+	<div class="title">道学专栏</div>
+	<ul>
+		<li><div class="clearfix">
+<a target="_blank" class="pic" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/qingxudaoren/index.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/13/92/2108/137096173.jpg" alt="佛道辩论中有关“道生万物”的辩败所思"></a><div class="text">
+<p><a target="_blank" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/qingxudaoren/index.htm">佛道辩论中有关“道生万物”的辩败所思</a></p>
+<p class="name">清虚道人</p>
+</div>
+</div></li>
+<li><div class="clearfix">
+<a target="_blank" class="pic" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/yiwengushihui/index.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/192/126/2062/134113872.jpg" alt="无量度人，神通莫拟：恭贺灵宝天尊万寿圣诞"></a><div class="text">
+<p><a target="_blank" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/yiwengushihui/index.htm">无量度人，神通莫拟：恭贺灵宝天尊万寿圣诞</a></p>
+<p class="name">解人颐</p>
+</div>
+</div></li>
+<li><div class="clearfix">
+<a target="_blank" class="pic" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/gaoshuai/index.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/25/141/2229/144976705.png" alt="《驻云飞》（三十）丨丹道修真总结：作此一歌劝知音，直言无隐莫生怨"></a><div class="text">
+<p><a target="_blank" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/gaoshuai/index.htm">《驻云飞》（三十）丨丹道修真总结：作此一</a></p>
+<p class="name">袭明居士</p>
+</div>
+</div></li>
+<li><div class="clearfix">
+<a target="_blank" class="pic" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/wudanfeng/index.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/63/190/1968/128017713.jpg" alt="云舟道游记丨访佛宗道源天台山：古观听风雨，看破一枝梅"></a><div class="text">
+<p><a target="_blank" href="http://dao.qq.com/daoxue/daoxuezhuanlan2015/wudanfeng/index.htm">云舟道游记丨访佛宗道源天台山：古观听风雨</a></p>
+<p class="name">吴丹丰</p>
+</div>
+</div></li>
+<!--[if !IE]>|xGv00|8df54893b43b49946dd6de0e52acbe72<![endif]-->
+	</ul>
+</div><!--[if !IE]>|xGv00|8279cffd7f3a391e32376c0fd7874b8d<![endif]-->
+                                <div class="aside cehua">
+				<div class="title">专题策划</div>
+<div class="content clearfix">
+     <a target="_blank" class="pic" href="/p/topic/20160928035192/index.html"><img src="http://img1.gtimg.com/rushidao/pics/hv1/252/46/2224/144627582.jpg" alt="“玉蟾杯”道学全球有奖征文"></a><div class="text">
+<p><a target="_blank" class="name" title="道化天下，世界玄同丨“玉蟾杯”道学全球有奖征文" href="/p/topic/20160928035192/index.html">道化天下，世界玄同丨“玉蟾杯”道</a></p>
+<p class="desp"><a target="_blank" class="more" href="/p/topic/20160928035192/index.html">
+                        详细
+                    </a>
+</p>
+</div>
+<!--[if !IE]>|xGv00|5c5c995031a8ecf908038ef986ffa657<![endif]-->   
+				</div>
+				<ul>
+					<li><a target="_blank" href="/p/topic/20170802045368/index.html">道医养生笔记丨在节气更替之际如何养生存神</a></li>
+<li><a target="_blank" href="/p/topic/20161101028011/index.html">丙申（2016）武汉长春观传戒法会</a></li>
+<li><a target="_blank" href="/p/topic/20161027023915/index.html">2016年正一派内地授箓大典进行时</a></li>
+<li><a target="_blank" href="/p/topic/20161009020120/index.html">弘道读经会：从文本进入道的世界</a></li>
+<li><a target="_blank" href="/p/topic/20160914039649/index.html">莫道团圆容易逢 一年此夜最玲珑丨中秋</a></li>
+<!--[if !IE]>|xGv00|18f225bf8a63d859a1c4d5fefa83eeb2<![endif]--> 				</ul>
+</div><!--[if !IE]>|xGv00|67f1ffc55d4d723734f2e2c255504feb<![endif]-->
+                                <style>
+.cehua .title a{float: right;padding-left: 25px;font-size: 14px;font-family: "Microsoft YaHei";background: url(http://mat1.gtimg.com/rushidao/fo2015/img/foxue.png) 2px 7px no-repeat;font-weight: normal;line-height: 27px;}
+.cehua .title a:hover {background: url(http://mat1.gtimg.com/rushidao/dao2015/img/daoxue.png) 2px -65px no-repeat;}
+</style>
+<div class="aside cehua">
+	<div class="title"><a href="http://rufodao.qq.com/daoxue/cloud/index.htm" target="_blank">更多</a>白云深处人家</div>
+	<div class="content clearfix">
+    	
+
+
+<title>404-1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+
+<table width="563" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="125">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="195" background="/1.gif" bgcolor="#FFFFFF"><table border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td width="210"><a href="#"><img src="/404-2.gif" alt="" width="210" height="80" border="0"></a></td>
+          <td style="color:#333333; font-size:14px; font-weight:bold;"><a href="http://www.qq.com/?pgv_ref=404">页面没有找到，点击带您进入 腾讯网首页！</a></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<script>
+function jump()
+{
+        if(document.title=="404-1")location.href = "http://www.qq.com/babygohome/?pgv_ref=404";
+}
+setTimeout("jump()", 0);
+</script>
+
+   
+	</div>
+	<ul><li><a target="_blank" href="/a/20170515/018581.htm">吕派“道藏”：清代南方吕祖思想与信仰的体</a></li>
+<li><a target="_blank" href="/a/20170515/016268.htm">《道窍谈》：道本同，而法或许有巧拙之殊</a></li>
+<li><a target="_blank" href="/a/20170515/014375.htm">《方壶外史》：研究内丹东派的基本材料</a></li>
+<li><a target="_blank" href="/a/20170514/005423.htm">在《白玉蟾全集》中，偶遇一位道宗仙诗大家</a></li>
+<li><a target="_blank" href="/a/20170512/039171.htm">密！一本辑录三丰祖师生平的重要文献</a></li>
+<!--[if !IE]>|xGv00|801bd756bb75959b8b0b2de44c698317<![endif]--> </ul>
+</div><!--[if !IE]>|xGv00|7af823aeb6d05737de595744426a8f50<![endif]--><!--白云深处人家-->
+								<div class="aside guanzhu">
+				<div class="title">关注我们</div>
+<div class="content">
+					<ul>
+						<li class="mail">hrrsd@vip.qq.com</li>
+						<li class="weibo">+8610-62671188-39516</li>
+						<li class="wechat">腾讯弘道读经会：303308415</li>
+					</ul>
+					<div id="follow_us" class="qrcode">
+						<img src="http://img1.gtimg.com/rushidao/pics/hv1/148/133/2015/131059438.jpg" alt="qrcode">
+						<p>扫描二维码，随时读道学文章</p>
+					</div>
+				</div>
+</div>
+
+<!--[if !IE]>|xGv00|1c86a3c713de28f6c6a12219fdecd5ce<![endif]-->
+                         </div>
+             </div>
+             <!-- 禅语 -->
+	<div class="zen" id="zen">
+	<img class="bg" src="http://img1.gtimg.com/rushidao/pics/hv1/181/6/1969/128035936.jpg" alt="bg">
+	<div class="btn">
+		<a href="javascript:;">福生无量天尊</a>
+		<img src="http://mat1.gtimg.com/rushidao/dao2015/img/dao.png" alt="道">
+	</div>
+	<p style="display: table-cell;"><span>修道必待护法辅助而后成，然而最大护法是自己明白世事洞明人情，先要内外通明，而后外来护法。</span></p>
+	<p><span>徒荣师荣，为师不可不著力训诫。徒败师灭。为徒不可不谨慎行事。</span></p>
+	<p><span>天机不可管窥臆测，需待明师一一指点。学道时依诀行功虽然是第一要义，却切忌盲修瞎炼，内心明白四达，须得修炼中仔细体悟。</span></p>
+	<p><span>凡图谋即刻成就，立跻天仙当下得丹，闻妙道狐疑反复，抱残守缺，再三挑剔，闻一悉明者，属于所知障道，挚情屏妙，理明行彷，此皆于大道缘浅，当需引而不发，使其自得自明然后可以训诫。</span></p>
+	<p><span>凡以经文自误，执著一说不及其余，纠结一得不及全豹，一叶障目不见森林，此皆是难救之下士，需待机缘或可解脱。</span></p>
+	<p><span>妙士遇明师，可以只言片语之间，理法通悟即行既得即彻而明之，此所以“明理三言两语，得丹只在片晌。”</span></p>
+	<p><span>此自然而然妙理，修之即刻得妙，是上士利器。修之不得妙意，是躬行不勤，真性泯灭，悟真难全，真意不至，速退尔后自检讨德行诚意之。</span></p>
+	<p><span>夺先天自然之先机，把握造化之先，绝非人力所能为，要彻底放开俗情俗意，才能占先夺天，此人定胜天本意。</span></p>
+
+</div><!--[if !IE]>|xGv00|d71ea6082866f5f437646529f6b636ac<![endif]-->
+	<!-- 禅语结束 -->
+
+	<div class="pic_list" id="pic_list">
+		<div class="list">
+     <div class="item item_0"><a target="_blank" href="/a/20180604/019534.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/219/1/2279/148192449.jpg" alt="青城山道教赴美国西雅图开展道教文化交流活动"><div class="tips"><div class="content"><p class="name">青城山道教赴美国西雅图开展道教文化交流活</p></div></div></a></div>
+<div class="item item_1"><a target="_blank" href="/a/20180516/018684.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/228/42/2276/148007838.jpg" alt="玄门道艺丨90后道士张化衍 扇面书法习作"><div class="tips"><div class="content"><p class="name">玄门道艺丨90后道士张化衍 扇面书法习作</p></div></div></a></div>
+<div class="item item_2"><a target="_blank" href="/a/20180514/025499.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/46/88/2280/148279486.jpg" alt="玄门道艺丨90后道士刘高育：水墨天青伴知音"><div class="tips"><div class="content"><p class="name">玄门道艺丨90后道士刘高育：水墨天青伴知</p></div></div></a></div>
+<div class="item item_3"><a target="_blank" href="/a/20180502/020262.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/246/254/2273/147866841.jpg" alt="2018第十届南天情慈善公益晚会4月29日晚在定安文笔峰举行"><div class="tips"><div class="content"><p class="name">2018第十届南天情慈善公益晚会4月29</p></div></div></a></div>
+<div class="item item_4"><a target="_blank" href="/a/20180413/017500.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/66/88/2280/148279506.jpg" alt="化衍道人恭录《太上混元道德皇帝清静真经》"><div class="tips"><div class="content"><p class="name">化衍道人恭录《太上混元道德皇帝清静真经》</p></div></div></a></div>
+<div class="item item_5"><a target="_blank" href="/a/20180413/015044.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/107/88/2280/148279547.jpg" alt="诚夏道人书画小集"><div class="tips"><div class="content"><p class="name">诚夏道人书画小集</p></div></div></a></div>
+<div class="item item_6"><a target="_blank" href="/a/20180408/011356.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/242/48/2270/147619232.jpg" alt="上海城隍庙隆重举行戊戌年“祭城隍”大典"><div class="tips"><div class="content"><p class="name">上海城隍庙隆重举行戊戌年“祭城隍”大典</p></div></div></a></div>
+<div class="item item_7"><a target="_blank" href="/a/20180307/018288.htm"><img src="http://img1.gtimg.com/rushidao/pics/hv1/67/210/2265/147335242.jpg" alt="云南省道协龙泉观举行庆祝邱祖圣诞放生祈福法会"><div class="tips"><div class="content"><p class="name">云南省道协龙泉观举行庆祝邱祖圣诞放生祈福</p></div></div></a></div>
+<!--[if !IE]>|xGv00|8de8ad8243dfa62f4a4d66e52804cb66<![endif]--> 
+</div><!--[if !IE]>|xGv00|16787284588c2eef509f1d5c9ccf8329<![endif]-->
+		<div id="waterfall" class="waterfall"><!-- 瀑布流追加数据 --></div><!--[if !IE]>|xGv00|90e0fd4013da2c7c29df854e8a92b50b<![endif]-->
+		<a href="javascript:;" class="more"><span>点击查看更多</span></a>
+	</div>
+</div>
+
+<!-- 底部 -->
+<div class="footWp">
+	<!-- 下载app -->
+	<div class="downapp">
+		<div class="content clearfix">
+			<div class="newsapp fl">
+				<div class="clearfix">
+						<div class="pic"></div>
+					<div class="text">
+						<p class="name">下载腾讯新闻客户端</p>
+						<p class="desp"><span class="fl">订佛学页卡</span><span class="fr">享智慧清流</span></p>
+					</div>
+				</div>
+				<div class="qrcode">
+					<p>手机扫描二维码下载</p>
+					<img src="//mat1.gtimg.com/rushidao/fo2015/img/downnews.jpg" alt="手机扫描二维码下载">
+				</div>
+			</div>
+			<em class="breakline"><!-- 分割线 --></em>
+			<div class="newsapp kuaibao fr">
+				<div class="clearfix">
+						<div class="pic"></div>
+					<div class="text">
+						<p class="name">下载快报客户端</p>
+						<p class="desp">看你想看，说你想说</p>
+					</div>
+				</div>
+				<div class="qrcode">
+					<p>手机扫描二维码下载</p>
+					<img src="//mat1.gtimg.com/rushidao/fo2015/img/downkuaibao.jpg" alt="手机扫描二维码下载">
+				</div>
+			</div>
+		</div>
+	</div><!--[if !IE]>|xGv00|503f310fe3d89031e8e53cccfb43b613<![endif]-->
+	<!-- /下载app -->
+	<!-- 合作伙伴 -->
+	                <div class="cooperation" bosszone="cooperation">
+	<!-- 合作机构 -->
+	<div class="layout">
+		<div class="hd"><h2>合作机构</h2></div>
+		<div class="bd">
+			<a href="http://www.sara.gov.cn/" target="_blank">国家宗教局</a>
+|<a href="http://weibo.com/bjbygwb" target="_blank">北京白云观</a>
+|<a target="_blank" href="http://www.zgnzdjw.com">中国南宗道教网</a>
+|<a href="http://lhsdj.org/cms/" target="_blank">龙虎山道教</a>
+|<a href="http://www.yuchangong.com/">海南玉蟾宫</a>
+|<a href="http://www.shtaoism.com/" target="_blank">上海市道教协会</a>
+|<a target="_blank" href="http://www.hndj.org/">河南省道教协会</a>	 
+|<a target="_blank" href="http://www.hbdjxh.com/">湖北省道教协会</a>	 
+|<a target="_blank" href="http://www.bjtaoism.net/">北京市道教协会</a>	 
+|<a target="_blank" href="http://www.xadjh.org/">西安市道教协会 </a>	 
+|<a target="_blank" href="http://www.sddjxh.com/">山东省道教协会</a>	 
+|<a target="_blank" href="http://www.jsdjxh.com/">江苏省道教协会</a>	 
+|<a target="_blank" href="http://www.hebdj.com/">河北省道教协会</a>	 
+|<a target="_blank" href="http://www.ahdjxh.com/">安徽省道教协会</a>	 
+|<a target="_blank" href="http://www.yntao.com/">云南省道教网</a>	 
+|<a target="_blank" href="http://www.hxdjw.org/">海峡道教网</a>	 
+|<a target="_blank" href="http://www.qhdj.org/">青海省道教协会</a> 
+|<a target="_blank" href="http://www.gxdjxiehui.com/">广西省道教协会</a>	
+|<a target="_blank" href="http://www.lanzhoudaojiao.com/">兰州市道教协会</a>
+|<a href="http://www.msdy.org/" target="_blank">茅山道院文化网</a>
+|<a href="http://www.jiyuandaojiao.com/">济源市阳台宫</a>
+|<a href="http://www.bixiaci.org/" target="_blank">泰山碧霞祠</a>
+|<a target="_blank" href="http://www.dongyuetemple.com/ ">北京东岳庙</a>
+|<a target="_blank" href="http://www.realdao.cn/">知道网</a>
+|<a target="_blank" href="http://www.whccg.com/">武汉长春观</a>
+|<a target="_blank" href="http://www.hktaoist.org.hk/index.php?id=112">香港道教联合会</a>
+|<a target="_blank" href="http://www.wdsdjxy.com/index.asp">武当山道教学院</a>
+|<a href="http://www.dao.zj.cn/" target="_blank">浙江道教学院</a>
+|<a href="http://www.青城山道教学院.com/" target="_blank">青城山道教学院</a>
+|<a target="_blank" href="http://www.xapct.cn/">西安市都城隍庙</a>	 
+|<a target="_blank" href="http://www.xamsg.cn/">骊山明圣宫</a>
+|<a target="_blank" href="http://www.kongtongtour.com/">崆峒山旅游局</a>	 	 	
+|<a target="_blank" href="http://www.taoism.cc/index.php?do=default">四川大学道教与宗教文化研究所</a>
+|<a target="_blank" href="http://www.taoist.org.cn/loadData.do">中国道教协会</a>
+|<a target="_blank" href="http://www.hinabook.com/">后浪出版公司</a>		</div>
+	</div>
+	<!-- /合作机构 --> 
+</div><!--[if !IE]>|xGv00|7da2cded825f84047a9f84205850a0d8<![endif]-->
+	<!-- /合作伙伴 -->
+	<!-- 版权页面片 -->
+	<div class="footer"> 
+		<script>
+var NavNoticeSiteName = ["sports","tech","games","cul","edu","fashion","house","auto","finance","ent"]; 
+</script>
+<script src="//mat1.gtimg.com/www/chrometips/notification2017_v0118.js"></script><!--[if !IE]>|xGv00|160405494288ecc3516e240c185c4fd7<![endif]-->
+<style>
+.tcopyright {width:960px;margin:0 auto;padding:8px 0;font-size:12px;line-height:28px;color:#333; text-align:center; overflow:hidden;clear:both;}
+.tcopyright .en{font-family:Arial;}
+.tcopyright a{color:#333;text-decoration: none;}
+.tcopyright a:hover{color:#bd0a01;text-decoration: underline;}
+</style>
+<div id="tcopyright" class="tcopyright" bosszone="footer" role="contentinfo">
+	<div>
+		<a href="http://www.tencent.com/" target="_blank" rel="nofollow">关于腾讯</a> | <a href="http://www.tencent.com/index_e.shtml" target="_blank" rel="nofollow">About Tencent</a> | <a href="http://www.qq.com/contract.shtml" target="_blank" rel="nofollow">服务协议</a> | <a href="http://www.qq.com/privacy.htm" target="_blank" rel="nofollow">隐私政策</a> | <a href="http://open.qq.com/" target="_blank" rel="nofollow">开放平台</a> | <a href="http://www.tencentmind.com/" target="_blank" rel="nofollow">广告服务</a> | <a href="http://hr.tencent.com/" target="_blank" rel="nofollow">腾讯招聘</a> | <a href="http://gongyi.qq.com/" target="_blank" rel="nofollow">腾讯公益</a> | <a href="http://service.qq.com/" target="_blank" rel="nofollow">客服中心</a> | <a href="http://news.qq.com/zt2014/2014qtnews/ccybspxd.htm
+" target="_blank" rel="nofollow">举报中心</a> | <a href="http://www.qq.com/map/" target="_blank" rel="nofollow">网站导航</a>
+	</div>
+  	<div class="en">Copyright © 1998 - 2018 Tencent. All Rights Reserved</div>
+    <div>
+		<a href="http://www.tencent.com/" target="_blank" rel="nofollow">腾讯公司</a> <a href="http://www.tencent.com/zh-cn/le/copyrightstatement.shtml" target="_blank" rel="nofollow">版权所有</a>
+	</div>
+</div><!--[if !IE]>|xGv00|b6614ae390f3ba6a8cbcc269055b42da<![endif]--> 
+	</div>
+	<!-- /版权页面片  -->	
+</div>
+<!-- 底部结束 -->
+
+<script type="text/javascript" src="/fo2015/js/lib/lib.js"></script><table id="completeTable" cellpadding="0" cellspacing="0" class="soso-smart-m" style="visibility: hidden; left: 732px; top: 66px; width: 230px;"></table>
+<script type="text/javascript" src="/fo2015/js/ui/ui.js"></script>
+<script type="text/javascript" src="/dao2015/js/bin/index/index_main.js"></script>
+<!-- 全站流量统计代码 开始 --> 
+<!--pgv 20160801 by 39815--><script charset="gbk" src="http://pingjs.qq.com/ping.js"></script>
+
+<script>!function(t,e){"use strict";function a(){var t,e,a=(""+p.catalog_full).replace(/-/g,".").replace(/_/g,"-");p.topic&&p.topic.name&&p.topic.name.length>0?(t="L.",e="Z."+a+"."+p.topic.name):(t="L."+a,e="Z.");var n="W."+p.type,o="M."+p.tpl.type+p.tpl.stype,i="P."+(""+p.site).replace(/_/g,"-"),c="F."+f,l=t+"_"+e+"_"+n+"_"+o+"_"+i+"_"+c;l&&r({pgUserType:l})}function n(t){o(e,"click",function(e){var a=e.target;"img"===a.tagName&&(a=a.parentNode);var n=a.tagName.toLowerCase(),o=a.getAttribute("href");if(!o||o.indexOf("qqcom_pgv_from=")>-1)return!1;if("a"===n&&a.hostname&&a.hostname.indexOf("qq.com")>-1){var r=o+(a.search?"&":"?")+"qqcom_pgv_from="+t;a.setAttribute("href",r)}})}function o(a,n,o){var r=function(a){return a=a||t.event,a.target||(a.target=a.srcElement||e),3===a.target.nodeType&&(a.target=a.target.parentNode),a};return a.addEventListener?a.addEventListener(n,function(t){o.call(t.currentTarget,r(t))},!1):a.attachEvent("on"+n,function(t){o.call(a,r(t))}),!0}if(!t||!t.location||"function"!=typeof t.pgvMain)return!1;var r=function(){var e=arguments;setTimeout(function(){t.pgvMain.apply(this,e)},0)},i=location.search.replace(/adtag=client\.qq\.\d+_\.0/i,"from=tips"),c=["aio","tips"],f="def";location.search.indexOf("qqcom_pgv_from=")>-1&&(f=location.host+location.pathname+location.search);var p=t.ARTICLE_INFO||null,l=p&&p.catalog_full;if(l)for(var g=0;g<c.length;g+=1)if(i.indexOf(c[g])>-1){n(c[g]);break}l&&a(),l||("undefined"!=typeof whatCatalog&&(t.pvCSTM=t.whatCatalog),r({pgUserType:"F."+f}))}(window,document);</script><!--/pgv 20160801-->
+<!-- 视频来源ptag --><script src="//mat1.gtimg.com/v/ptag/ptag_1.2.js" async="true"></script>
+<!--[if !IE]>|xGv00|a1d505b81f0731c97405c05986e06bb8<![endif]-->
+<!--[if !IE]>|xGv00|e495268dae03726664c77551e8df25e2<![endif]--> 
+<!-- 全站流量统计代码 结束 -->
+<iframe id="proxy_ifrm" src="http://radio.t.qq.com/proxy.html" style="display: none;"></iframe></body></html><!--[if !IE]>|xGv00|65a5c657aba9b6f17cdb20de4b016107<![endif]-->
