@@ -14,7 +14,7 @@ from com.fj.src.spyder.web_scan_probe import ContentGet_360
 from com.fj.src.spyder.web_scan_probe.selenium＿method import SeleniumMethod
 from com.fj.src.mysql_save_result import MySqlSave
 from com.fj.src.mysql_save_result import TextClean
-
+from com.fj.src.spyder.white_domain_clean_package.domain_clean import DomainClean
 
 if __name__ == "__main__":
     day = sys.argv[1]
@@ -28,6 +28,7 @@ if __name__ == "__main__":
     user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
     proxy = 'http://www.xicidaili.com/wt'
 
+    whitePath = projectPath + "/white_list/white_list.txt"
     for parent, dirnames, filenames in os.walk("/data/qianhuhai/" + day + '/'):
         for dirname in dirnames:
             print(dirname)
@@ -51,20 +52,16 @@ if __name__ == "__main__":
                             print("/data/qianhuhai/" + day + '/' + dirname + '/' + filename)
                             print("有文件")
                             print(dirname)
-                        param = []
+
+                        param = []  #有新文件得清空存放域名的list
                         for i in g.readlines():
                             ki, vl = i.split('\t')
                             param.append(vl.strip("\r\n"))
 
-                        # param=["tk.haotibang.com;101.200.86.162:80;其他;0;1526426870510;1;18;0.5625;taobao.com"
-                        # ,"zs.ylzpay.com;202.101.157.200:8060;其他;0;1526426405595;1;4;0.61538464;alipay.com"
-                        #    ,"zf.crv.com.cn;120.192.82.239:80;其他;0;1526427860332;1;5;0.61538464;cmbc.com.cn"
-                        #    ,"tech.cpic.com.cn;117.131.74.128:80;其他;0;1526428690318;5;18;0.625;epicc.com.cn"
-                        #    ,"www.100585.cn;47.90.53.47:80;其他;0;1526427560271;3;46;0.53846157;10086.cn"
-                        #    ]
-                        #
+                        black=DomainClean(param,whitePath).cleanDomain() #清洗一下
 
-                        sm=SeleniumMethod(phantomJsPath,proxy,param,url360,user_agent)
+
+                        sm=SeleniumMethod(phantomJsPath,proxy,black,url360,user_agent)
 
                         sm.getIpList()
 

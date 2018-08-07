@@ -1,10 +1,14 @@
 # _*_ coding=utf-8 _*_
 
 import re
+import os,sys
 
-f=open("/home/qianhuhai/Documents/PycharmProjects/com-fj-phishing-2/com/fj/src/white_list/result.txt",'r')
+projectPath=os.getcwd()
+
+
+f=open(projectPath+"/white_list/result.txt",'r')
 L=[]
-with open("/home/qianhuhai/Documents/PycharmProjects/com-fj-phishing-2/com/fj/src/white_list/white_list.txt",
+with open(projectPath+"/white_list/white_list.txt",
           'w') as g:
    for i in f.readlines():
        j=i.strip('\r\n')
@@ -26,8 +30,9 @@ with open("/home/qianhuhai/Documents/PycharmProjects/com-fj-phishing-2/com/fj/sr
            print("no urls")
    for l in L:
 
-       url=l[0]
-       # print(url)
+       url=l.group(0)
+
+       url=re.sub('www.','',url)
        g.write(url+'\n')
 
 f.close()
