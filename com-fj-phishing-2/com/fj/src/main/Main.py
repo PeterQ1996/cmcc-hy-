@@ -87,7 +87,7 @@ if __name__ == "__main__":
                                 os.makedirs(projectPath + '/data_copy' + '/' + day +'/'+dirname)
                             shutil.move("/data/qianhuhai/" + day + '/' + dirname + '/' + filename,
                                         projectPath+'/data_copy'+'/'+ day +'/'+dirname +'/'+filename)
-
+                            os.remove("/data/qianhuhai/" + day + '/' + dirname + '/' + filename)
                         except:
                             print("移出文件出错!")
                 except:
