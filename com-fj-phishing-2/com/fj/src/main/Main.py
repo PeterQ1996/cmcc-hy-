@@ -3,7 +3,7 @@
 
 
 import traceback
-import os, sys
+import os, sys,shutil
 
 projectPath = os.getcwd()  # lujing
 sys.path.append(projectPath)
@@ -78,5 +78,17 @@ if __name__ == "__main__":
                         TextClean.TextClean()
                         if os.path.isfile(projectPath + "web_scan_probe/web-content"):
                             os.remove(projectPath + "/web_scan_probe/web-content")
+                        try:
+                            if not os.path.exists(projectPath + '/data_copy'):
+                                os.makedirs(projectPath + '/data_copy')
+                            if not os.path.exists(projectPath + '/data_copy' + '/'+day):
+                                os.makedirs(projectPath + '/data_copy'+'/'+day )
+                            if not os.path.exists(projectPath + '/data_copy' + '/'+day +'/'+dirname):
+                                os.makedirs(projectPath + '/data_copy' + '/' + day +'/'+dirname)
+                            shutil.move("/data/qianhuhai/" + day + '/' + dirname + '/' + filename,
+                                        projectPath+'/data_copy'+'/'+ day +'/'+dirname +'/'+filename)
+
+                        except:
+                            print("移出文件出错!")
                 except:
                     print("system error")
