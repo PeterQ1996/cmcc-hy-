@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import  WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
 from urllib import request
 import random
@@ -12,6 +15,9 @@ from bs4 import BeautifulSoup
 import hashlib
 import traceback
 import re
+import time
+
+
 projectPath=os.getcwd()
 sys.path.append(projectPath)
 
@@ -27,7 +33,23 @@ class SeleniumMethod():
         self.user_agent=user_agent
         self.param=param
         self.l=[]
-         # 获取相应的根目录
+
+        '''
+        配置phantomjs的参数
+        '''
+        self.cap = webdriver.DesiredCapabilities.PHANTOMJS
+        self.cap["phantomjs.page.settings.resourceTimeout"] = 10
+        self.cap["phantomjs.page.settings.loadImages"] = False
+        self.cap["phantomjs.page.settings.disk-cache"] = False
+
+        self.cap[
+            "phantomjs.page.settings.userAgent"] = self.user_agent
+
+        self.cap[
+            "phantomjs.page.customHeaders.User-Agent"] = self.user_agent
+
+
+        # 获取相应的根目录
         if not os.path.exists(projectPath + '/web_scan_probe'):
             os.makedirs(projectPath + '/web_scan_probe')
 
@@ -57,8 +79,8 @@ class SeleniumMethod():
     def getIpList(self):
 
 
-            driver = webdriver.PhantomJS(executable_path= self.phantomJsPath)
-            driver.set_window_size(1366, 768)
+            driver = webdriver.PhantomJS(executable_path = self.phantomJsPath,desired_capabilities=self.cap)
+
 
             for i in self.param:
 
@@ -72,15 +94,20 @@ class SeleniumMethod():
                     hmd.update(hostname_encode)  # 生成文件的MD5值，MD5是一种哈希算法
                     md5_filename = hmd.hexdigest()
                     try:
-                        driver.get("http://webscan.360.cn/index/checkwebsite?url="+hostname.strip('\r\n'))
+                        driver.get(self.url360+hostname.strip('\r\n'))
 
-
-                        #inputs = driver.find_elements_by_id('webscan6').text
+                        time.sleep(40)
+                        # diaoyu_sec_360=WebDriverWait(driver,60).until(
+                        #     EC.presence_of_element_located((By.XPATH,'//*[@id="diaoyu_sec"]'))
+                        # )
+                        # diaoyu_report_360 = WebDriverWait(driver, 60).until(
+                        #     EC.presence_of_element_located((By.XPATH, '//*[@id="report_diaoyu"]/div[1]'))
+                        # )
 
                         diaoyu_sec_360 = driver.find_element_by_xpath('//*[@id="diaoyu_sec"]')
                         diaoyu_report_360 = driver.find_element_by_xpath('//*[@id="report_diaoyu"]/div[1]')
-                        print("diaoyu_sec:"+diaoyu_sec_360.text)
-                        print("diaoyu_report:" + diaoyu_report_360.text)
+
+
 
                         if diaoyu_sec_360.text == '有虚假或欺诈':
                             self.l.append([hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum,
@@ -100,6 +127,7 @@ class SeleniumMethod():
                             traceback.print_exc()
                             print("Warning:the phantomjs has error")
 
+            driver.quit()
             with open(projectPath + "/web_scan_probe/web-content", 'a') as L:
                for i in self.l:
                   L.write(str(i).strip("[]") + '\n')
@@ -108,11 +136,11 @@ class SeleniumMethod():
 
 if __name__ == '__main__':
     phontomJsPath = projectPath + "/phantomjs-2.1.1-linux-x86_64/bin/phantomjs"
-
+    print(phontomJsPath)
     url360 = "http://webscan.360.cn/index/checkwebsite?url="
     url_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
 
-    proxy = 'http://www.xicidaili.com/wt'
+    proxy = 'http://www.xicidaili.com/wt'  #代理ip池
 
     # param=["cc599.com;101.200.86.162:80;其他;0;1526426870510;1;18;0.5625;taobao.com"
     #                     ,"zs.ylzpay.com;202.101.157.200:8060;其他;0;1526426405595;1;4;0.61538464;alipay.com"
