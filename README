@@ -1,3 +1,9 @@
+1.1  新增了flashtext,增加了过滤白名单的功能
+1.0  版新增了bs4,selenium,phantomjs
+
+
+
+
 报错:
 Traceback (most recent call last):
   File "com/fj/src/spyder/web_scan_probe/selenium＿method.py", line 60, in getIpList
