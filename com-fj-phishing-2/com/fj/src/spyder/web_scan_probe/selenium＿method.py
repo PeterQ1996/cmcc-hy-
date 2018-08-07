@@ -24,6 +24,8 @@ sys.path.append(projectPath)
 SEC=5
 randomSEC=SEC+random.randint(0,9)/10 #sleep时间
 
+LOADSEC=40 #加载时延
+
 class SeleniumMethod():
 
     def __init__(self,phantomJsPath,proxy,param,url360,user_agent):
@@ -96,7 +98,7 @@ class SeleniumMethod():
                     try:
                         driver.get(self.url360+hostname.strip('\r\n'))
 
-                        time.sleep(40)
+                        time.sleep(LOADSEC)
                         # diaoyu_sec_360=WebDriverWait(driver,60).until(
                         #     EC.presence_of_element_located((By.XPATH,'//*[@id="diaoyu_sec"]'))
                         # )
