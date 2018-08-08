@@ -1,0 +1,300 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <title>同城绯聊-同城约pao神器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link href="css/demo.css" rel="stylesheet" type="text/css">
+    <link href="css/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet" type="text/css">
+    <style>
+        .nav_lists {
+            max-width: 640px;
+            width: 100%;
+            margin: 0 auto;
+            background: #332828;
+            overflow: hidden;
+        }
+        .nav_lists li {
+            float: left;
+            width: 25%;
+        }
+        .nav_lists li a {
+            display: block;
+            padding: 8px 0;
+            text-align: center;
+            font-size: 0.875em;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!--以下为充值弹出提示框-->
+    <div id="tc1" class="tc2" style="display: none;">
+        <a class="c_btn" href="javascript:;" onclick="hideDiv()"></a>
+        <div class="tc2_li">
+            <span>'警告！该软件禁止18岁以下用户使用！' </span>
+        </div>
+        <a id="downUrl" class="btn_zc6" onclick="lc()">点击普通下载，无需安装插件</a>
+        <div style="height:2px; clear:both"></div>
+    </div>
+    <div id="tc2" class="mask" style="display: none;"></div>
+    <div class="contant">
+        <div class="jiange2" style=" position:fixed;  width:100%; left:0; top:0;">
+            <div class="nav_lists" onclick="showDiv()">
+                <ul>
+                    <li>
+                        <a>同城约会</a>
+                    </li>
+                    <li>
+                        <a>寂寞交友</a>
+                    </li>
+                    <li>
+                        <a>成人社区</a>
+                    </li>
+                    <li>
+                        <a>隐秘交友</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contant_list" style="padding:22px 4%;">
+            <div class="index-item" onclick="showDiv()">
+                <a href="javascript:;">
+                    <dl class="clearfix">
+                        <dt>
+                            <img src="http://wx4.sinaimg.cn/large/645a17d6gy1ffeusa7ounj201e01e3ya.jpg" id="img1">
+                        </dt>
+                        <dd class="dd01">
+                            <p>
+                                <span class="uname" id="name1">狼的男人</span>
+                            </p>
+                            <p class="tag">
+                                <span class="blue">使用时间：1天
+                                    <script>document.write(Math.floor(Math.random() * 12 + 1))</script>2小时
+                                    <script>document.write(Math.floor(Math.random() * 58 + 1))</script>57分</span>
+                        </p></dd>
+                        <dd class="dd02">约成功</dd>
+                    </dl>
+                    <div class="clear"></div>
+                    <p class="info">
+                        <em style=" color:#FF0000;">【绝逼神器】</em>目前来说用过最好的一个同城约P软件，没有之二！！骗子死全家！</p>
+                    <ul class="clearfix" onclick="showDiv()">
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/1/1.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/1/2.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/1/3.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="juli">
+                        <em class="icon-fujin-copy"></em>
+                        <span style=" color:#B6B6B6; font-size:0.8em; margin-top:6px; display:block;" id="time1">2018/08/07 18:54</span>
+                    </div>
+                </a>
+            </div>
+            <div class="index-item" style=" overflow:hidden;" onclick="showDiv()">
+                <a href="javascript:;">
+                    <dl class="clearfix">
+                        <dt>
+                            <img src="http://wx2.sinaimg.cn/large/645a17d6gy1ffeusfouexj201e01ewe9.jpg" id="img2">
+                        </dt>
+                        <dd class="dd01">
+                            <p>
+                                <span class="uname" id="name2">左岸夕阳</span>
+                            </p>
+                            <p class="tag">
+                                <span class="blue">使用时间:1天
+                                    <script>document.write(Math.floor(Math.random() * 12 + 1))</script>10小时
+                                    <script>document.write(Math.floor(Math.random() * 58 + 1))</script>32分</span>
+                        </p></dd>
+                        <dd class="dd02" id="m1" style="background-color: rgb(195, 195, 195); background-position: initial initial; background-repeat: initial initial;">进行中</dd>
+                    </dl>
+                    <div class="clear"></div>
+                    <p class="info">
+                        <em style=" color:#FF0000;">【不可置信】</em>刚开始还以为是个骗子软件，没有真人，结果玩了一会，全都是尼玛真人，还真约到了！哈哈！</p>
+                    <ul class="clearfix" onclick="showDiv()">
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/2/1.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/2/2.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/2/3.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="juli">
+                        <em class="icon-fujin-copy"></em>
+                        <span style=" color:#B6B6B6; font-size:0.8em; margin-top:6px; display:block;" id="time2">2018/08/07 14:05</span>
+                    </div>
+                </a>
+            </div>
+            <div class="index-item" style="overflow:hidden;" onclick="showDiv()">
+                <a href="javascript:;">
+                    <dl class="clearfix">
+                        <dt>
+                            <img src="http://wx3.sinaimg.cn/large/645a17d6gy1ffeuscjucdj201e01ewe9.jpg" id="img3">
+                        </dt>
+                        <dd class="dd01">
+                            <p>
+                                <span class="uname" id="name3">那爱、太假</span>
+                            </p>
+                            <p class="tag">
+                                <span class="blue">使用时间:1天
+                                    <script>document.write(Math.floor(Math.random() * 12 + 1))</script>7小时
+                                    <script>document.write(Math.floor(Math.random() * 58 + 1))</script>31分</span>
+                        </p></dd>
+                        <dd class="dd02" id="m2" style="background-color: rgb(8, 193, 55); background-position: initial initial; background-repeat: initial initial;">约成功</dd>
+                    </dl>
+                    <div class="clear"></div>
+                    <p class="info">
+                        <em style=" color:#FF0000;">【骗人绕道】</em>随便玩了下，这里面都是些寂寞女人，腿超长！哈哈，太简单，绝逼神器！</p>
+                    <ul class="clearfix" onclick="showDiv()">
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/3/1.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/3/2.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/3/3.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="juli">
+                        <em class="icon-fujin-copy"></em>
+                        <span style="color:#B6B6B6; font-size:0.8em; margin-top:6px; display:block;" id="time3">2018/08/07 10:02</span>
+                    </div>
+                </a>
+            </div>
+            <div class="index-item" onclick="showDiv()">
+                <a href="javascript:;">
+                    <dl class="clearfix">
+                        <dt>
+                            <img src="http://wx1.sinaimg.cn/large/645a17d6gy1ffeusicjnaj201e01ejr6.jpg" id="img4">
+                        </dt>
+                        <dd class="dd01">
+                            <p>
+                                <span class="uname" id="name4">一生幸福</span>
+                            </p>
+                            <p class="tag">
+                                <span class="blue">使用时间:1天
+                                    <script>document.write(Math.floor(Math.random() * 12 + 1))</script>11小时
+                                    <script>document.write(Math.floor(Math.random() * 58 + 1))</script>19分</span>
+                        </p></dd>
+                        <dd class="dd02" id="m3" style="background-color: rgb(8, 193, 55); background-position: initial initial; background-repeat: initial initial;">约成功</dd>
+                    </dl>
+                    <div class="clear"></div>
+                    <p class="info">
+                        <em style=" color:#FF0000;">【极力推荐】</em>身家性命作保证，现场实拍图！约不到，只能怪你太差劲！哈哈！</p>
+                    <ul class="clearfix" onclick="showDiv()">
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/4/1.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/4/2.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/4/3.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="juli">
+                        <em class="icon-fujin-copy"></em>
+                        <span style="color:#B6B6B6; font-size:0.8em; margin-top:6px; display:block;" id="time4">2018/08/07 01:11</span>
+                    </div>
+                </a>
+            </div>
+            <div class="index-item" onclick="showDiv()">
+                <a href="javascript:;">
+                    <dl class="clearfix">
+                        <dt>
+                            <img src="http://wx4.sinaimg.cn/large/645a17d6gy1ffeus7fh3yj201e01ewe9.jpg" id="img5">
+                        </dt>
+                        <dd class="dd01">
+                            <p>
+                                <span class="uname" id="name5">浪人诱惑</span>
+                            </p>
+                            <p class="tag">
+                                <span class="blue">使用时间:1天
+                                    <script>document.write(Math.floor(Math.random() * 12 + 1))</script>1小时
+                                    <script>document.write(Math.floor(Math.random() * 58 + 1))</script>22分</span>
+                        </p></dd>
+                        <dd class="dd02" id="m4" style="background-color: rgb(8, 193, 55); background-position: initial initial; background-repeat: initial initial;">约成功</dd>
+                    </dl>
+                    <div class="clear"></div>
+                    <p class="info">
+                        <em style=" color:#FF0000;">【狼友必备】</em>玩了不到一天，效果见图，绝对推荐给广大狼友使用，绝对的超级大福利！</p>
+                    <ul class="clearfix" onclick="showDiv()">
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/5/1.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/5/2.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pic">
+                                <img src="./images/sub/5/3.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="juli">
+                        <em class="icon-fujin-copy"></em>
+                        <span style="color:#B6B6B6; font-size:0.8em; margin-top:6px; display:block;" id="time5">2017/02/26 08:21</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bottom_fd">
+            <div class="bottom_btn">
+                <a onclick="lc()">
+                    <em>最快1分钟搞定</em>&nbsp; &nbsp;立即下载</a>
+            </div>
+        </div>
+        <div id="wechrtTip" onclick="hideWechartTip()" style="display:none;position:fixed;z-index:1000;width:100%;height:100%;top:0;left:0;">
+            <!-- <img src="./images/live_weixin.png" style="width:100%;height:100%"> -->
+        </div>
+    </div>
+    <script type="text/javascript" src="//res.cdn.openinstall.io/openinstall.js"></script>
+    
+    <script type="text/javascript" src="js/nickname_img.js"></script>
+    <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/lc7.js"></script>
+
+</body></html>

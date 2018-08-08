@@ -1,0 +1,1053 @@
+<!DOCTYPE html><html class=" js cssgradients generatedcontent" layer-full="1" style="overflow: hidden;"><head>
+            
+
+    <title>乾彩娱乐</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="origin-when-cross-origin" name="referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+
+    <link rel="stylesheet" href="/css/idangerous.swiper.css">
+    
+    <script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/js/idangerous.swiper.min.js"></script>
+    <script type="text/javascript" src="/js/maxFloat.1.1.js"></script>
+    <script>var base = '';</script>
+    <script src="/common/template/member/common.js"></script>
+            
+
+<link rel="stylesheet" href="/common/modelCommon/layer/css/layer.css">
+<link rel="stylesheet" href="/common/modelCommon/layer/css/style.css">
+<script src="/common/modelCommon/layer/js/layer.min.js"></script><link rel="stylesheet" href="http://qiancai1.com/common/modelCommon/layer/js/../css/layer.css" id="layui_layer_csslayercss" style="">
+<script src="/common/jquery/jquery.cookie.js"></script>
+<script>
+	$(function() {
+		$.ajax({
+					url : "/getConfig/getArticle.do",
+					data : {
+						code : 14
+					},
+					type : "post",
+					dataType : 'json',
+					success : function(j) {
+						var title = "";
+						var content = "";
+						var temp = -1;
+						if (j.length > 0) {
+							if (j[0].index) {
+								var fw = 550;
+								var fh = 550;
+								if (j[0].frameWidth && j[0].frameHeight) {
+									fw = j[0].frameWidth;
+									fh = j[0].frameHeight;
+								}
+								title = j[0].title;
+								if (!title) {
+									title = " ";
+									temp = 1;
+								}
+								
+								var showStyle = $('#showStyle').val();
+								if(!showStyle){
+									layer.open({
+										type : 1, //page层
+										area : [ fw + 'px', fh + 'px' ],
+										title : title,
+										shade : 0.6, //遮罩透明度
+										scrollbar : false,
+										offset : '16%',//距离顶部
+										moveType : 0, //拖拽风格，0是默认，1是传统拖动
+										shift : 1, //0-6的动画形式，-1不开启
+										content : '<div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;">'
+												+ j[0].content + '</div>'
+									});
+									if (temp < 0) {
+										$('.layui-layer-title').css({
+// 											'height' : '30px',
+// 											'line-height' : '0px',
+											'font-size' : '16px',
+											'color' : '#4c2515',
+											'font-weight' : 'bold',
+											'text-align' : 'center',
+// 											'margin-bottom' : '10px',
+											//'overflow': 'hidden',
+											'text-overflow' : 'ellipsis',
+											'white-space' : 'nowrap',
+											'padding' : '10px'
+										})
+									}
+								}else{
+									
+									$(function(){
+										  if ($.cookie('SHOW_FRAME')){
+									             $("#LsjmyModal").hide();
+									             $('#Lsj-fkinglayer').hide();
+									             return;
+									         }else{
+									        	 if (temp > 0) {
+									        		 $('#LsjmyModal #Lsj_modal-header').remove();
+									        	 }else{
+									        		 $('#LsjmyModal #lsj_title').html(title);
+									        	 }
+									        	 $('#LsjmyModal #Lsj_modal-content').css('width',fw);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').css('height',fh);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').html(j[0].content);
+									            $('#Lsj-fkinglayer').show();
+									            $("#LsjmyModal").show();    
+									         }
+									});
+									
+								}
+							
+							}
+						}
+
+					}
+				});
+	});
+	
+    function removers(i) {
+        if (i == 1) {
+            $.cookie('SHOW_FRAME', 'Y', {path: '/', expires: ''});
+        }
+        $('#LsjmyModal').remove();
+    }
+</script>
+<!-- 红包功能 -->
+
+	<script src="/common/js/redpacket/redbag.js?v=1.3.5" path=""></script>
+
+<!-- 转盘功能 -->
+
+<!-- 签到功能 -->
+
+<!-- 统计代码 -->
+</head><body class="official-site" x-ms-format-detection="none"><div style="position: fixed; z-index: 99999999; bottom: 0;"></div>
+<!-- 弹窗 -->
+<div id="LsjmyModal" class="Lsj-Modal">
+    <div class="Lsj_modal-content pop_border_color" id="Lsj_modal-content">
+    
+        <div class="Lsj_modal-header pop_title_box_bcolor" id="Lsj_modal-header">
+            <span class="Lsj-close" onclick="removers();">×</span>
+            <h3 class="pop_title_color" id="lsj_title"></h3>
+        </div>
+        
+        <div class="Lsjmodal-body_contents pop_box_bg_color" id="Lsjmodal-body_contents"></div>
+        
+        <div class="Lsj_modal-footer">
+            <div class="Lsjbtn-bottom-two-right">
+                <button class="Lsj_okBtn Lsj_outline" onclick="removers(1);">下次不再显示</button>
+                <button class="Lsj_okBtn Lsj_filled" onclick="removers();">确定</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="Lsj-fkinglayer" style="display: none;"></div>
+</div>
+   
+            <link rel="stylesheet" href="/css/main.css">
+        
+
+        
+            <!-- container -->
+            <div class="container">
+                <!-- header -->
+                
+    
+
+        <!--       头部用户登录 login-info       -->
+
+        <div class="top-box">
+            <div class="main clear">
+                <div class="bar-left">
+                    <span>PLAY RESPONSIBLY</span>
+                </div>
+                <div class="bar-right">
+                    <div class="fright">
+                        <div>
+                            
+                            <div class="login-area">
+                                <span class="login-mane">
+                                    <input type="text" class="input_tip" value="" id="username" name="username" maxlength="20" placeholder="请输入账号">
+                                </span>
+                                <span class="login-password">
+                                    <input type="password" class="input_tip" value="" id="password" name="password" maxlength="20" placeholder="请输入密码">
+                                </span>
+                                <span class="login-password" style="width:158px;background-position: 0 -479px;padding: 6px 2px 2px 0;">
+                                    <input type="text" class="input_tip" value="" id="verifyCode" placeholder="验证码">
+                                    <img class="validcode" style="position: absolute;right: 25px;top: 5px;width: 54px;height: 27px;" src="/verifycode.do?timestamp=1533703423346">
+                                </span>
+                                <a title="登录" class="btn-login" style="position:relative" id="loginSubmitBtn">
+                                    <span id="loginSubmitBtn" name="button">登录</span>
+                                    <input type="button" id="loginSubmitBtn" name="button" onclick="loginA()" class="btn-login" style="position:absolute;left:0;top:0;height:34px;width:100px;margin:0;filter:alpha(opacity=0);opacity:0;">
+                                </a>
+
+                                <a title="免费开户" href="/regpage.do" class="btn-member bnt-register">免费开户</a>
+                                <a type="button" title="游客试玩" href="/registerGuestPage.do" class="btn-member bnt-register">游客试玩</a>
+
+                                <a title="忘记密码" href="javascript:alert('请联系客服人员！')" id="forgetBtn" class="btn-member">忘记密码</a>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+    
+
+        <!--      头部导航nav nav nav    -->
+
+        <div class="header">
+            <div class="main">
+                <div class="header-main ">
+                    <div class="logo_icon">
+                        <div class="logo fleft">
+                            <a href="/index.do"></a>
+                        </div>
+                    </div>
+                    <div class="menu-box">
+                        <div class="menu">
+
+                            
+                                <ul class="clear">
+                                    <li data-item="lot_hall" id="lot_hall">
+                                        <a href="javascript:alert('您还未登录，请登录后进行操作!');" class="lottery" data-item="lot_hall">
+                                            <div>购彩中心</div>
+                                            <span>LOTTERY</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:alert('您还未登录，请登录后进行操作!');" class="UserCenter">
+                                            <div>用户中心</div>
+                                            <span>USERCENTER</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:alert('您还未登录，请登录后进行操作!');" class="Activity">
+                                            <div>优惠活动</div>
+                                            <span>ACTIVITY</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:alert('您还未登录，请登录后进行操作!');" class="Announncement">
+                                            <div>代理加盟</div>
+                                            <span>ANNOUNCEMENT</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:alert('您还未登录，请登录后进行操作!');" class="GameInformation">
+                                            <div>彩种信息</div>
+                                            <span>GAMEINFORMATION</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:alert('您还未登录，请登录后进行操作!');" class="mobile">
+                                            <div>手机下注</div>
+                                            <span>MOBILE</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            
+                            
+                        </div>
+                        <div class="menu-child1" style="display: none;" id="lot_sec_menu">
+                            <div class="gamelist-1 clear">
+                                <div class="credit_play">
+                                    <div class="gamelist_tit clear">
+                                        <h1 class="orange_style">信用玩法</h1>
+                                        <div class="color">信</div>
+                                    </div>
+                                    <div class="high_wrap">
+                                        <div class="gamelist_r">
+                                            <ul>
+                                                <li>
+                                                    <a class="game_1" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/6HC.png">
+                                                        <span class="hot">
+                                                            <font>香港六合彩</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_4" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/GD11X5.png">
+                                                        <span class="hot">
+                                                            <font>广东11选5</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_6" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/FC3D.png">
+                                                        <span class="hot">
+                                                            <font>福彩3D</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_7" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/ZQSSC.png">
+                                                        <span class="hot">
+                                                            <font>重庆时时彩</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_97" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/XYFT.png">
+                                                        <span class="hot">
+                                                            <font>幸运飞艇</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_13" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/ZQKS.png">
+                                                        <span class="hot">
+                                                            <font>幸运农场</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_15" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/BJPKS.png">
+                                                        <span class="hot">
+                                                            <font>北京PK拾</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_22" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/JSKS.png">
+                                                        <span class="hot">
+                                                            <font>江苏快3</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_15" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/BJPKS.png">
+                                                        <span class="hot">
+                                                            <font>极速赛车</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_1" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/6HC(1).png">
+                                                        <span class="hot">
+                                                            <font>极速六合彩</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_1" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/JSSSC.png">
+                                                        <span class="hot">
+                                                            <font>极速时时彩</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_9" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/TJSSC.png">
+                                                        <span class="hot">
+                                                            <font>天津时时彩</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_10" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/XJSSC.png">
+                                                        <span class="hot">
+                                                            <font>新疆时时彩</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_101" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/XY28.png">
+                                                        <span class="hot">
+                                                            <font>幸运28</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="game_5" href="javascript:alert('您还未登录，请登录后进行操作!');">
+                                                        <img src="/images/GDKS.png">
+                                                        <span class="hot">
+                                                            <font>广东快十</font>
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="triangles_back"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- header end -->
+                <!--  插入内容  -->
+                <div class="main_wrap">
+                    <div class="content">
+                        <div class="home-con">
+                            <div class="banner">
+                                <div class="wrapper">
+                                    <!--             轮播图            -->
+                                    
+
+<script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<style type="text/css">
+    /* 本例子css */
+    .slideBox{ width:100%; overflow:hidden; position:relative;  }
+    .slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:45%; bottom:45px; z-index:1; }
+    .slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+    .slideBox .hd ul li{ float:left; margin-right:10px;  width:40px; height:7px; line-height:14px; text-align:center; background:#fff; cursor:pointer;border-radius: 7px;}
+    .slideBox .hd ul li.on{ background:#f39800; color:#fff; }
+    .slideBox .bd{ position:relative; height:100%; z-index:0;   }
+    .slideBox .bd li{ zoom:1; vertical-align:middle; }
+    .slideBox .bd img{height:100%; display:block;  }
+</style>
+<div id="slideBox" class="slideBox">
+    <!-- 轮播图 -->
+    <div class="bd">
+        <ul id="lunbo"><li><a><img src="https://yb6.me/img/IDiF/OIpVPI9G3.png"></a></li><li style="display: none;"><a><img src="https://yb6.me/img/IDiF/OIpTbozCf.png"></a></li><li style="display: none;"><a><img src="https://yb6.me/img/IDiF/Xg6ckCqwG.png"></a></li></ul>
+    </div>
+    <!-- 点点点 -->
+    <div class="hd">
+        <ul><li class="on"></li><li></li><li></li></ul>
+    </div>
+</div>
+<script type="text/javascript">
+    function lunbo() {
+        $.ajax({
+            url : "/getConfig/getLunBo.do",
+            type : "GET",
+            dataType : "json",
+            success : function(j) {
+                var col = '';
+                var dian = '';
+                imgsize = j.length;
+                for (var i = 0; i < imgsize; i++) {
+                    col += '<li><a><img src="'+j[i].titleImg+'" /></a></li>'
+                    dian += '<li></li>';
+                }
+                $("#lunbo").html(col);
+                $("div.hd ul").html(dian);
+                jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+            }
+        });
+    }
+
+    lunbo();
+
+</script>
+                                </div>
+                            </div>
+                            <div class="more_game">
+                                <div class="middle_min">
+                                    <div class="more_game_middle">
+                                        <div class="columns">
+                                            <!--               热门游戏              -->
+                                            
+    
+
+        <!--               热门游戏              -->
+        <div class="col_a clearfix">
+            <h1 class="hotgame_tit"></h1>
+            <div class="hotgame_con">
+                <div class="official_games">
+                    <ul>
+                        <li class="official_game">信用玩法
+                            <span class="color">信</span>
+                        </li>
+                        <li class="high_frequency">高频游戏</li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">重庆时时彩
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">北京快乐8
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">北京PK拾
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">江苏快3
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">幸运农场
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">新疆时时彩
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">广东11选5
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">广东快乐十分
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">幸运飞艇
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">天津时时彩
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">极速时时彩
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">极速赛车
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot15">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">极速六合彩
+                                <i data-time="300" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="play_hidden">
+                        <li class="low_frequency">低频游戏</li>
+                        <li class="navlot15">
+                            <a href="http://5555k.net/href=" javascript:void(0);="" "=" " onclick="alert( '您还未登录，请登录后进行操作!'); ">福彩3D<i data-time="300
+                                " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                            <!-- <li class="navlot15 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">排列三、五<i data-time="300 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li> -->
+                                                            <li class="navlot15 ">
+                                                                <a href="javascript:void(0);" onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">香港六合彩<i data-time="300 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                            <!-- <div class="credit_games " style="display:none; ">
+                                                <ul>
+                                                    <li class="credit_game ">信用玩法<span class="color ">信</span></li>
+                                                            <li class="navlot11 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">香港六合彩 <i data-time="48000 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                            <li class="navlot11 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">广东11选5 <i data-time="48000 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                            <li class="navlot11 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">广西快十 <i data-time="48000 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                            <li class="navlot11 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">重庆时时彩 <i data-time="48000 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                            <li class="navlot11 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">天津时时彩 <i data-time="48000 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                            <li class="navlot11 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); ">新疆时时彩 <i data-time="48000 " style="float:right; " class="lottime_go "></i></a>
+                                                            </li>
+                                                            <li class="navlot11 ">
+                                                                <a href="javascript:void(0); " onclick="alert(
+                                '您还未登录，请登录后进行操作!'); "">幸运农场
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">北京PK拾
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">江苏快3
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">北京时时彩
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">QQ分分彩
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">幸运飞艇
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">江苏11选5
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">澳洲3分彩
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">上海11选5
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">河北快3
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">新加坡2分彩
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">韩式1.5分彩
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">新疆11选5
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">幸运28
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">广东快十
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                        <li class="navlot11">
+                            <a href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">腾讯分分彩
+                                <i data-time="48000" style="float:right;" class="lottime_go"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="play_hidden">
+                        <li class="caipiao_game">彩票游戏</li>
+                        <li>
+                            <a href="javascript:;" onclick="popshow('popup_tc')">其他游戏</a>
+                        </li>
+                    </ul>
+                </div> -->
+
+            </div>
+        </div>
+
+                                            <!--               热门彩票              -->
+                                            
+    
+    
+        <!--               热门彩票              -->
+        <div class="col_b clearfix">
+            <h1 class="baccarat_tit"></h1>
+            <div class="baccarat_con">
+                <div class="baccarat">
+                    <ul>
+                        <li>
+                            <a class="BJPKS" href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">
+                                <span>北京PK拾</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ZQSSC" href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">
+                                <span>重庆时时彩</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="XYFT" href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">
+                                <span>幸运飞艇</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="JSKS" href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">
+                                <span>江苏快三</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="XGLHC" href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">
+                                <span>香港六合彩</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="XY28" href="javascript:void(0);" onclick="alert('您还未登录，请登录后进行操作!');">
+                                <span> 幸运28</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+                                        </div>
+                                        <div class="showbar_index">
+                                            <div class="container_index">
+                                                <!--        news count      -->
+                                                
+    
+
+        <div class="count" id="JCountsInfo">
+            <ul>
+                <li class="body" id="body">14598</li>
+                <li class="bet" id="bet">29350679</li>
+                <li class="withdraw" id="withdraw">50622</li>
+            </ul>
+        </div>
+        <div class="radio">
+            <div class="tit"></div>
+            <div class="wrap">
+                <!--         最新公告       -->
+                <div id="JMarqueeLukys" class="marquee" data-direction="top" data-speed="15" style="height:120px;">
+                    <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">
+                        <div style="position: absolute; top: 0;width: 100%;height: 100%;">
+                            <marquee scrollamount="5" scrolldelay="10" direction="up" nowarp="" onmouseover="this.stop();" onmouseout="this.start();" style="width:100%;height:100%; text-align: center">
+                                乾彩娱乐于北京时间2018年7月14日凌晨起，网站的下注全部不得超过70%，请严格准守本网站的游戏规则，如有疑问请联系在线客服!网站出款时间为：北京时间10:00am—02:30pm请悉知，如有不便还请谅解！
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="imgshow">
+                <ul class="clear">
+                    <li class="gservice">
+                        <i></i>
+                        <p>金牌服务</p>
+                        <span>追求卓越，提高品质</span>
+                    </li>
+                    <li class="top">
+                        <i></i>
+                        <p>顶级信誉</p>
+                        <span>宁损万金，不失半信</span>
+                    </li>
+                    <li class="ue">
+                        <i></i>
+                        <p>便捷体验</p>
+                        <span>用户至上，追求体验</span>
+                    </li>
+                    <li class="sqt">
+                        <i></i>
+                        <p>安全保障</p>
+                        <span>实力公司，品质服务</span>
+                    </li>
+                </ul>
+            </div>
+            <script>
+                function random(id, num, base) {
+                    var obj = document.getElementById(id);
+                    var num2;
+                    num2 = base < 0 ? 10 : 0;
+                    setInterval(function () {
+                        num += parseInt(Math.random() * base) + num2;
+                        obj.innerHTML = num;
+                    }, 2600);
+                }
+                random('body', 14598, -15);
+                random('bet', 29350679, 50);
+                random('withdraw', 50622, 10);
+            </script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- others 服务优势-移动端下载-帮助中心 -->
+
+                                    
+    
+        <div class="others">
+            <div class="advantages">
+                <h2></h2>
+                <div class="payment_date">
+                    <div class="payment_date_l">
+                        <h3>存款</h3>
+                        <p>到账平均时间</p>
+                    </div>
+                    <div class="payment_date_r">
+                        <span class="pay_time" id="time1">18</span>
+                        <strong>秒</strong>
+                    </div>
+                    <style>
+                        @keyframes progress1 {
+                            from {
+                                width: 0;
+                            }
+                            to {
+                                width: 112px;
+                            }
+                        }
+
+                        @keyframes progress2 {
+                            from {
+                                width: 0;
+                            }
+                            to {
+                                width: 172px;
+                            }
+                        }
+
+                        .bar_slide {
+                            animation: progress1 2s ease-in-out;
+                            -webkit-animation: progress1 2s ease-in-out;
+                            /* Safari 和 Chrome */
+                            -ms-animation: progress1 2s ease-in-out;
+                            /* windows */
+                        }
+
+                        .bar_slide_n {
+                            animation: progress2 2s ease-in-out;
+                            -webkit-animation: progress2 2s ease-in-out;
+                            /* Safari 和 Chrome */
+                            -ms-animation: progress2 2s ease-in-out;
+                            /* windows */
+                        }
+                    </style>
+                    <div class="time_bar">
+                        <span class="bar_slide"></span>
+                    </div>
+                </div>
+                <div class="payment_date">
+                    <div class="payment_date_l">
+                        <h3>取款</h3>
+                        <p>到账平均时间</p>
+                    </div>
+                    <div class="payment_date_r">
+                        <span class="pay_time" id="time2">1‘38</span>
+                        <strong>分</strong>
+                    </div>
+                    <div class="time_bar">
+                        <span class="bar_slide_n"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_down">
+                <h2></h2>
+                <p>移动互联网时代，机会一手把握</p>
+                <p>全面支持苹果APP 安卓APP 手机全部浏览器</p>
+                <div class="down">
+                    <span class="apple">
+                        <a href="/down.do"></a>
+                    </span>
+                    <span class="android">
+                        <a href="/down.do"></a>
+                    </span>
+                    <span class="browser">
+                        <a href="/down.do"></a>
+                    </span>
+                </div>
+            </div>
+            <div class="problem">
+                <h2></h2>
+                <div class="common">
+                    <ul>
+                        <li>
+                            <a href="/index/rookieHelp.do?code=3" target="ggg">存款问题</a>
+                        </li>
+                        <li>
+                            <a href="/lotteryV2/rule.do" target="_blank">游戏帮助</a>
+                        </li>
+                        <li>
+                            <a href="/index/rookieHelp.do?code=2" target="ggg">取款问题</a>
+                        </li>
+                        <li>
+                            <a href="https://tb.53kf.com/code/client/10176693/1">联系客服</a>
+                        </li>
+                        <li>
+                            <a href="/agtregpage.do" target="ggg">代理加盟</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            time('#time1', 23, 80);
+            time('#time2', 122, 15);
+            function time(el, end, speed) {
+                var start = $(el).text();
+                var timer;
+                if (start.length > 1) {//显示时间进度
+                    var html;
+                    var min = 0;
+                    var sec = 0;
+                    var num = 0;
+                    clearInterval(timer);
+                    timer = setInterval(function () {
+                        sec++;
+                        num++;
+                        sec = sec < 10 ? '0' + sec : sec;
+                        sec < 60 ? min : min++;
+                        sec = sec < 60 ? sec : 0;
+                        sec = sec == 0 ? '0' + sec : sec;
+                        html = min + '‘' + sec;
+                        $(el).text(html);
+                        if (num >= end) {
+                            clearInterval(timer);
+                        }
+                    }, speed)
+                } else {
+                    clearInterval(timer);
+                    timer = setInterval(function () {//显示普通进度
+                        start++;
+                        $(el).text(start);
+                        if (start >= end) {
+                            clearInterval(timer);
+                        }
+                    }, speed)
+                }
+            }
+
+        </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- foot start -->
+            
+    
+
+        <div class="footer">
+            <div class="bottom-info-main">
+                <div class="footer_main clear">
+                    <div class="bottom-info">
+                        <div class="new-box">
+                            <h1>
+                                <em>技术支持</em>
+                                <span class="lx_ico"></span>
+                            </h1>
+                            <div class="new-con clear">
+                                <div class="footer_logo"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom-info">
+                        <div class="new-box">
+                            <h1>
+                                <em>使用帮助</em>
+                                <span>Guide</span>
+                            </h1>
+                            <div class="new-con">
+                                <table class="guideTable">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="/index/rookieHelp.do?code=1" target="ggg">关于我们</a>
+                                            </td>
+                                            <td>
+                                                <a href="/index/rookieHelp.do?code=6" target="ggg">联络我们</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/agtregpage.do" target="ggg">合作加盟</a>
+                                            </td>
+                                            <td>
+                                                <a href="/index/rookieHelp.do?code=3" target="ggg">存款帮助</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="/index/rookieHelp.do?code=2" target="ggg">取款帮助</a>
+                                            </td>
+                                            <td>
+                                                <a href="/index/rookieHelp.do?code=7" target="ggg">常见问题</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-info">
+                        <div class="new-box">
+                            <h1>
+                                <em>推荐浏览器</em>
+                                <span>Browser</span>
+                            </h1>
+                            <div class="new-con">
+                                <div class="clear">
+                                    <ul class="browser-list commonlist notitle clear">
+                                        <li>
+                                            <a target="_blank" href="https://www.baidu.com/s?wd=IE">
+                                                <i class="icon icon-browser icon-browserIE"></i>
+                                                <span>IE新版下载</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.baidu.com/s?wd=Chrome">
+                                                <i class="icon icon-browser icon-browserFF"></i>
+                                                <span>Chrome浏览器</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.baidu.com/s?wd=Firefox">
+                                                <i class="icon icon-browser icon-browserGL"></i>
+                                                <span>Firefox浏览器</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="browser-tip">
+                                        <p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div class="main clear">
+                <div class="copyright"> 未满18周岁禁止购买，Copyright © 2010-2017 乾彩娱乐保留所有权利</div>
+            </div>
+        </div>
+            <!-- footer end -->
+            </div>
+            
+<div style="position: fixed;right: 10px;top: 150px;">
+    <img src="/images/float_right.png" style="width: 180px" alt="">
+
+    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=199995123&amp;site=qq&amp;menu=yes" target="_blank" style="position: relative;top: -100px;width: 100%;height: 30px;display: block"></a>
+</div>
+        
+
+        <div id="hdddddddddd"></div><div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.6; filter:alpha(opacity=60);"></div><div class="layui-layer layui-anim-01 layui-layer-page " id="layui-layer1" type="page" times="1" showtime="0" contype="string" style="z-index: 19891015; width: 550px; height: 550px; top: 16%; left: 232px;"><div class="layui-layer-title" style="cursor: move; font-size: 16px; color: rgb(76, 37, 21); font-weight: bold; text-align: center; text-overflow: ellipsis; white-space: nowrap; padding: 10px;" move="ok">欢迎来到乾彩娱乐</div><div class="layui-layer-content" style="height: 534px;"><div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;"><span style="font-size: 18px;">尊贵的乾彩娱乐会员您好：<br><span style="color: rgb(51, 51, 51); font-family: Arial, &quot;Microsoft YaHei&quot;, arial; background-color: rgb(255, 255, 255);"><br></span>【乾彩娱乐】提款时间：早上10:00-次日凌晨02:30<br>网站会员<span style="color: rgb(255, 0, 0); font-size: 18px;">每日免费提款次数5次</span>，<span style="color: rgb(51, 51, 51); font-family: Arial, &quot;Microsoft YaHei&quot;, arial; background-color: rgb(255, 255, 255);">超过5次后提款产生的手续费由会员承担。按照5%由平台扣除后支付<br><br></span>若您在游戏中有任何疑问请联系<br>客服QQ：199995123 &nbsp;或加微信:mygril520000<br></span><p><span style="font-size: 18px; font-family: Arial, &quot;Microsoft YaHei&quot;, arial; background-color: rgb(255, 255, 255); color: rgb(255, 0, 0);"><br>乾彩娱乐投注限制：<span style="font-size: 18px; font-family: Arial, &quot;Microsoft YaHei&quot;, arial; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">投注码量不能超过70%，即定位胆玩法不得超过8注、<br>如发现违规投注情况，平台将进行封号处理！<br></span></span><br><span style="background-color: rgb(238, 236, 225);"></span></p></div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span></div></body></html>

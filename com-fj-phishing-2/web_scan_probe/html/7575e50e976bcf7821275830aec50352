@@ -1,0 +1,935 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<title>红彩会</title><script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/public.js"></script>
+<link href="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/bitbug_favicon.ico" rel="shortcut icon">
+
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/jquery-ui-1.10.4.custom.min.js"></script>
+<link type="text/css" href="/hongCaiHuiLoginWeb/css/black-tie/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+
+<link type="text/css" href="/hongCaiHuiLoginWeb/css/lightbox.css?v=v2.1608230422.990" rel="stylesheet">
+<script src="/hongCaiHuiLoginWeb/js/jquery.lightbox.js?v=v2.1608230422.990" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#home").addClass("active");
+	
+		var islogin = false;
+		if (islogin == false) {
+			var isShow = 1;
+			if(isShow == 1){
+				/* base_url = document.location.href.substring(0, document.location.href.indexOf('index.html'), 0); */
+			    
+				$(".lightbox").lightbox({
+				    fitToScreen: true,
+				    imageClickClose: false
+			    });
+				/* $("#dialog_show_img").show(); */
+				
+			}
+			$(function(){$("#lightbox").click();})
+		}
+	});
+	
+     function setTab(/*string*/name, /*int*/ itemCnt, /*int*/ curItem, /**/classHide, /**/classShow) {
+         for (i = 1; i <= itemCnt; i++) {
+             eval("document.getElementById('tab_" + name + "_" + i + "').className='" + classHide + "'");
+         }
+         eval("document.getElementById('tab_" + name + "_" + curItem + "').className='" + classShow + "'");
+         for (i = 1; i <= itemCnt; i++) {
+             eval("ele_hide = document.getElementById('con_" + name + "_" + i + "')");
+             if (ele_hide) ele_hide.style.display = "none";
+         }
+         eval("ele_play = document.getElementById('con_" + name + "_" + curItem + "')");
+         if (ele_play) ele_play.style.display = "block";
+     }
+</script>
+<style type="text/css">
+.aui_content {word-break: break-all;word-wrap: break-word;}
+#dialog_show_announce{word-break: break-all;word-wrap: break-word;}
+</style>
+
+</head>
+<body style="">
+<div class="index-bj">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/jquery.json-2.3.min.js"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/autoNumeric.js"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/language/CN/main.js"></script>
+
+<meta name="viewport" content="width=1300"> 
+
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/jquery-ui-1.10.4.custom.min.js"></script>
+<link type="text/css" href="/hongCaiHuiLoginWeb/css/greed/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/showMessageArtDialog.js"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/pc/artDialog/artDialog.js"></script>  
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/pc/artDialog/artDialog.source.js"></script> 
+<link type="text/css" href="/hongCaiHuiLoginWeb/js/pc/artDialog/skins/black.css" rel="stylesheet">
+
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/validation/languages/jquery.validationEngine-zh_CN.js"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/datepicker/jquery.ui.datepicker-zh-CN.js"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/validation/jquery.validationEngine.js"></script>
+<link rel="stylesheet" type="text/css" href="/hongCaiHuiLoginWeb/js/validation/validationEngine.jquery.css">
+<link type="text/css" rel="stylesheet" href="/hongCaiHuiLoginWeb/style/CN/hongCaiHui/pc/member.css">
+<link type="text/css" rel="stylesheet" href="/hongCaiHuiLoginWeb/style/CN/hongCaiHui/pc/layout.css">
+<link type="text/css" rel="stylesheet" href="/hongCaiHuiLoginWeb/style/CN/hongCaiHui/pc/sport.css">
+
+<link rel="stylesheet" type="text/css" href="/hongCaiHuiLoginWeb/style/CN/hongCaiHui/pc/common.css">
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/js/float.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/login.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/patrn.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/util.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/register.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/conversion.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/account.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/report.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/personalMsg.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/soltsPage.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/other-hongCaiHui.js?v=v2.1608230422.990"></script>
+
+<script type="text/javascript">
+$(function(){
+	var ref = "fe3469";
+	URLModify(ref);
+});
+$(document).ready(function() {
+	function shake(element, className, times) {
+		var i = 0,
+			t = false,
+			o = element.attr("class"),
+			c = "",
+			times = times || 2;
+		if(t) return;
+		t = setInterval(function() {
+			i++;
+			c = i % 2 ? o + ' ' + className : o;
+			element.attr("class", c);
+
+			if(i == 2 * times) {
+				clearInterval(t);
+				element.removeClass(className);
+			}
+		}, 400);
+	};
+	$(function() {
+		//domready 就闪动
+		shake($(".box1"), "red1", -1);
+	});
+
+	
+});
+$(document).ready(function(){
+	time();
+	var islogin = false;
+	if(islogin){
+		getBalance("MAIN_WALLET");
+		getMsgCountUnread();
+		/* $("#zxkf").hide(); */
+	}
+});
+	function addClassC(msg) {
+		var liId = "#" + msg;
+		$(liId).addClass("c");
+	}
+
+function msout(){
+	$(".menu-child1").hide();
+}
+function msshow(){
+	$(".menu-child1").show();
+}
+</script>
+<style type="text/css">
+.aui_content {word-break: break-all;word-wrap: break-word;}
+</style>
+<input type="hidden" name="path" id="path" value="/hongCaiHuiLoginWeb">
+<input type="hidden" name="lottoLink" id="lottoLink" value="https://hk.mhsw.sh.cn/lottoclient/images/speed.gif,https://hk.fly-ray.com/lottoclient/images/speed.gif,https://hk.cdflzy.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryLink" id="lotteryLink" value="https://ssc.jjcj666.com/lotteryweb/siteOne/images/speed.gif,https://ssc.mhsw.sh.cn/lotteryweb/siteOne/images/speed.gif,https://ssc.fly-ray.com/lotteryweb/siteOne/images/speed.gif">
+<input type="hidden" name="lottoPJLink" id="lottoPJLink" value="https://pjhk.qmaozi.com/lottoclient/images/speed.gif,https://pjhk.happydoub.com/lottoclient/images/speed.gif,https://pjhk.020shoesmall.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryPJLink" id="lotteryPJLink" value="https://pjsc.020shoesmall.cn/lotteryweb/siteOne/images/speed.gif,https://pjssc.happydoub.com/lotteryweb/siteOne/images/speed.gif,https://pjsc.china-at.cn/lotteryweb/siteOne/images/speed.gif">
+
+
+			<div class="top">
+				<div class="w1000">
+					<div class="logo"><img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/logo.png">
+					
+					
+					</div>
+					<div class="yijiyuming"><img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/yijiyuming.png"></div>
+					<div class="text">
+						<ul class="text01">
+							<li id="time">2018年8月8日4时46分24秒</li>
+							
+								
+								
+									<li class="box1">
+										
+											
+										
+							    		快速充值中心
+							    	</li>
+								
+							
+							<li>|</li>
+							<li><a href="../app/home?l=0&amp;t=MP&amp;ref=fe3469">手机投注</a></li>
+							<li>|</li>
+							<li class="box1"><a href="../app/agentAddReg?ref=fe3469">代理加盟</a></li>
+							<li>|</li>
+							<li>新手教程</li>
+						</ul>
+						<!--登录注册按钮-->
+					
+	                    
+						<div class="text02">
+							<p><a onclick="popupDiv('pop-div');">登录</a></p>
+							<p><a href="../app/joinNow?ref=fe3469">注册</a></p>
+						</div>
+						
+						
+						
+						
+					</div>
+				</div>
+			</div>
+			
+			<div class="bottom">
+				<div class="w1000">
+					<div class="menu">
+						<ul> 
+	                        <li class="li_bor active" id="home">
+	                        	<a class="font_co" href="../app/home?l=CN&amp;ref=fe3469"><span class="icon home"></span>首页</a>
+	                        </li> 
+	                    
+                    		
+	                        <li class="li_bor" id="lotterys"><a class="font_co box1" href="../app/lottery?ref=fe3469"><span class="icon lottery1"></span>传统彩</a>
+	                       		<ul class="sub-ul">
+					 	  			<li class="sub-ul-li"><a class="nav-bg" href="../app/lottery?ref=fe3469">IG传统彩</a></li>
+					 	  			<li class="sub-ul-li"><a class="nav-bg" href="../app/lotteryPJ?ref=fe3469">IG(新)传统彩</a></li>
+					 	  		</ul>
+	                        </li> 
+	                        <li class="li_bor" id="lottoFfcs"><a class="font_co box1" href="../app/lottoFfcIg?ref=fe3469"><span class="icon lottery2"></span>官方彩</a>
+	                        	<ul class="sub-ul">
+					 	  			<li class="sub-ul-li"><a class="nav-bg" href="../app/lottoFfcIg?ref=fe3469">IG官方彩</a></li>
+					 	  			<li class="sub-ul-li"><a class="nav-bg" href="../app/lottoFfc?ref=fe3469">KG官方彩</a></li>
+					 	  		</ul>
+	                        </li> 
+	                        <li class="li_bor" id="lottos"><a class="font_co box1" href="../app/lotto?ref=fe3469"><span class="icon lottery3"></span>香港彩</a>
+	                        	<ul class="sub-ul">
+					 	  			<li class="sub-ul-li"><a class="nav-bg" href="../app/lotto?ref=fe3469">IG六合彩</a></li>
+					 	  			<li class="sub-ul-li"><a class="nav-bg" href="../app/lottoPJ?ref=fe3469">IG(新)六合彩</a></li>
+					 	  		</ul>
+	                        </li> 
+	                        
+	                        
+	                    
+	                        <li class="li_bor" id="lives"><a class="font_co" href="../app/live?ref=fe3469">
+	                        <span class="icon  live"></span>真人视讯
+	                          	<!--[if IE 7]><!--></a><!--<![endif]--> 
+	                             <!--[if lte IE 6]><table><tr><td><![endif]--> 
+	                            
+		                        
+		                            <ul class="sub-ul"> 
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">LMG视讯</a></li> 
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">CG视讯</a></li> 
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">DS视讯</a></li> 
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">IG视讯</a></li> 
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">AG视讯</a></li>
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">BBIN视讯</a></li> 
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">OG视讯</a></li>
+		                                <li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">ALLBET视讯</a></li>
+										<li class="sub-ul-li"><a class="nav-bg" href="../app/live?ref=fe3469">SUNBET视讯</a></li>
+		                                
+		                            </ul> 
+		                        
+		                        
+		                        
+	                            <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+							</li>
+							<li class="li_bor" id="game"><a class=" font_co" href="../app/slotsGame?sgt=SLOTS&amp;ref=fe3469"><span class="icon slots1"></span>电子游艺
+	                              <!--[if IE 7]><!--></a><!--<![endif]--> 
+	                              <!--[if lte IE 6]><table><tr><td><![endif]--> 
+	                            <ul class="sub-ul">
+	                            	<li class="sub-ul-li"><a class="nav-bg" href="../app/slotsGame?sgt=SLOTS&amp;ref=fe3469">IG电子</a></li> 
+			                        <li class="sub-ul-li"><a class="nav-bg" href="../app/slotsGame?sgt=SLOTS_PT&amp;ref=fe3469">PT电子</a></li>
+									<li class="sub-ul-li"><a class="nav-bg" href="../app/slotsGame?sgt=SLOTS_SPADE&amp;ref=fe3469">SG电子</a></li>
+									<li class="sub-ul-li"><a class="nav-bg" href="../app/slotsGame?sgt=SLOTS_AG&amp;ref=fe3469">AG电子</a></li>
+									<li class="sub-ul-li"><a class="nav-bg" href="../app/slotsGame?sgt=SLOTS_MG&amp;ref=fe3469">MG电子</a></li>
+									<li class="sub-ul-li"><a class="nav-bg" href="../app/slotsGame?sgt=SLOTS_BBIN&amp;ref=fe3469">BBIN电子</a></li>
+									<li class="sub-ul-li"><a class="nav-bg" href="../app/slotsGame?sgt=SLOTS_HB&amp;ref=fe3469">HB电子</a></li>                             	
+	                           </ul>
+	                              <!--[if lte IE 6]></td></tr></table></a><![endif]--> 
+	                          </li> 
+	                        <li class="li_bor" id="sport">
+	                        <a class="font_co" href="../app/sportsAll?ref=fe3469">
+	                        <span class="icon sports"></span>体育 </a>
+	                        <ul>
+		              			<li class="sub-ul-li"><a class="nav-bg" href="../app/sportsGameCmd?ref=fe3469">CMD体育</a></li>
+								
+										 
+											<li class="sub-ul-li"><a class="nav-bg" href="../app/sportsGameIwc?ref=fe3469">皇冠体育</a></li>
+										
+										
+									
+								<li class="sub-ul-li"><a class="nav-bg" href="../app/sportsGame?ref=fe3469">M8体育</a></li>
+							</ul>
+	                        </li> 
+	                        
+	                          <li class="li_bor" id="byw"><a class=" font_co" href="../app/electronicGameBYW?ref=fe3469"><span class="icon fish"></span>捕鱼游戏
+	                          	 <!--[if IE 7]><!-->
+								</a>
+								<!--<![endif]-->
+								<!--[if lte IE 6]><table><tr><td><![endif]-->
+								
+			                        
+			                         <ul class="sub-ul"> 	                         	 
+			                             <li class="sub-ul-li"><a class="nav-bg" href="../app/electronicGameBYW?ref=fe3469">AG捕鱼</a></li> 
+							             <li class="sub-ul-li"><a class="nav-bg" href="../app/electronicGameBYW?ref=fe3469">YY捕鱼</a></li> 
+							             <li class="sub-ul-li"><a class="nav-bg" href="../app/electronicGameBYW?ref=fe3469">GG捕鱼</a></li> 
+			                        </ul> 
+			                        
+			                        
+			                    
+								<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	                          </li> 
+	                          <li class="li_bor" id="li_chess"><a class="nav-bg" href="../app/electronicGameQP?ref=fe3469">
+	                          <span class="icon  live"></span>棋牌游戏</a>
+			              		<ul>
+									
+										 
+												<li class="sub-ul-li"><a class="nav-bg" onclick="popupDiv('pop-div');">KY棋牌</a></li>
+										
+										
+									
+								</ul>
+			              	</li>
+	                          <li class="li_bor" id="promotion">
+	                          	 <a class=" font_co box1" href="../app/promotion?ref=fe3469"><span class="icon promotions"></span>优惠活动</a>
+	                          </li> 
+	                          <li class="li_bor" id="agent">
+	                          	 <a class=" font_co " href="../app/agentAddReg?ref=fe3469"><span class="icon agent"></span>诚征代理</a>
+	                          </li>
+	                          
+	                    </ul>
+					</div>
+				</div>
+			</div>
+			
+			
+
+			
+<input type="hidden" name="path" id="path" value="/hongCaiHuiLoginWeb">
+<input type="hidden" name="lottoLink" id="lottoLink" value="https://hk.mhsw.sh.cn/lottoclient/images/speed.gif,https://hk.fly-ray.com/lottoclient/images/speed.gif,https://hk.cdflzy.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryLink" id="lotteryLink" value="https://ssc.jjcj666.com/lotteryweb/siteOne/images/speed.gif,https://ssc.mhsw.sh.cn/lotteryweb/siteOne/images/speed.gif,https://ssc.fly-ray.com/lotteryweb/siteOne/images/speed.gif">
+<input type="hidden" name="lottoPJLink" id="lottoPJLink" value="https://pjhk.qmaozi.com/lottoclient/images/speed.gif,https://pjhk.happydoub.com/lottoclient/images/speed.gif,https://pjhk.020shoesmall.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryPJLink" id="lotteryPJLink" value="https://pjsc.020shoesmall.cn/lotteryweb/siteOne/images/speed.gif,https://pjssc.happydoub.com/lotteryweb/siteOne/images/speed.gif,https://pjsc.china-at.cn/lotteryweb/siteOne/images/speed.gif">
+
+
+		<!--banner-->
+		<div class="main_one">
+			<div class="w1000">
+				<div class="banner">					
+					<!--悬浮按钮-->	
+					<div class="banner">
+		            	<div class="banner-plus-right">
+		               		<div class="sbanner">
+		                         <div id="slideBox" class="slideBox">
+		                        <div class="hd">
+		                            <ul>
+		                            	
+		                            		<li class="on">1</li>
+										
+		                            		<li>2</li>
+										
+		                            		<li>3</li>
+										
+		                            		<li>4</li>
+										
+		                            		<li>5</li>
+										
+		                            </ul>
+						         </div>
+		                        <div class="bd">
+		                            <ul>
+		                            	
+											<li><a><img src="http://picgf.ppbk9.com/img/hch/15103770-405e-4823-90c1-2aa2027ed1e6.jpg"></a></li>
+										
+											<li style="display: none;"><a><img src="http://picgf.ppbk9.com/img/hch/62fa5403-77da-48ff-83e2-81d9b9a75823.png"></a></li>
+										
+											<li style="display: none;"><a><img src="http://picgf.ppbk9.com/img/hch/aefcb4ba-9a65-4c3d-b480-ab75046dcda9.jpg"></a></li>
+										
+											<li style="display: none;"><a><img src="http://picgf.ppbk9.com/img/hch/5d913cf6-f2b5-4a92-8fac-dd4d62ac0922.png"></a></li>
+										
+											<li style="display: none;"><a><img src="http://picgf.ppbk9.com/img/hch/355987ac-f1f7-4d3b-919f-006dc9a60982.jpg"></a></li>
+										
+		                            </ul>
+		                        </div>
+		                    </div>
+		                
+		                        <script type="text/javascript">
+		                        jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+		                        </script>
+		                   </div>
+		          		</div>
+		            </div>
+		          <!--   <div class="row">
+		                <div class="navi"><a class="" href="../app/promotion">新版上线啦</a><a class="" href="../app/promotion">中秋月圆</a><a class="" href="../app/promotion">超级返水不计输赢 </a><a href="../app/promotion">笔笔存送30%</a><a href="../app/promotion">电游首存100%</a></div>
+		            </div> -->
+				</div>
+				<div class="login">
+					
+			            
+					<ul>
+						<li class="login-title">彩票专区</li>
+						<li>
+							<dl class="dl01" onclick="window.location.href='../app/joinNow?ref=fe3469'">
+								<dt></dt>
+								<dd>注册会员</dd>
+							</dl>
+							<dl class="dl02" onclick="popupDiv('pop-div');">
+								<dt></dt>
+								<dd>会员登录</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="dl03" onclick="popupDiv('pop-div');">
+								<dt></dt>
+								<dd>我要充值</dd>
+							</dl>
+							<dl class="dl04" onclick="popupDiv('pop-div');">
+								<dt></dt>
+								<dd>我要提款</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="dl05" onclick="popupDiv('pop-div');">
+								<dt></dt>
+								<dd>金额转换</dd>
+							</dl>
+							<dl class="dl06" onclick="window.location.href='../app/agentAddReg?ref=fe3469'">
+								<dt></dt>
+								<dd>诚招代理</dd>
+							</dl>
+						</li>
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    		<li class="news">
+				<p class="newp"><img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/news.png">最新消息</p>
+				<div class="recording">
+					<marquee style="font-size:13px;" align="middle" direction="up" loop="-1" scrollamount="3" onmouseout="this.start()" onmouseover="this.stop()" onclick="showmask();dispersionAnnounce(1);">尊敬的用户您好！收款银行 中国工商银行	裴哲  农业银行 张贺  光大银行  张贺  中国银行 张贺 建设银行 武陈信 兴业银行 裴哲  中国工商银行 泰顺县晨视商贸有限公司	中信银行 张贺  中国光大银行	张贺！紧急停用！！请您在公司入款里查看新入款账号，给您造成的不便敬请多多谅解，谢谢！					 活动公告
+
+应集团总部要求特对近期公司出现恶意刷水套利行为进行严厉整顿和打击；经上级领导审核通过将对公司的所有活动做出以下公告：
+
+1：公司风控部门将加班加点的对平台所有会员的下注记录逐一进行严格的审核；审核内容包括：恶意刷水(9码  10码）等；多个账号对刷等；一个姓名多个会员账号参加多项活动等。
+
+2：如果有会员违反以上规则；第一次取消当日抽奖资格（例：1号的打码量，取消2号的抽奖）的同时并对当日打码量数据清除不予上传VIP晋级后台；如果第二次违反者将被风控部门拉入黑名单：取消平台所有活动资格一个月进行观察（例：7月8号进入黑名单到8月7号）；如这一个月内下注正常可以通过推广客服或者在线客服向风控部门提出申请；12个小时之内审核通过后解除黑名单。
+
+3：为了既能维护公司利益的同时也能让平台所有真实玩家享受到更多更给力的活动；希望各个部门和广大会员严格遵守以上公告；以免对自己的利益造成不必要的损失! 
+					尊敬的会员您好！近期发现多起冒充红彩会客服代充欺骗行为，我们的在线客服不会主动添加会员为会员代充值，不会以任何方式套取您的账户信息，请您注意保护好自己的会员信息，谨防上当受骗！</marquee>
+				</div>
+				<a href="javascript:void(0);" class="chack-more" onclick="showmask();dispersionAnnounce(1);">查看更多</a>
+			</li>
+						
+		
+					</ul>	
+					
+								
+							
+				</div>
+				
+			</div>
+		</div>
+		
+		<!--lottery-->
+	    <div class="lottery">
+		     <div class="jscarousal"><div class="jscarousal-left"></div><div id="jsCarousel" class="jscarousal-contents">
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		        
+		    <div class="visible" style="left: 0px;"><div class="lottery-1 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lotto?ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>六合彩</dd>
+		            </dl>
+		        </div><div class="lottery-2 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=BJC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>北京赛车</dd>
+		            </dl>
+		        </div><div class="lottery-3 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=SSC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>重庆时时彩</dd>
+		            </dl>
+		        </div><div class="lottery-4 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=XYFT&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>幸运飞艇</dd>
+		            </dl>
+		        </div><div class="lottery-5 lott thumbnail-inactive" onclick="window.location.href='../app/lottery?type=JSC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>江苏快3</dd>
+		            </dl>
+		        </div></div><div class="hidden" style="left: -950px;"><div class="lottery-1 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lotto?ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>六合彩</dd>
+		            </dl>
+		        </div><div class="lottery-2 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=BJC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>北京赛车</dd>
+		            </dl>
+		        </div><div class="lottery-3 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=SSC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>重庆时时彩</dd>
+		            </dl>
+		        </div><div class="lottery-4 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=XYFT&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>幸运飞艇</dd>
+		            </dl>
+		        </div><div class="lottery-5 lott thumbnail-inactive" onclick="window.location.href='../app/lottery?type=JSC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>江苏快3</dd>
+		            </dl>
+		        </div></div><div class="hidden" style="left: -950px;"><div class="lottery-1 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lotto?ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>六合彩</dd>
+		            </dl>
+		        </div><div class="lottery-2 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=BJC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>北京赛车</dd>
+		            </dl>
+		        </div><div class="lottery-3 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=SSC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>重庆时时彩</dd>
+		            </dl>
+		        </div><div class="lottery-4 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?type=XYFT&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>幸运飞艇</dd>
+		            </dl>
+		        </div><div class="lottery-5 lott thumbnail-inactive" onclick="window.location.href='../app/lottery?type=JSC&amp;ref=fe3469'" style="">
+		        	<dl>
+		            	<dt></dt>
+		                <dd>江苏快3</dd>
+		            </dl>
+		        </div></div></div><div class="jscarousal-right"></div></div>
+	    </div>
+		<script>
+		$(function(){
+			$('#jsCarousel').jsCarousel({ onthumbnailclick: function(src) { 
+			// 可在这里加入点击图片之后触发的效果
+			$("#overlay_pic").attr('src', src);
+			$(".overlay").show();
+			}, autoscroll: true });
+			
+			$(".overlay").click(function(){
+				$(this).hide();
+			});
+		});
+		</script>
+		
+		
+		<div class="main02">
+			<div class="w1000">
+				<div class="options">
+					<script type="text/javascript">
+						$(document).ready(function() {
+							$(".rank-tab-list li").mouseover(function() {
+								$(this).parent().children().removeClass("on");
+								$(this).addClass("on");
+								var id = $(this).attr("name");
+								$(".rank_standard").hide();
+								$("#" + id).show();
+							});
+						});
+					</script>
+					<ul name="rank_tab_list" class="rank-tab-list">
+						<li class="tab-sel-open on" data-gameid="5" name="standard01" onclick="window.location.href='../app/live?ref=fe3469'">
+							<i class="live-vedio-icon"></i><p>真人视讯 |<span id="">LIVE CASINO</span></p>
+						</li>
+						<li class="tab-sel-open" data-gameid="1" name="standard02" onclick="window.location.href='../app/slotsGame?sgt=SLOTS&amp;ref=fe3469'">
+							<i class="slots-icon"></i><p>电子游艺 |<span id="">SLOTS</span></p>
+						</li>
+						<li class="tab-sel-open" data-gameid="1" name="standard03" onclick="window.location.href='../app/sportsAll?ref=fe3469'">
+							<i class="sports-icon"></i><p>体育赛事 |<span id="">SPORTS</span></p>
+						</li>
+					</ul>
+					
+					<!--第一个选项卡-->
+					<div class="rank_standard" id="standard01" style="display: block;">
+					
+		                
+						<ul class="live-box">
+							<li class="live-pc01" onclick="window.location.href='../app/live?ref=fe3469'">
+								<div class="name-btn">
+									<p>LMG厅</p>
+									<a href="javascript:void(0);">进入游戏</a>
+								</div>
+							</li>
+							<li class="live-pc02" onclick="window.location.href='../app/live?ref=fe3469'">
+								<div class="name-btn">
+									<p>OG厅</p>
+									<a href="javascript:void(0);">进入游戏</a>
+								</div>
+							</li>
+							<li class="live-pc03" onclick="window.location.href='../app/live?ref=fe3469'">
+								<div class="name-btn">
+									<p>AG厅</p>
+									<a href="javascript:void(0);">进入游戏</a>
+								</div>
+							</li>
+						</ul>
+						
+							
+						
+					</div>
+					<!--第二个选项卡-->
+					<div class="rank_standard" id="standard02" style="display:none;">
+						<ul class="game-box">
+							<li onclick="window.location.href='../app/slotsGame?sgt=SLOTS&amp;ref=fe3469'">
+								<img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/game-pc01.png">
+								<p>IG电子厅</p>
+							</li>
+							
+							<li onclick="window.location.href='../app/slotsGame?sgt=SLOTS_AG&amp;ref=fe3469'">
+								<img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/game-pc02.png">
+								<p>AG电子厅</p>
+							</li>
+							
+							<li onclick="window.location.href='../app/slotsGame?sgt=SLOTS_PT&amp;ref=fe3469'">
+								<img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/game-pc03.png">
+								<p>PT电子厅</p>
+							</li>
+							
+							<li onclick="window.location.href='../app/slotsGame?sgt=SLOTS_BBIN&amp;ref=fe3469'">
+								<img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/game-pc04.png">
+								<p>BBIN电子厅</p>
+							</li>
+						</ul>
+						<a href="../app/slotsGame?sgt=SLOTS&amp;ref=fe3469" class="more-game">点击查看更多</a>
+					</div>
+					
+					<!--第三个选项卡-->
+					<div class="rank_standard" id="standard03" style="display:none;">
+						<ul class="sp">
+							<li onclick="window.location.href='../app/sportsGame?ref=fe3469'">
+								<img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/index-sports.jpg">	
+								<p>体育投注</p>							
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+    
+  
+<input type="hidden" id="page" value="home">
+<script type="text/javascript" src="/hongCaiHuiLoginWeb/scripts/jquery.kxbdMarquee.js"></script> 
+<script type="text/javascript"> 
+$("#marquee").kxbdMarquee({
+	  isEqual:true,         //所有滚动的元素长宽是否相等,true,false 
+	  loop:0,                 //循环滚动次数，0时无限         
+	  direction:"up",       //滚动方向，"left","right","","down"         
+	  scrollAmount:1,     //步长         
+	  scrollDelay:50        //时长
+	});
+</script>  
+
+<!--关于我们-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function hide1(){
+	$("#TplFloatPic_0").hide();
+};
+function hide2(){
+	$("#TplFloatPic_1").hide();
+};
+function showmask(){
+	$(".x0p").show();
+}
+function hidemask(){
+	$(".x0p").hide();
+}
+</script>
+
+ <ul id="TplFloatPic_1" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 998; top: 150px; right: 5px; width: 117px;" picfloat="right">		
+		<li><a onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=107254');">
+        <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/right1.png" alt="" class="png_fix" align="middle">
+    </a></li>
+	<li style="position:relative;"><a onclick="openQQ('1263222222');">
+        <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/right2.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    <li id="lin1" style="position:relative;"><a onclick="openQQ('1269222222');">
+	    <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/right3.png" alt="" class="png_fix" align="middle">
+    </a></li>
+   		 <li id="lin1" style="position:relative;"><a onclick="openQQ('');">
+	    <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/right4.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    	<li><a onclick="hide2();" style="width: 117px; height: 58px;">
+        <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/right5.png" alt="" class="png_fix" align="middle">        
+    </a></li>
+</ul>
+    
+<ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 998; top: 150px; left: 5px; width: 117px;" picfloat="left">		
+		<li><a href="../app/electronicGameQP?ref=fe3469">
+        <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/left1.png" alt="" class="png_fix" align="middle">
+    </a></li>
+	<li style="position:relative;"><a id="app-center" href="http://hch28app.com/" target="_blank">
+        <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/left2.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    <li id="lin1" style="position:relative;"><a href="../app/promotion?ref=fe3469">
+    	 
+	    <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/left3.png" alt="" class="png_fix" align="middle">
+    </a></li>
+   		<li><a href="http://hch112.com/" target="_blank">
+        <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/left4.png" alt="" class="png_fix" align="middle">        
+    </a></li>
+    	<li><a onclick="hide1();" style="width: 117px; height: 58px;">
+        <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/left5.png" alt="" class="png_fix" align="middle">        
+    </a></li>
+</ul>    
+
+    
+<script>
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    var left_top = 100, right_top = 100, float_list = [], float_side = 3;
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+                    float_list['0'] = $('#TplFloatPic_0');
+                    float_list['1'] = $('#TplFloatPic_1');
+                for (var i in float_list) {
+            if (float_list[i].attr == undefined) {
+                continue;
+            }
+            var self = float_list[i], 
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+            var w = 0;        
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                	$(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                	$(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+</script>
+ <!--footer-->    
+        <div class="footer">
+        	<div>
+				<div class="bott01" style="position:relative;">
+					<ul>
+						<li style="position:absolute;"><img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/icon01_1.png"><a href="javascript:void(0);">客服QQ：1263222222</a></li>
+						<li style="position:absolute;left:265px;"><img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/icon01_1.png"><a href="javascript:void(0);">客服QQ：1269222222</a></li>
+						<li style="position:absolute;left:530px;"><img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/icon03_1.png"><a href="javascript:void(0);">客服邮箱：hch28com@gmail.com</a></li>
+						<li style="position:absolute;right:0px;cursor:pointer;" onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=107254');"><img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/icon04_1.png"><a href="javascript:void(0);">7X24小时在线客服</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="w1000">
+				<div class="img">
+					<img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/footer-logo.png">
+				</div>
+				<div>
+					<a href="../app/aboutUs?ref=fe3469">关于我们</a>|
+					<a href="../app/contactUs?ref=fe3469">联系我们</a>|
+					<a href="../app/agentAddReg?ref=fe3469">合作伙伴</a>|
+					<a href="../app/faqDeposit?ref=fe3469">存款帮助</a>|
+					<a href="../app/faqWithdraw?ref=fe3469">取款帮助</a>|
+					<a href="../app/faq?ref=fe3469">常见问题</a>
+				</div>
+				<p>Copyright&nbsp;©&nbsp;红彩会 Reserved</p>
+			</div>
+		</div>
+
+			
+		<div id="maskDiv" class="loadingMask2" style="display: none; z-index: 10000;">
+		 	<div>
+		     <img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/loadingCenter.GIF" width="160" height="20" alt="loading">
+		        <h3>请稍后...</h3>
+		    </div>
+		</div>
+
+
+<div id="pop-div" class="pop-box" style="z-index:999; display: none;">
+	<div style="height: 109px;margin-left: 8px;">
+		<div onclick="hideDiv('pop-div');" style="width: 33px; height: 33px;cursor:pointer;  float: right; margin-right: -36px;margin-top: 4px;border-radius:20px;"></div>
+		<img src="/hongCaiHuiLoginWeb/images/CN/hongCaiHui/pc/logo.png" quality="high" style="    margin-top: 26px; top: 5px;left: 22px;position: relative;">
+	</div>
+	<div class="">
+        	<div class="login_title">
+        	
+        	会员登录</div>
+     </div>
+	<div class="pop-box-body" style="margin-left: 8px;">
+		<div class="pop-box_header"></div>
+		<input type="text" value="用户名" name="txtLoginUsername2" id="txtLoginUsername2" maxlength="16" class="login_password" onkeyup="javascript:loginEnter2(event.keyCode);" onfocus="changeNull2(this,'username');" onblur="changeMessage2(this,'username');"> 
+			<input type="text" value="密码" name="txtLoginPasswordText2" id="txtLoginPasswordText2" class="login_password" maxlength="20" onfocus="changePasswordText2();"> 
+			<input type="password" name="txtLoginPassword2" id="txtLoginPassword2" class="login_password" maxlength="20" style="display: none;" onblur="changePassword2();">
+		<div style="float: left;">
+			<input type="text" class="login_password" value="验证码" id="txtLoginCode2" name="txtLoginCode2" maxlength="4" autocomplete="off" onkeyup="javascript:loginEnter2(event.keyCode);" onblur="if(this.value==''){this.value=this.defaultValue;}" onfocus="if(this.value == this.defaultValue){this.value = '';}" style="width: 80px; float: left;"> 
+			<img id="checkLoginCodeImage2" onclick="changeLoginCode2()" src="/hongCaiHuiLoginWeb/app/checkCode/image" style="height: 37px; cursor: pointer; float: left; margin-left: 12px;">
+		</div>
+		<div class="hezi">
+			<div class="hezi_left">
+			     <a onclick="locationPageJump('joinNow')">注册</a>
+			</div>
+			<div class="hezi_right">
+				<a onclick="onlineService()">忘记密码？ </a>
+			</div>
+		</div>
+		<div class="loginon_btn" id="loginDiv">
+			<a onclick="javascript:loginFormSubmit2();">登录</a>
+		</div>
+	</div>
+</div>
+
+<div class="x0p default" style="padding-left: 10px;padding-right: 10px;padding-top:25px;position: fixed!important;z-index:999l">
+        			<span class="close" onclick="hidemask()"></span>
+					<table id="result_table" width="100%" border="0" class="m-table-s1" style="padding: 20px 0px 20px 20px;margin-top: 10px;">
+						<thead>
+							<tr>
+								<th style="width: 12%;">序号</th>
+								<th style="width: 22%;">日期</th>
+								<th>内容</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0" width="99%">
+					<tbody>
+						<tr class="tr_center_bot_bg">
+							<td height="35" width="12" class="td_left_bot_bg"></td>
+							<td align="center">
+								<table border="0" cellpadding="0" cellspacing="0" width="99%">
+									<tbody>
+										<tr id="pageMember" style="display: none;">
+											<td align="center">
+												<table border="0" cellpadding="0" cellspacing="0" height="22" width="100%">
+													<tbody>
+														<tr>
+															<td class="td_left" width="300" style="color: #000">
+																&nbsp;共&nbsp;<span id="currMemberNum"></span>&nbsp;记录
+															</td>
+															<td class="td_center" style="color: #000">共&nbsp;<span id="allPageNum"></span>&nbsp;页
+															</td>
+															<td class="td_right" width="300" style="color: #000; text-align: -webkit-right!important; ">
+																&nbsp;<a id="pagePrev" style="color: #000; cursor: pointer;">上一页</a>『&nbsp;<span id="currPageNum"></span>』<a id="pageNext" style="color: #000; cursor: pointer;">下一页</a>&nbsp;&nbsp;
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<tr id="noRecord" class="td_center" style="display: none;">
+											<td>当前没有数据</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+							<td width="16" class="td_right_bot_bg"></td>
+						</tr>
+					</tbody>
+				</table>
+        </div>
+</div>
+
+	<div id="dialog_show_img" title=""></div>
+    <script src="/hongCaiHuiLoginWeb/scripts/fc521/jquery.flexsliderNumberLang-min.js"></script>
+	<script src="/hongCaiHuiLoginWeb/scripts/fc521/main.js?v=v2.1608230422.990"></script>
+	
+	
+	
+	
+	
+	
+
+
+<div id="overlay" style="width: 1024px; height: 1958px; opacity: 0.6; display: block;"></div><div id="lightbox" style="top: 109.71428571428571px; left: 0px;"><div id="imageDataContainer" class="clearfix" style="width: 250px;"><div id="imageData" style="display: none;"><div id="imageDetails"><span id="numberDisplay"></span><span id="caption"></span></div><div id="bottomNav"><a href="javascript://" id="bottomNavClose" title="close image gallery"><img src="../images/all/lightbox/closelabel.gif"></a></div></div></div><div id="outerImageContainer" style="width: 250px; height: 250px;"><div id="imageContainer"><a style="float: right;" href="javascript://" id="bottomNavClose_news"><img src="../images/all/lightbox/closelabel.gif"></a><iframe id="lightboxIframe"></iframe><img id="lightboxImage" style="display: none;"><div id="hoverNav" style="display: none;"><a href="javascript://" title="previous image" id="prevLink" style="display: none;"></a><a href="javascript://" id="nextLink" title="next image" style="display: none;"></a></div><div id="loading"><a href="javascript://" id="loadingLink"><img src="../images/all/lightbox/loading.gif"></a></div></div></div></div></body></html>

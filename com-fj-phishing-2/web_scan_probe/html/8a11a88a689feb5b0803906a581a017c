@@ -1,0 +1,853 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>财神彩票</title>
+<link href="/cscpLoginWeb/images/CN/caiShenCP/pc/bitbug_favicon.ico" rel="shortcut icon">
+<script type="text/javascript" src="/cscpLoginWeb/js/jquery-1.8.3.min.js"></script>
+<link type="text/css" href="/cscpLoginWeb/css/lightbox.css" rel="stylesheet">
+<script src="/cscpLoginWeb/js/jquery.lightbox.js?" type="text/javascript"></script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+	$("#home").addClass("active");
+	var islogin = false;
+	if (islogin == false) {
+		var isShow = 1;
+		if(isShow == 1){
+			$(".lightbox").lightbox({
+			    fitToScreen: true,
+			    imageClickClose: false
+		    });
+		}
+		$(function(){$("#lightbox").click();})
+	}
+	
+	
+});
+</script>
+<script>
+
+
+
+//主選單效果跟隨滑動線
+
+
+</script>
+</head>
+
+<body>
+<input type="hidden" id="page" value="home">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<script type="text/javascript" src="/cscpLoginWeb/js/jquery.json-2.3.min.js"></script>
+<script type="text/javascript" src="/cscpLoginWeb/js/autoNumeric.js"></script>
+<script type="text/javascript" src="/cscpLoginWeb/language/CN/main.js"></script>
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/style/CN/caiShenCP/pc/style.css?v=v2.1608230422.897">
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/style/CN/caiShenCP/pc/member.css?v=v2.1608230422.897"> 
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/style/CN/caiShenCP/pc/styleAG.css">
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/style/CN/caiShenCP/pc/standard.css">
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/style/CN/caiShenCP/pc/layout.css?v=v2.1608230422.897">
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/style/CN/caiShenCP/pc/sport.css?v=v2.1608230422.897">
+<meta name="viewport" content="width=1200"> 
+
+<script type="text/javascript" src="/cscpLoginWeb/js/jquery-ui-1.10.4.custom.min.js"></script>
+<link type="text/css" href="/cscpLoginWeb/css/greed/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+
+<script type="text/javascript" src="/cscpLoginWeb/js/validation/languages/jquery.validationEngine-zh_CN.js"></script>
+<script type="text/javascript" src="/cscpLoginWeb/js/datepicker/jquery.ui.datepicker-zh-CN.js"></script>
+<script type="text/javascript" src="/cscpLoginWeb/js/validation/jquery.validationEngine.js"></script>
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/js/validation/validationEngine.jquery.css">
+
+<script type="text/javascript" src="/cscpLoginWeb/scripts/showMessageArtDialog.js"></script>
+<script type="text/javascript" src="/cscpLoginWeb/js/pc/artDialog/artDialog.js"></script>  
+<script type="text/javascript" src="/cscpLoginWeb/js/pc/artDialog/artDialog.source.js"></script> 
+<link rel="stylesheet" type="text/css" href="/cscpLoginWeb/js/pc/artDialog/skins/black.css">
+
+
+<script type="text/javascript" src="/cscpLoginWeb/scripts/soltsPage.js?v=v2.1608230422.897"></script>
+<script type="text/javascript" src="/cscpLoginWeb/scripts/patrn.js?v=v2.1608230422.897"></script>
+<script type="text/javascript" src="/cscpLoginWeb/scripts/login.js?v=v2.1608230422.897"></script>
+<script type="text/javascript" src="/cscpLoginWeb/scripts/util.js?v=v2.1608230422.897"></script>
+<script type="text/javascript" src="/cscpLoginWeb/scripts/account.js?v=v2.1608230422.897"></script>
+<script type="text/javascript" src="/cscpLoginWeb/scripts/register.js?v=v2.1608230422.897"></script>
+<script type="text/javascript" src="/cscpLoginWeb/scripts/personalMsg.js?v=v2.1608230422.897"></script>
+<script type="text/javascript" src="/cscpLoginWeb/scripts/move-top.js?v=v2.1608230422.897"></script>
+ <script type="text/javascript" src="/cscpLoginWeb/scripts/other-caiShenCP.js"></script>
+ <script type="text/javascript" src="/cscpLoginWeb/js/float.js"></script> 
+ <script type="text/javascript" src="/cscpLoginWeb/js/a.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		time();
+		setInterval("getAllNumber()",1000);
+		
+		var islogin = false;
+		if (islogin == true) {
+			getBalance("MAIN_WALLET");
+			getMsgCountUnread();
+		}
+	});
+		function shemes() {
+			var islogin = false;
+			if (islogin == true) {
+				$("#floatLogins").hide();
+			} else {
+				$("#floatLogins").show();
+			}
+		}
+		
+	function showmask(){
+		$(".x0p").show();
+	}
+	function hidemask(){
+		$(".x0p").hide();
+	}
+	$(function(){
+		var ref = "beff37";
+		URLModify(ref);
+	}); 
+</script>
+<div class="header">
+            <div class="header-top">
+        	<div class="wrapper">
+            	<div class="header-l">
+                	<dl>
+                    	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/Language.png" style="margin-top: 8px;"></dt>
+                        <dd><span id="time">2018年8月8日4时31分17秒</span></dd>
+                    </dl>
+                </div>
+                <div class="header-r">
+                	<ul>
+                    	<li><a class="flash" href="javascript:void(0);" onclick="SetHome(window.location);">设为主页</a></li>
+                        <li>|</li>
+                        <li><a class="flash" onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></li>
+                        <li>|</li>
+							
+                        <li><a class="flash1" href="http://cscpapp.com/" target="_blank">APP下载</a></li>
+                        <li>|</li> 
+                        <li><a class="flash2" href="../app/home?t=MP&amp;l=0&amp;ref=beff37">手机投注</a></li>
+                        <li>|</li>
+                        <li><a class="flash3" href="../app/agentAddReg?ref=beff37">代理加盟</a></li>
+                        <li>|</li>
+                        <li><a class="flash" href="https://03.bet/" target="_blank">线路检测</a></li>
+                        <li>|</li>
+                        <li><a href="http://cscp015.com/" class="flash1" target="_blank">网址大全</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+            
+            
+            <div class="header-center">
+        	<div class="wrapper">
+            	<div class="logo"></div>
+            	
+					
+					
+						<!--login-->
+		                <div class="login-r">
+		                	<div class="login-title">买彩票就上  015.com（全网最便捷、最给力网投品牌）</div>
+		                    <div class="login">
+		                    	<ul>
+		                        	<li><input type="text" name="txtLoginUsername" id="txtLoginUsername" maxlength="16" tabindex="1" placeholder="账号"></li>
+		                            <li><input type="password" name="txtLoginPassword" id="txtLoginPassword" maxlength="20" placeholder="密码" tabindex="2"></li>
+		                            <li><input type="text" id="txtLoginCode" name="txtLoginCode" maxlength="4" tabindex="3" onkeyup="javascript:loginEnter(event.keyCode);" placeholder="验证码">
+		                            	<img id="checkLoginCodeImage" class="checkLoginCodeImage" onclick="changeLoginCode()" style="position: absolute;cursor:pointer;right: 188px;height: 35px;width: 90px;border-radius:5px;top:9px;" src="/cscpLoginWeb/app/checkCode/image">
+		                            </li>
+		                            <li><a style="background:#cc2200;" href="javascript:void(0);" onclick="javascript:loginFormSubmit();">登录</a><a style="margin-left:10px; color:#000;" href="../app/joinNow?ref=beff37">注册</a></li>
+		                            <li class="login-p"><span onclick="window.location.href='../app/agentAddReg?ref=beff37'">代理招商</span><span>|</span><span onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112028')">忘记密码?</span></li>
+		                        </ul>
+		                    </div>
+		                </div>
+		                
+		            
+		            
+		        
+            </div>
+        </div>
+            <div class="header-bottom">
+        	<div class="wrapper">
+            	<div class="menu">
+                    	<ul>
+                    	<li><a id="home" class="nav-bg active" href="../app/home?l=CN&amp;ref=beff37">网站首页</a>	</li>
+               
+				
+					
+					
+					<li>
+                		<a id="li_lottery" class="nav-bg" href="../app/lottery?ref=beff37">传统彩票</a>
+						<ul>
+							<li><a href="../app/lottery?ref=beff37">IG传统彩票</a></li>
+							<li><a href="../app/lotteryIGVR?ref=beff37">IG(视讯)传统彩票</a></li>
+							<li><a href="../app/lotteryPJ?ref=beff37">IG(新)传统彩票</a></li>
+						</ul>
+						<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/hot_icon.gif" style="position: absolute;left: 75px;top: 7px;cursor:pointer;">
+						</li>
+					
+			 	
+					
+				
+				
+						
+						
+						
+						<li><a id="li_lottoffc" class="nav-bg" href="../app/lottoFfcIg?ref=beff37">官方彩票</a><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/hot_icon.gif" style="position: absolute;left: 75px;top: 7px;cursor:pointer;" onclick="window.location.href='../app/lottoFfcIg?ref=beff37'">
+							<ul>
+							<li><a href="../app/lottoFfcIg?ref=beff37">IG官方彩票</a></li>
+							<li><a href="../app/lottoFfcPJ?ref=beff37">IG(新)官方彩票</a></li>
+							</ul>
+							
+		         		</li>
+						
+						
+						
+		             
+	             <li>
+	            <a id="li_lotto" class="nav-bg" href="../app/lotto?ref=beff37">香港彩票</a>
+					
+					
+					
+						<ul>
+							<li><a href="../app/lotto?ref=beff37">IG香港彩票</a></li>
+							<li><a href="../app/lottoPJ?ref=beff37">IG(新)香港彩票</a></li>
+						</ul>
+					
+					
+					<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/hot_icon.gif" style="position: absolute;left: 75px;top: 7px;cursor:pointer;" onclick="window.location.href='../app/lotto?ref=beff37'">
+				</li>
+                		
+                        
+							
+								<li><a id="lives" class="nav-bg" href="../app/live?ref=beff37">真人视讯<!--[if IE 7]><!--></a><!--<![endif]-->
+		                        	<!--[if lte IE 6]><table><tr><td><![endif]--> 
+		                                            <ul> 
+		                                                <li><a href="../app/live?ref=beff37">LMG视讯</a></li>
+														<li><a href="../app/live?ref=beff37">CG视讯</a></li>
+														<li><a href="../app/live?ref=beff37">DS视讯</a></li>
+														<li><a href="../app/live?ref=beff37">IG视讯</a></li>
+														<li><a href="../app/live?ref=beff37">AG视讯</a></li>
+														<li><a href="../app/live?ref=beff37">BBIN视讯</a></li>
+														<li><a href="../app/live?ref=beff37">OG视讯</a></li>
+														<li><a href="../app/live?ref=beff37">AB视讯</a></li>
+				                                		<li><a href="../app/live?ref=beff37">SUNBET视讯</a></li>
+		                                            </ul> 
+		                                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+		                         </li>
+		                         <li><a id="game" class="nav-bg" href="../app/slotsGame?sgt=SLOTS&amp;ref=beff37">电子游艺<!--[if IE 7]><!--></a><!--<![endif]-->
+			                        	<!--[if lte IE 6]><table><tr><td><![endif]--> 
+			                             <ul> 
+			                                 <li><a href="../app/slotsGame?sgt=SLOTS&amp;ref=beff37">IG电子</a></li> 
+					                        <li><a href="../app/slotsGame?sgt=SLOTS_PT&amp;ref=beff37">PT电子</a></li>
+											<li><a href="../app/slotsGame?sgt=SLOTS_SPADE&amp;ref=beff37">SG电子</a></li>
+											<li><a href="../app/slotsGame?sgt=SLOTS_AG&amp;ref=beff37">AG电子</a></li>
+											<li><a href="../app/slotsGame?sgt=SLOTS_MG&amp;ref=beff37">MG电子</a></li>
+											<li><a href="../app/slotsGame?sgt=SLOTS_BBIN&amp;ref=beff37">BBIN电子</a></li>
+											<li><a href="../app/slotsGame?sgt=SLOTS_HB&amp;ref=beff37">HB电子</a></li>
+			                     		</ul> 
+			                             <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			                        </li>
+		                         <li><a id="byw" class="nav-bg" href="../app/electronicGameBYW?ref=beff37">捕鱼游戏</a>
+				                         <ul>
+											<li><a href="../app/electronicGameBYW?ref=beff37">AG捕鱼</a></li>
+											<li><a href="../app/electronicGameBYW?ref=beff37">AB空战</a></li>
+											<li><a href="../app/electronicGameBYW?ref=beff37">GG捕鱼</a></li>
+										</ul>
+		                         </li>
+		                         
+                        
+                        
+                        
+                        <li>
+                        	<a id="sports" class="nav-bg" href="../app/sportsAll?ref=beff37">体育投注</a>
+                        	<ul>
+                        		<li><a href="../app/sportsGameCmd?ref=beff37">CMD体育</a></li>
+	                        	
+									 
+										<li><a href="../app/sportsGameIwc?ref=beff37">皇冠体育</a></li> 
+									
+									
+								
+								<li><a href="../app/sportsGame?ref=beff37">M8体育</a></li>
+							</ul>
+                        </li>
+                        <li><a id="li_chess" class="nav-bg" href="../app/electronicGameQP?ref=beff37">棋牌游戏</a>
+		              		<ul>
+								
+									 
+											<li><a onclick="popupDiv('pop-div');">IG棋牌</a></li>
+											<li><a onclick="popupDiv('pop-div');">KY棋牌</a></li>
+									
+									
+								
+							</ul>
+		              	</li>
+                        <li><a id="pro" href="../app/promotion?ref=beff37" class="nav-bg">优惠活动</a><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/hot_icon.gif" style="position: absolute;left: 75px;top: 7px;cursor:pointer;" onclick="window.location.href='../app/agentAddReg?ref=beff37'"></li>
+                        <li><a class="nav-bg" href="javascript:void(0);" onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112028');">在线客服</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+<input type="hidden" id="path" value="/cscpLoginWeb">
+<input type="hidden" name="lottoLink" id="lottoLink" value="https://hk.mhsw.sh.cn/lottoclient/images/speed.gif,https://hk.fly-ray.com/lottoclient/images/speed.gif,https://hk.cdflzy.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryLink" id="lotteryLink" value="https://ssc.jjcj666.com/lotteryweb/siteOne/images/speed.gif,https://ssc.mhsw.sh.cn/lotteryweb/siteOne/images/speed.gif,https://ssc.fly-ray.com/lotteryweb/siteOne/images/speed.gif">
+<input type="hidden" name="lottoPJLink" id="lottoPJLink" value="https://pjhk.qmaozi.com/lottoclient/images/speed.gif,https://pjhk.happydoub.com/lottoclient/images/speed.gif,https://pjhk.020shoesmall.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryPJLink" id="lotteryPJLink" value="https://pjsc.020shoesmall.cn/lotteryweb/siteOne/images/speed.gif,https://pjssc.happydoub.com/lotteryweb/siteOne/images/speed.gif,https://pjsc.china-at.cn/lotteryweb/siteOne/images/speed.gif">
+
+
+
+
+
+	<div class="wrapper banner main_login">
+		<div class="banner">
+			<div class="swiper flexslider">
+				<ul class="slides">
+	            	
+					<li style="background-image: url(https://file.ppbk9.com/img/cscp/27fd33c8-cb6c-40af-b16b-cb8e359217e0.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 2; background-position: 50% 0px; background-repeat: no-repeat no-repeat;" class="flex-active-slide"></li>
+				
+					<li style="background-image: url(https://file.ppbk9.com/img/cscp/703a6733-41e9-448b-a5b7-692b4f96209b.png); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 1; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"></li>
+				
+					<li style="background-image: url(https://file.ppbk9.com/img/cscp/04c6cb41-4c08-46d3-ab70-889ef128d632.jpg); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 1; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"></li>
+				
+					<li style="background-image: url(https://file.ppbk9.com/img/cscp/ebc1f9c2-4761-4d29-bcf5-8cdfa12e6e56.png); width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 1; background-position: 50% 0px; background-repeat: no-repeat no-repeat;"></li>
+				
+				</ul>
+			<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li><li><a>3</a></li><li><a>4</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  		    
+    <!--最新消息-->
+    <div class="news">
+    	<div class="wrapper">
+        	<div class="new-title">最新消息：</div>
+            <div class="new-cont"><marquee style="font-size:13px; color:#e09e00;" align="middle" direction="left" loop="-1" scrollamount="3" onmouseout="this.start()" onmouseover="this.stop()" onclick="showmask();dispersionAnnounce(1);">【注意入款银行变更，入款时请查看最新账号】 因公司业务需要调整以下账户已被停用：
+【建设】—张帅
+【农行】—包国林
+【建设】—朱自强
+【建设】—孙友恒
+【农行】—赵学仁
+【农行】—何少鹏
+【农行】—张盛弘
+【农行】—朱晨意
+【农行】—赵宏阳
+【微信】—霸景鹤
+【招商】—广州市 廷旭 贸易有限公司
+【招商】—深圳市 燊舐 贸易有限公司
+【招商】—深圳市 红标 贸易有限公司    
+以上银行已被停用，请勿再向该账户转账！					好消息，好消息！即日起，凡是使用转账至我公司银行的会员享受当天首存的1%入款优惠，次日九点到达您的账户内，您还在等什么，赶紧使用公司网银入款吧~</marquee></div>
+        </div>
+    </div>
+        
+      
+	<!--lottery-->
+    <div class="lottery">
+    		
+    			
+    			
+    			
+    				 <div class="jscarousal"><div class="jscarousal-left"></div><div id="jsCarousel" class="jscarousal-contents">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                	<div class="visible" style="left: -1000px;"><div class="lottery-1 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_01.jpg"></dt>
+                                    <dd>香港六合彩</dd>
+                                </dl>
+                            </div><div class="lottery-2 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_02.jpg"></dt>
+                                    <dd>北京PK拾</dd>
+                                </dl>
+                            </div><div class="lottery-3 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_03.jpg"></dt>
+                                    <dd>广东快乐十分</dd>
+                                </dl>
+                            </div><div class="lottery-4 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_04.jpg"></dt>
+                                    <dd>重庆时时彩</dd>
+                                </dl>
+                            </div><div class="lottery-5 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_05.jpg"></dt>
+                                    <dd>幸运农场</dd>
+                                </dl>
+                            </div><div class="lottery-6 lott thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_06.jpg"></dt>
+                                    <dd>幸运飞艇</dd>
+                                </dl>
+                            </div></div><div class="hidden" style="left: -1000px;"><div class="lottery-1 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_01.jpg"></dt>
+                                    <dd>香港六合彩</dd>
+                                </dl>
+                            </div><div class="lottery-2 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_02.jpg"></dt>
+                                    <dd>北京PK拾</dd>
+                                </dl>
+                            </div><div class="lottery-3 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_03.jpg"></dt>
+                                    <dd>广东快乐十分</dd>
+                                </dl>
+                            </div><div class="lottery-4 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_04.jpg"></dt>
+                                    <dd>重庆时时彩</dd>
+                                </dl>
+                            </div><div class="lottery-5 lott lott0 thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_05.jpg"></dt>
+                                    <dd>幸运农场</dd>
+                                </dl>
+                            </div><div class="lottery-6 lott thumbnail-inactive" onclick="window.location.href='../app/lottery?ref=beff37'" style="">
+                            	<dl>
+                                	<dt><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/lott_06.jpg"></dt>
+                                    <dd>幸运飞艇</dd>
+                                </dl>
+                            </div></div></div><div class="jscarousal-right"></div></div>
+    			
+    			
+    		
+    		
+                
+    </div>
+<script>
+$(function(){
+	$('#jsCarousel').jsCarousel({ onthumbnailclick: function(src) { 
+	// 可在这里加入点击图片之后触发的效果
+	$("#overlay_pic").attr('src', src);
+	$(".overlay").show();
+	}, autoscroll: true });
+	
+	$(".overlay").click(function(){
+		$(this).hide();
+	});
+});
+</script>
+	<div class="x0p default" style="padding-left: 10px;padding-right: 10px;padding-top:25px;position: fixed!important;z-index:999l">
+        			<span class="close" onclick="hidemask()"></span>
+					<table id="result_table" width="100%" border="0" class="m-table-s1" style="padding: 20px 0px 20px 20px;margin-top: 10px;">
+						<thead>
+							<tr>
+								<th style="width: 12%;">序号</th>
+								<th style="width: 22%;">日期</th>
+								<th>内容</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0" width="99%">
+					<tbody>
+						<tr class="tr_center_bot_bg">
+							<td height="35" width="12" class="td_left_bot_bg"></td>
+							<td align="center">
+								<table border="0" cellpadding="0" cellspacing="0" width="99%">
+									<tbody>
+										<tr id="pageMember" style="display: none;">
+											<td align="center">
+												<table border="0" cellpadding="0" cellspacing="0" height="22" width="100%">
+													<tbody>
+														<tr>
+															<td class="td_left" width="300" style="color: #000">
+																&nbsp;共&nbsp;<span id="currMemberNum"></span>&nbsp;记录
+															</td>
+															<td class="td_center" style="color: #000">共&nbsp;<span id="allPageNum"></span>&nbsp;页
+															</td>
+															<td class="td_right" width="300" style="color: #000;text-align: right!important;">
+																&nbsp;<a id="pagePrev" style="color: #000; cursor: pointer;">上一页</a>『&nbsp;<span id="currPageNum"></span>』<a id="pageNext" style="color: #000; cursor: pointer;">下一页</a>&nbsp;&nbsp;
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<tr id="noRecord" class="td_center" style="display: none;">
+											<td>当前没有数据</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+							<td width="16" class="td_right_bot_bg"></td>
+						</tr>
+					</tbody>
+				</table>
+					<!-- <tbody>
+						<tr>
+							<td >
+							     <input type="text" onclick="hidemask()" value="确定" style="left: 44%;cursor:pointer;width: 100px;text-align: center;border-radius: 10px;color: #000;background-color: #ccc;position: relative;margin-top: 0px;margin-bottom: 15px;"/>
+							</td>
+						</tr>
+					</tbody> -->
+			
+        </div>
+	
+	<!--casino-->
+    <div class="casino">
+    	<div class="wrapper">
+        	<ul>
+            	<li>
+                	<a href="../app/lottery?ref=beff37">
+                		<p><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/casino-lott.jpg"></p>
+                        <div class="img01"><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/icon01.png" alt=""></div>
+                        <p class="ttl">彩票游戏</p>
+                        <p class="text01">六合彩赔率最高48-99倍</p>
+                        <p class="text02">北京赛车、时时彩、快3等主流彩票等应有尽有、玩法简单、超高赔率。</p>
+                        <div class="link">立即开始<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/arrow.png" alt=""></div>
+                	</a>
+                </li>
+                <li>
+                	<a class="casino-l" href="../app/live?ref=beff37">
+                    	<p><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/casino-live.jpg"></p>
+                        <div class="img01"><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/icon01.png" alt=""></div>
+                        <p class="ttl">真人视讯</p>
+                        <p class="text01">真人荷官发牌，精彩从不打烊</p>
+                        <p class="text02">百家乐、龙虎斗、色碟、骰宝、牛牛等应有尽有。</p>
+                        <div class="link">立即开始<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/arrow.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                	<a class="casino-l" href="../app/sportsGame?ref=beff37">
+                    	<p><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/casino-sports.jpg"></p>
+                        <div class="img01"><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/icon01.png" alt=""></div>
+                        <p class="ttl">体育赛事</p>
+                        <p class="text01">顶级赛事，巅峰对决。</p>
+                        <p class="text02">全场196高水位，赛事齐全、玩法多样、实时结算。</p>
+                        <div class="link">立即开始<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/arrow.png" alt=""></div>
+                    </a>
+                </li>
+                <li>
+                	<a class="casino-l" href="../app/slotsGame?sgt=SLOTS&amp;ref=beff37">
+                    	<p><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/casino-slots.jpg"></p>
+                        <div class="img01"><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/icon01.png" alt=""></div>
+                        <p class="ttl">电子游艺</p>
+                        <p class="text01">游惠十足，劲爆玩享。</p>
+                        <p class="text02">3000多种电子老虎机，亿元奖池一拉即爆。</p>
+                        <div class="link">立即开始<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/arrow.png" alt=""></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!--关于我们-->
+    <div class="btmAbout">
+    	<div class="wrapper">
+        	<div class="btmAbout-left">
+            	<dl>
+                	<dt>关于我们</dt>
+                    <dd>财神彩票与BBIN AG MG CT DS OG进行技术合作，共同打造高质量彩票游戏投注平台，目前拥有哥斯特黎加合法注册之博彩公司，选择财神彩票，绝对是您最明智的选择。</dd>
+                </dl>
+            </div>
+            <div class="btmAbout-right">
+            	<dl>
+                	<dt>手机投注 - 精彩一手掌握</dt>
+                    <dd><img src="/cscpLoginWeb/images/CN/caiShenCP/pc/QR_code.jpg"></dd>
+                    <dd>
+                    	<p style="width:160px; color:#e09e00; font-size:16px;">随时随地体验手机投注</p>
+                        <p>官方投注 值得信赖 方便快捷 大额无忧</p>
+                        <p><a href="../app/home?t=MP&amp;ref=beff37">开始投注</a></p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function hide1(){
+	$("#TplFloatPic_0").hide();
+};
+function hide4(){
+	$("#TplFloatPic_5").hide();
+};
+
+</script>
+<!-- 左悬浮 -->
+ <ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px;;" picfloat="left">
+ 		<li>
+	 		<a>
+	        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/left01.png" alt="" class="png_fix" align="middle"><!-- 易记域名 -->
+	    	</a>
+    	</li>
+    	
+			
+		 		<li onclick="popupDiv('pop-div');">
+			 		<a>
+			        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/left02.png" alt="" class="png_fix" align="middle"><!-- 热门彩种 -->
+			    	</a>
+		    	</li>
+				<li onclick="popupDiv('pop-div');">
+			 		<a>
+			        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/left03.png" alt="" class="png_fix" align="middle"><!-- 开元棋牌 -->
+			    	</a>
+		    	</li>
+		    	 
+			
+			
+			
+		<li>
+    		
+			
+			
+				
+					
+						<a href="http://www.cscppay.com/" target="_blank">
+					
+				
+			
+			
+	        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/left04.png" alt="" class="png_fix" align="middle"><!-- bbin电子 -->
+	    	</a>
+    	</li>
+    	<li onclick="hide1();"><a>
+        <img style="display:block;" src="/cscpLoginWeb/images/CN/caiShenCP/pc/left05.png" alt="" class="png_fix" align="middle"><!-- 关闭 -->
+    </a></li>
+</ul>
+
+<!-- 右悬浮 -->
+<ul id="TplFloatPic_5" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; right: 5px; width: 116px;" picfloat="right">
+		<li>
+			<a style="width: 116px;" href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112028" target="_blank">
+	        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/right_01.png" alt="" class="png_fix" align="middle"><!-- 在线客服 --> 
+		    </a>
+	    </li>
+		<li>
+			<a style="width: 116px;" href="http://cscpkf.com/" target="_blank">
+	        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/right_02.png" alt="" class="png_fix" align="middle" "=""> <!-- 客服自助中心 -->
+		    </a>
+	    </li>
+	    <li>
+			<a style="width: 116px;" href="http://015jgj.com/" target="_blank">
+	        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/right_03.png" alt="" class="png_fix" align="middle"> <!-- 理财金管家 -->
+		    </a>
+	    </li>
+	    <li>
+			<a style="width: 116px;" href="https://cscpyh.com/" target="_blank">
+	        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/right_04.png" alt="" class="png_fix" align="middle"> <!-- 活动申请大厅 -->
+		    </a>
+	    </li>
+	    <li>
+			<a style="width: 116px;" href="http://cscp015.com/" target="_blank">
+	        	<img src="/cscpLoginWeb/images/CN/caiShenCP/pc/right_05.png" alt="" class="png_fix" align="middle"> <!-- 财神网址导航-->
+		    </a>
+	    </li>
+	    <li>
+	    <a style="width: 116px; height: 24px;" onclick="hide4();">
+        <img src="/cscpLoginWeb/images/CN/caiShenCP/pc/right_06.png" alt="" class="png_fix" align="middle"><!-- 关闭 -->
+      	</a></li>
+    
+</ul>
+<script>
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    var left_top = 150, right_top = 150, float_list = [], float_side = 5;
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+                    float_list['0'] = $('#TplFloatPic_0');
+                    float_list['1'] = $('#TplFloatPic_5');
+                for (var i in float_list) {
+            if (float_list[i].attr == undefined) {
+                continue;
+            }
+            var self = float_list[i], 
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+            var w = 0;        
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                	$(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                	$(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+</script>
+<div id="pop-div" class="pop-box" style="z-index: 1000; display: none;">
+	<div style="height: 109px;margin-left: 8px;">
+		<div onclick="hideDiv('pop-div');" style="width: 33px; height: 33px;cursor:pointer;  float: right; margin-right: -36px;margin-top: 4px;border-radius:20px;"></div>
+		<embed src="/cscpLoginWeb/images/CN/caiShenCP/pc/logo.png" quality="high" style="margin-top: 12px; top: -20px; left: 10px; position: relative; width: 220px; display: none;" wmode="transparent" type="application/x-shockwave-flash">
+	</div>
+<!-- 	<div class="tc_title_h">
+            	<div class="login_title">会员登录</div>
+            </div> -->
+	<div class="pop-box-body" style="margin-left: 8px;">
+		<div class="pop-box_header"></div>
+		<input type="text" value="用户名" name="txtLoginUsername2" id="txtLoginUsername2" maxlength="16" class="login_password" onkeyup="javascript:loginEnter2(event.keyCode);" onfocus="changeNull2(this,'username');" onblur="changeMessage2(this,'username');"> 
+			<input type="text" value="密码" name="txtLoginPasswordText2" id="txtLoginPasswordText2" class="login_password" maxlength="20" onfocus="changePasswordText2();"> 
+			<input type="password" name="txtLoginPassword2" id="txtLoginPassword2" class="login_password" maxlength="20" style="display: none;" onblur="changePassword2();">
+		<div style="float: left;">
+			<input type="text" class="login_password" value="验证码" id="txtLoginCode2" name="txtLoginCode2" maxlength="4" autocomplete="off" onkeyup="javascript:loginEnter2(event.keyCode);" onblur="if(this.value==''){this.value=this.defaultValue;}" onfocus="if(this.value == this.defaultValue){this.value = '';}" style="width: 80px; float: left;"> 
+			<img id="checkLoginCodeImage2" onclick="changeLoginCode2()" src="/cscpLoginWeb/app/checkCode/image" style="height: 37px; cursor: pointer; float: left; margin-left: 12px;">
+		</div>
+		<div class="hezi">
+			<div class="hezi_left">
+			     <a onclick="locationPageJump('joinNow')">注册</a>
+			</div>
+			<div class="hezi_right">
+				<a onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112028');">忘记密码？ </a>
+			</div>
+		</div>
+		<div class="loginon_btn" id="loginDiv">
+			<a onclick="javascript:loginFormSubmit2();">登录</a>
+		</div>
+	</div>
+</div>
+<div id="maskDiv" class="loadingMask2" style="z-index: 10000; display: none;">
+	<div>
+		<img width="160" height="20" alt="loading" src="/cscpLoginWeb/images/CN/caiShenCP/pc/loadingCenter.GIF">
+		<h3>请稍后...</h3>
+	</div>
+</div>
+
+
+    
+     <!--联系-->
+    <div class="foot-lx">
+    	<div class="foot-lx-bottom">
+    	     <ul>
+    	         <li class="page-foot-top-1" onclick="openQQ('1243439999')"><a>客服QQ：1243439999</a></li>
+    	         <li class="page-foot-top-3" onclick="openQQ('1228888677')"><a>代理QQ：1228888677</a></li>
+                 <li class="page-foot-top-4"><a>联系邮箱：cs789com@gmail.com</a></li>
+                 <li class="page-foot-top-2" onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112028');"><a>7X24小时在线客服</a></li>
+                 
+             </ul>
+             
+<!--     		<a style="height: 66px;width: 200px;position: absolute;left:175px;" onclick="openQQ('1243439999')"><span></span></a>
+    		<a style="height: 66px;width: 192px;position: absolute;left:425px;" onclick="openQQ1('1228888677')"><span></span></a>
+    		<a class="foot-lx-zxkf" style="height: 66px;width: 192px;position: absolute;right:170px;" onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&eid=112028');"></a> -->
+    	</div>
+    </div>
+    
+    <!--版权-->
+    <div class="footer">
+    	<div class="wrapper">
+        	<div class="foot-logo"></div>
+            <div class="foot-ul">
+            	<ul>
+                	<li><a href="../app/aboutUs?ref=beff37">关于我们</a></li>
+                    <li>|</li>
+                    <li><a href="../app/contactUs?ref=beff37">联系我们</a></li>
+                    <li>|</li>
+                    <li><a href="../app/agentAddReg?ref=beff37">代理合作</a></li>
+                    <li>|</li>
+                    <li><a href="../app/faqDeposit?ref=beff37">存款帮助</a></li>
+                    <li>|</li>
+                    <li><a href="../app/faqWithdraw?ref=beff37">取款帮助</a></li>
+                    <li>|</li>
+                    <li><a href="../app/faq?ref=beff37">常见问题</a></li>
+                   <!--  <li>|</li>
+                    <li><a href="../app/liability">负责任博彩</a></li> -->
+                    <li>|</li>
+                    <li><a onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112028')">在线客服</a></li>
+                </ul>
+            </div>
+            <p>Copyright © 2012 - 2017 财神彩票     All Rights Reserved</p>
+        </div>
+    </div>
+    
+    
+    
+ <div class="rightTop" style="display:block;position:fixed;right:0px;top:0px;width:150px;height:150px;z-index:99999;">
+  
+   		
+   
+   <span style="position:absolute;right:0;top:0;width:40px;height:40px;cursor:pointer;" onclick="this.parentNode.style.display = 'none';"></span>
+</div>
+
+
+
+    <script src="/cscpLoginWeb/scripts/fc521/jquery.flexslider-min.js"></script>
+	<script src="/cscpLoginWeb/scripts/fc521/main.js?v=v2.1608230422.897"></script>
+	
+	
+	
+	
+	
+	
+ 
+
+<div id="overlay" style="width: 1056px; height: 2106px; opacity: 0; display: block;"></div><div id="lightbox" style="top: 109.71428571428571px; left: 0px;"><div id="imageDataContainer" class="clearfix" style="width: 250px;"><div id="imageData" style="display: none;"><div id="imageDetails"><span id="numberDisplay"></span><span id="caption"></span></div><div id="bottomNav"><a href="javascript://" id="bottomNavClose" title="close image gallery"><img src="../images/all/lightbox/closelabel.gif"></a></div></div></div><div id="outerImageContainer" style="width: 250px; height: 250px;"><div id="imageContainer"><a style="float: right;" href="javascript://" id="bottomNavClose_news"><img src="../images/all/lightbox/closelabel.gif"></a><iframe id="lightboxIframe"></iframe><img id="lightboxImage" style="display: none;"><div id="hoverNav" style="display: none;"><a href="javascript://" title="previous image" id="prevLink" style="display: none;"></a><a href="javascript://" id="nextLink" title="next image" style="display: none;"></a></div><div id="loading"><a href="javascript://" id="loadingLink"><img src="../images/all/lightbox/loading.gif"></a></div></div></div></div></body></html>

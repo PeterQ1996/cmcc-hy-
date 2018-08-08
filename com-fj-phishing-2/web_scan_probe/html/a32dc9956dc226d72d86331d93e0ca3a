@@ -1,0 +1,158 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>客户访问系统_用户登录</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #016aa9;
+	overflow: hidden;
+}
+
+.STYLE1 {
+	color: #000000;
+	font-size: 12px;
+}
+
+#toubiao {
+	BORDER-TOP: #e2e2e2 1px solid;
+	BORDER-BOTTOM: #e2e2e2 1px solid;
+}
+-->
+</style>
+
+<script type="text/javascript" src="/operamasks/js/jquery.min.js"></script>
+<script>
+	function toueme(){
+		document.getElementById("toubiao").style.display="none";
+	}
+	
+	function toHide(){
+		document.getElementById("easDesc").style.display="none";
+	}
+</script>
+</head>
+
+<body>
+
+<div id="downApp" style="position:absolute;top:100;left:150;">
+	<table>
+		<tbody><tr><td align="left" colspan="2"> 
+			<a href="/sas/mobileDownload/mobile_sas.html" color="yellow"><font color="yellow">点击下载或扫描下载<br>聚成移动客户端</font></a>  
+		</td></tr>
+	    <tr><td align="center">
+		<a href="/sas/mobileDownload/mobile_sas.html">
+			<img src="/sas/resource/images/mobile.png" style="width: 120px; height: 120px;"></a>
+		</td>
+		<td style="width:100px">
+			<font color="white" size="2">若苹果手机出现'未受信用的企业级开发者': 请设置-&gt;通用-&gt;描述文件/设备管理-&gt;信任</font>
+		</td>
+		</tr>						
+	</tbody></table>
+</div>
+					  
+					  
+
+
+
+
+<div id="easDesc" style="position: absolute; top: 100px; left: 824px; background-color: rgb(30, 132, 182); height: 50px; width: 160px; padding: 2px; border: 2px; background-position: initial initial; background-repeat: initial initial;"> 
+	<table>
+	<tbody><tr><td>
+		<a href="http://eas.jucheng.com:6888/easWebClient/download.html" target="_blank" hspace="2">
+			<font color="yellow">eas安装包及补丁下载 </font>	</a>
+	</td></tr>
+	<tr><td>
+	<a style="CURSOR: hand" onclick="toHide()"><img src="/sas/resource/images/close.gif" hspace="2" vspace="4" border="0"></a>
+	</td></tr>
+	</tbody></table>
+</div>
+
+	<form id="ff" method="post" action="/sas/commonAction!loginUser.action">
+		<table width="100%" height="75%" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td><table width="962" border="0" align="center" cellpadding="0" cellspacing="0">
+						<tbody><tr>
+							<td height="235" background="/sas/resource/images/login_03.gif">&nbsp;</td>
+						</tr>
+						<tr>
+							<td height="53"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tbody><tr>
+										<td width="394" height="53" background="/sas/resource/images/login_05.gif">&nbsp;</td>
+										<td width="206" background="/sas/resource/images/login_06.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<tbody><tr>
+													<td width="16%" height="25"><div align="right">
+															<span class="STYLE1">用户</span>
+														</div></td>
+													<td width="57%" height="25"><div align="center">
+															<input type="text" name="account" value="" style="width: 105px; height: 17px; background-color: #292929; border: solid 1px #7dbad7; font-size: 12px; color: #6cd0ff">
+														</div></td>
+													<td width="27%" height="25">&nbsp;</td>
+												</tr>
+												<tr>
+													<td height="25"><div align="right">
+															<span class="STYLE1">密码</span>
+														</div></td>
+													<td height="25"><div align="center">
+															<input type="password" name="password" value="" style="width: 105px; height: 17px; background-color: #292929; border: solid 1px #7dbad7; font-size: 12px; color: #6cd0ff">
+														</div></td>
+													<td height="25"><div align="left">
+															<input type="image" src="/sas/resource/images/dl.gif" width="49" height="18" border="0">
+														</div></td>
+
+												</tr>
+											</tbody></table></td>
+										<td width="362" background="/sas/resource/images/login_07.gif">&nbsp;</td>
+
+									</tr>
+
+								</tbody></table></td>
+						</tr>
+						<tr>
+							<td height="103" background="/sas/resource/images/login_08.gif" valign="top" align="center">
+							<span style="color: red; font-size: 12px">&nbsp;&nbsp;&nbsp;
+							</span></td>
+						</tr>
+					</tbody></table></td>
+		</tr></tbody></table>
+	</form>
+
+
+	<div id="toubiao">
+		<table width="100%" border="0" cellspacing="0" cellpadding="1">
+			<tbody><tr>
+				<td width="80%" align="left">
+					<div style=" float: left;margin-left: 8%;" align="left">
+					    <span style="text-decoration: none;"><font color="yellow">【安卓:】<br></font></span>
+						<span style="text-decoration: none;"><font color="yellow">【最新版本:】5.7<br></font></span>
+						<span style="text-decoration: none;"><font color="yellow">【更新内容:】
+桌面菜单布局更改，企业群组优化，好友页面数据优化，一些bug修复.
+<br></font></span>
+						<span style="text-decoration: none;"><font color="yellow">【更新时间:】2016-08-25 09:37:07.0<br></font></span>
+					</div>
+					<div style=" float: left;margin-left: 8%;" align="left">
+					    <span style="text-decoration: none;"><font color="yellow">【IOS:】<br></font></span>
+						<span style="text-decoration: none;"><font color="yellow">【最新版本:】v5.83<br></font></span>
+						<span style="text-decoration: none;"><font color="yellow">【更新内容:】
+修复一些Bug。
+<br></font></span>
+						<span style="text-decoration: none;"><font color="yellow">【更新时间:】2017-04-11 11:24:45.0<br></font></span>
+					</div>
+				</td>
+				<td width="20%" align="left">
+					<a style="CURSOR: hand" onclick="toueme()"><img src="/sas/resource/images/close.gif" hspace="6" border="0"></a>
+				</td>
+			</tr>
+		</tbody></table>
+	</div>
+	
+<script language="javascript">
+	document.getElementById("easDesc").style.position = "absolute";
+	document.getElementById("easDesc").style.left = $(document.body).width()-200;
+</script>
+
+
+</body></html>

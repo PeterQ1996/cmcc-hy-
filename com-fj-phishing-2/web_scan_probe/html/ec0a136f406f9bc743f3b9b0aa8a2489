@@ -1,0 +1,319 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>你还在用微信聊天，别人已经用它赚钱！</title>
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="popBox.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script>
+//声明_czc对象:
+var _czc = _czc || [];
+//绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+_czc.push(["_setAccount", "1263514319"]);
+</script>
+<script type="text/javascript">
+
+//function getQueryString(name){
+//	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+//	var r = window.location.search.substr(1).match(reg);
+//	if(r != null) return unescape(r[2]); return null;
+//}
+
+var wxArr =['ycp0049','13159826974']
+
+wxArrLen = wxArr.length,
+wxIndex = Math.round(Math.random()*(wxArrLen - 1)),
+wx = wxArr[wxIndex];
+//localWX = getQueryString('a_oId=&a_cid=&wx'),
+//localWXIndex = $.inArray(localWX, wxArr);
+//if(localWXIndex === -1){
+//	window.location.href = window.location.origin + window.location.pathname + '?a_oId=&a_cid=&wx=' + wx;
+//}else{
+	var rwx = wx,
+		rqr = "http://mzxtrade.com/img/weixinQR/gp2niu/" + rwx +".jpg";
+//}
+
+</script>
+<style type="text/css">
+/*自适应*/
+/*在这里写小屏幕设备或者平板的样式*/
+@media screen and (min-width: 320px) and (max-width: 1024px){
+    .rfbox{ display: none }
+    .fixed{ display: block }
+}
+
+/*这里写pc客户端的样式*/
+@media only screen and (min-width: 1029px){
+    .rfbox{ display: block }
+    .fixed{ display: none }
+
+}
+.wxarea{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+.wxaNum{
+	display:inline-block;
+	padding:5px 8px;
+	background-color:rgb(250, 250, 5);
+	color:rgb(255, 0, 0);
+	box-shadow:0 3px 3px rgba(0,0,0,.5);
+	border-radius:5px;
+	margin:10px 0;
+	font-weight: bold;
+}
+.wxaTxt{
+	
+}
+.wzTitl{
+	padding:10px 0 10px 10px;
+	margin:0 16px;
+	border-left:5px solid rgb(6, 109, 255);
+	font-size:18px;
+	background-color:#066dff;
+	color:rgb(243, 243, 243);
+}
+.T2_p3{
+	font-size: 18px;
+    line-height: 36px;
+    padding: 10px 16px 0 16px;
+}
+.bred{
+	font-weight:500;
+	color:rgb(220, 21, 21) !important;
+}
+.borange{
+	
+}
+button{
+	font-size:1.2rem;
+	border:0;
+	display:inline-block;
+}
+.cutLine{
+	border-top:2px dotted #ddd;
+	width:90%;
+	margin:10px auto 0 auto;
+}
+</style>
+</head>
+<body cz-shortcut-listen="true" style="zoom: 1;">
+<!-- bottom fixed box -->
+<div class="fixed">
+点击复制→ <button style="color: rgb(255, 0, 0); padding:3px; background-color:rgb(250, 250, 5); border-radius:5px; box-shadow: 0px 2px 2px rgba(0,0,0,.5);" class="weixinid public-name" onclick="_czc.push(['_trackEvent','fst2复制微信', '0323']);" data-clipboard-text="13159826974"><script>document.write(rwx);</script>13159826974</button> 
+←开始赚钱
+</div>
+
+<div class="maxBox">
+<div class="All_Whole" style="padding-top:10px;">
+	<section id="frame-1" class="brick-frame brick-frame-server" style="padding-top:0;padding-bottom:0.133rem;padding-left:1.3rem;padding-right:0.267rem;"><div class="brick-mask"></div><div class="brick-content"><div class="piece text-piece" style="border-width:0.027rem;border-color:#000;border-style:none;border-radius:0;"><div class="rich-text"><div class="inner"><p>
+	<img border="0" src="/05.jpg" width="90%" style="height: auto"></p></div></div></div></div></section>
+
+
+	<p class="wzTitl">我们都知道穷 那么穷有多可怕？</p>
+    <section id="frame-11" class="brick-frame brick-frame-server" style="padding-top:0;padding-bottom:0.267rem;padding-left:0.4rem;padding-right:0.4rem;">
+    <div class="brick-mask"></div>
+    <div class="brick-content">
+    <div class="piece text-piece" style="border-width:0.027rem;line-height:30px;padding:5px 11px;border-color:#000;border-style:none;border-radius:0;">
+    <div class="rich-text"><div class="inner">
+    <p style="line-height: 150%"><span style="color: rgb(236, 112, 52); ">
+	当你的亲朋好友们数落你没出息，没有人会可怜你！</span></p>
+    <p style="line-height: 150%"><span style="color: rgb(236, 112, 52); ">
+	当你的小孩生病没钱医治的时候，没有人会可怜你！</span></p>
+    <p style="line-height: 150%"><span style="color: rgb(236, 112, 52); ">
+	当你心爱的另一半抛弃你的时候，没有人会可怜你!</span></p>
+    <p style="line-height: 150%"><span style="color: rgb(236, 112, 52); ">
+	当你30岁40岁还没有什么成就的时候，没有人会可怜你！</span></p>
+    <p style="line-height: 150%"><span style="color: rgb(236, 112, 52); ">穷，很容易让人目光短浅！</span></p>
+    <p style="line-height: 150%"><span style="color: rgb(236, 112, 52); ">
+	人，要么走向成长，要么走向灭亡！</span></p>
+    <p style="line-height: 150%"><span style="color: rgb(236, 112, 52); ">等待，就是浪费青春！</span></p></div></div></div></div></section>
+	<img src="my1.jpg" class="Img5 yii_template">
+	<br>
+    
+	<blockquote class="" data-author="Wxeditor" style="margin: 5px auto; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; font-family: &quot;Helvetica Neue&quot;, Helvetica, &quot;Microsoft YaHei&quot;, &quot;&amp;#930;&amp;#65533;&amp;#65533;&amp;#65533;&amp;#378;&amp;#65533;&quot;, Arial, sans-serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; border-width: 0px; border-style: none; color: rgb(62, 62, 62); line-height: 25.6px; background-color: rgb(255, 255, 255); overflow-wrap: break-word !important;">
+		<section class="" style="margin: 0px; padding: 3px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; border: 2px solid rgb(252, 0, 0); color: rgb(252, 0, 0); display: inline-block; overflow-wrap: break-word !important;"><section class="" style="margin: 0px; padding: 0.2em 1em; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; border: 1px dashed rgb(252, 0, 0); overflow-wrap: break-word !important;">
+		<strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; font-style: normal; overflow-wrap: break-word !important;">
+		有人用微信聊天，有人却在微信中赚钱</strong></section></section></blockquote>
+	<p class="T2_p2 ">
+	&nbsp;2018年3月份的时候，小林的朋友分享了一位老师微信号 给她，她的命远就此发生了改变；在老师这里了解一个新的赚钱方法&nbsp;，操作简单，用手机就可以随时操作，&nbsp;起步投资也就20块钱(一两瓶水一包烟的钱)&nbsp;，就&nbsp;能赚个300元-500元&nbsp;不是什么问题，起初小林也是抱着将信将疑的态度尝试看看，还自己试着操作了一下，在群里也观察发现里面赚钱的有不少人，她就跟老师详细的了解一下，老师就跟她说，你现在不要着急，你现在要做的是学会我们的投资方法，这样你才能赚钱。在确确实实看到很多人赚了钱之后，也让小林下定&nbsp;"决心"&nbsp;跟着老师的方法来操作，没想到当天真的赚到了450块钱，后来在群里也看到别人一天都能赚上1000元-3000元，而她1个月赚到1万多，虽然还是赚的比较少，但就这样每天都坚持下去，也她比以前赚多了好几倍了！她说知足了！也非常感谢朋友分享这位老师微信号<br>
+	现在她也买了属于自已的车，每天过的也是轻松自由没有生活压力。</p>
+	<p class="T2_p2 ">
+	<font size="4" color="#666666">
+	<img border="0" src="4444.jpg" width="90%" style="height: auto"></font></p>
+	
+	<div class="wxarea">
+		<button class="public-name wxaNum" data-clipboard-text="13159826974"><script>document.write(rwx);</script>13159826974</button>
+		<p class="wxaTxt">↑点击微信号添加好友↑</p>
+	</div>
+	
+	<p class="T2_p2 ">
+她还是说道坚持要勇于尝试，接受新鲜事物是现代社会必须要有素质，不然根本就不知道怎么去赚钱。 正是因为她朋友分享给她这个微信号 ，让她短短的半年时间里边，轻松挣到了十万，平均每个月挣1万多，最高的时候一个月挣了2万多，现在她的梦想是，在老家买一套150平米的大房子 。。 
+&nbsp;&nbsp;&nbsp;&nbsp;她说其实一点都不难，谁都可以做得到，起步投资也就10块钱，一两瓶水一包烟的钱；就因为好多人，就没有把这些小事放到眼里，所以失去错过了机会，老人老说你看， 千里之行，始于足下。 </p>
+		
+		<p align="center">
+		
+		<img src="/TB2lPVSed3nyKJjSZFEXXXTTFXa_!!276530134.jpg" alt="" style="text-align: center; box-sizing: border-box !important; word-wrap: break-word !important; overflow-wrap: break-word !important; visibility: visible !important; width: 90% !important; height: auto !important;" data-ratio="0.3231046931407942" data-w="554" data-src="/mmbiz.qpic.cn/mmbiz_png/ZMTyzSjReRzVX9kOk8oiakGj40tQKIYich55fkiathibF3JoOTOWbia4MGMdKTwSAdPs0Ae5S57uBVYfIibTODqrBcow/640?" _width="590px">
+	<br>
+	</p>
+	<div class="wxarea">
+		&nbsp;</div>
+	
+	<div class="T3_Bot">
+		<div class="T3_Bot_T">
+			<div class="T3_Bot_R">
+				<ul>
+					<li class="Le"><strong><a class="CL1 yii_template">只看楼主</a></strong></li>
+					<li><strong><a class="CL2 yii_template">倒序排列</a></strong></li>
+				</ul>
+			</div>
+			<p>&nbsp;</p>
+			<div>
+			</div>
+			<div class="T3_Bot_L yii_template">
+				评论
+			</div>
+			<div class="T3_Bot_C yii_template">
+				(2162)
+			</div>
+		</div>
+		<div class="T3_Bot_B">
+			<ul>
+				<li> <img src="03_03.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 花笺无语 <span>07-20 09:05</span> </p>
+						<p class="Rig_p2 yii_template">
+						我刚做两个月，确实挺惊喜的，等我再赚多点，也跟你一样把经验分享给大家</p>
+					</div> </li>
+				<li> <img src="04_03.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 想嫁有钱人 <span>07-20 09:05</span> </p>
+						<p class="Rig_p2 yii_template"> 
+						真方便，加了客服，注册就可以用了，试着投了，2分钟我已经赚了200块了，哈哈 </p>
+					</div> </li>
+				<li> <img src="05_03.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 一蹶不振的骆驼 <span>07-20 
+						14:52</span> </p>
+						<p class="Rig_p2 yii_template"> 
+						我也加了老师微信号跟着尝试去，反正就是小额投资,会有大回报！</p>
+					</div> </li>
+                <li> <img src="05_031.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 遗城角落 <span>07-20 14:52</span> </p>
+						<p class="Rig_p2 yii_template"> 
+						我上个月跟着老师玩这个赚了一万！小投入大回报，这个月冲五三万去！</p>
+					</div> </li>
+                <li> <img src="05_032.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 小豆芽 <span>07-20 14:52</span> </p>
+						<p class="Rig_p2 yii_template"> 
+						小额多次的投放，感觉更稳，但是看准了一次，就放手博一博，单车变摩托，试一试！</p>
+					</div> </li>        
+				<li class="One_Li"> <img src="06_03.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 猫咪爱钞票 <span>07-20 18:06</span> </p>
+						<p class="Rig_p2 yii_template"> 
+						操作真简单，一看就会用了。现在我基本都是用碎片时间玩，一有空就拿手机操作。。 </p>
+					</div> </li>
+				<li> <img src="07_03.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 书生意气 <span>07-20 17:34</span> </p>
+						<p class="Rig_p2 yii_template"> 
+						我辞职好久了，也没找到好工作，这个投入是不是很高？ </p>
+					</div> </li>
+				<li class="Rund"> <img src="A1_03.png">
+					<div class="Rig">
+						<p class="Rig_p1 yii_template"> 还魂草 <span>07-20 21:33</span> </p>
+						<p class="Rig_p2 yii_template"> 
+						上周炒股亏了60000多块。后来玩这个，每天投了100块左右，10多天居然让我把炒股的钱都赚回来。以后还是玩这个赚钱稳当。 </p>
+					</div> </li>
+			</ul>
+  <span style="font-family: 微软雅黑; font-size: 16px; line-height: 28px; color: rgb(204, 204, 204); background-color: rgb(255, 255, 255);"> 
+			</span>
+			<p> <br> </p>
+		</div>
+	</div>
+</div>
+</div>
+<!-- popBox right-->
+<button class="addWxIcon public-name" data-clipboard-text="13159826974"></button>
+<div class="pbOpacity" style="display: none;">
+	<div class="pbContent">
+		<i class="pbCcloseIcon"></i>
+		<p class="pbCTitle1">添加老师微信学赚钱</p>
+		<div class="pbCImg">
+		<img src="rightIcon.png" alt="">
+		</div>
+		<p class="pbCTitle2">恭喜您！微信号 <span class="public-name" data-clipboard-text="13159826974"><script>document.write(rwx);</script>13159826974</span> 
+		已复制成功！</p>
+		<p class="pbCTitle3">点击下方按钮打开微信并搜索好友</p>
+		<div class="pbCTowxBox">
+			<a class="pbCTowx" onclick="_czc.push(['_trackEvent','fst2打开微信','1208']);" style="text-decoration:none;" data-setting-click="2" href="weixin://">
+			打开微信</a>
+		</div>
+	</div>
+</div>
+<!-- popBox error-->
+<div class="pbOpacityError">
+	<div class="pbContent">
+		<i class="pbCcloseIcon"></i>
+		<p class="pbCTitle1">加微信学投资</p>
+		<div class="pbCImg">
+			<p class="pbCTitle2">您的浏览器不支持自动复制功能，请手动复制微信</p>
+		</div>
+		<p class="pbCTitle2">长按复制 <span class="public-name" data-clipboard-text="13159826974"><script>document.write(rwx);</script>13159826974</span> 
+		添加好友</p>
+		<p class="pbCTitle3">点击下方按钮打开微信并搜索好友</p>
+		<div class="pbCTowxBox">
+			<a class="pbCTowx" onclick="_czc.push(['_trackEvent', 'fst2打开微信', '1208']);" data-setting-click="2" href="weixin://">
+			打开微信</a>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="clipboard.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {  
+		//$(".public-name").bind({  
+		//	copy : function(){  
+		//		location.href='weixin://';
+		//	}
+		//}); 
+		<!-- copy func -->
+		var clipboard = new Clipboard('.public-name');
+		
+		clipboard.on('success', function(e) {
+			$(".pbOpacity").fadeIn(600);
+		});
+		
+		clipboard.on('error', function(e) {
+			console.log(e);
+			$(".pbOpacityError").fadeIn(600);
+		});
+		
+		$(".public-name").attr("data-clipboard-text",rwx);
+
+		$(".pbCcloseIcon").click(function(){
+			$(".pbOpacity,.pbOpacityError").fadeOut(600);
+		});
+		
+	}); 
+</script>
+<script>
+    /*copyPop*/
+    $(document).ready(function() {  
+        $(".weixinid").bind({  
+            copy : function(){  
+    			location.href='weixin://';
+            }
+        });
+		$(document).ready(function(){
+			$(".ranQrImg").attr("src",rqr);
+		});	
+    }); 
+</script>
+<div style="display:none">
+</div>
+</body></html>

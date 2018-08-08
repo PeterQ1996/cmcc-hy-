@@ -1,0 +1,1841 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>彩家园</title><script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/public.js"></script>
+<link href="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/bitbug_favicon.ico" rel="shortcut icon">
+<meta name="google-site-verification" content="jugGXZBUjk2eid1OmaNQj6zw4-XVoh3sootS5Lc0mXc">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/jquery-1.10.1.min.js"></script>	
+<link type="text/css" href="/caiJiaYuanLoginWeb/css/lightbox.css?v=v2.1608230422.990" rel="stylesheet">
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/wuBaiCPG/swiper-3.js?v=v2.1608230422.990"></script>
+<link rel="stylesheet" type="text/css" href="/caiJiaYuanLoginWeb/style/CN/caiJiaYuan/pc/swiper-3.css?v=v2.1608230422.990">
+<script src="/caiJiaYuanLoginWeb/js/jquery.lightbox.js?v=v2.1608230422.990" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#home").addClass("active");
+	$("body").removeClass("ui-mobile-viewport");
+	$("body").removeClass("ui-overlay-a");
+	
+	var islogin = false;
+	if (islogin == false) {
+		var isShow = 1;
+		if(isShow == 1){
+			$(".lightbox").lightbox({
+			    fitToScreen: true,
+			    imageClickClose: false
+		    });
+		}
+		$(function(){$("#lightbox").click();})
+	}
+	
+});
+</script>
+
+<script>
+
+$(document).ready(function(){
+	var islogin = false;
+	//试玩
+	$(".clearfix li .demo").click(function(){
+		/* if (islogin == true) {
+			JqueryShowMessageJustClose('您已登录游戏!');
+		} else {
+			loginDemoFormSubmit();
+		} */
+		onlineService('https://static.meiqia.com/dist/standalone.html?_=t&eid=88112');
+	});
+	
+	$("#tab-lott01 .clearfix .game-pic").click(function(){
+		if (islogin == true) {
+			playGameLott('LOTTERY_IG','2','0');
+		} else {
+			location.href = '../app/allLotteryTicket';
+		}
+	});
+	$("#tab-lott02 .clearfix .game-pic").click(function(){
+		if (islogin ==true){
+			location.href = '../app/lotto';
+		}else {
+				location.href = '../app/allLotteryTicket';
+		};
+	});
+	$("#tab-lott03 .clearfix .game-pic").click(function(){
+		if (islogin ==true){
+			playGame('KY_CHESS_GAME');
+		
+		}else{
+			popupDivNew('pop-div','/caiJiaYuanLoginWeb','CN','caiJiaYuan','logo.swf','location');
+		}
+	});
+	$("#tab-lott04 .clearfix .game-pic").click(function(){
+		if (islogin ==true){
+			/* playGameLott('GFC_PJ'); */
+			location.href = '../app/sportsAll';
+		}else{
+			location.href = '../app/sportsAll';
+		}
+	});
+	$("#tab-lott05 .clearfix .game-pic").click(function(){
+		if (islogin ==true){
+			location.href = '../app/electronicGameIG';
+		}else {
+			location.href = '../app/electronicGameIG';
+		};
+	});
+	$("#tab-lott06 .clearfix .game-pic").click(function(){
+		if (islogin ==true){
+			location.href = '../app/electronicGameBYW';
+		}else {
+			location.href = '../app/electronicGameBYW';
+		};
+	});
+	
+	
+	
+});
+</script>
+</head>
+<body style="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=1400">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Gardening Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/bitbug_favicon.ico" rel="shortcut icon">
+<!--webfont-->
+<link href="http://fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/jquery.json-2.3.min.js"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/autoNumeric.js"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/language/CN/main.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/caiJiaYuanLoginWeb/style/CN/caiJiaYuan/pc/style.css?v=v2.1608230422.990">
+<link rel="stylesheet" type="text/css" href="/caiJiaYuanLoginWeb/style/CN/caiJiaYuan/pc/applyToAll.css?v=v2.1608230422.990">
+
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/validation/languages/jquery.validationEngine-zh_CN.js"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/validation/jquery.validationEngine.js"></script>
+<link rel="stylesheet" type="text/css" href="/caiJiaYuanLoginWeb/js/validation/validationEngine.jquery.css">
+
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/showMessageArtDialog.js"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/pc/artDialog/artDialog.js"></script>  
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/pc/artDialog/artDialog.source.js"></script> 
+<link rel="stylesheet" type="text/css" href="/caiJiaYuanLoginWeb/js/pc/artDialog/skins/black.css">
+
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/js/float.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/patrn.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/login.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/util.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/account.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/personalMsg.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/register.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/soltsPage.js?v=v2.1608230422.990"></script>
+<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/public.js?v=v2.1608230422.990"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	var islogin = false;
+	if (islogin == true) {
+		getBalanceByClass("MAIN_WALLET");
+		getMsgCountUnread();
+	}
+});
+function showmask(){
+	$(".x0p").show();
+}
+function hidemask(){
+	$(".x0p").hide();
+}
+function imgshow(showId){
+	$("#"+showId).show();
+	$("."+showId).show();
+}
+function imghide(showId){
+	$("#"+showId).hide();
+	$("."+showId).hide();
+}
+
+$(function(){
+	var ref = "295665";
+	URLModify(ref);
+}); 
+</script>
+<style type="text/css">
+.aui_content {word-break: break-all;word-wrap: break-word;}
+</style>
+<input type="hidden" name="path" id="path" value="/caiJiaYuanLoginWeb">
+<input type="hidden" name="lottoLink" id="lottoLink" value="https://hk.mhsw.sh.cn/lottoclient/images/speed.gif,https://hk.fly-ray.com/lottoclient/images/speed.gif,https://hk.cdflzy.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryLink" id="lotteryLink" value="https://ssc.jjcj666.com/lotteryweb/siteOne/images/speed.gif,https://ssc.mhsw.sh.cn/lotteryweb/siteOne/images/speed.gif,https://ssc.fly-ray.com/lotteryweb/siteOne/images/speed.gif">
+<input type="hidden" name="lottoPJLink" id="lottoPJLink" value="https://pjhk.qmaozi.com/lottoclient/images/speed.gif,https://pjhk.happydoub.com/lottoclient/images/speed.gif,https://pjhk.020shoesmall.cn/lottoclient/images/speed.gif">
+<input type="hidden" name="lotteryPJLink" id="lotteryPJLink" value="https://pjsc.020shoesmall.cn/lotteryweb/siteOne/images/speed.gif,https://pjssc.happydoub.com/lotteryweb/siteOne/images/speed.gif,https://pjsc.china-at.cn/lotteryweb/siteOne/images/speed.gif">
+
+		
+	
+		<div id="headertop">
+			<div class="clearfix container">
+				<div class="fl link">
+					<a href="javasctipt:void(0);" style="position: relative;" onmouseover="imgshow('paizhao');" onmouseout="imghide('paizhao');" class="border01">牌照展示
+							<span id="paizhao" onmouseout="imghide('paizhao');" style="display: none;position: absolute!important;">
+								<img alt="" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/paizhao.png">
+							</span>
+						</a>|
+					<a class="" href="../app/faqSafe?ref=295665" target="_blank">防劫持教程</a>|
+					<a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0);">加入收藏</a>
+					
+				</div>
+				
+				
+			
+        
+				
+				<div class="fr">
+					<!-- 未登录 -->
+					<form class="fl top-reg">
+						<input type="text" value="用户名" name="txtLoginUsername" id="txtLoginUsername" maxlength="16" tabindex="1" onkeyup="javascript:loginEnter(event.keyCode);" onfocus="changeNull(this,'username');" onblur="changeMessage(this,'username');">
+						
+						  <input type="text" value="密码" name="txtLoginPasswordText" id="txtLoginPasswordText" maxlength="20" onfocus="changePasswordText();" tabindex="2">
+	               	    <input type="password" name="txtLoginPassword" id="txtLoginPassword" maxlength="20" onblur="changePassword();" style="display: none;" tabindex="2"> 
+	                		
+	                		
+	                		
+	                		
+	                		<input type="text" class="yzm mag-left5" id="txtLoginCode" value="验证码" name="txtLoginCode" maxlength="4" tabindex="3" onkeyup="javascript:loginEnter(event.keyCode);" onblur="if(this.value==''){this.value=this.defaultValue;}" onfocus="if(this.value == this.defaultValue){this.value = '';}">
+	                	
+						
+						<!-- <input  type="text"  value="验证码"  class="yzm mag-left5" id="txtLoginCode" name="txtLoginCode" maxlength="4" tabindex="113" onkeyup="javascript:loginEnter(event.keyCode);" onBlur="if(this.value==''){this.value=this.defaultValue;}" onFocus="if(this.value == this.defaultValue){this.value = '';}" /> -->
+						<span class="code"><img src="/caiJiaYuanLoginWeb/app/checkCode/image" onclick="changeLoginCode()" id="checkLoginCodeImage" width="48" height="24"></span>
+					</form>
+					<ul class="fl toplist">
+							<!-- <li><a href="javascript:void(0)" onclick="javascript:loginFormSubmit();" class="i-btn">登入</a></li> -->
+							 <li><input type="button" style="cursor: pointer;" value="登录" onclick="javascript:loginFormSubmit();" class="i-btn"></li>
+							
+							
+						<li>
+							<a class="i-btn bg-yellow j-btn-reg" href="../app/joinNow?ref=295665">注册</a>
+						</li>
+						<li>
+							<a onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=88112')" target="_blank" class="forget_pass">忘记密码？</a>
+						</li>
+					</ul>
+				</div>
+				
+			
+		  
+		   
+      				  
+		   
+		   	</div>
+			</div>
+		   
+		<div id="header">
+			<div class="header-wrapper">
+				<div class="fl">
+					<a href="" class="logo">
+						
+						<embed class="logo_swf" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/logo.swf" quality="high" wmode="transparent" type="application/x-shockwave-flash" style="height: 80px; display: none;">
+					</a>
+				</div>
+				<ul id="j-topmenu" class="top-nav-inner fr nav-dt">
+					<li id="home" class="active">
+						<a href="../app/home?l=0&amp;ref=295665">
+							<i class="icon i-index"></i>
+							<span class="t">网站首页</span>
+						</a>
+					</li>
+					<li id="zr" class="">
+						<a href="../app/live?ref=295665">
+							<i class="icon i-live arrow"></i>
+							<i class="iconfont icon-hot"></i>
+							<span class="t">真人视讯</span>
+						</a>
+						
+						
+						<div class="top-subnav-wp">
+							<div class="top-subnav">
+								<div class="container m-row">
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live01.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">LMG视讯</button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live02.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">CG视讯</button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live03.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">DS视讯</button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live04.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG视讯 </button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live05.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">AG视讯 </button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live06.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">BBIN视讯 </button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live07.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">OG视讯</button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live08.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">AB视讯 </button></div>
+									</a>
+									<a href="../app/live?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_live09.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">SUNBET视讯 </button></div>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+    					
+   						 
+						
+						
+						
+					</li>
+					<li id="li_allLotteryTicket" class="">
+						<a href="../app/allLotteryTicket?ref=295665">
+							<i class="icon i-lottery arrow"></i>
+							<i class="iconfont icon-hot"></i>
+							<span class="t">彩票游戏</span>
+						</a>
+						
+		                
+						<div class="top-subnav-wp">
+							<div class="top-subnav">
+								<div class="container m-row" style=" margin-left:30%">
+									<a href="../app/allLotteryTicket?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_lott01.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG传统彩</button></div>
+									</a>
+									<a href="../app/allLotteryTicket?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_lott07.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG(视讯)传统彩</button></div>
+									</a>
+									<a href="../app/allLotteryTicket?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_lott02.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG(新)传统彩</button></div>
+									</a>
+									<a href="../app/allLotteryTicket?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_lott03.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG官方彩</button></div>
+									</a>
+									<a href="../app/allLotteryTicket?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_lott04.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG(新)官方彩</button></div>
+									</a>
+									<a href="../app/allLotteryTicket?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_lott05.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG香港彩</button></div>
+									</a>
+									<a href="../app/allLotteryTicket?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_lott06.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG(新)香港彩</button></div>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+		              	
+		                
+					</li>
+					<li id="li_allGame" class="">
+						<a href="../app/electronicGameIG?ref=295665">
+							<i class="icon i-slots arrow"></i>
+							<i class="iconfont icon-hot"></i>
+							<span class="t">电子游艺</span>
+						</a>
+						<div class="top-subnav-wp">
+							<div class="top-subnav">
+								<div class="container m-row" style="margin-left:22%">
+									<a href="../app/electronicGameIG?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots01.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG电子</button></div>
+									</a>
+									<a href="../app/electronicGamePT?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots02.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">PT电子</button></div>
+									</a>
+									<a href="../app/electronicGameXB?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots03.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">SG电子</button></div>
+									</a>
+									<a href="../app/electronicGameAG?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<i class="iconfont icon-hot"></i>
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots04.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">AG电子 </button></div>
+									</a>
+									<a href="../app/electronicGameYY?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots05.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">YY电子 </button></div>
+									</a>
+									<a href="../app/electronicGameMG?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots06.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">MG电子 </button></div>
+									</a>
+									<a href="../app/electronicGameBBIN?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots07.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">BBIN电子</button></div>
+									</a>
+									<a href="../app/electronicGameHB?ref=295665" class="cell-9 slot-menu">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_slots08.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">HB电子 </button></div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+					<li id="sport" class="">
+						<a href="../app/sportsAll?ref=295665">
+							<i class="icon i-sport arrow"></i>
+
+							<span class="t">体育赛事</span></a>
+						<div class="top-subnav-wp app">
+							<div class="top-subnav">
+								<div class="container m-row" style=" margin-left:37%">
+									<a href="../app/sportsGameCmd?ref=295665" class="cell-6 j-play">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_sports01.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">CMD体育</button></div>
+									</a>
+									<a href="../app/sportsGameIwc?ref=295665" class="cell-6 j-play">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_sports02.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">皇冠体育</button></div>
+									</a>
+									<a href="../app/sportsGame?ref=295665" class="cell-6 j-play">
+										<div class="top-subnav-bd">
+											<div class="icon-wp">
+												<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_sports03.png">
+											</div>
+										</div>
+										<div class="top-subnav-ft"><button class="btn">M8体育</button></div>
+									</a>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+					
+						
+							
+					<li id="li_allGameBYW" class="">
+						<a href="../app/electronicGameBYW?ref=295665">
+							<i class="icon i-fish arrow"></i>
+							<span class="t">捕鱼游戏</span>
+						</a>
+						<div class="top-subnav-wp">
+							<div class="top-subnav">
+								<div class="container m-row" style=" margin-left:37%">
+									<!-- <a class="cell-6 j-play" onclick="playGame('FISH_AG');"> -->
+									<a class="cell-6 j-play" href="../app/electronicGameBYW?ref=295665">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_fish01.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">AG捕鱼</button></div>
+									</a>
+									<!-- <a class="cell-6 j-play en-game" onclick="playGame('SLOTS_ALLBET','af');"> -->
+									<a class="cell-6 j-play en-game" href="../app/electronicGameBYW?ref=295665">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_fish02.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">AB空战</button></div>
+									</a>
+									<!-- <a class="cell-6 j-play" onclick="playGame('FISH_GG','101');"> -->
+									<a class="cell-6 j-play" href="../app/electronicGameBYW?ref=295665">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_fish03.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">GG捕鱼</button></div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li id="li_chess" class="">
+						<a href="../app/electronicGameQP?ref=295665">
+							<i class="icon i-chess arrow"></i>
+							<span class="t">棋牌游戏</span>
+						</a>
+						<div class="top-subnav-wp">
+							<div class="top-subnav">
+								<div class="container m-row" style=" margin-left:40%">
+									<a class="cell-6 j-play" onclick="popupDivNew('pop-div','/caiJiaYuanLoginWeb','CN','caiJiaYuan','logo.swf','location');">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_chess02.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">IG棋牌</button></div>
+									</a>
+									<a class="cell-6 j-play en-game" onclick="popupDivNew('pop-div','/caiJiaYuanLoginWeb','CN','caiJiaYuan','logo.swf','location');">
+										<div class="top-subnav-bd">
+											<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/menu_chess01.png">
+										</div>
+										<div class="top-subnav-ft"><button class="btn">KY棋牌</button></div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+				
+									
+					<li id="li_promotion" class="">
+						<a href="../app/promotion?ref=295665">
+							<i class="icon i-promotion"></i>
+							<i class="i-new"></i><span class="t">最新优惠</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	
+
+	
+	<div class="x0p default" style="padding-left: 10px;padding-right: 10px;padding-top:25px;position: fixed!important;z-index:999l">
+        			<span class="close" onclick="hidemask()"></span>
+					<table id="result_table" width="100%" border="0" class="m-table-s1" style="padding: 20px 0px 20px 20px;margin-top: 10px;">
+						<thead>
+							<tr>
+								<th style="width: 12%;">序号</th>
+								<th style="width: 22%;">日期</th>
+								<th>内容</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+					<table border="0" cellpadding="0" cellspacing="0" width="99%">
+					<tbody>
+						<tr class="tr_center_bot_bg">
+							<td height="35" width="12" class="td_left_bot_bg"></td>
+							<td align="center">
+								<table border="0" cellpadding="0" cellspacing="0" width="99%">
+									<tbody>
+										<tr id="pageMember" style="display: none;">
+											<td align="center">
+												<table border="0" cellpadding="0" cellspacing="0" height="22" width="100%">
+													<tbody>
+														<tr>
+															<td class="td_left" width="300" style="color: #000">
+																&nbsp;共&nbsp;<span id="currMemberNum"></span>&nbsp;记录
+															</td>
+															<td class="td_center1" style="color: #000;">共&nbsp;<span id="allPageNum"></span>&nbsp;页
+															</td>
+															<td class="td_right" style="color: #000 ;width:160px">
+																&nbsp;<a id="pagePrev" style="color: #000; cursor: pointer;">上一页</a>『&nbsp;<span id="currPageNum"></span>』<a id="pageNext" style="color: #000; cursor: pointer;">下一页</a>&nbsp;&nbsp;
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<tr id="noRecord" class="td_center" style="display: none;">
+											<td>当前没有数据</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+							<td width="16" class="td_right_bot_bg"></td>
+						</tr>
+					</tbody>
+				</table>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+	var islogin = false;
+	if(islogin == true){
+	}
+});
+</script>
+      
+		
+		<!--最新消息-->
+		<div id="top-notice">
+			<div class="top-notice-in">
+				<marquee style="cursor: pointer;" id="j-top-scroll" data-marquee="" class="marquee-container" behavior="scroll" direction="left" loop="infinite" scrollamount="3" width="100%" onclick="showmask();dispersionAnnounce(1);">
+					<div class="marquee-item" style="color:#FFF">
+						彩家园致力于全网最具公信力的网投平台~在这里玩法公正、公平、公开!百万存取款火速到账、大额无忧！是您不二的选择！       尊敬的会员您好！为维护良好健康的游戏环境，凡是入款跟取款绑定的银行卡不一致的会员，我们将不给予出款！发现有违法洗钱犯罪行为的我们将配合有关部门调查！祝您游戏愉快！
+					</div>
+				</marquee>
+			</div>
+		</div>
+		
+       <!--banner-->
+		  <div id="banner">
+			<div class="swiper flexslider wrapper ">
+				<ul class="slides">
+					
+						<li style="background-image: url(https://picgf.ppbk9.com/img/cjy/954fca66-7854-40cd-8db4-138464c97aa8.jpg); background-attachment: scroll; background-color: transparent; width: 100%; height: 482px; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 2; background-position: 50% 0%; background-repeat: no-repeat no-repeat;" class="flex-active-slide"></li>
+					
+						<li style="background-image: url(https://picgf.ppbk9.com/img/cjy/ac124781-2f9c-46e9-923b-979a6aca18ca.png); background-attachment: scroll; background-color: transparent; width: 100%; height: 482px; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 1; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"></li>
+					
+						<li style="background-image: url(https://picgf.ppbk9.com/img/cjy/1d69b962-7007-45f5-ad0c-6717ee0f156a.png); background-attachment: scroll; background-color: transparent; width: 100%; height: 482px; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 1; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"></li>
+					
+						<li style="background-image: url(https://picgf.ppbk9.com/img/cjy/ba16c5fa-8120-4339-8147-b74fc36b11a4.png); background-attachment: scroll; background-color: transparent; width: 100%; height: 482px; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 1; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"></li>
+					
+						<li style="background-image: url(https://picgf.ppbk9.com/img/cjy/3ef935f4-89e2-4a9f-adbe-65cc34075723.png); background-attachment: scroll; background-color: transparent; width: 100%; height: 482px; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; -webkit-transition: opacity 0.6s ease; transition: opacity 0.6s ease; z-index: 1; background-position: 50% 0%; background-repeat: no-repeat no-repeat;"></li>
+					
+				</ul>
+			<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>1</a></li><li><a>1</a></li><li><a>1</a></li><li><a>1</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div>
+			
+		</div>
+		
+		
+		<!--产品优势-->
+		<div class="index-content">
+			<div class="index-content-in">
+				<div class="index-left">
+					<div class="jackport">
+						<div class="jack-num">
+							<div id="j-jackpot" class="">
+								<iframe class="frme" src="../app/poker" width="630" height="110" scrolling="no" frameborder="0" border="0" allowtransparency="true"></iframe>
+							
+							</div>
+						</div>
+					</div>
+					<div class="index-con-center">
+						<div class="con-left">
+							<div class="uf-app">
+								<a href="../app/promotion?ref=295665" target="_blank" class="d-icon-pc"><span class="uf-app-txt"></span></a>
+							</div>
+							<div class="pt-down-box">
+								<h2 class="pt-title"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/pt-title.png"></h2>
+								<div class="d-btns">
+									<div>
+										<a href="../app/appDownload?ref=295665" class="d-icon-pc">
+											<span class="d-btn">安卓下载</span>
+										</a>
+									</div>
+									<div>
+										<a href="javascript:void(0);" class="d-icon-pc">
+											<span class="d-btn d-btn2"> IOS下载</span>
+										</a>
+									</div>
+									<p class="tips-txt"><span class="red">温馨提示：</span>尊敬的会员，如有任何疑问，请咨询24小时在线客服（如充值方式，充值未到账等）</p>
+								</div>
+							</div>
+							
+							<div class="other-list-box">
+								<a href="../app/agentAddReg?ref=295665" target="_blank" class="other-list self-help"><i></i></a>
+							</div>
+						</div>
+						
+						
+						<script type="text/javascript">
+							$(document).ready(function() {
+								$(".game-tab li").click(function() {
+									$(this).parent().children().removeClass("active");
+									$(this).addClass("active");
+									var id = $(this).attr("name");
+									$(".tab-panel").hide();
+									$("#" + id).show();
+								});
+							});
+						</script>
+						
+						<div class="con-right">
+							<div class="hot-game-box game-box border-outer">
+								<ul class="game-tab">
+									<li class="active" name="tab-lott01">
+										<a>IG传统彩</a>
+									</li>
+									<li name="tab-lott02">
+										<a>IG香港彩</a>
+									</li>
+									<li name="tab-lott03">
+										<a>KY棋牌</a>
+									</li>
+									<li name="tab-lott04">
+										<a>体育赛事</a>
+									</li>
+									<li name="tab-lott05">
+										<a>电子游艺</a>
+									</li>
+									<li name="tab-lott06">
+										<a>捕鱼游戏</a>
+									</li>
+								</ul>
+								<div class="tab-bd">
+									<div id="tab-lott01" class="tab-panel" style="display: block;">
+										<ul class="clearfix gamelist">
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a1.png">
+													<p>北京赛车</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a2.png">
+													<p>重庆时时彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a3.png">
+													<p>江西时时彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<!-- 欢乐积宝彩池 -->
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a20.png">
+													<p>福彩3D</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a5.png">
+													<p>新疆时时彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);" class="game-pic">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a6.png">
+													<p>云南时时彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a7.png">
+													<p>上海时时彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a8.png">
+													<p>广东快乐十分</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div id="tab-lott02" class="tab-panel" style="display: none;">
+										<ul class="clearfix gamelist">
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a23.png">
+													<p>六合彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a2.png">
+													<p>重庆时时彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a25.png">
+													<p>七星彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a26.png">
+													<p>北京赛车</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a15.png">
+													<p>湖北快3</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a17.png">
+													<p>上海11选5</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a3.png">
+													<p>江西时时彩</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a16.png">
+													<p>广西快3</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								
+									<div id="tab-lott03" class="tab-panel" style="display: none;">
+										<ul class="clearfix gamelist">
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess01.png">
+													<p>斗地主</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess02.png">
+													<p>抢庄牛牛</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess03.png ">
+													<p>二八杠</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess04.png">
+													<p>德州扑克</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess05.png">
+													<p>二十一点</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess06.png">
+													<p>押庄龙虎</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess07.png">
+													<p>三公</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li class="qipai">
+												<a class="game-pic" href="javascript:void(0);">
+													<img class="mg_pic" src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_chess08.png">
+													<p>炸金花</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div id="tab-lott04" class="tab-panel" style="display: none;">
+										<ul class="clearfix gamelist">
+											<li style="width: 280px;margin-left: 10px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_sport01.png">
+													<p style="padding: 0px;">CMD体育</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li style="width: 280px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_sport02.png">
+													<p style="padding: 0px;">皇冠体育</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li style="width: 280px;margin-left: 10px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_sport03.png">
+													<p style="padding: 0px;">M8体育</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li style="width: 280px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_sport04.png">
+													<p style="padding: 0px;">敬请期待</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div id="tab-lott05" class="tab-panel" style="display: none;">
+										<ul class="clearfix gamelist">
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots01.png">
+													<p>水果拉霸</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots02.png">
+													<p>海洋之音</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots03.png">
+													<p>神秘宝藏</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots04.png">
+													<p>双喜熊猫</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots05.png">
+													<p>复古花园</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots06.png">
+													<p>太空漫游</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots07.png">
+													<p>开心农场</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li>
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_slots08.png">
+													<p>比基尼岛</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div id="tab-lott06" class="tab-panel" style="display: none;">
+										<ul class="clearfix gamelist">
+											<li style="width: 280px;margin-left: 10px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_fish01.png">
+													<p style="padding: 0px;">AG捕鱼</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li style="width: 280px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_fish02.png">
+													<p style="padding: 0px;">AB空战</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li style="width: 280px;margin-left: 10px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_fish03.png">
+													<p style="padding: 0px;">GG捕鱼</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											<li style="width: 280px;">
+												<a class="game-pic" href="javascript:void(0);">
+													<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/index_sport04.png">
+													<p style="padding: 0px;">敬请期待</p>
+													<div class="i-btn en-game">进入游戏&gt;</div>
+												</a>
+												<a href="javascript:void(0);">
+													<div class="i-btn demo">免费试玩&gt;</div>
+												</a>
+											</li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						
+					</div>
+				</div>
+				
+				<script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/jquery.kxbdMarquee.js"></script> 
+				<script type="text/javascript"> 
+				$("#marquee").kxbdMarquee({
+					  isEqual:true,         //所有滚动的元素长宽是否相等,true,false 
+					  loop:0,                 //循环滚动次数，0时无限         
+					  direction:"up",       //滚动方向，"left","right","","down"         
+					  scrollAmount:1,     //步长         
+					  scrollDelay:50        //时长
+					});
+				</script> 
+				
+				<div class="index-right">
+					<div class="armory">
+						<div class="armory-in" id="marquee">
+							<ul class="winner-list" id="j-winner-list" style="margin-top: 0px; height: 10800px;">
+
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a1.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">北京赛车</span></p>
+									<p class="win-num">赢得<em class="c-red">18526.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a2.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sh***8</em>在<span class="c-blue">重庆时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">15865.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/SB02.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>v5***4</em>在<span class="c-blue">AG-复古花园</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ai***i</em>在<span class="c-blue">捕鱼王</span></p>
+									<p class="win-num">赢得<em class="c-red">6130.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>wi***6</em>在<span class="c-blue">PT-招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">4500.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/bib.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">PT-海底探宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/abkz.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">AB空战</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a8.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>JI***k</em>在<span class="c-blue">广东快乐十分</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/nian_k.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ab***l</em>在<span class="c-blue">PT-年年有余</span></p>
+									<p class="win-num">赢得<em class="c-red">13250.0</em>元</p>
+								</li>
+								
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a12.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">幸运农场</span></p>
+									<p class="win-num">赢得<em class="c-red">1852.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a10.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>hg***8</em>在<span class="c-blue">天津时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">5865.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a20.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>jf***4</em>在<span class="c-blue">褔彩3D</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a23.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>656***i</em>在<span class="c-blue">极速六合彩</span></p>
+									<p class="win-num">赢得<em class="c-red">3130.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a3.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>fds***6</em>在<span class="c-blue">江西时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">1500.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/FRU.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">水果拉霸</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/jsbjl.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>KH***k</em>在<span class="c-blue">极速百家乐</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ds***k</em>在<span class="c-blue">GG捕鱼</span></p>
+									<p class="win-num">赢得<em class="c-red">8900.0</em>元</p>
+								</li>
+								
+								
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a1.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">北京赛车</span></p>
+									<p class="win-num">赢得<em class="c-red">18526.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a2.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sh***8</em>在<span class="c-blue">重庆时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">15865.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/SB02.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>v5***4</em>在<span class="c-blue">AG-复古花园</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ai***i</em>在<span class="c-blue">捕鱼王</span></p>
+									<p class="win-num">赢得<em class="c-red">6130.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>wi***6</em>在<span class="c-blue">PT-招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">4500.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/bib.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">PT-海底探宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/abkz.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">AB空战</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a8.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>JI***k</em>在<span class="c-blue">广东快乐十分</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/nian_k.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ab***l</em>在<span class="c-blue">PT-年年有余</span></p>
+									<p class="win-num">赢得<em class="c-red">13250.0</em>元</p>
+								</li>
+								
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a12.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">幸运农场</span></p>
+									<p class="win-num">赢得<em class="c-red">1852.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a10.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>hg***8</em>在<span class="c-blue">天津时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">5865.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a20.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>jf***4</em>在<span class="c-blue">褔彩3D</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a23.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>656***i</em>在<span class="c-blue">极速六合彩</span></p>
+									<p class="win-num">赢得<em class="c-red">3130.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a3.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>fds***6</em>在<span class="c-blue">江西时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">1500.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/FRU.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">水果拉霸</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/jsbjl.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>KH***k</em>在<span class="c-blue">极速百家乐</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li>
+								<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ds***k</em>在<span class="c-blue">GG捕鱼</span></p>
+									<p class="win-num">赢得<em class="c-red">8900.0</em>元</p>
+								</li>
+								
+							<li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a1.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">北京赛车</span></p>
+									<p class="win-num">赢得<em class="c-red">18526.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a2.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sh***8</em>在<span class="c-blue">重庆时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">15865.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/SB02.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>v5***4</em>在<span class="c-blue">AG-复古花园</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ai***i</em>在<span class="c-blue">捕鱼王</span></p>
+									<p class="win-num">赢得<em class="c-red">6130.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>wi***6</em>在<span class="c-blue">PT-招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">4500.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/bib.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">PT-海底探宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/abkz.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">AB空战</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a8.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>JI***k</em>在<span class="c-blue">广东快乐十分</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/nian_k.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ab***l</em>在<span class="c-blue">PT-年年有余</span></p>
+									<p class="win-num">赢得<em class="c-red">13250.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a12.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">幸运农场</span></p>
+									<p class="win-num">赢得<em class="c-red">1852.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a10.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>hg***8</em>在<span class="c-blue">天津时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">5865.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a20.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>jf***4</em>在<span class="c-blue">褔彩3D</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a23.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>656***i</em>在<span class="c-blue">极速六合彩</span></p>
+									<p class="win-num">赢得<em class="c-red">3130.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a3.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>fds***6</em>在<span class="c-blue">江西时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">1500.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/FRU.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">水果拉霸</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/jsbjl.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>KH***k</em>在<span class="c-blue">极速百家乐</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ds***k</em>在<span class="c-blue">GG捕鱼</span></p>
+									<p class="win-num">赢得<em class="c-red">8900.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a1.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">北京赛车</span></p>
+									<p class="win-num">赢得<em class="c-red">18526.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a2.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sh***8</em>在<span class="c-blue">重庆时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">15865.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/SB02.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>v5***4</em>在<span class="c-blue">AG-复古花园</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ai***i</em>在<span class="c-blue">捕鱼王</span></p>
+									<p class="win-num">赢得<em class="c-red">6130.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>wi***6</em>在<span class="c-blue">PT-招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">4500.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/bib.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">PT-海底探宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/abkz.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">AB空战</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a8.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>JI***k</em>在<span class="c-blue">广东快乐十分</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/nian_k.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ab***l</em>在<span class="c-blue">PT-年年有余</span></p>
+									<p class="win-num">赢得<em class="c-red">13250.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a12.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>pt***y</em>在<span class="c-blue">幸运农场</span></p>
+									<p class="win-num">赢得<em class="c-red">1852.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a10.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>hg***8</em>在<span class="c-blue">天津时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">5865.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a20.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>jf***4</em>在<span class="c-blue">褔彩3D</span></p>
+									<p class="win-num">赢得<em class="c-red">4800.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a23.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>656***i</em>在<span class="c-blue">极速六合彩</span></p>
+									<p class="win-num">赢得<em class="c-red">3130.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/a3.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>fds***6</em>在<span class="c-blue">江西时时彩</span></p>
+									<p class="win-num">赢得<em class="c-red">1500.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/zcjb.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ba***9</em>在<span class="c-blue">招财进宝</span></p>
+									<p class="win-num">赢得<em class="c-red">6409.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/FRU.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>sw***o</em>在<span class="c-blue">水果拉霸</span></p>
+									<p class="win-num">赢得<em class="c-red">5600.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/jsbjl.png" width="64" height="64"></div>
+									<p>恭喜玩家 <em>KH***k</em>在<span class="c-blue">极速百家乐</span></p>
+									<p class="win-num">赢得<em class="c-red">9900.0</em>元</p>
+								</li><li>
+									<div class="game-pic"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/Fish.jpg" width="64" height="64"></div>
+									<p>恭喜玩家 <em>ds***k</em>在<span class="c-blue">GG捕鱼</span></p>
+									<p class="win-num">赢得<em class="c-red">8900.0</em>元</p>
+								</li></ul>
+						</div>
+					</div>
+				
+					
+					<div class="report-box" id="lotteryAnnouncement">
+					<div class="lott-report">
+						<div class="swiper-container swiper-container-horizontal" style="width:100%;height:228px;margin :0 auto">
+							<div class="swiper-wrapper" style="width: 100%; height: 228px; margin: 0px auto; transform: translate3d(-472px, 0px, 0px); transition-duration: 0ms;">
+								<a class="swiper-slide homebanner1 swiper-slide-active" style="width: 320px;"></a>
+								<a class="swiper-slide homebanner2 swiper-slide-next" style="width: 320px;"></a>
+								<a class="swiper-slide homebanner3" style="width: 320px;"></a>
+								
+							</div>
+						</div>
+						<script language="javascript">
+							var mySwiper = new Swiper('.swiper-container', {
+								pagination: '.swiper-pagination',
+								nextButton: '.swiper-button-next',
+								prevButton: '.swiper-button-prev',
+								paginationClickable: true,
+								autoplay: 3000,
+								speed: 300,
+							})
+						</script>
+					</div>
+				</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			
+			<div class="footer-content">
+				<div class="footer-title">
+					<span>四大优势</span>
+					<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/logo-one.png">
+					<span>最佳选择</span>
+				</div>
+			</div>
+			<div class="footer-box">
+				<div class="conter-box">
+					<div class="fl">
+						<div class="footer-icon"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/footer-icon1.png"></div>
+						<div>
+							<p class="footer-title2">实力</p>
+							<p>耗资千万打造全新智能系统，全民全自动：自助优惠、自助洗码、独立开发，致力打造全亚洲最佳在线娱乐平台。</p>
+						</div>
+					</div>
+
+					<div class="fl">
+						<div class="footer-icon"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/footer-icon2.png"></div>
+						<div>
+							<p class="footer-title2">保障</p>
+							<p>安全合法，放心娱乐，持有菲律宾（PAGCOR）合法博彩执照，100%由政府拥有和控制的合法经营公司，要做就做安全和高效率！</p>
+						</div>
+					</div>
+
+					<div class="fl">
+						<div class="footer-icon"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/footer-icon3.png"></div>
+						<div>
+							<p class="footer-title2">信誉</p>
+							<p>十年历史，大额无忧，存款实时到账，20万提款10秒极速到账，追求速度极致。</p>
+						</div>
+					</div>
+
+					<div class="fl">
+						<div class="footer-icon"><img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/footer-icon4.png"></div>
+						<div>
+							<p class="footer-title2">宗旨</p>
+							<p>一心一意做游戏，全心全意做服务，您的开心，我的舒心，创建一个舒适温馨的娱乐环境，是我们永恒不变的宗旨！</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+    <div id="footer">
+			 <div class="footertop">
+				<div class="container">
+					<a href="javascript:void(0);" class="item" target="_blank">
+						<i class="iconfont icon-click"></i>
+						<h2>新手指南<small>Novice Guide</small></h2>
+					</a>
+					<a href="../app/agentAddReg?ref=295665" class="item" target="_blank">
+						<i class="iconfont icon-glass"></i>
+						<h2>代理合作<small>Agency Cooperation</small></h2>
+					</a>
+					<a href="../app/aboutUs?ref=295665" class="item" target="_blank">
+						<i class="iconfont icon-payment"></i>
+						<h2>关于我们<small>About us</small></h2>
+					</a>
+				</div>
+			</div>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#maskDiv").height(document.body.scrollHeight);
+		$("#maskDiv").width(document.body.scrollWidth);
+		var islogin = false
+		if (islogin ==true){
+		}else{
+		 $("#loginMask").height(document.body.scrollHeight);
+		/*  $("#loginMask").width(document.body.scrollWidth); */
+		 $("#floatLogins div").bind("click",function(event){
+		  if($(this).attr("id") == "loginMask"){
+		   $("#floatLogins").hide();
+		  }
+		  return false;
+		 });
+	  	}
+		
+		
+	});
+</script>
+<script>
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    var left_top = 50, right_top =70, float_list = [], float_side = 5;
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+                    float_list['0'] = $('#TplFloatPic_0');
+                    float_list['1'] = $('#TplFloatPic_1');
+                for (var i in float_list) {
+            if (float_list[i].attr == undefined) {
+                continue;
+            }
+            var self = float_list[i], 
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+            var w = 0;        
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                	$(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                	$(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+    function FloatClose1(){
+		$("#TplFloatPic_0").hide();
+	}
+	function FloatClose2(){
+		$("#TplFloatPic_1").hide();
+	}
+</script>
+
+<!--联系客服-->
+		<div id="footer">
+			
+			<div class="footermain">
+				<div class="container clearfix">
+					<div class="browser-box">
+						<h3>推荐浏览器</h3>
+						<div>
+							<a href="javascript:void(0);" class="browser-google"></a>
+							<a href="javascript:void(0);" class="browser-firfox"></a>
+							<a href="javascript:void(0);" class="browser-sfair"></a>
+							<a href="javascript:void(0);" class="browser-ie"></a>
+						</div>
+					</div>
+					<div class="partner-box">
+						<div class="cfx">
+							<div class="about-box">
+								<a href="../app/aboutUs?ref=295665">关于我们</a>|
+								<a href="../app/contactUs?ref=295665">联系我们</a>|
+								<a href="../app/agentAddReg?ref=295665">代理加盟</a>|
+								<a href="../app/faqDeposit?ref=295665">存款帮助</a>|
+								<a href="../app/faqWithdraw?ref=295665">取款帮助</a>
+							</div>
+							
+						</div>
+						<div class="footer_img">
+							<img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/footer-logo.png">
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="footer-ft">
+				COPYRIGHT&nbsp;©&nbsp;彩家园&nbsp;RESERVED
+			</div>
+		</div>
+
+
+
+	
+	
+	
+
+
+<ul id="TplFloatPic_1" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; right: 0px; width: 50px;" picfloat="right">
+        <li><a onclick="onlineService('https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=88112')">
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/right_01.png" alt="" class="png_fix" align="middle">
+    </a></li>
+        <li><a onclick="openQQ('1328111111')">
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/right_02.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    	<li><a onclick="openQQ('1397111111')">
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/right_03.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    	<li><a href="https://ts.91533.com/" target="_blank">
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/right_03-3.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    	 <li><a onclick="FloatClose(this);">
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/right_04.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    </ul>
+	<ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; right: 0px; width: 50px; margin-top:150px;" picfloat="left">
+        
+    	<li><a href="../app/appDownload?ref=295665" target="_blank">
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/left_0.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    	<li>
+		
+		
+			<a>
+		
+		
+		
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/left_1.png" alt="" class="png_fix" align="middle">
+    </a></li>
+        <li><a onclick="FloatClose(this);">
+        <img src="/caiJiaYuanLoginWeb/images/CN/caiJiaYuan/pc/right_02_left.png" alt="" class="png_fix" align="middle">
+    </a></li>
+    </ul>
+
+
+
+	
+
+
+	
+	
+
+
+
+
+
+	
+	
+	
+
+
+
+		</div>
+		
+		
+		
+    <script type="text/javascript" src="/caiJiaYuanLoginWeb/scripts/jquery.kxbdMarquee.js"></script> 
+	<script type="text/javascript"> 
+	$("#marquee").kxbdMarquee({
+		  isEqual:true,         //所有滚动的元素长宽是否相等,true,false 
+		  loop:0,                 //循环滚动次数，0时无限         
+		  direction:"up",       //滚动方向，"left","right","","down"         
+		  scrollAmount:1,     //步长         
+		  scrollDelay:50        //时长
+		});
+	</script> 
+    
+    <input type="hidden" id="page" value="home">
+    <script src="/caiJiaYuanLoginWeb/scripts/fc521/jquery.flexsliderNumberLang-min.js"></script>
+	<script src="/caiJiaYuanLoginWeb/scripts/fc521/main.js?v=v2.1608230422.990"></script>
+	
+	
+	
+	
+	
+	
+
+
+<div id="overlay" style="width: 1200px; height: 2215px; opacity: 0; display: block;"></div><div id="lightbox" style="top: 109.71428571428571px; left: 0px;"><div id="imageDataContainer" class="clearfix" style="width: 250px;"><div id="imageData" style="display: none;"><div id="imageDetails"><span id="numberDisplay"></span><span id="caption"></span></div><div id="bottomNav"><a href="javascript://" id="bottomNavClose" title="close image gallery"><img src="../images/all/lightbox/closelabel.gif"></a></div></div></div><div id="outerImageContainer" style="width: 250px; height: 250px;"><div id="imageContainer"><a style="float: right;" href="javascript://" id="bottomNavClose_news"><img src="../images/all/lightbox/closelabel.gif"></a><iframe id="lightboxIframe"></iframe><img id="lightboxImage" style="display: none;"><div id="hoverNav" style="display: none;"><a href="javascript://" title="previous image" id="prevLink" style="display: none;"></a><a href="javascript://" id="nextLink" title="next image" style="display: none;"></a></div><div id="loading"><a href="javascript://" id="loadingLink"><img src="../images/all/lightbox/loading.gif"></a></div></div></div></div></body></html>

@@ -1,0 +1,944 @@
+<html lang="en" layer-full="1" style="overflow: hidden;"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>澳门新赌场丨P744.com丨欢迎阁下驾临丨真人娱乐丨彩票游戏丨体育赛事丨电子游艺丨棋牌游戏丨P744.cc丨信誉100%</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link href="/css/share.css" rel="stylesheet" type="text/css">
+<link href="/css/css.css" rel="stylesheet" type="text/css">
+<link href="/css/reset.css" type="text/css" rel="stylesheet">
+<link href="/css/iconfont.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<!--<script type="text/javascript" src="/js/tab.js"></script>-->
+
+<script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+<script>
+    var base = '';
+</script>
+<script src="/common/template/member/common.js"></script>
+
+	
+
+<link rel="stylesheet" href="/common/modelCommon/layer/css/layer.css">
+<link rel="stylesheet" href="/common/modelCommon/layer/css/style.css">
+<script src="/common/modelCommon/layer/js/layer.min.js"></script><link rel="stylesheet" href="https://amxdc.com/common/modelCommon/layer/js/../css/layer.css" id="layui_layer_csslayercss" style="">
+<script src="/common/jquery/jquery.cookie.js"></script>
+<script>
+	$(function() {
+		$.ajax({
+					url : "/getConfig/getArticle.do",
+					data : {
+						code : 14
+					},
+					type : "post",
+					dataType : 'json',
+					success : function(j) {
+						var title = "";
+						var content = "";
+						var temp = -1;
+						if (j.length > 0) {
+							if (j[0].index) {
+								var fw = 550;
+								var fh = 550;
+								if (j[0].frameWidth && j[0].frameHeight) {
+									fw = j[0].frameWidth;
+									fh = j[0].frameHeight;
+								}
+								title = j[0].title;
+								if (!title) {
+									title = " ";
+									temp = 1;
+								}
+								
+								var showStyle = $('#showStyle').val();
+								if(!showStyle){
+									layer.open({
+										type : 1, //page层
+										area : [ fw + 'px', fh + 'px' ],
+										title : title,
+										shade : 0.6, //遮罩透明度
+										scrollbar : false,
+										offset : '16%',//距离顶部
+										moveType : 0, //拖拽风格，0是默认，1是传统拖动
+										shift : 1, //0-6的动画形式，-1不开启
+										content : '<div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;">'
+												+ j[0].content + '</div>'
+									});
+									if (temp < 0) {
+										$('.layui-layer-title').css({
+// 											'height' : '30px',
+// 											'line-height' : '0px',
+											'font-size' : '16px',
+											'color' : '#4c2515',
+											'font-weight' : 'bold',
+											'text-align' : 'center',
+// 											'margin-bottom' : '10px',
+											//'overflow': 'hidden',
+											'text-overflow' : 'ellipsis',
+											'white-space' : 'nowrap',
+											'padding' : '10px'
+										})
+									}
+								}else{
+									
+									$(function(){
+										  if ($.cookie('SHOW_FRAME')){
+									             $("#LsjmyModal").hide();
+									             $('#Lsj-fkinglayer').hide();
+									             return;
+									         }else{
+									        	 if (temp > 0) {
+									        		 $('#LsjmyModal #Lsj_modal-header').remove();
+									        	 }else{
+									        		 $('#LsjmyModal #lsj_title').html(title);
+									        	 }
+									        	 $('#LsjmyModal #Lsj_modal-content').css('width',fw);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').css('height',fh);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').html(j[0].content);
+									            $('#Lsj-fkinglayer').show();
+									            $("#LsjmyModal").show();    
+									         }
+									});
+									
+								}
+							
+							}
+						}
+
+					}
+				});
+	});
+	
+    function removers(i) {
+        if (i == 1) {
+            $.cookie('SHOW_FRAME', 'Y', {path: '/', expires: ''});
+        }
+        $('#LsjmyModal').remove();
+    }
+</script>
+<!-- 红包功能 -->
+
+	<script src="/common/js/redpacket/redbag.js?v=1.3.5" path=""></script>
+
+<!-- 转盘功能 -->
+
+<!-- 签到功能 -->
+
+<!-- 统计代码 -->
+</head><body><div style="position: fixed; z-index: 99999999; bottom: 0;"></div>
+<!-- 弹窗 -->
+<div id="LsjmyModal" class="Lsj-Modal">
+    <div class="Lsj_modal-content pop_border_color" id="Lsj_modal-content">
+    
+        <div class="Lsj_modal-header pop_title_box_bcolor" id="Lsj_modal-header">
+            <span class="Lsj-close" onclick="removers();">×</span>
+            <h3 class="pop_title_color" id="lsj_title"></h3>
+        </div>
+        
+        <div class="Lsjmodal-body_contents pop_box_bg_color" id="Lsjmodal-body_contents"></div>
+        
+        <div class="Lsj_modal-footer">
+            <div class="Lsjbtn-bottom-two-right">
+                <button class="Lsj_okBtn Lsj_outline" onclick="removers(1);">下次不再显示</button>
+                <button class="Lsj_okBtn Lsj_filled" onclick="removers();">确定</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="Lsj-fkinglayer" style="display: none;"></div>
+</div>
+
+
+
+	<div id="mainall">
+		<div id="mainBody">
+			
+
+<link rel="stylesheet" href="/css/header.css">
+<style>
+	.nav .subNavi {
+		display: none;
+		background: rgba(40, 18, 8, .7);
+		padding: 5px 0;
+		position: absolute;
+		border: 2px solid #ffd053;
+		z-index: 99999;
+	}
+	
+	.nav .subNavi li {
+		zoom: 1;
+		list-style: none;
+		width: 105px;
+		height: 30px;
+		padding: 0;
+		float: none;
+		text-align: center;
+	}
+	
+	.nav .subNavi a {
+		display: block;
+		width: 105px;
+		height: 30px;
+		line-height: 30px;
+		color: #E1E1E1;
+		font-size: 14px;
+		font-weight: normal;
+		border-top: 1px dotted #534a43;
+		cursor: pointer;
+	}
+	
+	.nav .subNavi a:hover {
+		background: rgba(40, 18, 8, .9);
+		color: lightgoldenrodyellow;
+	}
+	
+	.hederfixed {
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 999;
+	}
+</style>
+<div class="topbar">
+	<div class="w1000 clearfix" style="    width: 1100px;">
+		<div class="topleft" style="width: 600px;">
+			<a href="javascript:void(0)" class="pz">
+				<div class="paizhao"></div>
+			</a>
+			<div class="language" style="padding-right: 5px;">
+				<span>语言选择：</span>
+				<a href="javascript:void(0)" class="lang"><img src="/images/cn.png"></a>
+				<a href="javascript:void(0)" class="lang"><img src="/images/hk.png"></a>
+				<a href="javascript:void(0)" class="lang"><img src="/images/usa.png"></a>
+			</div>
+			<div class="time" style="font-size:12px;color:#fff;">美东时间:<span id="mdtime" data-nowtime="2018/6/7 2:08:29">&nbsp;2018/06/07 02:08:31</span></div>
+			<script type="text/javascript">
+				var dd2 = new Date("2018/6/7 2:08:29");
+				setInterval("RefTime()", 1000);
+				//设置美东时间
+				function RefTime() {
+					dd2.setSeconds(dd2.getSeconds() + 1);
+					var myYears = (dd2.getYear() < 1900) ? (1900 + dd2.getYear()) : dd2.getYear();
+
+					document.getElementById("mdtime").innerHTML = "&nbsp;" + myYears + "/" + fixNum(dd2.getMonth() + 1) + "/" + fixNum(dd2.getDate()) + " " + time(dd2);
+
+				}
+
+				function time(vtime) {
+					var s = '';
+					var d = vtime != null ? new Date(vtime) : new Date();
+					with(d) {
+						s = fixNum(getHours()) + ':' + fixNum(getMinutes()) + ':' + fixNum(getSeconds())
+					}
+					return(s);
+				}
+
+				function fixNum(num) {
+					return(parseInt(num) < 10) ? ('0' + num) : num;
+				}
+			</script>
+			<div class="url" style="margin-top: -40px;margin-left: 360px;"> 易记域名：www.AMXDC.com </div>
+		</div>
+		<div class="topright">
+			<a href="/registerGuestPage.do" target="_blank" class="t1">免费试玩</a>|
+			<a href="/index/egame.do" class="t2">MG电子</a>|
+			<a href="/index/egame.do" class="t3">AG电子</a>|
+			<a href="/index/egame.do" class="t4">HB电子</a>|
+			<a href="/index/egame.do" class="t5">PT电子</a>|
+			<a href="/index/egame.do" class="t6">GPI电子</a>
+		</div>
+	</div>
+</div>
+<div class="index-header indexheader">
+	<div class="header clearfix">
+		<div class="w1000 clearfix">
+			<a href="/index.do" class="logo">
+				<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="285" height="81">
+					<param name="movie" value="/images/logo.swf">
+					<param name="quality" value="high">
+					<param name="wmode" value="transparent">
+					<embed src="/images/logo.swf" width="285" height="81" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent">
+				</object>
+			</a>
+			<div class="nav">
+				<ul>
+					<li class="n1 nLi on">
+						<a href="/index.do">
+							<p>首 页</p><span>HOME</span></a>
+					</li>
+					<li class="n2 nLi">
+						<a href="/index/egame.do">
+							<p>电子游艺</p><span>SLOTS</span></a><img src="/images/hot.gif" class="nav-hot">
+						<div class="naviBox">
+							<ul class="subNavi subNavi1">
+								<li class="first">
+									<a href="/index/egame.do">天天返水1.8%</a><img src="/images/icon04.png" class="arrow" alt=""></li>
+								<li>
+									<a href="/index/egame.do"><i class="i11"></i>欢乐棋牌</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/egame.do"><i class="i2"></i>MG电子</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/egame.do"><i class="i1"></i>捕鱼天堂</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/egame.do">MW千炮</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/egame.do"><i class="i6"></i>PT电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i4"></i>BBIN电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i7"></i>HB电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do">AG电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i8"></i>GPI电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i9"></i>QT电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i10"></i>CQ9电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i12"></i>DT电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i13"></i>AE电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i14"></i>SG电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do">开元棋牌</a>
+								</li>
+								<li>
+									<a href="/index/egame.do"><i class="i16"></i>PS电子</a>
+								</li>
+								<li>
+									<a href="/index/egame.do">JDB电子</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="n3 nLi">
+						<a href="/index/real.do">
+							<p>真人视讯</p><span>CASINO</span></a><img src="/images/hot.gif" class="nav-hot">
+						<div class="naviBox">
+							<ul class="subNavi subNavi2">
+
+								<li>
+									<a href="/index/real.do"><i class="i1"></i>DG梦幻</a><img src="/images/icon04.png" class="arrow" alt=""><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/real.do"><i class="i2"></i>AG女优</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/real.do"><i class="i3"></i>LEBO视讯</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/real.do"><i class="i4"></i>BBIN旗舰</a>
+								</li>
+
+								<li>
+									<a href="/index/real.do"><i class="i7"></i>OB欧博</a>
+								</li>
+								<li>
+									<a href="/index/real.do"><i class="i8"></i>GPI视讯</a>
+								</li>
+								<li>
+									<a href="/index/real.do"><i class="i9"></i>MG欧美</a>
+								</li>
+								<li>
+									<a href="/index/real.do"><i class="i10"></i>BG视讯</a>
+								</li>
+								<li>
+									<a href="/index/real.do"><i class="i11"></i>PT视讯</a>
+								</li>
+								<li>
+									<a href="/index/real.do"><i class="i12"></i>LMG视讯</a>
+								</li>
+								<li>
+									<a href="/index/real.do"><i class="i13"></i>WM视讯</a>
+								</li>
+								<li>
+									<a href="/index/real.do"><i class="i5"></i>OG东方</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="n4 nLi">
+						<a href="/index/sport.do">
+							<p>体育赛事</p><span>SPORTS</span></a>
+						<div class="naviBox">
+							<ul class="subNavi subNavi3">
+								<li>
+									<a href="/index/sport.do"><i class="i1"></i>皇冠体育</a><img src="/images/icon04.png" class="arrow" alt=""></li>
+								<li>
+									<a href="/index/sport.do"><i class="i2"></i>IM体育</a>
+								</li>
+								<li>
+									<a href="/index/sport.do"><i class="i3"></i>皇朝电竞</a>
+								</li>
+								<li>
+									<a href="/index/sport.do"><i class="i4"></i>沙巴体育</a>
+								</li>
+								<li>
+									<a href="/index/sport.do"><i class="i5"></i>368体育</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="n5 nLi">
+						<a href="/index/games.do">
+							<p>彩票游戏</p><span>LOTTERY</span></a>
+						<div class="naviBox">
+							<ul class="subNavi subNavi4">
+								<li>
+									<a href="/index/games.do?lotCode=BJSC"><i class="i1"></i>北京PK拾</a><img src="/images/hot01.gif" class="hot" alt=""><img src="/images/icon04.png" class="arrow" alt=""></li>
+								<li>
+									<a href="/index/games.do?lotCode=CQSSC"><i class="i2"></i>重庆时时彩</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/games.do?lotCode=LHC"><i class="i3"></i>六合彩</a><img src="/images/hot01.gif" class="hot" alt=""></li>
+								<li>
+									<a href="/index/games.do?lotCode=GDKLSF"><i class="i4"></i>广东快乐十分</a>
+								</li>
+								<li>
+									<a href="/index/games.do?lotCode=JSSB3"><i class="i5"></i>江苏骰宝</a>
+								</li>
+								<li>
+									<a href="/index/games.do?lotCode=GD11X5"><i class="i6"></i>广东11选5</a>
+								</li>
+								<li>
+									<a href="/index/games.do?lotCode=FC3D"><i class="i7"></i>福彩3D</a>
+								</li>
+								<li>
+									<a href="/index/games.do?lotCode=PCEGG"><i class="i8"></i>PC蛋蛋</a>
+								</li>
+							</ul>
+						</div>
+
+					</li>
+					<li class="n6 nLi">
+						<a href="/down.do" target="_blank">
+							<p>手机APP</p><span>MOBILE</span></a><img src="/images/hot.gif" class="nav-hot">
+						<div class="naviBox subNavi" style="position: absolute; left: -139px; z-index: 100; display: none;border: none">
+							<img src="/images/appd.png" style="margin:-5px 5px 0 0;">
+						</div>
+					</li>
+					<li class="n7 nLi">
+						<a href="/index/active.do" onclick="javascript:window.location.href = 'Activity?uid=';">
+							<p>优惠活动</p><span>PROMOTION</span></a><img src="/images/hot.gif" class="nav-hot"></li>
+					<li class="n8 nLi">
+						<a href="https://f88.live800.com/live800/chatClient/chatbox.jsp?companyID=749566&amp;configID=141818&amp;jid=9445475927">
+							<p>在线客服</p><span>SERVICE</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<form name="LoginForm" id="LoginForm2" action="login" style="margin:0">
+			
+			<div class="login-bar index-loginbar clearfix" style="display: none">
+				<div class="w1000 clearfix">
+					<div class="title"><img src="/images/loginbar-title.png"></div>
+					<div class="login-main">
+						<p><input type="text" class="text user" name="username" id="username1" tabindex="1" maxlength="20" value="用户名" onfocus="this.value=''" onblur="if(this.value==''){this.value='用户名'}"></p>
+						<p>
+							<input name="userpassword" id="password1" tabindex="2" maxlength="12" value="密码" class="password tx" onfocus="if (this.value == this.defaultValue) {this.value = '';this.type='password';};" onblur="if(this.value == '') {this.value = this.defaultValue;this.type='text';}" type="text">
+							<a href="javscript:void(0)" onclick="alert('忘记账号密码，请联系在线客服人员取回！')" class="forget">忘记？</a>
+						</p>
+						<p class="login-yzm" style="position:relative">
+							<input type="text" name="code" id="verifyCode1" class="text yz" value="验证码" tabindex="3" onfocus="this.value='';change_zc_yzm('checkNum_img2');" onblur="if(this.value==''){this.value='验证码'}" ;="" onkeydown="if(event.keyCode==13){$('#LoginForm2').submit();}">
+							<a href="javscript:void(0)" class="yzmimg"><img border="0" class="validcode" name="checkNum_img" style="background-color:burlywood;position:absolute;top:-6px;right:2px;" height="25" width="45" src="/verifycode.do?timestamp=1533703560365"></a>
+						</p>
+						<a href="javascript:loginBY()" class="loginbtn btn"></a>
+						<a href="/regpage.do" class="regbtn btn"></a>
+					</div>
+				</div>
+			</div>
+			
+			
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+	//二级导航
+	jQuery(".nav").slide({
+		type: "menu",
+		titCell: ".nLi",
+		targetCell: ".subNavi",
+		effect: "slideDown",
+		delayTime: 300,
+		triggerTime: 0,
+		returnDefault: true
+	});
+
+	$(window).scroll(function() {
+		var dis = $(window).scrollTop();
+		if(dis >= 100) {
+			$('.login-bar').show();
+			$('.index-header').addClass('nav_fixed')
+		} else {
+			$('.login-bar').hide();
+			$('.index-header').removeClass('nav_fixed')
+		}
+	});
+</script>
+			<div id="wrapindex">
+				<div class="banner">
+					
+
+
+<script src="/js/jquery.SuperSlide.2.1.1.js"></script>
+<style type="text/css">
+	/* 本例子css */
+	.slideBox {position: relative; width: 100%;height: 446px; margin: auto;overflow: hidden;}
+	.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:45%; bottom:55px; z-index:1; }
+	.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+	.slideBox .hd ul li{ float:left; margin-right:10px;  width:13px; height:13px; line-height:14px; text-align:center; background:#fff; cursor:pointer;border-radius: 7px;}
+	.slideBox .hd ul li.on{ background:red; color:#fff; }
+	.slideBox .bd{ position:relative; height:100%; z-index:0;}
+	.slideBox .bd li{ zoom:1; vertical-align:middle; }
+	.slideBox .bd img{ display:block; width: 100%; height: 100%;}
+	
+	.slideBox .prev,
+	.slideBox .next{ position:absolute; left:10%; top:45%; display:block; width:32px; height:40px; background:url() -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+	.slideBox .next{ left:auto; right:10%; background-position:8px 5px; }
+	.slideBox .prev:hover,
+	.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+	.slideBox .prevStop{ display:none;  }
+	.slideBox .nextStop{ display:none;  }
+	</style>
+	<div id="slideBox" class="slideBox">
+	<!-- 轮播图 -->
+		<div class="bd">
+			<ul id="lunbo"><li><a><img src="https://yb6.me/img/DQ2P/XdoVTOk5E.jpg"></a></li><li style="display: none;"><a><img src="https://yb6.me/img/DQ2P/XdzupBRKO.jpg"></a></li><li style="display: none;"><a><img src="https://yb6.me/img/DQ2P/XdtqVPO0O.jpg"></a></li><li style="display: none;"><a><img src="https://yb6.me/img/DQ2P/Xd3NN731E.jpg"></a></li><li style="display: none;"><a><img src="https://yb6.me/img/DQ2P/Xdzupz7ap.jpg"></a></li></ul>
+		</div>
+		<!-- 点点点 -->
+		<div class="hd">
+			<ul><li class="on"></li><li></li><li></li><li></li><li></li></ul>
+		</div>
+		<!-- 上一页 下一页 -->
+		<a class="prev" href="javascript:void(0)"></a>
+		<a class="next" href="javascript:void(0)"></a>
+	</div>
+		<script type="text/javascript">
+		function lunbo() {
+			$.ajax({
+				url : "/getConfig/getLunBo.do",
+				type : "GET",
+				dataType : "json",
+				success : function(j) {
+					var col = '';
+					var dian = '';
+					imgsize = j.length;
+					for (var i = 0; i < imgsize; i++) {
+						col += '<li><a><img src="'+j[i].titleImg+'" /></a></li>'
+						dian += '<li></li>';
+					}
+					$("#lunbo").html(col);
+					$("div.hd ul").html(dian);
+					jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+				}
+			});
+		}
+		
+		lunbo();
+		
+		</script>
+
+					
+
+
+<div class="index-content">
+    <div class="loginbox wow flipInX" style="visibility: visible; animation-name: flipInX;">
+        <form id="LoginForm" style="margin:0">
+            <div class="title">会员登录</div>
+            <div class="con">
+                <li class="user">
+                    <input type="text" class="text user" id="username" placeholder="帐号">
+                </li>
+                <li class="mm">
+                    <input id="password" type="password" placeholder="密码" class="text password">
+                </li>
+                <li class="yzm" style="position:relative">
+                    <input type="text" id="verifyCode" placeholder="验证码">
+                    <a href="javscript:void(0)" class="codeimg">
+                        <img class="validcode" style="background-color:burlywood;position:absolute;top:-8px;right:2px;" height="30" width="45" src="/verifycode.do?timestamp=1533703560365">
+                    </a>
+                </li>
+                <li class="btnn"><input type="button" onclick="loginB()"></li>
+                <li class="reg"><input type="button" onclick="javascript:window.location.href = '/regpage.do '"></li>
+            </div>
+            <div class="link">
+                <a href="javscript:void(0)" onclick="alert('忘记账号密码，请联系在线客服人员取回！')">忘记密码</a>
+                <!--<a href="javscript:void(0)">免费试玩</a>-->
+            </div>
+        </form>
+    </div>
+</div>
+
+
+				</div>
+				
+<div class="first_news">
+	<div class="inner">
+		<span class="fl db"><img src="/images/new.jpg" alt=""></span>
+		<marquee scrollamount="3" scrolldelay="100" style="color: #fff;" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><strong><span style="color: rgb(0, 176, 80);">易记域名：</span></strong><span style="color: rgb(255, 0, 0);"><strong>P744.com</strong></span><strong><span style="color:#00b050">&nbsp;QQ客服：</span><span style="color: rgb(255, 0, 0);">578893444</span> <span style="color: rgb(0, 176, 80);">微信客服：</span><span style="color: rgb(255, 0, 0);">AMXDC111</span> <span style="color: rgb(0, 176, 80);">（娱乐过程中有任何问题 请联系24小时在线客服 QQ客服 微信客服</span><span style="color: rgb(0, 176, 80);">）</span></strong><p></p></marquee>
+	</div>
+</div>
+
+				<div class="content" style="background: url(/images/cbg1.jpg) no-repeat top center;">
+					<div class="h23"></div>
+					<div class="inner">
+						<ul class="ico">
+							<li><a href="/index/rookieHelp.do?code=18">
+									<p class="">
+										<span class="zuoicont zuoicont3"><em class="iconfont icon-fanpai"></em></span> <span class="ict">新手教程</span>
+									</p>
+							</a></li>
+							<li><a href="http://0592zhuang.com/a/Unycj2" target="_blank">
+									<p class="">
+										<span class="zuoicont zuoicont3"><em class="iconfont icon-shouji5"></em></span> <span class="ict">手机APP</span>
+									</p>
+							</a></li>
+							<li><a href="/index/rookieHelp.do?code=2">
+									<p class="">
+										<span class="zuoicont zuoicont3"><em class="iconfont icon-qukuanji1"></em></span> <span class="ict">存款帮助</span>
+									</p>
+							</a></li>
+							<li><a href="/index/rookieHelp.do?code=3">
+									<p class="">
+										<span class="zuoicont zuoicont3"><em class="iconfont icon-card"></em></span> <span class="ict">取款帮助</span>
+									</p>
+							</a></li>
+							<li style="padding: 0px;"><a href="/regpage.do">
+									<p class="">
+										<span class="zuoicont zuoicont3"><em class="iconfont icon-chezhaoren"></em></span> <span class="ict">免费注册</span>
+									</p>
+							</a></li>
+						</ul>
+						<div class="cl h15"></div>
+						<div class="same same1">
+							<img src="/images/in1.jpg" alt="">
+							<div class="zhao" style="display: none;">
+								<div class="h100"></div>
+								<div class="h50"></div>
+								<a href="/index/real.do"><img src="/images/to.png" alt=""></a>
+							</div>
+						</div>
+						<div class="same same2" style="height: 242px;">
+							<img src="/images/in2.jpg" alt="">
+							<div class="zhao" style="display: none;">
+								<div class="h70"></div>
+								<a href="/index/egame.do"><img src="/images/to.png" alt=""></a>
+							</div>
+						</div>
+						<div class="same same3" style="height: 242px;">
+							<img src="/images/in3.jpg" alt="">
+							<div class="zhao" style="display: none;">
+								<div class="h70"></div>
+								<a href="/index/egame.do"><img src="/images/to.png" alt=""></a>
+							</div>
+						</div>
+						<div class="same same4">
+							<img src="/images/in4.jpg" alt="">
+							<div class="zhao" style="display: none;">
+								<div class="h70"></div>
+								<a href="/index/sport.do"><img src="/images/to.png" alt=""></a>
+							</div>
+						</div>
+						<div class="same same5">
+							<img src="/images/in5.jpg" alt="">
+							<div class="zhao">
+								<div class="h70"></div>
+								<a href="/index/games.do"><img src="/images/to.png" alt=""></a>
+							</div>
+						</div>
+						<div class="cl h18"></div>
+					</div>
+				</div>
+				<div class="cl"></div>
+				<div class="xa">
+					<div class="inner">
+						<div class="h42"></div>
+						<div class="tac">
+							<img src="/images/xa.jpg" alt="">
+						</div>
+						<div class="h42"></div>
+					</div>
+				</div>
+			</div>
+			
+<!-- foot -->
+<div class="foot">
+	<div class="inner">
+		<div class="h30"></div>
+		<ul class="si">
+			<li><img src="/images/si1.png" alt="" class="fl pl5">
+				<span>客服QQ：578893444 </span></li>
+			<li><img src="/images/si2.png" alt="" class="fl pl5">
+				<span>官方网址：http://www.amxdc.com</span></li>
+			<li><img src="/images/si3.png" alt="" class="fl pl5">
+				<span>邮箱：amxdc@outlook.com</span></li>
+			<li><a href="javascript:" onclick="zxkf()" class="popupkefu" target="_blank"><img src="/images/si4.png" alt="" class="fl pl5"> <span>在线客服
+						ONLINE SERVICE </span></a></li>
+		</ul>
+		<div class="cl "></div>
+		<ul class="ft">
+			<li><img src="/images/ft_r1_c1.png" alt=""></li>
+			<li><img src="/images/ft_r1_c4.png" alt=""></li>
+			<li><img src="/images/ft_r1_c10.png" alt=""></li>
+			<li><img src="/images/ft_r1_c12.png" alt=""></li>
+			<li><img src="/images/ft_r1_c13.png" alt=""></li>
+			<li><img src="/images/ft_r1_c16.png" alt=""></li>
+			<li><img src="/images/ft_r1_c17.png" alt=""></li>
+			<li><img src="/images/ft_r1_c18.png" alt=""></li>
+			<li><img src="/images/ft_r1_c20.png" alt=""></li>
+			<li><img src="/images/ft_r1_c22.png" alt=""></li>
+			<li><img src="/images/ft_r1_c24.png" alt=""></li>
+			<li><img src="/images/ft_r1_c26.png" alt=""></li>
+		</ul>
+		<div class="cl"></div>
+		<div class="fte">
+			<p class="fl">
+				<a href="/index/rookieHelp.do?code=1">关于我们</a>&nbsp;|&nbsp;<a href="/index/rookieHelp.do?code=2">取款帮助</a>&nbsp;|&nbsp;<a href="/index/rookieHelp.do?code=3">存款方式</a>&nbsp;|&nbsp;<a href="/index/rookieHelp.do?code=6">联系我们</a>&nbsp;|&nbsp;<a href="/index/rookieHelp.do?code=7">常见问题</a>&nbsp;|&nbsp;<a href="/index/rookieHelp.do?code=4">加盟合作</a>&nbsp;|&nbsp;<a href="/index/rookieHelp.do?code=5">合作协议</a>&nbsp;|&nbsp;<a href="/daili" target="_blank">代理登入</a>&nbsp;|&nbsp;<a href="/index/rookieHelp.do?code=1">澳门新赌场简介</a>
+			</p>
+			<p class="fl"></p>
+		</div>
+		<div class="cl"></div>
+	</div>
+</div>
+		</div>
+	</div>
+	
+<!-- 浮动 -->
+<style>
+	.kf-content {
+		width: 205px;
+		height: 410px;
+		overflow: hidden;
+	}
+	
+	.float-left {
+		width: 152px;
+		height: 410px;
+		background: url(/images/kf-left.png) no-repeat right top;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.kf-content-left {
+		width: 53px;
+		height: 410px;
+		float: right;
+		background: url(/images/kf-right.png) no-repeat left top;
+		cursor: pointer;
+	}
+	
+	.kf-content-right {
+		width: 152px;
+		height: 410px;
+		float: right;
+		background: url(/images/kf-right.png) no-repeat right top;
+		position: relative;
+		overflow: hidden;
+	}
+	
+	kf-content-right a {
+		display: block;
+	}
+	
+	.kf-server {
+		position: absolute;
+		width: 152px;
+		height: 226px;
+		top: 0px;
+		right: 0px;
+	}
+	
+	.kf-qq {
+		position: absolute;
+		width: 152px;
+		height: 67px;
+		top: 226px;
+		right: 0px;
+	}
+	
+	.kf-email {
+		position: absolute;
+		width: 152px;
+		height: 47px;
+		top: 293px;
+		right: 0px;
+	}
+	
+	.kf-reg {
+		position: absolute;
+		width: 152px;
+		height: 47px;
+		top: 340px;
+		right: 0px;
+	}
+	/*輪播*/
+	
+	.slideBox1 {
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.slideBox1 .bd1 {
+		position: relative;
+		height: 100%;
+		z-index: 0;
+		overflow: hidden;
+	}
+	
+	.slideBox1 .bd1 li {
+		zoom: 1;
+		vertical-align: middle;
+	}
+	
+	.slideBox1 .bd1 img {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+</style>
+
+<script language="javascript" src="/js/float.js"></script>
+<!-- <div class="floatDiv" picfloat="left" id="fl"
+	style="position: absolute; z-index: 1000; top: 140px; left: 5px;">
+	<div class="kf-content clearfix">
+		<div class="float-left" style="top:54px;">
+			<a href="javascript:void(0)"class="kf-server popupkefu"></a>
+			<a onclick="javascript:$('#fl').hide()" class="kf-qq"
+				style="height: 20px; top: 310px;"></a>
+		</div>
+	</div>
+</div> -->
+<div class="floatDiv" picfloat="right" style="position: absolute; z-index: 1000; top: 140px; right: 5px;">
+	<div class="kf-content clearfix">
+		<div class="kf-content-right" style="width: 0px;">
+			<a href="javascript:" onclick="zxkf()" class="kf-server popupkefu"></a>
+			<a href="tencent://message/?uin=578893444&amp;Menu=yes" class="kf-qq"></a>
+			<a href="#" class="kf-email"></a>
+			<a href="/regpage.do" class="kf-reg"></a>
+		</div>
+		<div class="kf-content-left"></div>
+	</div>
+</div>
+<div style="position: fixed;bottom: 10px;left: 10px">
+	<div id="slideBox11" class="slideBox1">
+		<div class="bd1">
+			<div class="tempWrap">
+				<div class="tempWrap" style="overflow:hidden; position:relative; width:0px"><ul style="width: 0px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: 0px;"><li class="clone" style="float: left; width: 0px;">
+						<a href="/index/signNew.do" target="_blank">
+							<img src="/images/sign.png">
+						</a>
+					</li>
+					<li style="float: left; width: 0px;">
+						<a href="http://worldcup.cctv.com/" target="_blank">
+							<img src="/images/huodong.png" alt="">
+						</a>
+					</li>
+					<li style="float: left; width: 0px;">
+						<a href="/index/signNew.do" target="_blank">
+							<img src="/images/sign.png">
+						</a>
+					</li>
+				<li class="clone" style="float: left; width: 0px;">
+						<a href="http://worldcup.cctv.com/" target="_blank">
+							<img src="/images/huodong.png" alt="">
+						</a>
+					</li></ul></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script language="javascript">
+	$(function() {
+		$(".close").on("click", function() {
+			$(this).parent().hide();
+		})
+	})
+	//左下角轮播
+	$(".slideBox1").slide({
+		mainCell: ".bd1 ul",
+		effect: "leftLoop",
+		autoPlay: true
+	});
+
+	var left_top = 140,
+		right_top = 140,
+		float_list = [];
+	$(function() {
+
+		// 廳主自改 - 浮動圖
+		$(".floatDiv").each(function(i) {
+			float_list[i] = $(this);
+		});
+		for(var i in float_list) {
+			var self = float_list[i];
+
+			var picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+			self.show().Float({
+				'floatRight': picfloat,
+				'topSide': ((picfloat == 1) ? right_top : left_top)
+			});
+
+			// ie6 png bug
+			if(navigator.userAgent.toLowerCase().indexOf('msie 6') != -1) {
+				$.each(self.find('span'), function() {
+					$(this).css({
+						'width': $(this).width(),
+						'height': $(this).height()
+					});
+				});
+			}
+
+			if(picfloat) {
+				right_top = right_top + (self.find('a > span').height() || 300);
+			} else {
+				left_top = left_top + (self.find('a > span').height() || 300);
+			}
+
+			self.find('.floatBox div').click(function() {
+				event.cancelBubble = true;
+				$(this).parent('.floatBox').hide();
+			});
+		}
+		$(".kf-content-left").mouseover(function() {
+			if($(".kf-content-right").width() == 0) {
+				kfAnimate(".kf-content-right", "152px");
+			} else {
+				kfAnimate(".kf-content-right", "0");
+			}
+		});
+
+		setInterval("kfAnimate('.kf-content-right','0')", 35000);
+
+		$('.kf-content-right').css('width', '0px');
+
+	});
+
+	function kfAnimate(cls, data) {
+		$(cls).animate({
+			width: data
+		}, {
+			queue: false,
+			duration: 150
+		});
+	}
+</script>
+
+<div id="hdddddddddd"><link href="/common/css/redpacket/red_pc.css?v=4" rel="stylesheet" type="text/css"><div id="wrapper_redbag">            <div class="box" style="position: absolute; width: 100%; height: 100%;">                <div class="demo">                    <div onclick="document.getElementById('hdddddddddd').style.display='none';" style="position:absolute;z-index:900;background-repeat: no-repeat;width: 41px;height: 40px;left: 180px;background-image:url(&quot;/common/images/redpacket/close-btn.png&quot;);zoom: 0.5;"></div>                    <a href="javascript:;" class="reg_flipInX"><img src="/common/images/redpacket/rt-ad.png"></a>                </div>                <div id="dialogBg" style="width: 1024px; height: 1815px;"></div>                <div id="dialog" class="animated">                    <div class="red_bg">                        <div class="dialogTop">                            <a class="claseDialogBtn"></a>                        </div>                    <div id="djs_redbag" class="djs"><strong>离结束还差:145天6时24分52秒</strong></div>                    <div class="red_but "><span id="red_sp"><img src="/common/images/redpacket/q_red.gif"></span></div>                        <div class="red_ping hide"><span id="red_sp">派奖中...请稍后</span></div>                        <div class="ren_box" id="ren_box">                            <p id="red_qd" class="red_p hide"><span>恭喜抢到</span><span id="redmoney">0</span><span>元</span><br><span>（系统五分钟内派发）</span></p>                            <p id="error" class="red_p hide"><span id="error_msg">Sorry，来晚一步！</span></p>                            <span class="red_a" href="javascript:;">查看记录</span>                        </div>                        <div class="jilu">                            <div class="jl_text str1 str_wrap str_vertical"><div class="str_move str_origin" style="top: 240px;">                                                        </div></div>                    </div>                </div></div><script type="text/javascript" src="/common/js/redpacket/liMarquee.js"></scritp></script></div></div></div><div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.6; filter:alpha(opacity=60);"></div><div class="layui-layer layui-anim-01 layui-layer-page " id="layui-layer1" type="page" times="1" showtime="0" contype="string" style="z-index: 19891015; width: 622px; height: 402px; top: 16%; left: 196px;"><div class="layui-layer-title" style="cursor: move;" move="ok"> </div><div class="layui-layer-content" style="height: 402px;"><div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;"><p><a href="https://p744.com/index/rookieHelp.do?code=4" target="_self"><img src="https://yb6.me/img/DQ2P/X8w5ywnOP.jpg"></a></p></div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span></div></body></html>

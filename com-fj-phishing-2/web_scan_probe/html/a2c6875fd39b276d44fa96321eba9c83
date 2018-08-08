@@ -1,0 +1,1005 @@
+<!DOCTYPE html><!--[if lte IE 8]> <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if gt IE 8]><!--><html class=" js cssgradients generatedcontent" style=""><!--<![endif]--><head>
+    <meta charset="UTF-8">
+    <title>全民彩票</title>
+    <meta content="origin-when-cross-origin" name="referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="keywords" content="全民彩票">
+    <meta name="description" content="全民彩票">
+    <link rel="Shortcut Icon" href="/Images/ICO/c117/favicon.ico">
+    <link rel="Bookmark" href="/Images/ICO/c117/favicon.ico">
+    <link rel="stylesheet" href="https://iiimgzy12qt.yimeitaotaoci.com//Content/mapping/c117/home/css/main.css?02c4ecdb1b">
+    <link rel="stylesheet" href="https://iiimgzy12qt.yimeitaotaoci.com//Content/Default/home/css/jquery.rondell.css?2d784ab522">
+    <link href="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Common/artDialog6/ui-dialog.css?ae7e700648" rel="stylesheet">
+    <link rel="stylesheet" href="https://iiimgzy12qt.yimeitaotaoci.com//Content/common/web/RedBagActivity.css?6ce0678b94">
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/dist/$.ko.js?a876144a3a"></script>
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Common/artDialog6/dialog-plus-min.js?4786a25c83"></script>
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/dist/official/utils.min.js?5e82730058"></script>
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Common/jquery.signalR-2.1.1.min.js?40e112173f"></script>
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Common/modernizr.custom.js?44a0670bed"></script>
+</head>
+
+<body class="official-site" x-ms-format-detection="none">
+    
+    <div class="popup_tc" id="popup_tc" style="display:none; position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.8)">
+        <div class="popup_tc" style="width: 400px; height: 256px; position: absolute;top:50%;left:50%;margin-top:-128px;margin-left:-200px; background: #fff;  z-index: 9998;">
+            <div class="tc_center">
+                <div class="popup_top">
+                    <div class="tips_o">操作提示</div>
+                    <a class="d-close" href="javascript:;" onclick="popclose('popup_tc')">×</a>
+                </div>
+                <div class="popup_center">
+                    <p>正在建设中，敬请期待。。。</p>
+                </div>
+                <div class="popup_bottom">
+                    <div class="d-buttons"><input type="button" class="popup_button" value="确定" onclick="popclose('popup_tc')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- container -->
+    <div class="container">
+        <!-- header -->
+
+            <div class="top-box">
+                <div class="main clear">
+                    
+                    <div class="bar-left">
+                        
+                        <span id="ColorSwitch"><a href="http://www.qmcp67806.com" data-color="#eaff00,#00ff12,#ff00cc,#0012ff,#fff" target="_blank" style="color: rgb(0, 255, 18);">线路检测</a><label class="b_none">当前在线：<b id="NowOnlineUsers1">1431</b></label>人</span><label id="nowTime" class="now-time">13:00</label>
+                    </div>
+                    <div class="bar-right">
+                        <div class="fright">
+                                <div id="LOGIN-FORM">
+                                    <form autocomplete="off" method="post" action="/Home/login" data-bind="submit:submit">
+                                        <input type="text" style="visibility:hidden;position:absolute;z-index:-999;">
+                                        <input type="password" style="visibility:hidden;position:absolute;z-index:-999;">
+                                        <div class="login-area">
+                                            <span class="login-mane">
+                                                <label for="ph1533704444924" class="tip_form">账号</label><input class="input_tip" type="text" maxlength="15" data-bind="textinput:fields.username,placeholder:'账号|tip_form'" needed="" id="ph1533704444924">
+                                            </span>
+                                            <span class="login-password">
+                                                <label for="ph1533704444925" class="tip_form">密码</label><input class="input_tip" type="password" maxlength="20" data-bind="textinput:fields.password,placeholder:'密码|tip_form'" needed="" id="ph1533704444925">
+                                            </span>
+                                            <span class="login-code">
+                                                <label for="ph1533704444926" class="tip_form tip_forms">验证码</label><input type="text" class="input_tip input_tip_45" maxlength="6" data-bind="textinput:fields.validateCode,placeholder:'验证码|tip_form tip_forms'" needed="" id="ph1533704444926">
+                                                <img width="52" height="22" src="/Home/ValidateCode?1533704444923" style="background-color:white;" data-bind="attr:{src:'/Home/ValidateCode?'+random()},click:refreshCode" alt="验证码" title="点击切换验证码">
+                                            </span>
+                                            <a title="登录" href="javascript:void(0)" class="btn btn-login" style="position:relative">
+                                                <span data-bind="text:isSubmitting()?'登录中...':'登录'">登录</span>
+                                                <input type="submit" value="" class="btn btn-login" style="position:absolute;left:0;top:0;height:34px;width:100px;margin:0;filter:alpha(opacity=0);opacity:0;">
+                                            </a>
+                                            
+                                                <a title="免费开户" href="/Register?Intr=" class="btn bnt-register">免费开户</a>
+                                            <a title="忘记密码" href="javascript:void(0)" id="forgetBtn" class="btn btn-member">忘记密码</a>
+                                        </div>
+                                    </form>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="main">
+                    <div class="header-main ">
+                        <div class="logo_icon">
+                                    <div class="logo fleft">
+                                        <a href="/"></a>
+                                    </div>
+
+                        </div>
+                        <div class="menu-box">
+                            <div class="menu">
+                                <ul class="clear">
+                                    <li data-item="lot_hall" id="lot_hall">
+                                        <a href="javascript:;" class="lottery" data-item="lot_hall">
+                                            <div>购彩中心</div>
+                                            <span>LOTTERY</span>
+                                        </a>
+                                        <span class="hot-new"></span>
+                                    </li>
+                                    <li data-item="sports_hall" style="display:none;" data-type="tyjj">
+                                        <a href="javascript:;" class="ThirdPartyGame">
+                                            <div>体育竞技</div>
+                                            <span>SPORTS</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Login" class="UserCenter">
+                                            <div>用户中心</div>
+                                            <span>USERCENTER</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Activity" class="Activity">
+                                            <div>优惠活动</div>
+                                            <span>ACTIVITY</span>
+                                        </a>
+                                        <span class="hot-new"></span>
+                                    </li>
+                                    <li>
+                                        <a href="http://bozll.com.cn/" target="_blank" class="Announncement">
+                                            <div>积分兑换</div>
+                                            <span>LOTTERY</span>
+                                        </a>
+                                        <span class="hot-new"></span>
+                                    </li>
+                                    <li data-type="replace-tyjj">
+                                        <a href="/Login" class="GameInformation">
+                                            <div>彩种信息</div>
+                                            <span>GAMEINFORMATION</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Mobile" class="mobile">
+                                            <div>手机下注</div>
+                                            <span>MOBILE</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                                    <div class="menu-child1" style="display:none;" id="lot_sec_menu">
+                                        <div class="gamelist-1 clear">
+                                            <div class="official_play">
+                                                <div class="gamelist_tit clear">
+                                                    <h1 class="red_style">官方玩法</h1>
+                                                    <div class="color">官</div>
+                                                </div>
+
+                                                <div class="high_wrap">
+                                                    <div class="gamelist_l">
+                                                        <ul>
+                                                                    <li>
+                                                                        <!--<a class="game_1" href="/OffcialOtherGame/Index/1"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/⑥HC.png?_=20160805" /></a>-->
+                                                                        <a class="game_1" href="/OffcialOtherGame/Index/1"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/⑥HC.png?_=20160805"><span class="hot"><font>香港六合彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_26" href="/OffcialOtherGame/Index/26"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/ZQSSC.png?_=20160805" /></a>-->
+                                                                        <a class="game_26" href="/OffcialOtherGame/Index/26"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/ZQSSC.png?_=20160805"><span class="hot"><font>重庆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_40" href="/OffcialOtherGame/Index/40"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/XJSSC.png?_=20160805" /></a>-->
+                                                                        <a class="game_40" href="/OffcialOtherGame/Index/40"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/XJSSC.png?_=20160805"><span class="hot"><font>新疆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_80" href="/OffcialOtherGame/Index/80"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/AHK3.png?_=20160805" /></a>-->
+                                                                        <a class="game_80" href="/OffcialOtherGame/Index/80"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/AHK3.png?_=20160805"><span class="hot"><font>安徽快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_29" href="/OffcialOtherGame/Index/29"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/BJPKS.png?_=20160805" /></a>-->
+                                                                        <a class="game_29" href="/OffcialOtherGame/Index/29"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/BJPKS.png?_=20160805"><span class="hot"><font>北京PK拾</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_28" href="/OffcialOtherGame/Index/28"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/BJKL8.png?_=20160805" /></a>-->
+                                                                        <a class="game_28" href="/OffcialOtherGame/Index/28"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/BJKL8.png?_=20160805"><span class="hot"><font>北京快乐8</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_56" href="/OffcialOtherGame/Index/56"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/BJSSC.png?_=20160805" /></a>-->
+                                                                        <a class="game_56" href="/OffcialOtherGame/Index/56"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/BJSSC.png?_=20160805"><span class="hot"><font>北京时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_30" href="/OffcialOtherGame/Index/30"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/FC3D.png?_=20160805" /></a>-->
+                                                                        <a class="game_30" href="/OffcialOtherGame/Index/30"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/FC3D.png?_=20160805"><span class="hot"><font>福彩3D</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_90" href="/OffcialOtherGame/Index/90"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/GXK3.png?_=20160805" /></a>-->
+                                                                        <a class="game_90" href="/OffcialOtherGame/Index/90"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/GXK3.png?_=20160805"><span class="hot"><font>广西快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_83" href="/OffcialOtherGame/Index/83"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/HEBEIKUAI3.png?_=20160805" /></a>-->
+                                                                        <a class="game_83" href="/OffcialOtherGame/Index/83"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/HEBEIKUAI3.png?_=20160805"><span class="hot"><font>河北快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_50" href="/OffcialOtherGame/Index/50"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/HLJ11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_50" href="/OffcialOtherGame/Index/50"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/HLJ11X5.png?_=20160805"><span class="hot"><font>黑龙江11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_86" href="/OffcialOtherGame/Index/86"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/HUBEIKUAI3.png.png?_=20160805" /></a>-->
+                                                                        <a class="game_86" href="/OffcialOtherGame/Index/86"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/HUBEIKUAI3.png.png?_=20160805"><span class="hot"><font>湖北快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_62" href="/OffcialOtherGame/Index/62"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/JS11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_62" href="/OffcialOtherGame/Index/62"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/JS11X5.png?_=20160805"><span class="hot"><font>江苏11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_46" href="/OffcialOtherGame/Index/46"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/JX11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_46" href="/OffcialOtherGame/Index/46"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/JX11X5.png?_=20160805"><span class="hot"><font>江西11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_44" href="/OffcialOtherGame/Index/44"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/PLSW.png?_=20160805" /></a>-->
+                                                                        <a class="game_44" href="/OffcialOtherGame/Index/44"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/PLSW.png?_=20160805"><span class="hot"><font>排列三、五</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_32" href="/OffcialOtherGame/Index/32"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/SD11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_32" href="/OffcialOtherGame/Index/32"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/SD11X5.png?_=20160805"><span class="hot"><font>山东11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_72" href="/OffcialOtherGame/Index/72"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/SH11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_72" href="/OffcialOtherGame/Index/72"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/SH11X5.png?_=20160805"><span class="hot"><font>上海11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_88" href="/OffcialOtherGame/Index/88"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/SHK3.png?_=20160805" /></a>-->
+                                                                        <a class="game_88" href="/OffcialOtherGame/Index/88"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/SHK3.png?_=20160805"><span class="hot"><font>上海快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_78" href="/OffcialOtherGame/Index/78"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/dingsheng/images/gameIcon/TXFFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_78" href="/OffcialOtherGame/Index/78"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/TXFFC.png?_=20160805"><span class="hot"><font>腾讯分分彩</font></span></a>
+                                                                    </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="credit_play">
+                                                <div class="gamelist_tit clear">
+                                                    <h1 class="orange_style">信用玩法</h1>
+                                                    <div class="color">信</div>
+                                                </div>
+                                                <div class="high_wrap">
+                                                    <div class="gamelist_r">
+                                                        <ul>
+                                                                    <li>
+                                                                        <a class="game_1" href="/six/index"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/⑥HC.png?_=20160805"><span class="hot"><font>香港六合彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_81" href="/OtherGame/Index/81"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/AHK3.png?_=20160805"><span class="hot"><font>安徽快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_15" href="/OtherGame/Index/15"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/BJPKS.png?_=20160805"><span class="hot"><font>北京PK拾</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_91" href="/OtherGame/Index/91"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/GXK3.png?_=20160805"><span class="hot"><font>广西快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_82" href="/OtherGame/Index/82"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/HEBEIKUAI3.png?_=20160805"><span class="hot"><font>河北快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_87" href="/OtherGame/Index/87"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/HUBEIKUAI3.png.png?_=20160805"><span class="hot"><font>湖北快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_63" href="/OtherGame/Index/63"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/JS11X5.png?_=20160805"><span class="hot"><font>江苏11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_73" href="/OtherGame/Index/73"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/SH11X5.png?_=20160805"><span class="hot"><font>上海11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_89" href="/OtherGame/Index/89"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/SHK3.png?_=20160805"><span class="hot"><font>上海快3</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_10" href="/OtherGame/Index/10"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/XJSSC.png?_=20160805"><span class="hot"><font>新疆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_7" href="/OtherGame/Index/7"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/ZQSSC.png?_=20160805"><span class="hot"><font>重庆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_6" href="/OtherGame/Index/6"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/GXKS.png?_=20160805"><span class="hot"><font>广西快十</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_13" href="/OtherGame/Index/13"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/ZQKS.png?_=20160805"><span class="hot"><font>幸运农场</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_79" href="/OtherGame/Index/79"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/TXFFC.png?_=20160805"><span class="hot"><font>腾讯分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_100" href="/OtherGame/Index/100"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/XY28.png?_=20160805"><span class="hot"><font>幸运28</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_105" href="/OtherGame/Index/105"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/AZ28.png?_=20160805"><span class="hot"><font>澳洲28</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_114" href="/OtherGame/Index/114"><img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/images/gameIcon/WMFFC.png?_=20160805"><span class="hot"><font>极速分分彩</font></span></a>
+                                                                    </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="triangles_back"></div>
+                                    </div>
+
+                            <!-- 体育游戏菜单集合 - vm生成 -->
+                            <div class="menu-child2" style="display: none;" id="sports_hall"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- header end -->
+        <!--  插入内容  -->
+        
+<div class="main_wrap">
+    <div class="content">
+        <div class="home-con">
+            <div class="banner">
+                <div class="mq-mask" id="notices">
+                    
+                </div>
+                <div class="wrapper">
+                    <div class="swiper-container" style="height: 100%; cursor: -webkit-grab;">
+                        <div class="swiper-wrapper" style="height: 504px; width: 8028px; transform: translate3d(-1338px, 0px, 0px); transition: 0s; -webkit-transition: 0s;"><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(https://iiimgzy12qt.yimeitaotaoci.com//Content/images/banner/755436/W_20180720211714.jpg); width: 1338px; height: 504px;">
+                                            <a href="https://www.youxi176.cn/app.php/6" target="_blank" style="width:100%;height:100%;display:block;"></a>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="background-image: url(https://iiimgzy12qt.yimeitaotaoci.com//Content/images/banner/755436/W_20180415170243.jpg); width: 1338px; height: 504px;">
+                                            <a href="http://h668.com/Activity" target="_blank" style="width:100%;height:100%;display:block;"></a>
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://iiimgzy12qt.yimeitaotaoci.com//Content/images/banner/755436/W_20180417141417.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://iiimgzy12qt.yimeitaotaoci.com//Content/images/banner/755436/W_20180418150633.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://iiimgzy12qt.yimeitaotaoci.com//Content/images/banner/755436/W_20180720211714.jpg); width: 1338px; height: 504px;">
+                                            <a href="https://www.youxi176.cn/app.php/6" target="_blank" style="width:100%;height:100%;display:block;"></a>
+                                    </div>
+                        <div class="swiper-slide swiper-slide-duplicate" style="background-image: url(https://iiimgzy12qt.yimeitaotaoci.com//Content/images/banner/755436/W_20180415170243.jpg); width: 1338px; height: 504px;">
+                                            <a href="http://h668.com/Activity" target="_blank" style="width:100%;height:100%;display:block;"></a>
+                                    </div></div>
+                        <div class="controller">
+                            <div id="prev_btn" class="prev prev-one">
+                                <img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/home/images/arrow_left.png" alt="" class="img_hidden">
+                            </div>
+                            <div id="next_btn" class="next next-one">
+                                <img src="https://iiimgzy12qt.yimeitaotaoci.com//Content/default/home/images/arrow_right.png" alt="" class="img_hidden">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content_box">
+                    <div class="content_column main">
+                        <div class="columns clear">
+                            <div class="col_a">
+                                <h1 class="hotgame_tit">彩票<span class="en">Lottery</span></h1>
+                                <div class="hot_game_toggle">
+                                    <a class="official-btn active" href="javascript:;"></a>
+                                    <a class="credit-btn" href="javascript:;"></a>
+                                </div>
+                                <div class="hotgame_con clear">
+                                            <div class="official_games">
+                                                <ul class="list clear">
+                                                    <li class="title-s high_frequency"><span class="lt lt-high"></span>官方玩法</li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/1">香港六合彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/26">重庆时时彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/40">新疆时时彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/80">安徽快3<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/29">北京PK拾<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/28">北京快乐8<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/56">北京时时彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/30">福彩3D<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/90">广西快3<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/83">河北快3<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/50">黑龙江11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/86">湖北快3<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/62">江苏11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/46">江西11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/44">排列三、五<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/32">山东11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/72">上海11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/88">上海快3<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/78">腾讯分分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                </ul>
+                                                <div class="line"></div>
+                                                <ul class="list-bm clear">
+                                                    <li class="title-s bm_frequency"><span class="lt lt-bm"></span>推荐游戏</li>
+                                                    <li><a href="/OtherGame/Index/4"><p class="game_show4"></p><i>广东11选5</i></a></li>
+                                                    <li><a href="/OffcialOtherGame/Index/46"><p class="game_show46"></p><i>江西11选5</i></a></li>
+                                                    <li><a href="/OtherGame/Index/53"><p class="game_show52"></p><i>韩国快乐彩</i></a></li>
+                                                    <li><a href="/OffcialOtherGame/Index/44"><p class="game_show44"></p><i>排列3/5</i></a></li>
+                                                    <li><a href="/six/index"><p class="game_show1"></p><i>六合彩</i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="credit_games" style="display:none;">
+                                                <ul class="list">
+                                                    <li class="title-s high_frequency"><span class="lt lt-high"></span>信用玩法</li>
+                                                            <li class="navlot11">
+                                                                <a href="/six/index">香港六合彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/81">安徽快3 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/15">北京PK拾 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/91">广西快3 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/82">河北快3 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/87">湖北快3 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/63">江苏11选5 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/73">上海11选5 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/89">上海快3 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/10">新疆时时彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/7">重庆时时彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/6">广西快十 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/13">幸运农场 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/79">腾讯分分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/100">幸运28 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/105">澳洲28 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/114">极速分分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                </ul>
+                                                <div class="line"></div>
+                                                <ul class="list-bm clear">
+                                                    <li class="title-s bm_frequency"><span class="lt lt-bm"></span>推荐游戏</li>
+                                                    <li><a href="/OtherGame/Index/4"><p class="game_show4"></p><i>广东11选5</i></a></li>
+                                                    <li><a href="/OffcialOtherGame/Index/46"><p class="game_show46"></p><i>江西11选5</i></a></li>
+                                                    <li><a href="/OtherGame/Index/53"><p class="game_show52"></p><i>韩国快乐彩</i></a></li>
+                                                    <li><a href="/OffcialOtherGame/Index/44"><p class="game_show44"></p><i>排列3/5</i></a></li>
+                                                    <li><a href="/six/index"><p class="game_show1"></p><i>六合彩</i></a></li>
+                                                    <li><a href="/OffcialOtherGame/Index/30"><p class="game_show30"></p><i>福彩3D</i></a></li>
+                                                </ul>
+                                            </div>
+
+                                </div>
+                            </div>                           
+                            <div class="col_b">
+                                <h1 class="baccarat_tit">快速投注<span class="en">Quick Bet</span></h1>
+                                <div class="row_switch_col" id="lotteryResultContainer">
+                                    <div class="row_switch_top">
+                                        <ul class="tab_menu" data-bind="foreach: allGameInfos">
+                                            <li class="link_row5">
+                                                <a href="javascript:;" data-bind="text: GameName,click:$parent.gameTab, css:{on:$parent.tab().gameMultiID==gameMultiID}" class="on">重庆时时彩</a>
+                                            </li>
+                                        
+                                            <li class="link_row5">
+                                                <a href="javascript:;" data-bind="text: GameName,click:$parent.gameTab, css:{on:$parent.tab().gameMultiID==gameMultiID}" class="">北京PK拾</a>
+                                            </li>
+                                        
+                                            <li class="link_row5">
+                                                <a href="javascript:;" data-bind="text: GameName,click:$parent.gameTab, css:{on:$parent.tab().gameMultiID==gameMultiID}" class="">广西快3</a>
+                                            </li>
+                                        
+                                            <li class="link_row5">
+                                                <a href="javascript:;" data-bind="text: GameName,click:$parent.gameTab, css:{on:$parent.tab().gameMultiID==gameMultiID}" class="">排列三、五</a>
+                                            </li>
+                                        
+                                            <li class="link_row5">
+                                                <a href="javascript:;" data-bind="text: GameName,click:$parent.gameTab, css:{on:$parent.tab().gameMultiID==gameMultiID}" class="">六合彩</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div data-bind="visible:!tab() || !tab().isOpen()" style="display: none;">
+                                        <div class="lott-item-con">
+                                            <h3>此游戏当前在维护中或者没有开启</h3>
+                                        </div>
+                                    </div>
+                                    <div data-bind="visible:tab() &amp;&amp; tab().isOpen()">
+                                        <div data-bind="foreach:allResultList">
+                                            <div class="row_switch_box tab_box" data-bind="visible:$parent.tab().gameMultiID == gameMultiID">
+                                                <div class="row_klc_sk">
+                                                    <ul class="qb-info clear">
+                                                        <li>
+                                                            <span>第<span name="issue" data-bind="text:NumberofPeriod">20180808043</span>期</span>
+                                                            <span data-bind="visible:status()" style=""><span data-bind="text: status() == 1?'截止：':'距离下期开盘还有：'">截止：</span><label data-bind="text:hourStr">00</label>时<label data-bind="text:minuteStr">08</label>分<label data-bind="text:secondsStr">42</label>秒</span>
+                                                            <span data-bind="visible:!status()" style="display: none;">已封盘, 等待下期开盘</span>
+                                                        </li>
+                                                        <li class="top-btn">
+                                                            <span><a data-bind="attr:{href:betUrl}" href="/OtherGame/Index/7">手动选号</a>|<a data-bind="attr:{href:resultUrl}" href="/Result/index?game=7">走势图</a></span>
+                                                        </li>
+                                                    </ul>
+                                                    <dl class="row_sk_dl clear">
+                                                        <dt>
+                                                            <a href="/OtherGame/Index/7" data-bind="attr:{href:betUrl}">
+                                                                <b class="dlt_logo64x64">
+                                                                    <img style="width:100%;" data-bind="attr:{title:GameName,src:'https://iiimgzy12qt.yimeitaotaoci.com//Content/mobile/images/game-icon/'+ Abbreviation +'.png'}" src="https://iiimgzy12qt.yimeitaotaoci.com//Content/mobile/images/game-icon/ZQSSC.png" title="重庆时时彩">
+                                                                </b>
+                                                            </a>
+                                                        </dt>
+                                                        <dd>
+                                                            <div class="row_sk_dd" data-bind="foreach: machineSelection">
+                                                                <div class="red_qiu" data-bind="visible:$data || $data == 0">
+                                                                    <input type="text" data-bind="value:$data" readonly="readonly">
+                                                                </div>
+                                                            
+                                                                <div class="red_qiu" data-bind="visible:$data || $data == 0">
+                                                                    <input type="text" data-bind="value:$data" readonly="readonly">
+                                                                </div>
+                                                            
+                                                                <div class="red_qiu" data-bind="visible:$data || $data == 0">
+                                                                    <input type="text" data-bind="value:$data" readonly="readonly">
+                                                                </div>
+                                                            
+                                                                <div class="red_qiu" data-bind="visible:$data || $data == 0">
+                                                                    <input type="text" data-bind="value:$data" readonly="readonly">
+                                                                </div>
+                                                            
+                                                                <div class="red_qiu" data-bind="visible:$data || $data == 0">
+                                                                    <input type="text" data-bind="value:$data" readonly="readonly">
+                                                                </div>
+                                                            </div>
+                                                        </dd>
+                                                    </dl>
+                                                    <div class="row_sk_bottom clear">
+                                                        <div class="row_box">
+                                                            <span class="add-bar clear">
+                                                                <a class="left" href="javascript: ;" data-bind="click:$parent.addOrMinusMultiple.bind($data, -1, true)">-</a>
+                                                                <input type="text" name="input" value="1" data-bind="textinput:times">
+                                                                <a class="right" href="javascript: ;" data-bind="click:$parent.addOrMinusMultiple.bind($data, 1, true)">+</a>
+                                                            </span>
+                                                            <span>倍&nbsp;&nbsp;&nbsp;&nbsp;共<label class="col-red" data-bind="text: totalMoney">5</label>元</span>
+                                                        </div>
+                                                        <div class="btn_box">
+                                                            <a href="javascript:;" data-bind="click:$parent.machineSelect.bind($parent, true)"><i class="luck-icon"></i>换一注</a>
+                                                            <a class="row_sk_pay" href="javascript:;" data-bind="click: $parent.betNow.bind($parent, true), css:{disabled:!(status() == 1)}">立即投注</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <!--存款支持-->
+                        <div class="add-money-box">
+                            <a class="add-money-icon icon1" href="/Mobile">
+                                <h4>APP下载</h4>
+                                <p>APP  Download</p>
+                            </a>
+                            <a class="add-money-icon icon2" href="/Recharge/Index">
+                                <h4>支付宝支付</h4>
+                                <p>Pay with Ali-Pay</p>
+                            </a>
+                            <a class="add-money-icon icon3" href="/Recharge/Index">
+                                <h4>微信支付</h4>
+                                <p>WeChat payment</p>
+                            </a>
+                            <a class="add-money-icon icon4" href="/Recharge/Index">
+                                <h4>QQ钱包</h4>
+                                <p>QQ Purse payment</p>
+                            </a>
+                            <a class="add-money-icon icon5" href="/Recharge/Index">
+                                <h4>快速充值中心</h4>
+                                <p>Fast recharge center</p>
+                            </a>
+                        </div>
+                        <div class="download_center clear">
+                            <div class="center_tit"></div>
+                            <div class="center_con clear">
+                                <div class="con_i">
+                                    <div class="i_box">
+                                        <img src="https://image.yessfinewine.com/Img//2018/8/6/6a84abd2e0c74e3dba4469c2de7b70c4.jpg" class="erweima" alt="IOS" width="80" height="80">
+                                        <div class="i_style">
+                                            <h2>IOS扫码下载地址</h2>
+                                            <p>系统要求：</p>
+                                            <p>苹果IOS操作系统</p>
+                                            <a href="/Mobile">进入下载</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="con_a">
+                                    <div class="a_box">
+                                        <img src="https://image.yessfinewine.com/Img//2018/8/6/29f5685f43c54133872fb0f66ed86c7c.jpg" class="erweima" alt="ANDROID" width="80" height="80">
+                                        <div class="i_style">
+                                            <h2>安卓下载地址</h2>
+                                            <p>系统要求：</p>
+                                            <p>Android 4.0及以上</p>
+                                            <a href="/Mobile">进入下载</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="others">
+                            <div class="advantages">
+                                <h2></h2>
+                                <div class="payment_date">
+                                    <div class="payment_date_l">
+                                        <h3>存款</h3>
+                                        <p>到账平均时间</p>
+                                    </div>
+                                    <div class="payment_date_r">
+                                        <span class="pay_time">23<strong>秒</strong></span>
+                                    </div>
+                                    <div class="time_bar">
+                                        <span class="bar_slide"></span>
+                                    </div>
+                                </div>
+                                <div class="payment_date">
+                                    <div class="payment_date_l">
+                                        <h3>取款</h3>
+                                        <p>到账平均时间</p>
+                                    </div>
+                                    <div class="payment_date_r">
+                                        <span class="pay_time">2'02<strong>分</strong></span>
+                                    </div>
+                                    <div class="time_bar">
+                                        <span class="bar_slide_n"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mobile_down">
+                                <h2></h2>
+
+                                <div class="down">
+                                </div>
+                                <div class="pay-btn">全程担保</div>
+                            </div>
+                            <div class="problem">
+                                <h2></h2>
+                                <div class="common clear">
+                                    <ul>
+                                        <li><a href="/Help/Deposit">存款问题</a></li>
+                                        <li><a href="/Help/Techq">游戏帮助</a></li>
+                                        <li><a href="/Help/Teller">取款问题</a></li>
+                                        <li><a href="https://v60.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=80002405&amp;configID=904" target="_blank">联系客服</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<link href="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Common/swiper2.7.6/css/idangerous.swiper.css?594fc7a57f" rel="stylesheet">
+<script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Common/swiper2.7.6/js/idangerous.swiper.min.js?2073ab22ec"></script>
+<script>
+    var serverTime = new Date('2018/08/08 13:00:44') - 0;// fff
+    var localTime = new Date() - 0;
+    $(function () {
+        $('.hot_game_toggle a').click(function () {
+            var index = $(this).index();
+            $('.hotgame_con>div').eq(index).show().siblings().hide();
+            $(this).addClass('active').siblings().removeClass('active')
+        });
+
+        //开奖结果
+        ///获取游戏期数信息
+        var lotteryResultIds = [
+            //游戏缩写---------------官方或信用--游戏名称---------------机选下注--玩法项ID[公共]-生成号码个数-号码范围-选号是否可重复[默认为false]
+            { Abbreviation: "ZQSSC", GroupID: 0, GameName: "重庆时时彩", betInfos: { SI: 0, count: 5, range: [0, 9], canRepeat: false } }   //整合
+            , { Abbreviation: "BJPKS", GroupID: 0, GameName: "北京PK拾", betInfos: { SI: 1, count: 5, range: [1, 10], canRepeat: false } }   //第1-5名
+            , { Abbreviation: "GXK3", GroupID: 0, GameName: "广西快3", betInfos: { SI: 0, count: 3, range: [1, 6] }, canRepeat: false }   //大小骰宝
+            , { Abbreviation: "PLSW", GroupID: 3, GameName: "排列三、五", betInfos: { SI: 20985, count: 3, range: [0, 9], canRepeat: false } }   //前三直选复式
+            , { Abbreviation: "⑥HC", GroupID: 0, GameName: "六合彩", betInfos: { SI: 0, count: 7, range: [1, 40] }, canRepeat: false }  //特码
+        ];
+        homeFn.getGamePeriodsInfo({
+            dom: $("#lotteryResultContainer")[0],   //要绑定的元素
+            refreshTime: 10,   //数据刷新时间间隔
+            gameInfos: lotteryResultIds, //获取开奖结果的游戏id列表
+            isRereshMulti: false   //是否刷新多个
+        });
+
+        var bannerItems = $('.swiper-container .swiper-slide');
+        //只有一张图片时不操作
+        if (bannerItems.length > 1) {
+            //轮播图
+            if (window.Swiper) {
+                var mySwiper = new Swiper('.swiper-container', {
+                    //pagination: '.swiper-pagination',
+                    loop: true,
+                    grabCursor: true,
+                    paginationClickable: true,
+                    autoplay: 3000,
+                    autoplayDisableOnInteraction: false,
+                    speed: 300
+                })
+                $('#prev_btn').on('click', function (e) {
+                    e.preventDefault();
+                    mySwiper.swipePrev();
+                })
+                $('#next_btn').on('click', function (e) {
+                    e.preventDefault();
+                    mySwiper.swipeNext();
+                });
+            }
+        } else {
+            $(".controller,.swiper-pagination").hide();
+        }
+    });
+</script>
+
+            <div class="footer-header clear">
+                <div class="footer-header-content">
+                    <ul class="clear">
+                        <li>
+                            <a href="/Help/Betq?gameId=26" class="ProductsServices">
+                                <div>玩法规则</div>
+                                <span>Rules of Play</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Help/Deposit" class="BankServices">
+                                <div>银行卡服务</div>
+                                <span>Bank Card</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Help/Generalq" class="HelpCenter">
+                                <div>常见问题</div>
+                                <span>Common Problem</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="bottom-info-main">
+                    <div class="footer_main clear">
+                        
+                        <!--银行卡类型-->
+                        <div class="bottom-info">
+                            <div class="new-box">
+                                <h1>
+                                    <em>银行卡类型</em>
+                                    <span>Bank card type</span>
+                                </h1>
+                                <div class="new-con clear">
+                                    <div class="footer_bank"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-info">
+                            <div class="new-box">
+                                <h1><em>使用帮助</em><span>Guide</span></h1>
+                                <div class="new-con">
+                                    <table class="guideTable">
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="/Help/Generalq">关于我们</a></td>
+                                                <td>
+                                                    <a href="https://v60.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=80002405&amp;configID=904" target="_blank">联络我们</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="/Help/Generalq">合作伙伴</a></td>
+                                                <td><a href="/Help/Deposit">存款帮助</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="/Help/Teller">取款帮助</a></td>
+                                                <td><a href="/Help/Generalq">常见问题</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-info">
+                            <div class="new-box">
+                                <h1><em>推荐浏览器</em><span>Browser</span></h1>
+                                <div class="new-con">
+                                    <div class="clear">
+                                        <ul class="browser-list commonlist notitle clear">
+                                            <li>
+                                                <a target="_blank" href="http://rj.baidu.com/soft/detail/14917.html"><i class="icon icon-browser icon-browserIE"></i><span>IE新版下载</span></a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="http://rj.baidu.com/soft/detail/14744.html?ald"><i class="icon icon-browser icon-browserFF"></i><span>Chrome浏览器</span></a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="http://rj.baidu.com/soft/detail/11843.html"><i class="icon icon-browser icon-browserGL"></i><span>Firefox浏览器</span></a>
+                                            </li>
+                                        </ul>
+                                        <div class="browser-tip">
+                                            <p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer -->
+                <div class="main clear">
+                    <div class="copyright"> 未满18周岁禁止购买，Copyright © 2010-2018 全民彩票娱乐公司保留所有权利</div>
+                    <a href="#" class="btn btn-gotop"><i class="icon icon-gotop"></i></a>
+                </div>
+            </div>
+        <!-- footer end -->
+    </div>
+    <!-- container end -->
+    
+    <div class="Turntable" id="couplet2">
+        <a href="http://bbs.h66868.com/plugin.php?id=levaward:award&amp;doingid=2" target="_blank" tfd="90" style="transform: rotate(90deg);"></a>
+        <div class="Turntable_close" onclick="popclose('couplet2')"></div>
+    </div>
+    <!--公告-->
+    <script type="text/html" id="tpl-message">
+        <div>
+            <div>
+                <div class="side_left" data-bind="foreach:dialogNotice">
+                    <div class="side_item">
+                        <a href="javascript:;" data-bind="click:$parent.active.bind($data,$index()),css:$parent.activeIndex() == $index() ? 'active' : ''">
+                            <span data-bind="text:FNoticeTitle"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="notice_main" data-bind="with:activeMessage">
+                    <div class="notice_title"><h1 data-bind="text:FNoticeTitle"></h1></div>
+                    <div class="notice_text">
+                        <div class="fleft notice_item" style="text-align:left;word-break:break-all;" data-bind="html:FNoticeContent"></div>
+                        <div class="fright" data-bind="visible: FIsShowTime">【<span data-bind="text:FLastEditTime"></span>】</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <!--公告  end--->
+    <!-- 体育竞技 -->
+    <script type="text/html" id="sports_Fba">
+        <div class="sports-bg" data-bind="foreach:gameList">
+            <div class="sport" data-bind="style:{'background-image':'url(/Content/default/images/gameskin/ty'+($index()+1)+'.png)'}">
+                <a href="javascript:;" class="hvr-grow" data-bind="attr:{href:url},text:FName,style:{'background-image':'url(/Content/default/images/gameskin/ty'+($index()+1)+'-ico.png)'}"></a>
+            </div>
+        </div>
+    </script>
+    <input type="hidden" id="accountId" value="0">
+    <!-- sideBar end -->
+   <div class="ui-md-box tab-right" id="pendant_wrap1">
+        <a href="https://v60.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=80002405&amp;configID=904" target="_blank" class="tab-right-btn1"></a>
+        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=771959596&amp;site=qq&amp;menu=yes" target="_blank" class=" tab-right-btn2" title="客服QQ">
+           <span>771959596</span>
+       </a>
+        <a href="http://h668.com/" target="_blank" class=" tab-right-btn3"></a>
+        <a href="/Activity" target="_blank" class=" tab-right-btn4"></a>
+       <div>
+           <img src="https://image.yessfinewine.com/Img//2018/8/6/4e5ad6bfe17e45abb8e6a02e1a80d4ef.jpg" alt="官方微信一" class="wechat-img" width="102" height="102">
+       </div> 
+       <div class="close_box">
+           <a href="javascript:;" class="box_c" onclick="popclose('pendant_wrap1')"></a>
+       </div>
+    </div>
+
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Common/jquery.md5.min.js?b9a2f4d724"></script>
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Home/WG.Home.Common.js?2aa4799d61"></script>
+
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/WG.RegisterUser.js?973455f575"></script>
+    <script type="text/javascript" src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Home/WG.Home.UnRember.js?27585dc461"></script>
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Home/reg.common.js?b5affa00dd"></script>
+    <script src="https://iiimgzy12qt.yimeitaotaoci.com//Scripts/Home/WG.Home.Fn.js?942df6d305"></script>
+    <script type="text/javascript">
+        homeFn.menu("lot_sec_menu", ["SSC", "FFC", "PKS", "TYC", "KLC", "DPC", "PCDD", "K3", "VR"]);
+        var SignalrSite = 'https://zycccppp.websocketcdn.com:8850/signalr', st = '2018-08-08 13:00:44', iis = 'https://iiimgzy12qt.yimeitaotaoci.com/';
+        function popshow(showId) { document.getElementById(showId).style.display = 'block'; }
+        function popclose(showId) { document.getElementById(showId).style.display = 'none'; }
+        homeFn.message();
+        homeFn.getOnlineUsers("#NowOnlineUsers1");
+    </script>
+    <script>
+        //关闭对联
+        $(".dlc").on("click", function () {
+            $(this).parent().css("display", "none");
+        });
+
+        var amb = new Object();
+        /*初始化圈动画度数*/
+        amb.tba = $(".Turntable>a").attr("tfd", "0");
+        //设置速度
+        amb.tbas = 20;
+        /*圈动画*/
+        setInterval(function () {
+            //获取当前度数
+            var ctd = parseInt($(amb.tba).attr("tfd"));
+            ctd++;
+            //初始化旋转度数
+            if (ctd >= 359) {
+                ctd = 0;
+                $(amb.tba).attr("tfd", ctd)
+            }
+
+            //设置度数
+            $(amb.tba).css(
+                { "transform": "rotate(" + ctd + "deg)" }
+            );
+
+            //保存度数
+            $(amb.tba).attr("tfd", ctd);
+        }, amb.tbas);
+    </script>
+    <script type="text/javascript">
+            var SignalrSite = 'https://zycccppp.websocketcdn.com:8850/signalr', st = '2018-08-08 13:00:44', iis = 'https://iiimgzy12qt.yimeitaotaoci.com/';
+            function popshow(showId) { document.getElementById(showId).style.display = 'block'; }
+            function popclose(showId) { document.getElementById(showId).style.display = 'none'; }
+            homeFn.message();
+    </script>
+    <script>
+        $(function () {
+            var kefuw = $(".J-kefuw-fixed");
+            var kefuw0 = kefuw.eq(0);
+            var height = kefuw0.height();
+
+            $(window).scroll(function (evt) {
+                var top = $(document).scrollTop();
+                if (kefuw0.position().top + height < top - 40) {
+                    kefuw.css("top", top - 40 + "px");
+                }
+
+                kefuw.stop().animate({ top: 292 + top + "px" }, 500, "linear");
+            });
+
+            ///文字闪动
+            colorSwitch('#ColorSwitch', 300);
+            function colorSwitch(rootEle, timeout, loop) {
+                var colorSwitch = $('[data-color]', $(rootEle));
+                var switchInfos = $.map(colorSwitch, function (ele) {
+                    var colors = $(ele).attr('data-color').split(',');
+                    return {
+                        ele: $(ele),
+                        colors: colors,
+                        lens: colors.length,
+                        cur: 0
+                    };
+                });
+                var loopTime = 0;
+                function loopsSwitch() {
+                    if (!loop || loop < 0 || loopTime < loop) {
+                        $.each(switchInfos, function (idx, info) {
+                            info.ele.css('color', info.colors[info.cur]);
+                            info.cur = (info.cur + 1) % info.lens;
+                        });
+                        setTimeout(loopsSwitch, timeout)
+                    }
+                    loopTime++;
+                }
+                loopsSwitch();
+            }
+        })
+    </script>
+
+<div id="redEnvelopesa" class="parcel parcel-animated rubberBand" style="display: block;" data-actityid="550"></div><div class="parcel-wrap" style="display:none"><div class="parcel-box-wrap"><div class="parcel-box "><div class="parcel-open-controller"><div class="parcel-box-wrap-wrap parcel-open parcel-animated slideInDown"><div class="parcel-open-btn"></div></div></div><div class="parcel-result-win-controller" style="display:none"><div class="parcel-box-wrap-wrap parcel-result-win"><div class="win-money-box">获得<span class="win-money">888888</span>彩金</div><span class="parcel-result-win-btn"></span></div></div><div class="parcel-result-fail-controller" style="display:none"><div class="parcel-box-wrap-wrap parcel-result-fail"><div class="fail-money-box">很遗憾没中奖</div><span class="parcel-result-fail-btn"></span></div></div></div></div></div></body></html>

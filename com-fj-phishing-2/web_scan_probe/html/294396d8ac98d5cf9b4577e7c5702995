@@ -1,0 +1,599 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><!-- saved from url=(0034)http://www.82870001.com/myhome.php --><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+
+
+
+<title>澳门新葡京娱乐场</title>
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link href="/css/css.css" rel="stylesheet" type="text/css">
+<link href="/css/mini.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/js/float.js"></script>
+
+<script type="text/javascript" src="/common/template/member/A_style.js"></script>
+
+<style type="text/css" media="screen">
+#logo-flash-box2 {
+	visibility: hidden
+}
+
+#logo-flash-box {
+	visibility: hidden
+}
+
+#js-ele-slider2 {
+	visibility: hidden
+}
+</style>
+
+<script language="javascript">
+	$(function() {
+		var i;
+		$(".gamelist dl")
+				.hover(
+						function() {
+							i = $(this).attr("text");
+							$(this)
+									.css('background',
+											"url(/images/game_iconbg_h.gif) no-repeat top center");
+							$(this).css('top', "-20px");
+							$(this).children("dd").css("color",
+									"rgb(46, 46, 46)");
+							$(this).find("span").css(
+									"background",
+									"url(/images/game_title0" + i
+											+ "_h.png) 50% 50% no-repeat");
+							$(this).find("img").attr("src",
+									"/images/game_pic0" + i + "_h.png");
+						},
+						function() {
+							$(this)
+									.css('background',
+											"url(/images/game_iconbg.png) no-repeat top center");
+							$(this).css('top', "0px");
+							$(this).children("dd").css("color",
+									"rgb(246, 202, 137)")
+							$(this).find("span").css(
+									"background",
+									"url(/images/game_title0" + i
+											+ ".png) 50% 50% no-repeat");
+							$(this).find("img").attr("src",
+									"/images/game_pic0" + i + ".png");
+						});
+	})
+	toggleColor('.textGlitter', [ '#FF0000', '#FFFFFF' ], 600);
+
+	/**
+	 * 文字閃爍
+	 * @param id   jquery selecor
+	 * @param arr  ['#FFFFFF','#FF0000']
+	 * @param s    milliseconds
+	 */
+	function toggleColor(id, arr, s) {
+		var self = this;
+		self._i = 0;
+		self._timer = null;
+
+		self.run = function() {
+			if (arr[self._i]) {
+				$(id).css('color', arr[self._i]);
+			}
+			self._i == 0 ? self._i++ : self._i = 0;
+			self._timer = setTimeout(function() {
+				self.run(id, arr, s);
+			}, s);
+		}
+		self.run();
+	}
+
+	$(window).scroll(
+			function() {
+				if ($(window).scrollTop() > 1) {
+					$("#headerbg").attr("style",
+							"position: fixed; top: -107px; z-index: 1000;");
+				} else {
+					$("#headerbg").attr("style",
+							"position: absolute; top: 0px; z-index: 1000;");
+				}
+			});
+</script>
+</head>
+<body marginwidth="0" marginheight="0" lim:visitorcapacity="1">
+	<div id="mainall">
+		<div id="mainBody">
+			<!---head------>
+			
+
+
+
+<input type="hidden" id="base" value="">
+<div id="headerbg" style="position: absolute; top: 0px; z-index: 1000;">
+	<div id="header">
+		<div id="headtop">
+			<div id="header-logo">
+				<!-- logo -->
+				<div id="logo">
+					<object type="application/x-shockwave-flash" id="logo-flash" title="新葡京娱乐城 首页" onmousedown="menu_url(1);" data="/images/logo.swf" width="300" height="107">
+						<param name="wmode" value="transparent">
+						<param name="quality" value="high">
+					</object>
+				</div>
+			</div>
+			<div id="headright">
+				<!-- logo2 -->
+				<div class="flash">
+						<img alt="" src="/images/text.png">
+<!-- 					<object type="application/x-shockwave-flash" id="logo-flash2" -->
+<!-- 						title="新葡京娱乐城 首页" onmousedown="menu_url(1);" -->
+
+
+
+<!-- 					</object> -->
+					<div style="font-size: 15px; width: 190px; margin-top: 13px;">
+					<object type="application/x-shockwave-flash" id="logo-flash2" title="新葡京娱乐城 首页" onmousedown="menu_url(1);" data="/images/head.swf" width="201" height="44">
+						<param name="wmode" value="transparent">
+						<param name="quality" value="high">
+					</object>
+
+					</div>
+				</div>
+				<div id="hdselect">
+					<a href="/index/xljc.do" target="_blank">线路检测</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/regpage.do">立即开户</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/agtregpage.do">代理注册</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/daili" target="_blank" style="color: red;">代理登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=4">代理加盟</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				</div>
+				<div class="clear"></div>
+				<div id="loginbox">
+					
+						<form method="post" class="form-inline top-login-form">
+							<div id="logininfo">会员登录：</div>
+							<div id="loginarea">
+								<div class="logintxt">
+									<input name="account" id="account" tabindex="1" type="text" class="za_text" placeholder="账号" value="">
+								</div>
+								<div class="logintxt">
+									<input name="password" id="password" tabindex="2" type="password" class="za_text" placeholder="密码" value="">
+								</div>
+								<div class="logintxt">
+									<input class="za_text" type="text" name="verifyCode" id="verifyCode" placeholder="验证码" maxlength="4" value="" tabindex="3">
+								</div>
+								<div class="logintxt">
+									<img class="yzmimg" id="authnumImg" name="authnumImg" style="width: 64px; height: 26px; float: left;" src="/verifycode.do?timestamp=1533703670222"> <input class="Loginbtn" id="loginSub" onclick="doLoginB()" name="Submit" type="button" value="" style="float: right; margin-right: 4px;">
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="logintxt1" onclick="location.href='/regpage.do'" style="background: url(/images/form-join-btn.png); width: 136px; height: 52px; cursor: pointer;">
+							</div>
+						</form>
+					
+					<!--登入 -->
+					
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<style>
+.hot-icon {
+	position: absolute;
+	margin-top: -45px;
+	margin-left: 80px;
+	width: 21px;
+	height: 14px;
+	background: url(/images/hot.gif);
+}
+</style>
+		<div id="L-Menual" class="nav">
+			<ul id="main-Menual">
+				<li class="move" style="display: none; left: 452.5px;"></li>
+				<li class="LS-home on"><a id="n1" href="/index.do" class="Nav_one">首页</a></li>
+				<li class="LS-ball"><a id="n2" href="/index/sport.do">皇冠体育</a></li>
+				<li class="LS-live"><a id="n3" href="/index/real.do" class="textGlitter" style="color: rgb(255, 255, 255);">真人娱乐</a></li>
+				<li class="LS-ball"><a id="n2" href="/index/egame.do" class="textGlitter" style="color: rgb(255, 255, 255);">电子游艺</a></li>
+				<li class="LS-game"><a id="n4" href="/index/games.do?lotCode=LHC">香港六合彩</a></li>
+				<li class="LS-reg2"><a id="n8" href="/index/games.do?lotCode=CQSSC">时时彩</a></li>
+				<li class="LS-lottery"><a id="n5" href="/index/games.do?lotCode=BJSC">北京赛车</a></li>
+				<li class="LS-youhui"><a id="n6" href="/index/active.do" class="textGlitter" style="color: rgb(255, 255, 255);">优惠活动</a>
+					<div class="hot-icon"></div></li>
+				<li class="LS-kefu"><a href="javascript:void();" onclick="zxkf()"></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+			<style>
+#logo-banner {
+	margin: 85px;
+	margin-left: -40px;
+}
+</style>
+			<div id="wrapindex">
+				<div id="flashbox">
+					<div id="flashwrap">
+<!-- 						<object type="application/x-shockwave-flash" id="logo-banner" -->
+
+<!-- 							height="262"> -->
+<!-- 							<param name="wmode" value="transparent"> -->
+<!-- 							<param name="quality" value="high"> -->
+<!-- 						</object> -->
+						<div id="gongao">
+							<h2>公告栏：</h2>
+							<div id="scroll_div">
+								<marquee scrollamount="3" scrolldelay="100" direction="left" height="43" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer; height: 43px;" onclick="HotNewsHistory();"> 尊敬的各位会员，澳门新葡京娱乐城提前预祝大家新年快乐，阖家平安。春节期间澳门新葡京娱乐城全天不休假，春节期间天天红包抢不断，惊喜多多，欢迎新老会员互相转告。谢谢 </marquee>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="gamebg">
+					<div class="gamelist">
+						<div class="list list01">
+							<a href="/index/real.do">
+								<dl text="1">
+									<dt>
+										<img src="/images/game_pic01.png" "="">
+									</dt>
+									<dd class="title">
+										<span class="gametitle" style="color: rgb(246, 202, 137);">真人娱乐</span>
+									</dd>
+									<dd class="note">我们的真人娱乐城玩法众多如真人百家乐， 真人骰宝，真人龙虎以及真人轮盘。</dd>
+								</dl>
+							</a>
+						</div>
+						<div class="list list02">
+							<a href="/index/egame.do">
+								<dl text="2">
+									<dt>
+										<img src="/images/game_pic02.png">
+									</dt>
+									<dd class="title">
+										<span class="gametitle" style="color: rgb(246, 202, 137);">电子游戏</span>
+									</dd>
+									<dd class="note" style="color: rgb(246, 202, 137);">我们的游戏包括轮盘、电子扑克、老虎机等在线娱乐场游戏。此外您更有机会赢得新葡京娱乐场的...
+									</dd>
+								</dl>
+							</a>
+						</div>
+						<div class="list list03">
+							<a href="/index/sport.do">
+								<dl text="3">
+									<dt>
+										<img src="/images/game_pic03.png">
+									</dt>
+									<dd class="title">
+										<span class="gametitle" style="color: rgb(246, 202, 137);">体育赛事</span>
+									</dd>
+									<dd class="note" style="color: rgb(246, 202, 137);">我们提供您喜爱的体育赛事。如足球五大联赛、世界杯、欧洲冠军杯、各大洲际杯赛...
+									</dd>
+								</dl>
+							</a>
+						</div>
+						<div class="list list04">
+							<a href="/index/games.do">
+								<dl text="4">
+									<dt>
+										<img src="/images/game_pic04.png">
+									</dt>
+									<dd class="title">
+										<span class="gametitle" style="color: rgb(246, 202, 137);">彩票游戏</span>
+									</dd>
+									<dd class="note" style="color: rgb(246, 202, 137);">彩票游戏玩法简单、赔率多样化、福彩3D、体彩排列三、各地区时时彩及香港乐透...
+									</dd>
+								</dl>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+			
+<!---bottom------>
+<div id="page-footer">
+	<div id="footertop">
+		<div class="icon">
+			<ul>
+				<li><img src="/images/icon_cooperation02.png"></li>
+				<li><img src="/images/icon_cooperation03.png"></li>
+				<li><img src="/images/icon_cooperation04.png"></li>
+			</ul>
+		</div>
+		<div class="ftiright">
+			<div id="ArticleList">
+				<a href="/index/rookieHelp.do?code=1">关于我们</a>&nbsp;|&nbsp;
+				<a href="/index/rookieHelp.do?code=5">合作伙伴</a>&nbsp;|&nbsp;
+				<a href="/index/rookieHelp.do?code=3">存款帮助</a>&nbsp;|&nbsp;
+				<a href="/index/rookieHelp.do?code=2">取款帮助</a>&nbsp;|&nbsp;
+				<a href="/index/rookieHelp.do?code=7">常见问题</a>
+			</div>
+			<div id="footermsg">All Rights Reserved</div>
+		</div>
+	</div>
+	<div id="footerbottom">
+		<div class="link">
+			<ul>
+				<li><img src="/images/logo1.png"></li>
+				<li><img src="/images/pic01.png"></li>
+				<li class="last"><img src="/images/pic02.png"></li>
+			</ul>
+		</div>
+		<div class="info">
+			<div class="list service">
+				<h2>
+					<img src="/images/footer_title01.png">
+				</h2>
+				<div>
+					<dl class="pro m_in">
+						<dt>18</dt>
+						<dd class="progress" style="width: 100px;"></dd>
+						<dd class="opacity"></dd>
+						<dd></dd>
+					</dl>
+					<dl class="pro m_out">
+						<dt>2`18</dt>
+						<dd class="progress" style="width: 150px;"></dd>
+						<dd class="opacity"></dd>
+						<dd></dd>
+					</dl>
+					<dl class="mon">
+						<dt>
+							<span>35</span>
+						</dt>
+						<dd>
+							<img src="/images/pic_shangjia.png">
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="list product">
+				<h2>
+					<img src="/images/footer_title02.png">
+				</h2>
+				<dl>
+					<dt>
+						快乐彩 <span>KENO</span>
+					</dt>
+					<dd>游戏玩法丰富，高返奖高赔率，中奖率更高，为用户提供更激情的体验</dd>
+				</dl>
+				<dl>
+					<dt>
+						体育平台 <span>SPORT BET</span>
+					</dt>
+					<dd>在一个公平、公正的环境下进行游戏，能够让您轻松、怡静的享受体育投注的乐趣。</dd>
+				</dl>
+				<dl>
+					<dt>
+						真人娱乐城 <span>LIVE CASINO</span>
+					</dt>
+					<dd>想要让自己一夜致富的梦想成真吗?不要错过机会，下一个千万富翁很可能就是您。</dd>
+				</dl>
+			</div>
+			<div class="list help">
+				<h2>
+					<img src="/images/footer_title03.png">
+				</h2>
+				<dl>
+					<dt>
+						颠覆性产品 <span>SUBVERSIVE PRODUCTS</span>
+					</dt>
+					<dd>新葡京娱乐城在31/08/2010拥有澳门特别行政区颁发的执照并受其监督。</dd>
+				</dl>
+				<dl>
+					<dt>
+						合作伙伴 <span>PARTNERS</span>
+					</dt>
+					<dd>
+						<img src="/images/pic_logo.png">
+					</dd>
+				</dl>
+				<dl>
+					<dt>
+						服务帮助 <span>USE HELP</span>
+					</dt>
+					<dd>
+						<ul>
+							<li><a href="/index/rookieHelp.do?code=1">关于我们</a></li>
+							<li><a href="/index/rookieHelp.do?code=5">合作伙伴</a></li>
+							<li><a href="/index/rookieHelp.do?code=3">存款帮助</a></li>
+							<li><a href="/index/rookieHelp.do?code=2">取款帮助</a></li>
+							<li><a href="/index/rookieHelp.do?code=7">常见问题</a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>
+<ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 135px; left: 5px; width: 158px;" picfloat="left">
+	<li><a href="javascript:void();" style="width: 158px; height: 190px;"> <img src="/images/kf_b_01.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="190">
+	</a></li>
+	<li><a href="javascript:void();" style="width: 158px; height: 112px;"> <img src="/images/kf_b_02.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="112">
+	</a></li>
+	<li><a href="javascript:void();" onclick="menu_url(77);return false;" style="width: 158px; height: 58px;"> <img src="/images/kf_b_03.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="58">
+	</a></li>
+	<li><a class="btn-close" href="javascript:void();" onclick="FloatClose(this)" style="width: 158px; height: 68px;"> <img src="/images/kf_b_04.png" align="center" alt="" class="png_fix" width="158" height="68">
+	</a></li>
+</ul>
+<ul id="TplFloatPic_1" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 135px; right: 5px; width: 158px;" picfloat="right">
+	<li><a href="javascript:void();" style="width: 158px; height: 190px;"> <img src="/images/kf_a_01.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="190">
+	</a></li>
+	<li><a href="https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=797423&amp;configID=63625&amp;jid=4873828728&amp;s=1" target="_blank" style="width: 158px; height: 43px;"> <img src="/images/kf_a_02.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="43">
+	</a></li>
+	<li><a href="/index/real.do" style="width: 158px; height: 43px;"> <img src="/images/kf_a_03.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="43">
+	</a></li>
+	<li><a href="tencent://message/?uin=3868666&amp;Menu=yes" target="_blank" style="width: 158px; height: 42px;"> <img src="/images/kf_a_04.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="42">
+	</a></li>
+	<li><a href="/regpage.do" target="_blank" style="width: 158px; height: 44px;"> <img src="/images/kf_a_05.png" align="center" alt="" class="png_fix" style="display: inline;" width="158" height="44">
+	</a></li>
+	<li><a class="btn-close" href="javascript:void();" onclick="FloatClose(this)" style="width: 158px; height: 66px;"> <img src="/images/kf_a_06.png" align="center" alt="" class="png_fix" width="158" height="66">
+	</a></li>
+</ul>
+<style>
+.TplFloatSet a {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.TplFloatSet img {
+	vertical-align: bottom;
+	font-size: 0px;
+}
+
+.TplFloatSet li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#TplFloatPic_0 {
+	display: block;
+	position: absolute;
+	z-index: 1000;
+	top: 150px;
+	left: 5px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+</style>
+<script type="text/javascript">
+	//關閉效果
+	function FloatClose(t) {
+		event.cancelBubble = true;
+		$(t).parents('.TplFloatSet').hide();
+	}
+	var left_top = 135, right_top = 135, float_list = [];
+	$(window)
+			.load(
+					function() {
+						// 廳主自改 - 浮動圖V2 -2013.7.19
+						float_list['0'] = $('#TplFloatPic_0');
+						float_list['1'] = $('#TplFloatPic_1');
+						for ( var i in float_list) {
+							var self = float_list[i], picfloat = (self
+									.attr('picfloat') == 'right') ? 1 : 0;
+							self
+									.show()
+									.Float(
+											{
+												'floatRight' : picfloat,
+												'topSide' : ((picfloat == 1) ? right_top
+														: left_top)
+											});
+							var w = 0;
+							$.each(self.find('img'), function() {
+								var width = $(this).width();
+								w = (width > w) ? width : w;//取圖片最大寬度
+								$(this).attr({
+									'width' : width,
+									'height' : $(this).height()
+								});
+							});
+							self.css('width', w);
+							if (picfloat) {
+								right_top = right_top + 10
+										+ (self.height() || 250);
+							} else {
+								left_top = left_top + 10
+										+ (self.height() || 250);
+							}
+
+							$('a', self).each(
+									function() {
+										$(this).css(
+												{
+													'width' : $(this).find(
+															'img:first')
+															.width(),
+													'height' : $(this).find(
+															'img:first')
+															.height()
+												});
+										$(this).hover(function() {
+											$(this).find('img:first').hide();
+											$(this).find('img:last').show();
+										}, function() {
+											$(this).find('img:last').hide();
+											$(this).find('img:first').show();
+										});
+									});
+						}
+					});
+</script>
+<!--[if IE 6]>
+<div id="ie6-alertBox">
+	<div id="ie6-infoBar">
+		系统侦测到您使用旧版浏览器,<span class="alert">本站于 2014/1/1 停止对 IE6 维护与支援</span>,为了体验最佳的浏览品质与效果,建议立即至<a href="javascript:downloadvwin();">「下载区」</a>升级您的浏览器。
+	</div>
+</div>
+<div id="ie6-overlay"></div>
+<style type="text/css">
+	html{overflow-y:hidden;}
+	.alert{color: red;}
+	#ie6-overlay{
+		background:#777777;
+		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+		/*展示用*/
+		-MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		-moz-opacity:0.5;
+		opacity: 0.5;
+		/*展示用*/
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10;
+	}
+	#ie6-alertBox{
+		position:absolute;
+		font-size: 13px;
+		width:300px;
+		height:auto;
+		padding:10px 10px 30px;
+		left:50%;
+		top:40%;
+		line-height: 25px;
+		margin-left:-160px;
+		z-index: 11;
+		color: #000;
+		border:1px solid #777;
+		background-color: #CCCCCC;
+		/*展示用*/
+		background-image: -moz-linear-gradient(top,white,#CCCCCC);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(white),to(#CCCCCC));
+		background-image: -webkit-linear-gradient(top,white,#CCCCCC);
+		background-image: -o-linear-gradient(top,white,#CCCCCC);
+		background-image: linear-gradient(to bottom,white,#CCCCCC);
+		background-repeat: repeat-x;
+		-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+		-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+		/*展示用*/
+		border: 1px solid #D4D4D4;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCCCCC',GradientType=0);
+		display:none;
+	}
+	#ie6-infoBar a,#ie6-alertBoxClose{color: #F57900;text-decoration: none;}
+	#ie6-infoBar a:hover,#ie6-alertBoxClose:hover{color: #FF9A37;}
+	#ie6-alertBoxClose{
+		position:absolute;
+		right:5px;
+		bottom:5px;
+		display: none;
+	}
+</style>
+<script>
+	function showalert(){
+		$("#ie6-overlay").height($(window).height()).width($(window).width());
+		$("#ie6-alertBox").slideToggle();
+	}
+
+	$(function(){
+		showalert();
+	});
+</script>
+<![endif]-->
+<!---bottom--end---->
+		</div>
+	</div>
+
+</body></html>

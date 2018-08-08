@@ -1,0 +1,232 @@
+<!DOCTYPE html><html><head><script src="https://www.cy68.com/static/data/configjs.js?0.13302928142655823"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>welcome</title>
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/coreing.css" rel="stylesheet">
+    <link href="css/banner.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="https://hm.baidu.com/hm.js?e3f5566f16dbbfa690212255599da101"></script><script type="text/javascript"> 
+    var url = '/api/checkwh.do?t='+Math.random();
+    document.write("<script type='text/javascript' src='"+url+"'><\/script>");
+    document.close();
+</script><script type="text/javascript" src="/api/checkwh.do?t=0.2961940428513702"></script>
+</head>
+
+<body>
+    <div id="header">
+    <div class="header_1">
+        <div id="wrap">
+            <div class="logoer">
+                <embed src="img/logo.swf" quality="high" pluginspage="https://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="239" height="102" wmode="transparent">
+            </div>
+            <div class="linex1"><span id="fulltime"></span> 营业时间：白天07:30 - 凌晨04:30 / 全年无休 <a href="#">设为首页</a> | <a href="#">线路检测</a> | <a href="http://www.cp103.com/" target="_blank">开奖直播</a></div>
+            <div class="linex2">
+                <form onsubmit="loginNoValiCode();return false;" autocomplete="off">
+                    <div style="float:left;">
+                        <a href="reg.html"><img src="img/go.png"></a></div>
+                    <div class="login-unit login-unit-user">
+                        <input placeholder="会员账号" type="text" size="15" id="userName" title="请填写 6-15 位大小写英数字" maxlength="15" class="login-input login-acc" tabindex="1">
+                    </div>
+                    <div class="login-unit1 login-unit-user">
+                        <input placeholder="会员密码" type="password" maxlength="20" size="14" id="userPwd" class="login-input login-acc" style="width:70px; float:left;" tabindex="1">
+                        <div style="width:55px;  height:30px; float:left;cursor: pointer;" onclick="BBOnlineService();"></div>
+                    </div>
+                    <div class="login-code">
+                        <input placeholder="验证码" type="text" maxlength="4" size="14" id="loginVcode" class="login-input login-acc" style="width:50px; float:left;" tabindex="2">
+                        <div style="position: absolute;right: 7px;top: 3px;color: #000;cursor: pointer;" id="numberCode">2289</div>
+                    </div>
+                    <div style="float:left; padding-left:3px; ">
+                        <input type="submit" value="" class="lgbtn">
+                    </div>
+                    <div style="float:right;cursor: pointer;" onclick="guestLogin();"><img src="img/sw.png" width="93" height="33">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="header_2">
+        <div id="wrap">
+            <ul>
+                <li id="yxyx1" style="margin-right:53px;" class="checkyo"><a href="index.html">网站首页</a></li>
+                <li id="yxyx2" style="margin-right:53px;"><a href="reg.html">开户注册</a></li>
+                <li id="yxyx3" style="margin-right:53px;"><a href="page6.html">存款取款</a></li>
+                <li id="yxyx4" style="margin-right:53px;"><a href="page2.html">规则问题</a></li>
+                <li id="yxyx5" style="margin-right:53px;"><a href="page7.html">优惠活动</a></li>
+                <li id="yxyx6" style="margin-right:53px;"><a href="page0.html">加盟合作</a></li>
+                <li id="yxyx7"><a href="javascript:BBOnlineService();">在线客服</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="banner" style="position:relative; width:100%; height:434px;">
+        <div class="flexslider">
+            <ul class="slides">
+                <li style="background:url(img/banner.jpg) no-repeat center top; height:434px; width:100%; float:left; cursor:pointer;" onclick="javascript:window.location.href='#'"></li>
+                <li style="background:url(img/banner1.jpg) no-repeat center top; height:434px; width:100%; float:left; cursor:pointer;" onclick="javascript:window.location.href='#'"></li>
+                <li style="background:url(img/banner2.jpg) no-repeat center top; height:434px; width:100%; float:left; cursor:pointer;" onclick="javascript:window.location.href='#'"></li>
+            </ul>
+        </div>
+    </div>
+    <div style="position:absolute; z-index:9999; left:0; right:0; top:570px; bottom:0; ">
+        <div id="wraping">
+            <div class="gonggao" id="noticeDom"></div>
+        </div>
+    </div>
+    <div id="wrap">
+        <table width="100%" border="0" style="padding:40px 0px 20px 0px;">
+            <tbody><tr>
+                <td style="text-align:left"><a href="#"><img src="img/y1.png"></a></td>
+                <td style="text-align:center"><a href="#"><img src="img/y2.png"></a></td>
+                <td style="text-align:center"><a href="#"><img src="img/y3.png"></a></td>
+                <td style="text-align:right"><a href="#"><img src="img/y4.png"></a></td>
+            </tr>
+        </tbody></table>
+    </div>
+    <div id="mainbg">
+        <div id="wrap">
+            <div style="padding-bottom:10px; width:100%; float:left; text-align:center;">
+                <img src="img/game.png" width="1027" height="163"></div>
+        </div>
+    </div>
+    <div style="width:100%; float:left;background:url(img/bg.jpg) top center  no-repeat;">
+        <div style="border-bottom:3px #0e2d8d  solid; width:100%; float:left; ">
+            <div id="wrap">
+                <div style="width:100%; float:left; margin-top:10px; padding-bottom:10px; display:inline; text-align:center"><a href="http://www.cp103.com/"><img src="img/zhibo.jpg"></a></div>
+                <div class="inf4 detaillist">
+                    <ul class="clearfix">
+                        <li>
+                            <div class="bankshow">
+                                <div class="deposit">
+                                    <div class="clearfix textbox">
+                                        <div class="leftbox fl">
+                                            <p class="t1">存款火速到账</p>
+                                            <p class="t2">平均时间</p>
+                                        </div>
+                                        <div class="rightbox fr">
+                                            <span class="num" id="sec">0</span><span>秒</span>
+                                        </div>
+                                    </div>
+                                    <div class="lineshow">
+                                        <i class="floatling" id="secLine"></i>
+                                    </div>
+                                </div>
+                                <div class="withdraw">
+                                    <div class="clearfix textbox">
+                                        <div class="leftbox fl">
+                                            <p class="t1">取款火速到账</p>
+                                            <p class="t2">平均时间</p>
+                                        </div>
+                                        <div class="rightbox fr">
+                                            <span class="num" id="min">0.00</span><span>分</span>
+                                        </div>
+                                    </div>
+                                    <div class="lineshow">
+                                        <i class="floatling" id="minLine"></i>
+                                    </div>
+                                </div>
+                                <div class="banks">
+                                    <div class="clearfix textbox">
+                                        <div class="leftbox fl">
+                                            <p class="t1">便捷的银行服务</p>
+                                            <p class="t2">目前我们支持的机构有：</p>
+                                        </div>
+                                        <div class="rightbox fr">
+                                            <span class="num">35</span><span>家</span>
+                                        </div>
+                                    </div>
+                                    <div class="imgshow"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="textshow">
+                                <div>
+                                    <p class="tit">快开彩票OFFICIAL
+                                    </p>
+                                    <p class="text">
+                                        彩运网快开彩票与官方及时同步，兼容iPAD/iPHONE等各类移动设备，做彩种最全最优秀的投注站。</p>
+                                </div>
+                                <div>
+                                    <p class="tit">平台优势ADVANTAGES</p>
+                                    <p class="text">彩运网研发中心所设计的投注界面，更能够让尊贵的会员朋友轻松、怡静的享受彩票投注的无限乐趣。</p>
+                                </div>
+                                <div>
+                                    <p class="tit">信誉保证CREDIT GUARANTEE</p>
+                                    <p class="text">彩运网游戏公平、公开、公正，会员大额取款均可在 澳门威尼斯人提现，单日最高提款金额1000万元。
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <img src="img/online.png">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e3f5566f16dbbfa690212255599da101";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<div id="footer" style="padding-top:20px; width:100%; float:left;">
+    <div id="wrap">
+        <div class="footer_1">
+            <div class="kefu1">
+                <strong><a href="#"><b>客服QQ</b>51855555</a></strong>
+            </div>
+            <div class="fmenu">
+                <table width="100%" border="0">
+                    <tbody><tr>
+                        <td style="text-align:center"><a href="reg.html">开户注册</a> </td>
+                        <td style="text-align:center"><a href="page6.html">存款取款</a></td>
+                        <td style="text-align:center"><a href="page2.html">规则问题</a></td>
+                        <td style="text-align:center"><a href="page0.html">加盟合作</a></td>
+                        <td style="text-align:center"><a href="page8.html">联系我们</a></td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div class="kefu2">
+                <strong><a href="#"><b>代理QQ</b>899666</a></strong>
+            </div>
+        </div>
+        <div class="footer_2"></div>
+        <div class="footer_3">Copyright © 2010-2030 彩运网 All Rights Reserved
+        </div>
+    </div>
+</div>
+<!-- 悬浮 -->
+<div class="duilian duilian_left">
+    <a href="javascript:void(0)" class="duilian_close"></a>
+</div>
+<div class="duilian duilian_right">
+    <a class="block1" href="javascript:BBOnlineService();"></a>
+    <a class="block2" href="javascript:qqService();"></a>
+    <a class="block3" href="javascript:agentService()"></a>
+    <a href="javascript:void(0)" class="duilian_close"></a>
+</div>
+
+    <link type="text/css" href="/static/lib/remodal-1.1.0/remodal.min.css" rel="stylesheet">
+
+
+<script src="/conf/config.js"></script>
+<script src="js/home_main.min.js"></script><div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc" data-remodal-options="hashTracking: false" style="width: 250px" tabindex="-1">
+    <div>
+        <p id="modal1Desc" style="color: #000"></p>
+        <span class="btnclose">关闭</span>
+    </div>
+</div></div>
+
+    <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+    <script>
+    document.getElementById("yxyx1").className = "checkyo"
+    </script>
+
+
+</body></html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html><html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site maintenance notice</title>
+    <style>
+    body {
+        background-color: #121528;
+    }
+    </style>
+    <link rel="shortcut icon" href="/infe/img/site/site_cotai_ver4.png" type="image/x-icon">    <link href="https://p1.wsgcch.com/cl/tpl/commonFile/css/standard.css?v=9" rel="stylesheet">
+    <link href="https://p1.wsgcch.com/tpl/template/style/upup.css?v=9" rel="stylesheet">
+</head>
+<body class="en">
+    <div class="upup-box"><div class="upup-top"><div class="upup-clock"><div class="clock-num clock-12 active"></div><div class="clock-num clock-1 active"></div><div class="clock-num clock-2 active"></div><div class="clock-num clock-3 active"></div><div class="clock-num clock-4 active"></div><div class="clock-num clock-5 active"></div><div class="clock-num clock-6 active"></div><div class="clock-num clock-7 active"></div><div class="clock-num clock-8 active"></div><div class="clock-num clock-9 active"></div><div class="clock-num clock-10 active"></div><div class="clock-num clock-11 active"></div><div class="clock-pointer" style="overflow: hidden; transition: all 2.04s linear 0.1s; -webkit-transition: all 2.04s linear 0.1s; transform: rotate(360deg); width: 400px;"></div><div class="clock-tool"></div></div></div><div class="upup-bottom clearfix"><div class="upup-logo"><img src="/infe/img/site/site_cotai_ver4.png" width="200" height="62"></div><div class="upup-text"><p class="upup-text-title">Site Notice</p><p class="upup-text-body">Currently the website is during the maintenance. We express sincere apologies for the inconvenience.</p><p class="upup-text-notice">Access to the site is not available due to scheduled maintenance,<br>we apologize for any inconvenience caused.</p><p class="upup-text-date">Estimated time for completion is <span>Beijing Time 2018-08-08 14:00:00</span>!</p><p class="upup-text-info"></p><p class="upup-text-onlineservice2"></p></div></div></div><script src="/cl/js/jquery-1.7.2.min.js"></script><script src="/cl/js/tools/float.js"></script><script>/* 維護時間 (小時) */var Hour = new Date('2018-08-08 14:00:00').getHours() % 12 || 12;/* 給要動的clock class 用CSS去動 */$('.clock-num').each(function(index){if (Hour > index) {$('.clock-num').eq(index).addClass('active');}});/* 給中間那張圖動畫與完成畫面 *//* width代表一個參數 不給不行 */$('.clock-pointer').animate({ width: '400px' },{step: function(now, fx) {$(this).css({transition: Hour * 0.17 + 's all linear .1s',transform: 'rotate(' + Hour * 30 + 'deg)'});}, duration: Hour * 170,complete: function() {$('.clock-num.clock-' + Hour).addClass('done')}}, 'linear');</script>
+
+    <ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; right: 5px; width: 128px;" picfloat="right">
+        <li><a href="https://messenger.providesupport.net/messenger/1xputewyzrp9x01ddwdy7xbaxp" target="_blank" style="width: 128px; height: 403px;">
+        <img src="https://cdn.wsgcch.com/tpl/1184/519212/images/147081051993.png?825876" align="center" alt="" class="png_fix" width="128" height="403">
+        <img src="https://cdn.wsgcch.com/tpl/1184/519212/images/147081051993.png?825876" align="center" style="display: none;" alt="" class="png_fix" width="128" height="403">
+    </a></li>
+    </ul>
+<style>
+    .TplFloatSet a{display:block;margin:0 auto;text-align:center;}
+    .TplFloatSet img{vertical-align:bottom;}
+    .TplFloatSet li{list-style: none;font-size:0px;}
+</style>
+<script>
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    var left_top = 150, right_top = 150, float_list = [], float_side = 5;
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+                    float_list['0'] = $('#TplFloatPic_0');
+                for (var i in float_list) {
+            if (float_list[i].attr == undefined) {
+                continue;
+            }
+            var self = float_list[i], 
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+            var w = 0;        
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                	$(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                	$(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+</script>
+        
+<script>
+function BBOnlineService() {
+    window.open('https://messenger.providesupport.net/messenger/1xputewyzrp9x01ddwdy7xbaxp', 'Service' ,'width=500,height=500,status=no,scrollbars=no');}
+</script>
+    
+
+
+
+</body></html>

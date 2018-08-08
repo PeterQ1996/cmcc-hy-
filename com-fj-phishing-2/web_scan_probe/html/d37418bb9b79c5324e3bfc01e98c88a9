@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Not, Support, 沒有服務">
+    <meta name="description" content="暫時無法提供服務">
+    <title>Update Brower</title>
+    <link rel="stylesheet" href="https://noconnect.phacg.com:94/css/warn.css" type="text/css">
+</head>
+<body>
+    <div id="pic" class="warn_pic">
+	<img src="https://noconnect.phacg.com:94/images/notsupport.png" alt="No Service">
+        <h1 id="ipAddr"></h1>
+        <h3 id="date"></h3>
+    </div>
+    <div id="txt" class="warn_txt">
+        <h2>抱歉给你带来不便!</h2>
+        <p>
+	您的瀏覽器不支援或版本太舊<br>
+        請更換瀏覽器或更新版本<br>
+        如果您有任何疑问请联系我们的在线客服<br>
+        </p>
+    </div>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/5.2.1/jquery.min.js"></script> -->
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script></body></html>

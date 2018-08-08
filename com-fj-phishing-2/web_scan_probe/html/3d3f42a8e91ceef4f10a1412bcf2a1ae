@@ -1,0 +1,1478 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <link type="text/css" href="//cs.h9k9.com/resource/200000086/css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="//cs.h9k9.com/resource/200000086/favicon.ico" type="image/x-icon">
+    <title>澳客彩</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <script type="text/javascript" src="//cs.h9k9.com/resource/200000086/js/jquery.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/resource/200000086/js/slider.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/resource/200000086/js/main.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/resource/200000086/js/jquery.qrcode2.min.js"></script>
+</head>
+
+<body style="">
+<!-- 头部start -->
+<div class="header">
+    <ul class="wrapper">
+        <li class="clearfix">
+            <div class="fl"><p>您好,欢迎来到澳客彩!</p></div>
+            <div class="fr">
+                                    <b>
+                        <a href="javascript: void(0);" onclick="guest()" style="color: #f00">游客试玩</a>
+                    </b>
+                    <span>|</span>
+                    <script type="text/javascript">
+                        function guest() {
+                            obj = $(this);
+                            obj.attr("disabled", true);
+                            $.ajax({
+                                type       : "get",
+                                contentType: "application/json; charset=utf-8",
+                                dataType   : "json",
+                                url        : "/?a=guest",  //这里是网址
+                                success    : function (data) {
+                                    if (data.code == 0) {
+                                        alert('注册游客成功!');
+                                        window.location.href = "/pc.php?c=pc";
+                                    } else {
+                                        obj.attr("disabled", false);
+                                        alert('注册游客失败，请重试');
+                                        return false;
+                                    }
+                                },
+                                timeout    : 10000, // 10秒
+                                error      : function (XMLHttpRequest, textStatus, errorThrown) {
+                                    obj.attr("disabled", false);
+                                    alert('网络异常，请重试');
+                                    return false;
+                                }
+                            });
+                            return false;
+                        }
+                    </script>
+                                <a href="javascript:void(0);" class="favorite">加入收藏</a>
+                <span> | </span>
+                <a href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112243" target="_blank">在线客服</a>
+                <span> | </span>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=18966880&amp;site=qq&amp;menu=yes" target="_blank">QQ客服
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- 头部end -->
+
+<!-- 登陆start -->
+<div class="header_login">
+    <ul class="wrapper">
+        <li class="clearfix">
+            <div class="logo fl">
+                <a href="/?c=home" title="">
+                    <img src="//cs.h9k9.com/resource/200000086/images/logo.png" style="width:246px;">
+                </a>
+            </div>
+            <style>
+                .logo img {
+                    max-height: 78px;
+                }
+            </style>
+                            <form action="/?c=lottery_user&amp;a=login" method="post" id="login_form" style="position:relative;">
+                    <div class="login_and_resiger fr">
+                        <ul class="clearfix">
+                            <input type="hidden" name="go" value="/pc.php?c=pc">
+                            <div class="username fl">
+                                <img src="//cs.h9k9.com/resource/200000086/images/01.jpg" alt="">
+                                <input type="text" placeholder="用户名" name="username" autocomplete="off">
+                            </div>
+                            <div class="password fl">
+                                <img src="//cs.h9k9.com/resource/200000086/images/02.jpg" alt="">
+                                <input type="password" placeholder="密码" name="passwd">
+                            </div>
+                            <div class="code fl">
+                                <img width="68" src="/?c=auth&amp;a=get_pic_code&amp;_t=1533702632" alt="" onclick="this.src='./?c=auth&amp;a=get_pic_code&amp;rand='+Math.random()">
+                                <input type="text" placeholder="验证码" name="piccode" autocomplete="off">
+                            </div>
+                            <div class="btn_default btn_left fl">
+                                <button type="submit">登录</button>
+                            </div>
+                            <div class="btn_default btn_right fl">
+                                <button type="button" onclick="location.href='?c=home&amp;a=reg'">注册</button>
+                            </div>
+                        </ul>
+                    </div>
+                </form>
+                    </li>
+    </ul>
+</div>
+<!--登陆end-->
+
+<!-- 导航start -->
+<div class="nav">
+    <div class="wrapper">
+        <ul class="clearfix">
+            <li class="fl">
+                <span><i>选择彩种</i></span>
+            </li>
+
+            <li class="fl">
+                <a href="pc.php?c=pc" target="_blank">
+                    购彩大厅
+                </a>
+            </li>
+            <li class="fl">
+                <a href="" class="link" data-tag="dljm">
+                    代理加盟
+                </a>
+            </li>
+            <li class="fl">
+                <a href="?c=home&amp;a=announcement">
+                    优惠活动
+                </a>
+            </li>
+            <li class="fl">
+                <a href="?c=home&amp;a=draw">
+                    开奖公告
+                </a>
+            </li>
+            <li class="fl">
+                <a href="?c=home&amp;a=game">
+                    走势图表
+                </a>
+            </li>
+            <li class="fl">
+                <a href="https://www.akcapp.com/" target="_blank" style="position: relative">
+                    <i>手机购彩</i>
+                    <em class="hot-icon" style="background: rgba(0, 0, 0, 0) url('//cs.h9k9.com/resource/200000086/images/hot_01.gif') no-repeat scroll 0 0;display: inline-block;height: 16px;overflow: hidden;position: absolute;right: 0;top: 1px;width: 30px;z-index: 10;"></em>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 导航end -->
+
+<!--主体start-->
+<div class="main wrapper">
+    <!--菜单、幻灯片start--->
+    <div class="clearfix">
+        <!--菜单start-->
+        <div class="menus fl">
+            <ul>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/mspk10.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=mspk10" target="_blank" class="no_login">超级赛车</a>
+                        </h4>
+                        <p>75秒极速PK</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/pm.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=pm" target="_blank" class="no_login">跑马</a>
+                        </h4>
+                        <p>24小时跑马不停</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/pk10.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=pk10" target="_blank" class="no_login">北京赛车</a>
+                        </h4>
+                        <p>每天09:02 - 23:57</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/cjssc.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=cjssc" target="_blank" class="no_login">超级时时彩</a>
+                        </h4>
+                        <p>75秒极速时时彩</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/cqssc.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=cqssc" target="_blank" class="no_login">重庆时时彩</a>
+                        </h4>
+                        <p>每天09:50 - 02:00</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/ffc.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=ffc" target="_blank" class="no_login">福利三分彩</a>
+                        </h4>
+                        <p>3分彩24小时开奖</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/xy28.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=pcdd" target="_blank" class="no_login">幸运28</a>
+                        </h4>
+                        <p>每天09:05 - 23:55</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/xyft.png?20170718" alt="">
+                        <h4>
+                            <a href="pc.php?c=pc&amp;_focus=xyft" target="_blank" class="no_login">幸运飞艇</a>
+                        </h4>
+                        <p>每天13:04 - 04:04</p>
+                    </li>
+                            </ul>
+            <!-- <ul class="more">
+                <a href="#" target="_blank">更多游戏</a>
+            </ul> -->
+        </div>
+        <!--菜单end-->
+        <!--幻灯片start-->
+        <div class="banner fr" id="demo01">
+            
+        <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1200%; -webkit-transition: 0s; transition: 0s; transform: translate3d(-746px, 0px, 0px);"><li class="clone" style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000086_1529572119245.png" alt="">
+                            </a>
+                        </li>
+                                        <li class="flex-active-slide" style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000086_1530445265293.png" alt="">
+                            </a>
+                        </li>
+                                                <li style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000086_1529572100198.png" alt="">
+                            </a>
+                        </li>
+                                                <li style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000086_1529572124879.png" alt="">
+                            </a>
+                        </li>
+                                                <li style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000086_1529572119245.png" alt="">
+                            </a>
+                        </li>
+                                    <li class="clone" style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000086_1530445265293.png" alt="">
+                            </a>
+                        </li></ul></div><ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li><li><a>3</a></li><li><a>4</a></li></ol><ul class="flex-direction-nav"><li class="fl"><a class="flex-prev" href="#">Previous</a></li><li class="fr"><a class="flex-next" href="#">Next</a></li></ul></div>
+        <!--幻灯片end-->
+    </div>
+    <!--菜单、幻灯片end--->
+
+    <!--最新公告start-->
+    <div class="new_notice">
+        <ul class="clearfix">
+            <span>最新公告：</span>
+            <marquee onmouseout="this.start();" onmouseover="this.stop();">
+                <p>温馨提示：新用户注册充值即可免费领取彩金，充值越多赠送越多： 首充100+可赠送18彩金 首充500+可赠送38彩金 首充1000+可赠送68彩金 首充5000+可赠送108彩金 首充10000+可赠送188彩金 首充50000+可赠送588彩金 更多详情请到优惠栏了解~~</p>
+            </marquee>
+        </ul>
+    </div>
+    <!--最新公告end-->
+
+    <!--彩票分类start-->
+    <div class="type_index">
+        <ul class="clearfix">
+            <!--左栏目start-->
+            <li class="left fl">
+                <div class="type_tab">
+                                            <a href="javascript:void(0)" class="on" data-type="mspk10">超级赛车</a>
+                                            <a href="javascript:void(0)" data-type="pm">跑马</a>
+                                            <a href="javascript:void(0)" data-type="pk10">北京赛车</a>
+                                            <a href="javascript:void(0)" data-type="cjssc">超级时时彩</a>
+                                            <a href="javascript:void(0)" data-type="cqssc">重庆时时彩</a>
+                                            <a href="javascript:void(0)" data-type="ffc">福利三分彩</a>
+                                            <a href="javascript:void(0)" style="margin-right: 0px;" data-type="pcdd">幸运28</a>
+                                    </div>
+                <div class="type_reviews">
+                    <!--重庆时时彩start-->
+                                            <ul>
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name">超级赛车</span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period">1808080600</span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date">2018 08-08 12:30:00</i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"><li>10</li><li>6</li><li>2</li><li>7</li><li>4</li><li>1</li><li>3</li><li>9</li><li>8</li><li>5</li></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_mspk10&amp;a=mspk10" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_pm&amp;a=pm" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_pk10&amp;a=pk10" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_cjssc&amp;a=cjssc" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_cqssc&amp;a=cqssc" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_ffc&amp;a=ffc" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_pcdd&amp;a=pcdd" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/resource/200000086/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_xyft&amp;a=xyft" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                    </div>
+            </li>
+            <!--左栏目send-->
+            <!--右栏目start-->
+            <li class="right fr">
+                <div class="download_title">
+                    <h2>手机客户端下载</h2>
+                </div>
+                <div class="sownload_info">
+                    <ul class="code_list clearfix">
+                        <li class="fl" style="text-align: center">
+                            <div class="ios qrcode_render" data-url="https://www.akcapp.com">
+                            <canvas width="200" height="200" style="width: 100px; height: 100px;"></canvas></div>
+                            <div class="android disable qrcode_render" data-url="https://www.akcapp.com">
+                            <canvas width="200" height="200" style="width: 100px; height: 100px;"></canvas></div>
+                        </li>
+                        <li class="fr con_code">
+                            <div>
+                                <a href="javascript:void(0)" target="_self" class="show_ios">Iphone版</a>
+                            </div>
+                            <div>
+                                <a href="javascript:void(0)" target="_self" class="show_android">Android版</a>
+                            </div>
+                            <!-- <div><a href="##" target="_blank" class="way_more">更多方式</a></div> -->
+                        </li>
+                    </ul>
+
+                    <ul class="notice_tab">
+                        <a href="javascript:void(0)" class="on">网站公告</a>
+                        <a href="javascript:void(0)">新手指导</a>
+                    </ul>
+                    <ul class="notice_reviews">
+                        <div>
+                            <ul>
+                                <li>
+                                    下载手机APP简单方便快速投注!
+                                </li>
+                                <li>
+                                    全网支持：微信/支付宝/银联/快速充值！
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="disable">
+                            <ul>
+                                <li>
+                                    <a href="#" class="link" data-tag="cjwt">如何加入澳客彩？</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="link" data-tag="cjwt">在哪里可以找到游戏规则？</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="link" data-tag="cjwt">最高投注额有限制吗？</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </li>
+            <!--右栏目send-->
+        </ul>
+    </div>
+    <!--彩票分类end-->
+
+    <!--广告位start-->
+    <div class="position_img" style="position: relative;">
+        <span class="qrcode_render" style="position: absolute; bottom: 88px; right: 24px" data-url="https://www.akcapp.com/" data-width="120" data-height="120"><canvas width="200" height="200" style="width: 120px; height: 120px;"></canvas></span>
+        <a href="https://www.akcapp.com/" target="_blank">
+            <img src="//cs.h9k9.com/resource/200000086/images/17.jpg">
+        </a>
+    </div>
+    <!--广告位end-->
+</div>
+<div class="ad_floating floating_left">
+    <a class="btn" target="_blank" href="javascript: void(0);" title="免费试玩" onclick="guest()">免费试玩</a>
+    <a class="btn link" target="_blank" href="javascript: void(0);" title="帮助中心" data-tag="cjwt">帮助中心</a>
+    <div class="qrcode_render" data-url="https://www.akcapp.com" data-width="122" data-height="122"><canvas width="200" height="200" style="width: 122px; height: 122px;"></canvas></div>
+    <a class="btn close" href="javascript: void(0);">关闭</a>
+</div>
+<div class="ad_floating floating_right">
+    <a class="btn" target="_blank" href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=112243" title="在线客服">在线客服</a>
+    <a class="btn" target="_blank" href="javascript: void(0)" title="快速充值">快速充值</a>
+    <div class="qrcode_render" data-url="https://www.akcapp.com" data-width="122" data-height="122"><canvas width="200" height="200" style="width: 122px; height: 122px;"></canvas></div>
+    <a class="btn close" href="javascript: void(0);">关闭</a>
+</div>
+<style>
+    div.ad_floating {
+        height: 310px;
+        width: 128px;
+        position: fixed;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+
+    div.floating_left {
+        background: url('//cs.h9k9.com/resource/200000086/images/floating_left.png') no-repeat center center;
+        background-size: 100%;
+        left: 10px;
+    }
+
+    div.floating_right {
+        background: url('//cs.h9k9.com/resource/200000086/images/floating_right.png') no-repeat center center;
+        background-size: 100%;
+        right: 10px;
+    }
+
+    div.ad_floating > div.qrcode_render {
+        position: absolute;
+        top: 108px;
+        left: 50%;
+        width: 122px;
+        height: 122px;
+        background-color: #fff;
+        transform: translate(-50%);
+    }
+
+    div.ad_floating a.close{
+        bottom: 0;
+    }
+
+    div.ad_floating a.btn {
+        line-height: 99999;
+        content: ' ';
+        width: 100%;
+        height: 40px;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    div.ad_floating a.btn:first-child {
+        top: 0;
+    }
+
+    div.ad_floating a.btn:nth-child(2) {
+        top: 50px;
+    }
+
+    div.ad_floating a.btn:nth-child(3) {
+        bottom: 0;
+        width: 110px;
+        height: 24px;
+    }
+
+</style>
+<script>
+    $('.ad_floating a.close').bind('click', function () {
+        $(this).parent().hide();
+    });
+</script><!-- 弹窗start -->
+<div class="jp-box" id="show_Lis" style="display: none;">
+    <div class="container">
+        <div class="tit">
+            <span class="tittext fl"></span>
+            <span class="closebtn fr">关闭</span>
+        </div>
+        <ul>
+            <li class="dljm tag" style="display: list-item;">
+                <div class="wrap">
+                    <div class="text"><p class="cyl" style="color:#FFC000;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	合作伙伴●代理方案
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;"><span style="color:#333333;">澳客彩（akcai.com）</span>作为知名的在线彩票博彩公司，提供最广范围并最具竞争力的产品。我们真诚为您打造最高档次合作平台，最好的代理加盟方案。八大加盟优势让您无法抗拒！</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">现在您需要进行的是[代理申请]——开始！</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">请登入您在澳客彩的会员帐号，“手机端用户点击个人中心，选择我要推广”，“PC端用户点击申请代理”请填写真实的各项资料，QQ,微信，手机号码务必真实有效，以便为您开通代理帐号。成功注册后即开通，简单便捷。您可以直接复制您的推广链接，二维码或者代理专属网址进行推广，获取丰厚的佣金。如有任何疑问请联系代理QQ：81509668<br>
+</span>
+</p>
+<div>
+	<br>
+</div>
+<p>
+	<br>
+</p>
+<p class="cyl" style="color:#FFC000;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	代理优势
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">1、零风险，高回报，每月准时出佣；</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">2、全年度优惠不断，满足各种类型玩家需求；</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">3、多种支付方式供您选择，让您不会错过任何一笔佣金的支付；</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">4、<span style="color:#333333;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">澳客彩（akcai.com）</span>营运多年，深受百万玩家信赖；</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">5、多年大力推广，品牌热度十足，代理可坐享广告品牌效应；</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">6、提供顶级彩票产品：跑马、超级赛车、福利三分彩、北京赛车pk10、幸运飞艇、PC蛋蛋、香港六合彩、重庆时时彩、广东快乐十分、快三等多种游戏。</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">7、市场策略为业界最佳，口碑也是我们最好的营销方式。</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">8、合营团队竭诚为您服务！为您提供多种沟通渠道(在线客服、客服QQ、电话)，支持多种语言，期待为您服务!</span> 
+</p>
+<p class="cyl mgb10" style="color:#FFC000;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	您还在还等什么！马上加盟吧，申请加入，开始推广，赚取佣金，简单三步开始成就梦想之旅~
+</p>
+<p class="cyl mgb10" style="color:#FFC000;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	建议您可以通过QQ动态、空间、微信朋友圈、微聊、微博、51、新浪等各大知名论坛进行简单推广，轻轻松松赚钱， 月入百万不是问题！
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">【温馨提示：推广时，通过您的推广链接，二维码或者代理专属网址进行注册的会员即可成为您的线下会员，等待领取佣金！】</span> 
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">项目决定成败 行动决定未来 小小口碑宣传 快速简单赚钱！</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">代理方案：按照客户的负盈利拿佣金（让收益来得更猛烈些!）</span> 
+</p>
+<table align="center" width="500" style="padding:0px;margin:0px auto;text-align:center;color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<tbody>
+		<tr>
+			<th style="border:1px solid #000000;color:#FFC000;font-size:16px;">
+				<span style="color:#333333;">当月盈利</span> 
+			</th>
+			<th style="border:1px solid #000000;color:#FFC000;font-size:16px;">
+				<span style="color:#333333;">当月最低有效会员</span> 
+			</th>
+			<th style="border:1px solid #000000;color:#FFC000;font-size:16px;">
+				<span style="color:#333333;">当月退佣比例</span> 
+			</th>
+		</tr>
+		<tr>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">100-50000</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">5个或以上</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">18%</span> 
+			</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">50001-100000</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">8个或以上</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">23%</span> 
+			</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">100001-200000</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">15个或以上</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">28%</span> 
+			</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">200001-500000</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">30个或以上</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">33%</span> 
+			</td>
+		</tr>
+		<tr>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">500001以上</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">60或以上</span> 
+			</td>
+			<td style="border:1px solid #000000;">
+				<span style="color:#333333;">40%</span> 
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p class="mgb10 cyl" style="color:#FFC000;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	注：代理佣金分成保留上述条例之最终更改权！
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#666666;">请谨记：任何使用不诚实方法以骗取佣金将会永久冻结账户，佣金一律不予发还！</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#666666;">新合营商正式确立合作关系之后，须用心推广，每个月需有3个或以上的有效会员增长，否则公司有权终止合作关系。</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#666666;">●有效会员定义：在月结区间内进行最少5天每天投注100元以上，即为有效会员。</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#666666;">●相同IP，相同姓名视为一个有效会员。</span> 
+</p>
+<p class="cyl" style="color:#FFC000;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	佣金计算
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">●计算公式：代理所有会员亏损 × 退佣比例 × 87%（扣除5%行政费用以及8%平台费用） = 可获得佣金。</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">●每月必须最少有5个有效会员投注分红条件才成立，低于最低门槛5人，则该月无法领取代理佣金。</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">●代理当月赢利达到标准，而【当月最低有效会员】未达相应门槛，则该月佣金比例依照【当月最低有效会员】人数所达门槛相应的百分比进行计算。 示例： 代理当月营利（即纯盈利）为￥100000，而当月有效会员人数为5人，代理虽已达到营利（即纯盈利）为￥100000，却未达到有效会员，则按会员数为5人的标准进行计算！</span> 
+</p>
+<p class="mgb10" style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">澳客彩期待与您一同打拼，共创佳绩！2018展现出您最优秀的成绩，房子、车子、美女将不再是梦 ！</span> 
+</p>
+<p class="cyl" style="color:#FFC000;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	佣金支付
+</p>
+<p style="color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<span style="color:#333333;">代理佣金计算，结算区间为每月1号到每月最后一天为一个周期，将会员盈利，以代理方案分红公式计算，佣金由承办合作专员（<span style="color:#333333;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">81509668</span>）于次月8号与代理确认佣金后，在2个工作天内将佣金直接汇入代理联盟登记之银行账号。</span> 
+</p></div>
+                </div>
+            </li>
+            <li class="yhzq tag">
+                <div class="wrap">
+                    <div class="text"><div class="tit" style="padding:0px;margin:0px 0px 18px;color:#FFDD3C;font-size:18px;font-family:Arial, &quot;background-color:#8A0000;">
+	存款帮助 / DEPOSIT
+</div>
+<div style="padding:0px;margin:0px;color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<p class="cyl" style="color:#FFC000;">
+		您可以通过以下方式在澳客彩票网进行充值：
+	</p>
+	<p>
+		<span style="color:#333333;">※备注：在您第一次入款时，系统会提示绑定您的出款信息，为确保您的资金安全，请确实填写，谢谢！</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		一、公司入款（银行卡入款）
+	</p>
+	<p>
+		<span style="color:#64451D;">1、<span style="color:#333333;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">澳客彩（akcai.com）</span>"银行卡入款"（包含支付宝转账、网银转账、ATM转账、ATM现金存款、现金到柜台存款或手机银行等方式），最低存款金额为10元人民币，最高存款金额无上限。</span> 
+	</p>
+	<p>
+		<span style="color:#64451D;">2、我们支持银联转帐，您可以点击【在线存款】或者联系"在线客服"取得最新入款银行信息。</span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#64451D;">3、目前公司提供中国建设银行、中国工商银行、中国农业银行可选择。建议:选择与您转账的银行同一家，同银行间转账可以立即到帐，若跨行转账请使用跨行快汇也是即时到账。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		※公司入款操作步骤：
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		一、 银行卡入款
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;">登录会员账号-》选择"在线存款"-》点击【银行入款】-》查看正在使用的银行账号-》通过支付宝转账到银行卡或网银转账、跨行转账等进行存款后将存款金额填写完成-》提交申请，我们将于确认到帐后立刻为您游戏帐户充值。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		二、 在线支付
+	</p>
+	<p>
+		<span style="color:#333333;">1、会员登入后点选「在线存款」;</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">2、填写欲入款金额，</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">3、选择「支付银行」</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">支持信用卡，中国银行，中国农业银行，中国民生银行，中国建设银行，中国招商银行，中国工商银行，中国交通银行，中国邮政银行，中国兴业银行，华夏银行，浦发银行，BEA东亚银行，北京银行，平安银行，杭州银行，中国光大银行，中信银行，渤海银行，浙商银行，上海银行，广发银行，深圳发展银行，宁波银行，南京银行</span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;">4、仔细核对填写的数据信息，确认您的支付订单无误，建议将您支付的商家订单号保存记录下来，最后【确认送出】，并耐心等待载入网上银行页面（传输中已将您帐户资料加密）。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		三、 微信入款
+	</p>
+	<p>
+		<span style="color:#333333;">1、会员登入后点选「在线存款」;</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">2、选择微信在线入款，</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">3、填写欲入款金额</span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;">4、点击提交后，出现二维码，直接使用您的微信扫一扫付款。付款成功，立即到账，无需提交！</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		四、 支付宝入款
+	</p>
+	<p>
+		<span style="color:#333333;">1、会员登入后点选「在线存款」;</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">2、选择公司入款支付宝入款，</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">3、填写入款金额、支付宝姓名然后提交！</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">4、生成一张招商银行订单；</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">5、进入支付点击转账</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">6、选择转账到银行卡</span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;">7、转账到订单上的收款账号即可！</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		★存款须知：
+	</p>
+	<p>
+		<span style="color:#333333;">1.<span style="color:#333333;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">澳客彩（akcai.com）</span>最低存款金额10元，最高存款金额无上限；</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">2.欲使用公司入款的会员，亲切的提醒您，公司入款银行账号会随时变更，烦请在每次存款之前务必先核对最新入款账号，若入款前未先进行账号确认，款项误入到公司已停用的银行账号，<span style="color:#333333;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">澳客彩（akcai.com）</span>一概不予负责！敬请谅解，感谢配合；</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">3.若出现存款成功未到账的情况，请及时与【在线客服】取得联系，客服人员会与您核对存款数据，必要时需要您提供截图，转账数据等相关证明；</span> 
+	</p>
+	<p>
+		<span style="color:#333333;">4.未开通网银的会员，请您亲自到银行柜台办理。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		如有任何问题，请联系24小时在线客服人员。
+	</p>
+</div></div>
+                </div>
+            </li>
+            <li class="cqbz tag">
+                <div class="wrap">
+                    <div class="text">
+                        <div class="tit" style="padding:0px;margin:0px 0px 18px;color:#FFDD3C;">
+	<div class="tit" style="font-family:Arial, &quot;background-color:#8A0000;font-size:18px;padding:0px;margin:0px 0px 18px;color:#FFDD3C;">
+		<br>
+	</div>
+	<p>
+		<span style="line-height:1;">取款帮助 / WITHDRAW</span><br>
+<span style="line-height:1;"> ◆ 您可以通过以下方式取款：</span><br>
+<span style="color:#333333;line-height:1;">1.会员登入后点选"在线取款"。</span><br>
+<span style="color:#333333;line-height:1;">2.输入选择“取款密码”，并确认提款人姓名与您银行帐号持有人相符。</span><br>
+<span style="color:#333333;line-height:1;">3,输入"取款额度"</span><br>
+<span style="color:#333333;line-height:1;">4.确认提款银行帐号正确。</span><br>
+<span style="color:#333333;line-height:1;">5.可以选择以下方式取款：</span><br>
+<span style="color:#333333;line-height:1;">绑定中国工商银行(优先)、交通银行、中国农业银行、中国建设银行、招商银行、中国民生银行总行、深圳发展银行、上海浦东发展银行、北京银行、兴业银行、中信银行、中国光大银行、华夏银行、广东发展银行、深圳平安银行、中国邮政、中国银行、农村合作信用社，会员单笔取款100万RMB以内﹐可24小时提出申请﹐并享受15分钟内到帐。</span><br>
+<span style="line-height:1;"> ◆【取款注意事项】</span><br>
+<span style="color:#333333;line-height:1;">1、澳客彩（akcai.com）最低取款金额为100元人民币，单笔最高取款上限为100万人民币，当日最高取款金额上限为500万人民币。(在线支付每日最高取款总额上限为100万人民币,公司入款每日最高取款总额上限为500万人民币)。</span><br>
+<span style="color:#333333;line-height:1;">2、澳客彩（akcai.com）保留权利审核会员账户，若由最后一次入款起，有效下注金额需达到入款金额的1倍流水，未达到而申请出款者，公司将收取入款金额的5%行政费用。</span><br>
+<span style="color:#333333;line-height:1;">【例1】若充值3000元，有效投注未达到3000×100%＝3000元,则会扣除行政费用3000×5% = 须被扣除150元</span><br>
+<span style="color:#333333;line-height:1;">**如有任何问题，请洽24小时在线客服！</span><br>
+<span style="color:#333333;line-height:1;">**请注意**各游戏未接受/取消注单，不纳入有效投注计算。</span><br>
+<span style="color:#333333;line-height:1;">**澳客网（akcai.com）相关优惠，请详见'优惠活动'</span><br>
+<span style="color:#333333;line-height:1;">如有任何问题，请联系24小时在线客服，谢谢！</span> 
+	</p>
+	<div>
+		<br>
+	</div>
+	<p>
+		<br>
+	</p>
+</div>
+<div style="padding:0px;margin:0px;color:#FFFFFF;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p>
+		<span style="color:#64451D;"></span> 
+	</p>
+	<p>
+		<span style="color:#64451D;"></span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#64451D;"></span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p>
+		<span style="color:#333333;"></span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<br>
+	</p>
+</div>                    </div>
+                    <div class="logo"></div>
+                </div>
+            </li>
+            <li class="lxwm tag">
+                <div class="wrap">
+                    <div class="text">
+                        <div class="tit" style="padding:0px;margin:0px 0px 18px;color:#FFDD3C;font-size:18px;font-family:Arial, &quot;background-color:#8A0000;">
+	<div class="tit" style="padding:0px;margin:0px 0px 18px;color:#FFDD3C;font-size:18px;font-family:Arial, &quot;background-color:#8A0000;">
+		<span style="font-size:12px;line-height:1;">联络我们 / CONTACT US</span> 
+	</div>
+	<p>
+		<span style="color:#333333;font-size:12px;line-height:1;">澳客彩（akcai.com）的客服中心全年无休，提供1周7天、每天24小时的优质服务。</span> 
+	</p>
+	<p class="mgb10">
+		<span style="color:#333333;font-size:12px;line-height:1;">如果您对本网站的使用有任何疑问，可以通过下列任一方式与客服人员联系，享受最实时的服务点击"在线客服"链接，即可进入在线客服系统与客服人员联系。 您亦可使用Email与客服人员取得联系！</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		<span style="font-size:12px;line-height:1;">联系方式：</span> 
+	</p>
+	<p>
+		<span style="color:#333333;font-size:12px;line-height:1;">联系电话：</span><span class="cyl" style="color:#333333;font-size:12px;line-height:1;">+63(999)0255555</span> 
+	</p>
+	<p>
+		<span style="color:#333333;font-size:12px;line-height:1;">正牌客服QQ1：</span><span class="cyl" style="color:#333333;font-size:12px;line-height:1;">18966880</span> 
+	</p>
+	<p>
+		<span class="cyl" style="color:#333333;"><span style="font-size:12px;line-height:1;">正牌客服QQ2：18966881</span><br>
+</span> 
+	</p>
+	<p>
+		<span style="color:#333333;font-size:12px;line-height:1;">代理QQ：</span><span class="cyl" style="color:#333333;font-size:12px;line-height:1;">81509668</span> 
+	</p>
+	<p>
+		<span style="color:#333333;font-size:12px;line-height:1;">投诉建议：akcai8888</span><span class="cyl" style="color:#333333;font-size:12px;line-height:1;">@gmail.com</span> 
+	</p>
+	<p>
+		<span style="color:#333333;font-size:12px;line-height:1;">我们也能收到您宝贵的意见(务必填写真实的Email、QQ，以便我们能及时与您取得联系！</span> 
+	</p>
+	<p>
+		<span style="color:#333333;font-size:12px;line-height:1;">澳客彩真诚欢迎大家，并以公平、公正、公开、诚信经营的理念服务大家！</span> 
+	</p>
+</div>
+<p>
+	<br>
+</p>                    </div>
+                    <div class="logo"></div>
+                </div>
+            </li>
+            <li class="cjwt tag">
+                <div class="wrap">
+                    <div class="text">
+                        <div class="tit" style="padding:0px;margin:0px 0px 18px;color:#FFDD3C;font-size:18px;font-family:Arial, &quot;background-color:#8A0000;">
+	常见问题 /QUESTIONS
+</div>
+<div style="padding:0px;margin:0px;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">
+	<p class="cyl" style="color:#FFC000;">
+		◉一般常见问题
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q1: 如何加入澳客彩（akcai.com）？
+	</p>
+	<p>
+		<span>A1: 您可以直接点选 "立即开户"，确实填写资料后，可立即登记成为</span><span style="color:#333333;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">澳客彩</span><span style="font-family:Arial, &quot;font-size:14px;background-color:#8A0000;"><span>（akcai.com）</span></span><span>会员。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q2: 我可以直接在网络上存款提款吗？
+	</p>
+	<p style="color:#FFFFFF;">
+		<span style="color:#333333;">A2: 可以，<span style="color:#333333;font-family:Arial, &quot;font-size:14px;background-color:#8A0000;">澳客彩（akcai.com）</span>提供多种线上存款选择，详情请参照 "存款提款"</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q3: 我在哪里可以找到游戏规则？
+	</p>
+	<p style="color:#FFFFFF;">
+		<span style="color:#333333;">A3: 在游戏视窗中,右上角有"游戏规则"选项，让您在享受游戏乐趣的同时，清楚告诉您游戏的玩法、规则及派彩方式。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q4: 单注投注额最低是？
+	</p>
+	<p style="color:#FFFFFF;">
+		<span style="color:#333333;">A4: 我们单注最低投注额为人民币1元.</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q5: 最高投注额有限制吗？
+	</p>
+	<p style="color:#FFFFFF;">
+		<span style="color:#333333;">A5: 任何一家正规博彩和网络博彩公司对客户的帐户投注都有单注和单注限额，没有限额的公司都基本属于没有任何风险控制的私人或骗子公司，今天的控制是为了明天能保证100%提款给您，这点您可以自行分析。每个项目都有不同的限额设定，详细请登陆会员都在「会员资料」页面查看。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q6: 我帐户里面的帐怎麽结算？
+	</p>
+	<p style="color:#FFFFFF;">
+		<span style="color:#333333;">A6: 请到登入会员，会员页面查看，「今天已结」按天显示每天的结算结果，点击进入查看今天所下注每一笔情况。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q7: 如果忘记密码怎麽办？
+	</p>
+	<p style="color:#FFFFFF;">
+		<span style="color:#333333;">A7: 联系24小时线上客服人员谘询协助取回你的帐号密码。</span> 
+	</p>
+	<p class="cyl" style="color:#FFC000;">
+		Q8: 当忘记提款密码时怎麽办？
+	</p>
+	<p style="color:#FFFFFF;">
+		<span style="color:#333333;">A8: 你可通过24小时线上客服人员协助处理。</span> 
+	</p>
+</div>                    </div>
+                    <div class="logo"></div>
+                </div>
+            </li>
+            <li class="gywm tag">
+                <div class="wrap">
+                    <div class="text">
+                        <div class="text">
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- 弹窗end -->
+
+<style>
+    .jp-box {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, .5)
+    }
+
+    .jp-box .container {
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        margin: -100px 0 0 -320px;
+        background: #051037
+    }
+
+    .jp-box ul {
+        height: 420px;
+        width: 640px
+    }
+
+    .jp-box li {
+        position: absolute;
+        left: 10px;
+        top: 53px;
+        background: #fff;
+        height: 400px;
+        width: 620px
+    }
+
+    .jp-box .tit {
+        width: 600px;
+        height: 43px;
+        background: url(../img/bg_dltop.jpg) no-repeat center;
+        padding: 0 20px;
+        color: #fff
+    }
+
+    .jp-box .tit span {
+        line-height: 43px
+    }
+
+    .jp-box .tit .tittext {
+        font-size: 20px;
+        font-weight: 700
+    }
+
+    .jp-box .tit .closebtn {
+        cursor: pointer
+    }
+
+    .jp-box .tit .closebtn:hover {
+        color: #eee
+    }
+
+    .jp-box .wrap {
+        padding: 10px 20px;
+        height: 360px;
+        overflow-x: hidden
+    }
+
+    .jp-box .links {
+        margin: 0 30px 10px
+    }
+
+    .jp-box .links a {
+        float: left;
+        margin: 0 30px
+    }
+
+    .jp-box table {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center
+    }
+
+    .jp-box table th {
+        background: #3255ff;
+        height: 35px;
+        border: 2px solid #fff;
+        font-weight: 400
+    }
+
+    .jp-box table td {
+        background: #b9c5ff;
+        height: 35px;
+        border: 2px solid #fff
+    }
+
+    .jp-box .logo {
+        width: 120px;
+        height: 44px;
+        background: url('../img/logo.png') no-repeat center;
+        margin: 0 auto
+    }
+
+</style>
+
+<!--底部start-->
+<div class="footer">
+    <div class="f_about">
+        <ul class="wrapper">
+            <a href="" class="link" data-tag="cjwt">常见问题</a>
+            <span> | </span>
+            <a href="" class="link" data-tag="cqbz">存取帮助</a>
+            <span> | </span>
+            <a href="" class="link" data-tag="lxwm">联系我们</a>
+            <span> | </span>
+            <a href="" class="link" data-tag="dljm">代理加盟</a>
+
+        </ul>
+    </div>
+    <div class="f_copy">
+        <ul>
+            <img src="//cs.h9k9.com/resource/200000086/images/18.jpg" alt="">
+            <img src="//cs.h9k9.com/resource/200000086/images/19.jpg" alt="">
+            <img src="//cs.h9k9.com/resource/200000086/images/20.jpg" alt="">
+            <img src="//cs.h9k9.com/resource/200000086/images/21.jpg" alt="">
+            <img src="//cs.h9k9.com/resource/200000086/images/22.jpg" alt="">
+        </ul>
+        <ul>
+            <p>澳客彩郑重提示：彩票有风险，投注需谨慎！ 不向未满18周岁的青少年出售彩票</p>
+            <p>澳客彩|官网：
+                <a href="https://akc9999.com/" target="_blank">澳客彩</a>
+               ©
+            </p>
+        </ul>
+    </div>
+</div>
+<!--底部end-->
+<script type="text/javascript">
+    $(function () {
+        $.fn.extend({
+            'autoQrcode': function (option) {
+                var default_settings = {
+                    render: "canvas",
+                    ecLevel: 'H',//识别度
+                    fill: '#000',//二维码颜色
+                    background: '#ffffff',//背景颜色
+                    quiet: 2,//边距
+                    text: $(this).data('url'), // 二维码内容
+
+                    // 中间logo end
+                    label: 'jQuery.qrcode',
+                    fontname: 'Ubuntu',
+                    fontcolor: '#ff9818',
+                };
+                option = $.extend(default_settings, option);
+                $(this).qrcode(option);
+            }
+        });
+        var option = {};
+
+        function renderQrcode(option) {
+            $('.qrcode_render').each(function (i, item) {
+                var width, height = 0;
+                $(item).autoQrcode(option);
+                width = $(item).data('width') ? $(item).data('width') : 100;
+                height = $(item).data('height') ? $(item).data('height') : 100;
+                $(item).find('canvas').width(width).height(height);
+            });
+        }
+
+        try {
+            var img = new Image();
+            img.src = "/pc201702/logo/icon/200000086.png";
+            img.onload = function () {
+                option = {
+                    mode: 4,
+                    imagesize: .18,
+                    image: img,
+                };
+                renderQrcode(option);
+            };
+            img.onerror = function () {
+                console.log("图标加载失败");
+                renderQrcode(option);
+            };
+        } catch (e) {
+            console.log("图标不存在");
+            renderQrcode(option);
+        }
+    });
+</script>
+
+</body></html>

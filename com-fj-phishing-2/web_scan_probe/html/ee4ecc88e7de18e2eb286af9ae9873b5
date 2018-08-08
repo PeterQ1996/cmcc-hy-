@@ -1,0 +1,2488 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="中博彩票 7909.com">
+<meta name="description" content="中博彩票 7909.com">
+<title>中博彩票 7909.com</title>
+
+<link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon">
+<script type="text/javascript" src="/common/jquery/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="/common/js/layer/layer.js"></script><link rel="stylesheet" href="https://08wzb.com/common/js/layer/skin/layer.css" id="layui_layer_skinlayercss" style="">
+<script type="text/javascript" src="/common/template/lottery/lecai/js/L_slide.js"></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/scroll.js"></script>
+</head>
+<body>
+	
+	
+
+<!--  该文件必须导入 -->
+
+<input type="hidden" value="" id="base">
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/style.css?v=201808072206351.1" type="text/css">
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/header.css?v=20180807220635" type="text/css">
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/layer_dialog.css?v=20180807220635" type="text/css">
+<script type="text/javascript" src="/common/template/lottery/lecai/js/jquery-browser.js"></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/jquery.ajax.js?v=1.1.12" path=""></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/base.js?v=2.11118"></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/date.js"></script>
+<script type="text/javascript" src="/common/js/layer/layer.js"></script>
+<script type="text/javascript">
+	LECAI = {
+		base : '',
+		folder : "d128",
+		caipiao_version : '20180807220635',
+		caipiao : 'false',
+		code : '',
+		type : '',
+		fanShui : false,
+		version : 3,
+	}
+</script>
+
+<!-- 头部内容 如果需要更换头部则直接在已下id=header_plus内中替换，自己引入需要的css和js文件 -->
+<div class="header-plus" id="header_plus">
+	<div class="header-toptray-plus">
+		<div class="toptray-plus clearfix auto990">
+			<div class="toptray-left fl">
+				<span>hi，欢迎来到中博彩票 7909.com</span>
+			</div>
+			<div class="toptray-right fr">
+				
+					
+					
+						<ul id="toptray_not_login" class="toptray-plus clearfix">
+							<li>
+								<a href="/daili" target="_blank" class="colorRed">代理登录</a>
+								<a href="/loginPage.do" target="regLogin" class="colorRed">在线登录</a> &nbsp;
+								 <a href="/regpage.do" target="regLogin" class="colorRed">免费注册</a>&nbsp; 
+								<a href="/agtregpage.do" target="regLogin" class="colorRed">代理注册</a>
+								&nbsp; <a href="/lotteryV3/registerTestGuest.do" target="regLogin" class="colorRed">免费试玩</a></li>
+							<li class="m14">|</li>
+							<li class="mylottery"><a href="javascript:void(0);" onclick="Base._goTo_open('/loginPage.do?reUrl=/center/member/meminfo/cp3Page.do','regLogin');" class="my-lottery color666">会员中心<em class="icon"></em></a></li>
+							<li><a href="javascript:void(0);" onclick="Base._goTo_open('/loginPage.do?reUrl=/center/banktrans/deposit/cp3Page.do','regLogin');" class="color666 mr10">充值</a> 
+							<a href="javascript:void(0);" onclick="Base._goTo_open('/loginPage.do?reUrl=/center/banktrans/draw/cp3Page.do','regLogin');" class="color666">提款</a></li>
+						</ul>
+					
+				
+			</div>
+		</div>
+	</div>
+	<style type="text/css">
+		.header-plus .cf{height:90px;}
+		.header-plus .logo{height:80px;}
+		.header-plus .logo img{width:200px;height:80px;}
+		.header-plus .kefuwrapper{top:53px;}
+		.header-plus .cf ul{height:80px;}
+		.header-plus .topBanner{height:70px;width:440px;}
+		.header-plus .topBanner img {max-width: 400px;max-height: 70px; width: 440px;}
+
+	</style>
+	<div class="cf">
+        <a href="" class="logo ct"><img title="中博彩票 7909.com" alt="中博彩票 7909.com" src="https://yb6.me/img/kymg/S1snKjQyi.png" style="width:200px;height:70px;">
+        </a>
+        <ul>
+        	
+        		
+        	
+        </ul>
+        
+
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/model/top_d026.css?v=20180807220635" type="text/css">
+
+     <ul class="header_d026_top">
+     	<li>
+     		<i class="icon icon_u"></i>
+     		<input class="top-reg-int" id="top_username_login" placeholder="用户名" maxlength="11" type="text" data="tc"></li>
+     	<li>
+     		<i class="icon icon_p"></i>
+     		<input class="top-reg-int" id="top_passwd_login" placeholder="密码" maxlength="16" type="password">
+     	</li>
+     	<li>
+     		<input class="top-codes-int" id="top_logVerifyCode" maxlength="4" placeholder="验证码" type="text">
+     		<img class="login_img" name="login_img" id="TopLogVerifyImg" onclick="Base.verifyImgFalse();" src="/verifycode.do?flag=false&amp;timestamp=1533704195851">
+     	</li>
+     	<li>
+     		<a href="javascript://" class="icon login-btn" title="登录" onclick="Base.vaildate.userLogin('top');"></a>
+     		<a href="javascript://" class="icon reg-btn" title="注册" style="background-position: -180px -90px;" onclick="location.href='/regpage.do'"></a>
+     	</li>
+     </ul>
+
+<script type="text/javascript">
+    	$(function(){
+    		Base.verifyImgFalse();
+    		$("#top_username_login").focus();
+    		$("#header_plus").keydown(function(event) {
+	            if (event.keyCode == "13") {//keyCode=13是回车键
+	            	Base.vaildate.userLogin('top');
+           	 	}
+       	 	});
+    	})
+    </script>
+        <div class="kefuwrapper">
+            <a href="https://messenger.providesupport.net/messenger/1fnvvkc8rualz1vkzb2jwze72a.html" target="_blank"> <img alt="" src="/images/zxkf.png" style="margin-top: -21px;float: right;">
+			</a>
+        </div>
+    </div>
+	<!-- <div class="head-toptray-logo clearfix auto990">
+		<div class="logo-box clearfix" style="width: 420px;">
+			<a title="中博彩票 7909.com" href=""><h1>中博彩票 7909.com</h1> <img
+				title="中博彩票 7909.com" alt="中博彩票 7909.com"
+				src="https://yb6.me/img/kymg/S1snKjQyi.png"
+				class="logo-index-hd"></a>
+			<a href="" title="" id="go_old"><img
+				alt="为梦想买单" src="/images/logo_dream.png"></a>
+		</div>
+	</div>-->
+
+
+	<div class="header-navbar-plus">
+		<div class="auto990 clearfix" id="header_box">
+			<div class="lottery-plus mr20" id="lotterys">
+				<h2>
+					全部彩种<a href="javascript://" class="dropdown-desc" style="margin-left: 50px; display: none;"><i class="icon arrow"></i></a>
+				</h2>
+					
+			</div>
+			<ul class="nav-plus clearfix">
+				<li class="navw1 on"><a href="/lotteryV3/index.do">首页</a></li>
+				<li class="navw2 "><a href="/lotteryV3/lottery.do">购彩大厅</a></li>
+				<li class="navw2 "><a href="/lotteryV3/joint.do">合买中心</a></li>
+				<li class="navw2 "><a href="/lotteryV3/draw.do" class="dropdown-desc">开奖公告</a></li>
+				<li class="navw2 "><a href="/lotteryV3/trend.do">走势图</a></li>
+				<li class="navw2 "><a href="/lotteryV3/news.do">资讯</a></li>
+				<li class="navw2 " style="position: relative"><a href="/lotteryV3/promotion.do">优惠活动</a></li>
+				<li class="navw2 " style="position: relative"><a href="/lotteryV3/mobile/show.do">手机APP<em class="hot-icon"></em></a></li>
+				<li class="navw2"><a href="/lotteryV3/rule.do" target="_blank">游戏规则</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var iLogin = 2;APP
+$(function(){
+	if(iLogin == 2){return false;}
+	$.ajax({
+		url:'/center/news/message/messageCount.do',
+		success:function(res){
+			if(res.messageCount > 0){
+				$(".message_ts_p").text(res.messageCount).removeClass('hidn');
+				$("#unread_num_new").removeClass("icon");
+			}else{
+				$(".message_ts_p").addClass("hidn");
+				$("#unread_num_new").addClass("icon");
+			}
+		}
+	})
+})
+//在线客服
+///lotteryV3/service.do
+function zxkf(){
+	var open = window.open();
+	$.ajax({
+		url:"/memInfo/common/siteInfo/base.do",
+		dataType:"json",
+		success:function(j){
+			if(j.success){
+				var url = j.item;
+				if(url.indexOf('http://')==-1 && url.indexOf('https://')==-1){
+					url = 'http://' + url;
+				}
+				open.location = url;
+			}else{
+				$('#zxkf').attr('href','#').removeAttr('target');
+			}
+		}
+	});
+}
+</script>
+	<div class="main-box clearfix auto990" id="main">
+		<input type="hidden" value="0" id="navId"> <input type="hidden" value="1" id="isLogin">
+		<div class="part-1 clearfix">
+			
+				
+
+<div class="part-1-left-nav mr20">
+	<div class="lotterys-list-hd" id="lotterysList" style="">
+		<ul class="lottery-list-box">
+			
+				
+					
+						
+							<li class="mainGame" style="padding-top: 18px; background-color: rgb(255, 255, 255);">
+								<a href="/lotteryV3/lotDetail.do?lotCode=LHC" class="mainA"><i class="icon_small LHC"></i><span class="color333">六合彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=LHC" class="status-desc"><em class="icon"></em><span>立即投注</span></a>
+							</li>
+						
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=FC3D" class="mainA"><i class="icon_small FC3D"></i><span class="color333">福彩3D</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=FC3D" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC" class="mainA"><i class="icon_small SFLHC"></i><span class="color333">十分六合彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=SFLHC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=FFC" class="mainA"><i class="icon_small FFC"></i><span class="color333">分分彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=FFC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=BJSC" class="mainA"><i class="icon_small BJSC"></i><span class="color333">北京赛车</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=BJSC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=CQSSC" class="mainA"><i class="icon_small CQSSC"></i><span class="color333">重庆时时彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=CQSSC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=EFC" class="mainA"><i class="icon_small EFC"></i><span class="color333">二分彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=EFC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			<li class="allGames clearfix">
+				<h3>
+					<span>高频</span>
+				</h3>
+				<ul class="clearfix game-list">
+					
+						
+					
+						
+					
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=FFC">分分彩</a></li>
+						
+					
+				</ul> <i class="icon open-btn" style="display: block;"></i>
+				<div class="line-fff" style="display: none;"></div>
+				<div class="moreGames clearfix" style="display: none;" id="moreGames_1">
+					<div class="moreGames-box fl">
+						<div class="otherGames num-games">
+							<h3>高频彩</h3>
+							<ol>
+								
+									
+								
+									
+								
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=FFC">分分彩</a></li>
+											
+										
+									
+								
+									
+										
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=BJSC" class="colorRed">北京赛车</a></li>
+											
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=CQSSC">重庆时时彩</a></li>
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=EFC">二分彩</a></li>
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=WFC">五分彩</a></li>
+											
+										
+									
+								
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=JSSB3">江苏快三</a></li>
+											
+										
+									
+								
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=XJSSC">新疆时时彩</a></li>
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=PCEGG">PC蛋蛋</a></li>
+											
+										
+									
+								
+									
+								
+									
+								
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=HBK3">湖北快三</a></li>
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=AHK3">安徽快三</a></li>
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=SHHK3">上海快三</a></li>
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=HEBK3">河北快三</a></li>
+											
+										
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=GXK3">广西快三</a></li>
+											
+										
+									
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="allGames clearfix">
+				<h3>
+					<span>低频</span>
+				</h3>
+				<ul class="clearfix game-list">
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=LHC">六合彩</a></li>
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=FC3D">福彩3D</a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=PL3">排列三</a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</ul> <i class="icon open-btn" style="display: block;"></i>
+				<div class="line-fff" style="display: none;"></div>
+				<div class="moreGames clearfix" style="display: none;" id="moreGames_2">
+					<div class="moreGames-box fl">
+						<div class="otherGames num-games">
+							<h3>低频彩</h3>
+							<ol>
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=LHC">六合彩</a></li>
+											
+										
+									
+								
+									
+										
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=FC3D" class="colorRed">福彩3D</a></li>
+											
+											
+										
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+										
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=PL3" class="colorRed">排列三</a></li>
+											
+											
+										
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="allGames clearfix">
+				<h3>
+					<span>全部</span>
+				</h3>
+				<ul class="clearfix game-list">
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=LHC">六合彩</a></li>
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=FC3D">福彩3D</a></li>
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC">十分六合彩</a></li>
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=FFC">分分彩</a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</ul> <i class="icon open-btn" style="display: block;"></i>
+				<div class="line-fff" style="display: none;"></div>
+				<div class="moreGames clearfix" style="display: none;" id="moreGames_3">
+					<div class="moreGames-box fl">
+						<div class="otherGames num-games">
+							<h3>全部彩种</h3>
+							<ol>
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=LHC">六合彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=FC3D">福彩3D</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC">十分六合彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=FFC">分分彩</a></li>
+										
+									
+								
+									
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=BJSC" class="colorRed">北京赛车</a></li>
+										
+										
+									
+								
+									
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=CQSSC" class="colorRed">重庆时时彩</a></li>
+										
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=EFC">二分彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=WFC">五分彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SD11X5">山东11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=JSSB3">江苏快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=PL3">排列三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=XJSSC">新疆时时彩</a></li>
+										
+									
+								
+									
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=PCEGG" class="colorRed">PC蛋蛋</a></li>
+										
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=GD11X5">广东11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=JX11X5">江西11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SH11X5">上海11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=HBK3">湖北快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=AHK3">安徽快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SHHK3">上海快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=HEBK3">河北快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=GXK3">广西快三</a></li>
+										
+									
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+			
+			
+			<div class="part-1-cont-left mr20">
+				<div class="slide">
+					<div class="wrap" id="Slide">
+						<ul class="slidebox">
+						</ul>
+					</div>
+				</div>
+				<div class="quick-buy-box mt15">
+					<div class="quick-tpis">
+						<div style="float:left;">
+						<i class="icon-lb"></i> <b>最新公告：</b></div>
+						<script type="text/javascript" src="/common/template/lottery/lecai/js/wenzi_scroll.js"></script>
+						<div style="float:left; height: 30px; width: 380px;cursor: pointer;" id="scroll">
+							<ul style="height:30px">
+								<li style="height:30px;"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="quick-buy">
+						<ul class="quick-tab-list">
+							
+								
+								
+									
+										
+											<li c="LHC" type="6" class="on"><a href="/lotteryV3/lotDetail.do?lotCode=LHC" target="_blank">六合彩</a></li>
+										
+										
+									
+								
+							
+								
+								
+									
+										
+										
+											<li c="FC3D" type="54"><a href="/lotteryV3/lotDetail.do?lotCode=FC3D" target="_blank">福彩3D</a></li>
+										
+									
+								
+							
+								
+								
+									
+										
+										
+											<li c="SFLHC" type="66"><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC" target="_blank">十分六合彩</a></li>
+										
+									
+								
+							
+								
+								
+									
+										
+										
+											<li c="FFC" type="51"><a href="/lotteryV3/lotDetail.do?lotCode=FFC" target="_blank">分分彩</a></li>
+										
+									
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+								
+								
+							
+						</ul>
+						<div class="qb-box-list">
+							<!--快速购彩 ssq-->
+							
+								
+									
+										
+											<div class="qb" id="qb_LHC" c="LHC" type="6">
+												<ul class="qb-info clearfix">
+													<li>第<span id="ssq_phase"></span>期 截止：<span id="ssq_sale_end_timer" class="sale_end_timer"></span></li>
+													<li class="bztz clearfi"><a href="/lotteryV3/lotDetail.do?lotCode=LHC" target="_blank">手动选号</a> <!-- | <a
+														href="javascript:alert('暂未开放');">幸运选号</a> --> | <a href="/lotteryV3/trend.do?lotCode=LHC" target="_blank">走势图</a></li>
+												</ul>
+												<div class="qb-selectnumber" style="position: relative">
+													<ul class="qb-selectnum clearfix"></ul>
+												</div>
+											</div>
+											<script type="text/javascript">
+												Base.getLotCurrentData('LHC');
+											</script>
+										
+										
+									
+								
+							
+								
+									
+										
+										
+											<div class="qb" id="qb_FC3D" c="FC3D" type="54" style="display: none;">
+												<ul class="qb-info clearfix">
+													<li>第<span id="ssq_phase"></span>期 截止：<span id="ssq_sale_end_timer" class="sale_end_timer"></span></li>
+													<li class="bztz clearfi"><a href="/lotteryV3/lotDetail.do?lotCode=FC3D" target="_blank">手动选号</a> <!--| <a
+														href="javascript:alert('暂未开放');">幸运选号</a> -->| <a href="/lotteryV3/trend.do?lotCode=FC3D" target="_blank">走势图</a></li>
+												</ul>
+												<div class="qb-selectnumber" style="position: relative">
+													<ul class="qb-selectnum clearfix"></ul>
+												</div>
+											</div>
+											<script type="text/javascript">
+												Base
+														.getLotCurrentData('FC3D');
+											</script>
+										
+									
+								
+							
+								
+									
+										
+										
+											<div class="qb" id="qb_SFLHC" c="SFLHC" type="66" style="display: none;">
+												<ul class="qb-info clearfix">
+													<li>第<span id="ssq_phase"></span>期 截止：<span id="ssq_sale_end_timer" class="sale_end_timer"></span></li>
+													<li class="bztz clearfi"><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC" target="_blank">手动选号</a> <!--| <a
+														href="javascript:alert('暂未开放');">幸运选号</a> -->| <a href="/lotteryV3/trend.do?lotCode=SFLHC" target="_blank">走势图</a></li>
+												</ul>
+												<div class="qb-selectnumber" style="position: relative">
+													<ul class="qb-selectnum clearfix"></ul>
+												</div>
+											</div>
+											<script type="text/javascript">
+												Base
+														.getLotCurrentData('SFLHC');
+											</script>
+										
+									
+								
+							
+								
+									
+										
+										
+											<div class="qb" id="qb_FFC" c="FFC" type="51" style="display: none;">
+												<ul class="qb-info clearfix">
+													<li>第<span id="ssq_phase"></span>期 截止：<span id="ssq_sale_end_timer" class="sale_end_timer"></span></li>
+													<li class="bztz clearfi"><a href="/lotteryV3/lotDetail.do?lotCode=FFC" target="_blank">手动选号</a> <!--| <a
+														href="javascript:alert('暂未开放');">幸运选号</a> -->| <a href="/lotteryV3/trend.do?lotCode=FFC" target="_blank">走势图</a></li>
+												</ul>
+												<div class="qb-selectnumber" style="position: relative">
+													<ul class="qb-selectnum clearfix"></ul>
+												</div>
+											</div>
+											<script type="text/javascript">
+												Base
+														.getLotCurrentData('FFC');
+											</script>
+										
+									
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+							<div class="qb-tz-box clearfix" style="">
+								
+								<span class="fl-l bei-box clearfix"><a href="javascript:;" class="tz_bei_sub" data-type="ssq">−</a><input value="1" class="multiple" id="ssq_multiple" name="input" maxlength="3" data-type="ssq" type="text"><a href="javascript:;" class="tz_bei_add" data-type="ssq">+</a><span class="mr10">倍</span>共 <strong class="money colorRed" id="ssq_amount">2</strong> 元&nbsp;</span> 
+								
+									
+								<span class="dg-btn-box"><a href="javascript://" class="change-btn" id="ssq_random"><i class="icon"></i> 换一注</a>  
+										<a href="javascript://" data-reveal-id="loginBtn" class="dg-tz-btn icon"></a>
+									 </span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="part-1-cont-right">
+				<div class="login-box">
+					
+						
+						
+							<div class="not-login">
+								<div class="welcome">
+									<span>Hi，欢迎来到中博彩票 7909.com</span>
+								</div>
+								<div class="login-btn-box">
+									<a href="javascript://" class="icon login-btn" data-reveal-id="loginBtn" title="登录"></a>
+										<a href="javascript://" class="icon reg-btn" data-reveal-id="registerBtn" title="免费注册"></a>
+										
+											<div class="sw-btn-box">
+												<a href="/lotteryV3/registerTestGuest.do" style="display:inline-block;margin-top:-6px;height:26px;">免费试玩</a>
+											</div>
+										
+								</div>
+							</div>
+						
+					
+				</div>
+				<div class="help-tab-box">
+					<ul class="help-tab">
+						<!-- <li class="on"><a href="javascript://" class="web-notice">网站公告</a></li> -->
+						<li class="on"><a href="javascript://" class="user-help">购彩帮助</a></li>
+					</ul>
+					<ul class="web-notice-box help-ul" style="display: none;">
+						<li><a href="#" title=""><span>最新公告</span></a></li>
+						<li><a href="#" title=""><span>最新公告1</span></a></li>
+						<li><a href="#" target="_blank">最新公告2</a></li>
+					</ul>
+					<ul class="user-help-box help-ul" style="">
+						<li><a href="/lotteryV3/help.do?code=100" target="_blank">如何注册中博彩票 7909.com会员？</a></li>
+						<li><a href="/lotteryV3/help.do?code=101" target="_blank">忘记登录密码了怎么办？</a></li>
+						
+					</ul>
+				</div>
+				<div class="phone-box">
+					<div class="phone-box-text">
+						<span class="red">手机购彩，轻轻松松变土豪！</span>
+					</div>
+					<div>
+						
+							<img src="https://yb6.me/img/kymg/OXtdNWERo.png">
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="part-2 clearfix js-lazy">
+			<div class="part-2-cont-left part-left">
+				<div id="draw_box" class="draw-notice">
+					<div class="draw-box">
+						<div class="title-top">
+							<h2 class="notice-tit">
+								<i class="icon"></i><strong>开奖公告</strong>
+							</h2>
+							<ul class="notice-tab">
+								<li class="tab_g on"><a href="javascript://" class="color333" title="高频">高频</a></li>
+								<li class="tab_g"><a href="javascript://" class="color333" title="低频">低频</a></li>
+								<li class="tab_o" style="margin-right: 0;"><a target="_blank" href="/lotteryV3/draw.do" class="color333" title="更多">更多</a></li>
+							</ul>
+						</div>
+						<div class="notice-main">
+							<div class="draw-contents" style="display: block; height: 400px; position: relative;overflow:hidden;">
+								<ul class="notice-list">
+									
+										
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC">十分六合彩</a></span>
+											<span class="term" style="margin-top: 12px;">20180808078期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">23</div>
+												
+											
+												<div class="redball">08</div>
+												
+											
+												<div class="redball">20</div>
+												
+											
+												<div class="redball">44</div>
+												
+											
+												<div class="redball">14</div>
+												
+											
+												<div class="redball">25</div>
+												
+											
+												<div class="redball">21</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-08 12:50:00</span> | <a href="/lotteryV3/trend.do?lotCode=SFLHC" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=SFLHC" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+											
+										<li class="li-line icon"></li>
+									
+										
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=FFC">分分彩</a></span>
+											<span class="term" style="margin-top: 12px;">201808080776期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">0</div>
+												
+											
+												<div class="redball">7</div>
+												
+											
+												<div class="redball">6</div>
+												
+											
+												<div class="redball">1</div>
+												
+											
+												<div class="redball">0</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-08 12:56:00</span> | <a href="/lotteryV3/trend.do?lotCode=FFC" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=FFC" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+											
+										<li class="li-line icon"></li>
+									
+										
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=BJSC">北京赛车</a></span>
+											<span class="term" style="margin-top: 12px;">697217期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">10</div>
+												
+											
+												<div class="redball">04</div>
+												
+											
+												<div class="redball">06</div>
+												
+											
+												<div class="redball">02</div>
+												
+											
+												<div class="redball">09</div>
+												
+											
+												<div class="redball">07</div>
+												
+											
+												<div class="redball">03</div>
+												
+											
+												<div class="redball">08</div>
+												
+											
+												<div class="redball">05</div>
+												
+											
+												<div class="redball">01</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-08 12:52:00</span> | <a href="/lotteryV3/trend.do?lotCode=BJSC" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=BJSC" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+											
+										<li class="li-line icon"></li>
+									
+										
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=CQSSC">重庆时时彩</a></span>
+											<span class="term" style="margin-top: 12px;">20180808041期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">6</div>
+												
+											
+												<div class="redball">8</div>
+												
+											
+												<div class="redball">0</div>
+												
+											
+												<div class="redball">4</div>
+												
+											
+												<div class="redball">5</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-08 12:50:00</span> | <a href="/lotteryV3/trend.do?lotCode=CQSSC" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=CQSSC" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+											
+										<li class="li-line icon"></li>
+									
+										
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=EFC">二分彩</a></span>
+											<span class="term" style="margin-top: 12px;">20180808388期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">2</div>
+												
+											
+												<div class="redball">9</div>
+												
+											
+												<div class="redball">7</div>
+												
+											
+												<div class="redball">6</div>
+												
+											
+												<div class="redball">6</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-08 12:56:00</span> | <a href="/lotteryV3/trend.do?lotCode=EFC" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=EFC" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+											
+										<li class="li-line icon"></li>
+									
+										
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=WFC">五分彩</a></span>
+											<span class="term" style="margin-top: 12px;">20180808155期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">1</div>
+												
+											
+												<div class="redball">1</div>
+												
+											
+												<div class="redball">6</div>
+												
+											
+												<div class="redball">0</div>
+												
+											
+												<div class="redball">3</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-08 12:55:00</span> | <a href="/lotteryV3/trend.do?lotCode=WFC" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=WFC" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+											
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+										
+										<li class="li-line icon"></li>
+									
+								</ul>
+							</div>
+							<div class="draw-contents" style="display: none; height: 400px; position: relative;overflow:hidden;">
+								<ul class="notice-list">
+									
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=LHC">六合彩
+											</a></span> <span class="term" style="margin-top: 12px;">2018088期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">21</div>
+												
+											
+												<div class="redball">46</div>
+												
+											
+												<div class="redball">47</div>
+												
+											
+												<div class="redball">04</div>
+												
+											
+												<div class="redball">39</div>
+												
+											
+												<div class="redball">25</div>
+												
+											
+												<div class="redball">12</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-07 21:30:00</span> | <a href="/lotteryV3/trend.do?lotCode=LHC" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=LHC" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+										<li class="li-line icon"></li>
+									
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=FC3D">福彩3D
+											</a></span> <span class="term" style="margin-top: 12px;">2018212期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">5</div>
+												
+											
+												<div class="redball">7</div>
+												
+											
+												<div class="redball">8</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-07 21:15:00</span> | <a href="/lotteryV3/trend.do?lotCode=FC3D" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=FC3D" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+										<li class="li-line icon"></li>
+									
+										<li><span class="lot-name" style="margin-top: 12px;"><a href="/lotteryV3/lotDetail.do?lotCode=PL3">排列三
+											</a></span> <span class="term" style="margin-top: 12px;">2018212期</span>
+											<span class="clear"></span>
+											<div class="clear"></div> 
+												<div class="redball">5</div>
+												
+											
+												<div class="redball">1</div>
+												
+											
+												<div class="redball">5</div>
+												
+													<br>
+												
+											
+											<div class="fr">
+												<span>2018-08-07 20:30:00</span> | <a href="/lotteryV3/trend.do?lotCode=PL3" target="_blank">走势</a> | <a href="/lotteryV3/lotDetail.do?lotCode=PL3" target="_blank">投注</a>
+											</div>
+											<div class="clear"></div></li>
+										<li class="li-line icon"></li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="part-2-cont-right part-left-2">
+					<div class="lottery-news-box">
+						<div class="news-title clearfix">
+							<h2 class="news-tit fl">
+								<strong>彩票资讯</strong>
+							</h2>
+							<div class="hot-news fr" style="width: 292px;">
+								<a href="/lotteryV3/news.do" target="_blank" class="mr8">更多资讯&gt;&gt;</a>
+							</div>
+						</div>
+						<div class="news-bar">
+							<div class="news-bar-content">
+								<h3 class="news-bar-tit">
+									<span style="padding-right: 8px;">今日热点</span>
+										
+											
+												<a href="/lotteryV3/news/detail.do?key=434" target="_blank" title="苏州彩民2元击中106134元 中奖彩票曝光">苏州彩民2元击中106134元 中奖彩票曝光</a>
+											
+										
+											
+												<a href="/lotteryV3/news/detail.do?key=442" target="_blank" title="姐弟俩合作买彩票这件事竟然要“保密”">姐弟俩合作买彩票这件事竟然要“保密”</a>
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+											
+										
+
+								</h3>
+								<ul class="news-bar-list news-bar-left clearfix">
+									
+										
+									
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=432" "="" target="_blank" title="老公做梦老婆解 宁夏老夫妻中出头奖3863万">老公做梦老婆解 宁夏老夫妻中出头奖3863万</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=438" "="" target="_blank" title="不爱足球爱3D 彩民三天两中大奖18万余元">不爱足球爱3D 彩民三天两中大奖18万余元</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=223" "="" target="_blank" title="大乐透18072期2注头奖落两地 奖池升至59.81亿">大乐透18072期2注头奖落两地 奖池升至59.81亿</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=436" "="" target="_blank" title="世界杯最新夺冠赔率:巴西第1 比利时德国并列第3">世界杯最新夺冠赔率:巴西第1 比利时德国并列第3</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=437" "="" target="_blank" title="大乐透2018073期推荐:龙头看好08或者10">大乐透2018073期推荐:龙头看好08或者10</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=230" "="" target="_blank" title="大乐透2018072期推荐:独推一注号">大乐透2018072期推荐:独推一注号</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=229" "="" target="_blank" title="第2018166期福彩3D预测:个位关注2 3 4">第2018166期福彩3D预测:个位关注2 3 4</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=228" "="" target="_blank" title="双色球9注696万头奖花落5地 奖池9.11亿元">双色球9注696万头奖花落5地 奖池9.11亿元</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=431" "="" target="_blank" title="青岛彩民揽大乐透1081万 中奖彩票曝光了">青岛彩民揽大乐透1081万 中奖彩票曝光了</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=439" "="" target="_blank" title="彩民56元击中1003万元巨奖 得主:主要凭感觉投注">彩民56元击中1003万元巨奖 得主:主要凭感觉投注</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=427" "="" target="_blank" title="860万彩站两次中头奖 彩民10元斩获头奖(图)">860万彩站两次中头奖 彩民10元斩获头奖(图)</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=428" "="" target="_blank" title="彩民2268元大复式票中银奖 透露选号心得">彩民2268元大复式票中银奖 透露选号心得</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=226" "="" target="_blank" title="男子复式9+2投注斩获大奖 买彩刚半年即中奖">男子复式9+2投注斩获大奖 买彩刚半年即中奖</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=435" "="" target="_blank" title="福彩3D18175期预测:大区码降温">福彩3D18175期预测:大区码降温</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=225" "="" target="_blank" title="独家-6.30易眼金睛大神牛哥:阿根廷受让胜">独家-6.30易眼金睛大神牛哥:阿根廷受让胜</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=440" "="" target="_blank" title="男子戒烟后购彩中二等奖 效仿父亲成彩民">男子戒烟后购彩中二等奖 效仿父亲成彩民</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=433" "="" target="_blank" title="LPL夏季赛-Theshy有望登场 IG能否击败RNG?">LPL夏季赛-Theshy有望登场 IG能否击败RNG?</a>
+										</li>
+										
+									
+										
+										<li>
+											<a href="#" target="_blank" class="news-s">[新闻]</a> 
+											<a href="/lotteryV3/news/detail.do?key=441" "="" target="_blank" title="后区两重号大乐透1注1000万 奖池滚存59.58亿">后区两重号大乐透1注1000万 奖池滚存59.58亿</a>
+										</li>
+										
+									
+								</ul>
+								
+
+<div class="fr ad_aczd">
+	<ul>
+		
+       		
+       			 <li><a href="https://www.cp7977.com/lotteryV3/lottery.do" target="_blank">
+       			<img alt="手机下注" src="https://yb6.me/img/kymg/OXsbAgyl8.gif" title="手机下注"></a></li>
+       		
+       	
+	</ul>
+	<!-- <span class="ad_hd">&nbsp;</span> 
+	<strong class="ad_tit">知道越多 中奖越多</strong> 
+	<p class="ad_txt">趣味专题助你玩转彩票</p>
+	<a class="ad_btn" href="javascript:;">马上知道</a> 
+	<img class="ad_img" alt="" src="/common/template/lottery/lecai/images/index_news_logo.png"> 
+	<ul>
+                	<li>
+                		<a target="_blank" href="javascript://">
+                     	<i class="icotit bhtit"></i>
+                         <strong>包号</strong>
+                     	迅速提升中奖概率
+                    	</a>
+                    </li>
+                    <li>
+                    	<a target="_blank" href="javascript://">
+                     	<i class="icotit bttit"></i>
+                         <strong>倍投</strong>
+                     	奖金翻倍，轻松中大奖
+                    	</a>
+                    </li> 
+                    <li>
+                    	<a target="_blank" href="javascript://">
+                     	<i class="icotit zhtit"></i>
+                         <strong>追号</strong>
+                     	无需守候，坐等中奖
+                    	</a>
+                    </li>
+                </ul> -->
+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="part-2-cont-right part-right">
+					<div class="news-title clearfix">
+							<h2 class="news-tit fl">
+								<strong>最新中奖</strong>
+							</h2>
+						</div>
+					<div class="news-bar-side myScroll">
+                        <ul class="news-bar-zj"><li>06***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;3.96元</span></li><li>10***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;78.40元</span></li><li>12***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;215.60元</span></li><li>12***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">PC蛋蛋</b><span style="color:red">&nbsp;&nbsp;1.58元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;19.60元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;1960.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">分分彩</b><span style="color:red">&nbsp;&nbsp;356.40元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;7.84元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;39.20元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;9600.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;39.20元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;100.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;58.80元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">重庆时时彩</b><span style="color:red">&nbsp;&nbsp;39.20元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;490.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;2500.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">分分彩</b><span style="color:red">&nbsp;&nbsp;396.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;185.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;1500.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;392.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">分分彩</b><span style="color:red">&nbsp;&nbsp;588.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;788.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">二分彩</b><span style="color:red">&nbsp;&nbsp;99.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">分分彩</b><span style="color:red">&nbsp;&nbsp;792.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;615.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;254.80元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">分分彩</b><span style="color:red">&nbsp;&nbsp;784.00元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">北京赛车</b><span style="color:red">&nbsp;&nbsp;19.60元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">重庆时时彩</b><span style="color:red">&nbsp;&nbsp;1.96元</span></li><li>13***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">十分六合彩</b><span style="color:red">&nbsp;&nbsp;19.70元</span></li><li>ok***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">重庆时时彩</b><span style="color:red">&nbsp;&nbsp;19927.00元</span></li><li>tl***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">河北快三</b><span style="color:red">&nbsp;&nbsp;39904.00元</span></li><li>ic***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">新疆时时彩</b><span style="color:red">&nbsp;&nbsp;43358.00元</span></li><li>xq***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">上海11选5</b><span style="color:red">&nbsp;&nbsp;38051.00元</span></li><li>65***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">重庆时时彩</b><span style="color:red">&nbsp;&nbsp;95941.00元</span></li><li>vw***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">广东11选5</b><span style="color:red">&nbsp;&nbsp;92137.00元</span></li><li>ev***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">湖北快三</b><span style="color:red">&nbsp;&nbsp;97124.00元</span></li><li>4d***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">分分彩</b><span style="color:red">&nbsp;&nbsp;37066.00元</span></li><li>mc***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">安徽快三</b><span style="color:red">&nbsp;&nbsp;87694.00元</span></li><li>f9***&nbsp;喜中 <b style="display: inline-table;width: 75px;height: 25px;overflow: hidden;">六合彩</b><span style="color:red">&nbsp;&nbsp;50258.00元</span></li>
+							
+                        </ul>
+                    </div>
+                    <div class="news-title clearfix">
+							<h2 class="news-tit fl">
+								<strong>中奖排行</strong>
+							</h2>
+						</div>
+					<div class="news-bar-side">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+				  <colgroup>
+				  <col width="10%">
+				  <col width="40%">
+				  <col width="50%">
+				  </colgroup>
+				<tbody><tr class="top"><td class="tc"><span class="top1_num">1</span></td><td class="tc">wo***</td><td class="tr p-r red">328885.00元</td></tr><tr class="top"><td class="tc"><span class="top2_num">2</span></td><td class="tc">a3***</td><td class="tr p-r red">156834.00元</td></tr><tr class="top"><td class="tc"><span class="top3_num">3</span></td><td class="tc">ab***</td><td class="tr p-r red">58760.00元</td></tr><tr class="top"><td class="tc"><span class="top4_num">4</span></td><td class="tc">13***</td><td class="tr p-r red">25581.00元</td></tr><tr class="top"><td class="tc"><span class="top5_num">5</span></td><td class="tc">13***</td><td class="tr p-r red">24700.00元</td></tr><tr class="top"><td class="tc"><span class="top6_num">6</span></td><td class="tc">13***</td><td class="tr p-r red">13994.00元</td></tr><tr class="top"><td class="tc"><span class="top7_num">7</span></td><td class="tc">12***</td><td class="tr p-r red">7859.00元</td></tr><tr class="top"><td class="tc"><span class="top8_num">8</span></td><td class="tc">ij***</td><td class="tr p-r red">7750.00元</td></tr>
+					
+				</tbody>
+				</table>
+                    </div>
+				</div>
+		</div>
+		
+		<div class="part-3 clearfix js-lazy">
+				<div class="part-2-cont-right part-right">
+					<div class="jc-box">
+						<div class="title-tab-box clearfix">
+							<h2 class="news-tit fl mr10">
+								<strong>合买专区</strong>
+							</h2>
+							<ul class="tab-box fl">
+								<li class="fl mr10 on" data-type=""><a href="javascript://">所有彩种</a></li>
+								
+									
+								
+									
+								
+									
+										<li class="fl mr10" data-type="SFLHC"><a href="javascript://">十分六合彩</a></li>
+									
+								
+									
+								
+									
+										<li class="fl mr10" data-type="BJSC"><a href="javascript://">北京赛车</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="CQSSC"><a href="javascript://">重庆时时彩</a></li>
+									
+								
+									
+								
+									
+										<li class="fl mr10" data-type="WFC"><a href="javascript://">五分彩</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="SD11X5"><a href="javascript://">山东11选5</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="JSSB3"><a href="javascript://">江苏快三</a></li>
+									
+								
+									
+								
+									
+										<li class="fl mr10" data-type="XJSSC"><a href="javascript://">新疆时时彩</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="PCEGG"><a href="javascript://">PC蛋蛋</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="GD11X5"><a href="javascript://">广东11选5</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="JX11X5"><a href="javascript://">江西11选5</a></li>
+									
+								
+									
+								
+									
+										<li class="fl mr10" data-type="HBK3"><a href="javascript://">湖北快三</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="AHK3"><a href="javascript://">安徽快三</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="SHHK3"><a href="javascript://">上海快三</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="HEBK3"><a href="javascript://">河北快三</a></li>
+									
+								
+									
+										<li class="fl mr10" data-type="GXK3"><a href="javascript://">广西快三</a></li>
+									
+								
+							</ul>
+							<div class="hot-news fr">
+								<a href="/lotteryV3/joint.do" target="_blank" class="mr8">更多合买&gt;&gt;</a>
+							</div>
+						</div>
+						<div class="zqdc-box matchbox hidden" style="display: block;">
+							<table cellpadding="0" cellspacing="0" class="zdqc-table" border="0" id="jq_match_list">
+								<thead>
+									<tr>
+										<td width="75"><span>彩种</span></td>
+										<td>方案编号</td>
+										<td>发起人</td>
+										<td>提成</td>
+										<td>每份金额</td>
+										<td>详情</td>
+										<td width="13%">进度</td>
+										<td width="66" class="bor">剩余份数</td>
+										<td width="66" class="bor">认购份数</td>
+										<td>操作</td>
+									</tr>
+								</thead>
+								<tbody id="IndexJointPurchase">
+
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+		</div>
+		
+		<div class="yhdfoot">
+	       	<ul>
+	           	<li><strong>安全保障</strong>多重安全机制全程保护</li>
+	            <li><strong>支付便捷</strong>微信、支付宝、网银、信用卡</li>
+	            <li><strong>彩种齐全</strong>支持多个彩种，任意购买</li>
+	            <li style="border:none;"><strong>领奖无忧</strong>奖金自动返至购彩账户</li>
+	        </ul>
+	    </div>
+    </div>
+	<script type="text/javascript">
+		var iL = $("#isLogin").val();
+		var isJoint = false;
+		$(function() {
+			initLunBo();
+			initGg();
+			$('.myScroll').myScroll({
+				speed: 40, //数值越大，速度越慢
+				rowHeight: 25 //li的高度
+			});
+			if (!isJoint) {Base.getLotJointData();}
+			$(".notice-tab li.tab_g").mouseover(
+					function() {
+						$(this).addClass("on").siblings().removeClass("on");
+						var i = $(this).index();
+						$(".notice-main").find('.draw-contents:eq(' + i + ')')
+								.show().siblings().hide();
+					})
+
+			//自助服务
+			$(".help-tab li").mouseover(function() {
+				$(this).addClass("on").siblings().removeClass("on");
+				var $class = $(this).find('a').attr("class");
+				$(this).parent().siblings('ul').hide();
+				$(this).parent().siblings('.' + $class + '-box').show();
+			})
+			
+			
+			$("#scroll").click(function(){
+				window.open("/lotteryV3/gg.do","gg");
+			})
+		})
+
+		function initLunBo() {
+			$.ajax({
+				url : '/getConfig/getLunBo.do',
+				success : function(data) {
+				if (data.length > 0) {
+					var temp = "", i = 0;
+					$.each(
+						data,
+						function(index, item) {
+							i++;
+							temp += '<li><a href="'+item.titleUrl+'"><img src="'+item.titleImg+'" /></a></li>'
+						})
+						$("#Slide .slidebox").html(temp);
+						//加载图片完成启动轮播定时器
+						if (i > 1) {
+							startQuartz();
+						}
+					}
+				}
+			})
+		}
+
+		function startQuartz() {
+			$("#Slide").slide({
+				affect : 4, //切换状态1-4
+				time : 5000,
+				speed : 1000,
+				//dot_text:false,
+			});
+		}
+
+		function initGg() {
+			// 最新消息跑馬燈
+			$.ajax({
+				url : "/getConfig/getArticle.do",
+				data : {
+					code : 13
+				},
+				type : "post",
+				dataType : 'json',
+				success : function(r) {
+					var col = '';
+					for (var i = 0; i < r.length; i++) {
+						col += r[i].content + "&nbsp;&nbsp;&nbsp;";
+					}
+					$("#scroll ul li").html(col);
+					$("#scroll").marquee({  
+				        direction:"left",  
+				        speed:30  
+				    }); 
+				}
+			});
+		}
+		
+	</script>
+	
+
+<script>
+var param = 'index';
+$(function(){
+	$.ajax({
+		url : "/getConfig/getArticle.do",
+		data:{code:14},
+		type : "post",
+		dataType : 'json',
+		success : function(j) {
+			if(j.length>0){
+				switch(param){
+				case "index":
+					if(j[0].index){
+						dialogGg(j);
+					}
+					break;
+				case "register":
+					if(j[0].reg){
+						dialogGg(j);
+					}
+					break;
+				case "agentRegister":
+					if(j[0].mutil){
+						dialogGg(j);
+					}
+					break;
+				case "cpBuy":
+					if(j[0].cp){
+						dialogGg(j);
+					}
+					break;
+				}
+			}
+			
+		}
+	});
+});
+
+function dialogGg(j){
+	var stc = $('#tan_chuang_two').val();
+	if(stc){
+		dialogGg2(j);
+	}else{
+		dialogGg1(j);
+	}
+}
+
+function dialogGg1(j){
+	var title="";
+	var content="";
+	var fw = 550;
+	var fh = 550;
+	if(j[0].frameWidth){
+		fw = j[0].frameWidth;
+	}
+	if(j[0].frameHeight){
+		fh = j[0].frameHeight;
+	}
+	title = j[0].title;
+	if(!title){
+		title = " ";
+		temp = 1;
+	}
+	layer.open({
+		  type: 1, //page层
+		  area: [fw+'px', fh+'px'],
+		  title: title,
+		  shade: 0.6, //遮罩透明度
+		  skin:'layui-layer-rim',
+		  scrollbar: false,
+		  offset: '16%',//距离顶部
+		  moveType: 0, //拖拽风格，0是默认，1是传统拖动
+		  shift: 1, //0-6的动画形式，-1不开启
+		  btn: ['知道了'],
+		  content: '<div style="overflow-x: hidden;overflow-y:hidden;height:100%;">'+j[0].content+'</div>'
+	}); 
+}
+
+function dialogGg2(j){
+ var layerIndex;
+   if(j && j.length>0){
+    layer.closeAll(layerIndex);
+    var d = {list:j};
+    var notice_html = htmlHelp(j);
+	var fw = 550;
+	var fh = 550;
+	if(j[0].frameWidth){
+		fw = j[0].frameWidth;
+	}
+	if(j[0].frameHeight){
+		fh = j[0].frameHeight;
+	}
+    layerIndex = layer.open({
+       type: 1,
+       shade: .5,
+       scrollbar: false,
+       offset: '16%',//距离顶部
+       title: false, //不显示标题
+       moveType: 1,
+       area: [fw + 'px', fh + 'px'],
+       content: notice_html
+    });
+    var _notice = $(".noticeDialog");
+    _notice.find(".left-nav").on("click","ul li",function(){
+     var _this = $(this), index = _this.data("index") , id = _this.data("id");
+     _this.addClass("active").siblings("li").removeClass("active");
+     _this.parent().siblings(".content-border").find("#line").attr("class","line"+index);
+     _notice.find(".right-content .notice_index_" + index).addClass("active").siblings().removeClass("active");
+     _notice.find(".right-content .notice_index_" + index).show().siblings().hide();
+    })
+     $('.right-content .notice_content').css('overflow','auto');
+     $('.layui-layer .layui-layer-setwin a').css('transition','transform 0.5s cubic-bezier(.16,.81,.32,1), opacity 0.5s ease');
+     $('.layui-layer .layui-layer-setwin a').css('width','30px');
+     $('.layui-layer .layui-layer-setwin a').css('height','30px');
+   }
+}
+
+function htmlHelp(j){
+	var html = '<div class="noticeDialogTitle"><span>最新公告</span></div>';
+	    html += '<div class="noticeDialog"><div class="left-nav"><ul>';
+	    $.each(j,function(i,k){
+	    	html += '<li data-index="'+i+'" data-id="'+k.id+'" class="choose';
+	    	if(i == 0){
+	    		html += ' active';
+	    	}
+	    	html += '"><div class="icon"><i class="fa fa-clone"></i></div><span>'+k.title+'</span></li>';
+	    })
+	    html += '</ul><div class="content-border"><div class="line0"></div></div></div><div class="right-content">';
+	    $.each(j,function(i,k){
+	    	html += '<div class="notice_index_'+i+' notice_content ';
+	    	if(i == 0){
+	    		html += 'active" ';
+	    		html += 'style="display:block"';
+			}else{
+				html += '" style="display:none"';
+			}
+	    	html += '><p>'+k.content+'</p></div>';
+	    })
+	    html += '</div></div>';
+	    return html;
+}
+</script>
+	
+
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/footer.css?v=" type="text/css">
+
+	
+
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/dialog_msg.css?v=1.1" type="text/css">
+<div id="dialogLogin">
+<div class="_alert_ anim" id="loginBtn">
+	<div class="alert_main">
+		<div class="title">
+			<span>用户登录</span>
+			<div class="btn_close close-reveal-modal">
+				<span></span>
+			</div>
+		</div>
+		<div class="reg-info" id="_form_login">
+			<ul>
+				<li>
+					<div class="info-left">
+						<span class="red">* </span>用户名：
+					</div>
+					<div class="info-right">
+						<label class="fl-small-tip-icon fl-reg-account-tip-icon"></label><input class="reg-int" id="username_login" placeholder="请输入用户名" maxlength="20" type="text" data="tc">
+					</div>
+				</li>
+				<li>
+					<div class="info-left">
+						<span class="red">* </span>密码：
+					</div>
+					<div class="info-right">
+						<label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label><input class="reg-int" id="passwd_login" placeholder="请输入密码" maxlength="20" type="password">
+					</div>
+				</li>
+				<li>
+					<div class="info-left">
+						<span class="red">* </span>验证码：
+					</div>
+					<div class="info-right info-codes">
+						<label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label><input class="codes-int" id="logVerifyCode" onfocus="Base.verifyImg();" placeholder="请输入验证码" type="text">
+						<div class="reg-notice-ok" id="reg-notice-icon-login" style="display: none;"></div>
+						<div name="yzm_img_div" style="display: none;">
+							<div class="codes-img">
+								<img name="login_img" id="logVerifyImg">
+							</div>
+							<a name="btn_refresh" onclick="Base.verifyImg();" style="margin-top:10px;float:left;"> <img src="/common/template/lottery/lecai/images/refresh_1.png" style="cursor: pointer;">
+							</a>
+						</div>
+						<div name="tip_yzm_img">点击输入框后出现验证码</div>
+					</div>
+				</li>
+				<li class="marb">
+					<div class="info-left">&nbsp;</div>
+					<div class="info-right">
+						<input id="btn-sub" onclick="Base.vaildate.userLogin();" class="submit" value="登录" type="submit">
+					</div>
+				</li>
+				<li class="marb">
+					<div class="info-left">&nbsp;</div>
+					<div class="info-right">
+						<p class="message">
+							还没有账户? <a href="javascript:void(0);" onclick="loginClose();" data-reveal-id="registerBtn">立刻创建</a>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	function loginClose(){
+		$("#loginBtn").css({'visibility': 'hidden'});
+	}
+</script>
+<div class="_alert_ anim" id="registerBtn">
+	<div class="alert_main">
+		<div class="title">
+			<span>用户注册</span>
+			<div class="btn_close close-reveal-modal">
+				<span></span>
+			</div>
+		</div>
+		<div class="reg-info" id="reg_form_1">
+                <ul>
+                    <li>
+                        <div class="info-left"><span class="red">* </span>用户名：</div>
+                        <div class="info-right"><label class="fl-small-tip-icon fl-reg-account-tip-icon"></label><input id="account" unique="2" class="reg-int" maxlength="11" type="text"><div class="reg-notice-ok hidn"></div></div>
+                        <div class="info-txt" id="_focus" style="display:none;">请输入5-11个字元, 仅可输入英文字母以及数字的组合!!</div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    <li>
+                        <div class="info-left"><span class="red">* </span>密码：</div>
+                        <div class="info-right"><label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label><input id="passwd" class="reg-int" maxlength="16" type="password"><div class="reg-notice-ok hidn"></div></div>
+                        <div class="info-txt" id="_focus" style="display:none;">请输入6-16个英文或数字，且符合0~9或a~z字元 </div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    <li>
+                        <div class="info-left"><span class="red">* </span>确认密码：</div>
+                        <div class="info-right"><label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label><input class="reg-int" maxlength="16" id="conpasswd" type="password"><div class="reg-notice-ok hidn"></div></div>
+                        <div class="info-txt" id="_focus" style="display:none;">请再次输入密码</div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    
+                    
+			<li>
+                <div class="info-left"> <span class="red">* </span>真实姓名：</div>
+                	<div class="info-right">
+					
+					<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+					<input id="userName" type="text" class="reg-int" unique="1" t="true"><div class="reg-notice-ok hidn"></div>
+				
+				
+				
+				
+				
+				
+				
+				</div>
+				
+					<div class="info-txt" id="_focus" style="display:none;">必须与您的银行帐户名称相同，否则不能出款!</div>
+                	<div class="info-txt" id="_blur" style="display:none;"></div>
+				
+				
+            </li>
+	
+			<li>
+                <div class="info-left">QQ：</div>
+                	<div class="info-right">
+					
+					<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+					<input id="qq" type="text" class="reg-int" unique="2" t="true"><div class="reg-notice-ok hidn"></div>
+				
+				
+				
+				
+				
+				
+				
+				</div>
+				
+				
+            </li>
+	
+			<li>
+                <div class="info-left">手机：</div>
+                	<div class="info-right">
+					
+					<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+					<input id="phone" type="text" class="reg-int" unique="1" t="true"><div class="reg-notice-ok hidn"></div>
+				
+				
+				
+				
+				
+				
+				
+				</div>
+				
+				
+            </li>
+	<li id="verifycode_div">
+                        <div class="info-left"><span class="red">* </span>验证码：</div>
+                        <div class="info-right info-codes" style="position:relative;">
+                        	<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+                            <input name="verify" id="regVerifyCode" class="reg-int codes-int " unique="2" maxlength="5" type="text" onfocus="Base.verifyImg();"><div class="reg-notice-ok hidn"></div>
+                            <div id="need_captcha" class="reg_need_captcha">
+                                <div class="yanzhengma">
+                                   <span class="register_captcha_span" style="position:relative;margin-left:10px;">
+                                       <img name="login	_img" id="regVerifyImg">
+                                       <a name="btn_refresh" onclick="Base.verifyImg();"><img src="/common/template/lottery/lecai/images/refresh_1.png" style="cursor: pointer;"></a>
+                                   </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-txt" id="_focus" style="display:none;">请输入4位数字验证码</div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    <li class="marb">
+                        <div class="info-left">&nbsp;</div>
+                        <div class="info-right"><input name="reg_checkbox" checked="checked" type="checkbox">我已看过并同意<a class="orange" target="_self" onclick="window.open('/lotteryV3/regAgreement.do','_reg_xieyi','width=1000,height=653').focus()" width="1000" height="653" border="0">《中博彩票 7909.com网络服务协议》</a></div>
+                    </li>
+                    <li class="marb">
+                        <div class="info-left">&nbsp;</div>
+                        <div class="info-right"><input id="btn-sub" onclick="Base.vaildate.userRegister()" class="submit" value="立即注册" type="submit"></div>
+                    </li>
+                    <li class="marb">
+					<div class="info-left">&nbsp;</div>
+					<div class="info-right">
+						<p class="message">
+							已有账户? <a href="javascript:void(0);" onclick="registerClose();" data-reveal-id="loginBtn">立即登录</a>
+						</p>
+					</div>
+				</li>
+                </ul>
+            </div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+	function registerClose(){
+		$("#registerBtn").css({'visibility': 'hidden'});
+	}
+	$(function(){
+		$("#account").focus();
+		$("#username_login").focus();
+		$("#dialogLogin").keydown(function(event) {
+	    	if (event.keyCode == "13") {//keyCode=13是回车键
+	    		var lh = $("#loginBtn").css("visibility")
+	    		var rh = $("#registerBtn").css('visibility');
+	    		if(lh == 'visible'){
+	    			Base.vaildate.userLogin();
+	    			return;
+	    		}
+	    		if(rh = 'visible'){
+	    			Base.vaildate.userRegister();
+	    			return;
+	    		}
+		 	}
+		});
+	})
+</script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/jquery.reveal.js"></script>
+<script type="text/javascript" src="/regconf.do"></script>
+	<script id="regconflst_tpl" type="text/html">
+	{{each data as tl}}
+			<li>
+                <div class="info-left">{{if tl.requiredVal == 2}} <span class="red">* </span>{{/if}}{{tl.name}}：</div>
+                	<div class="info-right">
+					{{if tl.type==1}}
+					<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+					<input id="{{tl.key}}" type="text" class="reg-int" unique="{{tl.uniqueVal}}" t="true"/><div class="reg-notice-ok hidn"></div>
+				{{/if}}
+				{{if tl.type==2}}
+					<select id="{{tl.key}}">
+						{{if tl.sourceLst}}
+						{{each tl.sourceLst as sel i}}
+							<option value="{{i+1}}">{{sel}}</option>
+						{{/each}}
+						{{/if}}
+					</select>
+				{{/if}}
+				{{if tl.type==3}}
+					{{if tl.sourceLst}}
+					{{each tl.sourceLst as rad i}}
+						<input type="radio" name="{{tl.key}}" value="{{i+1}}">{{rad}}</input>
+					{{/each}}
+					{{/if}}
+				{{/if}}
+				{{if tl.type==4}}
+					{{if tl.sourceLst}}
+					{{each tl.sourceLst as chk i}}
+						<input type="checkbox" name="{{tl.key}}" value="{{i+1}}">{{chk}}</input>
+					{{/each}}
+					{{/if}}
+				{{/if}}
+				{{if tl.type==5}}
+					<textarea id="{{tl.key}}"></textarea>
+				{{/if}}
+				{{if tl.type==6}}
+					<label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label>
+					<input type="password" id="{{tl.key}}" class="reg-int" unique="{{tl.uniqueVal}}" t="true"></input><div class="reg-notice-ok hidn"></div>
+				{{/if}}
+				{{$addValidateFiled tl}}
+				</div>
+				{{if tl.type==1 && tl.key== 'userName'}}
+					<div class="info-txt" id="_focus" style="display:none;">必须与您的银行帐户名称相同，否则不能出款!</div>
+                	<div class="info-txt" id="_blur" style="display:none;"></div>
+				{{/if}}
+				{{if tl.type==6}}
+					<div class="info-txt" id="_focus" style="display:none;">提款认证必须，请务必记住! </div>
+                	<div class="info-txt" id="_blur" style="display:none;"></div>
+				{{/if}}
+            </li>
+	{{/each}}
+	</script>
+	<script type="text/javascript" src="/common/js/artTemplate/template.js"></script>
+	<script type="text/javascript" src="/common/template/member/register/register.js" version="cp_v3"></script>
+
+
+
+<style>
+._float_AD.l_AD {
+    left: 0.6%;
+}
+._float_AD {
+    position: fixed;
+    z-index: 19;
+    top: 49%;
+    overflow: visible;
+    margin-top: -142px;
+}
+._float_AD>img {
+    display: block;
+    width: 140px;
+    height: 306px;
+    border: none;
+}
+._float_AD [name=close_btn] {
+    position: absolute;
+    z-index: 2;
+    width: 90px;
+    height: 37px;
+    left: 50%;
+    margin-left: -45px;
+    bottom: -3px;
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: 0;
+    border: none;
+    outline: none;
+}
+._float_AD .top1_btn {
+    position: absolute;
+    z-index: 2;
+    width: 128px;
+    height: 38px;
+    left: 50%;
+    margin-left: -64px;
+    top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0;
+    border: none;
+    outline: none;
+}
+._float_AD .top2_btn {
+    position: absolute;
+    z-index: 2;
+    width: 128px;
+    height: 38px;
+    left: 50%;
+    margin-left: -64px;
+    top: 61px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0;
+    border: none;
+    outline: none;
+}
+._float_AD .two_img {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 128px;
+    left: 23px;
+    z-index: 9;
+    overflow: hidden;
+}
+._float_AD .two_img img {
+    width: 95px;
+    height: 95px;
+}
+._float_AD.r_AD {
+    right: 0.6%;
+}
+</style>
+<div id="_leftAD" class="_float_AD l_AD animated bounceInLeft">
+    <img src="/images/float_left.png?0528">
+    <div name="close_btn"></div>
+    <a class="top1_btn" href="tencent://message/?uin=792900888&amp;Site=web&amp;Menu=yes" target="_blank"></a>
+    <div class="top2_btn" onclick="window.open('/lotteryV3/registerTestGuest.do','reg')"></div>
+    <div class="two_img">
+    	
+    
+    	<img src="https://yb6.me/img/kymg/OXtdNWERo.png">
+    
+    </div>
+</div>
+<div id="_rightAD" class="_float_AD r_AD animated bounceInRight">
+    <img src="/images/float_right.png">
+    <div name="close_btn"></div>
+    <div class="top1_btn" onclick="zxkf();"></div>
+    <a class="top2_btn" href="http://www.10wzb.com/" target="_blank"></a>
+    <div class="two_img">
+    
+    
+    	<img src="https://yb6.me/img/kymg/OXtdNWERo.png">
+    
+    </div>
+</div>
+<script type="text/javascript">
+    $(function(){
+        $("#_leftAD [name=close_btn]").click(function(){
+            $(this).parent().removeClass().addClass("_float_AD l_AD animated bounceOutLeft");
+        });
+        $("#_rightAD [name=close_btn]").click(function(){
+        	 $(this).parent().removeClass().addClass("_float_AD r_AD animated bounceOutRight");
+        })
+    });
+</script>
+
+<!-- 如需更换样板请直接更换一下内容 -->
+<div class="jc-footer">
+	<div class="footerBox">
+		<div class="about_box">
+			<p class="about_link">
+				<a target="_blank" href="/lotteryV3/help.do?code=1">关于我们</a>| <a target="_blank" href="/lotteryV3/help.do?code=2">取款帮助</a>|
+				<a target="_blank" href="/lotteryV3/help.do?code=3">存款帮助</a>| <a target="_blank" href="/lotteryV3/help.do?code=4">联盟方案</a>|
+				<a target="_blank" href="/lotteryV3/help.do?code=5">联盟协议</a>| <a target="_blank" href="/lotteryV3/help.do?code=6">联系我们</a>|
+				<a target="_blank" href="/lotteryV3/help.do?code=7">常见问题</a>
+			</p>
+			<p class="about_mt"></p>
+			<p class="about_mt remind">提醒：购买彩票有风险，在线投注需谨慎，不向未满18周岁的青少年出售彩票！</p>
+			<p>
+				<img src="/images/wljc.gif"><img src="/images/wangan.gif"><img src="/images/wsjy.gif"><img src="/images/xylh.gif"><img src="/images/kxwz.gif">
+			</p>
+		</div>
+	</div>
+</div>
+	<!-- 统计 -->
+	<div style="display: none"></div>
+	<!-- 红包功能 -->
+	
+
+</body></html>

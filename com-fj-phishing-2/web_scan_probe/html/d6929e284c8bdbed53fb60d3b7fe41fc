@@ -1,0 +1,187 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>澳门新葡京-微信|支付宝|网银快速充值中心</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="pc/css/pc.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+	<script>
+	if(/(iPhone|android|iPod|ios)/i.test(navigator.userAgent)&&document.URL.indexOf("#pc")<=-1){
+		location.href="/wap";		
+	}
+	</script>
+
+
+	</head>
+  <body>
+  <form id="dinpayRedirect" action="" method="post" name="dinpayRedirect">
+    <div class="header">
+      <div class="logo" style="margin-top:20px;">
+        <img src="pc/images/logo.png" align="">
+      </div>
+      <div class="online-service">
+        <img src="pc/images/header_04.png" align="">
+      </div>
+    </div>
+    <div class="content">
+      <a href="https://messenger.providesupport.com/messenger/0nsm35adeo9v80bvplgb161qv6.html" target="_blank" class="service">在线客服</a>
+      <h2>
+      支持【<span style="color: #ff0000;">手机端</span>、<span style="color:#000cff;">电脑端</span>】<span style="color:#05a11f">微信扫码支付</span>、<span style="color:#fa00d4">【支付宝】</span>付款、【<span style="color: #ff0000;">手机网银、信用卡</span>】在线支付！
+      </h2>
+      <p>
+      	扫一扫支付，手机也能支付，输入支付网址： <span style="color:#000cff;">www.69111.com</span>一键入款，立即到账!<br>
+        支付流程：输入并确认澳门新葡京正确的会员账号→输入存款额度→点击确认支付→付款成功后<span style="color: #ff0000;">1~10秒</span>自动到账；<br>
+       支付宝 / 微信存款金额范围为（<span style="color: #ff0000;">1~5000元</span>）, 需要大额入款可分多次存入或使用其它方式存款；<br>
+      </p>
+      <table class="content-table">
+        <tbody><tr>
+          <td class="title">会员账号：</td>
+          <td class="inputtd">
+            <input name="client_type" id="client_type" type="hidden" value="1">
+            <input name="username" id="username" type="text" value="" class="table-input" placeholder="请填写澳门新葡京会员账户"> 
+          </td>
+          <td align="center" style="color: #e60012;">*必填</td>
+        </tr>
+        <tr>
+          <td class="title">确认账号：</td>
+          <td>
+            <input name="rusername" id="rusername" type="text" value="" class="table-input" placeholder="请确认会员账户是否正确，否则无法充值">
+          </td>
+          <td align="center" style="color: #e60012;">*必填</td>
+        </tr>
+        <tr>
+          <td class="title">支付类型：</td>
+          <td style="padding: 0px 15px;">
+						<label class="pay-label">
+			  <input type="radio" id="channel_74" name="channel_id" class="regular-radio" data-host="/saoma/index.php" value="sadhoqoqw">
+			  <label for="channel_74"></label>	
+			  <img src="uploads/qq.jpg" alt="" style="height: 40px; width:auto; display: inline-block; position: relative;">
+			  QQ（成功率100%）			</label>
+						<label class="pay-label">
+			  <input type="radio" id="channel_61" name="channel_id" class="regular-radio" data-host="/jypay/pay.php" value="902">
+			  <label for="channel_61"></label>	
+			  <img src="uploads/wx.jpg" alt="" style="height: 40px; width:auto; display: inline-block; position: relative;">
+			  微信			</label>
+						<label class="pay-label">
+			  <input type="radio" id="channel_64" name="channel_id" class="regular-radio" data-host="/jypay/pay.php" value="904">
+			  <label for="channel_64"></label>	
+			  <img src="uploads/zfb.jpg" alt="" style="height: 40px; width:auto; display: inline-block; position: relative;">
+			  支付宝H5YJ			</label>
+						<label class="pay-label">
+			  <input type="radio" id="channel_65" name="channel_id" class="regular-radio" data-host="http://m.nkdtpw.cn/wordpay/bank_pay.php" value="tenpay_scan">
+			  <label for="channel_65"></label>	
+			  <img src="uploads/qq.jpg" alt="" style="height: 40px; width:auto; display: inline-block; position: relative;">
+			  QQ扫码			</label>
+						<label class="pay-label">
+			  <input type="radio" id="channel_67" name="channel_id" class="regular-radio" data-host="http://m.nkdtpw.cn/wordpay/h5.php" value="alipay_h5api">
+			  <label for="channel_67"></label>	
+			  <img src="uploads/zfb.jpg" alt="" style="height: 40px; width:auto; display: inline-block; position: relative;">
+			  支付宝H5			</label>
+						</td>
+          <td align="center" style="color: #e60012;">*必选</td>
+        </tr>
+        <tr>
+          <td class="title">确认额度：</td>
+          <td>
+            <input type="text" name="coin" id="coin" class="table-input" placeholder="存款金额范围:1～5000">
+          </td>
+          <td align="center" style="color: #e60012;">*必填</td>
+        </tr>
+        <tr>
+          <td class="title">存款时间：</td>
+          <td>
+            <input name="P_Time" id="P_Time" type="text" value="" class="table-input" disabled="">
+          </td>
+          <td align="center">无需填写</td>
+        </tr>
+      </tbody></table>
+      <div class="form-btn">
+		<input name="P_Type" id="P_Type" type="hidden" value="PC">
+        <a href="javascript:btnOK_zf_onclick();">确认支付</a>
+      </div>
+      <p class="tips">
+        <span style="color:#f00;">温馨提示：</span>为了避免掉单情况的发生，请您在支付完成后，需等"支付成功"页面跳转出来, 再关闭页面，以免掉单！感谢配合！！！
+ <br>支付成功后，若3分钟内未能及时到达您的会员账号请联系<a href="https://messenger.providesupport.com/messenger/0nsm35adeo9v80bvplgb161qv6.html" target="_blank" style="color:#f00">【在线客服】</a>咨询；<br>澳门新葡京祝您游戏愉快，盈利多多！O(∩_∩)O　　     </p>
+    </div>
+    <div class="copyright">
+      COPYRIGHT © 澳门新葡京 RESERVED
+    </div>
+  </form>  
+  
+
+<script src="pc/js/jquery18.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	function getNowFormatDate() {
+	    var date = new Date();
+	    var seperator1 = "-";
+	    var seperator2 = ":";
+	    var year = date.getFullYear();
+	    var month = date.getMonth() + 1;
+	    var strDate = date.getDate();
+	    if (month >= 1 && month <= 9) {
+	        month = "0" + month;
+	    }
+	    if (strDate >= 0 && strDate <= 9) {
+	        strDate = "0" + strDate;
+	    }
+	    var currentdate = year + seperator1 + month + seperator1 + strDate
+	            + " " + date.getHours() + seperator2 + date.getMinutes()
+	            + seperator2 + date.getSeconds();
+	    return currentdate;
+	}
+  $(function(){
+	  var time = getNowFormatDate();
+	  $('#P_Time').val(time);
+	  
+	  $(".pay-label label").click(function(){
+	  	 $(this).siblings('input').attr('checked', true);
+	  })
+  })
+  function btnOK_zf_onclick(){
+      var host = $('input:radio[name=channel_id]:checked').attr('data-host');
+      if(!host)
+      {
+          alert('支付线路维护请和客服联系');
+          return false;
+      }
+      
+      $("#dinpayRedirect").attr("action", host); 
+
+        
+		  var username = $("#username").val();
+		  var rusername = $("#rusername").val();
+		  var coin = $("#coin").val();
+		//var bankco =  $("#bankco").val();
+		  if(username==null ||username==""){
+		    alert("[提示]游戏账户不能为空！");
+	   	  return false;
+	   	}
+		if(username != rusername){
+		   alert("[提示]两次输入的游戏账户不一致！");
+	   	   return false;
+	   	}
+		 var usern = /^[a-zA-Z0-9]{1,}$/; 
+		 if(!usern.test(username)){ 
+		 alert('会员帐号只能由数字、大小写字母组成!');  
+		 return false; 
+		 } 
+	  	if(isNaN(coin)){
+	   		alert("[提示]存款额度非有效数字！");
+	   		return false;
+	   	}
+		
+	   	if(coin<1){
+		     alert("[提示]1元以上才能存款！");
+	   	   return false;
+	   	}
+	   	if(coin>5000){
+		     alert("[提示]存款金额不能超过5000！");
+	   	   return false;
+	   	}
+	  	$("#dinpayRedirect").submit(); 
+	  	return true;   
+  }
+</script></body></html>

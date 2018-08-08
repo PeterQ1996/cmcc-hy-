@@ -1,0 +1,1054 @@
+<!DOCTYPE html><html class="first zh-cn "><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=7">
+    <title>爵玛纳斯国际</title>
+    <meta name="description" content="">
+
+
+<script async="" src="/js/analytics.js"></script><script src="/common/jquery/jquery-1.12.3.min.js"></script>
+<script>
+//B站模板
+$(function(){
+	reloadImg();
+});
+
+function login(){
+	memberInfo();
+}
+
+document.onkeydown = function(event_e){  
+    if(window.event) {  
+        event_e = window.event;  
+    }  
+
+    var int_keycode = event_e.charCode||event_e.keyCode;  
+    if( int_keycode == '13' ) {  
+//     	memberInfo(); 
+        return false;  
+    }  
+}
+
+function memberInfo(){
+ 	var accountno = $("#accountno").val();
+	var password = $("#password").val();
+	var captcha = $("#code").val();
+
+	if(!accountno){
+		alert("用户名不能为空");
+		return false;
+	} else if(!password){
+		alert("密码不能为空");
+		return false;
+	} else if(!captcha){
+		alert("验证码不能为空");
+		return false;
+	} else if(password.length<6){
+		alert("密码不能小于6位!");
+		return false;
+	}
+		var data = {};
+		data["password"] = password;
+		data["account"] = accountno;
+		data["verifyCode"] = captcha;
+		$.ajax({
+			url : "/login.do",
+			type : "post",
+			data : data,
+			success : function(result, textStatus, xhr) {
+				var ceipstate = xhr.getResponseHeader("ceipstate")
+				if (!ceipstate || ceipstate == 1) {// 正常响应
+					parent.location.href = '/index.do';
+				} else if (ceipstate == 2) {// 后台异常
+					alert("后台异常，请联系管理员!");
+					reloadImg();
+				} else if (ceipstate == 3) { // 业务异常
+					alert(result.msg);
+					reloadImg();
+				}
+			}
+		});
+}
+
+function reloadImg(){
+		var url = "/verifycode.do?timestamp=" + (new Date().getTime());
+		$("#reg-validCode").attr("src", url);
+}
+</script>
+
+<link href="/css/standard.css" rel="stylesheet">
+<link href="/css/hqr.css" rel="stylesheet">
+<link href="/css/font-awesome.css" rel="stylesheet">
+<script src="/common/jquery/jquery-1.12.3.min.js"></script>
+<script async="" src="/js/analytics.js"></script>
+<script src="/js/common.js"></script>
+<script src="/js/upup.js" data-ltl="Y" id="upupjs"></script>
+<script src="/js/float.js"></script>
+<script src="/js/swfobject.js"></script>
+<script src="/js/marquee.js"></script>
+<script src="/js/jquery.easing.1.3.min.js"></script>
+<script src="/common/jquery/jquery.cookie.js"></script>
+
+
+
+<link rel="stylesheet" href="/common/modelCommon/layer/css/layer.css">
+<link rel="stylesheet" href="/common/modelCommon/layer/css/style.css">
+<script src="/common/modelCommon/layer/js/layer.min.js"></script><link rel="stylesheet" href="http://jm831.com/common/modelCommon/layer/js/../css/layer.css" id="layui_layer_csslayercss" style="">
+<script src="/common/jquery/jquery.cookie.js"></script>
+<script>
+	$(function() {
+		$.ajax({
+					url : "/getConfig/getArticle.do",
+					data : {
+						code : 14
+					},
+					type : "post",
+					dataType : 'json',
+					success : function(j) {
+						var title = "";
+						var content = "";
+						var temp = -1;
+						if (j.length > 0) {
+							if (j[0].index) {
+								var fw = 550;
+								var fh = 550;
+								if (j[0].frameWidth && j[0].frameHeight) {
+									fw = j[0].frameWidth;
+									fh = j[0].frameHeight;
+								}
+								title = j[0].title;
+								if (!title) {
+									title = " ";
+									temp = 1;
+								}
+								
+								var showStyle = $('#showStyle').val();
+								if(!showStyle){
+									layer.open({
+										type : 1, //page层
+										area : [ fw + 'px', fh + 'px' ],
+										title : title,
+										shade : 0.6, //遮罩透明度
+										scrollbar : false,
+										offset : '16%',//距离顶部
+										moveType : 0, //拖拽风格，0是默认，1是传统拖动
+										shift : 1, //0-6的动画形式，-1不开启
+										content : '<div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;">'
+												+ j[0].content + '</div>'
+									});
+									if (temp < 0) {
+										$('.layui-layer-title').css({
+// 											'height' : '30px',
+// 											'line-height' : '0px',
+											'font-size' : '16px',
+											'color' : '#4c2515',
+											'font-weight' : 'bold',
+											'text-align' : 'center',
+// 											'margin-bottom' : '10px',
+											//'overflow': 'hidden',
+											'text-overflow' : 'ellipsis',
+											'white-space' : 'nowrap',
+											'padding' : '10px'
+										})
+									}
+								}else{
+									
+									$(function(){
+										  if ($.cookie('SHOW_FRAME')){
+									             $("#LsjmyModal").hide();
+									             $('#Lsj-fkinglayer').hide();
+									             return;
+									         }else{
+									        	 if (temp > 0) {
+									        		 $('#LsjmyModal #Lsj_modal-header').remove();
+									        	 }else{
+									        		 $('#LsjmyModal #lsj_title').html(title);
+									        	 }
+									        	 $('#LsjmyModal #Lsj_modal-content').css('width',fw);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').css('height',fh);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').html(j[0].content);
+									            $('#Lsj-fkinglayer').show();
+									            $("#LsjmyModal").show();    
+									         }
+									});
+									
+								}
+							
+							}
+						}
+
+					}
+				});
+	});
+	
+    function removers(i) {
+        if (i == 1) {
+            $.cookie('SHOW_FRAME', 'Y', {path: '/', expires: ''});
+        }
+        $('#LsjmyModal').remove();
+    }
+</script>
+<!-- 红包功能 -->
+
+	<script src="/common/js/redpacket/redbag.js?v=1.3.5" path=""></script>
+
+<!-- 转盘功能 -->
+
+<!-- 签到功能 -->
+
+<!-- 统计代码 -->
+<style type="text/css" media="screen">#ele-logo-wrap {visibility:hidden}#ele-logo-wrap {visibility:visible}</style></head><body><div style="position: fixed; z-index: 99999999; bottom: 0;"></div>
+<!-- 弹窗 -->
+<div id="LsjmyModal" class="Lsj-Modal">
+    <div class="Lsj_modal-content pop_border_color" id="Lsj_modal-content">
+    
+        <div class="Lsj_modal-header pop_title_box_bcolor" id="Lsj_modal-header">
+            <span class="Lsj-close" onclick="removers();">×</span>
+            <h3 class="pop_title_color" id="lsj_title"></h3>
+        </div>
+        
+        <div class="Lsjmodal-body_contents pop_box_bg_color" id="Lsjmodal-body_contents"></div>
+        
+        <div class="Lsj_modal-footer">
+            <div class="Lsjbtn-bottom-two-right">
+                <button class="Lsj_okBtn Lsj_outline" onclick="removers(1);">下次不再显示</button>
+                <button class="Lsj_okBtn Lsj_filled" onclick="removers();">确定</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="Lsj-fkinglayer" style="display: none;"></div>
+</div>
+
+
+
+  
+	<div id="mainBody">
+		<div id="page-header">
+			<div class="header clearfix">
+				<!-- LOGO -->
+				<div class="header-logo">
+					<object type="application/x-shockwave-flash" id="logo-flash" title="首页" data="/images/logo.swf" width="363" height="117">
+						<param name="wmode" value="transparent">
+						<param name="quality" value="high">
+					</object>
+
+					<style>
+#ele-logo-wrap, #ele-logo-img {
+	width: 363px;
+	height: 117px;
+	background-image: url('/images/logo.png');
+	background-repeat: no-repeat;
+	display: block;
+	cursor: pointer;
+}
+
+#ele-logo-wrap {
+	background-position: 100% 100%;
+}
+
+#ele-logo-img {
+	background-position: 0 0;
+}
+</style>
+
+					<script>
+    (function(){
+        var flashvars = {},
+            params = {
+                wmode: 'transparent',
+                quality: 'high'
+            },
+            attributes = {
+                id: 'logo-flash',
+                title: '首页',
+                onmousedown: "#'"
+            };
+        swfobject.embedSWF('/images/logo.swf', 'ele-logo-wrap', '363', '117', '8.0.35.0', '/images/expressInstall.swf', flashvars, params, attributes);
+        // flash 停用時，避免替代圖因大小不一出現雙層疊影
+        $('#ele-logo-wrap').css('background-image','none');
+    })();
+</script>
+				</div>
+				<div class="header-top clearfix">
+					<!-- est -->
+					<div class="est-wrap"></div>
+					<!-- lang -->
+					<span class="lang-wrap">
+						<style>
+.ele-lang-wrap {
+	height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.ele-lang-option {
+	width: 22px;
+	height: 16px;
+	vertical-align: top;
+	*margin-left: 4px;
+	background: url('/images/lang_rect.png')
+		no-repeat;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+
+.ele-lang-zh-cn {
+	background-position: 0 -40px;
+}
+
+.ele-lang-en {
+	background-position: 0 -80px;
+}
+
+.ele-lang-ja {
+	background-position: 0 -120px;
+}
+
+.ele-lang-ko {
+	background-position: 0 -160px;
+}
+
+.ele-lang-vi {
+	background-position: 0 -200px;
+}
+
+.ele-lang-th {
+	background-position: 0 -240px;
+}
+</style> 
+<span class="ele-lang-wrap"> 
+	<a href="#" target="mem_index" class="ele-lang-option ele-lang-zh-tw" title="繁體中文"></a> 
+	<a href="#" target="mem_index" class="ele-lang-option ele-lang-zh-cn" title="简体中文"></a> 
+	<a href="#" target="mem_index" class="ele-lang-option ele-lang-en" title="English"></a>
+</span>
+
+</span>
+				</div>
+				
+				<!-- 主選單 -->
+				<div class="mainnav-wrap clear">
+					<div class="mainnav">
+						<ul class="clearfix">
+							<li id="LS-first" class="LS-first" title="首页">
+								<a href="/index.do" class="isCurrent current" id="current_index" title="首页">首页</a> <!-- 子選單 -->
+							</li>
+							
+							<li id="LS-live" class="LS-live" title="视讯直播">
+							
+								<a href="/index/real.do" class="isCurrent" id="current_ss" title="视讯直播">视讯直播</a> <!-- 子選單 -->
+							
+							
+							</li>
+							
+							<li id="LS-game" class="LS-game" title="电子游艺">
+							
+								<a href="/index/egame.do" class="js-article-color isCurrent" id="current_egame" data-color="#F00|#F1D896" title="电子游艺" style="color: rgb(255, 0, 0);">电子游艺</a>
+							
+							
+								<div class="main-icon"></div> <!-- 子選單 -->
+							</li>
+							
+							<li id="LS-ltlottery" class="LS-ltlottery" title="彩票游戏" style="">
+							
+								<a href="/index/games.do" id="current_cp" title="彩票游戏">彩票游戏</a> <!-- 子選單 -->
+							
+							
+							</li>
+							<li id="LS-memberexclusiveii1" title="体育投注" style="margin-left: 373px;">
+							<a href="/index/sport.do" class="js-article-color" id="current_yh2" title="体育投注">体育投注</a>
+							<div class="main-icon"></div> <!-- 子選單 --></li>
+							<li id="LS-memberexclusiveii" class="LS-memberexclusiveii" title="优惠活动">
+								<a href="/index/preferential.do" class="js-article-color" id="current_yh" data-color="#F00|#F1D896" title="优惠活动" style="color: rgb(255, 0, 0);">优惠活动</a>
+								<div class="main-icon"></div> <!-- 子選單 --></li>
+							<li id="LS-mobile" class="LS-mobile phoneSite" title="手机下注">
+								<a href="/down.do" target="_blank" title="手机下注">手机下注</a>
+							</li>
+							<li title="在线客服">
+								<a href="javascript:void(0);" class="onlineCustem" id="onlineCustem" title="在线客服" target="_blank">在线客服</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+$(function(){
+	$('.isCurrent').removeClass('current');
+	$('#current_index').addClass('current');
+// 	scollPublicInfo();
+});
+</script>
+			
+			<div class="banner-wrap">
+				<div class="center-wrap clearfix">
+					<div class="header-center clearfix">
+						<!-- 最新消息 -->
+						<div class="news-wrap clearfix">
+							<div class="news-title">公告 NEWS</div>
+							<div class="news-item ele-msg-cp">
+							<div class="ele-news-txt" style="display: inline-block; height: 72px; overflow: hidden; word-break: break-all; word-wrap: break-word;">
+									<marquee scrollamount="3" style="height: 72px;" scrolldelay="150" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+										<span style="font-size: 14px;"><strong><span style="font-family: Verdana, 宋体, Arial, Sans; text-align: center; color: rgb(149, 55, 52);">尊敬的会员您好：为了感谢一直以来您对爵玛纳斯国际支持 本公司决定于5月12日起从原来7X17小时改为7X24小时不间断营业。祝您游戏愉快！</span></strong></span>
+	    							</marquee>
+	    					</div>
+			<style>
+				.ele-msg-cp {
+					cursor: pointer;
+				}
+			</style>
+							</div>
+						</div>
+						<div class="clear news-slogan"></div>
+					</div>
+					
+					
+					
+					  
+	<div class="first-login-wrap">
+						<!-- 登入 -->
+						<form name="LoginForm" id="LoginForm" action="#" method="POST">
+							<input type="hidden" name="uid2" value="guest"> <input type="hidden" name="SS" value=""> <input type="hidden" name="SR" value=""> <input type="hidden" name="TS" value="">
+							<p class="login-unit login-unit-user">
+									<input name="username" type="text" size="12" id="accountno" title="请填写 4-15 位大小写英数字" maxlength="16" class="login-input login-acc" tabindex="1" placeholder="用户名：" pattern="[a-zA-Z0-9]{4,15}" required=""> <span id="js-acc-unicode" class="acc-unicode"></span>
+							</p>
+							<p class="login-unit login-unit-pwd">
+									<input name="passwd" type="password" autocomplete="off" size="13" id="password" title="请填写 6-12 位大小写英数字" maxlength="13" class="login-input" placeholder="密码 ：" tabindex="2" pattern="[a-zA-Z0-9]{6,13}" required="">
+							</p>
+							<p class="login-unit ">
+									<input name="rmNum" type="text" id="code" size="7" maxlength="4" placeholder="验证码 ：" title="( 点选此处产生新验证码 )" style="position: absolute;" class="login-input" tabindex="3" pattern="\d{4}" required=""> 
+									<img id="reg-validCode" alt="( 点选此处产生新验证码 )" title="( 点选此处产生新验证码 )" width="49" height="26" style="margin-left:111px;cursor: pointer;" onclick="reloadImg();" src="/verifycode.do?timestamp=1533704414651">
+							</p>
+							<p>
+								<input name="Submit" type="button" onclick="memberInfo();" value="登录" class="login-submit" tabindex="4"> 
+								 <a href="/regpage.do" class="joinBTN">注册</a> 
+							</p>
+						</form>
+					</div>
+					
+					
+					
+					
+					
+					<div class="clear "></div>
+				</div>
+			</div>
+		</div>
+		<script>
+    	$('.mainnav-wrap li').eq(4).css('margin-left','373px');
+		</script>
+		<div id="page-container">
+			<div id="page-body">
+				<div class="first-game-wrap">
+
+					<div class="ele-firstgame-wrap" onselectstart="return false">
+						<div class="clearfix ele-firstgame" id="js-firstgame-slider">
+						
+								<a href="/index/real.do" class="ele-firstgame-1 js-ele-firstgame-fade">
+							
+							
+								<span></span>
+							</a> 
+							
+							
+							
+								<a href="/index/egame.do" class="ele-firstgame-2 js-ele-firstgame-fade">
+							
+							
+								<span></span>
+							</a> 
+							
+							
+								<a href="/index/sport.do" class="ele-firstgame-3 js-ele-firstgame-fade">
+							
+							
+								<span></span>
+							</a> 
+							
+							
+								<a href="/index/games.do" class="ele-firstgame-4 js-ele-firstgame-fade">
+							
+							
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 底部 -->
+	
+<script src="/js/float.js"></script>
+		<div id="page-footer">
+			<div class="footer clearfix">
+				<div class="article-menu">
+					<a href="/index/rookieHelp.do?code=1" class="js-article-color">关于我们 </a> ｜ 
+					<a href="/index/rookieHelp.do?code=6" class="js-article-color">联系我们 </a> ｜ 
+					<a href="/index/rookieHelp.do?code=3" class="js-article-color">存款幫助 </a> ｜ 
+					<a href="/index/rookieHelp.do?code=2" class="js-article-color">取款幫助 </a> ｜ 
+					<a href="/index/rookieHelp.do?code=4" class="js-article-color">联盟方案 </a> ｜ 
+					<a href="/index/rookieHelp.do?code=5" class="js-article-color">联盟协议 </a> ｜ 
+					<a href="/index/rookieHelp.do?code=7" class="js-article-color">常見問題 </a>  
+				</div>
+			<div class="footer-info">
+					爵玛纳斯国际属于Las&nbsp;Vegas&nbsp;拉斯维加斯赌城有限公司注册运营
+					<br>爵玛纳斯国际所提供的产品和服务，是由澳门特别行政区&nbsp;The&nbsp;Macao&nbsp;Special&nbsp;Administrative&nbsp;Region.授权和监管。
+					<br>客服QQ：&nbsp;8177880
+				</div>
+				<div class="copyright"></div>
+				<div class="footer-bottom clearfix">
+					<a href="#" id="bblogo"><img src="/images/bbinlogo.png" border="0" width="100"></a> <a id="browser-logo" href="#"><img src="/images/ublogo.png" border="0" width="115"></a>
+					<a class="footer-img"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div style="position: fixed;bottom: 5px;left: 5px;">
+		<a href="https://jm90000.com/login" target="_blank"><img src="/images/wm.png"></a>
+	</div>
+	<script>
+    try{
+    (function(){
+        $('#js-notice-pop').dialog({
+            'closeOnEscape': true,
+            'bgiframe': true,
+            'width' : 750,
+            'height' : 580,
+            'title': '【ads●sad- asd.com】 七月份现金大回馈，8月3号已派送完成， 请会员登入查收。八月份现金回馈筹备中，9月5日全面揭晓，敬请期待！',
+            'resizable': true,
+            'modal': true,
+            'autoOpen': false,
+            'buttons' : { 
+                "关闭" : function() { $(this).dialog("close"); }
+            }
+        }); 
+                $('#js-notice-pop').dialog('open');
+            })();
+    }catch(e){}
+</script>
+
+
+	<div id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; right: 5px; width: 138px;" picfloat="right">
+		<img src="/images/fl_right.png?111" width="138" height="375">
+		<a class="Tbtnno1" href="https://chat6.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=827748&amp;configID=52906&amp;jid=1353206974&amp;s=1" target="_blank"></a>
+		<a class="Tbtnno2" href="/regpage.do" target="_blank"></a>
+		<a class="Tbtnno3" href="tencent://message/?uin=7177880&amp;Site=web&amp;Menu=yes"></a>
+		<a class="Tclose" onclick="FloatClose(this)"></a>
+	</div>
+	<div id="TplFloatPic_1" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; left: 5px; width: 138px;" picfloat="left">
+		<img src="/images/fl_left.png?111" width="138" height="375">
+		<a class="Tbtnno1" href="https://chat6.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=827748&amp;configID=52906&amp;jid=1353206974&amp;s=1" target="_blank"></a>
+		<a class="Tbtnno2" href="/regpage.do"></a>
+		<a class="Tbtnno3" href="tencent://message/?uin=8177880&amp;Site=web&amp;Menu=yes"></a>
+		<a class="Tclose" onclick="FloatClose(this)"></a>
+	</div>
+	<style>
+
+.TplFloatSet img {
+	vertical-align: bottom;
+}
+
+.Tbtnno1{
+    position: absolute;
+    width: 138px;
+    height: 277px;
+    top: 0;
+}
+.Tbtnno2{
+    position: absolute;
+    width: 138px;
+    height: 35px;
+    top: 277px;
+}
+.Tbtnno3{
+    position: absolute;
+    width: 138px;
+    height: 35px;
+    top: 312px;
+}
+.Tclose{
+    position: absolute;
+    width: 138px;
+    height: 22px;
+    top: 347px;
+}
+</style>
+	<script>
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    var left_top = 150, right_top = 150, float_list = [], float_side = 5;
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+                    float_list['0'] = $('#TplFloatPic_0');
+                    float_list['1'] = $('#TplFloatPic_1');
+                for (var i in float_list) {
+            if (float_list[i].attr == undefined) {
+                continue;
+            }
+            var self = float_list[i], 
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+            var w = 0;        
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                	$(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                	$(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+</script>
+
+	
+	<div id="ele-float-top-wrap" style="height: 0px;">
+		<div id="ele-float-top" style="display: block;">
+			<div id="ele-float-top-up" class="ele-float-top-btn"></div>
+		</div>
+	</div>
+
+	<!--[if (IE 7)|(IE 6)]>
+<script>var downloadNewIE;if('undefined'!=typeof downloadvwin){downloadNewIE=downloadvwin}else{downloadNewIE=function(){window.open('http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-8')}}</script><div id="ie6-alertBox"> <div id="ie6-infoBar">  系统侦测到您使用旧版浏览器,<span class="alert">本站预计于 2014/1/1 停止对 IE6 , IE7 维护与支援</span>,为了体验最佳的浏览品质与效果,建议立即至<a href="javascript:downloadNewIE();">「下载区」</a>升级您的浏览器。  </div> <a href="javascript:closeDialog();" id="ie6-alertBoxClose"> 關閉  </a> </div> <div id="ie6-overlay"></div><style type="text/css">html{overflow-y:hidden}.alert{color:red}#ie6-overlay{background:#777;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);-moz-opacity:.5;opacity:.5;position:absolute;top:0;left:0;z-index:10}#ie6-alertBox{position:absolute;font-size:13px;width:300px;height:auto;padding:10px 10px 30px;left:50%;top:40%;line-height:25px;margin-left:-160px;z-index:11;color:#000;border:1px solid #777;background-color:#CCC;background-image:-moz-linear-gradient(top,white,#CCC);background-image:-webkit-gradient(linear,0 0,0 100%,from(white),to(#CCC));background-image:-webkit-linear-gradient(top,white,#CCC);background-image:-o-linear-gradient(top,white,#CCC);background-image:linear-gradient(to bottom,white,#CCC);background-repeat:repeat-x;-webkit-box-shadow:0 1px 4px rgba(0,0,0,0.065);-moz-box-shadow:0 1px 4px rgba(0,0,0,0.065);box-shadow:0 1px 4px rgba(0,0,0,0.065);border:1px solid #D4D4D4;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCCCCC',GradientType=0);display:none}#ie6-infoBar a,#ie6-alertBoxClose{color:#F57900;text-decoration:none}#ie6-infoBar a:hover,#ie6-alertBoxClose:hover{color:#FF9A37}#ie6-alertBoxClose{position:absolute;right:5px;bottom:5px;display:none}</style><script>function closeDialog(target){$("#ie6-alertBox,#ie6-overlay").hide();$('html').css('overflow-y','auto');if('undefined'==typeof($.cookie)){document.cookie="ie6close=on;path=/;"}else{$.cookie('ie6close','on',{path:'/',expires:''})}}function showalert(){$("#ie6-overlay").height($(window).height()).width($(window).width());$("#ie6-alertBox").slideToggle(1000,function(){setTimeout('$("#ie6-alertBoxClose").fadeIn();',3000)})}$(function(){if('undefined'==typeof($.cookie)){if(!/ie6close/.test(document.cookie)){showalert()}}else{if($.cookie('ie6close')!='on'){showalert()}}});</script>
+<!-->
+	<!--<![endif]-->
+
+	<!--IE11提示訊息 2015/12/31 -->
+	<!--[if IE 8]>
+<style>.ie11-alert-wrap{position:fixed;top:0;left:0;z-index:5000;width:100%;height:100%;color:#FFF;text-align:center;font-size:12px;font-family:"Microsoft YaHei","微软雅黑",arial;background:url(/images/bg_ie_full.png) repeat center top}.zh-cn .ie11-alert-wrap{font-family:"Microsoft YaHei","微软雅黑",arial}.zh-tw .ie11-alert-wrap{font-family:"Microsoft JhengHei","微軟正黑體",arial}.ie11-alert-bg{width:100%;height:100%;background:url(/cl/tpl/template//images/ie11alert/bg_ie_logo.png) no-repeat 50% 10%}.ie11-alert-easing{position:absolute;top:30%;left:50%;text-align:center;width:600px;margin:0 0 0 -300px}.ie11-alert-container-title{color:#06BDF7;font-size:30px}.ie11-alert-container-middle{line-height:30px;color:#FFF;font-size:16px;margin:20px 0 50px}.ie11-alert-message{display:none}.ie11-alert-btn-wrap{font-size:0}.ie11-alert-btn{display:inline-block;vertical-align:top;cursor:pointer;width:256px;height:115px;color:#FFF;font-size:12px;text-align:left;box-sizing:border-box;padding:24px 14px 34px 95px}.ie11-alert-btn:hover{background-position:left bottom}.ie11-alert-btn-ie{display:none;font-size:34px;font-family:arial;background:url(/cl/tpl/template//images/ie11alert/btn_IE.png) no-repeat left top;padding:19px 14px 34px 108px}.ie11-alert-btn-ub{font-size:25px;background:url(/cl/tpl/template//images/ie11alert/btn_UB.png) no-repeat left top}.en .ie11-alert-btn-ub,.vi .ie11-alert-btn-ub,.ko .ie11-alert-btn-ub,.es .ie11-alert-btn-ub,.id .ie11-alert-btn-ub{padding:9px 14px 34px 95px}</style><div id="js-ie11-alert-wrap" class="ie11-alert-wrap"> <div class="ie11-alert-bg"> <div class="ie11-alert-easing"> <div id="js-ie11-alert-container" class="ie11-alert-container clearfix"> <div class="ie11-alert-container-title"> 系統偵測到您使用舊版瀏覽器! </div> <div class="clear"></div> <div class="ie11-alert-container-middle"> <span id="js-ie11-alert-message-win7" class="ie11-alert-message ie11-alert-message-win7">  系统侦测到您使用旧版浏览器，本站预计于 2016/1/1 停止对 IE8 维护与支援，<br/> 为加速浏览体验，提供最严密安全防护，建议升级至 IE11 或安装寰宇浏览器。  </span> <span id="js-ie11-alert-message-xp" class="ie11-alert-message ie11-alert-message-xp">  系统侦测到您使用旧版浏览器，本站预计于 2016/1/1 停止对 IE8 维护与支援，<br/> 为加速浏览体验，提供最严密安全防护，建议安装寰宇浏览器。  </span> </div> </div> <div class="clear"></div> <div class="ie11-alert-btn-wrap"> <div id="js-ie11-alert-btn-ie" class="ie11-alert-btn ie11-alert-btn-ie" onclick="window.open('http://windows.microsoft.com/en-us/internet-explorer/downloads/ie','download','top=0,left=0,width=1000,height=600,location=yes,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');"> IE 11 </div> <div class="ie11-alert-btn ie11-alert-btn-ub" onclick="window.open('http://ub66.com/?lang=zh-cn')">  寰宇浏览器  </div> </div> </div> </div></div><script>(function(){function b(){$("#js-ie11-alert-wrap");var a=navigator.userAgent,b="Win32"===navigator.platform||"Windows"===navigator.platform,c=-1<a.indexOf("Windows NT 5.1")||-1<a.indexOf("Windows XP"),a=-1<a.indexOf("Windows NT 6.1")||-1<a.indexOf("Windows 7");b&&(a&&$("#js-ie11-alert-message-win7, #js-ie11-alert-btn-ie").css("display","inline-block"),c&&$("#js-ie11-alert-message-xp").siblings().css("display","none").end().css("display","inline-block"))}void 0===$.cookie?$.getScript("/cl//js/pluging/jquery.cookie.js",b):b()})();</script><![endif]-->
+	<!--IE11提示訊息-END-->
+
+	<!--停止維護ie9,ie10提示訊息 2016/02/19 -->
+	<style>
+.ie-stop-alert-wrap {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5000;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", "微软雅黑", arial;
+	background: url(/images/bg_ie_full.png) repeat
+		center top
+}
+
+.zh-cn .ie-stop-alert-wrap {
+	font-family: "Microsoft YaHei", "微软雅黑", arial
+}
+
+.zh-tw .ie-stop-alert-wrap {
+	font-family: "Microsoft JhengHei", "微軟正黑體", arial
+}
+
+.ie-stop-alert-bg {
+	width: 100%;
+	height: 100%;
+	background: url(/images/bg_ie_logo.png)
+		no-repeat 50% 10%
+}
+
+.ie-stop-alert-easing {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	text-align: center;
+	width: 600px;
+	margin: 0 0 0 -300px
+}
+
+.ie-stop-alert-container-title {
+	color: #06BDF7;
+	font-size: 30px
+}
+
+.ie-stop-alert-container-middle {
+	line-height: 30px;
+	color: #FFF;
+	font-size: 16px;
+	margin: 20px 0 50px
+}
+
+.ie-stop-alert-message {
+	display: none
+}
+
+.ie-stop-alert-btn-wrap {
+	font-size: 0
+}
+
+.ie-stop-alert-btn {
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	width: 256px;
+	height: 115px;
+	color: #FFF;
+	font-size: 12px;
+	text-align: left;
+	box-sizing: border-box;
+	padding: 24px 14px 34px 95px
+}
+
+.ie-stop-alert-btn:hover {
+	background-position: left bottom
+}
+
+.ie-stop-alert-btn-ie {
+	display: none;
+	font-size: 34px;
+	font-family: arial;
+	background: url(/images/btn_IE.png) no-repeat
+		left top;
+	padding: 19px 14px 34px 108px
+}
+
+.ie-stop-alert-btn-ub {
+	font-size: 25px;
+	background: url(/images/btn_UB.png) no-repeat
+		left top
+}
+
+.en .ie-stop-alert-btn-ub, .vi .ie-stop-alert-btn-ub, .ko .ie-stop-alert-btn-ub,
+	.es .ie-stop-alert-btn-ub, .id .ie-stop-alert-btn-ub {
+	padding: 9px 14px 34px 95px
+}
+</style>
+	<div id="js-ie-stop-alert-wrap" class="ie-stop-alert-wrap">
+		<div class="ie-stop-alert-bg">
+			<div class="ie-stop-alert-easing">
+				<div id="js-ie-stop-alert-container" class="ie-stop-alert-container clearfix">
+					<div class="ie-stop-alert-container-title">系統偵測到您使用舊版瀏覽器!</div>
+					<div class="clear"></div>
+					<div class="ie-stop-alert-container-middle">
+						<span class="ie-stop-alert-message ie-stop-alert-message-win7">
+							系统侦测到您使用旧版浏览器，本站预计于 2016/4/1 停止对 IE9 IE10 维护与支援，<br>
+							为加速浏览体验，提供最严密安全防护，建议升级至 IE11 或安装寰宇浏览器。
+						</span> <span class="ie-stop-alert-message ie-stop-alert-message-xp">
+							系统侦测到您使用旧版浏览器，本站预计于 2016/4/1 停止对 IE9 IE10 维护与支援，<br>
+							为加速浏览体验，提供最严密安全防护，建议安装寰宇浏览器。
+						</span>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="ie-stop-alert-btn-wrap">
+					<div id="js-ie-stop-alert-btn-ie" class="ie-stop-alert-btn ie-stop-alert-btn-ie" onclick="window.open('http://windows.microsoft.com/en-us/internet-explorer/downloads/ie','download','top=0,left=0,width=1000,height=600,location=yes,menubar=no,resizable=yes,scrollbars=yes,status=no,toolbar=no');">
+						IE 11</div>
+					<div class="ie-stop-alert-btn ie-stop-alert-btn-ub" onclick="window.open('http://ub66.com/?lang=zh-cn')">
+						寰宇浏览器</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>(function(){function c(){$("#js-ie-stop-alert-wrap");var a=navigator.userAgent,b="Win32"===navigator.platform||"Windows"===navigator.platform,c=-1<a.indexOf("Windows NT 5.1")||-1<a.indexOf("Windows XP"),a=-1<a.indexOf("Windows NT 6.1")||-1<a.indexOf("Windows 7");b&&(a&&$(".ie-stop-alert-message-win7, .ie-stop-alert-btn-ie").css("display","inline-block"),c&&$("#js-ie-stop-alert-message-xp").siblings().css("display","none").end().css("display","inline-block"))}var b=function(){var a=navigator.userAgent.match(/MSIE\s?(\d+)(?:\.(\d+))?/i);
+        return null!==a?{major:a[1],minor:a[2]}:{major:"-1",minor:"-1"}}();if("10"===b.major||"9"===b.major)$("#js-ie-stop-alert-wrap").css("display","block"),c()})();</script>
+	<!--停止維護ie9,ie10提示訊息 END-->
+
+	<!-- false:節慶版位廣宣全下架，但保留版位原本功能 -->
+	<div id="ele-adv" style="display: none;">
+		<style type="text/css">
+#ele-adv {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1000
+}
+
+.mBox {
+	position: relative;
+	overflow: hidden;
+	display: none;
+	width: 280px;
+	height: 280px
+}
+
+.mBoxUl {
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0
+}
+
+.mBoxUl li {
+	width: 280px;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	display: none;
+	font-family: serif
+}
+
+.th .mBoxUl li {
+	font-family: "Microsoft YaHei", "SimSun", serif, Arial
+}
+
+.mBox ul.playerControl {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	bottom: 3px;
+	height: 14px;
+	z-index: 1100
+}
+
+.mBox ul.playerControl li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin: 0 1px;
+	background: url(/images/icon02.png) left top
+		no-repeat
+}
+
+.mBox ul.playerControl li.adcurrent {
+	background-position: left bottom
+}
+
+.dv-colse {
+	background: url(/images/icon01.png) no-repeat;
+	height: 26px;
+	width: 26px;
+	position: absolute;
+	top: 8px;
+	left: 5px;
+	cursor: pointer;
+	display: none;
+	z-index: 1100
+}
+/******新增廣宣的class需添加在此******/
+/*競咪廳主題百家樂*/
+.mbox-milive {
+	display: block;
+	width: 280px;
+	height: 280px;
+	background: url('/images/ad_mi.png') 0
+		0 no-repeat;
+}
+
+.mbox-milive:hover {
+	background:
+		url('/images/ad_mi_hover.png') 0 0
+		no-repeat;
+}
+/*GD 視訊*/
+.mbox-gdlive {
+	display: block;
+	background:
+		url('/images/gd_mobile.png') 0 0
+		no-repeat;
+	width: 280px;
+	height: 280px;
+}
+
+.mbox-gdlive:hover {
+	background:
+		url('/images/gd_mobile_hover.png') 0
+		0 no-repeat;
+}
+/*SA 視訊*/
+.mbox-salive {
+	display: block;
+	width: 280px;
+	height: 280px;
+	background: url('/images/ad_sa.png') 0
+		0 no-repeat;
+}
+/*端午節慶*/
+.mbox-dragon {
+	display: block;
+	width: 280px;
+	height: 280px;
+	background: url('/images/dragon.png') 0 0
+		no-repeat;
+}
+/*耶誕節慶廣宣*/
+.mbox-christ {
+	display: block;
+	width: 280px;
+	height: 280px;
+	background: url(/images/christmas.png) 0 0
+		no-repeat;
+}
+/*農曆新年慶廣宣*/
+.mbox-newyear {
+	display: block;
+	width: 280px;
+	height: 280px;
+	background: url(/images/newyear.png) 0 0 no-repeat;
+}
+/* BBIN GAME ZONE廣宣 */
+.bbin-game-zone {
+	display: block;
+	width: 280px;
+	height: 280px;
+	background:
+		url('/images/bbinGameZoneAD.png') 0 0
+		no-repeat;
+}
+/*GNS 電子*/
+.ad-gns {
+	display: block;
+	width: 280px;
+	height: 280px;
+	background: url('/images/ad_gns.png') 0
+		0 no-repeat;
+}
+</style>
+		<div id="mBox" class="mBox zh-cn" style="display: block;">
+			<ul class="mBoxUl">
+			</ul>
+			<div class="dv-colse"></div>
+		</div>
+	</div>
+
+	<script>
+(function(w){
+        w.ele_adv={_o:{dv_adv:top.mem_index?$("#ele-adv",top.mem_index.document):$("#ele-adv"),dv_mBox:top.mem_index?$("#ele-adv .mBox",top.mem_index.document):$("#ele-adv .mBox"),mBox:{Width:280,Height:280,Style:"left",Speed:5E3}},init:function(b){var a=this;b&&$.extend(a._o,b);b=a._o.mBox;-1==document.cookie.indexOf("eve_adv_hide=")&&a._o.dv_mBox.show();0>=$("ul li",a._o.dv_mBox).size()?a._o.dv_adv.hide():1==$("ul li",a._o.dv_mBox).size()?$("ul li",a._o.dv_mBox).css("opacity",1).show():carousel(a._o.dv_mBox,
+b.Width,b.Height,b.Style,b.Speed);a._o.dv_adv.find("[data-showKind]").each(function(){a.showText($(this))});$(".dv-colse",a._o.dv_mBox).click(function(){$(a._o.dv_adv).animate({opacity:0},300,function(){$(this).remove()});$.cookie("eve_adv_hide","1",{path:"/"})});$(a._o.dv_mBox).hover(function(){$(".dv-colse",a._o.dv_mBox).show()},function(){$(".dv-colse",a._o.dv_mBox).hide()})},showText:function(b){var a=$(b).data("height")?$(b).data("height"):"10px";$(b).hover(function(){$(".js-showText",b).stop().animate({height:a},
+400)},function(){$(".js-showText",b).stop().animate({height:0},500)})}};
+w.carousel=function(b,a,h,e,f){function q(a){c=a?a:c;$("li",k).eq(c).stop(!0,!0).show().fadeTo(600,1,function(){l||(clearTimeout(d),d=setTimeout(m,f))}).css("zIndex",1E3).siblings("li").stop(!0,!0).fadeTo(600,0).hide().css("zIndex",999);g.children().removeClass();g.find("li[name='"+c+"']").addClass("adcurrent");top.document.adv_index=c;return!1}function m(){c++;c>=n&&(c=0);q()}var k=$("ul",b);h=$("li",k);var l=!1,d=f,n=h.length;e="";for(var c=0,p=0;p<n;p++)e+='<li name="'+p+'"></li>';var g=$('<ul class="playerControl"></ul>',
+b).html(e).appendTo(k.parent()).css("left",function(){return(a-$(this).width())/2}),c=top.document.adv_index&&top.document.adv_index<n?top.document.adv_index:0;$("li",g).eq(c).addClass("adcurrent");h.css({zIndex:999}).eq(c).css({opacity:1,zIndex:1E3}).show();d=setTimeout(m,f);$("li",g).click(function(){clearTimeout(d);q($(this).attr("name"))});$(b).hover(function(){l=!0;clearTimeout(d)},function(){l=!1;d=setTimeout(m,f)})};ele_adv.init();
+    /*****hover效果*****
+    $(".mbox-img98").hover(function(){
+        $(this).children(".mbox-img-hover").css("display","block");
+    },function(){
+        $(this).children(".mbox-img-hover").css("display","none");
+    });*/
+})(self);
+</script>
+
+	<!-- 簡易版 $SiteMap 為empty-->
+
+	<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','/js/analytics.js','bbga');
+
+(function() {
+    var trace_code = '';
+
+    switch ('3623661' % 10) {
+        case 1:
+            trace_code = 'UA-77281412-1';
+            break;
+        case 2:
+            trace_code = 'UA-77281412-2';
+            break;
+        case 3:
+            trace_code = 'UA-77281412-3';
+            break;
+        case 4:
+            trace_code = 'UA-77281412-4';
+            break;
+        case 5:
+            trace_code = 'UA-77281412-5';
+            break;
+        case 6:
+            trace_code = 'UA-77281412-6';
+            break;
+        case 7:
+            trace_code = 'UA-77281412-7';
+            break;
+        case 8:
+            trace_code = 'UA-77281412-8';
+            break;
+        case 9:
+            trace_code = 'UA-77281412-9';
+            break;
+        default:
+            trace_code = 'UA-77281412-10';
+    }
+
+    bbga('create', 'UA-59062215-1', 'auto');
+    bbga('require', 'displayfeatures');
+    bbga('set', 'dimension1', 'hqr');
+    bbga('send', 'pageview');
+
+    // bbga2016
+    bbga('create', trace_code, 'auto', {name: 'bbga2016'});
+    bbga('bbga2016.require', 'displayfeatures');
+    bbga('bbga2016.set', 'dimension1', 'hqr');
+    bbga('bbga2016.send', 'pageview');
+}());
+
+/* 客端，加入我的最愛彈跳 */
+function eleAddFavorite() {
+    if(document.all){
+        //ie8~10
+        window.external.AddFavorite('#', '金沙贵宾会');
+    } else {
+        alert('「' + "您使用的浏览器不支援此功能，请按“Ctrl+D”键手动加入收藏。" + '」');
+    }
+}
+</script>
+	<style>
+#upupMessage {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	text-align: center;
+	height: 74px;
+	width: 219px;
+	z-index: 9999;
+	background:
+		url(/images/upupMbg.jpg)
+		no-repeat #fbfbfb;
+	font-size: 12px;
+	display: none
+}
+
+#upupContent {
+	margin-top: 10px;
+	color: #000
+}
+
+#upupMessage .close_ad {
+	display: block;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	margin-left: 190px
+}
+</style>
+	<div id="upupMessage" style="display: none; top: 576px; left: 1184px;">
+		<span class="close_ad"></span>
+		<div id="upupContent"></div>
+	</div>
+    
+
+
+<script type="text/javascript">
+(function(){
+	$.cookie('index', 1);
+})()
+$(function(){
+	$('.isCurrent').removeClass('current');
+	$('#current_index').addClass('current');
+});
+</script><div id="hdddddddddd"></div></body></html>

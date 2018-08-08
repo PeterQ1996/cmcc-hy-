@@ -1,0 +1,361 @@
+<!DOCTYPE html><html><head>
+		<title>威尼斯人 90939.com</title>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	    <link rel="stylesheet" type="text/css" href="css/bwqdxxg.css">
+	    <link rel="stylesheet" href="css/swiper-3.2.7.min.css">
+	    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	    <script type="text/javascript" src="js/bwqdxxg.js"></script>
+	    <script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	    <script src="js/refresh/mui.js"></script>
+		<style type="text/css">
+			.desktop { 
+				/*background: #000000 url(images/wuxian08.png?ver=4) no-repeat 8px 12px!important;*/
+				background: #eeeeef no-repeat 8px 12px!important;
+			    background-size: 57px auto!important;
+			    -webkit-background-size: 57px auto!important;
+			    padding: 12px 8px 0 0px!important;
+			    height: 69px!important;
+			    width: 152px!important;
+			    border-radius: 4px!important;
+			    position: relative!important;
+			    line-height: 17px!important;
+			    font-size: 12px!important;
+			    margin: 0 auto!important;
+			    margin-bottom: 10px!important;
+			    color:#333;
+			}
+		
+			.desktop:after { 
+				display: block; 
+				content: ''; 
+				width: 0; 
+				height: 0; 
+				border-top: 11px solid #eeeeef; 
+				border-right: 11px solid rgba(102, 0, 153, 0); 
+				border-bottom: 10px solid rgba(102, 0, 153, 0); 
+				border-left: 10px solid rgba(102, 0, 153, 0); 
+				bottom: -20px; 
+				position: absolute; 
+				left: 70px; 
+			}
+		
+			.desktop h3 { 
+				font-size: 14px; 
+				margin-bottom: 4px; 
+				padding-top: 2px; 
+			}
+		
+			.desktop span { 
+				display: inline-block; 
+				width: 23px; 
+				height: 16px; 
+				overflow: hidden; 
+				background: url(images/rr.gif) no-repeat center top; 
+				background-size: 11px auto; 
+				vertical-align: middle; 
+			}
+		
+			.del { 
+				width: 9px; 
+				height: 9px; 
+				overflow: hidden; 
+				display: block; 
+				position: absolute; 
+				top: 8px; 
+				right: 9px; 
+				background: url(images/rr.gif) no-repeat; 
+				background-size: 11px auto; 
+				background-position: 0 -25px; 
+			}
+
+	    </style>
+	    <script type="text/javascript">
+	    
+	    var collect = {
+    		"cookieName":"std",
+    		"showCollect":function(){
+    			var $this = this;
+    			if (!(/ipad|iphone|mac/i.test(navigator.userAgent))){
+    				return;
+    			}
+    			var value = doCookie($this.cookieName);
+    			if(value == null && navigator.userAgent.indexOf('Safari') > -1 ){
+    				$("#desktop").css({"display":"block"});
+    			}
+    		},
+    		"hiddCollect":function(){
+    			var $this = this;	
+    			$("#desktop").css({"display":"none"});
+    			doCookie($this.cookieName,null,1,1);
+    		}
+    	};
+	    
+	    function doCookie(cN,cD,cV,cL) {
+	    	if(cV) {
+	    		if(cL) {
+	    			var d=new Date();
+	    			d.setTime(d.getTime()+(cL*24*60*60*1000));
+	    			var b="; expires="+d.toGMTString()
+	    		} else {
+	    			var b=""
+	    		}
+	    		document.cookie=cN+"="+cV+b+"; path=/;"+(cD?" domain="+cD+";":"")
+	    	} else {
+	    		var e=cN+"=";
+	    		var s=document.cookie.split(";");
+	    		for(var g=0;g<s.length;g++) {
+	    			var h=s[g];
+	    			while(h.charAt(0)==" ") {h=h.substring(1,h.length)}
+	    			if(h.indexOf(e)==0) {return h.substring(e.length,h.length)}
+	    		}
+	    		return null
+	    	}
+	    }
+	    
+	    $(function(){
+	    	collect.showCollect();
+	    	
+	    	$(".del").click(function(){
+	    		collect.hiddCollect();
+	    	});
+	    });
+	    
+	    </script>
+	<link href="http://abc044.com/public/layer_mobile/need/layer.css?2.0" type="text/css" rel="styleSheet" id="layermcss"></head> 
+	<body class="mui-ios mui-ios-9 mui-ios-9-1">
+		<div class="cbl" style="display: block;left:-60%;">
+			<p class="cbl_p1" id="m">导航</p>
+			<ul>
+				<a href="home/user/financial_center.html"><li><p>财务中心</p><img src="img/youjiantou.png"></li></a>
+				<a href="/?r=mobile/user/user-news"><li><p>修改密码</p><img src="img/youjiantou.png"></li></a>
+				<a href="/?r=mobile/live/index"><li><p>额度转换</p><img src="img/youjiantou.png"></li></a>
+				<a href="/?r=mobile/index/is-login&amp;code=2"><li><p>投注报表</p><img src="img/youjiantou.png"></li></a>
+				<a href="/?r=mobile/news/news"><li><p>信息中心</p><img src="img/youjiantou.png"></li></a>
+				<a href="/?r=mobile/user/logout"><li><p>退出登录</p><img src="img/youjiantou.png"></li></a>
+			</ul>
+		</div>
+		<span class="cbl_r" style="display: none;"></span>
+		
+		<center class="wns_c">  
+			<header class="header">
+				<p class="header_p1">威尼斯人 90939.com</p>
+                <div class="usernameinfo" id="user" style="display: none">
+					<img class="header_img2 header_cbl" src="img/i2.png">
+                </div>
+                
+				<div class="usernameinfo" id="weidenglu">
+					<!-- 
+                    <a class="h_lg" href="http://op.chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=588176&configID=51294&jid=3215339196" style="display: block; margin-right: 13px;">在线客服</a>
+                    <span class="h_split" style="display: block;">|</span>
+                    <a class="h_lg" href="home/user/register.html" style="display: block;">注册</a>
+                    <span class="h_split" style="display: block;">|</span>
+                    <a class="h_lg" href="home/user/login.html" style="display: block;">登录</a>
+					-->
+                </div>
+				<style>
+				.quicklink {background: #c50505;border-top: 1px solid #ececec;}
+				.content {position: relative;}
+				.quicklink {background:#c50505;border-top:1px solid #ececec;}
+				.quicklink dl {float:left;width:24.3%;margin:0;border-left:1px solid #ececec;}
+				.quicklink dl:first-child {border-left:0;}
+				.quicklink dl a {padding:8px 0 8px 8px;display:block;text-decoration: none;}
+				.quicklink dt {float:left;x;margin-right:1px;line-height:26px;margin-top:3px;}
+				.quicklink dd {line-height:30px;font-size:14px;text-align: center;color: #f7f3f3;} 
+				.wns1_div5{
+					height:36px;
+				} 
+				</style>
+                
+			</header>
+
+			<div id="pullrefresh" class="mui-content mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<div class="hei"></div>
+					<div class="wns1_div1">
+						<div class="swiper-container swiper-container-horizontal">
+						    <div class="swiper-wrapper" style="transform: translate3d(-1024px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="3" style="width: 1024px;">
+						        	<a href=""><img src="img/banner8.jpg"></a>
+						        </div>
+						       <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 1024px;">
+						        	<a href=""><img src="img/banner1.jpg"></a>
+						        </div>
+						        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 1024px;">
+						        	<a href=""><img src="img/banner2.jpg"></a>
+						        </div>
+						        <div class="swiper-slide" data-swiper-slide-index="2" style="width: 1024px;">
+						        	<a href=""><img src="img/banner7.jpg"></a>
+						        </div>
+						        <div class="swiper-slide" data-swiper-slide-index="3" style="width: 1024px;">
+						        	<a href=""><img src="img/banner8.jpg"></a>
+						        </div>
+						    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 1024px;">
+						        	<a href=""><img src="img/banner1.jpg"></a>
+						        </div></div>
+						</div>
+						<div class="swiper-pagination swiper-pagination-clickable"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+						<script type="text/javascript">
+						var mySwiper = new Swiper('.swiper-container',{
+							pagination: '.swiper-pagination',
+							loop : true,
+						    grabCursor: true,
+						    paginationClickable: true,
+						    autoplay: 3000,
+						    autoplayDisableOnInteraction : false
+						});
+						function getLoginedInfo() 
+						{
+							$.post("/?r=mobile/index/json",{},
+							   function(res){
+									if(res.notice == '')
+									{
+										$("#noticeId").html("<c>公告</c>");
+									}
+									else
+									{
+								
+								$("#noticeId").html("<c>公告</c><marquee class='marquee' direction='left' behavior='scroll' scrollamount='3'>"+res.notice+"</marquee>");
+									}
+									
+									if(res.name !== ''){
+										$("#user2").hide();
+										$("#user3").show();
+										$("#user1").hide();
+										$("#user4").show();
+										$("#user").show();
+										$("#h_menber").html(res.name);
+										$("#m").html(res.name+",余额:"+res.money);
+									} 
+									if(res.msg !== ''){
+										alert(res.msg);
+										window.location.href = "/aomen/index.html";
+									}
+							   },"json");
+						 }
+						</script>
+					</div>  
+					
+					
+					
+					
+					<div class="content quicklink" id="quicklink">
+				  		<dl id="user4" style="display: none"><a href="javascript:banktran();" class="positive"> 
+							<dd>线上存款</dd> </a>
+						</dl>
+						 
+						<dl id="user3" style="display: none"><a href="javascript:banktran();" class="positive"> 
+							<dd>线上取款</dd> </a>
+						</dl> 
+						
+				  		<dl id="user2"><a href="home/user/login.html" title="会员登录" class="positive">
+							<dd>会员登录</dd></a>
+						</dl> 
+						 
+						<dl id="user1"><a href="home/user/register.html" title="免费开户" class="assertive">
+							<dd>免费开户</dd></a>
+						</dl>
+						 
+						<dl><a href="/aomen/offer/offer.html" title="优惠活动" class="royal">
+							<dd>优惠活动</dd></a>
+						</dl>
+						
+						<dl><a href="https://chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=588176&amp;configID=51294&amp;jid=3215339196&amp;s=1" title="在线客服" target="_blank" class="royal">
+							<dd>在线客服</dd></a>
+						</dl>
+						
+						<div class="clearfix"></div>
+				    </div>
+					
+					<div class="wns1_div2">
+						<p id="noticeId"><c>公告</c><marquee class="marquee" direction="left" behavior="scroll" scrollamount="3">尊贵的客户们, 本公司网站将於(香港时间08月07日 - 14:00至16:00) 进行体育投注维护, 如有不便之处, 敬请见谅.  足球赛事:08月04日 俄罗斯甲组联赛 (秋明 VS 克拉斯诺达尔II队) 因赛事提前至08:00开赛, 所有投注在07:59:59之后的注单一律取消, 过关以 (1) 计算.  足球赛事: 08月01日 国际冠军杯-点球(让球盘) (阿森纳 VS 切尔西) 注单已重新结算, 请在香港时间(08月04日)15:16过后重新检查您的帐目. 如有不便之处, 敬请见谅.  足球赛事: 08月01日 国际冠军杯-点球(让球盘) (阿森纳 VS 切尔西) 注单已重新结算, 请在香港时间(08月04日)12:24过后重新检查您的帐目. 如有不便之处, 敬请见谅.  足球赛事: 08月01日 国际冠军杯-点球(让球盘) (阿森纳 VS 切尔西) 注单已重新重新结算, 请在香港时间(08月04日)12:24过后重新检查您的帐目. 如有不便之处, 敬请见谅.  </marquee></p>
+					</div>
+					
+					<div class="wns1_div3">
+						<ul>
+							<a href="/?r=mobile/sport/index/index"><li><div><img src="img/q1.png"></div><p>皇冠体育</p></li></a>
+							<a href="/aomen/Lottery/MarkSix/MarkSix.html"><li><div><img src="img/c2img_lhc.png"></div><p>香港六合彩</p></li></a>
+							<a href="/aomen/Lottery/Cqssc/Cqssc.html"><li><div><img src="img/c2img_ssc_cq.png"></div><p>重庆时时彩</p></li></a>
+							<a href="/aomen/Lottery/Cqkl10/Cqkl10.html"><li><div><img src="img/c2img_klsf_hn.png"></div><p>重庆快乐十分</p></li></a>
+							<a href="/aomen/Lottery/Bjpk10/Bjpk10.html"><li><div><img src="img/c2img_pk10.png"></div><p>北京PK拾</p></li></a>
+							<a href="/aomen/Lottery/Bjkl8/Bjkl8.html"><li><div><img src="img/c2img_kl8.png"></div><p>北京快乐8</p></li></a>
+							<a href="/aomen/Lottery/Shssl/Shssl.html"><li><div><img src="img/c2img_shssl.png"></div><p>上海时时乐</p></li></a>
+							<a href="/aomen/Lottery/Gd11x5/Gd11x5.html"><li><div><img src="img/c2img_gd11x5.png"></div><p>广东11选5</p></li></a>
+							<a href="/aomen/Lottery/Gxsfc/Gxsfc.html"><li><div><img src="img/c2img_klsf_hn.png"></div><p>广西十分</p></li></a>
+							<a href="/aomen/Lottery/Tjssc/Tjssc.html"><li><div><img src="img/c2img_ssc_tj.png"></div><p>天津时时彩</p></li></a>
+							<a href="/aomen/Lottery/Tjkl10/Tjkl10.html"><li><div><img src="img/c2img_klsf_hn.png"></div><p>天津十分</p></li></a>
+							<a href="/aomen/Lottery/Fc3d/Fc3d.html"><li><div><img src="img/3d.png"></div><p>福彩3D</p></li></a>
+							<a href="/aomen/Lottery/Pl3/Pl3.html"><li><div><img src="img/pl3.png"></div><p>排行三</p></li></a>
+							<a href="/?r=mobile/live/login&amp;gametype=5"><li><div><img src="img/q16.png"></div><p>AG视讯</p></li></a>
+							<a href="/?r=mobile/live/login&amp;gametype=3"><li><div><img src="img/q17.png"></div><p>BBIN馆</p></li></a>
+							<a href="/?r=mobile/live/login&amp;gametype=2"><li><div><img src="img/q20.png"></div><p>DS视讯</p></li></a>
+							<a href="/?r=mobile/live/login&amp;gametype=15"><li><div><img src="img/q21.png"></div><p>OG视讯</p></li></a>
+							<a href="/?r=mobile/live/mggame"><li><div><img src="img/q18.png"></div><p>MG电子</p></li></a>
+							<a href="/?r=mobile/live/ptgame"><li><div><img src="img/q19.png"></div><p>PT电子</p></li></a>
+							<a href="/?r=mobile/live/login&amp;gametype=61"><li><div><img src="img/q22.png"></div><p>AG捕鱼王</p></li></a>
+							<a href="/aomen/app/app.html"><li><div><img src="img/APP.png"></div><p>APP下载</p></li></a>
+						</ul> 
+					</div>
+					
+					
+					<div class="wns1_div5" height="100%">
+						<div class="foot_a"> 
+						<!--a href="/aomen/help/about.html" title="关于我们" >关于我们</a>&nbsp;|&nbsp; 
+						<a href="/aomen/help/dlhz.html" title="合作伙伴">合作伙伴</a>&nbsp;|&nbsp; 
+						<a href="/aomen/help/cq.html" title="存取帮助">存取帮助</a>&nbsp;|&nbsp; -->
+						<!--a href="app/app.html" title="App下载">APP下载</a>&nbsp;|&nbsp;
+						<a href="/aomen/help/qqq.html"  title="QQ客服">QQ客服</a>&nbsp;|&nbsp; -->
+						<a href="http://www.abc971.com/?webDianNao=9999" style="text-decoration:none;font-family:'微软雅黑';">电脑版</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			     
+ 			<footer class="footer">
+				 
+ 				<div class="wns1_div4">
+					<ul>
+						<a href="javascript:banktran();"><li><div><img src="img/icon-coin.png"></div><p>银行交易</p></li></a>
+						<a href="/?r=mobile/live/index"><li><div><img src="img/icon-transfer.png"></div><p>额度转换</p></li></a>
+						<a href="/?r=mobile/index/is-login&amp;code=2"><li><div><img src="img/icon-record.png"></div><p>投注报表</p></li></a>
+						<a href="/?r=mobile/news/news"><li><div><img src="img/icon-message.png"></div><p>信息中心</p></li></a>					
+						<a href="https://chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=588176&amp;configID=51294&amp;jid=3215339196&amp;s=1"><li><div><img src="img/icon-service.png"></div><p>客服</p></li></a>	
+					</ul>
+				</div>		
+			</footer>
+			
+		</center>
+		<!-- Live800默认跟踪代码: 开始-->
+		<script language="javascript" src="http://chat7op.livechatvalue.com/chat/chatClient/monitor.js?jid=3215339196&amp;companyID=588176&amp;configID=51293&amp;codeType=custom"></script>
+		<!-- Live800默认跟踪代码: 结束-->
+		<!-- 弹窗、红包开始 -->
+<script type="text/javascript" src="/public/layer_mobile/layer.js"></script>
+<script type="text/javascript">
+		getPop();
+		function getPop(){
+		   $.post("/?r=mobile/index/pop",{},
+		   function(res){
+				if(res.is_pop_msg_wap == '1' && res.index_pop_msg_wap!=null && res.index_pop_msg_wap.replace(/\s+/g,"")!="")
+				{
+					layer.open({
+						content: res.index_pop_msg_wap.replace(/\\/g,""),
+						btn: '我知道了'
+					});
+				}
+				if(res.is_pop_msg_hb == '1')
+				{
+					$("#popHbImg").attr('src','http://'+res.conf_www + res.index_pop_pic_url_hb);
+					$("#hbAddrUrl").attr('href','http://'+res.conf_www_hb);
+					$("#popHbDiv").css({"display":""});
+				}
+		   },"json");
+		}	    
+		function closeHbDiv(){
+			$("#popHbDiv").css({"display":"none"});
+		}
+</script>
+<div id="popHbDiv" style="position:fixed;top:60px;right:0px;z-index:1440;text-align:center;display:none;">
+	<span style="background:#b7b3b3;cursor:pointer;border:1px solid #fff;font-weight:bold;color:#fff;position: absolute;left:0px;padding:2px 6px;" onclick="closeHbDiv();">X</span>
+	<a id="hbAddrUrl" href="javascript:void(0);" target="_blank"><img id="popHbImg" height="80" width="60" border="0" src=""></a>
+</div>
+<!-- 弹窗、红包结束 -->
+<div id="layui-m-layer0" class="layui-m-layer layui-m-layer0" index="0"><div class="layui-m-layershade"></div><div class="layui-m-layermain"><div class="layui-m-layersection"><div class="layui-m-layerchild  layui-m-anim-scale"><div class="layui-m-layercont"><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0);"><strong>最新通知：</strong></span></p><p style="white-space: normal; text-align: center;">威尼斯人启用全新域名：</p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0);">abc970.com</span></p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0);">abc971.com</span></p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0);">abc972.com</span></p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0);">abc973.com</span></p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0);">abc974.com</span></p><p style="white-space: normal; text-align: center;"><span style="color: rgb(255, 0, 0);">abc975.com</span></p><p style="white-space: normal; text-align: center;">请会员使用最新域名进行登入，谢谢！</p><p><br></p></div><div class="layui-m-layerbtn"><span yes="" type="1">我知道了</span></div></div></div></div></div></body></html>

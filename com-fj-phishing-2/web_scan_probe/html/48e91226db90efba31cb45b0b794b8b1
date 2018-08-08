@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>金碧汇彩娱乐城</title>
+
+<link href="favicon.ico" rel="bookmark" type="image/x-icon">
+<link href="favicon.ico" rel="icon" type="image/x-icon">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<script language="JavaScript">
+function closeErrors() {
+    return true;
+}
+window.onerror=closeErrors;
+var str='欢迎光临【'+'金碧汇彩娱乐城--专注网上娱乐，值得信赖'+'】,请记住我们的网址http://'+'www.jbhc66.com';
+         window.status = str  ;
+// var url = window.location.href;
+// if (url.indexOf("https") < 0 && url.indexOf("域名") > 0) {
+//     url = url.replace("http:", "https:");
+//     window.location.href(url);
+// }
+
+// 转手机版
+function localM(){
+   var wgeturl = window.location.href;
+   var url = wgeturl.match(/[^\/|^\.]+\.(com|org|me|cc|net)/ig);
+   var getdb = wgeturl.match(/\?[^\?]*$/ig);
+   if(getdb){
+        getdb = '/' + getdb;
+   }else{
+        getdb = '';
+   }
+   if(wgeturl.indexOf('https') > 0){
+        top.location.href = "https://m." + url + getdb;
+   }else{
+       top.location.href = "http://m." + url + getdb;
+   }
+}
+//手机版转PC
+function localPC(){
+    var wgeturl = window.location.href;
+    var url = wgeturl.match(/[^\/|^\.]+\.(com|org|me|cc|net)/ig);
+    var getdb = wgeturl.match(/\?[^\?]*$/ig);
+    if(getdb){
+        getdb = '/' + getdb;
+    }else{
+        getdb = '';
+    }
+    url = url.replace("m.","www.");
+    if(wgeturl.indexOf('https') > 0){
+        top.location.href = "https://m." + url + getdb;
+    }else{
+        top.location.href = "http://m." + url + getdb;
+    }
+}
+
+if (top.location != location)
+{
+    top.location.href = location.href;
+}
+
+</script>
+</head>
+<frameset rows="*" cols="*" frameborder="no" border="0" framespacing="0">
+<frame id="index" name="mem_index" src="cl/main.php">
+<noframes>&lt;body&gt;&lt;/body&gt;</noframes>
+
+</frameset></html>

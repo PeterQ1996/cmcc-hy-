@@ -1,0 +1,658 @@
+<html class="zh-cn" layer-full="1" style="overflow: hidden;"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>萬乐城</title>
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link href="/css/common2.css" type="text/css" rel="stylesheet">
+<link href="/css/xintaobaobo7.css" type="text/css" rel="stylesheet">
+<link href="/css/standard.css" rel="stylesheet" type="text/css">
+<link href="/css/jquery-ui-1.9.2.custom.css" type="text/css" rel="stylesheet">
+<link href="/css/modalCss.css" rel="stylesheet">
+<link href="/css/font-awesome1.css" rel="stylesheet">
+
+<script src="/js/jquery-1.7.2.min.js"></script>
+<script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+<script src="/js/top.js"></script>
+<script src="/js/common_helper.js"></script>
+<script src="/js/float.js"></script>
+<script src="/js/jquery.cookie.js"></script>
+<script src="/js/easydialog.min.js"></script>
+<script src="/js/unslider.min.js"></script>
+<script src="/js/tab.js"></script>
+<script src="/js/modalJs.js"></script>
+<script src="/common/template/member/A_style.js" type="text/javascript"></script>
+<script>$(function() {
+                    $('.LS-Live, #nav-live').hover(function() {
+                        $("#nav-live").css("display", "block");
+                    },
+                    function() {
+                        $("#nav-live").css("display", "none");
+                    });
+
+                    $('.LS-game, #nav-game').hover(function() {
+                        $("#nav-game").css("display", "block");
+                    },
+                    function() {
+                        $("#nav-game").css("display", "none");
+                    });
+
+                })
+            </script>
+<style type="text/css">
+/* 下拉子選單 */
+.ele-lsub-group {
+	position: absolute;
+	z-index: 999;
+	overflow: hidden;
+}
+
+.ele-lsub-group a, .ele-lsub-group span {
+	float: left;
+}
+
+.ele-lsub-group a {
+	width: 66px;
+	height: 66px;
+	line-height: 66px;
+	padding: 0px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	background-position: 100% -66px;
+}
+
+.ele-lsub-group a:hover {
+	color: #F4EF1D;
+}
+
+.ele-lsub-group span {
+	height: 66px;
+	width: 4px;
+}
+
+.lsub-back-bg {
+	background-position: 100% 85px;
+}
+
+.zhu-modalPanel.login {
+	width: 380px;
+	margin-top: 100px;
+}
+</style>
+<link rel="stylesheet" href="http://wlc61.com/common/modelCommon/layer/js/../css/layer.css" id="layui_layer_csslayercss" style=""></head>
+<body style="padding-top: 0px;">
+	<div class="body-wrap ovh">
+		
+
+<input id="base" value="" type="hidden">
+<div class="w-golab wns-header-fixed clearfix" style="position: relative; top: 0px; z-index: 100;">
+	<div class="w-golab wns-header ">
+		<div class="mainnav-logo-wrap"></div>
+		<div class="w980 mc clearfix rel h197 wns-header-inner-bg">
+			<div class="l time-container">
+				<!-- 在头部设置美东时间 显示时间的标签ID为' id="vlock" ' -->
+				<span id="vlock" style="width: 270px; height: 37px; display: block;">北京时间：2018-08-08 04:47:37</span>
+			</div>
+			<div class="wns-collect tr r">
+				<div class="r wns-tools">
+					<a href="/index/signNew.do "> 签到</a>
+					<a href="http://wlc222.com/" target="_blank">新手教程</a> <span>|</span> 
+					<a href="/down.do" target="_blank">手机投注</a> <span>|</span> <a href="javascript:void(0)" onclick="setHomepage()">设为首页</a> <span>|</span>
+					<a href="javascript:void(0)" onclick="addFavorite()">添加收藏</a> <span>|</span>
+					<a href="/registerGuestPage.do" target="_blank">免费试玩</a> <a href="javascript:void(0);" class="ele-lang-option ele-lang-zh-cn">
+						<img src="/images/china.png">
+					</a> <a href="javascript:void(0);" class="ele-lang-option ele-lang-zh-tw"> <img src="/images/aomen.png"></a> <a href="javascript:void(0);" class="ele-lang-option ele-lang-zh-cn">
+						<img src="/images/usa.png">
+					</a>
+				</div>
+			</div>
+			<div class="l wns-logo">
+				<div id="indexLgDIV" style="width: 234px; height: 115px;">
+					<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" class="logoObj" style="width: 234px; height: 115px;">
+						<param name="movie" value="/images/logo.swf">
+						<param name="autoplay" value="true">
+						<embed flashvars="" src="/images/logo.swf" class="logoObj" wmode="transparent" quality="high" menu="false" autostart="true" title="Adobe Flash Player" style="width: 234px; height: 115px;">
+					</object>
+				</div>
+			</div>
+			<!-- 登录前 -->
+			
+			<div class="r wns-login-panel">
+				<ul class="wns-login-box-ul clearfix text-justify">
+					<li><input type="text" name="username" id="account" autocommplete="on" class="wns-inputbg" placeholder="账号" tabindex="1" autocomplete="off"></li>
+					<li><input type="password" name="password" id="password" tabindex="2" placeholder="密码" class="wns-inputbg wns-input-pwd" autocomplete="off"> <a href="javascript:alert('请联系客服人员！');" class="forget-password">
+							<img src="/images/question_icon.png">
+					</a></li>
+					<li><input type="text" tabindex="3" size="4" autocommplete="off" placeholder="验证码" onfocus="reloadImg();" class="wns-inputbg wns-verifycode" name="rmNum" id="verifyCode" autocomplete="off"> <img name="checkNum_img" id="authnumImg" class="fl wns-verifycode-img" alt="点击更换" src="/verifycode.do?timestamp=1533703656259"></li>
+					<li>
+						<div class="submit myeffect">
+							<div class="effectbox default" style="width: 100%; height: 100%; position: relative; overflow: hidden; background-color: rgb(44, 62, 80);">
+								<div class="down" style="width: 100%; height: 100%; position: absolute; top: 0px; opacity: 1;">
+									<input type="button" name="Submit" class="sub" value="登录" onclick="doLoginB()">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="reg myeffect">
+							<div class="effectbox default" style="width: 100%; height: 100%; position: relative; overflow: hidden; background-color: rgb(0, 184, 225);">
+								<div class="down" style="width: 100%; height: 100%; position: absolute; top: 0px;">
+									<a href="/regpage.do" class="register">立即注册</a>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<!-- 登录后 -->
+			
+			<style type="text/css">
+.curr {
+	background: #456788;
+}
+
+.header-nav-ul li:hover {
+	background: #456788;
+}
+</style>
+			<div class="wns-navigation rel  r zindex1">
+				<ul class="header-nav-ul l">
+					<li id="LS-first"><a href="/index.do" target="_top" style="color: rgb(255, 255, 255);" class="curr">首页</a></li>
+					<li id="LS-sports " class="LS-ball "><a href="/index/sport.do" style="color: rgb(255, 255, 255);" class="LS-ball ">皇冠体育</a></li>
+					<li id="LS-LiveMain" class="LS-live "><a href="/index/real.do" class="LS-live ">真人娱乐</a></li>
+					<li id="LS-Game" class="LS-game "><a class="LS-game " href="/index/egame.do" style="color: rgb(255, 255, 255);">电子游艺</a></li>
+					<li id="LS-Lottery" class="LS-ltlottery "><a href="/index/games.do">彩票游戏</a></li>
+					<li id="LS-Agent"><a href="/index/rookieHelp.do?code=5">联盟合作</a></li>
+					<li id="LS-pre"><i class="youhui-icon"></i> <a href="/index/active.do" style="color: rgb(255, 255, 255);">优惠活动</a></li>
+				</ul>
+				<a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=565046&amp;configID=1934&amp;jid=1230714378&amp;s=1" target="_blank" class="wns-online"> <img src="/images/KF-gif.gif">在线客服
+				</a>
+			</div>
+			<div id="L-Sub">
+				<div class="LS-live" style="left: 180px; display: none;">
+					<a href="/index/real.do">AG视讯</a> <a href="/index/real.do">BBIN视讯</a> <a href="/index/real.do">MG视讯</a> <a href="/index/real.do">AB视讯</a>
+				</div>
+				<div class="LS-game" style="left: 272.5px; display: none;">
+					<a href="/index/egame.do">AG电子</a> <a href="/index/egame.do">BBIN电子</a> <a href="/index/egame.do">MG电子</a> <a href="/index/egame.do">QT电子</a> <a href="/index/egame.do">PT电子</a>
+				</div>
+			</div>
+			<style>
+#L-Sub {
+	position: relative;
+	z-index: 98;
+	clear: both;
+}
+
+#L-Sub div {
+	display: none;
+	position: absolute;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 8px;
+	z-index: 98;
+	box-shadow: 0px 0px 5px 3px #666;
+}
+
+#L-Sub div a {
+	float: left;
+	display: block;
+	padding: 0 4px;
+	color: #FFFFE4;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#L-Sub div a:hover {
+	color: #F2E1B0;
+}
+</style>
+			<script language="javascript">
+                                          $(document).ready(function() {
+                                                $("li.LS-ball, li.LS-live, li.LS-game,li.LS-ltlottery").subTabs();
+                                            });
+                                        </script>
+		</div>
+	</div>
+</div>
+		
+
+<link rel="stylesheet" href="/common/modelCommon/layer/css/layer.css">
+<link rel="stylesheet" href="/common/modelCommon/layer/css/style.css">
+<script src="/common/modelCommon/layer/js/layer.min.js"></script>
+<script src="/common/jquery/jquery.cookie.js"></script>
+<script>
+	$(function() {
+		$.ajax({
+					url : "/getConfig/getArticle.do",
+					data : {
+						code : 14
+					},
+					type : "post",
+					dataType : 'json',
+					success : function(j) {
+						var title = "";
+						var content = "";
+						var temp = -1;
+						if (j.length > 0) {
+							if (j[0].index) {
+								var fw = 550;
+								var fh = 550;
+								if (j[0].frameWidth && j[0].frameHeight) {
+									fw = j[0].frameWidth;
+									fh = j[0].frameHeight;
+								}
+								title = j[0].title;
+								if (!title) {
+									title = " ";
+									temp = 1;
+								}
+								
+								var showStyle = $('#showStyle').val();
+								if(!showStyle){
+									layer.open({
+										type : 1, //page层
+										area : [ fw + 'px', fh + 'px' ],
+										title : title,
+										shade : 0.6, //遮罩透明度
+										scrollbar : false,
+										offset : '16%',//距离顶部
+										moveType : 0, //拖拽风格，0是默认，1是传统拖动
+										shift : 1, //0-6的动画形式，-1不开启
+										content : '<div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;">'
+												+ j[0].content + '</div>'
+									});
+									if (temp < 0) {
+										$('.layui-layer-title').css({
+// 											'height' : '30px',
+// 											'line-height' : '0px',
+											'font-size' : '16px',
+											'color' : '#4c2515',
+											'font-weight' : 'bold',
+											'text-align' : 'center',
+// 											'margin-bottom' : '10px',
+											//'overflow': 'hidden',
+											'text-overflow' : 'ellipsis',
+											'white-space' : 'nowrap',
+											'padding' : '10px'
+										})
+									}
+								}else{
+									
+									$(function(){
+										  if ($.cookie('SHOW_FRAME')){
+									             $("#LsjmyModal").hide();
+									             $('#Lsj-fkinglayer').hide();
+									             return;
+									         }else{
+									        	 if (temp > 0) {
+									        		 $('#LsjmyModal #Lsj_modal-header').remove();
+									        	 }else{
+									        		 $('#LsjmyModal #lsj_title').html(title);
+									        	 }
+									        	 $('#LsjmyModal #Lsj_modal-content').css('width',fw);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').css('height',fh);
+									        	 $('#LsjmyModal #Lsjmodal-body_contents').html(j[0].content);
+									            $('#Lsj-fkinglayer').show();
+									            $("#LsjmyModal").show();    
+									         }
+									});
+									
+								}
+							
+							}
+						}
+
+					}
+				});
+	});
+	
+    function removers(i) {
+        if (i == 1) {
+            $.cookie('SHOW_FRAME', 'Y', {path: '/', expires: ''});
+        }
+        $('#LsjmyModal').remove();
+    }
+</script>
+<!-- 红包功能 -->
+
+<!-- 转盘功能 -->
+
+<!-- 签到功能 -->
+
+<!-- 统计代码 -->
+<div style="position: fixed; z-index: 99999999; bottom: 0;"></div>
+<!-- 弹窗 -->
+<div id="LsjmyModal" class="Lsj-Modal">
+    <div class="Lsj_modal-content pop_border_color" id="Lsj_modal-content">
+    
+        <div class="Lsj_modal-header pop_title_box_bcolor" id="Lsj_modal-header">
+            <span class="Lsj-close" onclick="removers();">×</span>
+            <h3 class="pop_title_color" id="lsj_title"></h3>
+        </div>
+        
+        <div class="Lsjmodal-body_contents pop_box_bg_color" id="Lsjmodal-body_contents"></div>
+        
+        <div class="Lsj_modal-footer">
+            <div class="Lsjbtn-bottom-two-right">
+                <button class="Lsj_okBtn Lsj_outline" onclick="removers(1);">下次不再显示</button>
+                <button class="Lsj_okBtn Lsj_filled" onclick="removers();">确定</button>
+            </div>
+        </div>
+        
+    </div>
+    <div id="Lsj-fkinglayer" style="display: none;"></div>
+</div>
+ 
+		<div class="w-golab wns-common-banner-bg-fixed">
+			<div class="w980 clearfix mc wns-common-banner rel" style="height: 455px;">
+				<img class="abs-common-banner" src="/images/index_banner_bg.png">
+				<div class="wns-hot-news">
+					<marquee class="wns-announce-marquee  db" scrollamount="3" scrolldelay="10" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><p>通知：近期有会员反映我司手机APP被恶意跳转，导致会员登入时显示其他公司登入页面，该问题已提交我司技术处理，目前我司已升级手机APP，加强防御问题，目前已解决该跳转问题，请会员卸载原APP 重新下载我司新上线的APP版本，给您带来的诸多不便，敬请谅解&nbsp; &nbsp;</p><p>新APP下载网址：https://yb6.me/app/mg_n3IV&nbsp; &nbsp;</p><span style="color: rgb(109, 109, 114); font-family: &quot;Helvetica Neue&quot;, Helvetica, sans-serif; font-size: 17.92px; background-color: rgb(255, 255, 255);">【重要提醒】警惕他人传播虚假信息进行诈骗活动！（例如：网址更改，网站升级，资料转移，公司调整等）要求您提供会员账号的登入密码，取款密码等信息，均为骗子！切记！萬乐城没有任何分公司或者分站，也不会以任何理由要求会员提供任何密码！也不会通过短信或者电话通知您的新网站！请广大会员互相转告，以免上当受骗！有任何疑问请及时联系我们7x24小时在线客服为您解答!<br>微信客服：wanlecheng999&nbsp; &nbsp; &nbsp;qq客服：2754909171 &nbsp;请广大玩家添加我司唯一客服以便咨询！</span>您好，我们公司的真人投注反水比例为：0.5%。体育投注反水比例为：0.8% .电子游艺的投注无反水.香港六合彩的B盘投注反水比例为：10%. 彩票投注反水 比例为：0.1%<p>反水时间：当日投注打码将于次日的北京时间：02：00-03：00分进行派发</p>广大的萬樂城会员，由于六合彩开奖日出款会员较多，出款会稍有延迟，我们的财务专员会加急为您出款的，六合彩玩家在六合彩开奖期间出款时建议您耐心等待会呢，谢谢配合！！
+					</marquee>
+				</div>
+			</div>
+		</div>
+		<!--头部banner部分-->
+		<div class="w-golab wns-common-main-bg-fixed">
+			<div class="w-golab clearfix mc wns-common-main-bg">
+				<div class="w980 mc clearfix index-main-container">
+					<div class="l pic-item" style="border-left: 1px solid #00b8e1;">
+						<a href="/index/sport.do" class="pic1"></a>
+					</div>
+					<div class="l pic-item">
+						<a href="/index/real.do" class="pic2"></a>
+					</div>
+					<div class="l pic-item">
+						<a href="/index/egame.do" class="pic3"></a>
+					</div>
+					<div class="l pic-item">
+						<a href="/index/games.do" class="pic4"></a>
+					</div>
+					<div class="l bank-item">
+						<div class="IndexServer">
+							<div class="Lefts">
+								<ul class="Info">
+									<li class="TT1">
+										<p class="PP1">
+											<span>取款到账速度</span> <br>平均时间
+										</p>
+										<p class="PP2">
+											<span id="take_num">2'57</span>秒
+										</p>
+									</li>
+									<li class="TT2">
+										<div class="cci-load">
+											<div class="load-e">
+												<div class="load-rate" id="take" style="left: -26.2%;"></div>
+											</div>
+										</div>
+									</li>
+									<li class="TT1">
+										<p class="PP1">
+											<span>存款到账速度</span> <br>平均时间
+										</p>
+										<p class="PP2">
+											<span id="deposit_num">25</span>秒
+										</p>
+									</li>
+									<li class="TT2">
+										<div class="cci-load">
+											<div class="load-e">
+												<div class="load-rate" id="deposit" style="left: -79.2%;"></div>
+											</div>
+										</div>
+									</li>
+									<li class="TT3">
+										<p class="PP1">便捷的银行服务</p> <img src="/images/visa_card.png" class="bank_visa_card">
+										<p class="PP2">
+											<span id="bank_num">34</span>家
+										</p>
+									</li>
+								</ul>
+								<div class="cci_scoll">
+									<div id="deposit_s">
+										<div></div>
+									</div>
+									<div id="take_s">
+										<div></div>
+									</div>
+									<div id="bank_s">
+										<div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="l corperation" style="border-left: 1px solid #00b8e1;">
+						<a href="/index/rookieHelp.do?code=5"></a> <img src="/images/pic5.png"> 
+					</div>
+					<div class="l activity">
+						<a href="/index/active.do"> <img src="/images/pic6.png"></a>
+					</div>
+					<div class="l help-area">
+						<p>
+							<img src="/images/help_bg.jpg">
+						</p>
+						<ul>
+							<li><a href="/index/rookieHelp.do?code=1" class="js-article-color">
+									关于我们</a></li>
+							<li><a href="/index/rookieHelp.do?code=7" class="js-article-color">
+									常见问题</a></li>
+							<li><a href="/index/rookieHelp.do?code=3" class="js-article-color">
+									存款帮助</a></li>
+							<li><a href="/index/rookieHelp.do?code=4" class="js-article-color">
+									代理联盟</a></li>
+							<li><a href="/index/rookieHelp.do?code=6" class="js-article-color">
+									联系我们</a></li>
+							<li><a href="/index/rookieHelp.do?code=2" class="js-article-color">
+									取款帮助</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+<div class="wns-footer-fixed w-golab ">
+	<div class="w-golab wns-footer">
+		<div class=" mc rel wns-footer-top">
+			<dl class="left">
+				<dt>
+					<span>合作伙伴</span>
+				</dt>
+				<dd>
+					<img src="/images/footer_pic1.png">
+				</dd>
+			</dl>
+			<dl class="middle">
+				<dt>
+					<span>政府牌照</span>
+				</dt>
+				<dd>
+					<img src="/images/footer_pic2.png" alt="">
+				</dd>
+			</dl>
+			<dl class="right">
+				<dt>
+					<span>合作平台</span>
+				</dt>
+				<dd>
+					<img src="/images/footer_pic3.png" alt="">
+				</dd>
+			</dl>
+			<dl class="right2">
+				<dt>
+					<span>业界认证</span>
+				</dt>
+				<dd>
+					<img src="/images/footer_pic4.png" alt="">
+				</dd>
+			</dl>
+			<p class="footernav" style="text-align: center;">
+				<a href="/index/rookieHelp.do?code=1" class="js-article-color"> 关于我们&nbsp;|&nbsp; </a> 
+				<a href="/index/rookieHelp.do?code=7" class="js-article-color"> 常见问题&nbsp;|&nbsp; </a> 
+				<a href="/index/rookieHelp.do?code=3" class="js-article-color"> 存款帮助&nbsp;|&nbsp; </a> 
+				<a href="/index/rookieHelp.do?code=4" class="js-article-color"> 代理联盟&nbsp;|&nbsp; </a> 
+				<a href="/index/rookieHelp.do?code=6" class="js-article-color"> 联系我们&nbsp;|&nbsp; </a> 
+				<a href="/index/rookieHelp.do?code=2" class="js-article-color"> 取款帮助&nbsp;&nbsp; </a>
+			</p>
+		</div>
+		<div class="copyright"></div>
+	</div>
+</div>
+	</div>
+	
+
+	<style>
+.TplFloatSet a {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.TplFloatSet img {
+	vertical-align: bottom;
+}
+
+.TplFloatSet li {
+	list-style: none;
+	font-size: 0px;
+}
+</style>
+
+	<script>
+//關閉效果
+function FloatClose(t){ $(t).parents('.TplFloatSet').hide(); }
+var float_list = [], float_side = 5;
+if (typeof(FloatL_Top) == 'undefined' || FloatL_Top == '' || FloatL_Top == 0) {
+    var left_top = 180;
+}else{
+    var left_top = FloatL_Top;
+}
+if (typeof(FloatR_Top) == 'undefined' || FloatR_Top == '' || FloatR_Top == 0) {
+    var right_top = 180;
+}else{
+    var right_top = FloatR_Top;
+}
+$(window).load(function() {
+// s廳主自改 - 浮動圖V2 -2013.7.19
+            for (var i in float_list) {
+       var self = float_list[i],
+       picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+       var w = 0;
+     $.each(self.find('img'), function(){
+            var width = $(this).width();
+            w = (width > w) ? width : w;//取圖片最大寬度
+            $(this).attr({
+                'width' : width,
+                'height': $(this).height()
+            });
+        });
+        self.css('width', w);
+        if (picfloat) {
+            right_top = right_top + 10 + (self.height() || 250);
+        } else {
+            left_top = left_top + 10 + (self.height() || 250);
+        }
+
+        $('a', self).each(function(){
+            $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+            $(this).hover(function() {
+                $(this).find('img:first').hide();
+                $(this).find('img:last').show();
+            }, function() {
+                $(this).find('img:last').hide();
+                $(this).find('img:first').show();
+            });
+        });
+    }
+});
+</script>
+
+	<style>
+.left_ad ul, ol {
+	padding: 0;
+	margin: 0;
+}
+
+.left_ad {
+	position: relative;
+	overflow: auto;
+	text-align: center;
+}
+
+.left_ad li {
+	list-style: none;
+}
+
+.left_ad ul li {
+	float: left;
+}
+</style>
+	
+	<script>
+$(window).load(function() {
+    $("#ele-adv").hover(function(){
+        $(".dv-colse").css("display","block");
+    },function(){
+        $(".dv-colse").css("display","none");
+    });
+})
+</script>
+
+	<!-- 回到顶部按钮-开始 -->
+	<style type="text/css">
+#ele-float-top-wrap {
+	position: fixed;
+	right: 5px;
+	bottom: 90px;
+	min-width: 40px;
+	z-index: 20;
+}
+
+#ele-float-top {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	display: none;
+}
+
+.ele-float-top-btn {
+	margin-top: 2px;
+	display: block;
+	position: relative;
+	height: 40px;
+	border-radius: 3px;
+	transition: opacity 0.6s ease;
+	background-color: white;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	filter: alpha(opacity = 80);
+	opacity: 0.8;
+}
+
+#ele-float-top-up {
+	display: none;
+	cursor: pointer;
+	margin-top: -40px;
+}
+
+.ele-float-top-btn:hover {
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	filter: alpha(opacity = 100);
+	opacity: 1;
+	background-position: 50% 100%;
+}
+</style>
+	<div id="ele-float-top-wrap" style="height: 0px;">
+		<div id="ele-float-top" style="display: block;">
+			<div id="ele-float-top-up" class="ele-float-top-btn" style="background-image: url(/images/float_top_up.png);"></div>
+		</div>
+	</div>
+	<!-- 回到顶部按钮-结束 -->
+
+<div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.6; filter:alpha(opacity=60);"></div><div class="layui-layer layui-anim-01 layui-layer-page " id="layui-layer1" type="page" times="1" showtime="0" contype="string" style="z-index: 19891015; width: 550px; height: 550px; top: 16%; left: 232px;"><div class="layui-layer-title" style="cursor: move; font-size: 16px; color: rgb(76, 37, 21); font-weight: bold; text-align: center; text-overflow: ellipsis; white-space: nowrap; padding: 10px;" move="ok">站内公告通知！</div><div class="layui-layer-content" style="height: 536px;"><div style="overflow-x: hidden;overflow-y: hidden;width:100%;height:100%;"><strong style="color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; font-size: 14px; line-height: 22px; background-color: rgb(255, 255, 255);"><span style="font-size: 16px;"><span style="color: rgb(255, 0, 0); font-size: 24px;">重要通知：</span></span></strong><span style="color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; line-height: 22px; background-color: rgb(255, 255, 255);"><span style="color: rgb(255, 0, 0); font-size: 24px;"></span><strong>尊敬的萬楽城会员， 近期有不法分子冒充我司微信客服及QQ客服，主动添加您邀请您到其他网站下注。请您不要相信该类客服的信息，我们公司是不会主动添加会员的呢，一切微信及QQ联系方式都以官方发布的联系方式为准，避免上当受骗，谢谢配合</strong></span><span style="font-size: 14px; background-color: rgb(255, 192, 0);"><span style="font-size: 14px; color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; line-height: 22px; background-color: rgb(255, 255, 255);"><p><strong><span style="font-size: 16px;"><span style="font-size: 18px;">官方唯一指定<span style="font-size: 18px; color: rgb(0, 176, 240);">微信客服号</span>：<span style="color: rgb(227, 108, 9);">&nbsp;</span>&nbsp;<strong style="color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px;"><span style="font-size: 18px;"><span style="color: rgb(227, 108, 9);">wanlecheng888&nbsp; &nbsp;</span></span></span></strong><strong style="color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; font-size: 14px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px;"><span style="font-size: 18px;"><span style="color: rgb(227, 108, 9);">wanlecheng999</span>&nbsp;</span></span></strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<span style="font-size: 18px; color: rgb(0, 176, 240);">QQ客服</span>：<span style="color: rgb(0, 176, 80);">2754909171</span></span></span></strong></p><strong>&nbsp;萬樂城娱乐城备用网址：<br>&nbsp; wlc222.com&nbsp;&nbsp;<img src="/common/js/UEditor/themes/default/images/spacer.gif" word_img="file:///C:\Users\ADMINI~1\AppData\Local\Temp\`7_{~]GF$3{MOQ4V_}PH]YC.png" style="background:url(/common/js/UEditor/lang/zh-cn/images/localimage.png) no-repeat center center;border:1px solid #ddd">wlc333.com&nbsp;；<img src="/common/js/UEditor/themes/default/images/spacer.gif" word_img="file:///C:\Users\ADMINI~1\AppData\Local\Temp\`7_{~]GF$3{MOQ4V_}PH]YC.png" style="background:url(/common/js/UEditor/lang/zh-cn/images/localimage.png) no-repeat center center;border:1px solid #ddd">wlc4.com&nbsp;<img src="/common/js/UEditor/themes/default/images/spacer.gif" word_img="file:///C:\Users\ADMINI~1\AppData\Local\Temp\`7_{~]GF$3{MOQ4V_}PH]YC.png" style="background:url(/common/js/UEditor/lang/zh-cn/images/localimage.png) no-repeat center center;border:1px solid #ddd">wlc17.com&nbsp;&nbsp;&nbsp;<img src="/common/js/UEditor/themes/default/images/spacer.gif" word_img="file:///C:\Users\ADMINI~1\AppData\Local\Temp\`7_{~]GF$3{MOQ4V_}PH]YC.png" style="background:url(/common/js/UEditor/lang/zh-cn/images/localimage.png) no-repeat center center;border:1px solid #ddd">如果出现网页卡顿请选择其中一条线路登陆哦<br><br>APP下载地址：<span style="color: rgb(255, 192, 0); font-size: 20px;">苹果系统</span>版本app下载地址:<img src="/common/js/UEditor/themes/default/images/spacer.gif" word_img="file:///C:\Users\ADMINI~1\AppData\Local\Temp\`7_{~]GF$3{MOQ4V_}PH]YC.png" style="background:url(/common/js/UEditor/lang/zh-cn/images/localimage.png) no-repeat center center;border:1px solid #ddd">https://yb8.me/app/mg_bF6p&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-size: 20px;">&nbsp;&nbsp;<span style="color: rgb(146, 208, 80);">安卓系统</span></span>版本app下载地址:<img src="/common/js/UEditor/themes/default/images/spacer.gif" word_img="file:///C:\Users\ADMINI~1\AppData\Local\Temp\`7_{~]GF$3{MOQ4V_}PH]YC.png" style="background:url(/common/js/UEditor/lang/zh-cn/images/localimage.png) no-repeat center center;border:1px solid #ddd">https://yb8.me/app/mg_bF6p&nbsp;</strong><br><br>1：微信转账到银行卡可以到账时间为白天9:00-晚上夜间23:30分会秒到，其他时间段微信公司会延迟到账，各位玩家直接转账到我们公司的招商银行卡，转账的时候输入金额要附带小数点，以便财务查询核对快速为您添加款项，建议老玩家让他们找客服获取招商入款账号，新玩家向客服获取建行银行账户！（此方式充值无限额）<br></span><span style="font-size: 14px; color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; line-height: 22px; background-color: rgb(255, 255, 255);"><br>2：支付宝转账到招商银行卡能及时到账时间为：0:00-23:30分，其他<span style="font-size: 14px; color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; line-height: 22px; background-color: rgb(255, 255, 255);"></span>时间段支付宝公司会延迟到账，建议老玩家让他们找客服获取招商入款账号，新玩家向客服获取建行银行账户！（此方式充值无限额）</span><br style="white-space: normal; color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; font-size: 14px; line-height: 22px; background-color: rgb(255, 255, 255);"><span style="font-size: 14px; color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; line-height: 22px; background-color: rgb(255, 255, 255);"><br>3：新增银联扫码充值方式，无需开通网银也可以支付，单笔支付最高金额4999，只要下载一个银联钱包可以扫京东钱包，银联二维码，没有支付限额（此方式充值无限额）</span><br style="white-space: normal; color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; font-size: 14px; line-height: 22px; background-color: rgb(255, 255, 255);"><span style="font-size: 14px; color: rgb(128, 128, 128); font-family: 微软雅黑, Tahoma, 宋体; line-height: 22px; background-color: rgb(255, 255, 255);">以上所有支付方式都可以再优惠活动里面查看到教程方式，如果有不清楚的地方可以直接咨询我们客服或者上级代理即可！</span></span></div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span></div></body></html>

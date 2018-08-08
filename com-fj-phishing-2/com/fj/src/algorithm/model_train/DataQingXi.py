@@ -1,9 +1,12 @@
 # _*_ coding=utf-8 _*_
-
+#第一步
 import re
 import os
 import jieba
 import traceback
+
+projectPath=os.getcwd() #获取路径
+
 def getChineseContent(raw_page_content):
     raw_page_content_1 = raw_page_content.decode("utf-8").encode('unicode_escape').decode('unicode_escape') #str
 
@@ -25,40 +28,43 @@ def getChineseContent(raw_page_content):
     return ",".join(content_list_encode)
 
 
-projectPath=os.getcwd()
+
 if not os.path.exists(projectPath+'/unknown'):
     os.makedirs(projectPath+'/unknown')
 
+def qingXi():
+        f = open(projectPath+"/data/file_list_03.txt", 'r')
+        for line in f:
+            try:
+                label, url, file_name = line.strip("\r\n").split(',')
+                filepath = file_name.strip("\r\n")
+                e = open(projectPath+"/web_scan_probe/html" + "/" + filepath,
+                         'rb')
 
-f = open(projectPath+"/data/file_list_03.txt", 'r')
-for line in f:
-    try:
-        label, url, file_name = line.strip("\r\n").split(',')
-        filepath = file_name.strip("\r\n")
-        e = open(projectPath+"/file_02" + "/" + filepath,
-                 'rb')
+                zh = getChineseContent(e.read())
 
-        zh = getChineseContent(e.read())
+                # zh1 = jieba.cut(zh)
+                # text = ','.join(zh1)
+                # # print label,id,text
+                # c = open("I:\Users\qianhuhai\PycharmProjects\com-fj-phishing-1.0\com\\fj\data\\unknown" + "\\" + filepath, "wb")
+                # t = text.strip().split(",")
+                # c.write(label.encode('utf-8') + ',' + '\n')
+                # for i in t:
+                #     c.write(i.encode("utf-8") + '\n')
+                c = open(projectPath+"/unknown" + "/" + filepath, "w")
 
-        # zh1 = jieba.cut(zh)
-        # text = ','.join(zh1)
-        # # print label,id,text
-        # c = open("I:\Users\qianhuhai\PycharmProjects\com-fj-phishing-1.0\com\\fj\data\\unknown" + "\\" + filepath, "wb")
-        # t = text.strip().split(",")
-        # c.write(label.encode('utf-8') + ',' + '\n')
-        # for i in t:
-        #     c.write(i.encode("utf-8") + '\n')
-        c = open(projectPath+"/unknown" + "/" + filepath, "w")
+                t = zh.strip().split(",")
 
-        t = zh.strip().split(",")
+                c.write(label + ',' + '\n')
+                for i in t:
+                    c.write(i + '\n')
 
-        c.write(label + ',' + '\n')
-        for i in t:
-            c.write(i + '\n')
+                e.close()
+                c.close()
+            except :
+                traceback.print_exc()
 
-        e.close()
-        c.close()
-    except :
-        traceback.print_exc()
+        f.close()
 
-f.close()
+if __name__ == '__main__':
+    qingXi()

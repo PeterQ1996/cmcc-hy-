@@ -1,0 +1,413 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <title>大财神彩乐园
+</title>
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="js/jquery-ui/styles/jquery-ui.css">
+    <script type="text/javascript"> 
+    var url = '/api/checkwh.do?t='+Math.random();
+    document.write("<script type='text/javascript' src='"+url+"'><\/script>");
+    document.close();
+</script><script type="text/javascript" src="/api/checkwh.do?t=0.026501999305411972"></script>
+</head>
+
+
+<body>
+<div class="header">
+    <div class="wrapper">
+        <div class="logo"><a href="index.html"><img src="img/dsn3_logo_g.png" alt="logo"></a></div>
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html">网站首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="activity.html">优惠活动</a>
+                </li>
+                <li class="nav-item">
+                    <a class="trade" href="reg.html">开户注册</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faqs.html">常见问题</a>
+                </li>
+                <li class="nav-item">
+                    <a href="mobile.html">手机投注</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:BBOnlineService();" target="_blank">在线客服</a>
+                </li>
+            </ul>
+        </div>
+        <div class="login-form trial">
+            <form onsubmit="loginNoValiCode();return false;" autocomplete="off" class="login-input login">
+                <span class="inline-input">
+                        <input type="text" id="userName" placeholder="会员账号" maxlength="15" tabindex="1">
+                        <label class="input-label">会员账号</label>
+                      </span>
+                <span class="inline-input">
+                        <input type="password" id="userPwd" placeholder="密码" maxlength="20" tabindex="2">
+                        <label class="input-label">密码</label> 
+                        <a class="forgot-password" href="javascript:BBOnlineService();">忘记</a>
+                      </span>
+                <button class="button login" type="submit">登入</button>
+                <button type="button" class="button trial" onclick="guestLogin();">试玩</button>
+                <button class="button register" type="button" onclick="window.location.href='reg.html'">注册</button>
+            </form>
+            <div class="login-support">
+                <div class="right date"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide banner1">
+                <div class="bg"></div>
+                <div class="title"></div>
+                <div class="deco"></div>
+                <div class="character"></div>
+                <a class="button go in-game" href="reg.html" target="_blank"></a>
+            </div>
+            <div class="swiper-slide banner2">
+                <div class="bg"></div>
+                <div class="deco"></div>
+                <div class="wrapper">
+                    <div class="title"></div>
+                    <div class="character"></div>
+                    <div class="button go"></div>
+                </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-button-next"></div> -->
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+    <div class="banner-addon">
+        <div class="wrapper">
+            <div class="left col-3 promo">
+                <div class="more-addon">
+                    <div class="swiper-container-phone">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="img/iphonex.png" alt="iphonex">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/iphonex.png" alt="iphonex">
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="addon-title">存款送豪礼</h3>
+                    <img src="img/bannerleftico.png" alt="phone">
+                    <a class="more" href="#">更多精彩&nbsp;&gt;</a>
+                </div>
+            </div>
+            <div class="right col-7 promo">
+                <div class="addon-item">
+                    <div class="left col-4">
+                        <img src="img/bannerico1.png" alt="ico1">
+                    </div>
+                    <div class="right col-6">
+                        <h4>北京赛车PK10</h4>
+                        <p>业界最公平的彩票游戏<br>谁是冠军1赔9.97倍</p>
+                    </div>
+                </div>
+                <div class="addon-item">
+                    <div class="left col-4">
+                        <img src="img/bannerico2.png" alt="ico2">
+                    </div>
+                    <div class="right col-6">
+                        <h4>手机客户端</h4>
+                        <p>独家提供苹果/ <br>安卓客户端</p>
+                    </div>
+                </div>
+                <div class="addon-item">
+                    <div class="left col-4">
+                        <img src="img/bannerico3.png" alt="ico3">
+                    </div>
+                    <div class="right col-6">
+                        <h4>手机触屏版</h4>
+                        <p>无需下载<br>打开网页即可下注畅玩 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="left col-5 info" onclick="" href="javascript:;">
+                <marquee>
+                        <p>解决充值与提款问题专线微信：dcs11com请备存，以防不时之需。
+平台永久导航网域名https://58dcs.com/快开彩单期单注不可以打9球以上(包含9球). 如有发现，会员所得盈利将被扣除.
+</p>
+                        <p>好礼大放送：
+①多功能计划软件【手机安卓版】与【电脑版】已经在免费发放中。 
+②理财计划聊天室-让你日赚100-1000不是梦.
+如有需要的请联系QQ：1351188888索取软件.同时遇到无法充值的也可以联系。</p>
+                </marquee>
+            </div>
+            <div class="right col-5 info" id="trans_list">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content game">
+    <h2 class="content-title">Latest lottery</h2>
+    <h3 class="content-title-sub"><span class="line left"></span>热门彩种<span class="line right"></span></h3>
+    <div class="games-container">
+        <div class="parallax-wrapper" id="scene">
+            <div data-depth="0.2" class="deco"></div>
+        </div>
+        <div class="wrapper">
+            <div class="left col-4">
+                <div class="game-bg">
+                    <div class="glare"></div>
+                    <div class="glare"></div>
+                    <div class="glare"></div>
+                    <div class="glare"></div>
+                </div>
+
+                <div class="game-title">
+                    <div class="game-start"></div>
+                    <div class="game-end"></div>
+                </div>
+                <div class="game-timer">
+
+                </div>
+                <div class="button go js-tilt" data-tilt="">
+                    <div class="play icon"></div>
+                    <a href="#" target="_blank" class="in-game">前往</a>
+                </div>
+            </div>
+            <div class="right col-6">
+                <a class="in-game more-games" href="#" target="_blank">更多精彩&nbsp;&gt;</a>
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper swiper-wrapper-->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide game1">
+                            <div class="game-list">
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="pk10" href="#">PK10JSC</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="bjl" href="#">PK10BJL</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="bjpk10" href="#">BJPK10</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="jsssc" href="#">SSCJSC</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="cqssc" href="#">CQSSC</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="auluck5" href="#">AULUCKY5</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="hk6" href="#">HK6</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="k3" href="#">K3</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="gxklsf" href="#">GXKLSF</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="gdklsf" href="#">GDKLSF</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="gd11x5" href="#">GD11X5</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="tcpl3" href="#">PL3</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide game2">
+                            <div class="game-list small">
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="kl8" href="#">KL8</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="xjssc" href="#">XJSSC</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="tjssc" href="#">TJSSC</a>
+                                </div>
+                                <div class="game-item js-tilt" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="auluck10" href="#">AULUCKY10</a>
+                                </div>
+                                <div class="game-item js-tilt js-tilt2" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="auluck20" href="#">AULUCKY20</a>
+                                </div>
+                                <div class="game-item js-tilt js-tilt2" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="pcegg" href="#">PCEGG</a>
+                                </div>
+                                <div class="game-item js-tilt js-tilt2" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="f3d" href="#">F3D</a>
+                                </div>
+                                <div class="game-item js-tilt js-tilt2" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="auluck8" href="#">AULUCKY8</a>
+                                </div>
+                                <div class="game-item js-tilt js-tilt2" data-tilt="">
+                                    <span class="glare"></span>
+                                    <a class="xync" href="#">XYNC</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content service">
+    <h2 class="content-title">Service advantage</h2>
+    <h3 class="content-title-sub"><span class="line left"></span>服务优势<span class="line right"></span></h3>
+    <div class="wrapper">
+        <ul class="service">
+            <li class="service-item">
+                <div class="deposit"></div>
+                <h4>存款时间 平均时间</h4>
+                <h3><span class="deposit-value">0</span>秒</h3>
+            </li>
+            <li class="service-item">
+                <div class="withdraw"></div>
+                <h4>取账到账 平均时间</h4>
+                <h3><span class="withdraw-value">0</span>分</h3>
+            </li>
+            <li class="service-item">
+                <div class="bank"></div>
+                <h4>便捷的银行服务 目前我们支付机构有</h4>
+                <h3><span class="bank-value">0</span>家</h3>
+            </li>
+        </ul>
+        <div class="service-wrapper">
+            <div class="left col-5">
+                <div class="left col-2 lion"></div>
+                <div class="right col-8 desc">
+                    <h3>单日可提款 1000万人民币</h3>
+                    <h4>会员大额提现均可在 澳门威尼斯人酒店提现。</h4>
+                </div>
+            </div>
+            <div class="right col-5">
+                <div class="left col-2 sun"></div>
+                <div class="right col-8 desc">
+                    <h3>牌照</h3>
+                    <h4>由菲律宾政府颁发合法牌照，由PAGCOR部门授权及监管。</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="service-footer">
+    <h2 class="content-title dark">Cooperative Partner</h2>
+    <h3 class="content-title-sub dark"><span class="line left"></span>合作伙伴<span class="line right"></span></h3>
+    <div class="wrapper">
+        <ul class="partner">
+            <li class="suncity"></li>
+            <li class="alipay"></li>
+            <li class="wechatpay"></li>
+            <li class="unionpay"></li>
+        </ul>
+    </div>
+</div></div>
+
+
+<div class="footer">
+        <div class="first-footer">
+            <a href="faqs.html">如何存取款</a><span>/</span>
+            <a href="partner.html">合作伙伴</a><span>/</span>
+            <a href="faqs.html?type=3">隐私及政策</a><span>/</span>
+            <a href="faqs.html?type=5">联系我们</a><span>/</span>
+            <a href="faqs.html?type=4">规则与条款</a>
+        </div>
+        <div class="second-footer">
+            <p>火狐浏览器  / 谷歌浏览器 / IE 9 以上浏览器</p>
+        </div>
+    </div>
+<div class="sticky-nav">
+        <ul class="sticky-nav-list">
+            <li class="nav">
+                <a href="#" target="_blank">Nav</a>
+            </li>
+            <li class="qr">
+                <a href="#">APP</a>
+                <div class="sticky-hidden-content">
+                    <img src="img/dsn3app_qr.png" alt="">
+                </div>
+            </li>
+            <li class="qq">
+                <a href="javascript:qqService()">QQ</a>
+                <div class="sticky-hidden-content">
+                    <img src="" alt="">
+                </div>
+            </li>
+            <li class="wechat">
+                <a href="#">WeChat</a>
+                <div class="sticky-hidden-content">
+                    <img src="img/wc_qr.png" alt="">
+                </div>
+            </li>
+    
+            <li class="back-to-top">
+                <a href="#">Top</a>
+            </li>
+        </ul>
+    </div>
+<div id="homeOverlay">
+    <div id="homePopup">
+        <img src="img/home_popup.png" alt="popup">
+    </div>
+</div>
+<link type="text/css" href="/static/lib/remodal-1.1.0/remodal.min.css" rel="stylesheet">
+
+
+<script src="/conf/config.js"></script>
+<script src="js/home_main.min.js"></script><div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc" data-remodal-options="hashTracking: false" style="width: 250px" tabindex="-1">
+    <div>
+        <p id="modal1Desc" style="color: #000"></p>
+        <span class="btnclose">关闭</span>
+    </div>
+</div></div>
+
+
+<script type="text/javascript" src="js/jquery-ui/jquery-ui.js"></script></body></html>

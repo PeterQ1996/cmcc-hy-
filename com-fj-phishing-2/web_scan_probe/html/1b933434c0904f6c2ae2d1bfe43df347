@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+ <meta name="viewport" content="width=320.1,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+  <meta name="apple-mobile-web-app-title" content="yeziyuan">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta content="telephone=no" name="format-detection">
+  <meta name="full-screen" content="yes">
+  <meta name="x5-fullscreen" content="true">
+<title>请点击继续访问</title>
+<style type="text/css">
+.wechatTips {
+	display:none;
+	width: 320px;
+	height: 400px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: url(wechatTips.png) 0 0 no-repeat;
+	background-size: 100%;
+	z-index: 10000;
+}
+</style></head>
+
+<body><center>
+<br><br><br><br>　<p>　</p>
+<p><br></p>
+
+<h1>
+<a href="javascript:void(0);" _href="/Moblie_login" onclick="go_url(this)" target="_self" style="text-decoration:none">
+<font color="#000080">黄金集团登录网址-点击进入</font></a></h1>
+<p>
+　</p>
+
+<h1>
+<a href="javascript:void(0);" _href="/login" onclick="go_url(this)" target="_self" style="text-decoration:none">
+<font color="#000080">黄金集团登录网址-点击进入</font></a></h1></center>
+<div class="wechatTips" id="tips" onclick="close_tips()"></div>
+<script>
+function isWeiXin() {
+	var sGBmDma1 = window["navigator"]["userAgent"]["toLowerCase"]();
+	if (sGBmDma1["match"](/MicroMessenger/i) == 'micromessenger') {
+		return true
+	}
+	if (sGBmDma1["match"](/QQ/i) == 'qq') {
+		return true
+	}
+	return false
+}
+function close_tips() {
+	window["document"]["getElementById"]('tips')["style"]["display"] = 'none'
+}
+
+function go_url(obj){
+   
+	var autourl=new Array()
+                //只需将如下地址替换成自已要检测的网址即可。
+    autourl[1]='http://999.1hjjt.com';
+    autourl[2]='http://999.2hjjt.com';
+    autourl[3]='http://999.2hjjt.com';
+    autourl[4]='http://999.2hjjt.com';
+    autourl[5]='http://999.4hjjt.com';
+    autourl[6]='http://999.4hjjt.com';
+    autourl[7]='http://888.1hjjt.com:8088';
+    autourl[8]='http://888.1hjjt.com:8088';
+    autourl[9]='http://888.1hjjt.com:8088';
+    autourl[10]='http://888.1hjjt.com:8088';
+    autourl[11]='http://888.1hjjt.com:8088';
+    autourl[12]='http://888.1hjjt.com:8088';  
+    autourl[13]='http://999.9hjjt.com';
+    autourl[14]='http://999.9hjjt.com';
+    autourl[15]='http://999.9hjjt.com';
+    autourl[16]='http://888.44hjjt.com:8088';
+    autourl[17]='http://888.44hjjt.com:8088';
+    autourl[18]='http://888.44hjjt.com:8088';  
+    autourl[19]='http://888.44hjjt.com:8088';
+	
+   if(isWeiXin()){
+	    document.getElementById('tips').style.display='block';
+		return false; 
+	 }
+	
+	Math.random()*18
+	var num = Math.random()*18 + 1;
+	num = parseInt(num, 10);
+	
+	var _href=autourl[num] + "/" + obj.getAttribute("_href");
+	window.location.href= _href;
+}
+</script>
+
+</body></html>

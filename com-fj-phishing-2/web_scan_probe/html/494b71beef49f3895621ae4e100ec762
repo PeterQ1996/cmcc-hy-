@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml
+1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta http-equiv="refresh" content="0;url=/error.html">
+<script language="javascript">
+       function load(){
+           var url = window.location.hostname;
+            if(url == "kgcp33.com"  ){
+                   window.location.href='http://kgcp33.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp33.com"  ){
+                   window.location.href='http://www.kgcp33.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "ag.kgcp33.com"  ){
+                   window.location.href='http://ag.kgcp33.com/kuaiGouCPloginag/app/index.jsp';
+            }
+            else if(url == "cag.kgcp33.com"  ){
+                   window.location.href='http://cag.kgcp33.com/cashloginag/app/index.jsp';
+            }
+            else if(url == "hag.kgcp33.com"  ){
+                   window.location.href='http://hag.kgcp33.com/cashloginag/index.jsp';
+            }
+            else if(url == "chag.kgcp33.com"  ){
+                   window.location.href='http://chag.kgcp33.com/cashloginag/index.jsp';
+            }
+            else if(url == "kgcp66.com"  ){
+                   window.location.href='http://kgcp66.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp66.com"  ){
+                   window.location.href='http://kgcp66.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp99.com"  ){
+                   window.location.href='http://kgcp99.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp99.com"  ){
+                   window.location.href='http://kgcp99.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp77.com"  ){
+                   window.location.href='http://kgcp77.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp77.com"  ){
+                   window.location.href='http://kgcp77.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp00.com"  ){
+                   window.location.href='http://kgcp00.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp00.com"  ){
+                   window.location.href='http://kgcp00.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp11.com"  ){
+                   window.location.href='http://kgcp11.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp11.com"  ){
+                   window.location.href='http://kgcp11.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp22.com"  ){
+                   window.location.href='http://kgcp22.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp22.com"  ){
+                   window.location.href='http://kgcp22.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp33.com"  ){
+                   window.location.href='http://kgcp33.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp33.com"  ){
+                   window.location.href='http://kgcp33.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp44.com"  ){
+                   window.location.href='http://kgcp44.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp44.com"  ){
+                   window.location.href='http://kgcp44.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp55.com"  ){
+                   window.location.href='http://kgcp55.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp55.com"  ){
+                   window.location.href='http://kgcp55.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp0.com"  ){
+                   window.location.href='http://kgcp0.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp0.com"  ){
+                   window.location.href='http://kgcp0.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp1.com"  ){
+                   window.location.href='http://kgcp1.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp1.com"  ){
+                   window.location.href='http://kgcp1.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp2.com"  ){
+                   window.location.href='http://kgcp2.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp2.com"  ){
+                   window.location.href='http://kgcp2.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp3.com"  ){
+                   window.location.href='http://kgcp3.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp3.com"  ){
+                   window.location.href='http://kgcp3.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "ag.kgcp3.com"  ){
+                   window.location.href='http://ag.kgcp3.com/kuaiGouCPloginag/app/index.jsp';
+            }
+            else if(url == "cag.kgcp3.com"  ){
+                   window.location.href='http://cag.kgcp3.com/cashloginag/app/index.jsp';
+            }
+            else if(url == "kgcp4.com"  ){
+                   window.location.href='http://kgcp4.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp4.com"  ){
+                   window.location.href='http://kgcp4.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp5.com"  ){
+                   window.location.href='http://kgcp5.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp5.com"  ){
+                   window.location.href='http://kgcp5.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp6.com"  ){
+                   window.location.href='http://kgcp6.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp6.com"  ){
+                   window.location.href='http://kgcp6.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp7.com"  ){
+                   window.location.href='http://kgcp7.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp7.com"  ){
+                   window.location.href='http://kgcp7.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp8.com"  ){
+                   window.location.href='http://kgcp8.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp8.com"  ){
+                   window.location.href='http://kgcp8.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "kgcp9.com"  ){
+                   window.location.href='http://kgcp9.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.kgcp9.com"  ){
+                   window.location.href='http://kgcp9.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "ag.kgcp66.com"  ){
+                   window.location.href='http://ag.kgcp66.com/kuaiGouCPloginag/app/index.jsp';
+            }
+            else if(url == "cag.kgcp66.com"  ){
+                   window.location.href='http://cag.kgcp66.com/cashloginag/app/index.jsp';
+            }
+            else if(url == "hag.kgcp66.com"  ){
+                   window.location.href='http://hag.kgcp66.com/cashloginag/index.jsp';
+            }
+            else if(url == "chag.kgcp66.com"  ){
+                   window.location.href='http://chag.kgcp66.com/cashloginag/index.jsp';
+            }
+            else if(url == "ag.kgcp77.com"  ){
+                   window.location.href='http://ag.kgcp77.com/kuaiGouCPloginag/app/index.jsp';
+            }
+            else if(url == "cag.kgcp77.com"  ){
+                   window.location.href='http://cag.kgcp77.com/cashloginag/app/index.jsp';
+            }
+            else if(url == "hag.kgcp77.com"  ){
+                   window.location.href='http://hag.kgcp77.com/cashloginag/index.jsp';
+            }
+            else if(url == "chag.kgcp77.com"  ){
+                   window.location.href='http://chag.kgcp77.com/cashloginag/index.jsp';
+            }
+            else if(url == "ag.kgcp99.com"  ){
+                   window.location.href='http://ag.kgcp99.com/kuaiGouCPloginag/app/index.jsp';
+            }
+            else if(url == "cag.kgcp99.com"  ){
+                   window.location.href='http://cag.kgcp99.com/cashloginag/app/index.jsp';
+            }
+            else if(url == "hag.kgcp99.com"  ){
+                   window.location.href='http://hag.kgcp99.com/cashloginag/index.jsp';
+            }
+            else if(url == "chag.kgcp99.com"  ){
+                   window.location.href='http://chag.kgcp99.com/cashloginag/index.jsp';
+            }
+            else if(url == "kgcp88.com"  ){
+                   window.location.href='http://kgcp88.com/kuaiGouCPLoginWeb/app/home'; 
+           }
+            else if(url == "www.kgcp88.com"  ){
+                   window.location.href='http://kgcp88.com/kuaiGouCPLoginWeb/app/home'; 
+           }
+            else if(url == "ag.kgcp4.com"  ){
+                   window.location.href='http://ag.kgcp4.com/kuaiGouCPloginag/app/index.jsp';
+            }
+            else if(url == "cag.kgcp4.com"  ){
+                   window.location.href='http://cag.kgcp4.com/cashloginag/app/index.jsp';
+            }
+            else if(url == "ag.kgcp5.com"  ){
+                   window.location.href='http://ag.kgcp5.com/kuaiGouCPloginag/app/index.jsp';
+            }
+            else if(url == "cag.kgcp5.com"  ){
+                   window.location.href='http://cag.kgcp5.com/cashloginag/app/index.jsp';
+            }
+            else if(url == "kgcp800.com"  ){
+                   window.location.href='http://kgcp800.com/kuaiGouCPLoginWeb/app/home';
+           }
+            else if(url == "www.kgcp800.com"  ){
+                   window.location.href='http://kgcp800.com/kuaiGouCPLoginWeb/app/home';
+           }
+            else if(url == "www-kgcp3.com"  ){
+                   window.location.href='http://www-kgcp3.com/kuaiGouCPLoginWeb/app/home';
+           }
+            else if(url == "www.www-kgcp3.com"  ){
+                   window.location.href='http://www-kgcp3.com/kuaiGouCPLoginWeb/app/home';
+           } 
+            else if(url == "www-kgcp.com"  ){
+		   window.location.href='http://www-kgcp.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.www-kgcp.com"  ){
+		   window.location.href='http://www-kgcp.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www-123456789.com"  ){
+		   window.location.href='http://www-123456789.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.www-123456789.com"  ){
+		   window.location.href='http://www-123456789.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www-kg.com"  ){
+                   window.location.href='http://www-kg.com/kuaiGouCPLoginWeb/app/home';
+            }
+            else if(url == "www.www-kg.com"  ){
+                   window.location.href='http://www-kg.com/kuaiGouCPLoginWeb/app/home';
+            }
+
+    }
+    </script></head>
+
+<body onload="load()">
+
+</body></html>

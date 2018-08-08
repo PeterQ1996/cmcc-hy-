@@ -1,6 +1,6 @@
 # _*_ coding=utf-8 _*_
 
-
+#第三步
 # load_jieba('/Users/qianhuhai/PycharmProjects/com-fj-model-02/src/data/finance.txt')
 import re
 import os
@@ -14,9 +14,10 @@ with open(projectPath+"/data/unknowndata.txt",'r') as f:
          if value.strip()!='':
            if label=='1':
              corpus.append("1," + value)
-             corpus.append("1," + value)
+
            else:
              corpus.append("0," + value)
 for i in corpus:
 
     g.write(i)
+g.close()

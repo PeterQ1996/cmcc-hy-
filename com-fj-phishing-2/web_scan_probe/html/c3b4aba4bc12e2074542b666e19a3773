@@ -1,0 +1,1735 @@
+<!DOCTYPE html><html class="app js no-touch no-android chrome no-firefox no-iemobile no-ie no-ie10 no-ie11 no-ios ng-scope" ng-app="ssc.yuce"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}</style>
+    <style type="text/css">
+        @charset "UTF-8";
+
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+            display: none !important;
+        }
+
+        ng\:form {
+            display: block;
+        }
+
+        .ng-animate-block-transitions {
+            transition: 0s all !important;
+            -webkit-transition: 0s all !important;
+        }
+    </style>
+    <base href="">
+    <title>pc蛋蛋开奖预测|pc蛋蛋在线预测|pc28结果预测|加拿大28走势预测</title>
+    <meta content="PC蛋蛋官网,pc蛋蛋开奖预测,pc蛋蛋在线预测,pc28在线预测" name="keywords">
+    <meta content="PC蛋蛋开奖预测官网提供PC蛋蛋在线预测、PC结果走势、加拿大28预测、PC蛋蛋幸运28目前最好的幸运28模式分析。" name="description">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/static/css/kit.min.css?v=1.6.1" type="text/css">
+    <link rel="stylesheet" href="/static/css/admin.min.css?v=1.6.2" type="text/css">
+	<link rel="stylesheet" href="/static/css/guanggao.css" type="text/css">
+    <!--[if lt IE 9]>
+          <script src="/static/js/ie/html5shiv.js"></script>
+          <script src="/static/js/ie/respond.min.js"></script>
+          <script src="/static/js/ie/excanvas.js"></script>
+        <![endif]-->
+<link rel="stylesheet" href="http://pcc288.com/static/layer/theme/default/layer.css?v=3.1.1" id="layuicss-layer"></head>
+<body ng-controller="openCtrl" class="ng-scope">
+
+
+    <section class="vbox">
+        <section class="scrollable" id="msgcontainer">
+            <section class="hbox stretch">
+                <!-- .aside -->
+                <!-- /.aside -->
+                <section id="content">
+                    <section class="vbox-nouse">
+                        <section class="container container-h bg-white scrollable wrapper wrapper-xxs">
+							<header>
+                                <!--banner-->
+                                <div class="banner">
+                                    
+                                    <!-- 滚动代码开始-->
+                                    <div class="sliderContainer fullWidth clearfix">
+                                        <div id="full-width-slider" class="royalSlider heroSlider rsMinW ng-isolate-scope" w-control-navigation="bullets" w-slide-vertical="ads" w-slide-orientation="horizontal"><!-- ngRepeat: ad in wSlideVertical --><div class="rsContent ng-scope" ng-repeat="ad in wSlideVertical" style="padding-bottom: 1px;">
+	<a ng-href="http://700817.com/" target="_blank" ng-disabled="true" href="http://700817.com/" disabled="disabled"><img class="rsImg" ng-src="/static/images/cqchf.gif" style="width:100%;" src="/static/images/cqchf.gif"></a>
+</div><!-- end ngRepeat: ad in wSlideVertical --><div class="rsContent ng-scope" ng-repeat="ad in wSlideVertical" style="padding-bottom: 1px;">
+	<a ng-href="http://700817.com/" target="_blank" ng-disabled="true" href="http://700817.com/" disabled="disabled"><img class="rsImg" ng-src="/static/images/222ddd.gif" style="width:100%;" src="/static/images/222ddd.gif"></a>
+</div><!-- end ngRepeat: ad in wSlideVertical --><div class="rsContent ng-scope" ng-repeat="ad in wSlideVertical" style="padding-bottom: 1px;">
+	<a ng-href="http://dbc278.com" target="_blank" ng-disabled="true" href="http://dbc278.com" disabled="disabled"><img class="rsImg" ng-src="/static/images/shijiebei.jpg" style="width:100%;" src="/static/images/shijiebei.jpg"></a>
+</div><!-- end ngRepeat: ad in wSlideVertical --></div>
+                                    </div>
+                                    <!-- 滚动代码结束-->
+                                </div>
+                            </header>
+							<div style="padding: 10px;text-align:  center;">
+								<a href="https://jq.qq.com/?_wv=1027&amp;k=5lugC3L" target="_blank" style="font-size: 16px;color: red;font-weight: 700;">点击这里领兄弟天下计划群28元现金 100%到账 站长推荐</a>
+							</div>
+                            <div class="bg-white lot-type clearfix">
+                                <!-- ngRepeat: o in lots --><a class="col-lg-1 col-sm-2 col-xs-4 ng-scope ng-binding active" ng-repeat="o in lots" ng-class="{'active':o.id===curLot.id,'nav-b-r-none nav-lg-b-r-none':lots.length-1===$index}" ng-click="changeLotType(o.id)" href="javascript:;">北京</a><!-- end ngRepeat: o in lots --><a class="col-lg-1 col-sm-2 col-xs-4 ng-scope ng-binding nav-b-r-none nav-lg-b-r-none" ng-repeat="o in lots" ng-class="{'active':o.id===curLot.id,'nav-b-r-none nav-lg-b-r-none':lots.length-1===$index}" ng-click="changeLotType(o.id)" href="javascript:;">加拿大</a><!-- end ngRepeat: o in lots -->
+								   
+								   <a class="col-lg-1 col-sm-2 col-xs-4 ng-scope ng-binding" href="https://jq.qq.com/?_wv=1027&amp;k=5lugC3L" target="_blank" style="color:#00de46">彩友聊天室</a>
+
+                                
+                            </div>
+                            <div class="lot-m clearfix">
+                                <div class="col-md-4 col-sm-6 lot-latest text-center" style="height:89px;">
+                                    <div class=" clearfix" style="display:inline-block;margin-top:10px;">
+                                        <div class="pull-left t-logo">
+                                            <img ng-src="/static/images/bjkl8_logo.png" src="/static/images/bjkl8_logo.png">
+                                        </div>
+                                        <div class="lot-section pull-left" style="padding-top:6px;">
+                                            <p>最新：<i id="period" class="ng-binding" ng-hide="loadingLatest">903190</i> 期</p>
+                                            <div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingLatest" style="display: none;"></div>
+                                            <p></p>
+                                            <div class="lot-section-sel pull-left ng-isolate-scope">
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-default btn-sm border-radius0" ng-click="prev()" ng-disabled="showNumberIndex===lotteryNumbers.length-1"><i class="fa fa-chevron-left"></i></button>
+                                                    <div class="btn-group" ng-class="{open:showDropdownNoList}">
+                                                        <button data-toggle="dropdown" class="btn btn-default btn-sm dropdown-toggle border-radius0 ng-binding" ng-click="toggleDropdownNoList()"><span class="caret h-caret"></span>903190</button>
+                                                        <ul class="dropdown-menu dropdown-select">
+                                                            <!-- ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope active">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903190</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903189</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903188</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903187</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903186</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903185</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903184</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903183</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903182</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 --><li ng-repeat="num in lotteryNumbers | limitTo:10" ng-class="{active:showNumberIndex===$index}" class="ng-scope">
+                                                                <a href="javascript:;" ng-click="toggleDropdownNoList($index)" class="ng-binding">903181</a>
+                                                            </li><!-- end ngRepeat: num in lotteryNumbers | limitTo:10 -->
+                                                        </ul>
+                                                    </div>
+                                                    <button type="button" class="btn btn-default btn-sm border-radius0" ng-click="next()" ng-disabled="showNumberIndex===0" disabled="disabled"> <i class="fa fa-chevron-right"></i> </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 open-cutdown no-padder" style="height:89px;">
+                                    <span style="display: none;overflow:hidden;">彩种已关闭</span>
+                                    <div style="display: none">
+                                        <i>官网结束</i>
+                                        <br>预计恢复时间：
+                                        <b></b>
+                                    </div>
+                                    
+                                    <div class="opentime" style="margin-top:10px;">
+                                        <span>下一期:</span>
+                                        <b ng-show="countdown.hour &gt; 0" class="ng-binding ng-hide">00</b>
+                                        <span ng-show="countdown.hour &gt; 0" class="ng-hide">小时</span>
+                                        <b class="ng-binding">00</b>
+                                        <span>分</span>
+                                        <b class="ng-binding">15</b>
+                                        <span>秒</span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-4 col-sm-6 lot-result" style=" height:89px;">
+                                    <div class="r1" data-state="0" ng-show="(countdown.hour &gt;=1 || countdown.minute &gt;= 1 || countdown.second &gt;= 2) &amp;&amp; opening ==false" style="margin-top:10px;">
+                                        <span class="cyanBlue ng-binding">1</span>
+                                        <label class="">+</label>
+                                        <span class="cyanBlue ng-binding">8</span>
+                                        <label class="">+</label>
+                                        <span class="cyanBlue ng-binding">8</span>
+                                        <label class="">=</label>
+                                        <span class="skyBlue ng-binding">17</span>
+                                    </div>
+                                    <div class="r2" ng-show="(countdown.hour &gt;=1 || countdown.minute &gt;= 1 || countdown.second &gt;= 2) &amp;&amp; opening ==false" style="margin-top:10px;">
+                                        <span class="badge ng-binding blue-info red-info" ng-class="lotteryNumbers[showNumberIndex].sum|fBigOrSmallPlayColor">大</span>
+                                        <span class="badge ng-binding red-info blue-info" ng-class="lotteryNumbers[showNumberIndex].sum|fEvenOrOddPlayColor">单</span>
+                                    </div>
+                                    <span class="r3 ng-hide" style="margin-top:10px;" ng-show="countdown.hour &lt;=0 &amp;&amp; countdown.minute &lt;= 0 &amp;&amp; countdown.second &lt;= 1 || !!opening">等待结果 <img src="/static/images/icon-status-status-dots-anim-16.gif"> </span>
+                                </div>
+                            </div>
+                            <div class="row"></div>
+                            <section class="panel panel-default m-b-none ng-isolate-scope" infinite-scroll="getOpenHistory()" infinite-scroll-disabled="busyMsg" infinite-scroll-distance="0" infinite-scroll-container="msgcontainer">
+                                <header class="panel-heading">
+                                    <div class="btn-group" data-toggle="buttons" style="width:100%;">
+                                        
+										<button class="col-xs-3 btn btn-sm btn-twitter" ng-class="{'btn-facebook':showView=='yuce','btn-twitter':showView!='yuce'}" ng-click="showList('yuce')" style="background-color:#f23030;border:0"> <i class="fa fa-unlock"></i> 预测 </button>
+										<button class="col-xs-3 btn btn-sm btn-twitter" ng-class="{'btn-facebook':showView=='tongji','btn-twitter':showView!='tongji'}" ng-click="showList('tongji')" style="background-color:#556fb5;border:0"> <i class="fa fa-hdd-o"></i> 统计器 </button>
+										<button class="col-xs-3 btn btn-sm btn-twitter" ng-class="{'btn-facebook':showView=='trendChart','btn-twitter':showView!='trendChart'}" ng-click="showList('trendChart')" style="background-color:#444444;border:0"> <i class="fa fa-bar-chart-o"></i> 走势图 </button>
+                                        <button class="col-xs-3 btn btn-sm btn-facebook" ng-class="{'btn-facebook':showView=='numberList','btn-twitter':showView!='numberList'}" ng-click="showList('numberList')" style="background-color:#00b2de;border:0"> <i class="fa fa-key"></i> 结果 </button>
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                </header>
+                                <div class="table-responsive" ng-show="showView=='numberList'" style="overflow-x: hidden;">
+                                    <table class="table table-striped b-light">
+                                        <thead>
+                                            <tr>
+                                                <th>期号</th>
+                                                <th>时间</th>
+                                                <th>号码</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- ngRepeat: v in openHistoryDatas -->
+                                            <!-- ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903190</td>
+                                                <td class="ng-binding">08-08 12:25</td>
+                                                <td class="ng-binding">1+8+8=17
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903189</td>
+                                                <td class="ng-binding">08-08 12:20</td>
+                                                <td class="ng-binding">6+7+9=22
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903188</td>
+                                                <td class="ng-binding">08-08 12:15</td>
+                                                <td class="ng-binding">5+2+7=14
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903187</td>
+                                                <td class="ng-binding">08-08 12:11</td>
+                                                <td class="ng-binding">0+4+9=13
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903186</td>
+                                                <td class="ng-binding">08-08 12:05</td>
+                                                <td class="ng-binding">7+5+4=16
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903185</td>
+                                                <td class="ng-binding">08-08 12:01</td>
+                                                <td class="ng-binding">9+2+2=13
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903184</td>
+                                                <td class="ng-binding">08-08 11:55</td>
+                                                <td class="ng-binding">2+6+1=9
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903183</td>
+                                                <td class="ng-binding">08-08 11:50</td>
+                                                <td class="ng-binding">9+2+8=19
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903182</td>
+                                                <td class="ng-binding">08-08 11:45</td>
+                                                <td class="ng-binding">5+9+9=23
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903181</td>
+                                                <td class="ng-binding">08-08 11:40</td>
+                                                <td class="ng-binding">5+4+3=12
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903180</td>
+                                                <td class="ng-binding">08-08 11:35</td>
+                                                <td class="ng-binding">0+0+8=8
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903179</td>
+                                                <td class="ng-binding">08-08 11:30</td>
+                                                <td class="ng-binding">8+3+7=18
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903178</td>
+                                                <td class="ng-binding">08-08 11:25</td>
+                                                <td class="ng-binding">8+2+5=15
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903177</td>
+                                                <td class="ng-binding">08-08 11:21</td>
+                                                <td class="ng-binding">9+3+9=21
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903176</td>
+                                                <td class="ng-binding">08-08 11:15</td>
+                                                <td class="ng-binding">0+5+5=10
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903175</td>
+                                                <td class="ng-binding">08-08 11:10</td>
+                                                <td class="ng-binding">5+0+3=8
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903174</td>
+                                                <td class="ng-binding">08-08 11:05</td>
+                                                <td class="ng-binding">9+5+4=18
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903173</td>
+                                                <td class="ng-binding">08-08 11:00</td>
+                                                <td class="ng-binding">7+5+7=19
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903172</td>
+                                                <td class="ng-binding">08-08 10:55</td>
+                                                <td class="ng-binding">1+5+3=9
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903171</td>
+                                                <td class="ng-binding">08-08 10:50</td>
+                                                <td class="ng-binding">2+6+6=14
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903170</td>
+                                                <td class="ng-binding">08-08 10:45</td>
+                                                <td class="ng-binding">0+1+9=10
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903169</td>
+                                                <td class="ng-binding">08-08 10:40</td>
+                                                <td class="ng-binding">0+5+3=8
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903168</td>
+                                                <td class="ng-binding">08-08 10:35</td>
+                                                <td class="ng-binding">4+5+7=16
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903167</td>
+                                                <td class="ng-binding">08-08 10:31</td>
+                                                <td class="ng-binding">3+7+0=10
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903166</td>
+                                                <td class="ng-binding">08-08 10:25</td>
+                                                <td class="ng-binding">0+1+3=4
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903165</td>
+                                                <td class="ng-binding">08-08 10:20</td>
+                                                <td class="ng-binding">0+4+8=12
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903164</td>
+                                                <td class="ng-binding">08-08 10:15</td>
+                                                <td class="ng-binding">9+0+0=9
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903163</td>
+                                                <td class="ng-binding">08-08 10:10</td>
+                                                <td class="ng-binding">5+2+6=13
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903162</td>
+                                                <td class="ng-binding">08-08 10:05</td>
+                                                <td class="ng-binding">6+1+8=15
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903161</td>
+                                                <td class="ng-binding">08-08 10:00</td>
+                                                <td class="ng-binding">8+2+6=16
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903160</td>
+                                                <td class="ng-binding">08-08 09:55</td>
+                                                <td class="ng-binding">2+8+6=16
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903159</td>
+                                                <td class="ng-binding">08-08 09:50</td>
+                                                <td class="ng-binding">7+8+3=18
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903158</td>
+                                                <td class="ng-binding">08-08 09:46</td>
+                                                <td class="ng-binding">6+1+0=7
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903157</td>
+                                                <td class="ng-binding">08-08 09:41</td>
+                                                <td class="ng-binding">6+2+6=14
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903156</td>
+                                                <td class="ng-binding">08-08 09:35</td>
+                                                <td class="ng-binding">6+5+7=18
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903155</td>
+                                                <td class="ng-binding">08-08 09:30</td>
+                                                <td class="ng-binding">0+8+1=9
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903154</td>
+                                                <td class="ng-binding">08-08 09:25</td>
+                                                <td class="ng-binding">5+8+7=20
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903153</td>
+                                                <td class="ng-binding">08-08 09:20</td>
+                                                <td class="ng-binding">9+9+5=23
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903152</td>
+                                                <td class="ng-binding">08-08 09:15</td>
+                                                <td class="ng-binding">4+2+9=15
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903151</td>
+                                                <td class="ng-binding">08-08 09:11</td>
+                                                <td class="ng-binding">8+6+6=20
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903150</td>
+                                                <td class="ng-binding">08-08 09:05</td>
+                                                <td class="ng-binding">1+8+5=14
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903149</td>
+                                                <td class="ng-binding">08-07 23:55</td>
+                                                <td class="ng-binding">6+8+6=20
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903148</td>
+                                                <td class="ng-binding">08-07 23:50</td>
+                                                <td class="ng-binding">6+4+1=11
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903147</td>
+                                                <td class="ng-binding">08-07 23:45</td>
+                                                <td class="ng-binding">3+6+1=10
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903146</td>
+                                                <td class="ng-binding">08-07 23:40</td>
+                                                <td class="ng-binding">7+6+0=13
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903145</td>
+                                                <td class="ng-binding">08-07 23:35</td>
+                                                <td class="ng-binding">0+1+1=2
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903144</td>
+                                                <td class="ng-binding">08-07 23:30</td>
+                                                <td class="ng-binding">3+7+7=17
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903143</td>
+                                                <td class="ng-binding">08-07 23:26</td>
+                                                <td class="ng-binding">0+9+5=14
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903142</td>
+                                                <td class="ng-binding">08-07 23:20</td>
+                                                <td class="ng-binding">9+0+1=10
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903141</td>
+                                                <td class="ng-binding">08-07 23:15</td>
+                                                <td class="ng-binding">5+7+9=21
+                                            </td></tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 -->
+                                            <!-- end ngRepeat: v in openHistoryDatas -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive ng-hide" ng-show="showView=='trendChart'" style="overflow-x: hidden;">
+                                    <table class="table table-striped tbl-trend b-light">
+                                        <thead>
+                                            <tr>
+                                                <th>期号</th>
+                                                <th>值</th>
+                                                <th>大</th>
+                                                <th>小</th>
+                                                <th>单</th>
+                                                <th>双</th>
+                                                <th>大单</th>
+                                                <th>大双</th>
+                                                <th>小单</th>
+                                                <th>小双</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>间隔</td>
+                                                <td></td>
+                                                <!-- ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">0</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">3</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">0</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">1</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">0</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">1</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">3</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                                <td class="font-bold ng-scope ng-binding">9</td>
+                                                <!-- end ngRepeat: o in gPlays -->
+                                            </tr>
+                                            <!-- ngRepeat: v in openHistoryDatas -->
+
+                                            <!-- ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903190</td>
+                                                <td class="font-bold ng-binding">
+                                                    17
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903189</td>
+                                                <td class="font-bold ng-binding">
+                                                    22
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903188</td>
+                                                <td class="font-bold ng-binding">
+                                                    14
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903187</td>
+                                                <td class="font-bold ng-binding">
+                                                    13
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903186</td>
+                                                <td class="font-bold ng-binding">
+                                                    16
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903185</td>
+                                                <td class="font-bold ng-binding">
+                                                    13
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903184</td>
+                                                <td class="font-bold ng-binding">
+                                                    9
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903183</td>
+                                                <td class="font-bold ng-binding">
+                                                    19
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903182</td>
+                                                <td class="font-bold ng-binding">
+                                                    23
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903181</td>
+                                                <td class="font-bold ng-binding">
+                                                    12
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903180</td>
+                                                <td class="font-bold ng-binding">
+                                                    8
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903179</td>
+                                                <td class="font-bold ng-binding">
+                                                    18
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903178</td>
+                                                <td class="font-bold ng-binding">
+                                                    15
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903177</td>
+                                                <td class="font-bold ng-binding">
+                                                    21
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903176</td>
+                                                <td class="font-bold ng-binding">
+                                                    10
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903175</td>
+                                                <td class="font-bold ng-binding">
+                                                    8
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903174</td>
+                                                <td class="font-bold ng-binding">
+                                                    18
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903173</td>
+                                                <td class="font-bold ng-binding">
+                                                    19
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903172</td>
+                                                <td class="font-bold ng-binding">
+                                                    9
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903171</td>
+                                                <td class="font-bold ng-binding">
+                                                    14
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903170</td>
+                                                <td class="font-bold ng-binding">
+                                                    10
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903169</td>
+                                                <td class="font-bold ng-binding">
+                                                    8
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903168</td>
+                                                <td class="font-bold ng-binding">
+                                                    16
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903167</td>
+                                                <td class="font-bold ng-binding">
+                                                    10
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903166</td>
+                                                <td class="font-bold ng-binding">
+                                                    4
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903165</td>
+                                                <td class="font-bold ng-binding">
+                                                    12
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903164</td>
+                                                <td class="font-bold ng-binding">
+                                                    9
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903163</td>
+                                                <td class="font-bold ng-binding">
+                                                    13
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903162</td>
+                                                <td class="font-bold ng-binding">
+                                                    15
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903161</td>
+                                                <td class="font-bold ng-binding">
+                                                    16
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903160</td>
+                                                <td class="font-bold ng-binding">
+                                                    16
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903159</td>
+                                                <td class="font-bold ng-binding">
+                                                    18
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903158</td>
+                                                <td class="font-bold ng-binding">
+                                                    7
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903157</td>
+                                                <td class="font-bold ng-binding">
+                                                    14
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903156</td>
+                                                <td class="font-bold ng-binding">
+                                                    18
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903155</td>
+                                                <td class="font-bold ng-binding">
+                                                    9
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903154</td>
+                                                <td class="font-bold ng-binding">
+                                                    20
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903153</td>
+                                                <td class="font-bold ng-binding">
+                                                    23
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903152</td>
+                                                <td class="font-bold ng-binding">
+                                                    15
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903151</td>
+                                                <td class="font-bold ng-binding">
+                                                    20
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903150</td>
+                                                <td class="font-bold ng-binding">
+                                                    14
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903149</td>
+                                                <td class="font-bold ng-binding">
+                                                    20
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903148</td>
+                                                <td class="font-bold ng-binding">
+                                                    11
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903147</td>
+                                                <td class="font-bold ng-binding">
+                                                    10
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903146</td>
+                                                <td class="font-bold ng-binding">
+                                                    13
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">小单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903145</td>
+                                                <td class="font-bold ng-binding">
+                                                    2
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903144</td>
+                                                <td class="font-bold ng-binding">
+                                                    17
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903143</td>
+                                                <td class="font-bold ng-binding">
+                                                    14
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">大双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903142</td>
+                                                <td class="font-bold ng-binding">
+                                                    10
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fBigOrSmallPlayColor">小</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">双</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fEvenOrOddPlayColor">小双</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr ng-repeat="n in lotteryNumbers | limitTo:50" class="ng-scope">
+                                                <td class="ng-binding">903141</td>
+                                                <td class="font-bold ng-binding">
+                                                    21
+                                                </td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor">大</span></td>
+                                                <td><span class="badge blue-info ng-binding red-info" ng-class="n.sum|fBigOrSmallPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor">大单</span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                                <td><span class="badge blue-info ng-binding" ng-class="n.sum|fEvenOrOddPlayColor"></span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 -->
+                                            <!-- end ngRepeat: v in openHistoryDatas -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive ng-hide" ng-show="showView=='yuce'" style="overflow-x: hidden;">
+                                    <table class="table table-striped b-light" style="white-space: none;">
+                                        <thead>
+                                            <tr>
+                                                <th>期号</th>
+                                                <th>号码</th>
+                                                <th style="text-align:center;">简单预测</th>
+                                                <th style="text-align:center;">结果</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- ngRepeat: v in openHistoryDatas -->
+                                            <tr class="ng-scope">
+                                                <td style="color:#f23030" class="ng-binding">903191</td>
+                                                <td style="color:#f23030;">预测率高达75%</td>
+                                                <td style="color:#f23030;text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;color:#f23030"><a style="cursor:pointer;" ng-click="getTotals()">刷新</a></td>
+                                            </tr>
+                                            <!-- ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903190</td>
+                                                <td class="ng-binding">1+8+8=17</td>
+                                                <td style="text-align:center;" class="ng-binding">小双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903189</td>
+                                                <td class="ng-binding">6+7+9=22</td>
+                                                <td style="text-align:center;" class="ng-binding">小双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903188</td>
+                                                <td class="ng-binding">5+2+7=14</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903187</td>
+                                                <td class="ng-binding">0+4+9=13</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903186</td>
+                                                <td class="ng-binding">7+5+4=16</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903185</td>
+                                                <td class="ng-binding">9+2+2=13</td>
+                                                <td style="text-align:center;" class="ng-binding">小双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903184</td>
+                                                <td class="ng-binding">2+6+1=9</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903183</td>
+                                                <td class="ng-binding">9+2+8=19</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903182</td>
+                                                <td class="ng-binding">5+9+9=23</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903181</td>
+                                                <td class="ng-binding">5+4+3=12</td>
+                                                <td style="text-align:center;" class="ng-binding">小双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903180</td>
+                                                <td class="ng-binding">0+0+8=8</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903179</td>
+                                                <td class="ng-binding">8+3+7=18</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903178</td>
+                                                <td class="ng-binding">8+2+5=15</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903177</td>
+                                                <td class="ng-binding">9+3+9=21</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903176</td>
+                                                <td class="ng-binding">0+5+5=10</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903175</td>
+                                                <td class="ng-binding">5+0+3=8</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903174</td>
+                                                <td class="ng-binding">9+5+4=18</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903173</td>
+                                                <td class="ng-binding">7+5+7=19</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903172</td>
+                                                <td class="ng-binding">1+5+3=9</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903171</td>
+                                                <td class="ng-binding">2+6+6=14</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903170</td>
+                                                <td class="ng-binding">0+1+9=10</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903169</td>
+                                                <td class="ng-binding">0+5+3=8</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903168</td>
+                                                <td class="ng-binding">4+5+7=16</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903167</td>
+                                                <td class="ng-binding">3+7+0=10</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903166</td>
+                                                <td class="ng-binding">0+1+3=4</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903165</td>
+                                                <td class="ng-binding">0+4+8=12</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903164</td>
+                                                <td class="ng-binding">9+0+0=9</td>
+                                                <td style="text-align:center;" class="ng-binding">小双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903163</td>
+                                                <td class="ng-binding">5+2+6=13</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903162</td>
+                                                <td class="ng-binding">6+1+8=15</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903161</td>
+                                                <td class="ng-binding">8+2+6=16</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903160</td>
+                                                <td class="ng-binding">2+8+6=16</td>
+                                                <td style="text-align:center;" class="ng-binding">小双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903159</td>
+                                                <td class="ng-binding">7+8+3=18</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903158</td>
+                                                <td class="ng-binding">6+1+0=7</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903157</td>
+                                                <td class="ng-binding">6+2+6=14</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903156</td>
+                                                <td class="ng-binding">6+5+7=18</td>
+                                                <td style="text-align:center;" class="ng-binding">小双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903155</td>
+                                                <td class="ng-binding">0+8+1=9</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903154</td>
+                                                <td class="ng-binding">5+8+7=20</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903153</td>
+                                                <td class="ng-binding">9+9+5=23</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903152</td>
+                                                <td class="ng-binding">4+2+9=15</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903151</td>
+                                                <td class="ng-binding">8+6+6=20</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903150</td>
+                                                <td class="ng-binding">1+8+5=14</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903149</td>
+                                                <td class="ng-binding">6+8+6=20</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903148</td>
+                                                <td class="ng-binding">6+4+1=11</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903147</td>
+                                                <td class="ng-binding">3+6+1=10</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903146</td>
+                                                <td class="ng-binding">7+6+0=13</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903145</td>
+                                                <td class="ng-binding">0+1+1=2</td>
+                                                <td style="text-align:center;" class="ng-binding">小单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903144</td>
+                                                <td class="ng-binding">3+7+7=17</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903143</td>
+                                                <td class="ng-binding">0+9+5=14</td>
+                                                <td style="text-align:center;" class="ng-binding">大双</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903142</td>
+                                                <td class="ng-binding">9+0+1=10</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class="ng-hide"><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding"></span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class=""><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 --><tr class="ng-scope" ng-repeat="n in lotteryNumbers | limitTo:50">
+                                                <td class="ng-binding">903141</td>
+                                                <td class="ng-binding">5+7+9=21</td>
+                                                <td style="text-align:center;" class="ng-binding">大单</td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == '中'" class=""><span style="background:#f23030;color:#FFFFFF;padding: 3px;" class="ng-binding">中</span></td>
+                                                <td style="text-align:center;" ng-show="n.duicuo == ''" class="ng-hide"><span style="background:#13b5b1;color:#FFFFFF;padding: 3px;">错</span></td>
+                                            </tr><!-- end ngRepeat: n in lotteryNumbers | limitTo:50 -->
+                                            <!-- end ngRepeat: v in openHistoryDatas -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="table-responsive ng-hide" ng-show="showView=='tongji'" style="overflow-x: hidden;">
+                                    <div class="mustlook">
+                                        <div class="table_title" style="float:left;">大小单双</div>
+                                        <div><a style="cursor:pointer;color: red;float: right;padding-right:20px;" ng-click="loadNumbers()">刷新数据</a></div>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.dsnoopen &gt;= 20}">单数未开<i class="ng-binding">0</i>期</span>
+                                                    </td>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.ssnoopen &gt;= 20}">双数未开<i class="ng-binding">1</i>期</span>                                                        <span ng-show="ssnoopen &gt;= 20" class="ng-hide">双数未开<i class="ng-binding" style="color:red;"></i>期</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.xsnoopen &gt;= 20}">小数未开<i class="ng-binding">3</i>期</span>                                                        <span ng-show="xsnoopen &gt;=20" class="ng-hide">小数未开<i class="ng-binding" style="color:red;"></i>期</span>
+                                                    </td>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.dssnoopen &gt;= 20}">大数未开<i class="ng-binding">0</i>期</span>                                                        <span ng-show="dssnoopen &gt;=20" class="ng-hide">大数未开<i class="ng-binding" style="color:red;"></i>期</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="mustlook">
+                                        <div class="table_title">组合</div>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.ddnoopen &gt;= 20}">大单未开<i class="ng-binding">0</i>期</span>                                                        <span ng-show="ddnoopen &gt;=20" class="ng-hide">大单未开<i class="ng-binding" style="color:red;"></i>期</span>
+                                                    </td>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.ddssnoopen &gt;= 20}">大双未开<i class="ng-binding">1</i>期</span>                                                        <span ng-show="ddssnoopen &gt;=20" class="ng-hide">大双未开<i class="ng-binding"></i>期</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.smalldsnoopen &gt;= 20}">小单未开<i class="ng-binding">3</i>期</span>                                                        <span ng-show="smalldsnoopen &gt;=20" class="ng-hide">小单未开<i class="ng-binding" style="color:red;"></i>期</span>
+                                                    </td>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.smallsnoopen &gt;= 20}">小双未开<i class="ng-binding">9</i>期</span>                                                        <span ng-show="smallsnoopen &gt;=20" class="ng-hide">小双未开<i class="ng-binding" style="color:red;"></i>期</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="mustlook">
+                                        <div class="table_title">极大极小</div>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.jdnoopen &gt;= 20}">极大未开<i class="ng-binding">1</i>期</span>
+                                                    </td>
+                                                    <td>
+                                                        <span ng-class="{dy20red: totals.jxnoopen &gt;= 20}" class="dy20red">极小未开<i class="ng-binding">24</i>期</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="mustlook">
+                                        <div class="table_title">单点数字</div>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">13</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[13] &gt;= 20}">3</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">14</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[14] &gt;= 20}">2</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">12</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[12] &gt;= 20}">9</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">15</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[15] &gt;= 20}">12</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">11</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[11] &gt;= 20}">42</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">16</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[16] &gt;= 20}">4</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">10</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[10] &gt;= 20}">14</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">17</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[17] &gt;= 20}">0</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">9</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[9] &gt;= 20}">6</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">18</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[18] &gt;= 20}">11</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">8</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[8] &gt;= 20}">10</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">19</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[19] &gt;= 20}">7</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">7</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[7] &gt;= 20}">32</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">20</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[20] &gt;= 20}">36</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">6</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[6] &gt;= 20}">71</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">21</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[21] &gt;= 20}">13</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">5</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[5] &gt;= 20}">124</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">22</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[22] &gt;= 20}">1</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">4</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[4] &gt;= 20}">24</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">23</span>
+                                                        <span>（未开<i class="ng-binding" ng-class="{dy20red: totals.ssssnoopen[23] &gt;= 20}">8</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">3</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[3] &gt;= 20}">60</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">24</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[24] &gt;= 20}">314</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">2</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[2] &gt;= 20}">45</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">25</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[25] &gt;= 20}">212</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">1</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[1] &gt;= 20}">557</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">26</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[26] &gt;= 20}">377</i>期）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <span class="redball">0</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[0] &gt;= 20}">493</i>期）</span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="redball">27</span>
+                                                        <span>（未开<i class="ng-binding dy20red" ng-class="{dy20red: totals.ssssnoopen[27] &gt;= 20}">1605</i>期）</span>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div style="height:40px;"></div>
+                                    <style>
+                                        span {
+                                            font-size: 1.3rem;
+                                        }
+
+                                        .table_title {
+                                            font-size: 1.4rem;
+                                            color: #FFFFFF;
+                                            width: 8rem;
+                                            height: 2rem;
+                                            line-height: 2rem;
+                                            background: #556fb5;
+                                            text-align: center;
+                                            border-radius: 0 .8rem 0 0;
+                                            text-align: left;
+                                            padding-left: .8rem;
+                                        }
+
+                                        .mustlook tr i {
+                                            font-style: normal;
+                                            width: 3.3rem;
+                                            display: inline-block;
+                                        }
+
+                                        .mustlook tr td {
+                                            width: 50%;
+                                            font-size: .30rem;
+                                            color: #323232;
+                                            text-align: center;
+                                            padding: .5rem 0;
+                                        }
+
+                                        table {
+                                            display: table;
+                                            border-collapse: collapse;
+                                            border-spacing: 0;
+                                        }
+
+                                        .mustlook table {
+                                            width: 100%;
+                                        }
+
+                                        .redball, .yellowball, .orangeball, .trueball, .falseball {
+                                            display: inline-block;
+                                            width: 24px;
+                                            height: 24px;
+                                            line-height: 24px;
+                                            color: #FFF;
+                                            text-align: center;
+                                            background: #00b2de;
+                                            border-radius: 50%;
+                                            margin: 0 .2rem;
+                                            font-size: 14px;
+                                        }
+
+                                        .mustlook tr:nth-child(2n-1) {
+                                            background: #f9f9f9;
+                                        }
+
+                                        tr {
+                                            display: table-row;
+                                            vertical-align: inherit;
+                                            border-color: inherit;
+                                        }
+
+                                        .dy20red {
+                                            color: red;
+                                        }
+                                    </style>
+                                </div>
+                                <footer ng-show="loadingMsg" class="panel-footer text-center ng-hide">
+                                    <label>正在玩命加载</label>
+                                    <div class="fa fa-spinner fa fa-spin fa ng-isolate-scope" loading="loadingMsg"></div>
+                                </footer>
+                            </section>
+                        </section>
+                    </section>
+                    <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    
+    <script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/static/js/ng/angular.min.js?v=1.0.1"></script>
+    <script src="/static/js/kit/kit.min.js?v=1.6.4"></script>
+    <script src="/static/js/ng/index5.js?v=1.9.6"></script>
+	<script src="/static/layer/layer.js"></script>
+	
+	<script>
+        function shuaxin() {
+            window.location.reload();
+        }
+
+
+        window.onload = myfun;//不要括号
+        var myfun = function() {
+            var isMobile = false;
+            var ua = navigator.userAgent;
+            var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+                isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+                isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+                isMobile = isIphone || isAndroid;
+            if (isMobile) {
+            }
+            else {
+            }
+        };
+		
+		
+
+		
+		var guanggaoguanbi = function () {
+            $("#floatingonline").css("display", "none");
+        }
+
+    </script>
+	<script type="text/javascript" src="//js.users.51.la/19411419.js"></script>
+
+</body></html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html><html class="no-js" lang="zh-cmn-Hans"><head>
+<meta charset="utf-8">
+<title>首页</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="js/uaredirect.js"></script>
+<script type="text/javascript">uaredirect("wap/index.html");</script>
+<script type="text/javascript">
+$(function(){
+	$(".newsBox").slide({
+		mainCell:".bd ul",
+		autoPage:true,
+		effect:"leftMarquee",
+		autoPlay:true,
+		trigger:"click",
+		interTime:50
+	});
+	$('.tabBox').hide();
+		$('.tabBox').eq(0).show();	
+		$('.tabUl li a').hover(function(){
+			var ind=$(this).parent('li').index();
+			$(this).parent('li').addClass('on').siblings().removeClass('on');
+			$('.tabBox').hide();		
+			$('.tabBox:eq('+ind+')').show();
+			return false;
+	});		
+})
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+	<div class="hBox clearfix">
+			<h1 class="logo wow bounceInUp" style="visibility: visible; animation: bounceInUp; -webkit-animation: bounceInUp;"><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+			<p class="ttlImg wow flipInX" style="visibility: visible; animation: flipInX; -webkit-animation: flipInX;"><img src="images/h_img01.png" alt=""></p>
+			<div class="hWeb wow bounceInUp" style="visibility: visible; animation: bounceInUp; -webkit-animation: bounceInUp;"><img src="images/h_img02.png" alt=""></div>
+	</div>
+	</div>
+	<div id="main">
+		<div class="wrap">
+<div class="section wow fadeInUp" style="visibility: visible; animation: fadeInUp; -webkit-animation: fadeInUp;"> 
+				<h2 class="clearfix"><span class="lText">pj88.com - 澳门葡京娱乐场 </span><span class="rText">全球最佳电子平台</span></h2>
+				<div class="inner clearfix">
+					<div class="photoBox"><a target="_blank" href="http://www.pj1355.com/Register"><img src="images/photo03.jpg" alt="">
+						<div class="hov"><span>进入网站</span></div>
+						</a></div>
+					<ul class="loadUl clearfix">
+						<li><a target="_blank" href="http://www.pj88688.com">官方线路<i>①</i><span>pj88688.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj88bet.com">官方线路<i>②</i><span>pj88bet.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj88005.com">官方线路<i>③</i><span>pj88005.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj88007.com">官方线路<i>④</i><span>pj88007.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj1355.com">官方线路<i>⑤</i><span>pj1355.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj88488.com">官方线路<i>⑥</i><span>pj88488.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj88488.com">官方线路<i>⑦</i><span>pj88488.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj88488.com">简易网址<i>①</i><span>pj88488.com</span></a></li>
+						<li><a target="_blank" href="http://www.pj88488.com">简易网址<i>②</i><span>pj88488.com</span></a></li>
+					</ul>
+					<div class="linkBox">
+						<ul class="clearfix">
+							<li><a target="_blank" href="http://www.pj88488.com"><img src="images/img01.png" alt="">
+								<p>官方网址<span>website</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://www.pj1355.com/Register"><img src="images/img02.png" alt="">
+								<p>免费开户<span>register</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://www.pj88hd.com"><img src="images/img03.png" alt="">
+								<p>优惠大厅<span>promotions</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://www.pj88pay.com"><img src="images/img04.png" alt="">
+								<p>快速存款<span>deposit</span></p>
+								</a></li>
+							<li class="last"><a target="_blank" href="http://www.pj1355.com"><img src="images/img05.png" alt="">
+								<p>手机投注<span>mobile phone</span></p>
+								</a></li>
+							<li class="last"><a target="_blank" href="https://messenger3.providesupport.com/messenger/00gqp5u9fs6pz13rd0322ezh7y.html"><img src="images/img06.png" alt="">
+								<p>在线客服<span>online service</span></p>
+								</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+			<div class="section wow fadeInUp" style="visibility: visible; animation: fadeInUp; -webkit-animation: fadeInUp;">
+				<h2 class="clearfix"><span class="lText">426.com - 澳门金沙赌场 </span><span class="rText">诚信打造非凡金沙</span></h2>
+				<div class="inner clearfix">
+					<div class="photoBox"><a target="_blank" href="http://www.426877.com:8888"><img src="images/photo01.jpg" alt="">
+						<div class="hov"><span>进入网站</span></div>
+						</a></div>
+					<ul class="loadUl clearfix">
+						<li><a target="_blank" href="http://www.426977.com:8888">官方线路<i>①</i><span>426977.com</span></a></li>
+						<li><a target="_blank" href="http://www.426977.com:8888">官方线路<i>②</i><span>426977.com</span></a></li>
+						<li><a target="_blank" href="http://www.js05888.com:8888">官方线路<i>③</i><span>js05888.com</span></a></li>
+						<li><a target="_blank" href="http://www.js90666.com:8888">官方线路<i>④</i><span>js90666.com</span></a></li>
+						<li><a target="_blank" href="http://www.js90666.com:8888">官方线路<i>⑤</i><span>js90666.com</span></a></li>
+						<li><a target="_blank" href="http://www.426877.com:8888">官方线路<i>⑥</i><span>426877.com</span></a></li>
+						<li><a target="_blank" href="http://www.426377.com:8888">官方线路<i>⑦</i><span>426377.com</span></a></li>
+						<li><a target="_blank" href="http://www.js90666.com:8888">简易网址<i>①</i><span>js90666.com</span></a></li>
+						<li><a target="_blank" href="http://www.426877.com:8888">简易网址<i>②</i><span>426877.com</span></a></li>
+					</ul>
+					<div class="linkBox">
+						<ul class="clearfix">
+						<li><a target="_blank" href="http://www-426.com:888"><img src="images/img01.png" alt="">
+								<p>官方网址<span>website</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://www.426877.com:8888"><img src="images/img02.png" alt="">
+								<p>免费开户<span>register</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://426426hd.com"><img src="images/img03.png" alt="">
+								<p>优惠大厅<span>promotions</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://426pay.com"><img src="images/img04.png" alt="">
+								<p>快速存款<span>deposit</span></p>
+								</a></li>
+							<li class="last"><a target="_blank" href="http://www.426877.com:8888"><img src="images/img05.png" alt="">
+								<p>手机投注<span>mobile phone</span></p>
+								</a></li>
+							<li class="last"><a target="_blank" href="https://messenger3.providesupport.com/messenger/1bfwdwj5fhnbk0a95bzwf62tth.html"><img src="images/img06.png" alt="">
+								<p>在线客服<span>online service</span></p>
+								</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="section wow fadeInUp" style="visibility: visible; animation: fadeInUp; -webkit-animation: fadeInUp;">
+				<h2 class="clearfix"><span class="lText">428.com - 皇冠娱乐城 </span><span class="rText">全球最佳电子平台</span></h2>
+				<div class="inner clearfix">
+					<div class="photoBox"><a target="_blank" href="https://www.428428gg.com"><img src="images/photo02.jpg" alt="">
+						<div class="hov"><span>进入网站</span></div>
+						</a></div>
+					<ul class="loadUl clearfix">
+							<li><a target="_blank" href="https://www.428428gg.com">官方线路<i>①</i><span>428428gg.com</span></a></li>
+						<li><a target="_blank" href="http://www.428428oo.com">官方线路<i>②</i><span>428428oo.com</span></a></li>
+						<li><a target="_blank" href="https://www.428428gg.com">官方线路<i>③</i><span>428428gg.com</span></a></li>
+						<li><a target="_blank" href="http://www.428428mm.com">官方线路<i>④</i><span>428428mm.com</span></a></li>
+						<li><a target="_blank" href="http://www.428428nn.com">官方线路<i>⑤</i><span>428428nn.com</span></a></li>
+						<li><a target="_blank" href="http://www.428428pp.com">官方线路<i>⑥</i><span>428428pp.com</span></a></li>
+						<li><a target="_blank" href="http://www.428428pp.com">官方线路<i>⑦</i><span>428428pp.com</span></a></li>
+						<li><a target="_blank" href="http://www.428428pp.com">简易网址<i>①</i><span>428428pp.com</span></a></li>
+						<li><a target="_blank" href="http://www.428428pp.com">简易网址<i>②</i><span>428428pp.com</span></a></li>
+					</ul>
+					<div class="linkBox">
+						<ul class="clearfix">
+						<li><a target="_blank" href="http://www.428428dh.com"><img src="images/img01.png" alt="">
+								<p>官方网址<span>website</span></p>
+								</a></li>
+							<li><a target="_blank" href="https://www.428428gg.com/register.html"><img src="images/img02.png" alt="">
+								<p>免费开户<span>register</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://www.hd428428.com"><img src="images/img03.png" alt="">
+								<p>优惠大厅<span>promotions</span></p>
+								</a></li>
+							<li><a target="_blank" href="http://428pay.com"><img src="images/img04.png" alt="">
+								<p>快速存款<span>deposit</span></p>
+								</a></li>
+							<li class="last"><a target="_blank" href="https://www.428428gg.com"><img src="images/img05.png" alt="">
+								<p>手机投注<span>mobile phone</span></p>
+								</a></li>
+							<li class="last"><a target="_blank" href="https://messenger3.providesupport.com/messenger/1nfqzd15exysx1wddhb3hthaui.html"><img src="images/img06.png" alt="">
+								<p>在线客服<span>online service</span></p>
+								</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="section section03">
+			<h2 class="clearfix"><span class="lText">澳门葡京娱乐场  - 常用银行</span></h2>
+			<div class="subBox">
+			<ul class="menuUl02 menuUl03 clearfix">
+	<li><a href="http://www.boc.cn/" target="_blank"><img src="images/b01.png" alt=""><span>中国银行</span></a></li>
+	<li><a href="http://www.icbc.com.cn/" target="_blank"><img src="images/b02.png" alt=""><span>中国工商银行</span></a></li>
+	<li><a href="http://www.ccb.com/cn/home/indexv3.html" target="_blank"><img src="images/b03.png" alt=""><span>中国建设银行</span></a></li>
+	<li><a href="http://www.abchina.com/cn/" target="_blank"><img src="images/b04.png" alt=""><span>中国农业银行</span></a></li>
+	<li><a href="http://www.bankcomm.com/" target="_blank"><img src="images/b05.png" alt=""><span>交通银行</span></a></li>
+	<li><a href="http://www.cmbchina.com/" target="_blank"><img src="images/b06.png" alt=""><span>招商银行</span></a></li>
+	<li><a href="http://www.psbc.com/cn/index.html" target="_blank"><img src="images/b07.png" alt=""><span>中国邮政储蓄</span></a></li>
+	<li><a href="http://www.cebbank.com/" target="_blank"><img src="images/b08.png" alt=""><span>光大银行</span></a></li>
+	<li><a href="http://www.cib.com.cn/cn/index.html" target="_blank"><img src="images/b09.png" alt=""><span>兴业银行</span></a></li>
+	<li><a href="http://www.cgbchina.com.cn/" target="_blank"><img src="images/b10.png" alt=""><span>广发银行</span></a></li>
+	<li><a href="https://open.alipay.com/" target="_blank"><img src="images/b11.png" alt=""><span>支付宝</span></a></li>
+	<li><a href="https://pay.weixin.qq.com/" target="_blank"><img src="images/b12.png" alt=""><span>微信支付</span></a></li>
+			</ul>
+		</div>
+		</div>
+					
+			<div class="section section02">
+				<h2 class="clearfix"><span class="lText">澳门葡京娱乐场  - 推荐浏览器<i>由于360恶意提示风险网站，严重影响游戏体验，推荐使用以下浏览器进行游戏</i> </span><span class="rText">THE BROWSER</span></h2>
+				<div class="subBox">
+				<ul class="linkUl clearfix wow fadeInUp" style="visibility: hidden; animation: none; -webkit-animation: none;">
+					<li><a target="_blank" href="https://www.ub66.com/"><img src="images/img07.png" alt="">寰宇浏览器</a></li>
+					<li><a target="_blank" href="http://www.google.cn/chrome/browser/desktop/index.html"><img src="images/img08.png" alt="">谷歌浏览器</a></li>
+					<li><a target="_blank" href="http://www.maxthon.cn/"><img src="images/img09.png" alt="">遨游浏览器</a></li>
+					<li><a target="_blank" href="https://liulanqi.baidu.com/"><img src="images/img10.png" alt="">百度浏览器</a></li>
+					<li><a target="_blank" href="http://www.firefox.com.cn/"><img src="images/img11.png" alt="">火狐浏览器</a></li>
+					<li><a target="_blank" href="http://ie.sogou.com/"><img src="images/img12.png" alt="">搜狗浏览器</a></li>
+				</ul>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+	<div id="footer">
+		<div class="fBox">
+		<ul class="contactUl clearfix">
+		<li class="li01"><p>联系电话<span>00853-66737488</span></p></li>
+		<li class="li02"><p>联系电话<span>0063-9453295888</span></p></li>
+		<li class="li03"><p>联系邮箱<span>pj888.com@outlook.com</span></p></li>
+		<li class="li04"><p>在线客服<span><a target="_blank" href="https://messenger3.providesupport.com/messenger/00gqp5u9fs6pz13rd0322ezh7y.html">立即咨询</a></span></p></li>
+
+		</ul>
+			<div class="fImg wow fadeInUp" style="visibility: hidden; animation: none; -webkit-animation: none;"><img src="images/f_img.png" alt=""></div>
+			<ul class="fNavi">
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">存款帮助</a></li>
+				<li><a href="#">取款帮助</a></li>
+				<li><a href="#">常见问题</a></li>
+				<li class="last"><a href="#">合作伙伴</a></li>
+			</ul>
+			<p class="copyright">COPYRIGHT © 澳门葡京娱乐场 RESERVED</p>
+		</div>
+	</div>
+</div>
+<script src="js/wow.js"></script> 
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       10,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+</script>
+
+
+</body></html>

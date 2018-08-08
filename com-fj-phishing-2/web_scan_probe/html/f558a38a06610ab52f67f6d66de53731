@@ -1,0 +1,185 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>90后.女. 士</title>
+
+<style type="text/css">
+body {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;		
+}
+	img{max-width: 100%;
+	border: 0;
+	}
+body, div, td, p, a, li, blockquote {
+	-webkit-text-size-adjust: none!important;
+	font-family: "微软雅黑";
+	font-style: normal;
+	font-weight: bold;
+}
+	.main{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		background-image: url(bg_all.jpg)/*tpa=http://p67c44gsr.bkt.clouddn.com/wxwza/bg_all.jpg*/;
+		display: inline-block;
+	}	
+	.yellow{color: #ffe400;	
+		font-size: 1em;
+	}
+	.white{color:white;font-size: 1em;}
+	.divwx{
+		clear: both;
+		background-color: #e71b1a;
+		line-height: 2.0em;
+		width: 90%;
+		border-radius: 20px;
+		margin-left:5%;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+	}
+	.divwx1 div{line-height: 2.0em;color: white; font-size: 1.0em;}
+
+	.lzf_gif {
+    	position: fixed;
+	    right: 0;
+	    top: 45%;
+	    -webkit-transform: translateY(-50%);
+	    -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -o-transform: translateY(-50%);
+	    transform: translateY(-50%);
+	}
+	.lzf_gif img{
+	  width: 70px;
+	}
+	#openWexinUrl{
+	    text-decoration: none;
+	    width: 85px;
+	    height: 30px;
+	    line-height: 25px;
+	    background: red;
+	    display: inline-block;
+	    border-radius: 8px;
+	    margin-top: 20px;
+	    margin-left: -5px;
+	    text-align: center;
+	    float: right;
+	}
+</style>
+
+
+
+<script type="text/javascript" src="jquery2.0.js" tppabs="http://stonejolen.top/Public/js/jquery2.0.js"></script>
+<script type="text/javascript" src="clipboard.min.js"></script>
+
+	</head>
+<body style="">
+
+
+<div class="main">
+	<div><img src="ct_01.jpg" tppabs="http://p67c44gsr.bkt.clouddn.com/wxwza/ct_01.jpg" border="0"></div>
+	<!-- <div id="sban"><img src="http://hlb.coolvv.cn/Uploads/ewm/" id="wxface" border="0"></div> -->
+	<div><div class="divwx"><span class="yellow">添加老师微信号：</span><span id="wa" class="white newtxt">nynm6677</span></div>
+	</div>
+	<div><img src="ct_03bb.jpg" tppabs="http://p67c44gsr.bkt.clouddn.com/wxwza/ct_03bb.jpg" border="0"></div>
+	<div id="sban"><img id="imgid" class="newimg" src="nynm6677.jpg" alt=""></div>
+	<div class="divwx1">
+		<div>长按识别图中二维码</div>
+		<div oncopy="fzsj()">或复制微信号 <span class="yellow"></span></div>
+		<div>&nbsp;</div>
+		<div>用户留言</div>
+	</div>
+	<div><img src="ct_06.jpg" tppabs="http://p67c44gsr.bkt.clouddn.com/wxwza/ct_06.jpg" border="0"></div>
+</div>
+
+   <p align="center">版权所有：      </p> 
+
+<br>
+<br>
+
+<br>
+<br>
+<div class="btcode" style="position: fixed;bottom: 0px;width: 100%; height: 70px;background: orange">
+  <div class="wirights" style="display: inline-block;line-height: 73px;width: 100%">
+    <a href="weixin://" style="float: left;">
+    <img class="btn" data-clipboard-action="copy" data-clipboard-target="#foo2" id="weixinGIF" style="width: 70px;display: inline-block;float: left;" src="http://qq8.wangzuan8899.com/Public/Home/images/wx.gif">
+    <span style="display: inline-block;float: left;color: #fff">微信号：</span>
+  </a>
+  <strong id="wechat12" style="padding: 6px 10px;border-radius: 6px;color: #fff;"> 
+    <span style="max-width: 100%; color: rgb(255, 41, 65); box-sizing: border-box !important; word-wrap: break-word !important; ;"> <b> <span id="target" style="float: left;"> <samp id="foo2" class="newtxt" style=" font-size:18px;  color:#fff; font-weight:bold;display: inline-block;" oncopy="javascript:window.location.href='weixin://'">nynm6677</samp> </span>
+  </b></span></strong>
+      <a class="btn" data-clipboard-action="copy" data-clipboard-target="#foo2" href="weixin://" id="openWexinUrl" style="color: #fff;"><span style="display: inline-block;font-size: 23px;">+</span>微信</a></div>
+  </div>
+
+  <div class="lzf_gif trigger-promote btn" data-clipboard-action="copy" data-clipboard-target="#foo2" id="right_banner" iclicash_checked="true">
+  <a href="weixin://"> <img src="http://qq8.wangzuan8899.com/Public/Home/images/wx.gif"></a>
+ </div>
+
+<script type="text/javascript">
+
+
+	function fzsj(){
+           
+           htmlobj=$.ajax({url:"/Wxdz/wxfz/wxid/",async:false});
+
+        }
+    
+    var i = 1;
+
+	$("#sban").mousedown(function() { 
+	    timeout = setTimeout(function() { 
+	        /*i++;
+	        if(i>2){
+	        	//alert(666);
+	        	htmlobj=$.ajax({url:"/Fzsj/sbcl/wxid/",async:false});
+	        }
+	        //alert(666);*/
+	        htmlobj=$.ajax({url:"/Fzsj/sbcl/wxid/",async:false});
+	        
+	    }, 200); 
+    }); 
+
+</script>
+
+<div style="display:none;">
+
+
+
+
+
+
+
+<script src="z_stat.php-id=1273719148&amp;web_id=1273719148.js" tppabs="http://s11.cnzz.com/z_stat.php?id=1273719148&amp;web_id=1273719148" language="JavaScript"></script><script src="http://c.cnzz.com/core.php?web_id=1273719148&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1273719148" target="_blank" title="站长统计">站长统计</a>
+
+
+</div>
+
+<script type="text/javascript">
+var Arr = ["nynm6677","nnb17187965670","hwg8264"];  
+var n = Math.floor(Math.random() * Arr.length + 1)-1;
+//var wx_index = Math.floor((Math.random()*arr_wx.length));
+
+var wa = document.getElementsByClassName('newtxt');
+var we = document.getElementsByClassName('newimg');
+for (var i=0;i<wa.length;i++)
+{
+  wa[i].innerHTML= Arr[n];
+  //we[a].src =  Arr[n]+ '.jpg';
+}
+for (var i=0;i<we.length;i++)
+{
+  //wa[i].innerHTML= Arr[n];
+  we[i].src =  Arr[n]+ '.jpg';
+}
+
+ var clipboard = new Clipboard('.btn');
+       clipboard.on('success', function(e) {
+  }); 
+</script> 
+
+</body></html>

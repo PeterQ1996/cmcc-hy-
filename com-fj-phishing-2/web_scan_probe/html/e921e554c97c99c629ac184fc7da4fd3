@@ -1,0 +1,442 @@
+<!DOCTYPE html><html id="ng-app" ng-app="portalApp" meidon-time="2018/08/08 00:47:43" moment-lang="zh-CN" ng-init="'澳门新濠天地'" class="ng-scope"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}</style>
+    <title>澳门新濠天地</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="https://cdn.igsttech.com/Web.Portal/CE004-01.Portal/Content/Views/Shared/images/favicon.ico">
+
+    
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.min.css" rel="stylesheet">
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.theme.min.css" rel="stylesheet">
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/normalize/v3.0.1/normalize.min.css" rel="stylesheet">
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/bundles/custom?v=5Wa8nqZwlBGzu1Pp_QLNPIWNPw7nHF_nimfxfdWB2fE1" rel="stylesheet">
+
+    <link href="/bundles/site?v=qVU5nihnRLxXFesf-R-uyfWV_UXfjLKcCoGGVmxSyjc1" rel="stylesheet">
+
+
+    <link href="/Content/Views/Shared/zh-CN.css?version=20150116" rel="stylesheet">
+    
+    <link href="/bundles/home?v=Dwkl2CgSM1p3N3v5wQp9fKXcEWqgjQhEPpHwDogyMpo1" rel="stylesheet">
+
+    <link href="/Content/Views/Home/zh-CN.css?version=201404141731" rel="stylesheet">
+
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery/v1.12.4/jquery.min.js"></script>
+
+    <script src="/bundles/common?v=QCDCCbRn7NlihAMpKhmGyZKUN2DOnRrmTf_gC3Io4Fk1"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-marquee/jquery.marquee.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-ui/v1.11.3/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angularjs/v1.2.14/angular.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-with-locales.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-timezone-with-data.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-signalR/v2.2.0/jquery.signalR-2.2.0.min.js"></script>
+
+
+    
+    <!--[if lte IE 9]>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/placeholders.min.js"></script>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/html5shiv.js"></script>
+    <![endif]-->
+    
+
+
+    
+</head>
+<body class="layout ng-scope" ng-controller="LayoutCtrl">
+    
+    <div id="header-top">
+        <div class="wrapper">
+            <div id="div-meiDonNow">
+                美东时间 - GMT -4
+                <span ng-bind="meiDonNow|dateTime" class="ng-binding">2018/08/08 (三) 00:47:44</span>
+            </div>
+            <ul id="top-nav">
+                <li class="hotel"><a ng-href="http://www.cityofdreamsmacau.com/sc" target="_blank" href="http://www.cityofdreamsmacau.com/sc">酒店预订</a></li>
+                <li class="agent"><a href="/Partner">代理加盟</a></li>
+                <li class="mobile"><a href="/Mobile">手机投注</a></li>
+                    <li class="free" ng-click="FreePlayClick()">免费试玩</li>
+                <li class="domain"><a href="http://www.xh999.com" target="_blank">备用网址</a></li>
+                <li id="language" class="no-border" select-language="">
+                    <!-- ngRepeat: item in language --><span ng-repeat="item in language" ng-class="{'lang-selected': item.Key === currentLanguage}" data-language="zh-CN" title="简体中文" class="ng-scope lang-selected"></span><!-- end ngRepeat: item in language --><span ng-repeat="item in language" ng-class="{'lang-selected': item.Key === currentLanguage}" data-language="zh-TW" title="繁体中文" class="ng-scope"></span><!-- end ngRepeat: item in language --><span ng-repeat="item in language" ng-class="{'lang-selected': item.Key === currentLanguage}" data-language="en-US" title="English" class="ng-scope"></span><!-- end ngRepeat: item in language --><span ng-repeat="item in language" ng-class="{'lang-selected': item.Key === currentLanguage}" data-language="th" title="ภาษาไทย" class="ng-scope"></span><!-- end ngRepeat: item in language -->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header id="header">
+        <div class="wrapper">
+            
+            <div id="logo-bg">
+                <!--[if !IE | gte IE 9]><!-->
+                
+                <!--<![endif]-->
+                <a href="/"></a>
+            </div>
+            <div id="slogan"></div>
+            
+                <div id="account-box">
+                    <form ng-controller="LoginCtrl" ng-submit="login(loginParams)" ng-disabled="isProcessing" class="ng-scope ng-pristine ng-invalid ng-invalid-required">
+                        <input id="login_account" type="text" tabindex="1" placeholder="帐号" ng-model="loginParams.account" required="" autofocus="" class="ng-pristine ng-invalid ng-invalid-required">
+                        <input id="login_password" type="password" tabindex="2" placeholder="密码" ng-model="loginParams.password" required="" class="ng-pristine ng-invalid ng-invalid-required">
+                        <button class="forget-btn" ng-click="lineChatClick()" type="button">忘记密码</button>
+                        <div id="check-code-wrapper">
+                            <input data-checkcode-retriever="checkCode" type="text" tabindex="2" placeholder="验证码" ng-model="loginParams.checkCode" checkcode-type="Login" required="" class="ng-pristine ng-invalid ng-invalid-required">
+                            <img id="captcha" ng-show="checkCode.image" ng-src="" class="ng-hide">
+                        </div>
+                        <button id="login-box" class="login-btn ng-binding" ng-disabled="isProcessing" ng-bind="isProcessing ? '登入...' : '登入'">登入</button>
+                        <button class="register-btn" ng-click="RegisterClick()" type="button">立即注册</button>
+
+                        <div id="agree" ng-show="loginOver" class="ng-hide">
+                            点击登入表示同意<a ng-click="agreement()">用户协议</a>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </header>
+    
+    <nav id="nav" ng-controller="LobbiesCtrl" class="ng-scope">
+        <ul>
+            <li class="home-btn">
+                <a nav-active="" href="/">首页</a>
+            </li>
+            <li class="hot game" toggle-color="">
+                <a nav-active="" href="/Lobby/Game">电子游艺</a>
+                <div class="slider-game slider">
+                    <div class="subnav">
+                        <div class="wrapper">
+                            <span class="prev"></span>
+                            <span class="next"></span>
+                        </div>
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:822px"><ol class="main-cell" style="width: 3973px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -137px;"><li class="png clone" ng-click="toPngHtml()" style="float: left; width: 136px;">PNG电子</li>
+                            <li ng-click="toSgFlash()" class="sg" style="float: left; width: 136px;">SG电子</li>
+                            <li ng-click="toFish()" class="fish" style="float: left; width: 136px;">捕鱼达人</li>
+                            <li ng-click="toMgFlash()" class="mg" style="float: left; width: 136px;">MG电子</li>
+                            <li ng-click="toPtFlash()" class="pt" style="float: left; width: 136px;">PT 电子</li>
+                            <li ng-click="toGpiFlash()" class="gpi" style="float: left; width: 136px;">GPI电子</li>
+                            <li ng-click="toAgHtml()" class="ag" style="float: left; width: 136px;">AG电子</li>
+                            <li ng-click="toGnsHtml()" class="gns" style="float: left; width: 136px;">GNS电子</li>
+                            <li ng-click="toPrgFlash()" class="prg" style="float: left; width: 136px;">PP电子</li>
+                            <li ng-click="toAgFish()" class="ag" style="float: left; width: 136px;">AG捕鱼</li>
+                            <li ng-click="toMwHtml()" class="mw" style="float: left; width: 136px;">MW电子</li>
+                            <li ng-click="toBbGame()" class="bb" style="float: left; width: 136px;">BBIN电子</li>
+                            <li ng-click="toHabaHtml()" class="hb" style="float: left; width: 136px;">HB电子</li>
+                            <li ng-click="toJdbHtml()" class="jdb" style="float: left; width: 136px;">JDB电子</li>
+                            <li class="cq9" ng-click="toCq9Html()" style="float: left; width: 136px;">传奇电子</li>
+                            <li class="ne" ng-click="toNetentHtml()" style="float: left; width: 136px;">NE电子</li>
+                            <li class="rt" ng-click="toRedTigerHtml()" style="float: left; width: 136px;">RT电子</li>
+                            <li class="ga" ng-click="toGameArtHtml()" style="float: left; width: 136px;">GA电子</li>
+                            <li class="pg" ng-click="toPgHtml()" style="float: left; width: 136px;">PG电子</li>
+                            <li class="lg" ng-click="toLgHtml()" style="float: left; width: 136px;">LG赛马游戏</li>
+                            <li class="isb" ng-click="toIsbHtml()" style="float: left; width: 136px;">ISB电子</li>
+                            <li class="pts" ng-click="toPtsHtml()" style="float: left; width: 136px;">PTS电子</li>
+                            <li class="png" ng-click="toPngHtml()" style="float: left; width: 136px;">PNG电子</li>
+                        <li ng-click="toSgFlash()" class="sg clone" style="float: left; width: 136px;">SG电子</li><li ng-click="toFish()" class="fish clone" style="float: left; width: 136px;">捕鱼达人</li><li ng-click="toMgFlash()" class="mg clone" style="float: left; width: 136px;">MG电子</li><li ng-click="toPtFlash()" class="pt clone" style="float: left; width: 136px;">PT 电子</li><li ng-click="toGpiFlash()" class="gpi clone" style="float: left; width: 136px;">GPI电子</li><li ng-click="toAgHtml()" class="ag clone" style="float: left; width: 136px;">AG电子</li></ol></div>
+                    </div>
+                </div>
+            </li>
+            <li class="mg-game">
+                <a nav-active="" href="/Lobby/MG">MG老虎机</a>
+            </li>
+            <li class="live">
+                <a nav-active="" href="/Lobby/Live">视讯直播</a>
+                <div class="slider-live slider">
+                    <div class="subnav">
+                        <div class="wrapper">
+                            <span class="prev"></span>
+                            <span class="next"></span>
+                        </div>
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:822px"><ol class="main-cell" style="width: 2603px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -137px;"><li class="ebet clone" ng-click="toEbetLive()" style="float: left; width: 136px;">EBET真人厅</li>
+                            <li ng-click="toBbLive()" class="bb" style="float: left; width: 136px;">
+                                BBIN视讯直播
+                            </li>
+                            <li ng-click="toAgLive()" class="ag" style="float: left; width: 136px;">
+                                AG视讯直播
+                            </li>
+                            <li class="gpi" ng-click="toGpiLive()" style="float: left; width: 136px;">GPI视讯直播</li>
+                            <li ng-click="toMgDealer()" class="mg" style="float: left; width: 136px;">MG視訊直播</li>
+                            <li class="evo" ng-click="toEvoLive()" style="float: left; width: 136px;">EVO视讯直播</li>
+                            <li ng-click="toPtLive()" class="pt" style="float: left; width: 136px;">PT视讯直播</li>
+                            <li ng-click="toAbLive()" class="ab" style="float: left; width: 136px;">AB真人厅</li>
+                            <li class="bg" ng-click="toBgLive()" style="float: left; width: 136px;">BG视讯厅</li>
+                            <li class="gd" ng-click="toGdLive()" style="float: left; width: 136px;">GD真人厅</li>
+                            <li class="sb" ng-click="toSunbetLive()" style="float: left; width: 136px;">申博真人厅</li>
+                            <li class="og" ng-click="toOgLive()" style="float: left; width: 136px;">OG真人厅</li>
+                            <li class="ebet" ng-click="toEbetLive()" style="float: left; width: 136px;">EBET真人厅</li>
+                        <li ng-click="toBbLive()" class="bb clone" style="float: left; width: 136px;">
+                                BBIN视讯直播
+                            </li><li ng-click="toAgLive()" class="ag clone" style="float: left; width: 136px;">
+                                AG视讯直播
+                            </li><li class="gpi clone" ng-click="toGpiLive()" style="float: left; width: 136px;">GPI视讯直播</li><li ng-click="toMgDealer()" class="mg clone" style="float: left; width: 136px;">MG視訊直播</li><li class="evo clone" ng-click="toEvoLive()" style="float: left; width: 136px;">EVO视讯直播</li><li ng-click="toPtLive()" class="pt clone" style="float: left; width: 136px;">PT视讯直播</li></ol></div>
+                    </div>
+                </div>
+            </li>
+            <li class="sport">
+                <a nav-active="" href="/Lobby/Sport">体育赛事</a>
+                <ol class="subnav">
+                    <li ng-click="toBbSport()" class="bb">
+                        BBIN体育
+                    </li>
+                    <li ng-click="toSingSport()" class="hg">
+                        皇冠体育
+                    </li>
+                    <li ng-click="toSabaGame()" class="saba">
+                        沙巴体育
+                    </li>
+                    <li ng-click="toCmdSport()" class="cmd">
+                        CMD体育
+                    </li>
+                    <li class="im" ng-click="toImSport()">ESB电竞</li>
+                </ol>
+            </li>
+            <li class="lottery">
+                <a nav-active="" href="/Lobby/Lottery">彩票游戏</a>
+                <ol class="subnav">
+                    <li ng-click="toBbLottery()" class="bb">
+                        BBIN彩票
+                    </li>
+                    <li ng-click="toIgLottery()" class="ig">
+                        IG彩票
+                    </li>
+                    <li ng-click="toIgMarkSix()" class="ig-marksix">
+                        IG六合彩
+                    </li>
+                    <li ng-click="toLxLottery()" class="lx">
+                        LX豪彩
+                    </li>
+                    
+                </ol>
+            </li>
+            <li class="board">
+                <a href="javascript:void(0)" ng-click="toKgHtml()">棋牌游戏</a>
+                <ol class="subnav">
+                    <li ng-click="toKgHtml()" class="kg">
+                        开元棋牌
+                    </li>
+                    <li ng-click="toRgBoard()" class="gpkb">
+                        GPK射龙门
+                    </li>
+                    <li ng-click="toCity761Html()" class="city761">
+                        棋乐游
+                    </li>
+                </ol>
+            </li>
+            <li class="hot pro" toggle-color="">
+                <a nav-active="" href="/Promotion" toggle-color="">优惠活动</a>
+                <ol class="subnav promotion">
+                    <li class="pro01"><a href="/Promotion">优惠活动</a></li>
+                    <li class="pro02"><a ng-href="{{ContactInfo.HttpPromotion ==''?'#': ContactInfo.HttpPromotion}}" target="_blank">优惠办理大厅</a></li>
+                    <li class="pro03"><a ng-href="{{ContactInfo.HttpRedenvelop ==''?'#': ContactInfo.HttpRedenvelop}}" target="_blank">疯狂抢红包</a></li>
+                </ol>
+            </li>
+            <li class="chat" toggle-color="">
+                <a href="javascript:void(0)" ng-click="lineChatClick()">在线客服</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="banner"></div>
+
+    
+    <div id="news">
+        <div id="hot-news" news-marquee=""><div class="main-cell"><ul class="news-list" ng-click="newsClick()"><!-- ngRepeat: news in newsList track by $index --></ul></div><div class="option-wrapper" ng-transclude=""></div></div>
+    </div>
+
+    <div id="content">
+        
+<div id="home">
+    
+    
+
+    
+    <ul id="game-box">
+        <li data-img="sport">
+            <a href="/Lobby/Sport"></a>
+        </li>
+        <li data-img="live">
+            <a href="/Lobby/Live"></a>
+        </li>
+        <li data-img="game">
+            <a href="/Lobby/Game"></a>
+        </li>
+        <li data-img="lottery">
+            <a href="/Lobby/Lottery"></a>
+        </li>
+    </ul>
+    <ul id="game-process">
+        <li class="step01">
+            <h2>免费开户</h2>
+            <h3>JOIN US</h3>
+        </li>
+        <li class="step02">
+            <h2>绑定资料</h2>
+            <h3>BINDING</h3>
+        </li>
+        <li class="step03">
+            <h2>账户存款</h2>
+            <h3>DEPOSIT</h3>
+        </li>
+        <li class="step04">
+            <h2>投注游戏</h2>
+            <h3>BETTING</h3>
+        </li>
+        <li class="step05">
+            <h2>提款到账</h2>
+            <h3>DRAWING</h3>
+        </li>
+    </ul>
+</div>
+    </div>
+
+    <footer id="footer">
+        <ul id="footer-info">
+            <li class="left">
+                <div id="speed">
+                    <span id="second">17</span>
+                    <div class="load" id="load01">
+                        <div class="loading1" style="width: 43px;"></div>
+                    </div>
+                    <span id="minute">1'19</span>
+                    <div class="load" id="load02">
+                        <div class="loading2" style="width: 95px;"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="middle"></li>
+            <li class="right"></li>
+        </ul>
+        <div id="footer-bottom">
+            <div class="wrapper">
+                <ul id="footer-nav">
+                    <li><a href="/AboutUS">关于我们</a></li>
+                    <li><a href="/Contact">联络我们</a></li>
+                    <li><a href="/Partner">合作伙伴</a></li>
+                    <li><a href="/How/Deposit">存款帮助</a></li>
+                    <li><a href="/How/Withdrawal">取款帮助</a></li>
+                    <li><a href="/FAQ">常见问题</a></li>
+                    <li><a href="http://gpk-client.com/" target="_blank">客戶端</a></li>
+                </ul>
+
+                <p id="footer-suggest">
+                    Copyright © 澳门新濠天地  Reserved
+                </p>
+            </div>
+        </div>
+        <div id="footer-logo"></div>
+    </footer>
+
+    
+    <aside class="services service-left" scrollfollow="">
+        <ul>
+            <li class="app"><a href="/Promotion"></a></li>
+            <li class="promotion"><a ng-href="{{ContactInfo.HttpPromotion == '' ? '#' : ContactInfo.HttpPromotion}}" target="_blank"></a></li>
+            <li class="deposit">
+                    <a href="/How/Deposit"></a>
+            </li>
+            <li class="qrcode"><a href="/Promotion"></a></li>
+            <li class="chrome"><a href="https://www.google.cn/chrome" target="_blank"></a></li>
+            <li class="closed" service-closed=""></li>
+        </ul>
+    </aside>
+
+    <aside class="services service-right" scrollfollow="">
+        <ul>
+            <li class="join">
+                    <a href="/Register"></a>
+            </li>
+            <li class="chat" title="在线客服" ng-click="lineChatClick()"></li>
+            <li class="tel-macau" title="{{ContactInfo.TEL_Macau}}"></li>
+            <li class="tel" title="{{ContactInfo.TEL}}"></li>
+            <li class="qrcode"><a href="/Promotion"></a></li>
+            <li class="trial">
+                    <a href="/Trial/Apply" target="_blank"></a>
+            </li>
+            <li class="partner"><a href="/Partner"></a></li>
+            <li class="closed" service-closed=""></li>
+        </ul>
+    </aside>
+
+    <aside class="service-left-bottom">
+        <a ng-href="{{ContactInfo.HttpRedenvelop == '' ? '#' : ContactInfo.HttpRedenvelop}}" target="_blank"></a>
+        <span class="closed" title="关闭" service-closed=""></span>
+    </aside>
+
+    
+    <div id="marquee-wrapper" ng-class="{show: isMarqueeShowClass}" ng-init="isMarqueeShowClass = false">
+        <aside id="marquee">
+            <header>
+                <h2>最新公告</h2>
+            </header>
+            <ul id="newsBags">
+                <!-- ngRepeat: news in newsBags track by $index -->
+            </ul>
+            <footer>
+                <span ng-click="closeMarquee()">关闭</span>
+            </footer>
+        </aside>
+    </div>
+
+    
+    
+    <div id="popup-dialog" popup-dialog=""></div>
+
+    
+    <div id="announcement-dialog" announcement-dialog=""><div class="modal-overlay" ng-class="{'modal-show': enable}"></div><div class="modal-announcement" ng-class="{'modal-show': enable}"><div class="ma-title"><i class="fa fa-2x fa-times" ng-click="close()"></i><span ng-bind-html="header|trustAsHtml"></span></div><div class="ma-body"><section class="ma-sidebar"><ul><!-- ngRepeat: item in list --></ul></section><section class="ma-content" ng-bind-html="content|trustAsHtml"></section></div><div class="ma-footer"><label><input type="checkbox" ng-model="noShowAgain"><span ng-bind="noShowLabel"></span></label></div></div></div>
+
+    
+    <div style="display:none">
+        <!-- BEGIN ProvideSupport.com Graphics Chat Button Code -->
+        <div id="ciLyzS" style="z-index:100;position:absolute"></div>
+        <div id="scLyzS" style="display:inline"><a href="#" onclick="psLyzSow(); return false;"><img name="psLyzSimage" src="https://image.providesupport.com/image/1vs3ze9btbgu71t67ba45xsvge/online-1487718362.gif" width="140" height="60" border="0"></a></div>
+        <div id="sdLyzS" style="display:none"><script type="text/javascript" src="https://image.providesupport.com/js/1vs3ze9btbgu71t67ba45xsvge/safe-standard.js?ps_h=LyzS&amp;ps_t=1533703664222"></script></div>
+        <script type="text/javascript">
+            var seLyzS = document.createElement("script");
+            seLyzS.type = "text/javascript";
+            var seLyzSs = (location.protocol.indexOf("https") == 0 ? "https" : "http") + "://image.providesupport.com/js/1vs3ze9btbgu71t67ba45xsvge/safe-standard.js?ps_h=LyzS&ps_t=" + new Date().getTime(); setTimeout("seLyzS.src=seLyzSs;document.getElementById('sdLyzS').appendChild(seLyzS)", 1)
+        </script>
+        <noscript>
+            &lt;div style="display:inline"&gt;
+                &lt;a href="http://www.providesupport.com?messenger=1vs3ze9btbgu71t67ba45xsvge"&gt;聊天聊天帮助&lt;/a&gt;
+            &lt;/div&gt;
+        </noscript>
+        <!-- END ProvideSupport.com Graphics Chat Button Code -->
+    </div>
+
+    
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-animate/v1.2.14/angular-animate.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-ui-bootstrap/v0.10.0/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+
+    <script src="/Scripts/_site.js?version=20170803"></script>
+    <script src="/bundles/environment?v=Giv511fvuZRlJKLjJDPqmIxOhmtht9zFlW7lvvTMf0Y1"></script>
+
+    <script src="/Scripts/_config.js?version=20180117"></script>
+    <script src="/Scripts/i18n/labels_zh-CN.js"></script>
+    <script src="/Scripts/each-site/speed.js"></script>
+    <script src="/angular-services?v=mlBqO6tmLugiUvZxaxn-h0HwS89bK084FekMX8j1TYQ1"></script>
+
+    <script src="/angular-controllers?v=mBTQBCrqpKWkn5EcctQrA4XgNfMFICsT-u_WuDMpFuY1"></script>
+
+    <script src="/angular-directives?v=OcKhowQQEBus8P6qM_SBmyR57apDruUj-20y42d9ryM1"></script>
+
+    <script src="/angular-filters?v=Ti2nYmtL-MiBxnKjj6uvJ_oYZ5UmvqNLz1SPKH06Z8A1"></script>
+
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/Custom/common.min.js"></script>
+
+    
+
+    
+    <input name="__RequestVerificationToken" type="hidden" value="YtBZ8faskzLqaxmsSc7dR6TsIR-EqtZ14IjUN4LTd5Qm2TTWBCOhstn1AMasSneAss4vDXG2BlAeChxmTeCaQEumCx81">
+
+<aside id="service-float" style="position:fixed;right:0;bottom:0;display:inline-block;width:145px;height:160px;z-index:9999"><iframe src="https://cdn.igsttech.com/Web.Portal/_Common/Content/Views/Shared/images/LatestActivity/fifa/fifa.html" style="width:100%;height:100%;cursor:pointer;"></iframe><div class="latest-activity" style="position:absolute;left:0;bottom:0;z-index:4;width:100%;height:100%;cursor:pointer;"></div><span class="closed" style="position:absolute;right:0;top:-10px;z-index:5;width:26px;height:26px;cursor:pointer;background:url('https://cdn.igsttech.com/Web.Portal/_Common/Content/Views/Shared/images/close.png');"></span></aside><style>.atd-banner { position: fixed; bottom: 80px; z-index: 999; width: 100%; height: 0; display: none; }.atd-banner .banner-img { background: url("https://cdn.igsttech.com/Web.Portal/_Common/Content/Views/AnyTimeDiscount/images/title.png"); height: 80px; width: 500px; z-index:9999; line-height: 80px; position: relative; cursor: pointer; }.atd-banner .banner-close { position:absolute;right:14px;top:26px;z-index:5;width:28px;height:28px;cursor:pointer; }.atd-banner .banner-content { color: #000; }.atd-banner .banner-money { color: #ff0000; }.modal-atd .atd-frame { display: none; }@-webkit-keyframes marqueeAnimation-5429343  { 100%  {margin-left:-0px}}</style><div id="atd-banner" class="atd-banner" style=""><div style="width: 100000px; margin-left: 1024px; -webkit-animation: marqueeAnimation-5429343 20s linear 1s infinite; animation: marqueeAnimation-5429343 20s linear 1s infinite;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 0px; float: left;"><div class="banner-img text-center"><span class="banner-close"></span><span class="banner-content">您有返水 <span class="banner-money"></span> 可领取!</span></div></div></div></div></body></html>

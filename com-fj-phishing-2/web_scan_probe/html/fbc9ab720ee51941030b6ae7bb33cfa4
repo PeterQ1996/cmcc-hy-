@@ -1,0 +1,349 @@
+<!DOCTYPE html><html class="first zh-cn "><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <title>金沙娱乐场</title>
+        <link href="https://vip.maxam100.com/ct/css/common.css" rel="stylesheet" type="text/css">
+        <link href="https://vip.maxam100.com/ct/css/standard.css" rel="stylesheet">
+        <link href="https://vip.maxam100.com/ct/css/gamble.css" rel="stylesheet">
+        <link href="https://vip.maxam100.com/ct/css/fckeditor.css" rel="stylesheet" type="text/css">
+        <link href="https://vip.maxam100.com/ct/css/fa.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+        <link rel="stylesheet" href="https://vip.maxam100.com/public/css/flexslider.css?123">
+
+        <script src="https://vip.maxam100.com/public/js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://vip.maxam100.com/public/js/skin/layer.css" id="layui_layer_skinlayercss" style=""></head>
+    <body>
+        <div id="mainBody">
+            <input type="hidden" id="screensize" name="screensize" value="1024x768">
+            <div id="page-header">
+                <div class="header clearfix">
+                    <div class="header-logo">
+                        <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="333" height="98">
+                            <param name="movie" value="/images/logonew.swf">
+                            <param name="quality" value="high">
+                            <param name="wmode" value="transparent">
+                            <param name="swfversion" value="6.0.65.0">
+                            <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+                            <param name="expressinstall" value="/Scripts/expressInstall.swf">
+                            <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+                            <!--[if !IE]>-->
+                            <object type="application/x-shockwave-flash" data="https://vip.maxam100.com/ct/images/logonew.swf" width="333" height="98">
+                                <!--<![endif]-->
+                                <param name="quality" value="high">
+                                <param name="wmode" value="transparent">
+                                <param name="swfversion" value="6.0.65.0">
+                                <param name="expressinstall" value="/Scripts/expressInstall.swf">
+                            </object>
+                            <!--<![endif]-->
+                        </object>
+                    </div>
+                    <!--登录前开始-->
+                    <div class="header-right" id="login">
+                        <div class="article-menu">
+                            <a href="javascript:AboutUsLoad(1);" class="js-article-color">关于我们</a>
+                            <a href="javascript:AboutUsLoad(8);" class="js-article-color">加盟合作</a>
+                            <a href="javascript:AboutUsLoad(3);" class="js-article-color">隐私政策</a>
+                            <a href="javascript:AboutUsLoad(6);" class="js-article-color">存款帮助</a>
+                            <a href="javascript:GoTo('1','jsh')" class="js-article-color">金沙会</a>
+                            <a href="javascript:AboutUsLoad(5);" class="js-article-color">常见问题</a>
+                            <a href="javascript:AboutUsLoad(2);" class="js-article-color">负责任博彩</a>
+                            <a href="javascript:AboutUsLoad(4);" class="js-article-color">规则条款</a>
+                        </div>
+                        <div class="login-wrap">
+                            <div name="LoginForm" class="clearfix">
+                                <a class="login-join" href="javascript:GoTo('1','reg')"></a>
+                                <div class="login-middle clearfix">
+                                    <p class="login-unit login-unit-user">
+                                        <input name="username" type="text" size="12" id="username" maxlength="15" class="login-input login-acc" tabindex="1" placeholder="账号">
+                                    </p>
+                                    <p class="login-unit login-unit-chk">
+                                        <input name="rmNum" type="text" id="rmNum" size="7" maxlength="4" placeholder="验证码" class="login-input" tabindex="3">
+                                    </p>
+                                    <br>
+                                    <p class="login-unit login-unit-pwd">
+                                        <input name="passwd" type="password" size="13" id="password" maxlength="13" class="login-input" tabindex="2" placeholder="密码">
+                                    </p>
+                                    <img src="/app/member/index/verify/t/" id="vPic" onclick="getKey();" width="40" height="18">
+                                </div>
+                                <input name="Submit" type="submit" value="" class="login-submit" tabindex="4" onclick="Login();">
+                            </div>
+                        </div>
+                        <div class="header-top clear"> <a href="javascript:void(0);" onclick="Go_forget_pwd();" class="top-link">忘记密码?</a>
+                            <a href="javascript:GoTo(3,'login');" class="js-article-color top-custom-link" style="color: #F00;">
+                                代理登入
+                            </a> &nbsp;|&nbsp;
+                            <a href="javascript:GoTo(3,'reg');" class="js-article-color top-custom-link" style="color:#F00;">
+                                代理注册
+                            </a> &nbsp;|&nbsp;
+                            <a href="javascript:void(0);" onclick="addBookmark(document.title, window.location)" class="js-article-color top-custom-link" style="color: rgb(255, 255, 255);">
+                                收藏本站
+                            </a> &nbsp;|&nbsp; <a href="javascript:url();" class="js-article-color top-custom-link" style="color: rgb(255, 255, 255);">
+                                线路检测
+                            </a>
+                            <span class="lang-wrap">
+                                <span class="ele-lang-wrap">
+                                    <a class="ele-lang-option ele-lang-zh-tw" title="繁體中文"></a>
+                                    <a class="ele-lang-option ele-lang-zh-cn" title="简体中文"></a>
+                                    <a class="ele-lang-option ele-lang-en" title="English"></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!--登录前结束-->
+
+                    <!--登录后开始-->
+                    <div class="header-right" id="relogin" style="display:none;">
+                        <div class="article-menu">	
+                            <a class="js-article-color" href="javascript:AboutUsLoad(1);">
+                                关于我们
+                            </a>
+                            <a class="js-article-color" href="javascript:AboutUsLoad(8);">
+                                加盟合作
+                            </a>
+                            <a class="js-article-color" href="javascript:AboutUsLoad(3);">
+                                隐私政策
+                            </a>
+                            <a class="js-article-color" href="javascript:AboutUsLoad(6);">
+                                存款帮助
+                            </a>
+                            <a class="js-article-color" href="javascript:GoTo('1','jsh')">
+                                金沙会
+                            </a>
+                            <a class="js-article-color" href="javascript:AboutUsLoad(5);">
+                                常见问题
+                            </a>
+                            <a class="js-article-color" href="javascript:AboutUsLoad(2);">
+                                负责任博彩
+                            </a>
+                            <a class="js-article-color" href="javascript:AboutUsLoad(4);">
+                                规则条款
+                            </a>
+                        </div>
+
+                        <div style="margin:20px;float: right;">
+                            <div class="ele-accinfo ele-acc-name">
+                                <span>帐号：</span><strong id="account">-</strong>
+                                <a style="color:red;" href="javascript:void(0);" onclick="fresh_money();">刷新</a>
+                                <span>余额：</span><strong><a id="user_money" style="cursor: pointer;">0.00</a></strong>
+                            </div>
+                            <div class="ele-acc-unit">
+                                <div class="ele-accinfo ele-first-balance" id="_bbsportBalance">
+                                    <span><a href="javascript:GoTo(2,'index');">会员中心</a></span>
+                                    <span><a href="javascript:GoTo(2,'user_recharge');">在线存款</a></span>
+                                    <span><a href="javascript:GoTo(2,'save_card');">在线取款</a></span>
+                                    <span><a href="javascript:GoTo(2,'user_change');">额度转换</a></span>
+                                    <span><a href="javascript:GoTo(2,'report_all');">投注记录</a></span>
+                                    <span><a href="javascript:void();" onclick="salfOut();">退出</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-top clear">
+                            <a style="color: #F00;" class="js-article-color top-custom-link" target="_blank" href="javascript:GoTo(3,'login');">
+                                代理登入
+                            </a>
+                            &nbsp;|&nbsp; 
+                            <a style="color:#F00;" class="js-article-color top-custom-link" target="_blank" href="javascript:GoTo(3,'reg');">
+                                代理注册
+                            </a>
+                            &nbsp;|&nbsp;                     
+
+                            <a style="color: rgb(255, 255, 255);" class="js-article-color top-custom-link" href="javascript:void(0);" onclick="addBookmark(document.title, window.location)">
+                                收藏本站
+                            </a>
+                            &nbsp;|&nbsp; 
+                            <a style="color: rgb(255, 255, 255);" class="js-article-color top-custom-link" target="_blank" href="javascript:url();">
+                                线路检测
+                            </a>
+                            <!-- lang -->
+                            <span class="lang-wrap">
+                                <span class="ele-lang-wrap">
+                                    <a title="繁體中文" class="ele-lang-option ele-lang-zh-tw"></a>
+                                    <a title="简体中文" class="ele-lang-option ele-lang-zh-cn"></a>
+                                    <a title="English" class="ele-lang-option ele-lang-en"></a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <!--登录后结束-->
+                    <div id="navfixed" class="mainnav-placeholder clear">
+                        <div class="mainnav-wrap" style="left: 0px;">
+                            <div class="mainnav">
+                                <style>
+                                    .mainnav ul a{width:79px;}
+                                </style>
+                                <ul id="GoTo" class="clearfix">
+                                    <li class="LS-first "> <a class="current" data-url="home" href="javascript:GoTo(1,'home');" title="首页">首页</a></li>
+                                    <li class="LS-ball"> <a data-url="hsport" href="javascript:GoTo(1,'hsport');" class="" title="体育赛事">体育赛事</a></li>
+                                    <li class="LS-live"> <a data-url="live" href="javascript:GoTo(1,'live');" class=" " title="视讯直播">视讯直播</a></li>
+                                    <li id="nav_m03" class="LS-game">
+                                        <a data-url="game" href="javascript:GoTo(1,'game');" class=" " title="电子游艺">电子游艺</a>
+                                        <!-- 子選單 -->
+                                        <div id="chekDs" class="dd_twobox">
+                                            <a data-c="BBIN" href="javascript:BBIN(0,0);" title="BB电子" class="LS-game dea_GT">BB电子</a>
+                                            <a data-c="MG" href="javascript:MG(0,0);" title="MG电子" class="LS-game dea_GS">MG电子</a>
+                                        </div>
+                                    </li>
+                                    <li class="LS-ltlottery"> <a data-url="lottery" href="javascript:GoTo(1,'lottery');" class=" " title="彩票游戏">彩票游戏</a></li>
+                                    <li class="LS-mobile"> <a href="javascript:void(0);" onclick="wap();" title="手机下注">手机下注</a></li>
+                                    <li class="LS-vip"> <a data-url="jsh" href="javascript:GoTo(1,'jsh');" class=" " title="金沙会">金沙会</a></li>
+
+                                    <li class="LS-game">
+                                        <a data-url="game" href="javascript:GoTo(1,'KY');">开元棋牌</a>
+                                        <!-- 子選單 -->
+                                    </li>
+                                    <li class="LS-memberexclusiveii"> <a data-url="hot" href="javascript:GoTo(1,'hot');" class="js-article-color " title="精选优惠">精选优惠</a></li>
+                                    <li class="LS-memberexclusiveii">
+                                        <a href="http://vip.js77991.com/" target="_blank" id="textGlitter" style="color: rgb(215, 160, 0); width: 91px;">神秘彩金</a>
+                                    </li>
+                                    <li class="nav-service"> 
+                                        <a href="javascript:void(0);" onclick="OnlineServices();">24/7小时在线服务<img class="nav-service-icon" src="https://vip.maxam100.com/ct/images/btn_service.png" alt="Services" width="21" height="20">
+                                        </a>
+                                    </li>
+                                    <li class="nav-line"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-wrap clearfix">
+                        <div class="news-item">
+                            <div id="ele-msgNews" class="ele-news-wrap">
+                                <ul class="ele-news-scroll" onclick="HotNewsHistory();" style="margin-top: 0px;">
+                                    <li>
+                                    <marquee id="umsg" data-mtype="0" scrollamount="2" scrolldelay="10" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer;" onclick="cnotice('&lt;tr&gt;&lt;td style=&quot;color:red;text-align:center;&quot;&gt;08-06&lt;/td&gt;&lt;td&gt;金沙娱乐城、天天返点美东时间2018-08-05号已存入您的会员账号，请各位会员注意查收！温馨提醒:公司入款卡号不定期更换请每次入款核对卡号或联系客服咨询、如将款项存入已过期账号 导致无法查收，恕不负责 敬请留意，谢谢！&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;color:red;text-align:center;&quot;&gt;06-20&lt;/td&gt;&lt;td&gt;温馨提示：月尊贵豪礼好运金、6月已派送完成 、下期好运金2018年07月10号派送、请广大会员留意查看，感谢您对澳门金沙娱乐城的支持与陪伴、祝您游戏愉快...&lt;/td&gt;&lt;/tr&gt;')">金沙娱乐城、天天返点美东时间2018-08-05号已存入您的会员账号，请各位会员注意查收！温馨提醒:公司入款卡号不定期更换请每次入款核对卡号或联系客服咨询、如将款项存入已过期账号 导致无法查收，恕不负责 敬请留意，谢谢！&nbsp;&nbsp;&nbsp;&nbsp;温馨提示：月尊贵豪礼好运金、6月已派送完成 、下期好运金2018年07月10号派送、请广大会员留意查看，感谢您对澳门金沙娱乐城的支持与陪伴、祝您游戏愉快...&nbsp;&nbsp;&nbsp;&nbsp;</marquee>
+                                    </li>
+                                </ul>
+                                <div class="ele-scroll-wrap"> <span id="ele-msg-scrollUp" class="ele-scroll-arrow"></span>
+                                    <span id="ele-msg-scrollDown" class="ele-scroll-arrow"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--中间部分开始-->
+            <div id="content-center">
+                <div id="page-container">
+                    <div id="page-body">
+                        <div class="ad-flash">
+                            <div id="js-ele-slideshow1" class="ele-slideshow-wrap" onselectstart="return false;">
+                                <div class="js-ele-slideshow-scroll ele-slideshow-scroll">
+                                    <ul>
+                                        <li style="opacity: 1;">
+                                            <img src="https://vip.maxam100.com/ct/images/142727541621.png" width="1024" height="315">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="ele-slideshow-control-outwrap">
+                                    <div class="js-ele-slideshow-control-wrap ele-slideshow-control-wrap" style="right: 10px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="first-game-wrap">
+                            <div class="ele-firstgame-wrap">
+                                <div class="clearfix ele-firstgame" id="js-firstgame-slider">
+                                    <a href="javascript:GoTo('1','lottery');" class="ele-firstgame-1 js-ele-firstgame-fade"> <span></span>
+                                    </a>
+                                    <a href="javascript:crownsports(0)" class="ele-firstgame-2 js-ele-firstgame-fade" style="background-position-x: -235px;"> <span style="background-position-x: 0px;"></span>
+                                    </a>
+                                    <a href="javascript:GoTo('1','game')" class="ele-firstgame-3 js-ele-firstgame-fade" style="background-position-x: -235px;"> <span style="background-position-x: 0px;"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <a href="javascript:GoTo('1','live')" class="first-game-right"></a>
+                        </div>
+                        <div class="first-shortcut clearfix"> <a href="javascript:crownsports(0)" class="shortcut-sport">今天你投注了吗?</a>
+                            <a href="javascript:void(0);" onclick="wap();" class="shortcut-mobile"></a>
+                            <div class="shortcut-vip-block">
+                                <a href="javascript:GoTo('1','live')" class="shortcut-vip"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--中间部分结束-->
+
+            <div id="page-footer">
+                <div class="footer clearfix">
+                    <div class="footer-slogon">
+                        <img src="https://vip.maxam100.com/ct/images/footer_img01.png" alt=""> <span>先进的加密技术</span>
+                        <img src="https://vip.maxam100.com/ct/images/footer_img02.png" alt=""> <span>高赔率游戏</span>
+                        <img src="https://vip.maxam100.com/ct/images/footer_img03.png" alt=""> <span>安全快捷的存款方式</span>
+                        <img src="https://vip.maxam100.com/ct/images/footer_img04.png" alt=""> <span>在菲律宾注册并遵守菲律宾法律</span>
+                    </div>
+                    <div class="img-warp clear"> <span class="footer-img"></span>
+                        <a id="browser-logo" href="https://www.bb-in.com/" target="_blank">
+                            <img src="https://vip.maxam100.com/ct/images/ublogo.png" border="0" width="100">
+                        </a>
+                        <a href="https://ub66.com/?lang=zh-cn" target="_blank" id="bblogo"></a>
+                    </div>
+                    <div class="copyright">Copyright © 金沙娱乐场 Reserved</div>
+                    <div class="footer-info"></div>
+                </div>
+            </div>
+            <div id="TplFloatPic_0" style="position: absolute; z-index: 1000; right: 5px; top: 200px;" class="picfloat" picfloat="right">
+                <div id="float_r_ight">
+                    <div id="sidebar_open" class="sidebar_unfold">
+                        <a href="javascript:void(0);"></a>
+                    </div>
+                    <div id="sidebar_close" class="sidebar_shrink">
+                        <a href="javascript:void(0);"></a>
+                    </div>
+                    <!-- 收起div -->
+                    <div id="float_right_log">
+                        <ul>
+                            <li class="sidebar_onlineservice">
+                                <a href="javascript:OnlineServices();"></a>
+                            </li>
+                            <li class="sidebar_login">
+                                <a href="javascript:GoTo('1','reg');"></a>
+                            </li>
+                        </ul>
+                        <div id="sidebar_exit01" class="sidebar_box_close">
+                            <a href="javascript:void();"></a>
+                        </div>
+                    </div>
+                    <!-- 展開div -->
+                    <div id="float_right_main">
+                        <ul>
+                            <li class="sidebar_onlineservice">
+                                <a href="javascript:OnlineServices();"></a>
+                            </li>
+                            <li class="sidebar_login">
+                                <a href="javascript:GoTo('1','reg');"></a>
+                            </li>
+                            <li class="sidebar_service" style="background:url(https://vip.maxam100.com/ct/images/a1_04.png?129) no-repeat center top;">
+                                <a href="javascript:GoTo('1','reg');" style="display:block;height:44px;"></a>
+                                <a style="display:block;height:85px;" target="_blank" href="https://shang.qq.com/open_webaio.html?sigt=a4d191894e7bc7cfe8712d6e07b1fcaab7b28dc7eea4980b682b1399df32606dbecf91a75e92538ff666210961ca4472&amp;sigu=3af37ce5412813895cb6f9c7180021fd059c2b27d1642d8d75736e866de12af3765e9e74d1cb9e85&amp;tuin=839507777"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="sidebar_exit01" class="sidebar_box_close1">
+                    <a onclick="FloatClose(this);" href="javascript:void(0);"></a>
+                </div>
+            </div>
+         </div>
+            <script src="js/only.js" type="text/javascript"></script>
+            <script src="js/common.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/jquery.cookie.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/float.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/slider.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/swfobject.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/layer.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/home.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/main.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/sms/sendSms.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/sms/socket.io.js" type="text/javascript"></script>
+            <script src="https://vip.maxam100.com/public/js/slider.js" type="text/javascript"></script>
+
+        <!--[if (IE 7)|(IE 6)]>
+            <script>
+                var _ie_t = "系统侦测到您使用旧版浏览器,<br/><font color='red'>本站预计于2016/1/1停止对IE6,IE7维护与支援</font><br>为了体验最佳的浏览品质与效果,建议立即至 <a style='color:blue;cursor: pointer;' href='https://windows.microsoft.com/en-us/internet-explorer/downloads/ie-8'>「下载区」</a> 升级您的浏览器。";
+                layer.confirm(_ie_t,{shadeClose: false,closeBtn: 0,fixed: true,title: false,btn:false});
+            </script>
+            <!--<![endif]-->
+    
+
+<div class="flexslider" id="demo1" style="position: fixed; bottom: 10px; z-index: 9999; width: 220px; height: 260px; right: auto; left: 10px;"><div style="width: 30px; height: 30px; background-color: rgb(0, 0, 0); line-height: 30px; text-align: center; color: rgb(255, 255, 255); position: absolute; top: 0px; right: 1px; cursor: pointer; z-index: 2; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">X</div><div class="flex-viewport" style="overflow: hidden; position: absolute;"><ul class="slides" style="width: 1000%; -webkit-transition: 0s; transition: 0s; transform: translate3d(-220px, 0px, 0px);"><li style="height: 260px; position: relative; width: 220px; float: left; display: block;" class="clone"><img src="https://vip.maxam100.com/public/img/bottom_float/pg.png?263.93812395735205" data-index="6" class="gameClick" style="width: 220px; height: auto; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto;"></li><li style="height: 260px; position: relative; width: 220px; float: left; display: block;" class="flex-active-slide"><img src="https://vip.maxam100.com/public/img/bottom_float/caibo.png?337.0146485594322" class="gameClick" style="width: 220px; height: auto; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto;"></li><li style="height: 260px; position: relative; width: 220px; float: left; display: block;"><img src="https://vip.maxam100.com/public/img/bottom_float/kaiyuan.png?373.4152889011342" data-index="11" class="gameClick" style="width: 220px; height: auto; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto;"></li><li style="height: 260px; position: relative; width: 220px; float: left; display: block;"><img src="https://vip.maxam100.com/public/img/bottom_float/pg.png?263.93812395735205" data-index="6" class="gameClick" style="width: 220px; height: auto; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto;"></li><li style="height: 260px; position: relative; width: 220px; float: left; display: block;" class="clone"><img src="https://vip.maxam100.com/public/img/bottom_float/caibo.png?337.0146485594322" class="gameClick" style="width: 220px; height: auto; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; margin: auto;"></li></ul></div><ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li><li><a>3</a></li></ol></div></body></html>

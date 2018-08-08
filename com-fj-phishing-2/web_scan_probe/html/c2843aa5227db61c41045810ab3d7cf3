@@ -1,0 +1,148 @@
+<!DOCTYPE html><html><head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=1160">
+<title>cc彩球网会员登录手机板-cc网投登录-cc时时彩-cc彩票网投-cc国际网投</title>
+    <link rel="stylesheet" type="text/css" href="css_pc/css.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+<!--[if IE 6]>
+<script type="text/javascript">
+document.execCommand("BackgroundImageCache", false, true);
+</script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js_pc/html5.js"></script>
+<![endif]-->
+<link id="live800_chat_style" type="text/css" rel="stylesheet" href="https://vp9.live800.com/live800/chatClient/refactor/style/theme/default/mobile/mobile-blue/winSkin.css"><script id="live800_localStorage" type="text/javascript" src="https://vp9.live800.com/live800/chatClient/scripts/localStorage.js" charset="UTF-8"></script><script id="live800_iframe_message" type="text/javascript" src="https://vp9.live800.com/live800/chatClient/scripts/messenger.js" charset="UTF-8"></script><link id="invite_style" type="text/css" rel="stylesheet" href="https://vp9.live800.com/live800/chatClient/invite/theme/mobile/0/invite.css"></head>
+<body>
+    <div class="announcement-box">
+        <div class="announcement">
+            <div class="title">最新公告</div>
+            <div class="content">
+                <marquee direction="left" behavior="scroll" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+                    <span class="textspace" id="noticeContent">尊敬的会员：重庆三峡银行 卢先勇 招商 闫焰 刘艳君 农行  李鹏亮  周博 已停用，请您在每次入款之前联系充值客服确认入款卡号或者入款二维码，以免转入停用卡号造成不必要的损失</span>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    
+	<div class="header min_1160">
+		<div class="w_1160">
+			<h1 class="logo png_img"><a href="/"><img src="images_pc/logo.png" alt="CC online entertainment"></a></h1>
+            			<!-- <a href="http://006808.com/" class="w-enter">计划聊天室</a> -->
+		</div>
+		<!--end宽度-->
+	</div>
+	<!--end头文件-->
+
+	<div class="min_1160 h_banner png_img"><!--<img src="images_pc/banner/01.jpg" alt="h_banner_img">-->
+		<div class="banner_text">
+			<div class="w_1160"><h2 class="flipInX animated png banner_th">最专业彩票平台</h2></div>
+		</div>
+	</div>
+	<!--end大图片--> 
+	
+	<div class="blue_box min_1160 clearfix2">
+		<div class="w_1000">
+			<div class="hide_box">
+				<ul class="list_4 h_mune_ul clearfix2 hover_ul">
+                    					<li><a href="javascript:;" class="box round_m_s cd-popup-trigger0"><span class="png arror_m"></span><h4>登入平台</h4></a></li>
+                                        <li><a href="online.html" class="box round_m_s"><span class="png arror_m arror_m2"></span><h4>在线充值</h4></a></li>
+                    <li><a href="https://vp9.live800.com/live800/chatClient/chatbox.jsp?companyID=80007&amp;configID=2176&amp;skillId=543&amp;enterurl=&amp;k=1" class="box round_m_s" target="_blank"><span class="png arror_m arror_m2"></span><h4>线下收款</h4></a></li>
+                    <li><a href="money.html" class="box round_m_s"><span class="png arror_m arror_m3"></span><h4>在线提款</h4></a></li>
+                                        <li><a href="reg.html" class="box round_m_s" id="idreg"><span class="png arror_m arror_m4"></span><h4>注册会员</h4></a></li>
+                                    </ul>
+			</div>
+			<!--end隐藏-->
+		</div>
+		<!--end宽度-->
+	</div>
+	<!--end蓝色背景-->
+	
+	<div class="blue_box_light min_1160 clearfix2">
+		<div class="w_1000">
+			<ul class="list_6 h_link_ul clearfix2 hover_ul">
+				<li><a href="change_bank.php" class="box"><span class="arrow_a round_r"><em class="png"></em></span><h4>提款银行卡</h4></a></li>
+				<li><a href="pass.html" class="box"><span class="arrow_a arrow_a2 round_r"><em class="png"></em></span><h4>提款密码修改</h4></a></li>
+				<li><a href="history_new.html" class="box"><span class="arrow_a arrow_a3 round_r"><em class="png"></em></span><h4>提款记录查看</h4></a></li>
+				<li><a href="download.html" class="box"><span class="arrow_a arrow_a4 round_r"><em class="png"></em></span><h4>app下载</h4></a></li>
+				<li><a href="https://vp9.live800.com/live800/chatClient/chatbox.jsp?companyID=80007&amp;configID=1888&amp;skillId=514&amp;enterurl=&amp;k=1" target="_blank" class="box"><span class="arrow_a arrow_a5 round_r"><em class="png"></em></span>
+			  <h4>联系客服</h4></a></li> 
+				<li><a href="https://vp9.live800.com/live800/chatClient/chatbox.jsp?companyID=80007&amp;configID=1888&amp;skillId=513&amp;enterurl=&amp;k=1" target="_blank" class="box"><span class="arrow_a arrow_a6 round_r"><em class="png"></em></span>
+			  <h4>代理咨询</h4></a></li>
+	
+			</ul>
+		</div>
+		<!--end宽度-->
+	</div>
+	<!--end蓝色背景-->
+	
+	<div class="footer_i min_1160" id="links"></div>
+<div class="footer min_1160">1999 © CC Online Entertainment</div>
+	<!--end文件底-->
+	
+
+
+<link rel="stylesheet" type="text/css" href="css_pc/code.css">
+
+<!--star_弹框-->
+<!--star一个-->
+<div class="cd-popup">
+<div class="cd-popup-container">
+<a href="#0" class="cd-popup-close f_close_btn transition_a"></a>
+
+<!--star内容-->
+	<h4 class="popup_th">登入平台</h4>
+	<div class="clearfix2 white_bj">
+		<ul class="clearfix2 popup_go_ul list_2 round_s_a">
+			<li><a href="https://wr25.ccdior.com/PortalUSR/" target="_blank" class="box">主线路</a></li>
+			<li><a href="https://h1.elf168.net/PortalWSC/" target="_blank" class="box">备用线路1</a></li>
+			<li><a href="https://h2.elf168.net/PortalWSC/" target="_blank" class="box">备用线路2</a></li>
+			<li><a href="https://h3.elf168.net/PortalWSC/" target="_blank" class="box">备用线路3</a></li>			
+			<li><a href="https://h4.elf168.net/PortalWSC/" target="_blank" class="box">备用线路4</a></li>
+			<li><a href="https://h5.elf168.net/PortalWSC/" target="_blank" class="box">备用线路5</a></li>
+		</ul>
+	</div>
+<!--end内容-->
+
+</div>
+</div>
+<!--end一个-->
+
+<!--star一个-->
+    
+    
+<!--[if IE 6]>
+<script type="text/javascript" src="js_pc/DD_belatedPNG.js"></script>
+<script>
+DD_belatedPNG.fix('.png,.png_img img');
+</script>
+<![endif]-->
+
+
+
+
+
+<script src="//hm.baidu.com/hm.js?4a5c27616c0cc5d010d4d8cbb105d355"></script><script src="js_pc/jquery-1.8.2.min.js"></script>
+<script src="js_pc/tool.js"></script>
+<script type="text/javascript" src="js_pc/code.js"></script>
+<script type="text/javascript">
+    if (window.location.host === "cc999.com" || window.location.host === "www.cc999.com")
+        $("#idreg").attr("href","invite.html");
+</script>
+<script type="text/javascript">
+    var closeAnnouncement = $("#closeAnnouncement");
+    var expireHours = 2;
+    if (expireHours > 0)
+        closeAnnouncement.text(expireHours + "小时内不再显示");
+    var endHideAnnouncementDate = new Date();
+    endHideAnnouncementDate.setHours(endHideAnnouncementDate.getHours() + expireHours);
+    closeAnnouncement.on("click", function () {
+        document.cookie = "hideAnnouncement=true; expires=" + endHideAnnouncementDate.toGMTString();
+    });
+</script>
+<script type="text/javascript" src="/js/global.js"></script>
+<script src="tongji.js"></script><script language="javascript" src="https://vp9.live800.com/live800/chatClient/monitor.js?companyID=80007&amp;configID=1886&amp;codeType=custom" charset="UTF-8"></script><script language="javascript" src="https://vp9.live800.com/live800/chatClient/localzition/innerPage/language.js?t=1533704169327" charset="UTF-8"></script><script language="javascript" src="https://vp9.live800.com/live800/chatClient/refactor/scripts/live800_innerClient_for_mobile.js?t=1533704169327" charset="UTF-8"></script>
+
+......<div id="InviteWindow" style="z-index: 2147483647; visibility: hidden;"><style type="text/css">#invite_btn button span{white-space:nowrap;}</style><div id="invite_bg"></div><div id="invite_title">Invite</div><div id="invite_text">Welcome<p>May I help you?</p><p></p></div><div id="invite_btn"><button class="accept" onclick="globalInviteWindow.accept();return false;"><span>Start chat</span></button><button class="cancel" onclick="globalInviteWindow.refuse();return false;"><span>Cancel</span></button></div></div><iframe id="lim_frame" height="0" width="0" src="https://vp9.live800.com/live800/blank.html" style="display: none;"></iframe><div id="lim_sharedObject" style="position: absolute; z-index: -3; top: -10px; left: -10px;"><iframe name="lim_share" id="lim_share" height="0" width="0" src="https://vp9.live800.com/live800/chatClient/shared.html?companyID=80007&amp;configID=1886"></iframe></div><div class="live800_chat_nav live800_bottom_right" title="" style="display:none"><div class="live800_innerChat_toolbar"><div class="live800_innerChat_bg"><div class="doudou"></div><div class="live800_icon_Button" isopen="false" onclick="return false;"><span class="live800_button"><i class="live800_chat_icon live800_online">Click me to answer your question.</i></span></div></div></div></div></body></html>

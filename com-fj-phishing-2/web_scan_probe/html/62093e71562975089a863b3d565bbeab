@@ -1,0 +1,232 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>快速充值中心</title>
+    <link href="/css/css.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/js/jquery-1.8.js"></script>
+    <script src="js/index.js"></script>
+    <style type="text/css">
+        .banklist ul {
+            list-style: none;
+        }
+            .banklist ul li {
+                float: left;
+                width: 187px;
+                height: 50px;
+                overflow: hidden;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="bodymain">
+
+        <div class="box">
+            <h1 class="logo">
+                <img src="/images/logo.png"></h1>
+
+            <form method="post" id="pay" action="/jrpay/pay.aspx" autocomplete="off">
+                <div class="mian">
+                    <h2 class="bt">
+                        <font size="4">支持【<b><font color="#FF00FF">手机端</font></b>、<b><font color="#0000FF">电脑端</font></b>】<b><font color="#05A11F">微信扫码
+	支付</font></b>、<b><font color="#FF00FF">【支付宝】</font></b>付款。</font>
+                        <br>
+                        <span style="font-weight: 400">
+                            <font size="2">
+         扫一扫支付，手机也能支付，输入支付网址：<font color="#0000FF"> http://aakkpay.com</font>一键入款，立即到账!</font></span><font size="3"><br>
+	</font>
+                        <span style="font-weight: 400">
+                            <font size="2">
+        支付流程：输入并确认威尼斯人娱乐城正确的会员账号→输入存款额度→点击确认支付→付款成功后1~10秒自动到账；
+	<a target="_blank" href="https://vf869.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=885243&amp;configID=54318&amp;jid=6779215512&amp;s=1">
+	<font color="#FF0000">【在线客服】</font></a><font color="#FF0000">
+	</font></font></span></h2>
+                    <div class="cn">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody><tr>
+                                <td width="144" bgcolor="#f6f6f6" class="w1">会员账号：</td>
+                                <td width="625">
+                                    <input type="text" id="username" name="username" class="text" size="50"><font color="#FF0000">请输入会员账号</font>
+                                </td>
+                                <td align="center"><b><font color="#FF0000">*</font>必填</b></td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f6f6f6" class="w1">确认会员账号：</td>
+                                <td>
+                                    <input name="rusername" id="rusername" type="text" class="text" size="50"><font color="#FF0000">请确认会员账号是否正确，否则无法正常充值</font>
+                                </td>
+                                <td align="center"><b><font color="#FF0000">*</font>必填</b></td>
+                            </tr>
+                            
+                            <tr>
+                                <td bgcolor="#f6f6f6" class="w1">支付类型：</td>
+                                <td colspan="2">
+                                    
+                                            <input type="radio" id="rad_59" name="radzhif_code" class="showbank" value="59" checked="" limitlow="500.00" limithigh="10000.00">
+                                            <img src="/images/WEIXIN.jpg" width="135" class="showbank" style="cursor: pointer;" alt="微信扫码" title="微信扫码">
+                                        
+                                            <input type="radio" id="rad_54" name="radzhif_code" class="showbank" value="54" limitlow="10.00" limithigh="3000.00">
+                                            <img src="/images/ALIPAY.jpg" width="135" class="showbank" style="cursor: pointer;" alt="支付宝扫码" title="支付宝扫码">
+                                        
+                                            <input type="radio" id="rad_64" name="radzhif_code" class="showbank" value="64" limitlow="50.00" limithigh="3000.00">
+                                            <img src="/images/QQ.jpg" width="135" class="showbank" style="cursor: pointer;" alt="QQ钱包" title="QQ钱包">
+                                        
+                                    
+                                </td>
+                            </tr>
+                            <tr style="display: none;" id="banklist">
+                                <td bgcolor="#f6f6f6" class="w1"></td>
+                                <td colspan="2" class="banklist">
+                                    <ul style="height: 50px;">
+                                        
+                                    </ul>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td bgcolor="#f6f6f6" class="w1">存款额度：</td>
+                                <td>
+                                    <input name="coin" id="coin" type="text" class="text text2" onkeyup="value=this.value.replace(/[^\-?\d.]/g,'')">存款金额范围（<font color="#FF0000"><b id="b_limit">最低500.00元~最高10000.00元</b></font>）              
+                                </td>
+                                <td align="center"><b><font color="#FF0000">*</font>必填</b></td>
+                            </tr>
+                            
+                             <tr>
+                                <td bgcolor="#f6f6f6" class="w1">快捷额度：</td>
+                                <td>
+                                    
+                                            <a class="short" href="javascript:void(0);" val="100">100元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="200">200元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="500">500元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="1000">1000元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="2000">2000元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="3000">3000元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="5000">5000元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="10000">10000元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="20000">20000元</a>
+                                          
+                                            <a class="short" href="javascript:void(0);" val="50000">50000元</a>
+                                          
+                                </td>
+                                <td align="center"></td>
+                            </tr>
+                            
+
+                            <tr>
+                                <td bgcolor="#f6f6f6" class="w1">存款时间：</td>
+                                <td>
+                                    <input type="text" class="text" name="P_Time" id="P_Time" value=""><font color="#0000FF">自动写入无需填写</font></td>
+                                <td></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                    <a href="#" class="btn" onclick="return btnOK_zf_onclick();">确认支付</a>
+                    <div class="botm">
+                        <p>
+                            <span style="color: #f00;">温馨提示：</span><font color="#000000">为了避免掉单情况的发生，请您在支付完成后，需等"支付成功"页面跳转出来, 再关闭页面，以免掉单！感谢配合！！！
+      <br>支付成功后，若3分钟内未能及时到达您的会员账号请联系</font><a href="https://vf869.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=885243&amp;configID=54318&amp;jid=6779215512&amp;s=1" target="_blank"><font color="#FF0000">【在线客服】</font></a><font color="#000000">咨询；<br>http://aakkpay.com祝您愉快！O(∩_∩)O</font>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="bottom">
+        Copyright ©
+        所提供的产品和服务选择我们，您将拥有可靠的资金保障和优质的服务.
+    </div>
+
+    <div id="TplFloatPic_1" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; right: 5px;" picfloat="right"><a href="https://vf869.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=885243&amp;configID=54318&amp;jid=6779215512&amp;s=1" target="_blank" style="height: 224px;">
+        <img src="/images/online.png" alt="" class="png_fix"><img src="/images/online.png" style="display: none;" alt="" class="png_fix"></a><a onclick="FloatClose(this);" style="height: 24px;"><img src="images/close.png" alt="" class="png_fix"><img src="images/close.png" style="display: none;" alt="" class="png_fix"></a></div>
+    <script type="text/javascript" src="/js/float.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+    function rnd(n, m){
+        var random = Math.floor(Math.random()*(m-n+1)+n);
+        return random;
+    }
+    $(function () {
+        $('.short').click( function(){
+            var amount = $(this).attr('val');
+            $('input[name="coin"]').val( amount );
+            return false;
+        });
+        var time = getNowFormatDate();
+        $('#P_Time').val(time);
+    })
+
+    function btnOK_zf_onclick() {
+        var username = $("#username").val();
+        var coin = $("#coin").val();
+        var PerSonGuid=$("#PerSonGuid").val();
+        var bankck = $('input[name="radzhif_code"]:checked').val();        
+        var rusername = $("#rusername").val();
+        var VerCode = $("#VerCode").val();
+        if (username == null || username == "") {
+            alert("[提示]用户名不能为空！");
+            $("#username").focus();
+            return false;
+        }
+        if (rusername == null || rusername == "" || rusername != username) {
+            alert("[提示]2次用户输入不一致！");
+            $("#rusername").focus();
+            return false;
+        }
+
+        
+        if (bankck == null || bankck == "") {
+            alert("[提示]支付类型不能为空！");
+            return false;
+        }
+        if (bankck == "3")
+        {
+            var banklist = $('input[name="radbank"]:checked').val();
+            if (banklist == null || banklist == "")
+            {
+                alert("[提示]请选择支付银行！");
+                return false;
+            }
+        }
+        if (coin == null || coin == "") {
+            alert("[提示]请填写存款金额！");
+            $("#coin").focus();
+            return false;
+        }
+
+        if (isNaN(coin)) {
+            alert("[提示]存款额度非有效数字！");
+            $("#coin").focus();
+            return false;
+        }
+        if (coin < parseFloat(payLimit_low)) {
+            alert("[提示]" + payLimit_low + "元以上或者" + payLimit_low + "元才能存款！");
+            $("#coin").focus();
+            return false;
+        }
+
+        if (coin > parseFloat(payLimit_high) && parseFloat(payLimit_high)>0) {
+            alert("[提示]存款金额不能超过" + payLimit_high + "！");
+            $("#coin").focus();
+            return false;
+        }
+                
+    $("#pay").submit();
+    return true;
+    }
+    
+
+</script>
+
+</body></html>

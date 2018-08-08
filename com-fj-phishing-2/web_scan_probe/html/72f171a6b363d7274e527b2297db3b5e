@@ -1,0 +1,804 @@
+<html><head><title>速8福彩</title>
+<style>
+
+    body {
+        padding:0;
+        margin:0;
+        color:#000;
+        font-size:12px;
+        font-family:"微软雅黑", Arial, Helvetica, sans-serif;
+    }
+    ol, ul, li, h1, h2, h3, h4, form, input, p, a {
+        padding:0;
+        margin:0;
+        font-size:1em;
+    }
+    li {
+        list-style:none;
+    }
+    b, i, em, strong, h1, h2, h3, h4 {
+        font-style:normal;
+        font-weight:400;
+    }
+    a {
+        text-decoration:none;
+        color:#000;
+    }
+    a img {
+        border:none;
+    }
+    /*IE9以下不识别HTML5标签*/
+    header, nav, footer, aside, section {
+        display:block;
+    }
+    /*公共部分*/
+    .wrapper {
+        margin:0 auto;
+        padding:0 10px;
+        max-width:1260px;
+        _width:1260px;
+        position:relative;
+        overflow:hidden;
+    }
+    #header .tools a,
+    #content .tips .hot-words,
+    #content .guide .mark i,
+    #aside .counter .update-date,
+    #aside .power .friends .item,
+    #aside .btn-recommend,
+    #website-map .sub-title h3,
+    #shortcut h3
+    {
+    }
+    .catalog header h2 i{
+        width:40px;
+        height:40px;
+        display:block;
+        margin:10px auto;
+    }
+    .catalog .general i{
+        background-position:0 -320px;
+    }
+    .catalog .bank i{
+        background-position:0 -40px;
+    }
+    .catalog .agent i{
+        background-position:0 -80px;
+    }
+    .catalog .bmw i{
+        background-position:0 -280px;
+    }
+    .catalog .bmwvip i{
+        background-position:0 -360px;
+    }
+
+    /*头部*/
+    #header {
+        height: 78px;
+        background-color: #7b344a;
+        border-bottom: 1px solid #a9307a;
+    }
+    /*logo*/
+    #header header {
+        position:absolute;
+        top:6px;
+        left:10px;
+    }
+    #logo {
+        width:260px;
+        height:70px;
+        font-size:0;
+        line-height:999;
+        overflow:hidden;
+        display:block;
+        cursor: pointer;
+    }
+    #logo a:hover img {
+        position: relative;
+        top: -100%;
+    }
+    /*搜索*/
+    #search {
+        padding-top:24px;
+        height:54px;
+        text-align:center;
+    }
+    #search input {
+        vertical-align:middle;
+    }
+    #search .keyword {
+        width:330px;
+        height:14px;
+        padding:8px 5px;
+        border:1px solid #21628c;
+    }
+    #search .default-word {
+        color: #ccc;
+    }
+    #search .button {
+        width:88px;
+        height:32px;
+        line-height:32px;
+        border:0 none;
+        border:1px solid #6a6a6a;
+        cursor:pointer;
+    }
+    #search .button:hover {
+        background:#f9f9f9;
+    }
+    /*小工具*/
+    #header .tools {
+        position:absolute;
+        top:30px;
+        right:10px;
+        overflow:hidden;
+    }
+    #header .tools a {
+        display:inline-block;
+        padding-left:20px;
+        margin-left:8px;
+        height:18px;
+        line-height:18px;
+        color:#def2fe;
+    }
+    #header .tools a:hover {
+        color:#ccebfd;
+    }
+    #header .tools span {
+        margin-left:8px;
+        color:#def2fe;
+    }
+    #header .tools .icon-translate {
+        background-position:5px 4px;
+    }
+    #header .tools .icon-add {
+        background-position:5px -46px;
+    }
+    #header .tools .icon-favor {
+        background-position:5px -96px;
+    }
+    #header .tools .icon-homepage {
+        background-position:5px -146px;
+    }
+    /*主体内容*/
+    #content {
+        background-color:#fff;
+    }
+    .inside{
+        background-color:#f1f7fa!important;
+    }
+    #catalog {
+        margin:34px 0 0;
+        background-color:#f8f8f8;
+    }
+    #catalog section {
+        position:relative;
+        border:1px solid #e5e5e5;
+        margin-top:-1px;
+        overflow:hidden;
+    }
+    #catalog header {
+        position:absolute;
+        top:0;
+        left:0;
+        width:140px;
+        height: 100%;
+        background-color:#f8f8f8;
+        overflow: hidden;
+    }
+    #catalog header h2 {
+        font-family:"微软雅黑";
+        font-size:1.6em;
+        color:#555;
+        position:absolute;
+        width:100%;
+        top:50%;
+        height:80px;
+        margin-top: -45px;
+        line-height:100%;
+        display: block;
+        text-align: center;
+    }
+    #catalog header h2 a{
+        color:#555;
+    }
+    #catalog header h2 a:hover{
+        color:#ee521c;
+    }
+    .website-list {
+        margin:0 0 0 140px;
+        overflow:hidden;
+        zoom:1;
+        background-color:#ffffff;
+    }
+    .website-list li {
+        float:left;
+        width:16.66%;
+        border-top: 1px solid #e5e5e5;
+        margin-top: -1px;
+        overflow: hidden;
+        height:130px;
+    }
+    .website-list li:hover {
+        background-color:#f2f8fd;
+    }
+    .website-list li:hover a {
+        color:#ee521c;
+        text-decoration:underline
+    }
+    .website-list li:hover p {
+        color:#585858;
+    }
+    .website-list li a {
+        color:#555;
+        font-size:12px;
+    }
+    .website-list li{
+        text-align: center;
+        margin-top:-1px;
+        margin-left:-1px;
+        border-left:1px dotted #e5e5e5;
+    }
+    .website-list li:first-child a{
+        border-left:0;
+        margin-left:-1px;
+
+    }
+    .website-list li a{
+        display: block;
+        padding:15px 0 20px 0;
+    }
+    .website-list li a img{
+        width: 118px;
+        height: 58px;
+        border:1px solid #e6e6e6;
+        display: block;
+        margin:10px auto;
+        border-radius:8px;
+    }
+    .website-list li a:hover img{
+        box-shadow:0 0 12px #c7dff3;
+    }
+    .extra-border{
+        border-right:1px dotted #e5e5e5;
+    }
+    #content .tips {
+        position:absolute;
+        top:0;
+        right:10px;
+        width:100%;
+        line-height:40px;
+        text-align:right;
+        color:#989898;
+        white-space:nowrap;
+    }
+    #content .tips .hot-words {
+        display:inline-block;
+        padding-left:22px;
+        padding-right:10px;
+        background-position:6px -189px;
+        line-height:34px;
+    }
+    #content .tips .hot-words a {
+        color:#989898;
+        padding-right:5px;
+    }
+    #content .tips .hot-words a:hover {
+        text-decoration:underline;
+        color:#000;
+    }
+    #content .tips .hot-words b {
+        color:#686868;
+    }
+    /*创业推荐*/
+    #content .guide {
+        height:44px;
+        line-height:44px;
+        background-color:#f9f9f9;
+        border:1px solid #e5e5e5;
+        text-align:left;
+        white-space:nowrap;
+    }
+    #content .guide .wrapper{
+        padding:0;
+    }
+    #content .guide .site-list {
+        display:inline-block;
+        vertical-align:middle;
+        overflow:hidden;
+    }
+    #content .guide .site-list .item {
+        border-left:1px solid #e6e6e6;
+        padding:0 15px;
+        margin-left:-1px;
+        color:#555;
+    }
+    #content .guide .site-list .item:hover {
+        color:#ee521c;
+        text-decoration:underline;
+    }
+    #content .guide .mark {
+        display:inline-block;
+        vertical-align:middle;
+        margin-left:20px;
+    }
+    #content .guide .mark i {
+        padding:2px 10px 2px 20px;
+        color:#989898;
+    }
+    #content .guide .mark .arrow{
+        font-family:sans-serif;
+        padding:0 6px;
+        color:#696969;
+    }
+    #content .guide .mark .guide-home{
+        color:#696969;
+        margin-left:8px;
+    }
+    #content .guide .mark .guide-home:hover{
+        text-decoration:underline;
+        color:#000;
+    }
+    #content .guide .mark .mark-hot {
+        background-position:5px -246px;
+    }
+    #content .guide .mark .mark-new {
+        background-position:10px -296px;
+        padding-left:26px;
+        border-left:1px solid #e6e6e6;
+    }
+    #content .guide .estab {
+        position:absolute;
+        top:0;
+        right:14px;
+    }
+    #content .guide .estab .title {
+        display:inline-block;
+        vertical-align:middle;
+        color:#bababa;
+    }
+    #content .guide .estab .list {
+        display:inline-block;
+        vertical-align:middle;
+    }
+    #content .guide .estab .item {
+        display:inline-block;
+    }
+    #content .guide .estab .item,#content .guide .estab .list {
+        margin-left:5px;
+        *display:inline;
+    }
+    #content .guide .estab .item img {
+        display:inline-block;
+        vertical-align:middle;
+        margin:0 4px;
+        margin-top:-2px;
+    }
+    #content .guide .estab .item a {
+        color:#555;
+        display:block;
+    }
+    #content .guide .estab .item a:hover {
+        color:#ee521c;
+    }
+    /*快捷导航*/
+    .guide .uisdc {
+        position:relative;
+        top:1px;
+        color:#fa5f5f;
+        margin-left:2px;
+    }
+    .guide .uisdc:hover{
+        text-decoration:underline;
+        color:#fa5f5f
+    }
+    #footer {
+        background-color: #FFFFFF;
+        color: #000000;
+        line-height: 1.8;
+        text-align: center;
+        padding: 26px 0;
+        margin-top: 40px;
+    }
+    #footer a {
+        color: #000000;
+    }
+    #footer strong {
+        font-weight:bold;
+    }
+    #footer a:hover {
+        color: #000;
+    }
+    #nav a {
+        margin:0 5px;
+    }
+    .slogan a:hover{
+        text-decoration:underline;}
+
+
+    @media screen and (max-width:950px) {
+
+        #logo {
+            height: 54px;
+            overflow: hidden;
+        }
+        #logo img {
+            height: 108px;
+        }
+        #content .tips .hot-words{
+            line-height: 1.2;
+            font-size:0.8em
+        }
+        #search {
+            text-align:right;
+            margin-right:80px;
+        }
+        #header .tools {
+            top:20px;
+            width:60px;
+        }
+        #footer{
+            margin-top: 30px;
+        }
+        #catalog header {
+            position:static;
+            width:100%;
+            height:24px;
+            margin:10px 0;
+        }
+        #catalog header h2{
+            height:21px;
+            position:static;
+            top:0;
+            line-height:21px;
+            margin:0;
+            vertical-align: top;
+        }
+        #catalog header h2 i{
+            background-size:20px auto;
+            width:20px;
+            height:20px;
+            margin:0 10px;
+            float: left;
+        }
+        .catalog .bank i {
+            background-position: 0 -22px;
+        }
+        .catalog .agent i {
+            background-position: 0 -44px;
+        }
+        .catalog .bmw i{
+            background-position:0 -153px;
+        }
+        .catalog .bmwvip i{
+            background-position:0 -196px;
+        }
+        .catalog .general i{
+            background-position:0 -174px;
+        }
+        .website-list li a img{
+            width:60px;
+            height:30px;
+        }
+        .website-list li a{
+            border-top: 1px dotted #e6e6e6;
+        }
+        #catalog .more-item {
+            top:44px;
+        }
+        #catalog .website-list {
+            margin-left:0;
+        }
+        #website-map .website-list li {
+            width:24.5%;
+        }
+    }
+    @media screen and (max-width:800px) {
+        #search {
+            margin-right:0;
+        }
+        #search .keyword {
+            width:200px;
+        }
+        #header .tools, #content .tips .slogan {
+            display:none;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        #header header {
+            top:2px;
+            position:relative;
+        }
+        #header {
+            height:auto;
+        }
+        #search {
+            margin-top:0;
+            margin-bottom:10px;
+            text-align:left;
+        }
+        #catalog .more-item {
+            height:152px;
+        }
+        .website-list li {
+            width:33.3%;
+        }
+        .website-list .website {
+            margin:10px 15px 0;
+            font-size:1em;
+        }
+        .website-list .description, #content .tips .slogan, #content .tips .mark, #shortcut, .uisdc{
+            display:none;
+        }
+        #website-map .website-list li {
+            height:auto;
+            width:48%;
+        }
+        #website-map .website-list .description {
+            display:block;
+        }
+        #sponsor{ overflow:hidden}
+        div[id="search"]{
+            display: none;
+        }
+        .estab , .more-item{
+            display:none
+        }
+    }
+    @media screen and (max-width:320px) {
+        #website-map .website-list li {
+            width:100%;
+        }
+        #sponsor{ overflow:hidden}
+    }
+
+    .uk-notify-message.alert.alert-normal {
+        background: #444444;
+        color: #ffffff;
+    }
+
+    .uk-notify-message {
+        position: relative;
+        margin-bottom: 10px;
+        padding: 15px;
+        width: 350px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 22px;
+        border-radius: 3px;
+        padding-right: 35px;
+        cursor: pointer;
+    }
+    .uk-notify{
+        position: fixed;
+        top: 150px;
+        width: 100%;
+        z-index: 999;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+    }
+    .alert-dismissible .close {
+        position: relative;
+        top: -2px;
+        right: -21px;
+        color: inherit;
+    }
+    .close {
+        float: right;
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1;
+        color: #DDD;
+        text-shadow: 0 1px 0 #ffffff;
+    }
+    .close:hover,
+    .close:focus {
+        color: #666;
+        text-decoration: none;
+        cursor: pointer;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+</style>
+</head><body><div id="header">
+    <div class="wrapper">
+        <header>
+            <h1 id="logo"><a href=""></a></h1>
+        </header>
+        <div id="search">
+
+        </div>
+        <div class="tools"><a href="javascript:void(0);" class="icon-favor" title="加入收藏">按 Ctrl+D 收藏导航</a></div>
+    </div>
+</div>
+<div id="content">
+    <div class="guide">
+        <div class="wrapper">
+		    <span class="mark">
+		        <i class="mark-hot">最热</i> <i class="mark-new">最新</i>
+		    </span>
+            <nav class="site-list">
+                <a class="item" href="http://www.uc.cn/" target="_blank">浏览器下载</a>
+                <a class="item" href="" target="_blank">安卓客户端下载</a>
+                <a style="color:#FA5F5F;" target="_blank" href="" class="item">常见问题</a>
+            </nav>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div id="catalog" class="catalog">
+
+            <section>
+                <header>
+                    <h2 class="bmw"><i></i>快3专区</h2>
+                </header>
+                <ul class="website-list">
+                    <li>
+                        <a href="/index.gameindex.php">
+                            <img src="/kuaisan_files/a1.jpg" tppabs="http://www.ks127.com/css/a1.jpg" data-bd-imgshare-binded="1">
+                            快3主线路
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/index.gameindex.php?id=zhu3">
+                            <img src="/kuaisan_files/a3.jpg" data-bd-imgshare-binded="1">
+                            快3线路二
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/index.gameindex.php?id=zhu4">
+                            <img src="/kuaisan_files/a4.jpg" tppabs="http://www.ks127.com/css/a4.jpg" data-bd-imgshare-binded="1">
+                            快3线路三
+                        </a>
+                    </li>
+                    <li>
+                        <a style="cursor: pointer;" href="javascript:void(0);" onclick="lianxikefu();">
+                            <img src="/kuaisan_files/onlinecs2.jpg" tppabs="http://www.ks127.com/css/onlinecs2.jpg" data-bd-imgshare-binded="1">
+                            在线客服
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/passport.register.do">
+                            <img src="/kuaisan_files/bmw-5.jpg" tppabs="http://www.ks127.com/css/bmw-5.jpg" data-bd-imgshare-binded="1">
+                            网页端注册页
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/passport.register.do">
+                            <img src="/kuaisan_files/bmw-5.jpg" tppabs="http://www.ks127.com/css/bmw-5.jpg" data-bd-imgshare-binded="1">
+                            手机端注册页
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h2 class="general"><i></i>常用网址</h2>
+                </header>
+                <ul class="website-list">
+                    <li>
+                        <a href="http://www.qq.com/">
+                            <img src="/kuaisan_files/qq.jpg" "="" data-bd-imgshare-binded="1">
+                            腾讯
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.sina.com.cn/">
+                            <img src="/kuaisan_files/sina.jpg" tppabs="http://www.ks127.com/css/sina.jpg" data-bd-imgshare-binded="1">
+                            新浪
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.163.com/">
+                            <img src="/kuaisan_files/163.jpg" tppabs="http://www.ks127.com/css/163.jpg" data-bd-imgshare-binded="1">
+                            网易
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.sohu.com/">
+                            <img src="/kuaisan_files/sohu.jpg" tppabs="http://www.ks127.com/css/sohu.jpg" data-bd-imgshare-binded="1">
+                            搜狐
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.ifeng.com/">
+                            <img src="/kuaisan_files/ifeng.jpg" tppabs="http://www.ks127.com/css/ifeng.jpg" data-bd-imgshare-binded="1"></a><a tppabs="http://www.ifeng.com/" href="http://www.ifeng.com/">
+                            凤凰
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.hupu.com/">
+                            <img src="/kuaisan_files/hupu.jpg" tppabs="http://www.ks127.com/css/hupu.jpg" data-bd-imgshare-binded="1">
+                            虎扑体育
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.taobao.com/">
+                            <img src="/kuaisan_files/taobao1.jpg" tppabs="http://www.ks127.com/css/taobao1.jpg" data-bd-imgshare-binded="1">
+                            淘宝网
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.jd.com/">
+                            <img src="/kuaisan_files/jd.jpg" tppabs="http://www.ks127.com/css/jd.jpg" data-bd-imgshare-binded="1">
+                            京东商城
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.tmall.com/">
+                            <img src="/kuaisan_files/tmall.jpg" tppabs="http://www.ks127.com/css/tmall.jpg" data-bd-imgshare-binded="1">
+                            淘宝天猫
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.youku.com/">
+                            <img src="/kuaisan_files/youku.jpg" tppabs="http://www.ks127.com/css/youku.jpg" data-bd-imgshare-binded="1">
+                            优酷
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.fang.com/">
+                            <img src="/kuaisan_files/fang.jpg" tppabs="http://www.ks127.com/css/fang.jpg" data-bd-imgshare-binded="1">
+                            搜房网
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.autohome.com/">
+                            <img src="/kuaisan_files/autohome.jpg" tppabs="http://www.ks127.com/css/autohome.jpg" data-bd-imgshare-binded="1">
+                            汽车之家
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <header>
+                    <h2 class="bank"><i></i>常用银行</h2>
+                </header>
+                <ul class="website-list">
+                    <li>
+                        <a href="http://www.icbc.com.cn/">
+                            <img src="/kuaisan_files/icbc.jpg" tppabs="http://www.ks127.com/css/icbc.jpg" data-bd-imgshare-binded="1">
+                            工商银行
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.abchina.com/">
+                            <img src="/kuaisan_files/abc.jpg" tppabs="http://www.ks127.com/css/abc.jpg" data-bd-imgshare-binded="1">
+                            农业银行
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.ccb.com/">
+                            <img src="/kuaisan_files/ccb.jpg" tppabs="http://www.ks127.com/css/ccb.jpg" data-bd-imgshare-binded="1">
+                            建设银行
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.boc.cn/">
+                            <img src="/kuaisan_files/boc.jpg" tppabs="http://www.ks127.com/css/boc.jpg" data-bd-imgshare-binded="1">
+                            中国银行
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.bankcomm.com/">
+                            <img src="/kuaisan_files/bocc.jpg" tppabs="http://www.ks127.com/css/bocc.jpg" data-bd-imgshare-binded="1">
+                            交通银行
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.cmbchina.com/">
+                            <img src="/kuaisan_files/cmb.jpg" tppabs="http://www.ks127.com/css/cmb.jpg" data-bd-imgshare-binded="1">
+                            招商银行
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+</div></body></html>

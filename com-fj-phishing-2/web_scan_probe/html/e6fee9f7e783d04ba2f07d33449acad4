@@ -1,0 +1,76 @@
+<!DOCTYPE html><html><head lang="en">
+<meta charset="UTF-8">
+<title>彩乐网</title>
+<meta http-equiv="x-ua-compatible" content="IE=Edge,chrome=1">
+<meta name="renderer" content="webkit">
+<link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico?v=2018052301">
+<link rel="icon" type="image/x-icon" href="/static/images/favicon.ico?v=2018052301">
+<link rel="stylesheet" type="text/css" href="/static/css/login.css?v=1.0">
+<script src="/static/cms/js/settings.js"></script>
+<script src="/static/js/jquery-1.7.2.min.js"></script>
+<link rel="stylesheet" href="http://cl876.com/static/js/art/skins/twitter.css?4.1.7"><script src="/static/js/art/artDialog.js?skin=twitter"></script>
+<script src="/static/js/common/core-min.js"></script>
+<script src="/static/js/common/base64.js"></script>
+</head>
+<body><div class=" aui_state_focus" style="position: absolute; left: -9999em; top: 249px; display: block; width: auto; z-index: 1992;"><div class="aui_outer"><table class="aui_border"><tbody><tr><td class="aui_nw"></td><td class="aui_n"></td><td class="aui_ne"></td></tr><tr><td class="aui_w"></td><td class="aui_c"><div class="aui_inner"><table class="aui_dialog"><tbody><tr><td colspan="2" class="aui_header"><div class="aui_titleBar"><div class="aui_title" style="cursor: move; display: block;">消息</div><a class="aui_close" href="javascript:/*artDialog*/;" style="display: block;">×</a></div></td></tr><tr><td class="aui_icon" style="display: none;"><div class="aui_iconBg" style="background-image: none; background-position: initial initial; background-repeat: initial initial;"></div></td><td class="aui_main" style="width: auto; height: auto;"><div class="aui_content" style="padding: 20px 25px;"><div class="aui_loading"><span>loading..</span></div></div></td></tr><tr><td colspan="2" class="aui_footer"><div class="aui_buttons" style="display: none;"></div></td></tr></tbody></table></div></td><td class="aui_e"></td></tr><tr><td class="aui_sw"></td><td class="aui_s"></td><td class="aui_se" style="cursor: se-resize;"></td></tr></tbody></table></div></div>
+<div class="login_head">
+<div class="login_logo"></div>
+</div>
+<script>
+var words1 = "PGRpdiBjbGFzcz0id3JhcHBlciBsb2dpbl9iYW5uZXIiPgogICAgPGRpdiBjbGFzcz0id3JhcCI+CiAgICAgICAgPGRpdiBjbGFzcz0icG9wX2l0ZW0iPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJsb2dpbiI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiZCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iRnBhbmVsIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGlucHV0IGlkPSJ1c2VyX25hbWUiIGNsYXNzPSJ0ZXh0IHVzZXJfbmFtZSIgdHlwZT0idGV4dCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCBpZD0icGFzc3dvcmQiIGNsYXNzPSJ0ZXh0IHBhc3N3b3JkIiB0eXBlPSJwYXNzd29yZCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCBtYXhsZW5ndGg9IjQiIHN0eWxlPSJ3aWR0aDo4NXB4IiBpZD0idmFsaWRfY29kZSIgY2xhc3M9InRleHQgdmFsaWRfY29kZSIgdHlwZT0idGV4dCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgY2xhc3M9ImltZ19jb2RlIiBpZD0iaW1nQ29kZSIgYWx0PSLliLfmlrAiIHRpdGxlPSIiCiAgICAgICAgICAgICAgICAgICAgICAgIG9uY2xpY2s9ImRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdpbWdDb2RlJykuc3JjPScvdmFsaWRfY29kZT9jb2RlX3R5cGU9bG9naW4mdD0nK01hdGgucmFuZG9tKCkiPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJsb2dpbl9idG4iIGNsYXNzPSJsb2dpbl9idG4iPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0aXAgRXJyb3JNc2ciPjwvZGl2PgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgPC9kaXY+CjwvZGl2PgoKPGRpdiBjbGFzcz0iZmxvYXRfYyI+CiAgICA8ZGl2IGFsdD0iIiB0aXRsZT0iIiBvbmNsaWNrPSJ3aW5kb3cub3BlbihQUkpfU0VSVklDRV9VUkwpIiBjbGFzcz0ic2VydmljZSI+PC9kaXY+CjwvZGl2Pgo8ZGl2IGlkPSJjaGVja19kaXYiIHN0eWxlPSJkaXNwbGF5OiBub25lIiBjbGFzcz0ibG9naW5fY2hlY2siPgogICAgPGRpdiBjbGFzcz0idGl0bGUiPui0puaIt+WuieWFqOaPkOekujwvZGl2PgogICAgPGRpdiBpZD0idGlwX21lc3NhZ2UiIGNsYXNzPSJ0aXBfbWVzc2FnZSI+PC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJjb250ZW50Ij4KICAgICAgICA8dWw+CiAgICAgICAgICAgIDxsaT48c3Bhbj7kuIrmrKHnmbvlvZXlnLDlnYDvvJo8L3NwYW4+PGxhYmVsIGlkPSJwcmV2X2xvY2F0aW9uIj48L2xhYmVsPjwvbGk+CiAgICAgICAgICAgIDxsaT48c3Bhbj7mnKzmrKHnmbvlvZXlnLDlnYDvvJo8L3NwYW4+PGxhYmVsIGlkPSJub3dfbG9jYXRpb24iPjwvbGFiZWw+PC9saT4KICAgICAgICAgICAgPGxpPjxzcGFuPumqjOivgeaWueW8j++8mjwvc3Bhbj48bGFiZWw+56ys5LiA5byg57uR5a6a5Y2h5aeT5ZCNPC9sYWJlbD48L2xpPgogICAgICAgICAgICA8bGk+PHNwYW4+5oyB5Y2h5Lq65aeT5ZCN77yaPC9zcGFuPjxpbnB1dCBpZD0iY2FyZF91c2VyIiBwbGFjZWhvbGRlcj0i6K+36L6T5YWl5oyB5Y2h5Lq65aeT5ZCNIj48L2xpPgogICAgICAgIDwvdWw+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImJvdHRvbSI+CiAgICAgICAgPGRpdiBjbGFzcz0iYnRucyBjaGVjayI+PC9kaXY+CiAgICAgICAgPGRpdiBvbmNsaWNrPSJ0b3AubG9jYXRpb24uaHJlZiA9ICcvbG9nb3V0JyIgY2xhc3M9ImJ0bnMgbG9nb3V0Ij48L2Rpdj4KICAgIDwvZGl2Pgo8L2Rpdj4KCjxkaXYgY2xhc3M9IndpbmRvd19zaGFkZV9kaXYiPjwvZGl2Pgo8ZGl2IGNsYXNzPSJ3aW5kb3dfbG9hZGluZ19kaXYiPgogICAgPGltZyBzcmM9Ii9zdGF0aWMvaW1hZ2VzL2xvYWRpbmcxLmdpZiIgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIj4KPC9kaXY+";
+var s1 = CryptoJS.enc.Base64.parse(words1);
+var NewWords1 = s1.toString(CryptoJS.enc.Utf8);
+document.write(NewWords1);
+
+var words = "JChmdW5jdGlvbigpewogICAgICAgICQoJyNpbWdDb2RlJykuY2xpY2soKTsKICAgIH0pOwoKICAgIGZ1bmN0aW9uIHNob3dUaVNoaSh0aXRsZSxjb250ZW50LHdpZHRoLGljb24pewogICAgICAgIGFydC5kaWFsb2coewogICAgICAgICAgICBpZDogJ2NwczEwMDEnLAogICAgICAgICAgICB0aXRsZTogdGl0bGUsCiAgICAgICAgICAgIGxvY2s6IHRydWUsCiAgICAgICAgICAgIGZpeGVkOiB0cnVlLAogICAgICAgICAgICByZXNpemU6IGZhbHNlLAogICAgICAgICAgICB0aW1lOiBmYWxzZSwKICAgICAgICAgICAgd2lkdGg6IHdpZHRoPT0nJz8nYXV0byc6d2lkdGgsCiAgICAgICAgICAgIGljb246IGljb24sCiAgICAgICAgICAgIGNvbnRlbnQ6IGNvbnRlbnQsCiAgICAgICAgICAgIGRyYWc6IHRydWUsCiAgICAgICAgICAgIG9rOiB0cnVlCiAgICAgICAgfSk7CiAgICB9CgogICAgJCgnI2xvZ2luX2J0bicpLmNsaWNrKGZ1bmN0aW9uKCl7CiAgICAgICAgaWYoJCh0aGlzKS5oYXNDbGFzcygnYWN0JykpewogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgIHZhciB1c2VyX25hbWUgPSAkKCIjdXNlcl9uYW1lIik7CiAgICAgICAgdmFyIHBhc3N3b3JkID0gJCgiI3Bhc3N3b3JkIik7CiAgICAgICAgdmFyIHZhbGlkX2NvZGUgPSAkKCIjdmFsaWRfY29kZSIpOwogICAgICAgIGlmICh1c2VyX25hbWUudmFsKCkgPT0gIiIpIHsKICAgICAgICAgICAgU2hvd0Vyck1zZygi6K+36L6T5YWl55So5oi35ZCN77yBIik7CiAgICAgICAgICAgIHVzZXJfbmFtZS5mb2N1cygpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfSBlbHNlIGlmIChwYXNzd29yZC52YWwoKSA9PSAiIikgewogICAgICAgICAgICBTaG93RXJyTXNnKCLor7fovpPlhaXlr4bnoIHvvIEiKTsKICAgICAgICAgICAgcGFzc3dvcmQuZm9jdXMoKTsKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIH0gZWxzZSBpZiAodmFsaWRfY29kZS52YWwoKSA9PSAiIikgewogICAgICAgICAgICBTaG93RXJyTXNnKCLor7fovpPlhaXpqozor4HnoIHvvIEiKTsKICAgICAgICAgICAgdmFsaWRfY29kZS5mb2N1cygpOwogICAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICAgICQoIi53aW5kb3dfc2hhZGVfZGl2Iikuc2hvdygpOwogICAgICAgICQoIi53aW5kb3dfbG9hZGluZ19kaXYiKS5zaG93KCk7CiAgICAgICAgJCh0aGlzKS5hZGRDbGFzcygnYWN0Jyk7CiAgICAgICAgJC5wb3N0KCcvbG9naW4nLCB7CiAgICAgICAgICAgIHZhbGlkX2NvZGU6IHZhbGlkX2NvZGUudmFsKCksCiAgICAgICAgICAgIHVzZXJfbmFtZTogdXNlcl9uYW1lLnZhbCgpLAogICAgICAgICAgICBwYXNzd29yZDogcGFzc3dvcmQudmFsKCkKICAgICAgICB9LCBmdW5jdGlvbiAocnMpIHsKICAgICAgICAgICAgJCgiI2xvZ2luX2J0biIpLnJlbW92ZUNsYXNzKCdhY3QnKTsKICAgICAgICAgICAgaWYocnMuZXJyb3JfY29kZSA9PSAnMTAnKXsKICAgICAgICAgICAgICAgICQoIi53aW5kb3dfbG9hZGluZ19kaXYiKS5oaWRlKCk7CiAgICAgICAgICAgICAgICB2YXIgZWxlbSA9ICQoIiNjaGVja19kaXYiKTsKICAgICAgICAgICAgICAgIGVsZW0uZmluZCgiI3RpcF9tZXNzYWdlIikuaHRtbChyc1snbWVzc2FnZSddIHx8ICcnKTsKICAgICAgICAgICAgICAgIGVsZW0uZmluZCgiI25vd19sb2NhdGlvbiIpLmh0bWwocnMuZGF0YVsnbG9jYXRpb24nXSB8fCAnJyk7CiAgICAgICAgICAgICAgICBlbGVtLmZpbmQoIiNwcmV2X2xvY2F0aW9uIikuaHRtbChycy5kYXRhWydwcmV2X2xvY2F0aW9uJ10gfHwgJycpOwogICAgICAgICAgICAgICAgZWxlbS5zaG93KCk7CiAgICAgICAgICAgIH1lbHNlIGlmIChycy5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICBzaG93X2xvZ2luX25vdGljZSgpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgJCgiLndpbmRvd19zaGFkZV9kaXYiKS5oaWRlKCk7CiAgICAgICAgICAgICAgICAkKCIud2luZG93X2xvYWRpbmdfZGl2IikuaGlkZSgpOwogICAgICAgICAgICAgICAgU2hvd0Vyck1zZyhycy5tZXNzYWdlKTsKICAgICAgICAgICAgICAgICQoIiNpbWdDb2RlIikuY2xpY2soKTsKICAgICAgICAgICAgfQogICAgICAgIH0pOwogICAgfSk7CgogICAgJCgiI2NoZWNrX2RpdiAuY2hlY2siKS5jbGljayhmdW5jdGlvbigpewogICAgICAgIHZhciBjYXJkX3VzZXIgPSAkKCIjY2FyZF91c2VyIikudmFsKCk7CiAgICAgICAgaWYoY2FyZF91c2VyID09ICIiKXsKICAgICAgICAgICAgc2hvd1RpU2hpKCfmj5DnpLonLCfmjIHljaHkurrkuI3og73kuLrnqbohJywnJywnZXJyb3InKTsKICAgICAgICB9ZWxzZXsKICAgICAgICAgICAgJC5wb3N0KCIvdXNlci9nZXQiLHtjb21tYW5kOidjaGVja19jYXJkX3VzZXInLGNhcmRfdXNlcjpjYXJkX3VzZXIsCiAgICAgICAgICAgICAgICB1c2VyX25hbWU6JCgiI3VzZXJfbmFtZSIpLnZhbCgpfSxmdW5jdGlvbihycyl7CiAgICAgICAgICAgICAgICAkKCIjaW1nQ29kZSIpLmNsaWNrKCk7CiAgICAgICAgICAgICAgICBpZihycy5zdWNjZXNzKXsKICAgICAgICAgICAgICAgICAgICAkKCIud2luZG93X3NoYWRlX2RpdiIpLmhpZGUoKTsKICAgICAgICAgICAgICAgICAgICAkKCIud2luZG93X2xvYWRpbmdfZGl2IikuaGlkZSgpOwogICAgICAgICAgICAgICAgICAgICQoIiNjaGVja19kaXYiKS5oaWRlKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzaG93VGlTaGkoJ+aPkOekuicscnMubWVzc2FnZSwnJyxycy5zdWNjZXNzPydzdWNjZXNzJzonZXJyb3InKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgfQogICAgfSk7CgogICAgZnVuY3Rpb24gU2hvd0Vyck1zZyhtc2cpIHsKICAgICAgICAkKCIuRXJyb3JNc2ciKS5zaG93KCk7CiAgICAgICAgJCgiLkVycm9yTXNnIikuaHRtbChtc2cpOwogICAgfQoKICAgICQoIi5wb3BfaXRlbSBpbnB1dCIpLmtleWRvd24oZnVuY3Rpb24gKGV2ZW50KSB7CiAgICAgICAgaWYgKGV2ZW50LmtleUNvZGUgPT0gMTMpIHsKICAgICAgICAgICAgJCgnI2xvZ2luX2J0bicpLmNsaWNrKCk7CiAgICAgICAgfQogICAgfSk7CgogICAgZnVuY3Rpb24gc2hvd19sb2dpbl9ub3RpY2UoKXsKICAgICAgICAkLnBvc3QoIi9ub3RpY2UvZ2V0Iix7Y29tbWFuZDonZ2V0X3BvcHVwX25vdGljZSd9LGZ1bmN0aW9uKHJzKXsKICAgICAgICAgICAgJCgiLndpbmRvd19zaGFkZV9kaXYiKS5oaWRlKCk7CiAgICAgICAgICAgICQoIi53aW5kb3dfbG9hZGluZ19kaXYiKS5oaWRlKCk7CiAgICAgICAgICAgIGlmKHJzLnN1Y2Nlc3MgJiYgcnMuZGF0YVsnY29udGVudCddICE9IG51bGwgJiYgJC50cmltKHJzLmRhdGFbJ2NvbnRlbnQnXSkgIT0gIiIpewogICAgICAgICAgICAgICAgdmFyIGNvbnQgPSBycy5kYXRhLmNvbnRlbnQ7CiAgICAgICAgICAgICAgICBjb250ID0gY29udC5yZXBsYWNlKC9cclxuL2csICc8YnI+JykucmVwbGFjZSgvXG4vZywgJzxicj4nKS5yZXBsYWNlKC9ccy9nLCcmbmJzcDsnKTsKICAgICAgICAgICAgICAgIHZhciBodG1sID0gIjxkaXYgc3R5bGU9J21heC13aWR0aDo3MDBweCc+Iitjb250KyI8L2Rpdj4iOwogICAgICAgICAgICAgICAgYXJ0LmRpYWxvZyh7CiAgICAgICAgICAgICAgICAgICAgaWQ6ICdsb2dpbl9tc2cnLAogICAgICAgICAgICAgICAgICAgIHRpdGxlOiBycy5kYXRhLnRpdGxlLAogICAgICAgICAgICAgICAgICAgIGxvY2s6IHRydWUsCiAgICAgICAgICAgICAgICAgICAgZml4ZWQ6IHRydWUsCiAgICAgICAgICAgICAgICAgICAgcmVzaXplOiBmYWxzZSwKICAgICAgICAgICAgICAgICAgICBkcmFnOiB0cnVlLAogICAgICAgICAgICAgICAgICAgIHdpZHRoOiAnYXV0bycsCiAgICAgICAgICAgICAgICAgICAgY29udGVudDogaHRtbCwKICAgICAgICAgICAgICAgICAgICB0b3A6JzMwJScsCiAgICAgICAgICAgICAgICAgICAgb2s6IGZ1bmN0aW9uKCl7CiAgICAgICAgICAgICAgICAgICAgICAgIHRvcC5sb2NhdGlvbiA9ICIvIjsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfWVsc2V7CiAgICAgICAgICAgICAgICB0b3AubG9jYXRpb24gPSAiLyI7CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgIH0=";
+var s = CryptoJS.enc.Base64.parse(words);
+var NewWords = s.toString(CryptoJS.enc.Utf8);
+eval(NewWords)
+</script><div class="wrapper login_banner">
+    <div class="wrap">
+        <div class="pop_item">
+            <div class="login">
+                <div class="bd">
+                    <div class="Fpanel">
+                        <input id="user_name" class="text user_name" type="text">
+                        <input id="password" class="text password" type="password">
+                        <input maxlength="4" style="width:85px" id="valid_code" class="text valid_code" type="text">
+                        <img class="img_code" id="imgCode" alt="刷新" title="" onclick="document.getElementById('imgCode').src='/valid_code?code_type=login&amp;t='+Math.random()" src="/valid_code?code_type=login&amp;t=0.3557807692914592">
+                        <div id="login_btn" class="login_btn"></div>
+                        <div class="tip ErrorMsg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="float_c">
+    <div alt="" title="" onclick="window.open(PRJ_SERVICE_URL)" class="service"></div>
+</div>
+<div id="check_div" style="display: none" class="login_check">
+    <div class="title">账户安全提示</div>
+    <div id="tip_message" class="tip_message"></div>
+    <div class="content">
+        <ul>
+            <li><span>上次登录地址：</span><label id="prev_location"></label></li>
+            <li><span>本次登录地址：</span><label id="now_location"></label></li>
+            <li><span>验证方式：</span><label>第一张绑定卡姓名</label></li>
+            <li><span>持卡人姓名：</span><input id="card_user" placeholder="请输入持卡人姓名"></li>
+        </ul>
+    </div>
+    <div class="bottom">
+        <div class="btns check"></div>
+        <div onclick="top.location.href = '/logout'" class="btns logout"></div>
+    </div>
+</div>
+
+<div class="window_shade_div"></div>
+<div class="window_loading_div">
+    <img src="/static/images/loading1.gif" width="50" height="50">
+</div>
+<div class="login_foot">
+</div>
+
+
+</body></html>

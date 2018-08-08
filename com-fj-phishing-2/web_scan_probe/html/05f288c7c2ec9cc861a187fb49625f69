@@ -1,0 +1,1086 @@
+<!DOCTYPE html><html lang="en-US"><head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link media="all" type="text/css" rel="stylesheet" href="/assets/images/fonts/googleFont/googleapis.css"> <title>
+            登录 -- 博猫游戏
+    
+        
+    </title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<link media="all" type="text/css" rel="stylesheet" href="/assets/images/global-v4/global.css">
+<link media="all" type="text/css" rel="stylesheet" href="/assets/images/bootstrap/bootstrap-v1.min.css"> <link media="all" type="text/css" rel="stylesheet" href="/assets/images/login-v5/login.css"> <link media="all" type="text/css" rel="stylesheet" href="/assets/images/fonts/iconfont.css"> <link media="all" type="text/css" rel="stylesheet" href="/assets/images/fonts/googleFont/googleapis.css">
+</head>
+<body>
+
+<div class="j-l-header">
+<div class="top-bar clearfix hidden-xs">
+<div class="container">
+<div class="fl bar-logo">
+<svg width="111" height="23">
+<image xlink:href="../assets/images/login-v5/logo-new.svg" src="../assets/images/login-v5/logo-new.png" width="111" height="23"></image>
+</svg>
+</div>
+<ul class="fr">
+<li class="down-center">
+下载中心
+<div class="down-drop">
+<div class="down-menu">
+<a href="/mobile" class="down-a">
+<i class="iconfont icon-phone"></i><span>手机客户端</span>
+</a>
+<a href="/pc-client/index.html" class="down-a">
+<i class="iconfont icon-pcduan"></i><span>PC客户端</span>
+</a>
+<a href="/fastlogin/index.html" class="down-a">
+<i class="iconfont icon-send"></i><span>极速登录器</span>
+</a>
+</div>
+</div>
+</li>
+<li class="down-center">
+<a class="online-server">
+在线客服
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="top-wrap">
+<div class="form-pic"><img src="../assets/images/login-v5/login-header-logo.png" alt=""></div>
+<form method="POST" action="/auth/signin" accept-charset="UTF-8" class="login-form" role="form" target="_top" name="signinForm">
+<input type="hidden" name="_random" value="$2y$10$X15bckWIi24lukG1UnUpEOGqO/aoNrAe/NWbz9cJtv3cGDAtRChtm_pAw8lK">
+<div class="form-login">
+<div style="height: 46px;">
+<div class="remind remind-error hidden">
+<span>!</span><strong></strong>
+</div>
+</div>
+<div class="form-item">
+<input id="login-name" type="text" name="username" class="form-input form-user" placeholder="请输入您的用户名" value="" required="" autofocus="">
+</div>
+<div class="form-item">
+<input id="login-pass" type="password" class="form-input form-password" placeholder="请输入您的密码">
+<input name="password" id="login-pass-real" type="hidden" required="">
+</div>
+<div class="form-btn">
+<button id="J-button-submit" type="button" class="common-btn">
+<span class="btn-text">立即登录</span><i></i>
+
+<span class="btn-pic" style="display: none;"></span>
+</button>
+</div>
+<div class="try">
+</div>
+</div>
+</form>
+</div>
+<div class="top-slide">
+<div id="myCarousel" class="carousel slide">
+<div class="carousel-inner">
+<div class="item active">
+<div class="item-a" style="background:#2c2d31 url('../assets/images/login-v5/login-banner-7.jpg') no-repeat center top;"></div>
+</div>
+</div>
+</div>
+<div class="slide-text">
+<div class="text-pic"><img src="../assets/images/login-v5/login-slide-text.png" alt=""></div>
+<div class="enter">
+<button class="common-btn" id="common-btn-pc">
+<span class="btn-text">进入</span><i></i>
+</button>
+<div id="common-btn-p" class="common-btn-p" style="display: block;">我们现已提供更适合移动设备的投注界面</div>
+<button class="common-btn-mobile" onclick="location.href='/mobile-h5'" id="common-btn-mobile" style="display: none;">
+<span class="btn-text">进入移动版</span><i></i>
+</button>
+</div>
+</div>
+<div class="arrow-d hidden-xs"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAXBAMAAACRwPCoAAAAHlBMVEUAAADZ2dnb29vZ2dnb29vj4+PY2NjY2Njb29vY2NhVZtjBAAAACnRSTlMAf0V5HQlpYRB2CvDh7wAAAHJJREFUGNNF0SEKgFAURNFBFKyjINgUVyAYjIIbsLkCF+D+i9/w3r1h0mkjNZdE7T/3I9FyFPQOMFXeCrJhmt0fem1YZXvX6cJA9qR6/Rmok4KBFAwEAwVLBAPBEsECwcZEsECwQDAQLBEMBEsEA3FN9AGVnhRUboqYDAAAAABJRU5ErkJggg==" alt=""></div>
+</div>
+<div class="top-nav visible-xs-block">
+<div class="clearfix">
+<div class="nav-btn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAAAOklEQVQoFWP8DwQMVABMVDADbAQLkAThYQgYgWH9hxr+AoUPVWKNGo6hrhmgMKJK9IMMokoYUS1lAwAksBAGVlrO5wAAAABJRU5ErkJggg==" alt=""></div>
+</div>
+</div>
+<div class="nav-con">
+<div class="nav-wrap">
+<div class="nav-header clearfix">
+<span class="nav-close"><i class="iconfont icon-close"></i></span>
+</div>
+<ul class="nav-menu">
+<li><a href="/brand">博猫品牌</a></li>
+<li><a href="/help">帮助中心</a></li>
+<li><a href="/brand#concat">联系我们</a></li>
+<li><a href="/mobile" target="_blank">手机客户端</a></li>
+<li><a href="/pc-client/index.html" target="_blank">PC客户端</a></li>
+<li><a href="/fastlogin/index.html" target="_blank">快速登录器</a></li>
+<li><a href="/events/repairDNS" target="_blank">防劫持教程</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="j-l-content" id="j-l-content">
+<div class="container login-game">
+<div class="title-wrap hidden-xs"><span class="l-title">简单，从来都不简单</span></div>
+<div class="row">
+<div class="col-sm-8">
+<div class="lottery-con">
+<div class="lottery-sort"></div>
+<div class="lottery-bg"></div>
+<img data-src="../assets/images/login-v5/login-text-pic.png" class="lottery-pic" alt="">
+</div>
+</div>
+<div class="col-sm-4">
+<div class="lottery-play">
+<div class="title-1">精选 33 款彩票游戏</div>
+<div class="title-2">乐趣无穷，精彩无限！</div>
+<ul class="sort-list">
+<li>
+<span class="name">时时彩系列</span><span class="line visible-lg-inline-block">|</span><span class="province">重庆、黑龙江、新疆、天津</span>
+</li>
+<li>
+<span class="name">11选5系列</span><span class="line visible-lg-inline-block">|</span><span class="province">山东、江西、广东</span>
+</li>
+<li>
+<span class="name">快三系列</span><span class="line visible-lg-inline-block">|</span><span class="province">江苏、安徽</span>
+</li>
+<li>
+<span class="name">福彩3D、体彩P3/P5系列</span>
+</li>
+<li>
+<span class="name">极速彩票</span><span class="line visible-lg-inline-block">|</span><span class="province">博猫1分、2分、5分彩、腾讯分分彩、11选5以及快三</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="container no-padding physical-list">
+<div class="row">
+<div class="col-sm-4">
+<div class="physical-wrap physical-wrap-1">
+<div class="physical">
+<img data-src="../assets/images/login-v5/login-play-1.jpg" class="game-pic" alt="">
+<div class="game-bg"></div>
+<div class="game-text">
+<div class="text-1">竞彩足球</div>
+<div class="text-2">SPORTS GAMES</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="physical-wrap physical-wrap-2">
+<div class="physical">
+<img data-src="../assets/images/login-v5/login-play-2.jpg" class="game-pic" alt="">
+<div class="game-bg"></div>
+<div class="game-text">
+<div class="text-1">电子游戏</div>
+<div class="text-2">ONLINE GAMES</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="physical-wrap physical-wrap-3">
+<div class="physical">
+<img data-src="../assets/images/login-v5/login-play-3.jpg" class="game-pic" alt="">
+<div class="game-bg"></div>
+<div class="game-text">
+<div class="text-wrap">
+<div class="text-1">六合彩</div>
+<div class="text-2">MARK SIX</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container about-wrap">
+<div class="about-pic"><span>行有道，誉天下</span></div>
+<div class="about-us">
+博猫游戏拥有菲律宾政府颁发的PAGCOR（Philippine Amusesment and Gaming Corporation）博彩牌照，是继菲律宾国家娱乐游戏公司（部长级政府机构）后第2家持牌公司.并且通过了GLI（Gaming Laboratories International）国际权威认证。
+博猫的主集团14年成就行业龙头地位，旗下拥有独立运营的支付、云计算、客服与电话销售等行业基础服务公司。主集团与瑞士联邦计量局认证的IDQ（ID Quantique）合作研发出行业首家基于光量子物理的游戏开奖模式，实现公正的游戏模式。与行业多家知
+名品牌于金融、技术、投资等多领域保持长期战略合作。博猫是富有社会责任感的企业，常年与大陆、菲律宾当地政府保持友好合作。帮助各地区提升在环境、教育、儿童保护等领域的工作成效， 秉承“行有道、誉天下”之理念。
+</div>
+</div>
+<div class="container slide-content">
+<div class="swiper-container swiper-container-horizontal">
+<div class="swiper-wrapper">
+<div class="swiper-slide swiper-slide-active" style="width: 230px; margin-right: 20px;">
+<div class="slide-tit">资金雄厚</div>
+<div class="slide-con">14年稳健的资金管控能力，强大的现金流，100%兑现赔付，保您畅玩无忧。</div>
+</div>
+<div class="swiper-slide swiper-slide-next" style="width: 230px; margin-right: 20px;">
+<div class="slide-tit">充提快速</div>
+<div class="slide-con">支持中国大陆15家主流银行转账充值，15家银行快捷充值，19家银行银联快捷充值，支付宝、微信支付、财付通充值等主流充值渠道，实现最为快捷、便利的充提体验。 </div>
+</div>
+<div class="swiper-slide" style="width: 230px; margin-right: 20px;">
+<div class="slide-tit">高额返奖</div>
+<div class="slide-con">极具吸引力的高奖金组和最强资金兑现力的双重保障，返奖更高，赢利更多！</div>
+</div>
+<div class="swiper-slide" style="width: 230px; margin-right: 20px;">
+<div class="slide-tit">硬件开奖</div>
+<div class="slide-con">自主彩使用瑞士超精密硬件Quantis Random Number Generator测量记录完全不可预测的光子自然衰变生成开奖数据，真正做到公平公正。</div>
+</div>
+<div class="swiper-slide" style="width: 230px; margin-right: 20px;">
+<div class="slide-tit">程序安全</div>
+<div class="slide-con">100%自主研发，通过Global Trust国际安全认证，采用AES 256位加密，为您提供顶级的游戏体验。</div>
+</div>
+</div>
+</div>
+<div class="swiper-pagination visible-xs-block swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+<div class="swiper-button-next hidden-xs"></div>
+<div class="swiper-button-prev hidden-xs swiper-button-disabled"></div>
+</div>
+<div class="hidden-xs">
+<div class="title-wrap"><span class="l-title">实力，让情怀落地</span></div>
+<div class="develop">
+<div class="move-wrap">
+<ul class="move-list clearfix">
+<li class="move-li">
+<i class="move-square"></i>
+<div class="move-honer">
+<div class="honer-text">荣耀起源</div>
+<div>主集团14年稳健发展</div>
+</div>
+</li>
+<li class="move-li"><div class="hidden"></div></li>
+</ul>
+<div class="move-date">
+<div class="move-year move-cur">2014</div>
+<ul class="move-list clearfix">
+<li class="move-li">
+<div class="hidden">11月</div>
+</li>
+<li class="move-li">
+<div class="hidden">11月</div>
+</li>
+<li class="move-li move-active">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">12月</div>
+</div>
+<div class="move-content">
+<div>博猫游戏震撼面世，上线即荣获菲律宾政府CEZA（Cagayan Economic</div>
+<div>Zone Authority）博彩牌照和GLI国际认证， 同期得到网易、搜狐、雅虎</div>
+<div>等知名互联网媒体报道（详情请参考<a href="/brand" class="move-a">品牌介绍</a>页面）</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden"></div>
+</li>
+</ul>
+ </div>
+<div class="move-date">
+<div class="move-year">2015</div>
+<ul class="move-list clearfix">
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">1月</div>
+</div>
+<div class="move-content">
+<div>博猫与瑞士联邦计量局认证的IDQ公司合作，研发出瑞士超精密</div>
+<div>硬件QRNG开奖的博猫自主彩（1/2/5分彩），是业内首家使用</div>
+<div>安全硬件，通过光量子随机数确保开奖公平公正的博彩公司。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">2月</div>
+</div>
+<div class="move-content">
+<div>博猫全面启用自建支付系统，大</div>
+<div>幅提升了资金安全和充提效率。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">3月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">4月</div>
+</div>
+<div class="move-content">
+<div>博猫在马尼拉的香格里拉酒店举办新闻发布会，全新</div>
+<div>的品牌战略吸引当地众多合作伙伴及业界媒体关注。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">5月</div>
+</div>
+<div class="move-content">
+<div>博猫云计算平台正式启用，提供云服务器、云数据库</div>
+<div>、云存储、CDN、大数据等安全可靠的专业服务，并</div>
+<div>逐步面向业内大型公司，为其提供商业咨询服务。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">6月</div>
+</div>
+<div class="move-content">
+<div>博猫iOS手机客户端面世</div>
+<div>，当月安装量突破万人。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">7月</div>
+</div>
+<div class="move-content">
+ <div>参与美国国家地理频道主办的“世界地球日公益</div>
+<div>马拉松”的马尼拉站活动，向社会公众传递博猫</div>
+<div>支持健康向上生活、重视环境保护的理念 。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">8月</div>
+</div>
+<div class="move-content">
+<div>业内首家开通大额赔付通道，同时上线福彩3D、体彩</div>
+<div>P3/P5，不但让玩家体验低频彩的舒缓，更玩的放心。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">9月</div>
+</div>
+<div class="move-content">
+<div>博猫与全球知名电子娱乐供应商Net Ent合作，针对亚洲人群的游</div>
+<div>戏习惯，共同研发骰宝、龙虎斗、百家乐、21点等拟真赌场游戏。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">10月</div>
+</div>
+<div class="move-content">
+<div>博猫进入快3游戏市场，江苏快3</div>
+<div>、安徽快3、博猫快3正式上线。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">11月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">12月</div>
+</div>
+<div class="move-content">
+<div>博猫携手中国大陆西北地区政府</div>
+<div>，帮助百个失学儿童重返校园。</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="move-date">
+<div class="move-year">2016</div>
+<ul class="move-list clearfix">
+<li class="move-li">
+<div class="hidden">1月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">2月</div>
+</div>
+<div class="move-content">
+<div>博猫自营支付公司战略布局，全面</div>
+<div>开通支付宝、财付通、微信支付。</div>
+</div>
+</li>
+ <li class="move-li">
+<div class="hidden">3月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">4月</div>
+</div>
+<div class="move-content">
+<div>博猫竞彩足球上线，为用户带来激情体育</div>
+<div>，成为业内首家自主研发竞足的博彩公司。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">5月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">6月</div>
+</div>
+<div class="move-content">
+<div>博猫携手云贵地区政府部门，</div>
+<div>为近百所小学提供营养早餐。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">7月</div>
+</li>
+<li class="move-li">
+<div class="hidden">8月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">9月</div>
+</div>
+<div class="move-content">
+<div>业务蓬勃发展，博猫签约新办公大楼，该建筑荣获</div>
+<div>美国LEED绿色建筑认证，不但为员工提供更优质的</div>
+<div>工作环境，更为合作伙伴提供了广阔的发展空间。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">10月</div>
+</div>
+<div class="move-content">
+<div>博猫荣获菲律宾政府PAGCOR博彩牌照，</div>
+<div>是全行业第2家获得PAGCOR牌照的公司。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">11月</div>
+</li>
+<li class="move-li">
+<div class="hidden">12月</div>
+</li>
+</ul>
+</div>
+<div class="move-date">
+<div class="move-year">2017</div>
+<ul class="move-list clearfix">
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">1月</div>
+</div>
+<div class="move-content">
+<div>博猫巨型户外广告现身菲律宾首都马尼拉核心金融</div>
+<div>区的RCBC大厦、PBCOM大厦白领人群必经的地下通</div>
+<div>道，成为行业首家于CBD区域投放户外广告的公司。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">2月</div>
+</div>
+<div class="move-content">
+<div>香港六合彩、博猫六合彩登场，</div>
+<div>为玩家带来更丰富娱乐体验。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">3月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">4月</div>
+</div>
+<div class="move-content">
+<div>博猫再次与全球知名电子娱乐供应商</div>
+<div>Net Ent合作，推出拟真赌场轮盘游戏；</div>
+<div>同月，博猫自主彩夺金60秒上线运营。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">5月</div>
+</div>
+<div class="move-content">
+<div class="title">live800客服系统升级上线</div>
+<div>博猫将始终以优质的服务、健全的客户管理，为客户提供</div>
+<div>更优质的沟通平台，致力于为用户提供无障碍沟通服务。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">6月</div>
+</div>
+<div class="move-content">
+<div>博猫通过菲律宾华侨和红十字会等组织，向在菲律宾马拉维市冲突中</div>
+<div>逃离家园的平民提供了部分救援物资。公司始终致力于对社会的回馈</div>
+<div>，主动承担社会责任并投身慈善等事业，为发展社会安定尽职尽责。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">7月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">8月</div>
+</div>
+<div class="move-content">
+<div class="title">夏日庆典完美落幕</div>
+<div>我们有幸邀请部分幸运玩家，来到泰国境内隐世天堂--瑶诺岛，参与5天4夜的庆典派对，与猫</div>
+<div>女们一起沐浴阳光，沙滩嬉戏，尽享欢乐。下一次参与狂欢的会是你吗，博猫期待与您相遇。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">9月</div>
+</div>
+<div class="move-content">
+<div class="title">巅峰2100强势上线</div>
+<div>博猫勇闯奖金新高度，业界首推2100奖金组，率先打破</div>
+<div>全包限制！新模式，新体验，与您一起，挑战巅峰大奖。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="hidden">10月</div>
+</li>
+<li class="move-li">
+<div class="hidden">11月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">12月</div>
+</div>
+<div class="move-content">
+<div class="title">VR金星彩缤纷上线</div>
+<div>博猫首次推出真人彩种金星1.5分彩，可以让彩迷们更随心</div>
+<div>所欲的选择想投注的期数及投注方式，同时伴随着美女主播</div>
+<div>的精彩舞蹈演出，更有真人业内翘楚竞速VR提供技术支持。</div>
+</div>
+</li>
+</ul>
+</div>
+<div class="move-date">
+<div class="move-year">2018</div>
+<ul class="move-list clearfix">
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">1月</div>
+</div>
+<div class="move-content">
+<div class="title">腾讯分分彩火爆上线</div>
+<div>博猫上线权威官方新玩法，腾讯分分彩开启您</div>
+<div>的财富梦想。更加高效即时有趣的新开奖模式，</div>
+<div>更刺激火爆的多样化玩法，让您赢不停不停赢。</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">2月</div>
+</div>
+<div class="move-content">
+<div class="title">幸运天梯新鲜上线</div>
+<div>幸运天梯是一款极具挑战性的连续闯关高额奖金、</div>
+<div>结合风靡拉斯维加斯反向博弈的电子游戏，包括</div>
+<div>奖池、真人视讯开奖、彩票投注的全新博弈游戏。</div>
+ </div>
+</li>
+<li class="move-li">
+<div class="hidden">3月</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">4月</div>
+</div>
+<div class="move-content">
+<div class="title">官方公众号&nbsp;&nbsp;博猫空间Say Hi</div>
+<div>看穿一切内幕！打造全球娱乐金典！带给您最公正</div>
+<div>的娱乐方式，关注博猫官方微信公众号，分享最新动</div>
+<div>态，让您掌握一手资源！精彩呈现，尽在博猫空间！</div>
+</div>
+</li>
+<li class="move-li">
+<div class="move-event">
+<i class="move-square"></i>
+<div class="move-month">5月</div>
+</div>
+<div class="move-content">
+<div class="title">移动端H5随心投&nbsp;&nbsp;全新博猫APP敬请期待</div>
+<div>简单快捷易操作，手机随时随地随心投注。博猫移动APP</div>
+<div>全面上线以来，掌上购彩赢得广大玩家的关注与喜爱，</div>
+<div>博猫将会给玩家提供更完美的掌上游戏体验，敬请期待…</div>
+</div>
+</li>
+</ul>
+</div>
+<ul class="move-list clearfix">
+<li class="move-li"></li>
+<li class="move-li">
+<div class="move-tale">
+<i class="move-square"></i>
+<div class="move-honer">荣光之上 传奇不止</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="System-maintenance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+<div class="modal-dialog">
+<div class="pop loginPop">
+<div class="pop-hd">
+<span class="pop-title">提示</span>
+<i class="pop-close" data-dismiss="modal"></i>
+</div>
+<div class="pop-bd">
+很抱歉，试玩服务器正在升级维护,请您稍后再申请!
+</div>
+<div class="pop-control">
+<a href="javascript:;" class="btn closeTip" data-dismiss="modal">关闭</a>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="service-term" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+<div class="modal-dialog">
+<div class="pop loginArticle">
+<div class="pop-hd">
+<span class="pop-title">提示</span>
+<i class="pop-close" data-dismiss="modal"></i>
+</div>
+<div class="pop-bd">
+<p>欢迎您体验”博猫试玩模式”。为了向您提供更完美的游戏体验和更优质的客户服务，请仔细阅读下列服务条款：</p>
+<p>1、在博猫试玩模式中，账户的所有权归属博猫平台，用户仅有使用权。1天试玩周期后博猫平台将会清理账户。</p>
+<p>2、所有试玩行为必须在博猫平台开放的试玩范围内，试玩账户有权免费体验彩票、竞彩和电子娱乐三类博猫游戏。</p>
+<p>3、试玩账户，在试玩期间没有充提和注册权限。</p>
+<p>4、试玩账户只能用于游戏，不能参加活动。</p>
+<p>5、您使用试玩账户的前提是您已明知并将遵守本服务条款的各项条款及条件。</p>
+</div>
+<div class="pop-control">
+<a href="javascript:;" class="btn closeTip" data-dismiss="modal">不同意</a>
+<a href="http://www.baidu.com" class="btn confirm">同意</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="jack-foot" id="jack-foot">
+<div class="foot-top">
+<div class="container clearfix">
+<div class="foot-logo hidden-xs"></div>
+<div class="foot-number">
+<div class="number-wrap today-win"><span class="rmb">￥</span><div class="numberRun1"><div class="mt-number-animate"><div class="mt-number-animate-dom" data-num="1" style="transform: translateY(-30px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dom" data-num="5" style="transform: translateY(-150px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dot">,</div><div class="mt-number-animate-dom" data-num="9" style="transform: translateY(-270px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dom" data-num="9" style="transform: translateY(-270px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dom" data-num="8" style="transform: translateY(-240px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dot">,</div><div class="mt-number-animate-dom" data-num="0">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dom" data-num="7" style="transform: translateY(-210px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dom" data-num="7" style="transform: translateY(-210px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div></div></div><div class="line-number">今日已实现兑奖</div></div>
+<div class="number-wrap"><div class="numberRun2"><div class="mt-number-animate"><div class="mt-number-animate-dom" data-num="4" style="transform: translateY(-120px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dot">,</div><div class="mt-number-animate-dom" data-num="4" style="transform: translateY(-120px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dom" data-num="5" style="transform: translateY(-150px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div><div class="mt-number-animate-dom" data-num="5" style="transform: translateY(-150px); -webkit-transition: 1s; transition: 1s;">            <span class="mt-number-animate-span">0</span>            <span class="mt-number-animate-span">1</span>            <span class="mt-number-animate-span">2</span>            <span class="mt-number-animate-span">3</span>            <span class="mt-number-animate-span">4</span>            <span class="mt-number-animate-span">5</span>            <span class="mt-number-animate-span">6</span>            <span class="mt-number-animate-span">7</span>            <span class="mt-number-animate-span">8</span>            <span class="mt-number-animate-span">9</span>            <span class="mt-number-animate-span">.</span>          </div></div></div><div class="line-number">在线人数</div></div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="foot-link clearfix">
+<div class="foot-a">
+<a href="/brand">博猫品牌</a>
+<span></span>
+<a href="/help">帮助中心</a>
+<span></span>
+<a href="/brand#concat">联系我们</a>
+<span></span>
+<a href="/mobile" target="_blank">手机客户端</a>
+<span></span>
+<a href="/pc-client/index.html" target="_blank">PC客户端</a>
+<span></span>
+<a href="/fastlogin/index.html" target="_blank">快速登录器</a>
+<span></span>
+<a href="/events/repairDNS" target="_blank">防劫持教程</a>
+</div>
+<div class="foot-authority hidden-xs">权威认证资质</div>
+</div>
+<div class="foot-erweima visible-xs-block"></div>
+<div class="foot-pic clearfix">
+<ul class="foot-icon">
+<li class="icon icon_1 hidden-xs">
+<div class="up-drop hidden-xs">
+<div class="up-menu">
+<div class="foot-text">博猫公众号</div>
+<div class="foot-code"></div>
+<div class="foot-game">微信号</div>
+</div>
+</div>
+</li>
+<li class="icon icon_2"></li>
+<li class="icon icon_3"></li>
+<li class="icon icon_4"></li>
+<li class="icon icon_5"></li>
+<li class="icon icon_6"></li>
+</ul>
+<ul class="foot-tip hidden-xs clearfix">
+<li class="li-1">
+<div class="tip-drop">
+<span class="tip-con">PAGCOR</span>
+</div>
+</li>
+<li class="li-3">
+<div class="tip-drop">
+<span class="tip-con">GLI</span>
+</div>
+</li>
+</ul>
+</div>
+ <div class="foot-bottom clearfix">
+<div class="foot-text">
+<div class="copy-right">
+<span>© 2014 博猫游戏版权所有</span>
+<span class="approve">菲律宾政府PAGCOR博彩牌照认证</span>
+</div>
+<div>博猫游戏郑重提示：彩票有风险，投注需谨慎，不向未满18周岁的青少年出售彩票</div>
+</div>
+<div class="foot-bottom-r hidden-xs"></div>
+</div>
+</div>
+</div>
+<div id="J-panel-sidetip-sys" class="panel-sidetip-sys">
+<div class="sidetip-title">
+<span class="sidetip-title-text-sys">系统消息</span>
+<a href="#" class="sidetip-close-sys"></a>
+</div>
+<div class="sidetip-content-sys">
+</div>
+</div>
+<script type="text/template" id="J-template-customer-service-text">
+    <div class="global-feedback-window-cont">
+        <div class="title-text">
+            <div style="text-indent: 2em;">为了给您提供更加优质的服务，从即日起每天凌晨2点到早上10点，我们将进行客服系统的维护。<br/><br/></div>
+            <div style="text-indent: 2em;">在维护期间，如果您有问题需要处理，请您在下方留言框中描述您的问题。我们将会在当日内通过站内信的方式给您答复。您也可以在早晨10点-凌晨2点之间进线询问。<br/><br/></div>
+            <div style="text-indent: 2em;">感谢您的体谅与支持，祝您游戏愉快！</div>
+        </div>
+        <div>
+            <textarea maxlength="1000" class="textarea feedback-textarea" id="J-text-customer-service-value"></textarea>
+            <div class="tip-text-length"><span id="J-text-customer-service-length">0</span>/1000</div>
+        </div>
+    </div>
+</script>
+<a class="global-gototop" id="J-global-gototop" href="#" style="left: 1592.5px; display: none;">返回顶部</a>
+<script src="/dist/assets/js/base-all.min.js?v=75165b404df3f53bb48285ad6a840da73ed84a18"></script>
+<script type="text/javascript">
+    (function(){
+                    if ($('#popWindow').length) {
+                var popWindow = new bomao.Message();
+                var data = {
+                                title          : '提示',
+                                content        : $('#popWindow').find('.pop-bd > .pop-content').html(),
+                                isShowMask     : true,
+                                closeIsShow    : true,
+                                closeButtonText: '关闭',
+                                closeFun       : function() {
+                                    this.hide();
+                                }
+                };
+                popWindow.show(data);
+            }
+            })();
+</script>
+<script type="text/javascript">
+        (function ($) {
+            //ie8浏览器让j-l-content的内容隐藏
+            if (navigator.userAgent.indexOf("MSIE 8.0") > 0) {
+                document.getElementById('j-l-content').style.display = 'none';
+            }
+
+            //判断移动还是pc进入，显示进入移动端的按钮
+            if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+                $('#common-btn-pc .btn-text').text('进入PC版');
+                $('#common-btn-p').hide();
+                $('#common-btn-mobile').show();
+                $('.top-slide').addClass('top-slide-0');
+            } else {
+                $('#common-btn-pc .btn-text').text('进入');
+                $('#common-btn-p').show();
+                $('#common-btn-mobile').hide();
+            }
+        })(jQuery);
+    </script>
+<script src="/assets/js/md5.js"></script> <script src="/assets/js/bootstrap-v1.min.js"></script> <script src="/assets/js/placeholder.min.js"></script> <script src="/assets/js/jquery.lazyload.js"></script> <script src="/assets/js/login/login-v5.js"></script>
+<script type="text/javascript">
+        function changeCaptcha () {
+            $('#J-vcode-img').attr('src', "http://bomao8.com/captcha?" + ((Math.random()*9 +1)*100000).toFixed(0));
+        };
+
+        $(function(){
+            $('#J-button-submit').click(function (e) {
+                $('#J-button-submit .btn-pic').show();
+
+                var pwd = $('#login-pass').val();
+                var username = ($('#login-name').val()).toLowerCase();
+                $('#login-pass-real').val(md5(md5(md5(username + pwd))));
+                $('form[name=signinForm]').submit();
+            });
+
+            $('form[name=signinForm]').keydown(function(event) {
+                if (event.keyCode == 13) $('#J-button-submit').click();
+            });
+
+//            $('body').keydown(function(event) {
+//                if (event.keyCode == 13) {
+//                    $('.top-slide').addClass('top-slide-c');
+//                    $('.top-wrap').addClass('top-wrap-c');
+//                }
+//            });
+
+            $('.form-login input').bind('input propertychange', function() {
+                if(!$('.remind').hasClass('hidden')){
+                    $('.remind').addClass('hidden');
+                }
+            });
+        });
+    </script>
+<script src="/assets/js/login/footer-online-count.js"></script>
+<script type="text/javascript">
+        $(function(){
+            var msg_id = "";
+            //提示组件
+            var sideTip = bomao.SideTip.getInstance({
+                //面板元素dom
+                dom:'#J-panel-sidetip-sys',
+                //页面主体内容参照元素，面板将以该元素为参照定位
+                target:'body',
+                //标题元素
+                titleDom:'.sidetip-title-text-sys',
+                //主体内容元素
+                contentDom:'.sidetip-content-sys',
+                //关闭面板元素
+                closeDom:'.sidetip-close-sys',
+                //是否自动关闭
+                autoHideTime:20 * 1000
+            });
+
+            //修改信息状态
+            function changeTipStatus(id) {
+                var url = '/receive-promo/'+id;
+
+                $.ajax({
+                    url: url,
+                    dataType: 'JSON',
+                    method: 'GET',
+                    cache: false,
+                    success: function(data){
+                        if(data['status'] == 1){
+                            $(".tip-button-sys").attr("btn-status","1");
+                            $(".tip-button-sys").html("领取成功");
+
+                            setTimeout(function(){
+                                sideTip.hide();
+                            },2*1000);
+                        }else{
+                            sideTip.hide();
+
+                            var tip_window = new bomao.Message();
+
+                            var tip_window_data = {
+                                title: '温馨提示',
+                                content: "<div style='font-size:16px'><p style='text-align: center;margin:10px 0px;'>领取失败，请在站内信中重新领取</p></div>",
+                                isShowMask: true,
+                                confirmIsShow: false,
+                                closeIsShow: true,
+                                closeButtonText: '关闭',
+                                closeFun: function () {
+                                    this.hide();
+                                }
+                            };
+
+                            tip_window.show(tip_window_data);
+                        }
+                    },
+                    error:function(data){
+                        console.log(data);
+                    }
+                });
+            };
+
+            //查询提示信息
+            var MSG = new bomao.Alive({
+                url: "/get-messages",
+                cache:false,
+                dataType:'json',
+                method:'get',
+                looptime:30 * 1000
+            });
+
+            MSG.addEvent('afterSuccess', function(e, data){
+                if(!(data.length == 0) && data['type']!=="loginTimeout"){
+                    msg_id = data["id"];
+                    sideTip.hide();
+                    if(Number(data["amount"]) > 0){
+                        sideTip.setContent('<div class="row">'+data["content"]+'</div><div class="tip-button-sys" btn-status="-1">领取</div>');
+                    }else{
+                        sideTip.setContent('<div class="row">'+data["content"]+'</div>');
+                    }
+                    sideTip.show();
+                }
+
+                $("#J-panel-sidetip-sys .tip-button-sys").on("click" , function(){
+                    if($(this).attr("btn-status") == "-1"){
+                        changeTipStatus(msg_id);
+                    }
+                });
+            });
+            MSG.addEvent('afterError', function(e, xhr, type){
+                console.log("error");
+            });
+
+            MSG.getParams = function(){
+                var params = [];
+                return {'params':params};
+            };
+
+            MSG.start();
+
+        });
+
+        $(function($) {
+            //页脚微信的hover效果
+            $('.foot-icon li').hover(function () {
+                $(this).find('.up-drop').stop(true, false).fadeIn(400);
+                $(this).find('.up-menu').addClass('up-menu-hov');
+            }, function () {
+                $(this).find('.up-drop').stop(true, false).fadeOut(400);
+                $(this).find('.up-menu').removeClass('up-menu-hov');
+            });
+
+            //回到顶部
+            var refer = $('#J-header-container'),dom,offset,win,timer;
+            if(refer.size() < 1){
+                //首页应用
+                $("#J-global-gototop").click(function(e){
+                    e.preventDefault();
+                    $('html,body').animate({scrollTop:0}, 400);
+                });
+
+                setTimeout(function(){
+                    $(window).scroll(function(){
+                        clearTimeout(timer);
+                        timer = setTimeout(function(){
+                            if($(window).scrollTop() > 600){
+                                $("#J-global-gototop").fadeIn(400);
+                            }else{
+                                $("#J-global-gototop").fadeOut(400);
+                            }
+                        }, 300);
+                    });
+                });
+
+                return;
+            }
+            win = $(window);
+            offset = refer.offset();
+
+            setTimeout(function(){
+                dom = $('<a class="global-gototop" id="J-global-gototop" href="#">返回顶部</a>').appendTo('body');
+                dom.css({'left':offset.left + refer.width() + 20});
+                dom.click(function(e){
+                    e.preventDefault();
+                    $('html,body').animate({scrollTop:0}, 400);
+                });
+                win.scroll(function(){
+                    clearTimeout(timer);
+                    timer = setTimeout(function(){
+                        if(win.scrollTop() > 600){
+                            dom.fadeIn(400);
+                        }else{
+                            dom.fadeOut(400);
+                        }
+                    }, 300);
+
+                });
+            }, 2000);
+
+            var foot = $('#jack-foot'), arr = ['/bets/bet/60', '/bets/bet/61'];
+            if(foot.offset().top + foot.height() + 20 < $(window).height() && arr.indexOf( location.href) == -1)
+                foot.css('marginTop', ($(window).height() - foot.offset().top - foot.height() - 20) + 'px')
+
+        });
+
+        <!--数字滚动效果-->
+        $(function () {
+
+            var numRun1 = $(".numberRun1").numberAnimate({num: 1, speed: 1000, symbol: ","});
+            var numRun2 = $(".numberRun2").numberAnimate({num: 1, speed: 1000, symbol: ","});
+            // 凌晨0点至0点30分时 数据取不到
+
+            var arr = [84529, 69];
+
+            $.ajax({
+                url: '/auth/getonlineuser',
+                dataType: 'JSON',
+                method: 'POST',
+                success: function(data){
+                    if(data['prize']){
+                        $(".numberRun1").numberAnimate({num: data['prize'], speed: 1000, symbol: ","});
+                    }else{
+                        $(".numberRun1").numberAnimate({num: arr[0], speed: 1000, symbol: ","});
+                    }
+
+                    if(data['online']){
+                        $(".numberRun2").numberAnimate({num: data['online'], speed: 1000, symbol: ","});
+                    }else{
+                        $(".numberRun2").numberAnimate({num: arr[1], speed: 1000, symbol: ","});
+                    }
+                }
+            });
+
+
+            setInterval(function(){
+                $.ajax({
+                    url: '/auth/getonlineuser',
+                    dataType: 'JSON',
+                    method: 'POST',
+                    success: function(data){
+                        if(data['prize']){
+                            numRun1.resetData(data['prize']);
+                        }else{
+                            numRun1.resetData(arr[0] - parseInt(Math.random()*1000));
+                        }
+
+                        if(data['online']){
+                            numRun2.resetData(data['online']);
+                        }else{
+                            numRun2.resetData(arr[1] - parseInt(Math.random()*10));
+                        }
+                    }
+                });
+            } , 30*1000);
+
+        });
+    </script>
+<script type="text/javascript">
+        var current_time = "125352";
+
+        $(document).on('keyup', '.feedback-textarea', function(){
+            var v = this.value,len = v.length,maxlen = 1000;
+            $('#J-text-customer-service-length').text(len);
+            if(len > maxlen){
+                this.value = v.substr(0, maxlen);
+            }
+        });
+
+        $(".online-server").on("click" , function(){
+                        var url = "https://vp9.live800.com/live800/chatClient/chatbox.jsp?companyID=80000041&configID=2083&codeType=custom&info=("+"userId=&loginname=&name=&hashCode=&amp;timestamp=1533704032" +")";
+                window.open(url,"_blank","height=700,width=900");
+        });
+
+    </script>
+
+
+</body></html>

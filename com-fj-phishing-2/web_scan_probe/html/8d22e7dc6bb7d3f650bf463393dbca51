@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>快乐彩票-抢红包</title>
+<link rel="stylesheet" href="css/active.all.min.css?V=1.0">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style2.css">
+<link href="/js/layui/css/layui.css" rel="stylesheet" type="text/css">
+<style>
+	.demo-class{
+		background: url(/images/tanbg.png) no-repeat center top;
+		background-color:transparent;
+	}
+	.demo-class .layui-layer-title{
+		background-color:transparent;
+		border:0;
+		color: #ffea00;
+	}
+	.cj_number {
+		background-color:#FFF;
+		color:#000;
+	}
+</style>
+<style type="text/css">
+.notice {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.55);
+    background: #000\9;
+}
+.wrapper {
+    height: 100%;
+    position: relative;
+}
+.notice .marquee-box {
+    overflow: hidden;
+    font-size: 16px;
+    color: #fff;
+}
+.notice h3 {
+    float: left;
+    padding-left: 45px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.tianchuan{
+	background-color:#FFF;
+}
+</style>
+<link rel="stylesheet" href="http://hbklcp.com/js/layer/theme/default/layer.css?v=3.1.0" id="layuicss-layer"></head>
+
+<body id="toTop" style="zoom: 1;">
+
+
+
+	<div class="header">
+        <div class="wrapper">
+          <a href="https://kuailecaipiao.com/klcpLoginWeb/app/home" class="logo" target="_blank"></a>
+          <ul class="nav">
+            <li><a href="https://kuailecaipiao.com/klcpLoginWeb/app/home" target="_blank">官网首页</a></li>
+            <li><a href="https://kuailecaipiao.com/klcpLoginWeb/app/joinNow?ref=3ea6f7" target="_blank">会员注册</a></li>
+             <li><a href="javascript:;" onclick="no_open(this)">红包查询</a></li>
+            <li><a href="https://kuailecaipiao.com/klcpLoginWeb/app/promotion" target="_blank">优惠活动</a></li>
+            <li><a href="https://kuailecaipiao.com/klcpLoginWeb/app/home?t=MP&amp;l=CN" target="_blank">手机投注</a></li>
+            <li><a href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=66121" target="_blank">在线客服</a></li>
+
+          </ul>
+		</div>
+	</div>
+    <!-- banner开始 -->
+    <div class="banner">
+        <div class="banner-bg">
+          <div class="banner-1"></div>
+          <div class="banner-2"></div>
+          <div class="banner-3"></div>
+          <div class="banner-4"></div>
+          <div class="banner-5"></div>
+          <div class="banner-6"></div>
+        </div>
+		<div class="notice">
+	            <div class="wrapper">
+	              <h3>最新消息：</h3>
+	              <div class="marquee-box">
+	                <marquee direction="left" scrollamount="4" onmouseover="this.stop()" onmouseout="this.start()">
+	                  ★优惠快报★2018年红包全面改版 全新的活动，不一样的感觉！！	               
+
+ </marquee>
+	              </div>
+	            </div>
+	
+	          </div>
+
+
+          <div class="wrapper">
+            <a class="btn-link" href="#" target="_blank"></a>
+              <!-- 倒计时 -->
+            <div id="hb_start" style="display:none;">
+	            <div class="txt">
+	              		活动准备开启
+	            </div>
+	            <div class="HotDate">
+	            <div class="tle">
+	                	倒计时:
+	              </div>
+	              <span id="t_d"><em>00</em>天</span>
+	              <span id="t_h"><em>00</em>小时</span>
+	              <span id="t_m"><em>00</em>分</span>
+	              <span id="t_s"><em>00</em>秒</span>
+	
+	              
+	            </div>
+			</div>
+            
+            
+            <!-- 进行中 -->
+            <div id="hb_for" style="display:none;">
+            	
+	            <div class="txt">
+	              		活动正在进行中
+	            </div>
+	            <div class="HotDate">
+	            <div class="tle">
+	                本期结束:
+	              </div>
+	              <span id="t_d_2"><em>00</em>天</span>
+	              <span id="t_h_2"><em>00</em>小时</span>
+	              <span id="t_m_2"><em>00</em>分</span>
+	              <span id="t_s_2"><em>00</em>秒</span>
+	            </div>
+			</div>
+            
+            <!-- 下一波倒计时 -->
+            <div id="hb_next" style="">
+	            <div class="txt">
+	              		距离下期开始
+	            </div>
+	            <div class="HotDate">
+	            <div class="tle">
+	                倒计时:
+	              </div>
+	              <span id="t_d_3"><em>0</em>天</span>
+	              <span id="t_h_3"><em>0</em>小时</span>
+	              <span id="t_m_3"><em>0</em>分</span>
+	              <span id="t_s_3"><em>0</em>秒</span>
+	            </div>
+			</div>
+            
+             <!-- 今日已结束 -->
+                <div class="HotDate" id="today_end" style="display:none;">
+                	<br>
+                    <div class="tle" style="font-size:30px;">抢红包活动今日已结束</div>
+                    <br>
+                    <div class="tle">请明天再来</div>
+				</div>
+				
+				<!-- 活动结束 -->
+                <div class="HotDate" id="hb_end" style="display:none;">
+                <br>
+                    <div class="tle" style="font-size:30px;">亿元抢红包活动已结束</div>
+                    <br>
+                    <div class="tle" style="font-size:25px;">我们后续将推出更多惊喜优惠敬请关注</div>
+				</div>
+
+          </div>
+
+      </div>
+      <!-- banner结束 -->
+      <!-- content开始 -->
+      <div class="content">
+
+
+        <div class="mod">
+          <div class="wrapper">
+            <div class="hd">
+              <img src="img/hd-1.png" alt="">
+            </div>
+
+            <div class="mt-20">
+              	<p class="MsoNormal">
+				<span style="font-family: 宋体; color: #FFFFFF">
+</span>会员于北京时间2月13日早上9点至3月12日早上9点在快乐彩票进行存款，每天5场红包大放送，每场彩金放送2018888元！全民疯抢，限时抢夺，不容错过！更多给力现金回馈活动筹备中，敬请关注快乐彩票。<font color="#FFFF00">（<span lang="EN-US">klcp900.com</span>）</font><span lang="EN-US"><br>
+				<br>
+				<br>
+				</span><font color="#00FF00">温馨提示：</font><font color="#FFFF00">亲们！尚未注册<span lang="EN-US">/</span>存款的亲们强烈建
+
+议您注册<span lang="EN-US">/</span>存款，</font><font color="#00FF00">每天在快乐彩票进行存款游戏，天天参与多项优惠活动噢！</font><font color="#FFFF00">如此给
+
+力，速来快乐彩票尽情玩乐吧！</font><span lang="EN-US"><br>
+				<br>
+				<br>
+				</span>亿元现金红包网址【<font color="#FFFF00"><span lang="EN-US">www.hbklcp.com</span></font>】红包享不停
+				惊喜抢不停，还等什么？快快叫上好友一起分享吧！</p>
+				<table class="tbl" width="1181">
+                <tbody><tr>
+                  <th width="263">
+					<span style="font-weight: 400">
+					<font face="Times New Roman" color="#FFFFFF">北京时间存款区间</font></span></th>
+				<th width="424"><span style="font-weight: 400">
+					<font color="#FFFFFF" face="Times New Roman">抢红包开放时间（为期一小时）</font></span></th>
+                  <th width="200"><span style="font-weight: 400">
+					<font color="#FFFFFF" face="Times New Roman">每场彩金</font></span></th>
+                  <th width="144"><span style="font-weight: 400">
+					<font color="#FFFFFF" face="Times New Roman">参与条件</font></span></th>
+                  
+                  <th width="128"><span style="font-weight: 400">
+					<font color="#FFFFFF" face="Times New Roman">流水要求</font></span></th>
+                </tr>
+                <tr>
+                  <td align="center" width="263">
+					<p class="MsoNormal">
+					<font color="#FFFFFF">
+					<span style="font-family: Times New Roman">04:00-09:00</span></font></p></td>
+				<td rowspan="" align="center" width="424">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<font color="#FFFFFF">
+							<span style="font-family: 宋体; ">
+							<font face="Times New Roman">北京时间：10:00
+							</font>
+						</span></font>
+					</p>
+				</td>
+                  <td rowspan="5" align="center" width="200">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+					<font face="Times New Roman">
+					<span style="color: #FFFFFF">
+					2018888</span></font><span style="font-family: 宋体; color: #FFFFFF; "><font face="Times New Roman">元<br>
+					红包大狂欢</font></span></p>
+					</td>
+                  <td rowspan="5" align="center" width="144">
+					<font face="Times New Roman" color="#FFFFFF">存款超过100以上<br>
+					即可开抢</font></td>
+               
+				
+					<td rowspan="5" align="center" width="128">
+						<p align="center">
+							<font color="#FFFFFF">
+							<span style="font-family: Times New Roman; ">无需流水</span></font>
+						</p>
+					</td>
+                </tr>
+                <tr>
+                  <td align="center" width="263">
+					<p class="MsoNormal">
+					<font color="#FFFFFF">
+					<span style="font-family: Times New Roman">9:00-14:00</span></font></p>
+					</td>
+					<td rowspan="" align="center" width="424">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<font color="#FFFFFF">
+							<span style="font-family: 宋体; ">
+							<font face="Times New Roman">北京时间：15:00
+							</font>
+						</span></font>
+					</p>
+				</td>
+                </tr>
+                <tr>
+                  <td align="center" width="263">
+					<p class="MsoNormal">
+					<font color="#FFFFFF">
+					<span style="font-family: Times New Roman">14:00-19:00</span></font></p></td>
+				<td rowspan="" align="center" width="424">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<font color="#FFFFFF">
+							<span style="font-family: 宋体; ">
+							<font face="Times New Roman">北京时间：20:00
+							</font>
+						</span></font>
+					</p>
+				</td>
+				
+                </tr>
+                <tr>
+                  <td align="center" width="263">
+					<p class="MsoNormal">
+					<font color="#FFFFFF">
+					<span style="font-family: Times New Roman">19:00-24:00</span></font></p></td>
+					
+					<td rowspan="" align="center" width="424">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<font color="#FFFFFF">
+							<span style="font-family: 宋体; ">
+							<font face="Times New Roman">北京时间：01:00
+							</font>
+						</span></font>
+					</p>
+				</td>
+                </tr>
+
+                <tr>
+                  <td align="center" width="263">
+					<p class="MsoNormal">
+					<font color="#FFFFFF">
+					<span style="font-family: Times New Roman">24:00-04:00</span></font></p></td>
+					<td rowspan="" align="center" width="424">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<font color="#FFFFFF">
+							<span style="font-family: 宋体; ">
+							<font face="Times New Roman">北京时间：05:00
+							</font>
+						</span></font>
+					</p>
+				</td>
+                </tr>
+                <tr>
+                   <td colspan="5"><p>
+					<font color="#00FFFF">会员达到条件后在该时间段没抢红包，视为自动弃权。</font></p></td>
+                </tr>
+
+
+
+
+
+              </tbody></table>
+            </div>
+
+            <p>　</p>
+
+            <table class="tbl" width="1184">
+                <tbody><tr>
+                  <th>
+					<p class="MsoNormal"><b>
+					<span style="font-family: 微软雅黑; color: #FFFFFF; font-weight: 400">
+					<font face="Times New Roman">红包特色优惠</font></span></b></p></th>
+                  <th width="212">
+					<p class="MsoNormal"><b>
+					<span style="font-family: 微软雅黑; color: #FFFFFF; font-weight: 400">
+					<font face="Times New Roman">加赠奖励彩金</font></span></b></p></th>
+                  <th width="333">
+					<p class="MsoNormal"><b>
+					<span style="font-family: 微软雅黑; color: #FFFFFF; font-weight: 400">
+					<font face="Times New Roman">申请方式</font></span></b></p>
+					</th>
+                </tr>
+                <tr>
+                  <td align="center">
+					<p class="MsoNormal">
+					<span style="font-family: 微软雅黑; color: #FFFFFF">
+					<font face="Times New Roman">单个红包金额出现豹子号，例如</font></span><font face="Times New Roman"><span style="color: #FFFFFF">666、888</span></font></p>
+					</td>
+                  <td rowspan="4" width="212" align="center">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family: 微软雅黑; color: #FFFFFF">
+					<font face="Times New Roman">单个红包金额</font></span><font face="Times New Roman"><span style="color: #FFFFFF">X3倍
+
+</span></font></p>
+					</td>
+                  <td rowspan="4" width="333" align="center">
+					<p class="MsoNormal"><u>
+					<span style="font-family: 微软雅黑; color: #FFFF00; text-decoration: underline; ">
+					<font face="Times New Roman">系统会自动计算添加</font></span></u></p>
+					<font face="Times New Roman">　</font></td>
+                </tr>
+                <tr>
+                  <td align="center">
+					<p class="MsoNormal">
+					<span style="font-family: 微软雅黑; color: #FFFFFF">
+					<font face="Times New Roman">单个红包出现顺子号，例如</font></span><font face="Times New Roman"><span style="color: 
+
+#FFFFFF">123、345</span></font></p>
+					</td>
+                </tr>
+
+              </tbody></table>
+            <p class="MsoNormal"><font color="#00FF00"><b>
+			<span style="font-family: 宋体"><font face="Times New Roman">注：<br>
+			
+会员只要在每天指定的时间内存款，将有机会在规定的时间内进行抢红包，逾期则视为自动放弃。<br>
+			</font></span></b></font></p></div><font color="#00FF00"><b>
+        </b></font></div><font color="#00FF00"><b>
+
+        </b><div class="mod"><b>
+          </b><div class="wrapper"><b>
+
+
+            <div class="hd">
+              <img src="img/hd-2.png" alt="">
+            </div>
+
+            
+
+            </b>
+			<span style="font-family: 宋体">
+			<p><span lang="EN-US">
+			<font color="#FFFFFF">1</font></span><font color="#FFFFFF">、所获得红包金额</font><font color="#FFFF00">无需流水</font><font color="#FFFFFF">即可申请提款。</font><span lang="EN-US"><font color="#FFFFFF">
+			</font> <br>
+			<font color="#FFFFFF">2</font></span><font color="#FFFFFF">、如果您达到抢红包条件，请于规定时段抢红包，超过限定抢红包时间将视为会员自
+
+动弃权，不得争议！</font><span lang="EN-US"><font color="#FFFFFF">
+			</font>
+			<br>
+			<font color="#FFFFFF">3</font></span><font color="#FFFFFF">、如当天未进行结算或国际线路延迟数据，将在隔天进行计算，对此有异议将以系统
+
+数据为准。</font><span lang="EN-US">
+			<br>
+			<font color="#FFFFFF">4</font></span><font color="#FFFFFF">、</font><font color="#FFFF00">如发现会员同一个<span lang="EN-US">IP</span>
+
+下注册多个账号进行投注抢红包，公司有权拒绝赠送其彩金并做账号冻结处理，保证正常玩家的利益。</font><span lang="EN-US">
+			<br>
+			<font color="#FFFFFF">5</font></span><font color="#FFFFFF">、所抢红包金额系统自动派发，无需申请<span lang="EN-US">,</span>秒抢<span lang="EN-US">,</span>秒到账。</font><span lang="EN-US"><font color="#FFFFFF">
+			</font>
+			<br>
+			<font color="#FFFFFF">6</font></span><font color="#FFFFFF">、此抢红包活动为【快乐彩票】系统程序自动运行，红包的概率完全遵循力学及自然
+
+概率，不涉及任何人工操作，抽奖结果以系统判定为准，不得争议。</font><span lang="EN-US">
+			<br>
+			<font color="#FFFFFF">7</font></span><font color="#FFFFFF">、如您忘记会员账号<span lang="EN-US">/</span>密码，请您联系</font><font color="#FFFF00"><span lang="EN-US">24</span>小时在线客服</font><font color="#FFFFFF">协助您取回您的账号信息。</font><span lang="EN-US"><font color="#FFFFFF">
+			</font>
+			<br>
+			<font color="#FFFFFF">8</font></span><font color="#FFFFFF">、参与该优惠，即表示您同意</font><font color="#FFFF00">《优惠规则与条款》
+
+</font><font color="#FFFFFF">。</font></p></span></div>
+        </div>
+      </font></div>
+      
+      
+     <!-- content 结束-->
+     
+     <font color="#00FF00">
+
+      <b>
+
+      <div class="footer">
+        Copyright © 快乐彩票 版权所有 Reserved
+            </div>
+        
+
+      <!-- 悬浮 -->
+
+      <div class="duilian duilian_right" style="display: block; ">
+         <a class="block1" <a="" target="_blank" href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=66121" title=""></a>
+         <a class="block2" href="#toTop"></a>
+
+      </div>
+
+      <div class="packet-bg" id="j-packet-bg"></div>
+      
+      
+
+<script type="text/javascript" src="/js/jquery-1.9.js"></script>
+<script type="text/javascript" src="/js/snowfall.jquery.js"></script>
+<script type="text/javascript" src="/js/layer/layer.js"></script>
+<script type="text/javascript" src="/js/layui/layui.js"></script>
+<script type="text/javascript" src="/js/layui_use.js"></script>
+<script type="text/javascript" src="/js/lottery.js"></script>
+<script type="text/javascript">
+        $(function() {
+          //悬浮广告
+          var duilian = $("div.duilian");
+          var duilian_close = $("a.duilian_close");
+
+          var screen_w = screen.width;
+          if(screen_w>1024){duilian.show();}
+          $(window).scroll(function(){
+            var scrollTop = $(window).scrollTop();
+            duilian.stop().animate({top:scrollTop+160});
+          });
+          duilian_close.click(function(){
+            $(this).parent().hide();
+            return false;
+          });
+
+
+
+        })
+      </script>
+<script>
+	/*$(document).snowfall('clear');
+	$(document).snowfall({
+			image: "/images/hongbao.png",
+			flakeCount:25,
+			minSize: 50,
+			maxSize: 100
+	});*/
+	 var type = 0;
+	  var NowTimeOld = new Date("2017/05/27 00:07:16");
+	  var startDateTime = new Date("2017/06/17 00:00:00");
+	  var endDateTime = new Date("2017/5/17 23:59:59");
+	  var one,two,NowTime,waveTime;
+
+  	function getROne(){
+		var startDateTime = new Date("2017/05/26 14:00:00");
+		var t_s = NowTimeOld.getTime();
+		
+		var NowTime = NowTimeOld.setTime(t_s + 1000);
+		var t = startDateTime - NowTime;
+		if(t<=0){
+			window.location.reload();
+			return;
+		}
+		var d=Math.floor(t/1000/60/60/24);
+		var h=Math.floor(t/1000/60/60%24);
+		var m=Math.floor(t/1000/60%60);
+		var s=Math.floor(t/1000%60);
+		var str = "<p>"+d+"</p>天"+"<p>"+h+"</p>小时"+"<p>"+m+"</p>分"+"<p>"+s+"</p>秒";
+		document.getElementById("luck_title").innerHTML = str;
+		
+  	}
+
+  	function getRTimeOne(){
+		var t_s = NowTimeOld.getTime();
+		var NowTime = NowTimeOld.setTime(t_s + 1000);
+		
+		var t = startDateTime - NowTime;
+		if(t<0){
+			clearInterval(one);
+			ajaxLottery();
+			return;
+		}
+		var d=Math.floor(t/1000/60/60/24);
+		var h=Math.floor(t/1000/60/60%24);
+		var m=Math.floor(t/1000/60%60);
+		var s=Math.floor(t/1000%60);		
+		//var h = d * 24 + h;
+		//$("#hb-message").html("距离红包雨开始");
+		var html = '<div class="tle">倒计时:</div>';
+		// html = '';
+		//if (d>0) {
+		//	html += '<span id="t_d_3"><em>'+d+'</em>天</span>';
+		//}
+		//html += "<span>"+h+"</span><em>小时</em>"+"<span>"+m+"</span><em>分</em>"+"<span>"+s+"</span><em>秒</em>";
+		//html += "<span>"+h+"</span><em>小时</em>"+"<span>"+m+"</span><em>分</em>"+"<span>"+s+"</span><em>秒</em>";
+		//alert(html);
+		if(type == 1){
+			h = h + 1;
+		}
+		html += '<span id="t_d_3" class=""><em>'+d+'</em>天</span>'+
+				'<span id="t_h_3" class=""><em>'+h+'</em>小时</span>'+
+				'<span id="t_m_3" class=""><em>'+m+'</em>分</span>'+
+				'<span id="t_s_3" class=""><em>'+s+'</em>秒</span>';
+				
+		$(".HotDate").html(html);
+  	}
+    
+  	function getRTimeTwo(){
+		//$('#ipt_div').show();
+		var t_s = NowTimeOld.getTime();
+		var NowTime = NowTimeOld.setTime(t_s + 1000);
+		var t = waveTime - NowTime;
+		if(t <= 0){
+			clearInterval(two);
+			ajaxLottery();
+			return;
+		}
+		var d=Math.floor(t/1000/60/60/24);
+		var h=Math.floor(t/1000/60/60%24);
+		var m=Math.floor(t/1000/60%60);
+		var s=Math.floor(t/1000%60);
+		var h = d * 24 + h;
+		$(".txt").html("活动正在进行中");
+		var html = '<div class="tle">本期结束还有:</div>';
+		html += '<span id="t_d_3" class=""><em>'+d+'</em>天</span>'+
+				'<span id="t_h_3" class=""><em>'+h+'</em>小时</span>'+
+				'<span id="t_m_3" class=""><em>'+m+'</em>分</span>'+
+				'<span id="t_s_3" class=""><em>'+s+'</em>秒</span>';
+		$(".HotDate").html(html);
+		//$('#t_d_3').html('<em>'+d+'</em>天');
+		//$('#t_h_3').html('<em>'+h+'</em>小时');
+		//$('#t_m_3').html('<em>'+m+'</em>分');
+		//$('#t_s_3').html('<em>'+s+'</em>秒');
+		
+		//$("#hb-message").html("本轮红包雨剩余");	
+		//$("#hb-clock").html("<span>"+h+"</span><em>小时</em>"+"<span>"+m+"</span><em>分</em>"+"<span>"+s+"</span><em>秒</em>");
+  	}
+
+  	function setEnd() {
+		$("#hb_next").css('display','none');
+  		$("#today_end").css('display','block');
+  	}
+	ajaxLottery();
+ 
+  	
+	
+</script>
+<script type="text/javascript">
+        var t = 0;
+        $(function(){
+            layer.open({
+                    title: false,
+                    closeBtn: 0, //不显示关闭按钮
+                    btnAlign:'c',
+                    btn:["知道了"],
+					skin:"tianchuan",
+                    time: 5*t,
+                    shadeClose: false, //开启遮罩关闭
+                    area:'870px',
+                    content: '<div style="margin: -15px 0px;text-align: center;font-size: 15px;"><img border="0" src="/img/wmyzyhk.gif" width="192" height="27" align="left"><p>　</p><p>　</p><p><font color="#FF0000"><b><font color="#FF0000">快乐彩票转账支付：新增银联扫码“云闪付”成功率高达百分百，您只需要下载银联钱包【云闪付】绑定银行卡即可进行扫码！</font></p><p>　</p><p><font color="#800000"><b>【转账支付-云闪付】扫码入款，即可享受1.5%的存款优惠！</b></font></p><p>　</p><p><font color="#800000"><b>【支付宝转账银行卡】秒冲秒到账，入款即可享受1.5%优惠！</b></font></p></div><font color="#FF0000">'
+            });
+        });
+    </script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+</b></font><div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index: 19891014; background-color: rgb(0, 0, 0); opacity: 0.3;"></div><div class="layui-layer layui-layer-dialog tianchuan" id="layui-layer1" type="dialog" times="1" showtime="0" contype="string" style="z-index: 19891015; width: 870px; top: 272.5px; left: 77px;"><div id="" class="layui-layer-content"><div style="margin: -15px 0px;text-align: center;font-size: 15px;"><img border="0" src="/img/wmyzyhk.gif" width="192" height="27" align="left"><p>　</p><p>　</p><p><font color="#FF0000"><b><font color="#FF0000">快乐彩票转账支付：新增银联扫码“云闪付”成功率高达百分百，您只需要下载银联钱包【云闪付】绑定银行卡即可进行扫码！</font></b></font></p><p><font color="#FF0000"><b>　</b></font></p><p><font color="#FF0000"><b><font color="#800000"><b>【转账支付-云闪付】扫码入款，即可享受1.5%的存款优惠！</b></font></b></font></p><p><font color="#FF0000"><b>　</b></font></p><p><font color="#FF0000"><b><font color="#800000"><b>【支付宝转账银行卡】秒冲秒到账，入款即可享受1.5%优惠！</b></font></b></font></p></div><font color="#FF0000"><b><font color="#FF0000"></font></b></font></div><font color="#FF0000"><b><font color="#FF0000"><span class="layui-layer-setwin"></span><div class="layui-layer-btn layui-layer-btn-c"><a class="layui-layer-btn0">知道了</a></div><span class="layui-layer-resize"></span></font></b></font></div><div class="layui-layer-move"></div></body></html>

@@ -1,0 +1,753 @@
+<!DOCTYPE html><html><head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>香港六合王</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <link href="images/ico.ico" rel="shortcut icon">
+
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" rev="stylesheet" href="//cs.h9k9.com/resource/200000074/style/reset.css" type="text/css">
+    <link rel="stylesheet" rev="stylesheet" href="//cs.h9k9.com/resource/200000074/style/global.css?v=1" type="text/css">
+    <link rel="stylesheet" rev="stylesheet" href="//cs.h9k9.com/resource/200000074/style/index.css" type="text/css">
+
+    <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/resource/200000074/script/demo.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/resource/200000074/script/index.js"></script>
+    <script type="text/javascript" src="/resource/common/js/jquery.qrcode.min.js"></script>
+
+
+</head>
+<body>
+<div class="rightdao ldao">
+    <a href="#" disabled="" target="_blank" class=""><img src="//cs.h9k9.com/resource/200000074/images/ldao1.png" alt=""></a>
+    <a href="#" disabled="" target="_blank" class=""><img src="//cs.h9k9.com/resource/200000074/images/ldao2.png" alt=""></a>
+    <a href="javascript:;" class="closedao"><img src="//cs.h9k9.com/resource/200000074/images/ldao3.png" alt=""></a>
+</div>
+<div class="rightdao rdao">
+    <a href="http://tb.53kf.com/code/client/10168422/3" target="_blank" class=""></a>
+    <!-- <a href="http://wpa.qq.com/msgrd?v=3&uin=4400410&site=qq&menu=yes" target="_blank" style="height: 100%; display: block">
+        <img src="//cs.h9k9.com/resource/200000074/images/rdao2.png?v0514" alt=""/>
+    </a> -->
+    <a href="javascript:;" class="closedao"></a>
+</div>
+<style>
+    .rdao {
+        background-image: url("//cs.h9k9.com/resource/200000074/images/rdao4.png");
+        background-size: 100%;
+        width: 156px;
+        height: 414px;
+        background-repeat: no-repeat;
+    }
+    .rdao a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 34px;
+    }
+
+    .rdao a:nth-child(2) {
+        top: 380px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+</style>
+
+<div class="header">
+    <div class="inner">
+        <div class="nav fl">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0);" target="_blank" class="link" data-tag="dljm">代理加盟</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" target="_blank" class="link" data-tag="yhzq">优惠专区</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" target="_blank" class="link" data-tag="cqbz">存取帮助</a>
+                    </li>
+                </ul>
+        </div>
+        <div class="logo"><h1><a href="#" class=""><img src="//cs.h9k9.com/resource/200000074/images/logo.png?v=1" alt=""></a></h1></div>
+        <div class="nav fr">
+            <ul>
+                <li>
+                    <a href="javascript:void(0)" target="_blank" class="link" data-tag="cjwt">常见问题</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" target="_blank" class="link" data-tag="gywm">关于我们</a>
+                </li>
+                <li>
+                    <a href="javascript:alert('请使用手机访问');" target="_blank">手机投注</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cl"></div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="inner">
+        <div class="conbx">
+            <div class="dengbx">
+
+                <div class="dengbx-1">
+                    <div class="dengbx-1a">用户登录 LONGIN</div>
+                    <a href="http://tb.53kf.com/code/client/10168422/3" class="dengbx-1b" target="_blank">客服中心</a>
+                </div>
+
+                <div class="dengbx-2">
+                    <form action="/?c=lottery_user&amp;a=login" method="post">
+                        <input type="hidden" name="go" value="pc.php?c=pc">
+                    <ul>
+                        <li>
+                            <input type="text" class="deinpt ic1" name="username" value="" placeholder="用户名" autocomplete="off" autofocus="">
+                        </li>
+                        <li>
+                            <input type="password" class="deinpt ic2" name="passwd"  value="" placeholder="密码">
+                        </li>
+                        <li>
+                            <input type="text" class="deinpt ic3" name="piccode" value="" autocomplete="off" placeholder="验证码">
+                            <a class="yzm" href="javascript:;">
+                                <img src="?c=auth&amp;a=get_pic_code&amp;_t=1533704325&amp;t=1533704325" width="56" height="30" onclick="this.src='./?c=auth&amp;a=get_pic_code&amp;rand='+Math.random()"></a>
+                        </li>
+                        <li class="df jc ac">
+                            <input type="submit" value="submit" hidden="">
+                            <a href="javascript:;" class="dbtn dbtn1" id="btn-submit">立即登录</a>
+                            <a href="?c=home&amp;a=reg" class="dbtn dbtn2">免费注册</a>
+                        </li>
+                                                <li class="df jc h1">
+                                <a href="javascript:void(0);" id="btn-guest" class="dbtn dbtn3">游客试玩</a>
+                        </li>
+                                            </ul>
+                    </form>
+                </div>
+            </div>
+
+            <div class="newbx">
+                <div class="newbx-1"><span class="">最新消息 NEWS</span></div>
+                <div class="newbx-2">
+                    <div class="luntop2">
+                        <ul style="top: -18px;">
+                            <li style="width: ">香港六合王（5802.com）-官方唯一认证网投网站，特码赔率全网最高48.8倍，充值便捷，提款火速，购彩就上香港六合王</li>
+                        <li style="width: ">香港六合王（5802.com）-官方唯一认证网投网站，特码赔率全网最高48.8倍，充值便捷，提款火速，购彩就上香港六合王</li></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cl"></div>
+
+    <div class="footer">
+        <div class="fimg"><img src="//cs.h9k9.com/resource/200000074/images/fimg.png" alt=""></div>
+        <div class="cl h8"></div>
+        <div class="cop">Copyright © 香港六合王 All Rights Reserved</div>
+    </div>
+</div>
+
+
+
+<style>
+    div.jp-box.hide {
+        display: none;
+    }
+
+    .jp-box {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    .jp-box .container {
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        margin: -100px 0 0 -320px;
+        background: #e7e7e7;
+    }
+
+    .jp-box .tit {
+        width: 600px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #ccc;
+        padding: 0 20px;
+        color: #fff;
+    }
+
+    .jp-box .closebtn {
+        cursor: pointer;
+        color: #000;
+        padding: 0 10px;
+    }
+
+    .jp-box .closebtn:hover {
+        color: #fff;
+        background-color: #bbb;
+    }
+
+    .jp-box ul {
+        height: 420px;
+        width: 640px;
+    }
+
+    .jp-box .wrap {
+        background-color: #fff;
+        padding: 10px 30px 10px 40px;
+        height: 360px;
+        overflow-x: hidden;
+    }
+
+    .jp-box .logo {
+        background-image: none;
+    }
+</style>
+<div class="jp-box hide">
+    <div class="container">
+        <div class="tit">
+            <span class="tittext fl"></span>
+            <span class="closebtn fr">关闭</span>
+        </div>
+        <ul>
+            <li class="dljm tag">
+                <div class="wrap">
+                    <div class="text"><p class="MsoNormal" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	香港六合王彩票拥有多元化的产品，使用最公平、公正、公开的系统，在市场上的众多博彩网站中，我们自豪的提供会员最优惠的反馈，给予合作伙伴最优势的营利回报!<span class="Apple-converted-space">&nbsp;</span>无论 拥有的是网络资源，或是人脉资源，都欢迎您来加入香港六合王彩票合作伙伴的行列，无须负担任何费用，就可以开始无上限的收入。<span class="Apple-converted-space">&nbsp;</span>选择香港六合王彩票，绝对是您最聪明的选择!
+</p>
+<p class="MsoNormal" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">代理条件：</span></b><b></b> 
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	1.具有便利的计算机上网设备。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	2.有一定的人脉资源、网络资源或自己的广告网站。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	3.每月都要有5个实际有效投注的会员以上，如达不到就累积到下月计算佣金！
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">有效会员：</span></b><b></b> 
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	月结区间内进行过最少五次有效下注且投注总额不低于1000RMB的会员！如当月未达到﹛月最低有效会员﹜最低门槛5人，则该月无法领取佣金反馈。联盟体系当月营利达到标准，而﹛月最低有效会员﹜人数未达相应最低门槛，则该月佣金比例依照﹛月最低有效会员﹜人数所达门槛相应的百分比进行退佣。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">代理模式：</span></b><b></b> 
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	1.根据代理旗下所有客户当月总亏损额度，抽取10%佣金：
+</p>
+<table class="MsoNormalTable" style="color:#000000;font-family:&quot;font-size:14px;background-color:#FFFFFF;width:320.9pt;">
+	<tbody>
+		<tr>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#3255FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">当月</span><span style="font-family:宋体;font-size:8pt;">盈利总额</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#3255FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">有效会员</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="181" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#3255FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">分红比例</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#B9C5FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:宋体;font-size:8pt;">1000元+</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#B9C5FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">5人以上</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="181" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#B9C5FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:宋体;font-size:8pt;">10</span><span style="font-family:Arial;font-size:8pt;">%</span> 
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	2.根据代理旗下所有客户当月总有效投注抽取0.8%返水！<span style="font-size:12px;"></span> 
+</p>
+<table class="MsoNormalTable" style="color:#000000;font-family:&quot;font-size:14px;background-color:#FFFFFF;width:320.9pt;">
+	<tbody>
+		<tr>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#3255FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">当月</span><span style="font-family:宋体;font-size:8pt;">总有效投注</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#3255FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">有效会员</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="181" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#3255FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">返水比例</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#B9C5FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:宋体;font-size:8pt;">10000元+</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="176" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#B9C5FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:Arial;font-size:8pt;">5人以上</span><span style="font-family:Arial;font-size:8pt;"></span> 
+				</p>
+			</td>
+			<td width="181" valign="center" style="font-size:14px;font-family:&quot;border:1.5pt solid #FFFFFF;background:#B9C5FF;">
+				<p class="MsoNormal" align="center" style="margin-left:0pt;text-indent:0pt;text-align:center;">
+					<span style="font-family:宋体;font-size:8pt;">0.8</span><span style="font-family:Arial;font-size:8pt;">%</span> 
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br>
+<span style="font-family:&quot;background-color:#FFFFFF;"></span><span style="font-family:&quot;background-color:#FFFFFF;font-size:16px;">如果未联系代理专员，则默认为10%佣金代理！</span><span style="font-family:&quot;background-color:#FFFFFF;"></span><br>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	作为一名尊贵的六合王彩票网合作伙伴，您可以利用您的资源简单赚取高额佣金，轻松实现成功与财富的梦想！
+</p>
+<p class="MsoNormal" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	*注:禁止代理商私自开设会员账号进行非法投注套利。以及调整代理后台的任何赔率反水，不统计报表，唯一佣金是会员负盈利。任何使用不诚实方法骗取代理佣金或下线会员与代理商同IP的我们视为代理商自己开设会员游戏，将取消代理资格并永久冻结账户，佣金一律不予发放。同IP出现多个会员的话，将被视为无效会员，不得计算在内。 敬请联系代理专员QQ：4400410 详细洽谈。
+</p></div>
+                </div>
+            </li>
+            <li class="yhzq tag">
+                <div class="wrap">
+                    <div class="text">
+                        <div class="text"><p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><b><span style="color:#E53333;font-size:18px;">香港六合王平台</span></b><b><span style="color:#E53333;font-size:18px;">-</span></b><b><span style="color:#E53333;font-size:18px;">官方唯一指定的在线彩票投注网站，手机</span></b><b><span style="color:#E53333;font-size:18px;">APP下载网址：5802.com</span></b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><b><span style="color:#E53333;font-size:18px;"><br>
+</span></b></b>
+</p>
+<h1 style="font-size:14px;font-weight:400;font-family:&quot;background-color:#FFFFFF;">
+	<span style="font-size:16px;"><span style="font-size:24px;">资金永远</span><span style="font-size:24px;">安全</span><span style="font-size:24px;">！</span></span>
+</h1>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<span style="font-size:16px;"><span style="font-size:24px;"><br>
+</span></span>
+</p>
+<h1 style="font-size:14px;font-weight:400;font-family:&quot;background-color:#FFFFFF;">
+	<span style="font-size:16px;"><span style="font-size:24px;">信息永远</span><span style="font-size:24px;">保密</span>！</span>
+</h1>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<span style="font-size:16px;"><br>
+</span>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<span style="font-size:24px;">服务永远</span><span style="font-size:24px;">贴心！</span>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<span style="font-size:24px;">官方唯一指定在线彩票投注网站！</span>
+</p></div>
+                        <div class="logo"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="cqbz tag">
+                <div class="wrap">
+
+                    <div class="text"><p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	本公司提供多种存款，7×24小时可随时存款。支持「微信支付宝扫码支付」「在线支付」「人工转账」方式存款。最低存款金额1元，，提款单笔最低10元，单笔最高300万，提款次数无限制！
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">存款帮助</span></b><b></b>
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	会员登入后点击「在线充值」，选择您所要进行充值的支付方式进行入款！付款成功余额将会自动更新。如您付款完成后余额没有更新，请马上联系我们在线客服人员。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">提款帮助</span></b><b></b>
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	香港六合王彩票致力为会员提供最优质的服务,7×24小时随时提款，提款单笔最低10元，单笔最高300万，无限次数。不需要支付任何费用。提款方法如下：
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	会员登入后点击「在线提款」。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	并确认提款人姓名与您绑定的银行帐号持有人相符，第一次提款如未先绑定请到「会员资料」页面中绑定。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	输入「取款金额」以及「提款密码」，然后提交，稍等片刻工作人员收到申请核对无误后马上转入您的银行账户。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	目前公司支持银行卡提款方式，不支持支付宝、财付通提款。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">取款须知</span></b><b></b>
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	1<span class="Apple-converted-space">&nbsp;</span>、银行账户持有人姓名必须与您绑定时输入的姓名一致，否则无法到账。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	2<span class="Apple-converted-space">&nbsp;</span>、大陆各银行帐户均可申请提款。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	3<span class="Apple-converted-space">&nbsp;</span>、每个账户24小时无限制申请提款。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	4<span class="Apple-converted-space">&nbsp;</span>、买彩后未经全额投注提款申请不予受理。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	5<span class="Apple-converted-space">&nbsp;</span>、每位客户只可以使用同一姓名银行卡进行提款。
+</p>
+<p class="p" style="font-size:14px;font-family:&quot;text-indent:0pt;background:#FFFFFF;">
+	6<span class="Apple-converted-space">&nbsp;</span>、为保障客户资金安全，有可能需要与您电话联系验证或其它资料验证，以确保客户资金不会被冒领。
+</p>
+<p class="MsoNormal" style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	7、本站24小时均可申请提款，提款需三至十钟内到账，提款不收取任何手续费
+</p>
+<div>
+	<br>
+</div></div>
+                    <div class="logo"></div>
+
+                </div>
+            </li>
+            <li class="cjwt tag">
+                <div class="wrap">
+                    <div class="text"><p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="font-size:18px;color:#E53333;">一般常见问题</span></b><b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">1:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">如何加入香港六合王彩票平台？</span></b><b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	您可以直接点选 “免费注册”，确实填写资料后，可立即登记成为香港六合王彩票会员。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">2:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">我可以直接在网络上存款提款吗？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	可以，香港六合王彩票提供多种线上存款选择，详情请参照 “存款提款”
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">3:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">我在哪里可以找到游戏规则？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	在未登入前，您可以在游戏的最外层看到”游戏规则”选项，清楚告诉您游戏的玩法、规则及派彩方式。在游戏视窗中,也有”规则”选项，让您在享受游戏乐趣的同时，弹跳视窗随时提醒您游戏规则。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">4:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">单注投注额最低是？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	我们单注最低投注额为人民币1元.
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">5:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">最高投注额有限制吗？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	任何一家正规博彩和网络博彩公司对客户的帐户投注都有单注和单注限额，每个项目都有不同的限额设定，详细请登陆会员都在「会员资料」页面查看。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">6:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">我帐户里面的帐怎麽结算？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	请到登入会员，会员页面查看，「结算报表」按天显示每天的结算结果，点击退水后的结果一栏对应的结果数字进入明细！
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="font-size:16px;color:#E53333;">游戏及投注问题</span></b><b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">1:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">我哪里可以找到游戏的规则？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	请查看”规则说明”页面，清楚告诉您游戏的玩法、规则及派彩方式。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">2:<span class="Apple-converted-space">&nbsp;</span></span></b><b><span style="color:#E53333;">如果忘记密码怎麽办？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background:white;">
+	您可通过联系24小时线上客服人员谘询协助取回您的帐号密码。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;">3:&nbsp;</span></b><b><span style="color:#E53333;">当忘记提款密码时怎麽办？</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<span style="font-size:12px;line-height:1.5;">您可通过联系24小时线上客服人员谘询协助取回您的取款密码。</span>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;font-size:16px;">联系我们</span></b><b></b>
+</p>
+<span style="font-family:&quot;font-size:14px;background-color:#FFFFFF;">如果您在存款、提款方面遇到问题，您可以优先使用在线客服与我们取得联系。</span></div>
+                    <div class="logo"></div>
+                </div>
+            </li>
+            <li class="gywm tag">
+                <div class="wrap">
+                    <div class="text">
+                        <div class="text"><p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;font-size:18px;">香港六合王彩票平台成立于</span></b><b><span style="color:#E53333;font-size:18px;">2010</span></b><b><span style="color:#E53333;font-size:18px;">年</span></b><b><span style="color:#E53333;font-size:18px;">-</span></b><b><span style="color:#E53333;font-size:18px;">官方唯一指定的在线彩票投注网站</span></b>，<span style="font-size:18px;">诺顿分级评级审核"香港六合王"为最安全网站之一，并获得GEOTRUST国际认证，确保网站公平公正性，所有会员数据均经过加密，保障玩家所有隐私。</span>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="font-size:18px;color:#E53333;">多元化娱乐：</span></b><b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	除了香港六合彩项目以外，六合王还提供：时时彩，北京赛车，幸运28，快3等彩票。给您提供最好的选择。信誉可靠。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="font-size:18px;color:#E53333;">慈善公益：</span></b><b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	香港六合王更肩负起对社会、对慈善公益的责任，也将永不磨灭的针对社会的需要作出更多的贡献。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;font-size:18px;">客户服务：</span></b><b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	在竞争激烈的博彩市场中，香港六合王向来是众多玩家一致的明理选择，除了有多元化的娱乐产品使人流连忘返、更有高质量的服务以及香港六合王长久以来的良好信誉在广大玩家群众之间建立了口碑。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	我们为客户提供最专业的娱乐服务：
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	1、365天×24小时专业的客户服务，全天候处理会员出入款的相关事宜，严格训练的客服团队，以专业、亲切的态度，让每位玩家有宾至如归的感觉!
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	2、多渠道的与客户的互动交流，了解客户的需求，随时关注客户的意见及建议；
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="color:#E53333;font-size:18px;">游戏责任：</span></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	香港六合王提倡有节制的赌博。我们建议阁下遵守以下一些基本规则：
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	注： 禁止未满18岁的人士参与赌博游戏。在加入游戏之前，请您确定您已年满18周岁。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	注： 自定博彩预算，并按预算下注。
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	<b><span style="font-size:18px;color:#E53333;">账户与资金：</span></b><b></b>
+</p>
+<p style="font-size:14px;font-family:&quot;background-color:#FFFFFF;">
+	玩家网上支付和所有银行交易由国际金融机构在高标准的安全和机密的网络端口（SSL 128 bit encryption Standard）中进行。进入玩家账户数据也必须有玩家唯一的登录ID和密码，确保客户的资金安全有保障。同时也采用最先进的加密措施来保证玩家的游戏安全，7×24小时的后台检测和监控，确保我们可以提供一个完全公正和安全的网络游戏空间。客户在本平台的所有活动均严格保密，我们绝不会向第三方（包括政府）透露客户数据。
+</p></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<!--[if lt IE 11]>
+<div class="eachlisq"><div class="" style="display:table;width:100%;height:100%"><div class="" style="display:table-cell;vertical-align:middle"><div class="dwnntl1">温馨提示：<strong class="sainsnb">您的浏览器需要更新才能访问哦 ^_^</strong></div><div class="dqiangshiy">请使用 <strong class="sainsnb">Chrome</strong>、 <strong class="sainsnb">firefox</strong>、 <strong class="sainsnb">Safari</strong>、 <strong class="sainsnb">opera</strong> 、 <strong class="sainsnb">Microsoft Edge</strong>、 <strong class="sainsnb">Internet Explorer 11</strong> 浏览器访问~</div><p class="dsannp"><a class="sannbw1" href="http://www.google.com/chrome" target="_blank"></a> <a class="sannbw2" href="http://www.apple.com/safari" target="_blank"></a> <a class="sannbw3" href="http://www.firefox.com/" target="_blank"></a> <a class="sannbw4" href="http://www.opera.com/zh-cn" target="_blank"></a> <a class="sannbw5" href="https://www.microsoft.com/en-us/windows/microsoft-edge" target="_blank"></a> <a class="sannbw6" href="https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads" target="_blank"></a></p><h4 class="dwnsnht">Please update to a modern browser</h4></div></div></div>
+<style type="text/css">
+    .eachlisq{position:fixed;left:0;top:0;width:100%;height:100%;z-index:9999;background:#fff;text-align:center;color:#666}.sainsnb{border-bottom:1px dotted #930;font-weight:400;padding-bottom:2px;color:#930}.dwnntl1{font-size:23px;font-weight:700;line-height:50px}.dqiangshiy{font-size:18px;line-height:40px;font-weight:700}.dsannp{padding:40px 0;text-align:center}.dsannp a{display:block;width:125px;height:135px;margin:0 10px;display:inline-block;background:url(images/lqx.png) no-repeat}.dsannp a.sannbw1{background-position:0 0}.dsannp a.sannbw2{background-position:-125px 0}.dsannp a.sannbw3{background-position:-250px 0}.dsannp a.sannbw4{background-position:-375px 0}.dsannp a.sannbw5{background-position:-500px 0}.dsannp a.sannbw6{background-position:-625px 0}.dwnsnht{margin:20px 0;color:#888}
+</style>
+<![endif]-->
+
+
+
+
+<script type="text/javascript">
+    $(window).scroll(function () {
+        var sc = $(window).scrollTop();
+        $(".rightdao").stop().animate({
+            top: sc + 100
+        }, 400);
+    });
+    $(".closedao").click(function () {
+        $(this).parent().hide();
+    });
+
+    function lunTopFn(obj, time) {
+        time = time ? time : 30;
+        $(obj).children('ul').append($(obj).children('ul').children().clone(true))
+        var len = $(obj).children('ul').height() / 2;
+        var times = null;
+        if ($(obj)[0]) {
+            times = window.setInterval(function () {
+                var t = $(obj).children('ul').css('top');
+                t = t.replace('px', '');
+                if (t > -len) {
+                    t--;
+                    $(obj).children('ul').css({top: t})
+                } else {
+                    $(obj).children('ul').css({top: 0})
+                }
+            }, time)
+            $(obj).children('ul').hover(function () {
+                window.clearInterval(times);
+            }, function () {
+                times = window.setInterval(function () {
+                    var t = $(obj).children('ul').css('top');
+                    t = t.replace('px', '');
+                    if (t > -len) {
+                        t--;
+                        $(obj).children('ul').css({top: t})
+                    } else {
+                        $(obj).children('ul').css({top: 0})
+                    }
+                }, time)
+            })
+        }
+    }
+    lunTopFn('.luntop', 50);
+
+    // 彈窗
+    $(function () {
+        $(".link").on('click', function () {
+            var tag = $(this).attr("data-tag");
+            $(".jp-box").show();
+            $(".tag").hide();
+            $("." + tag).show();
+            return false;
+        });
+        $(".closebtn").on('click', function () {
+            $(".jp-box").hide();
+            return false;
+        });
+    });
+
+    // 登錄
+    $('#btn-submit').click(function () {
+        $('form').submit()
+    });
+
+    // 遊客
+    $('#btn-guest').click(function () {
+        var obj = $(this);
+        obj.attr("disabled", true);
+        $.ajax({
+            type       : "get",
+            contentType: "application/json; charset=utf-8",
+            dataType   : "json",
+            url        : "/?a=guest",  //这里是网址
+            success    : function (data) {
+                if (data.code == 0) {
+                    alert('注册游客成功!');
+                    window.location.href = "/pc.php?c=pc";
+                } else {
+                    obj.attr("disabled", false);
+                    alert('注册游客失败，请重试');
+                    return false;
+                }
+            },
+            timeout    : 10000, // 10秒
+            error      : function (XMLHttpRequest, textStatus, errorThrown) {
+                obj.attr("disabled", false);
+                alert('网络异常，请重试');
+                return false;
+            }
+        });
+        return false;
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $.fn.extend({
+            'autoQrcode': function (option) {
+                var default_settings = {
+                    render: "canvas",
+                    ecLevel: 'H',//识别度
+                    fill: '#000',//二维码颜色
+                    background: '#ffffff',//背景颜色
+                    quiet: 2,//边距
+                    text: $(this).data('url'), // 二维码内容
+
+                    // 中间logo end
+                    label: 'jQuery.qrcode',
+                    fontname: 'Ubuntu',
+                    fontcolor: '#ff9818',
+                };
+                option = $.extend(default_settings, option);
+                $(this).qrcode(option);
+            }
+        });
+        var option = {};
+
+        function renderQrcode(option) {
+            $('.qrcode_render').each(function (i, item) {
+                var width, height = 0;
+                $(item).autoQrcode(option);
+                width = $(item).data('width') ? $(item).data('width') : 100;
+                height = $(item).data('height') ? $(item).data('height') : 100;
+                $(item).find('canvas').width(width).height(height);
+            });
+        }
+
+        try {
+            var img = new Image();
+            img.src = "/pc201702/logo/icon/200000074.png";
+            img.onload = function () {
+                option = {
+                    mode: 4,
+                    imagesize: .18,
+                    image: img,
+                };
+                renderQrcode(option);
+            };
+            img.onerror = function () {
+                console.log("图标加载失败");
+                renderQrcode(option);
+            };
+        } catch (e) {
+            console.log("图标不存在");
+            renderQrcode(option);
+        }
+    });
+</script>
+
+<!------------------- 旧页面 --------------->
+
+</body></html>

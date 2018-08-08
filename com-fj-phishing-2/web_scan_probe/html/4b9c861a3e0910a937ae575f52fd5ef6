@@ -1,0 +1,1426 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="http://image.tt66186.com/200000056_1531396713412.png">
+    <link type="text/css" href="//cs.h9k9.com/pc201702/logins/200000056/css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="//cs.h9k9.com/pc201702/js/jquery.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/pc201702/js/jquery.qrcode.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/pc201702/logins/200000056/js/slider.js"></script>
+    <script type="text/javascript" src="//cs.h9k9.com/pc201702/logins/200000056/js/main.js"></script>
+    <title>大本赢娱乐</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+</head>
+
+<body style="">
+<!--头部start-->
+<div class="header">
+    <ul class="wrapper">
+        <li class="clearfix">
+            <div class="fl"><p>您好,欢迎来到大本赢娱乐!</p></div>
+            <div class="fr">
+                                    <b>
+                        <a href="javascript: void(0);" onclick="guest()" style="color: #f00">游客试玩</a>
+                    </b>
+                    <span>|</span>
+                    <script>
+                        function guest() {
+                            obj = $(this);
+                            obj.attr("disabled", true);
+                            $.ajax({
+                                type       : "get",
+                                contentType: "application/json; charset=utf-8",
+                                dataType   : "json",
+                                url        : "/?a=guest",  //这里是网址
+                                success    : function (data) {
+                                    if (data.code == 0) {
+                                        alert('注册游客成功!');
+                                        window.location.href = "/pc.php?c=pc";
+                                    } else {
+                                        obj.attr("disabled", false);
+                                        alert('注册游客失败，请重试');
+                                        return false;
+                                    }
+                                },
+                                timeout    : 10000, // 10秒
+                                error      : function (XMLHttpRequest, textStatus, errorThrown) {
+                                    obj.attr("disabled", false);
+                                    alert('网络异常，请重试');
+                                    return false;
+                                }
+                            });
+                            return false;
+                        }
+                    </script>
+                                <!-- <a href="javascript:void(0);" class="favorite">加入收藏</a>
+                <span>|</span> -->
+                <a href="#" target="_blank" class="link" data-tag="dljm">加入代理</a>
+                <span> | </span>
+                <a href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=53767" target="_blank">在线客服</a>
+                <span> | </span>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000457&amp;site=qq&amp;menu=yes" target="_blank">QQ客服
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--头部end-->
+
+<!--登陆start-->
+<div class="header_login">
+    <ul class="wrapper">
+        <li class="clearfix">
+            <div class="logo fl">
+                <a href="#" title="">
+                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/logo.png" width="225">
+                </a>
+            </div>
+                            <form action="/?c=lottery_user&amp;a=login" method="post" id="login_form" style="position:relative;">
+                    <div class="login_and_resiger fr">
+                        <ul class="clearfix">
+                            <input type="hidden" name="go" value="/pc.php?c=pc">
+                            <div class="username fl">
+                                <img src="//cs.h9k9.com/pc201702/logins/200000056/images/01.jpg" alt="">
+                                <input type="text" placeholder="用户名" name="username" style="width: 80px">
+                            </div>
+                            <div class="password fl">
+                                <img src="//cs.h9k9.com/pc201702/logins/200000056/images/02.jpg" alt="">
+                                <input type="password" placeholder="密码" name="passwd" style="width: 80px">
+                            </div>
+                            <div class="code fl">
+                                <img width="68" src="/?c=auth&amp;a=get_pic_code" alt="" onclick="this.src='./?c=auth&amp;a=get_pic_code&amp;rand='+Math.random()">
+                                <input type="text" placeholder="验证码" name="piccode">
+                            </div>
+                            <div class="btn_default btn_left fl">
+                                <button type="submit">登录</button>
+                            </div>
+                            <div class="btn_default btn_right fl">
+                                <button type="button" onclick="location.href='/pc.php?c=pc_common&amp;a=register'">注册</button>
+                            </div>
+                            <div class="btn_default btn_right fl">
+                                <button type="button" onclick="guest()">游客试玩</button>
+                            </div>
+                        </ul>
+                    </div>
+                </form>
+                    </li>
+    </ul>
+</div>
+<!--登陆end-->
+
+<!--导航start-->
+<div class="nav">
+    <div class="wrapper">
+        <ul class="clearfix">
+            <li class="fl"><span><i>选择彩种</i></span></li>
+<!--            <li class="fl">-->
+<!--                <a href="" target="_blank" class="on">首页</a>-->
+<!--            </li>-->
+            <li class="fl">
+                <a href="/pc.php?&amp;c=pc" class="on" target="_blank">购彩大厅
+                </a>
+            </li>
+            <li class="fl">
+                <a href="//dby3838.com" target="_blank"><i>手机购彩</i></a>
+            </li>
+            <li class="fl">
+                <a href="/pc.php?c=pc&amp;a=dresult&amp;lottery=pk10" target="_blank" class="no_login">开奖结果
+                </a>
+            </li>
+            <li class="fl">
+                <a href="" target="_blank" class="link" data-tag="dljm">合作加盟</a>
+            </li>
+            <li class="fl">
+                <a href="" data-tag="yhzq" class="link active">优惠活动</a>
+            </li>
+            <li class="fl">
+                <a href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=53767" target="_blank">在线客服</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--导航end-->
+
+<!--主体start-->
+<div class="main wrapper">
+    <!--菜单、幻灯片start--->
+    <div class="clearfix">
+        <!--菜单start-->
+        <div class="menus fl">
+            <ul>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/pk10.png?20170718" alt="">
+                        <h4>
+                            <a href="/?c=lottery_pk10&amp;a=pk10" target="_blank" class="no_login">北京赛车</a>
+                        </h4>
+                        <p>每天09:02 - 23:57</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/mspk10.png?20170718" alt="">
+                        <h4>
+                            <a href="/?c=lottery_mspk10&amp;a=mspk10" target="_blank" class="no_login">超级赛车</a>
+                        </h4>
+                        <p>75秒极速PK</p>
+                    </li>
+                                    <li>
+                        <img src="/v201701/images/fulisanfencai.png" alt="">
+                        <h4>
+                            <a href="/?c=lottery_ffc&amp;a=ffc" target="_blank" class="no_login">福利三分彩</a>
+                        </h4>
+                        <p>3分彩24小时开奖</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/pm.png?20170718" alt="">
+                        <h4>
+                            <a href="/?c=lottery_pm&amp;a=pm" target="_blank" class="no_login">跑马</a>
+                        </h4>
+                        <p>24小时跑马不停</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/cjssc.png?20170718" alt="">
+                        <h4>
+                            <a href="/?c=lottery_cjssc&amp;a=cjssc" target="_blank" class="no_login">超级时时彩</a>
+                        </h4>
+                        <p>75秒极速时时彩</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/cqssc.png?20170718" alt="">
+                        <h4>
+                            <a href="/?c=lottery_cqssc&amp;a=cqssc" target="_blank" class="no_login">重庆时时彩</a>
+                        </h4>
+                        <p>每天09:50 - 02:00</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/hk6.png?20170718" alt="">
+                        <h4>
+                            <a href="/?c=lottery_hk6" target="_blank" class="no_login">香港六合彩</a>
+                        </h4>
+                        <p>周二、四、六 21:30</p>
+                    </li>
+                                    <li>
+                        <img src="//cs.h9k9.com/pc201702/images/xy28.png?20170718" alt="">
+                        <h4>
+                            <a href="/?c=lottery_pcdd&amp;a=pcdd" target="_blank" class="no_login">幸运28</a>
+                        </h4>
+                        <p>每天09:05 - 23:55</p>
+                    </li>
+                            </ul>
+            <!-- <ul class="more">
+                <a href="#" target="_blank">更多游戏</a>
+            </ul> -->
+        </div>
+        <!--菜单end-->
+        <!--幻灯片start-->
+        <div class="banner fr" id="demo01">
+            
+        <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 1400%; -webkit-transition: 0s; transition: 0s; transform: translate3d(-746px, 0px, 0px);"><li class="clone" style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000056_1531397017107.jpg" alt="">
+                            </a>
+                        </li>
+                                        <li class="flex-active-slide" style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000056_1531397065534.jpg" alt="">
+                            </a>
+                        </li>
+                                                <li style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000056_1531397063657.jpg" alt="">
+                            </a>
+                        </li>
+                                                <li style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000056_1531397022174.jpg" alt="">
+                            </a>
+                        </li>
+                                                <li style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000056_1531397020416.jpg" alt="">
+                            </a>
+                        </li>
+                                                <li style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000056_1531397017107.jpg" alt="">
+                            </a>
+                        </li>
+                                    <li class="clone" style="width: 746px; float: left; display: block;">
+                            <a href="javascript:void(0);" target="_blank">
+                                <img src="//c.h9k9.com/200000056_1531397065534.jpg" alt="">
+                            </a>
+                        </li></ul></div><ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a>2</a></li><li><a>3</a></li><li><a>4</a></li><li><a>5</a></li></ol><ul class="flex-direction-nav"><li class="fl"><a class="flex-prev" href="#">Previous</a></li><li class="fr"><a class="flex-next" href="#">Next</a></li></ul></div>
+        <!--幻灯片end-->
+    </div>
+    <!--菜单、幻灯片end--->
+
+    <!--最新公告start-->
+    <div class="new_notice">
+        <ul class="clearfix">
+            <span>最新公告：</span>
+            <marquee onmouseout="this.start();" onmouseover="this.stop();">
+                <p>APP升级完成!!!请会员重新下载最新APP.独享域名,尊贵品质免费赠送！推荐使用银行卡转账(大额秒到)赠送0.3%无上限！更多详情加客服QQ:4000457</p>
+            </marquee>
+        </ul>
+    </div>
+    <!--最新公告end-->
+
+    <!--彩票分类start-->
+    <div class="type_index">
+        <ul class="clearfix">
+            <!--左栏目start-->
+            <li class="left fl">
+                <div class="type_tab">
+                                            <a href="javascript:void(0)" class="on" data-type="pk10">北京赛车</a>
+                                            <a href="javascript:void(0)" data-type="mspk10">超级赛车</a>
+                                            <a href="javascript:void(0)" data-type="ffc">福利三分彩</a>
+                                            <a href="javascript:void(0)" data-type="pm">跑马</a>
+                                            <a href="javascript:void(0)" data-type="cjssc">超级时时彩</a>
+                                            <a href="javascript:void(0)" data-type="cqssc">重庆时时彩</a>
+                                            <a href="javascript:void(0)" style="margin-right: 0px;" data-type="hk6">香港六合彩</a>
+                                    </div>
+                <div class="type_reviews">
+                    <!--重庆时时彩start-->
+                                            <ul>
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name">北京赛车</span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period">697217</span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date">2018 08-08 12:52:30</i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"><li>10</li><li>4</li><li>6</li><li>2</li><li>9</li><li>7</li><li>3</li><li>8</li><li>5</li><li>1</li></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_pk10&amp;a=pk10" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_mspk10&amp;a=mspk10" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_ffc&amp;a=ffc" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_pm&amp;a=pm" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_cjssc&amp;a=cjssc" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_cqssc&amp;a=cqssc" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_hk6" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                            <ul class="disable" style="display: none;">
+                            <li class="clearfix">
+                                <div class="fl imgs">
+                                    <img src="//cs.h9k9.com/pc201702/logins/200000056/images/13.jpg" alt="">
+                                </div>
+                                <div class="fr cons">
+                                    <ul class="clearfix view_qi">
+                                        <li>
+                                            <p>
+                                                <i>彩种</i>
+                                                <span class="game_name"></span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>期号</i>
+                                                第 <span class="game_period"></span> 期
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <i>开奖时间</i>
+                                                <i class="game_open_date"></i>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="view_gl">
+                                        <span>开奖号码</span>
+                                        <div class="game_result"></div>
+                                    </ul>
+                                    <ul class="clearfix now_tz">
+                                        <a href="/?c=lottery_pcdd&amp;a=pcdd" target="_blank" class="no_login">
+                                            立即投注
+                                        </a>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                                    </div>
+            </li>
+            <!--左栏目send-->
+            <!--右栏目start-->
+            <li class="right fr">
+                <div class="download_title">
+                    <h2>手机客户端下载</h2>
+                </div>
+                <div class="sownload_info">
+                    <ul class="code_list clearfix">
+                        <li class="fl" style="text-align: center">
+                            <img id="img-buffer" src="http://image.tt66186.com/200000056_1531396713412.png" style="display: none">
+                            <div class="ios qrcode_render" data-url="https://743888.com" data-width="100" data-height="100">
+                            <canvas width="200" height="200" style="width: 100px; height: 100px;"></canvas></div>
+                            <div class="android disable qrcode_render" data-url="https://743888.com" data-width="100" data-height="100">
+                            <canvas width="200" height="200" style="width: 100px; height: 100px;"></canvas></div>
+                        </li>
+                        <li class="fr con_code">
+                            <div>
+                                <a href="javascript:void(0)" target="_self" class="show_ios">Iphone版</a>
+                            </div>
+                            <div>
+                                <a href="javascript:void(0)" target="_self" class="show_android">Android版</a>
+                            </div>
+                            <!-- <div><a href="##" target="_blank" class="way_more">更多方式</a></div> -->
+                        </li>
+                    </ul>
+
+                    <ul class="notice_tab">
+                        <a href="javascript:void(0)" class="on">网站公告</a>
+                        <a href="javascript:void(0)">新手指导</a>
+                    </ul>
+                    <ul class="notice_reviews">
+                        <div>
+                            <ul>
+                                <li>
+                                    下载手机APP简单方便快速投注!
+                                </li>
+                                <li>
+                                    全网支持：微信/支付宝/银联/快速充值！
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="disable">
+                            <ul>
+                                <li>
+                                    <a href="#" class="link" data-tag="cjwt">如何加入官方彩票投注平台？</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="link" data-tag="cjwt">在哪里可以找到游戏规则？</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="link" data-tag="cjwt">最高投注额有限制吗？</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </li>
+            <!--右栏目send-->
+        </ul>
+    </div>
+    <!--彩票分类end-->
+
+    <!--广告位start-->
+    <div class="position_img">
+        <a href="#" target="_blank">
+            <img src="//cs.h9k9.com/pc201702/logins/200000056/images/189.jpg?v=52">
+        </a>
+    </div>
+    <!--广告位end-->
+
+    <!--弹窗start-->
+    <div class="jp-box" id="show_Lis" style="display: none;">
+        <div class="container">
+            <div class="tit">
+                <span class="tittext fl"></span>
+                <span class="closebtn fr">关闭</span>
+            </div>
+            <ul>
+                <li class="dljm tag" style="display: list-item;">
+                    <div class="wrap">
+                        <div class="text"><h1 style="text-align:center;background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	代理加盟说明
+</h1>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	大本赢娱乐拥有多元化的产品，使用最公平、公正、公开的系统，在市场上的众多博彩网站中，我们自豪的提供会员最优惠的回馈，给予合作伙伴最优势的营利回报! 无论 拥有的是网络资源，或是人脉资源，都欢迎您来加入<span style="font-family:Arial, &quot;font-size:14px;background-color:#FFFFFF;">大本赢娱乐</span>合作伙伴的行列，无须负担任何费用，就可以开始无上限的收入。 选择<span style="font-family:Arial, &quot;font-size:14px;background-color:#FFFFFF;">大本赢娱乐</span>，绝对是您最聪明的选择!
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	代理条件：
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	1.具有便利的计算机上网设备。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	2.有一定的人脉资源、网络资源或自己的广告网站。
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	3.每期都要有5个实际有效投注的会员以上！
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	有效会员：
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	月结区间内进行过最少五次有效下注且投注总额不低于1000RMB的会员！如联盟体系当月未达﹛月最低有效会员﹜最低门坎5人，则该月无法领取佣金回馈。联盟体系当月营利达到标准，而﹛月最低有效会员﹜人数未达相应最低门坎，则该月佣金比例依照﹛月最低有效会员﹜人数所达门坎相应的百分比进行退佣。
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	代理收入：
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	比如您本月的代理账号内有赢利的情况下，可拥有以下收入:
+</p>
+<table style="margin:0px 0px 10px;width:535px;text-align:center;color:#000000;font-size:14px;background-color:#FFFFFF;padding:0px;font-family:Arial, &quot;">
+	<tbody>
+		<tr>
+			<th width="33%" style="background:#3255FF;border:2px solid #FFFFFF;font-weight:400;">
+				月盈利总量
+			</th>
+			<th width="33%" style="background:#3255FF;border:2px solid #FFFFFF;font-weight:400;">
+				有效会员
+			</th>
+			<th width="33%" style="background:#3255FF;border:2px solid #FFFFFF;font-weight:400;">
+				分红比例
+			</th>
+		</tr>
+		<tr>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				1千-5万
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				5人以上
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				10%
+			</td>
+		</tr>
+		<tr>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				5万-20万
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				15人以上
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				15%
+			</td>
+		</tr>
+		<tr>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				20万-50万
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				25人以上
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				20%
+			</td>
+		</tr>
+		<tr>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				50万-100万
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				35人以上
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				25%
+			</td>
+		</tr>
+		<tr>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				100万以上
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				45人以上
+			</td>
+			<td style="background:#B9C5FF;border:2px solid #FFFFFF;">
+				30%
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	作为一名尊贵的<span style="font-family:Arial, &quot;font-size:14px;background-color:#FFFFFF;">大本赢娱乐</span>合作伙伴，您可以利用您的资源简单赚取高额佣金，轻松实现成功与财富的梦想！
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	*注:禁止代理商私自开设会员帐号进行非法投注套利。以及调整代理后台的任何赔率反水，不统计报表，唯一佣金是会员负盈利。任何使用不诚实方法骗取代理佣金或下线会员与代理商同IP的我们视为代理商自己开设会员游戏，将取消代理资格并永久冻结账户，佣金一律不予发放。同IP出现多个会员的话，将被视为无效会员，不得计算在内。 敬请联系代理专员QQ 138748888&nbsp; 微信：dby33789&nbsp; 详细洽谈。
+</p></div>
+                    </div>
+                </li>
+                <li class="yhzq tag">
+                    <div class="wrap">
+                        <div class="text"><blockquote>
+	<h1 style="text-align:center;">
+		<p class="MsoNormal" align="center" style="text-align:center;">
+			<b><span>火速到账</span> <span>零风险</span> <span>零手续费</span></b><b></b> 
+		</p>
+	</h1>
+	<p>
+		<br>
+	</p>
+	<p class="MsoNormal">
+		<b>好消息！好消息！</b><b></b> 
+	</p>
+	<p class="MsoNormal">
+		<b><span>便捷充值火速到账</span> <span>支付宝转账银行卡送福利！</span></b> 
+	</p>
+	<p>
+		<br>
+	</p>
+	<p class="MsoNormal" style="text-align:left;">
+		<b><span><img src="//c.h9k9.com/image/20171117/20171117175132_43416.jpg" alt=""> </span></b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="margin-left:0pt;text-indent:0pt;text-align:justify;">
+		<b><span style="font-size:14px;color:#E53333;"><strong>一、</strong></span><span style="font-size:14px;"><strong><span style="color:#E53333;">微信、支付宝转银行卡</span></strong>（<strong>便捷高效，额外<span style="color:#E53333;">返利</span></strong></span><span style="font-size:14px;color:#E53333;"><strong>0.2%</strong></span><span style="font-size:14px;">）</span> </b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;"><u>微信：</u></span> </b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>1、打开微信，点击右上角“+”选择收付款；</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>2、点击“转账到银行卡”，填写平台提供的收款信息；</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>3、按“下一步”填写金额，确认转账；</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>4、在平台提交充值订单，即可完成充值</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;"><u>支付宝：</u></span> </b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>1、打开支付宝，在首页选择“转账”，填写平台提供的收款信息和金额；</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>2、按“下一步”确认转账</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>3、在平台提交充值订单，即可完成充值</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;color:#E53333;"><strong>二、</strong></span><span style="font-size:14px;"><strong><span style="color:#E53333;">银行转账</span></strong>（<strong>大额首选，火速到账，额外<span style="color:#E53333;">返利</span></strong></span><span style="font-size:14px;color:#E53333;"><strong>0.2%</strong></span><span style="font-size:14px;">）</span> </b> 
+	</p>
+	<p class="MsoNormal">
+		<b>1、选择“银行转账”，输入充值金额，点击“下一步”获取收款信息；</b> 
+	</p>
+	<p class="MsoNormal">
+		<b>2、打开手机银行或网银，选择转账，填写平台收款信息和充值金额，确认转账；</b> 
+	</p>
+	<p class="MsoNormal">
+		<b>3、在平台点击“提交充值”即可完成充值。</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;"><strong><span style="color:#E53333;">三、微信、支付宝转账</span></strong>（<strong>简单易操作，可跟踪进度</strong>）</span> </b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>1、添加平台的收款微信或支付宝，转账充值金额；</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>2、在平台提交充值订单，即可完成充值</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;"><strong><span style="color:#E53333;">四、在线充值</span></strong>（<strong>第三方入款，自动到账，无须等待</strong>）</span> </b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;">网银、微信、支付宝、</span><span style="font-size:14px;">QQ</span><span style="font-size:14px;">钱包、京东等充值支付渠道！</span> </b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>1、选择支付渠道后，自动跳转第三方收银台；</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>2、按照页面提示支付；即可完成存款，实时到账！</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span>3、<span>银联APP扫码：扫一扫二维码，付款成功&nbsp;</span></span><span style="color:#E53333;font-size:14px;"><strong>返利0.2%</strong></span><br>
+</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b>&nbsp;</b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;"><strong><span style="color:#E53333;">尊敬的大本赢会员，我们承诺</span></strong>：您的充值只要成功支付，资金绝对安全，都会第一时间添加到您的游戏账户！如未到账，请随时咨询在线客服为您处理！客服QQ：4000457</span> </b> 
+	</p>
+	<p class="MsoNormal" align="justify" style="text-align:justify;">
+		<b><span style="font-size:14px;">感谢您一路以来对我们的支持与信任，祝您中奖多多，盈利丰收！！！</span> </b> 
+	</p>
+	<p>
+		<br>
+	</p>
+</blockquote></div>
+                    </div>
+                </li>
+                <li class="cqbz tag">
+                    <div class="wrap">
+                        <div class="text">
+                            <p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	本公司提供多种存款，7×24小时可随时存款。支持「汇款」与「在线支付」方式存款。最低存款金额10，汇款暂无最高限制。
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	汇款存款方法
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	会员登入后点选「存款提款」，选择「在线存款」。 在页面上方「汇款存款」栏查看本公司最新的银行财务账号，将您要存款的钱通过网银、ATM、柜台等方式转入相应的账户中。然后在下方的汇款提交栏中输入您汇款的金额，选择您汇款的银行以及时间等。填写完毕提交，提交完后，耐心稍等片刻，工作人员会第一时间为您做确认处理。确认通过后您的账户余额会自动更新。您也可以随时在账户的近期记录中查询您提交的信息的状态以及处理时间。如长时间未处理的，请您核对您的资金转出是否成功，转入的账号是否正确。
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	在线支付存款方法
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	会员登入后点选「存款提款」，选择「在线存款」。 在页面下方「在线存款」栏输入存款金额，确定，进入「确认」页面，选择您要付款的银行，并核对存款金额，提交后便进入银行支付页面。按照银行的支付流程付款。付款完成请不要过快关闭窗口。等待银行回调页面。付款成功余额将会自动更新。如您付款完成后余额没有更新，请马上联系我们在线客服人员。
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	提款帮助
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	大本赢娱乐致力为会员提供最优质的服务,7×24小时随时提款，最低取款100,每天取款无限制。不需要支付任何费用。提款方法如下：
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	会员登入后点选「存款提款」，选择「在线提款」。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	并确认提款人姓名与您绑定的银行帐号持有人相符，第一次提款如未先绑定请到「会员资料」页面中绑定。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	输入「取款金额」以及「提款密码」，然后提交，稍等片刻工作人员收到申请核对无误后马上转入您的银行账户。
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	目前公司支持银行卡提款方式，不支持支付宝、财付通提款。
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	取款须知
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	1 、银行账户持有人姓名必须与您绑定时输入的姓名一致，否则无法到账。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	2 、大陆各银行帐户均可申请提款。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	3 、每个账户24小时无限制申请提款。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	4 、买彩后未经全额投注提彩申请不予受理。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	5 、每位客户只可以使用一张银行卡进行提款，如需要更换银行卡请与客服人员联系。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	6 、为保障客户资金安全，有可能需要与您电话联系验证或其它资料验证，以确保客户资金不会被冒领。
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	7、本站24小时均可申请提款，提款需三至十钟内到账，提款不收取任何手续费
+</p>                        </div>
+                        <div class="logo"></div>
+
+                    </div>
+                </li>
+                <li class="cjwt tag">
+                    <div class="wrap">
+                        <div class="text">
+                            <p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	一般常见问题
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	1: 如何加入大本赢娱乐？
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	您可以直接点选 “免费注册”，确实填写资料后，可立即登记成为<span style="font-family:Arial, &quot;font-size:14px;background-color:#FFFFFF;">大本赢娱乐</span>会员。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	2: 我可以直接在网络上存款提款吗？
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	可以，<span style="font-family:Arial, &quot;font-size:14px;background-color:#FFFFFF;">大本赢娱乐</span>提供多种线上存款选择，详情请参照 “存款提款”
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	3: 我在哪里可以找到游戏规则？
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	在未登入前，您可以在游戏的最外层看到”游戏规则”选项，清楚告诉您游戏的玩法、规则及派彩方式。在游戏视窗中,也有”规则”选项，让您在享受游戏乐趣的同时，弹跳视窗随时提醒您游戏规则。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	4: 单注投注额最低是？
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	我们单注最低投注额为人民币1元.
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	5: 最高投注额有限制吗？
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	任何一家正规博彩和网络博彩公司对客户的帐户投注都有单注和单注限额，没有限额的公司都基本属于没有任何风险控制的私人或骗子公司，今天的控制是为了明天能保证100%提款给您，这点您可以自行分析。每个项目都有不同的限额设定，详细请登陆会员都在「会员资料」页面查看。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	6: 我帐户里面的帐怎麽结算？
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	请到登入会员，会员页面查看，「结算报表」按天显示每天的结算结果，点击退水后的结果一栏对应的结果数字进入明细！
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	游戏及投注问题
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	1: 我哪里可以找到游戏的规则？
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	请查看”规则说明”页面，清楚告诉您游戏的玩法、规则及派彩方式。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	2: 如果忘记密码怎麽办？
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	您可通过联系24小时线上客服人员谘询协助取回您的帐号密码。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	3: 当忘记提款密码时怎麽办？
+</p>
+<p class="mgb15" style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	您可通过联系24小时线上客服人员谘询协助取回您的取款密码。
+</p>
+<p class="cred" style="background-color:#FFFFFF;color:red;font-family:Arial, &quot;font-size:14px;">
+	联系我们
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	如果您在存款、提款方面遇到问题，您可以优先使用站内信与我们取得联系。
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	由于在线客服咨询人数过多时，请通过网站站内信与我们取得联系！
+</p>
+<p style="background-color:#FFFFFF;font-family:Arial, &quot;font-size:14px;">
+	QQ联系：4000457
+</p>                        </div>
+                        <div class="logo"></div>
+                    </div>
+                </li>
+                <li class="gywm tag">
+                    <div class="wrap">
+                        <div class="text">
+                            <div class="text">
+                                <p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	大本赢娱乐总部位于菲律宾马尼拉，是获得卡格杨地区（FIRST CAGAYAN）的法律管辖，政府认证的互联网彩票投注平台。
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	由业界精英组成的金牌专业技术团队，进一步将研究结果实践在产品完善化上。
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	我们拥有最专业的客服人员、最先进的技术团队、最安全的保密系统、最雄厚的资金实力，并自豪的成为业界最强的优惠方式和盈利回报回馈我们的广大客户及合作伙伴。
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	在网络娱乐平台日新月异的激烈环境中，我们始终坚持以客户价值为导向坚持公平公正.
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	以满足客户需求为宗旨；为广大新老客户提供最优质的服务享受和游戏体验。
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	我们的优势
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	大本赢平台是菲律宾大型彩票集团整合行业资源巨资打造的代理制在线彩票娱乐品牌。<span>大本赢娱乐</span>于2010年1月正式被集团立项投资，聘请国外专业技术团队用一年多时间独立研发最流畅坚固的彩票投注系统。研发总部及客服中心位于菲律宾马尼拉商业中心MAKATI。大本赢娱乐是一家合法的彩票销售机构投注平台.为玩家提供多元化游戏乐趣，平台开奖数据同步官方，彩票资讯，彩票交流，开奖数据统计及分析服务，平台拥有了最全面的游戏彩种，真人视讯，体育博弈，电子游戏，捕鱼游戏等！平台锐意创新，凭借一流的技术打响了娱乐界的口号，为用户打造长期稳定的游戏体验，让大家享受公平公正的娱乐品质！无论您在游戏期间有任何问题，我们的客服人员将一对一，心一般的服务，给您带来一个开心愉快的娱乐环境！
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	<br>
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2006年9月 大本赢娱乐网站正式上线，签约菲律宾（FIRST CAGAYAN）互联网娱乐平台；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2007年1月 成功签约澳门赌场存取款，会员当天最高可在澳门赌场提现1000万;
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2008年1月 大本赢娱乐当选中国最具投资潜力媒体”菲律宾互联网信誉评级网站；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2009年6月 第一个客户端游戏“官方彩票”实现手机投注的指尖游戏；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	<span>2009年</span>7月 大本赢娱乐注册用户首次突破1千万;
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2010年5月 大本赢娱乐正式签约台湾BBIN公司，接入的真人游戏在线娱乐；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2011年1月 首次与盛大合作，正式推出平台高级管理员和大本赢会员澳门七天游互动活动；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2012年4月 大本赢娱乐荣获互联网娱乐“最佳创新营销奖”；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	<span>2012年</span>5月 大本赢娱乐正式开通AG真人娱乐，签约5000万客户资金安全保障金；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	<span>2012年</span>9月 “我的成就”体系全面上线，大本赢娱乐体现娱乐的影响力和号召力10月 “大本赢娱乐”频道全面启动，送出第一台夺宝iPad
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2013年1月 大本赢娱乐苹果手机ios手机客户端正式上线，用户体验感受非凡；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	<span>2013年</span>8月 大本赢娱乐试玩频道正式上线，拓展手机试玩新平台，为提供了更方便的游戏途径;
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2014年6月 大本赢荣获2014全球第三届移动互联网拳头奖“最佳游戏渠道奖”
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2015年12月 大本赢娱乐全新升级改版,新增体育赛事，捕鱼达人游戏；
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2016年1月 大本赢娱乐平台全面登陆手机版本,苹果,安卓强势上线全面升级。
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2016年3月 大本赢娱乐升级旗舰版本,更专业,更便捷,更安全
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2016年6月 开办端午节抢 "粽子红包" 签到送彩金活动！
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2016年10月 大本赢娱乐全面升级新增彩票双面玩法，实现平台游戏彩种多，简单便捷易中的游戏玩法规则;
+</p>
+<p style="color:#333333;font-family:sans-serif;font-size:14px;background-color:#FFFFFF;">
+	2017年02月 大本赢娱乐成功举办神秘彩金活动，最高奖288888超值礼包。
+</p>                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--弹窗end-->
+
+    <style>
+        .jp-box {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            background-color: rgba(0, 0, 0, .5)
+        }
+
+        .jp-box .container {
+            position: absolute;
+            left: 50%;
+            top: 25%;
+            margin: -100px 0 0 -320px;
+            background: #051037
+        }
+
+        .jp-box ul {
+            height: 420px;
+            width: 640px
+        }
+
+        .jp-box li {
+            position: absolute;
+            left: 10px;
+            top: 53px;
+            background: #fff;
+            height: 400px;
+            width: 620px
+        }
+
+        .jp-box .tit {
+            width: 600px;
+            height: 43px;
+            background: url(../img/bg_dltop.jpg) no-repeat center;
+            padding: 0 20px;
+            color: #fff
+        }
+
+        .jp-box .tit span {
+            line-height: 43px
+        }
+
+        .jp-box .tit .tittext {
+            font-size: 20px;
+            font-weight: 700
+        }
+
+        .jp-box .tit .closebtn {
+            cursor: pointer
+        }
+
+        .jp-box .tit .closebtn:hover {
+            color: #eee
+        }
+
+        .jp-box .wrap {
+            padding: 10px 30px 10px 40px;
+            margin: 10px 5px 10px 0;
+            height: 360px;
+            overflow-x: hidden
+        }
+
+        .jp-box ::-webkit-scrollbar {
+            width: 8px
+        }
+
+        .jp-box ::-webkit-scrollbar-thumb {
+            background-color: #00179a;
+            border: 2px solid #051037;
+            -webkit-border-radius: 2em;
+            -moz-border-radius: 2em;
+            border-radius: 2em
+        }
+
+        .jp-box ::-webkit-scrollbar-track {
+            background-color: #051037;
+            -webkit-border-radius: 2em;
+            -moz-border-radius: 2em;
+            border-radius: 2em
+        }
+
+        .jp-box .links {
+            margin: 0 30px 10px
+        }
+
+        .jp-box .links a {
+            float: left;
+            margin: 0 30px
+        }
+
+        .jp-box table {
+            margin-bottom: 10px;
+            width: 100%;
+            text-align: center
+        }
+
+        .jp-box table th {
+            background: #3255ff;
+            height: 35px;
+            border: 2px solid #fff;
+            font-weight: 400
+        }
+
+        .jp-box table td {
+            background: #b9c5ff;
+            height: 35px;
+            border: 2px solid #fff
+        }
+
+        .jp-box .logo {
+            width: 120px;
+            height: 44px;
+            background: url('../img/logo.png') no-repeat center;
+            margin: 0 auto
+        }
+
+    </style>
+
+    <!--底部start-->
+    <div class="footer">
+        <div class="f_about">
+            <ul class="wrapper">
+                <a href="" class="link" data-tag="cjwt">常见问题</a>
+                <span> | </span>
+                <a href="" class="link active" data-tag="yhzq">优惠活动</a>
+                <span> | </span>
+                <a href="" class="link" data-tag="cqbz">存取帮助</a>
+                <span> | </span>
+                <a href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=53767" target="_blank">在线客服</a>
+                <span> | </span>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=4000457&amp;site=qq&amp;menu=yes" target="_blank">QQ客服4000457</a>
+            </ul>
+        </div>
+        <div class="f_copy">
+            <ul>
+                <img src="//cs.h9k9.com/pc201702/logins/200000056/images/18.jpg" alt="">
+                <img src="//cs.h9k9.com/pc201702/logins/200000056/images/19.jpg" alt="">
+                <img src="//cs.h9k9.com/pc201702/logins/200000056/images/20.jpg" alt="">
+                <img src="//cs.h9k9.com/pc201702/logins/200000056/images/21.jpg" alt="">
+                <img src="//cs.h9k9.com/pc201702/logins/200000056/images/22.jpg" alt="">
+            </ul>
+            <ul>
+                <p>大本赢娱乐郑重提示：彩票有风险，投注需谨慎！ 不向未满18周岁的青少年出售彩票</p>
+                <p>©大本赢娱乐 | 官网：
+                    <a href="https://88788.com/" target="_blank">
+                        88788.com
+                    </a>
+                   ©
+                </p>
+            </ul>
+        </div>
+    </div>
+
+
+<div class="ad_floating floating_left">
+    <a class="btn" target="_blank" href="javascript: void(0);" title="免费试玩" onclick="guest()">免费试玩</a>
+    <a class="btn close" href="javascript: void(0);">关闭</a>
+    <div class="qrcode_render" data-url="https://743888.com" data-width="94" data-height="94"><canvas width="200" height="200" style="width: 94px; height: 94px;"></canvas></div>
+</div>
+<div class="ad_floating floating_right">
+    <a class="btn" target="_blank" href="https://static.meiqia.com/dist/standalone.html?_=t&amp;eid=53767" title="在线客服">在线客服</a>
+    <a class="btn close" href="javascript: void(0);">关闭</a>
+    <div class="qrcode_render" data-url="https://743888.com" data-width="94" data-height="94"><canvas width="200" height="200" style="width: 94px; height: 94px;"></canvas></div>
+</div>
+<!--<a href="http://dbyvip.com/" target="_blank">-->
+<!--    <img class="active11" src="--><!--/images/active.gif"/>-->
+<!--</a>-->
+<style>
+    .active11 {
+        width: 100px;
+        position: fixed;
+        right: 20px;
+        bottom: 40px;
+    }
+
+    div.ad_floating {
+        height: 326px;
+        width: 203px;
+        position: fixed;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    div.floating_left {
+        background: url('//cs.h9k9.com/pc201702/logins/200000056/images/floating_left.png') no-repeat center center;
+        background-size: 100%;
+        left: 10px;
+    }
+
+    div.floating_right {
+        background: url('//cs.h9k9.com/pc201702/logins/200000056/images/floating_right.png') no-repeat center center;
+        background-size: 100%;
+        right: 10px;
+    }
+
+    div.ad_floating a.btn {
+        line-height: 99999;
+        content: ' ';
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    div.ad_floating a.btn:first-child {
+        top: 74px;
+    }
+
+    div.ad_floating a.btn:nth-child(2) {
+        top: 275px;
+        height: 40px;
+    }
+
+    div.ad_floating .qrcode_render {
+        position: absolute;
+        width: 94px;
+        height: 94px;
+        left: 34px;
+        top: 148px;
+        background: #fff;
+    }
+    div.ad_floating:nth-child(2n+1) .qrcode_render {
+        left: 76px;
+    }
+
+</style>
+<script>
+    $('.ad_floating a.close').bind('click', function () {
+        $(this).parent().hide();
+    });
+</script>
+
+
+
+
+    <!--底部end-->
+    <script>
+        $(function () {
+            $.fn.extend({
+                'autoQrcode': function (option) {
+                    var default_settings = {
+                        render: "canvas",
+                        ecLevel: 'H',//识别度
+                        fill: '#000',//二维码颜色
+                        background: '#ffffff',//背景颜色
+                        quiet: 2,//边距
+                        text: $(this).data('url'), // 二维码内容
+
+                        // 中间logo end
+                        label: 'jQuery.qrcode',
+                        fontname: 'Ubuntu',
+                        fontcolor: '#ff9818',
+                    };
+                    option = $.extend(default_settings, option);
+                    $(this).qrcode(option);
+                }
+            });
+            var option = {};
+
+            function renderQrcode(option) {
+                $('.qrcode_render').each(function (i, item) {
+                    var width, height = 0;
+                    $(item).autoQrcode(option);
+                    width = $(item).data('width') ? $(item).data('width') : 100;
+                    height = $(item).data('height') ? $(item).data('height') : 100;
+                    $(item).find('canvas').width(width).height(height);
+                });
+            }
+
+            try {
+                var img = new Image();
+                img.src = "http://image.tt66186.com/200000056_1531396713412.png";
+                img.onload = function () {
+                    option = {
+                        mode: 4,
+                        imagesize: .18,
+                        image: img,
+                    };
+                    renderQrcode(option);
+                };
+                img.onerror = function () {
+                    console.log("图标加载失败");
+                    renderQrcode(option);
+                };
+            } catch (e) {
+                console.log("图标不存在");
+                renderQrcode(option);
+            }
+        });
+        $(function () {
+            $('.active').click(function(){
+                $('.container').css({'left':'44%','height':'750px','top':'20%'});
+                $('.tit').css({'width':'850px'});
+                $('.yhzq').css({'width':'850px','height':'660px'});
+                $('.yhzq .wrap').css({'height':'630px'});
+            });
+
+            $('.closebtn ').click(function(){
+                $('.container').css({'left':'50%','height':'463px','top':'25%'});
+                $('.tit').css({'width':'600px'});
+                $('.yhzq').css({'width':'620px','height':'400px'});
+                $('.yhzq .wrap').css({'height':'360px'});
+            });
+        });
+    </script>
+
+</div></body></html>

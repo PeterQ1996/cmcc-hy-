@@ -1,0 +1,537 @@
+<!DOCTYPE html><html><head>
+	    <title>Welcome 88彩票网</title>
+    <link rel="icon" type="image/x-icon" href="https://img.sg88.ws/88/88_favicon.ico">
+	<meta name="”keyword”" content="”Welcome“"> 
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link type="text/css" href="/nomain88/css/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="/nomain88/css/layer.css" id="layui_layer_layercss" style="">
+    <link rel="stylesheet" href="/js/jquery-ui/styles/jquery-ui.css">
+    <script src="/js/jquery.js" type="text/javascript"></script>
+    <script src="/nomain88/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="/nomain88/js/jquery.textslider.js" type="text/javascript"></script>
+    <script src="/nomain88/js/global.js" type="text/javascript"></script>
+    <script src="/nomain88/js/home.js" type="text/javascript"></script>
+    <script src="/nomain88/js/layer.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/js/jquery-ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/dialog.js"></script>
+    <script type="text/javascript" src="/js/libs.js"></script>
+
+    <script type="text/javascript">
+        function hezuo() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>代理合作',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '85%'],
+                content: $('#m1')
+
+            });
+        }
+        function youhui() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>最新优惠',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '85%'],
+                content: $('#youhui')
+
+            });
+        }
+
+        function answer() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>常见问题',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '80%'],
+                content: $('#m2')
+
+            });
+        }
+
+
+        function about() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>关于我们',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '80%'],
+                content: $('#m3')
+
+            });
+        }
+        $(document).ready(function() {
+            $("#scrollDiv").load('getnotice?c=10',
+            	function(){
+            		$(this).textSlider({ line: 1, speed: 1000, timer: 6000 });
+            	}
+            );
+        });
+        function guestLogin() {
+    		$('form input[name=account],form input[name=password]').val('!guest!');
+    		$('form').submit();
+    	}
+        $(function(){$('#promodiv').load('promo');})
+    </script>
+    
+<script type="text/javascript">
+  $(function(){
+      $("#username,#password_txt,#affKey").focus(function(){ 
+	     $(this).addClass("input-txt");
+	  });
+	  $("#username,#password_txt,#affKey").blur(function(){
+		 $(this).removeClass("input-txt");
+		 var txt_value =  $(this).val();   // 得到当前文本框的值
+			if(txt_value!=""){
+		       $(this).addClass("input-txt");
+			} 
+	  }).blur();
+  });
+</script>
+    <style>
+        A.applink:hover {
+            border: 2px dotted #DCE6F4;
+            padding: 2px;
+            background-color: #ffff00;
+            color: green;
+            text-decoration: none;
+        }
+
+        A.applink {
+            border: 2px dotted #DCE6F4;
+            padding: 2px;
+            color: #2F5BFF;
+            background: transparent;
+            text-decoration: none;
+        }
+
+        A.info {
+            color: #2F5BFF;
+            background: transparent;
+            text-decoration: none;
+        }
+
+            A.info:hover {
+                color: green;
+                background: transparent;
+                text-decoration: underline;
+				
+            }
+    </style>
+</head>
+<body style="">
+<div class="header">
+	<div class="logo">
+			<a href="/"><img src="https://img.sg88.ws/88/88_logo_g.png" alt="88彩票网">
+		    </a>
+	</div>
+	<div class="logor">
+		<img src="/nomain88/imgs/logor.png">
+	</div>
+	<div class="notice">
+		<div class="notice-bg">
+		</div>
+		<div class="notice-div">
+			<span class="STYLE9">站内公告:</span>
+			<div id="scrollDiv" class="scrollText"><ul><li>尊敬的会员您好：即日起极速系列彩种时间改成北京时间早上7点开盘，凌晨6点封盘，大大的满足了更多会员的游戏需求，感谢您对88彩票长期以来的支持与信任！
+</li><li>尊敬的会员：为了给大家创造一个良好的游戏平台，本平台禁止下注7 8 9个号码，如有发现，一律视为投注无效，没收盈利，退还本金，情节严重者将永久冻结会员账号！请会员注意，谢谢！~</li><li>88彩票，全新聊天室caiqun11.com 带给您不一样交流，计划，红包发不停，望新老会员踊跃参与，祝广大会员天天中大奖！！！</li></ul></div>
+		</div>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="register">立即开户</a></li>
+			<li><a href="javascript:hezuo()">代理合作</a></li>
+			<li><a href="javascript:youhui()">最新优惠</a></li>
+			<li><a href="javascript:answer()">常见问题</a></li>
+			<li><a href="javascript:about()">关于我们</a></li>
+		</ul>
+	</div>
+</div>
+<div class="main">
+	<div class="flash">
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" name="gameobj" width="650" height="341" id="gameobj">
+			<param name="movie" value="/nomain88/imgs/top_noaff.swf">
+			<param name="flashvars" value="">
+			<param name="quality" value="high">
+			<param name="bgcolor" value="#000">
+			<param name="allowScriptAccess" value="always">
+			<param name="wmode" value="transparent">
+			<embed src="/nomain88/imgs/top_noaff.swf" width="650" type="application/x-shockwave-flash" id="gameobj_em" height="341" name="gameobj" flashvars="" allowscriptaccess="always" quality="high" bgcolor="#000" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" wmode="transparent">
+		</object>
+	</div>
+					<div class="pplogin">
+						<div class="pplogin1">
+							<span>用户登录</span><a href="https://tb.53kf.com/code/client/10172278/1" target="_blank"><img src="/nomain88/imgs/support.png"></a>
+						</div>
+						<div class="pplogin2">
+							<form action="login" method="post" id="login_form" style="position:relative;">
+							<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tbody><tr>
+							<td colspan="3"><div class="pplogin2in"><span class="pplogin2inspan1"></span>
+								<input type="text" id="username" name="account" valid="account" maxlength="15" tabindex="1" autocomplete="off" placeholder="请输入您的账号"></div></td>
+							</tr>
+							<tr>
+							<td colspan="3"><div class="pplogin2in"><span class="pplogin2inspan2"></span>
+								<input type="password" value="" name="password" valid="password" maxlength="15" tabindex="2" autocomplete="off" placeholder="您的密码"></div></td>
+							</tr>
+							<tr><td width="113"><button type="submit" id="loginSubmitBtn" class="pplogin2but"></button></td>
+							<td width="18"></td>
+							<td><a href="register" class="pplogin2ina"></a></td>
+							</tr>
+							<tr><td colspan="3"><a href="javascript:guestLogin()" class="pplogin2ina2"></a></td></tr>
+							</tbody></table>
+							</form>
+						</div>
+					</div>
+	<div class="kf_t">
+		<div><img src="/nomain88/imgs/k_vx.png"></div>
+		<div><a href="https://88cpapp1.com" target="_blank"><img src="/nomain88/imgs/k_b5.png"></a></div>
+		<div><a href="https://88cpapp1.com" target="_blank"><img src="/nomain88/imgs/k_b1.png"></a></div>
+		<div><a href="https://88cpapp1.com" target="_blank"><img src="/nomain88/imgs/k_b2.png"></a></div>
+		<div><a href="javascript:dapp('mac')" target="_blank"><img src="/nomain88/imgs/k_b4_mac.png"></a></div>
+		<div><a href="javascript:dapp('windows')" target="_blank"><img src="/nomain88/imgs/k_b4_win.png"></a></div>
+		<div><a href="javascript:void(0)" onclick="$('.kf_t').hide()"><img class="push-10" src="/nomain88/imgs/close.png"></a></div>
+	</div>
+</div>
+<div id="youhui" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box">
+	<div class="soll">
+	</div>
+	<div id="promodiv"><div class="promopanel">
+	<div class="promotitle">优惠一：</div>
+	<div class="promocontents"><div class="promotitle" style="margin:0px;padding:0px;color:#666666;font-size:14px;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;font-weight:bolder;background-color:#F7EFDF;">
+	<h1 style="text-align:center;">
+		<span style="color:#E53333;font-size:24px;font-weight:bolder;line-height:1.5;">巨资打造，88彩票网！回馈新老会员</span> 
+	</h1>
+</div>
+<blockquote>
+	<div class="promotitle" style="margin:0px;padding:0px;color:#666666;font-size:14px;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;font-weight:bolder;background-color:#F7EFDF;">
+		<p>
+			<span style="color:#E53333;"><span style="font-size:24px;color:#E53333;"><br>
+</span></span> 
+		</p>
+	</div>
+</blockquote>
+<p>
+	<br>
+</p>
+<p style="text-align:center;">
+	<span style="font-weight:bolder;line-height:1.5;font-size:16px;">高频彩票双面盘赔率</span><span style="font-weight:bolder;line-height:1.5;color:#E53333;font-size:16px;">1.995</span><span style="font-weight:bolder;line-height:1.5;font-size:16px;">，定位胆</span><span style="font-weight:bolder;line-height:1.5;color:#E53333;font-size:16px;">9.95</span><span style="font-weight:bolder;line-height:1.5;font-size:16px;">，期期返水<span style="color:#E53333;">0.25%</span></span>
+</p>
+<p style="text-align:center;">
+	<span style="font-weight:bolder;line-height:1.5;font-size:16px;">香港彩特A </span><span style="font-weight:bolder;line-height:1.5;color:#E53333;font-size:16px;">42.2</span><span style="font-weight:bolder;line-height:1.5;font-size:16px;">倍 13% 特B </span><span style="font-weight:bolder;line-height:1.5;color:#E53333;font-size:16px;">48.6</span><span style="font-weight:bolder;line-height:1.5;font-size:16px;">倍</span> 
+</p>
+<div style="text-align:center;">
+	<span style="font-weight:bolder;line-height:1.5;font-size:16px;">业界赔率最高，</span><span style="font-weight:bolder;line-height:1.5;color:#337FE5;font-size:16px;">实力品牌顶级信誉</span><span style="font-weight:bolder;line-height:1.5;font-size:16px;">！</span> 
+</div>
+<p>
+	<br>
+</p>
+<div class="promocontents" style="margin:0px;padding:0px;color:#666666;font-family:simsun;background-color:#F7EFDF;">
+	<p style="text-align:center;">
+		<strong>活动规则：</strong> 
+	</p>
+	<p style="text-align:center;">
+		1.本次优惠活动于2013年06月18日生效。优惠活动适用于所有会员，无需申请系统自动派发；
+	</p>
+	<p style="text-align:center;">
+		2.期期退水可享有：无上限优惠，无须打码量即可取款；
+	</p>
+	<p style="text-align:center;">
+		3.任何滥用优惠、下注套利、非法程序下注的行为，经查实将取消优惠以及优惠产生的赢利；
+	</p>
+	<p style="text-align:center;">
+		4.游戏过程中，出现对冲或对打投注,将取消优惠以及优惠产生的赢利（例如在北京赛车同局投注大/小）；
+	</p>
+	<p style="text-align:center;">
+		5.88彩票网保留所有权利在任何时候可以更改、停止、取消优惠活动并不会做出任何书面解释。
+	</p>
+</div>
+<p>
+	<br>
+</p></div>
+</div>
+<div class="promopanel">
+	<div class="promotitle">优惠二：</div>
+	<div class="promocontents"><div class="promotitle" style="margin:0px;padding:0px;color:#666666;font-size:14px;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;font-weight:bolder;background-color:#F7EFDF;">
+	<br>
+</div>
+<div class="promocontents" style="margin:0px;padding:0px;color:#666666;font-family:simsun;background-color:#F7EFDF;">
+	<h1 style="font-size:12px;text-indent:2em;">
+	</h1>
+	<h1 style="font-size:12px;text-align:center;">
+		<span style="color:#E53333;font-size:32px;font-family:'microsoft yahei';">邀请好友加入88彩票网<br>
+丰厚彩金等您来拿！</span> 
+	</h1>
+	<p>
+		<span style="color:#E53333;font-size:32px;font-family:SimSun;"><br>
+</span> 
+	</p>
+	<p>
+		<strong>活动对象：88</strong>彩票网所有注册会员
+	</p>
+	<p>
+		<strong>活动申明：</strong>本活动与代理无关，只限88彩票网全体会员，谢谢大家！
+	</p>
+	<p>
+		独乐乐不如众乐乐，您还在单打独斗吗？立即呼唤请朋友好友体验组队娱乐的乐趣，每推荐一位好友即可领取88彩票网为您贴心准备的推荐彩金！
+	</p>
+	<table width="570" cellspacing="1" cellpadding="0" bordercolor="#999999" border="1">
+		<tbody>
+			<tr>
+				<th align="center" colspan="4" style="color:#FF0000;font-size:14px;">
+					礼金大回馈
+				</th>
+			</tr>
+			<tr>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					介绍人数
+				</th>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					存款次数
+				</th>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					存款金额
+				</th>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					彩金回馈
+				</th>
+			</tr>
+			<tr>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					1人以上
+				</th>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					3次
+				</th>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					100元
+				</th>
+				<th align="center" style="color:#FF0000;font-size:14px;">
+					58元
+				</th>
+			</tr>
+			<tr>
+				<th align="center" colspan="4" style="color:#0000FF;font-size:12px;">
+					即日起您每成功推荐一位会员并存款次数达到3次以上、单次存款金额100元，即获得58元彩金红利回馈，介绍的朋友越多，您获得的奖金也就越多！！
+				</th>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		申请步骤：
+	</p>
+	<p>
+		步骤一： 请联系在线客服提交您推荐的用户账号；
+	</p>
+	<p>
+		步骤二： 被推荐人需达到要求存款总额/次数；（被推荐人必须是没存款的新会员）
+	</p>
+	<p>
+		步骤三： 推荐人即可联系在线客服申请58元彩金红利，礼金无需倍数流水，即可提款。
+	</p>
+	<p>
+		<strong>活动规则：</strong> 
+	</p>
+	<p>
+		1.本次优惠活动即日起生效，优惠活动适用于88彩票网全体会员；
+	</p>
+	<p>
+		2.彩金无须流水即可申请提款；
+	</p>
+	<p>
+		3.所有会员只能拥有一个帐号申请该优惠，同一个IP，同一存/提款卡视为同一客户。如果发现同一个人拥有
+	</p>
+	<p>
+		两个或以上的帐号，重复的帐号将被冻结，每IP地址只能被推荐一次；
+	</p>
+	<p>
+		4.推荐人是不能注册成为自己的被推荐人，如有违反规则，将被没收彩金；
+	</p>
+	<p>
+		5.此活动可以与其他优惠同时进行享用；
+	</p>
+	<p>
+		6.88彩票网保留所有权利在任何时候可以更改、停止、取消优惠活动并不会做出任何书面解释；
+	</p>
+</div></div>
+</div>
+</div>
+</div>
+<div id="m1" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box">
+	<div class="soll">
+	</div>
+	<div style="height: 40px;  display:block;">
+		<a href="http://ag.vip009.com" class="daili" style="float:left">代理登陆</a> <a href="tencent://message/?uin=364088" class="daili" style="float:right">代理注册</a>
+	</div>
+	<strong style="color:#990000; font-size:14px;">联盟方案：</strong>
+	<p class="STYLE6">88彩票网拥有多元化的产品，使用最公平、公正、公开的系统，在市场上的众多博彩网站中，我们自豪的提供会员最优惠的回馈，给予合作伙伴最优势的营利回报! 无论 拥有的是网络资源，或是人脉资源，都欢迎您来加入88彩票网合作伙伴的行列，无须负担任何费用，就可以开始无上限的收入。 选择88彩票网，绝对是您最聪明的选择!</p>
+	<strong style="color:#990000; font-size:14px;">代理条件：</strong>
+	<p class="STYLE6">a.具有便利的计算机上网设备。</p>
+	<p class="STYLE6">b.有一定的人脉资源、网络资源或自己的广告网站。</p>
+	<p class="STYLE6">c.每期都要有5个实际有效投注的会员以上，如达不到就累积到下期计算佣金！</p>
+	<strong style="color:#990000; font-size:14px;">有效会员：</strong>
+	<p class="STYLE6">月结区间内进行过最少五次有效下注且投注总额不低于1000RMB的会员！ 如联盟体系当月未达﹛月最低有效会员﹜最低门坎5人，则该月无法领取佣金回馈。联盟体系当月营利达到标准，而﹛月最低有效会员﹜人数未达相应最低门坎，则该月佣金累积到下期计算退佣。（六合彩不计算在内）</p>
+	<strong style="color:#990000; font-size:14px;">代理收入：</strong>
+	<p class="STYLE6">A：比如您本月的代理账号内有赢利的情况下，就可拥有以下收入:<br>
+    1.一个月内公司在您的代理账号内纯赢利达到1000元-100000元，可享受其中10%的佣金。<br>
+    2.一个月内公司在您的代理账号内纯赢利达到100001元-500000元，可享受其中15%的佣金。<br>
+    3.一个月内公司在您的代理账号内纯赢利达到500001元-1000000元，可享受其中20%的佣金。<br>
+    4.一个月内公司在您的代理账号内纯赢利达到1000001元以上，可享受其中25%的佣金。</p>
+	<span class="STYLE6"></span>
+	<p></p>
+	 <strong style="color:#990000; font-size:14px;">请注意：</strong> <font color="red">＊每位加入合营商的客户，如果您在第一个月的有效会员未达到公司要求，但有产生佣金，您的佣金将累计到下个月。<br>
+	*注:禁止代理商私自开设会员帐号进行非法投注套利。任何使用不诚实方法骗取代理佣金或下线会员与代理商同IP的我们视为代理商自己开设会员游戏，将取消代理资格并永久冻结账户，佣金一律不予发放。同IP出现多个会员的话，将被视为无效会员，不得计算在内。 敬请联系代理专员QQ：364088 详细洽谈
+	
+</font></div><font color="red">
+<div id="m2" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box">
+	<strong style="color:#990000; font-size:14px;">◉一般常见问题</strong>
+	<p class="STYLE1" style="margin-left:0px; margin-right:0px">Q1: 如何加入88彩票网？<br>
+		A1: 您可以直接点选 "立即开户"，确实填写资料后，可立即登记成为88彩票网会员。</p>
+	<p class="STYLE1" style="margin-left:0px; margin-right:0px">Q2: 我可以直接在网络上存款提款吗？<br>
+		A2: 可以，88彩票网提供多种线上存款选择，详情请参照 "存款提款"</p>
+	<div class="STYLE1" style="margin-left:0px; margin-right:0px">
+		Q3: 我在哪里可以找到游戏规则？<br>
+		A3: 在未登入前，您可以在游戏的最外层看到"游戏规则"选项，清楚告诉您游戏的玩法、规则及派彩方式。
+	</div>
+	<div class="STYLE1" style="margin-left:0px; margin-right:0px">
+		&nbsp; &nbsp; &nbsp; 在游戏视窗中,也有"规则"选项，让您在享受游戏乐趣的同时，弹跳视窗随时提醒您游戏规则。
+	</div>
+	<p class="STYLE1" style="margin-left:0px; margin-right:0px">Q4:
+		
+		
+		单注投注额最低是？<br>
+		A4: 
+		
+		
+		我们单注最低投注额为人民币1元. </p>
+	<p class="STYLE1" style="margin-left:0px; margin-right:0px">Q5: 
+		
+		
+		最高投注额有限制吗？<br>
+		A5: 
+		
+		
+		任何一家正规博彩和网络博彩公司对客户的帐户投注都有单注和单注限额，没有限额的公司都基本属于没有任何风险控制的私人或骗子公司，今天的控制是为了明天能保证100%提款给您，这点您可以自行分析。每个项目都有不同的限额设定，详细请登陆会员都在「会员资料」页面查看。</p>
+	<div style="margin-left:0px; margin-right:0px">
+		<span style="color: #89643c">Q6:
+		
+		
+		我帐户里面的帐怎麽结算？<br>
+		A6: 
+		
+		
+		请到登入会员，会员页面查看，「结算报表」按天显示每天的结算结果，点击退水后的结果一栏对应的结果数字进入明细！ </span> <strong style="color:#990000; font-size:14px;">◉游戏及投注问题</strong>
+		<p class="STYLE1" style="margin-left:0px; margin-right:0px">Q1: 请问如何加入88彩票网？<br>
+			A1: 您可以直接点选 "立即开户"，确实填写资料后，可立即登记成为88彩票网会员
+	</p></div>
+	<p class="STYLE1">Q2: 我哪里可以找到游戏的规则？<br>
+		A2:  请查看"规则说明"页面，清楚告诉您游戏的玩法、规则及派彩方式。</p>
+	<p class="STYLE1">Q3:  如果忘记密码怎麽办？<br>
+		A3:  你可以在首页点击"忘记密码"系统自助取回密码，或者联系24小时线上客服人员谘询协助取回你的帐号密码。 </p>
+	<p class="STYLE1">Q4: 当忘记提款密码时怎麽办？<br>
+		A4: 你可通过24小时线上客服人员协助处理。</p>
+</div>
+<div id="m3" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box">
+	<strong style="color:#990000; font-size:14px;">◉关于我们</strong>
+	<p class="STYLE6" style="margin-left:0px; margin-right:0px">88彩票网于2010年成立，专业经营各项博彩业务，现与US平台合作，推出高频彩票现金投注网，开种广东快乐十分、重庆时彩、北京快乐8、北京赛车PK10等项目，完全自助注册开户，现金开户，现金投注。我们拥有稳定的平台，成熟的玩法，简单的下注流程、以及优质的客户服务。88彩票网公司为彩票博彩爱好者提供最优惠的赔率和最优质的博彩服务。88彩票网一直深受会员好评，一直以来以良好的信誉和服务得到许多会员的支持和肯定，接受业界各行业与会员的监督！如您对本公司有所疑惑，欢迎您对本公司的监督。88彩票网为正派且稳健经营的网站，一直以最优惠的赔率和优质的服务深受会员好评，请放心进行投注，如您之前不了解本公司，欢迎您对本公司进行关注。</p>
+	<p><strong style="color:#990000; font-size:14px;">【菲律賓執照】</strong> 我們提供的所有產品和服務，是由菲律賓政府卡格揚河經濟特區 First Cagayan leisure and Resort Corporation. www.firstcagayan.com 所授權和監管。這是一家位於Cagayan特別經濟區和自由口岸 (CSEZFP) 的機構，並且是互動遊戲的授權者及管理者。
+	</p>
+	<div class="STYLE6" style="margin-left:0px; margin-right:0px">
+	</div>
+	<p><strong style="color:#990000; font-size:14px;">【安全与保密】</strong> 我们采用了目前最好的加密技术（1024位RSA密钥交换和 448位blowfish）和防火墙系统保护你的安全、私隐，并保证你享受公平的 游戏。客户在本平台的所有动均严格保密，我们不会向第三方包括政府透露客户资料。所有银行交易由国际金融机构在高标准的安全 和机密的网络中进行。进入玩家帐户资料也必须有玩家唯一的登录ID和密码，确保客户的资金安全有保障。 88彩票网拥有高素质的客户服务，无论在处理任何事情上，都以简单和快捷享誉全球。如免费开户，即时存款，实时QQ,MSN回复客户的询问以及处理客户的难题等。 88彩票网全年24小时运营，全天候处理客户出入款等相关事宜，严格训练的客服团队，以专业、亲切的态度著称，尽速解决您对于网 站、游戏的种种疑难杂症，不但让所有客户皆有宾至如归的感觉，同时我们以业界前所未见的各种优惠方式回馈我们的客户，绝对是您最明智的选择！
+	</p>
+</div>
+<script type="text/javascript">
+$(".box").niceScroll({  
+	cursorcolor:"#CC0071",  
+	cursoropacitymax:1,  
+	touchbehavior:false,  
+	cursorwidth:"5px",  
+	cursorborder:"0",  
+	cursorborderradius:"5px"  
+}); 
+</script>
+    <script type="text/javascript">
+    	var error = LIBS.getUrlParam('e');
+    	if(error){
+    		if(error == 4){
+    			dialog.error('消息', '用户名或密码错误');
+    		}
+    		if(error == 7){
+    			dialog.error('消息', '邀请码错误');
+    		}
+
+    	}else{
+    	}
+
+    </script>
+<div class="foot1">
+</div>
+	<div class="sgwin"></div>
+<iframe id="dapp" style="display:none"></iframe>
+<script type="text/javascript">
+function dapp(arg){
+	$("#dapp").attr('src','https://pcdl.c0606.com/download/'+arg+'/?type=official');
+	setTimeout(
+	  function() 
+	  {
+		$("#dapp").attr('src','');
+	  }, 1000);
+}
+</script><style type="text/css">
+
+#homeOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+}
+
+#homePopup {
+	position: fixed;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10000;
+	height: auto;
+	width: 720px;
+}
+
+#homePopup img{
+	width: 100%;
+}
+
+#homePopup: target, homePopup:target + #homeOverlay {
+	display: block;
+	opacity: 2;
+}
+</style>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#homePopup").hide().fadeIn(500);
+	$("#homeOverlay").hide().fadeIn(500);
+});
+
+$("body").click(function() {
+	$("#homePopup").fadeOut().removeClass("active");
+	$("#homeOverlay").fadeOut().removeClass("active");
+});
+</script>
+
+<div id="homeOverlay" style="display: block;">
+	<div id="homePopup" style="display: block;">
+		<img src="/nomain88/imgs/home_popup.jpg" alt="popup">
+	</div>
+</div>
+ 
+</font><div id="ascrail2000" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 1019px; height: 1747px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 1742px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2001" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 1019px; height: 620px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2001-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 615px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2002" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 1019px; height: 628px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2002-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 623px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2003" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 1019px; height: 404px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2003-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 399px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div></body></html>

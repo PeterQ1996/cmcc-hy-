@@ -1,0 +1,1121 @@
+<!DOCTYPE html><!--[if lte IE 8]> <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if gt IE 8]><!--><html class=" js cssgradients generatedcontent" style=""><!--<![endif]--><head>
+    <meta charset="UTF-8">
+    <title>幸|运|彩|票--官方唯一指定彩票平台，老品牌值得信赖！</title>
+    <meta content="origin-when-cross-origin" name="referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="keywords" content="幸|运|彩|票--官方唯一指定彩票平台，老品牌值得信赖！">
+    <meta name="description" content="幸|运|彩|票，官方唯一指定投注平台，千万彩民诚信首选，全面支持支付宝、微信扫码支付、在线支付，出入款即时到账！">
+    <link rel="shortcut icon" href="/Images/ICO/xingyuncaipiao/favicon.ico" type="image/x-icon">
+    <link rel="Bookmark" href="/Images/ICO/xingyuncaipiao/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://qtjjzy14img.jm37.net//Content/mapping/xingyuncaipiao/home/css/main.css?99f9dca2b1" "="">
+    <link rel="stylesheet" href="https://qtjjzy14img.jm37.net//Content/Default/home/css/jquery.rondell.css?2d784ab522">
+    <link href="https://qtjjzy14img.jm37.net//Scripts/Common/artDialog6/ui-dialog.css?ae7e700648" rel="stylesheet">
+    <script src="https://qtjjzy14img.jm37.net//Scripts/dist/$.ko.js?a876144a3a"></script>
+    <script src="https://qtjjzy14img.jm37.net//Scripts/Common/artDialog6/dialog-plus-min.js?4786a25c83"></script>
+    <script src="https://qtjjzy14img.jm37.net//Scripts/dist/official/utils.min.js?5e82730058"></script>
+    <script src="https://qtjjzy14img.jm37.net//Scripts/Common/modernizr.custom.js?44a0670bed"></script>
+<link rel="stylesheet" href="https://qtjjzy14img.jm37.net//Content/common/web/RedBagActivity.css?6ce0678b94">
+ </head>
+
+<body class="official-site" x-ms-format-detection="none">
+    
+    <div class="popup_tc" id="popup_tc" style="display:none; position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.8)">
+        <div class="popup_tc" style="width: 400px; height: 256px; position: absolute;top:50%;left:50%;margin-top:-128px;margin-left:-200px; background: #fff;  z-index: 9998;">
+            <div class="tc_center">
+                <div class="popup_top">
+                    <div class="tips_o">操作提示</div>
+                    <a class="d-close" href="javascript:;" onclick="popclose('popup_tc')">×</a>
+                </div>
+                <div class="popup_center">
+                    <p>正在建设中，敬请期待。。。</p>
+                </div>
+                <div class="popup_bottom">
+                    <div class="d-buttons"><input type="button" class="popup_button" value="确定" onclick="popclose('popup_tc')"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- container -->
+    <div class="container">
+        <!-- header -->
+        <div class="top_nav">
+            <div class="top_nav_center clear">
+                <div class="top_time clear">
+                    
+                    <span class="nation_time">北京时间：</span>
+                    <label id="nowTime" data-format="yyyy/MM/dd (W) hh:mm:ss" class="now-time">2018/08/08 (三) 12:29:20</label>
+                </div>
+                <div class="top_a clear">
+                    
+                    <a href="javascript:;" class="mobile_load" slide="true">
+                        <span>手机下注<i></i></span>
+
+                        <div class="code_web">
+                            <img src="https://image.yessfinewine.com/Img//2018/7/27/7713efd37fa244bcae596f02d73384ad.png" width="118" height="118" alt="">
+                            <span>
+                                微信扫一扫<br>
+                                彩票随身买
+                            </span>
+                        </div>
+                    </a>
+                    <a href="/AgentApply">加入代理 </a>|
+                    <a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a>|
+                    <a href="/Help/Techq">帮助中心 </a>|
+                    <a href="/Help/Betq?gameId=0" class="description_rule">规则说明</a>|
+                    <a href="/Help/JC">防劫持教程</a>
+                    
+                </div>
+            </div>
+        </div>
+
+            <div class="top-box">
+                <div class="main clear">
+                    <div class="logo_icon">
+                                <div class="logo fleft">
+                                    <a href="/"></a>
+                                </div>
+
+                    </div>
+                    <div class="bar-right">
+                            <div id="LOGIN-FORM">
+                                <form autocomplete="off" action="/Home/login" method="post" data-bind="submit:submit">
+                                    <input type="text" style="visibility:hidden;position:absolute;z-index:-999;">
+                                    <input type="password" style="visibility:hidden;position:absolute;z-index:-999;">
+                                    <div class="login-area">
+                                        <span class="login-mane">
+                                            <label for="ph1533702561181" class="tip_form">账号</label><input class="input_tip" type="text" maxlength="20" data-bind="textinput:fields.username,placeholder:'账号|tip_form'" needed="" id="ph1533702561181">
+                                        </span>
+                                        <span class="login-password">
+                                            <label for="ph1533702561182" class="tip_form">密码</label><input class="input_tip" type="password" maxlength="20" data-bind="textinput:fields.password,placeholder:'密码|tip_form'" needed="" id="ph1533702561182">
+                                        </span>
+                                        <span class="login-code">
+                                            <label for="ph1533702561183" class="tip_form tip_forms">验证码</label><input type="text" class="input_tip input_tip_45" data-bind="textinput:fields.validateCode,placeholder:'验证码|tip_form tip_forms'" needed="" id="ph1533702561183">
+                                        </span>
+                                        <img width="58" height="24" src="/Home/ValidateCode?1533702561180" style="background-color:white;" data-bind="attr:{src:'/Home/ValidateCode?'+random()},click:refreshCode" alt="验证码" title="点击切换验证码">
+                                        <img width="20" height="18" data-bind="click:refreshCode" src="https://qtjjzy14img.jm37.net//Content/mapping/zhongxincaipiao/images/search-icon.png" style="margin-left:3px; padding-right:4px;cursor:pointer">
+                                        <a title="登录" href="javascript:void(0)" class="btn-login" style="position:relative">
+                                            <span data-bind="text:isSubmitting()?'登录中...':'登录'">登录</span>
+                                            <input type="submit" value="" class="btn-login" style="position:absolute;left:0;top:0;height:34px;width:100px;margin:0;filter:alpha(opacity=0);opacity:0;">
+                                        </a>
+                                        
+                                            <a title="免费开户" href="/Register?Intr=" class="bnt-register"></a>
+                                    </div>
+                                </form>
+                            </div>
+                        <!--  <div class="mail-box" id="msg_box">
+                              <a title="未读信息" class="btn-mail" href="javascript:;" id="msg_box">
+                              </a>
+                              <a href="javascript:;" class="ui-mail-tip-box dn" id="msg_info"></a>
+                          </div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="main">
+                    <div class="header-main ">
+                        <div class="menu-box">
+                            <div class="menu">
+                                <ul class="clear">
+                                    <li class="active">
+                                        <a href="/" class="home">首页</a>
+                                    </li>
+                                    <li data-item="lot_hall" id="lot_hall">
+                                        <a href="javascript:;" class="lottery hot_icon" data-item="lot_hall">
+                                            <div>购彩大厅</div>
+                                        </a>
+                                    </li>
+                                    <li data-item="sports_hall" style="display:none;" data-type="tyjj">
+                                        <a href="javascript:;" class="ThirdPartyGame">
+                                            <div>体育竞技</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Mobile" class="mobile hot_icon">
+                                            <div>手机下注</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Login" class="UserCenter">
+                                            <div>用户中心</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Activity" class="Activity">
+                                            <div>优惠活动</div>
+                                        </a>
+                                    </li>
+                                    <li data-type="replace-tyjj">
+                                        <a href="/Login" class="GameInformation">
+                                            <div>彩种信息</div>
+                                        </a>
+                                    </li>
+                                    
+                                    <li>
+                                        <a href="http://login.53kf.com/webCompany.php?arg=10179477&amp;style=1" target="_blank" class="online_service">
+                                            <div>在线客服</div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/home/NewsList" class="Information">
+                                            <div>资讯</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                                    <div class="menu-child1" style="display:none;" id="lot_sec_menu">
+                                        <div class="gamelist-1 clear">
+                                            <div class="official_play">
+                                                <div class="gamelist_tit clear">
+                                                    <h1 class="red_style">官方玩法</h1>
+                                                    <div class="color">官</div>
+                                                </div>
+
+                                                <div class="high_wrap">
+                                                    <div class="gamelist_l">
+                                                        <ul>
+                                                                    <li>
+                                                                        <!--<a class="game_136" href="/OffcialOtherGame/Index/136"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TPZY_KSFFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_136" href="/OffcialOtherGame/Index/136"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_KSFFC.png?_=20160805"><span class="hot"><font>极速快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_123" href="/OffcialOtherGame/Index/123"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TPZY_FFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_123" href="/OffcialOtherGame/Index/123"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_FFC.png?_=20160805"><span class="hot"><font>幸运分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_125" href="/OffcialOtherGame/Index/125"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TPZY_1D5FC.png?_=20160805" /></a>-->
+                                                                        <a class="game_125" href="/OffcialOtherGame/Index/125"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_1D5FC.png?_=20160805"><span class="hot"><font>幸运1.5分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_127" href="/OffcialOtherGame/Index/127"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TPZY_SFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_127" href="/OffcialOtherGame/Index/127"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_SFC.png?_=20160805"><span class="hot"><font>幸运三分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_129" href="/OffcialOtherGame/Index/129"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TPZY_WFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_129" href="/OffcialOtherGame/Index/129"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_WFC.png?_=20160805"><span class="hot"><font>幸运时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_138" href="/OffcialOtherGame/Index/138"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TPZY_3FKS.png?_=20160805" /></a>-->
+                                                                        <a class="game_138" href="/OffcialOtherGame/Index/138"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_3FKS.png?_=20160805"><span class="hot"><font>幸运快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_119" href="/OffcialOtherGame/Index/119"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/BJK3.png?_=20160805" /></a>-->
+                                                                        <a class="game_119" href="/OffcialOtherGame/Index/119"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/BJK3.png?_=20160805"><span class="hot"><font>北京快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_39" href="/OffcialOtherGame/Index/39"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/JSKS.png?_=20160805" /></a>-->
+                                                                        <a class="game_39" href="/OffcialOtherGame/Index/39"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JSKS.png?_=20160805"><span class="hot"><font>江苏快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_80" href="/OffcialOtherGame/Index/80"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/AHK3.png?_=20160805" /></a>-->
+                                                                        <a class="game_80" href="/OffcialOtherGame/Index/80"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/AHK3.png?_=20160805"><span class="hot"><font>安徽快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_88" href="/OffcialOtherGame/Index/88"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/SHK3.png?_=20160805" /></a>-->
+                                                                        <a class="game_88" href="/OffcialOtherGame/Index/88"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/SHK3.png?_=20160805"><span class="hot"><font>上海快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_83" href="/OffcialOtherGame/Index/83"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/HEBEIKUAI3.png?_=20160805" /></a>-->
+                                                                        <a class="game_83" href="/OffcialOtherGame/Index/83"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HEBEIKUAI3.png?_=20160805"><span class="hot"><font>河北快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_90" href="/OffcialOtherGame/Index/90"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/GXK3.png?_=20160805" /></a>-->
+                                                                        <a class="game_90" href="/OffcialOtherGame/Index/90"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/GXK3.png?_=20160805"><span class="hot"><font>广西快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_86" href="/OffcialOtherGame/Index/86"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/HUBEIKUAI3.png.png?_=20160805" /></a>-->
+                                                                        <a class="game_86" href="/OffcialOtherGame/Index/86"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HUBEIKUAI3.png.png?_=20160805"><span class="hot"><font>湖北快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_26" href="/OffcialOtherGame/Index/26"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/ZQSSC.png?_=20160805" /></a>-->
+                                                                        <a class="game_26" href="/OffcialOtherGame/Index/26"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/ZQSSC.png?_=20160805"><span class="hot"><font>重庆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_29" href="/OffcialOtherGame/Index/29"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/BJPKS.png?_=20160805" /></a>-->
+                                                                        <a class="game_29" href="/OffcialOtherGame/Index/29"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/BJPKS.png?_=20160805"><span class="hot"><font>北京PK拾</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_78" href="/OffcialOtherGame/Index/78"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TXFFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_78" href="/OffcialOtherGame/Index/78"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TXFFC.png?_=20160805"><span class="hot"><font>腾讯分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_74" href="/OffcialOtherGame/Index/74"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/QQFFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_74" href="/OffcialOtherGame/Index/74"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/QQFFC.png?_=20160805"><span class="hot"><font>QQ分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_115" href="/OffcialOtherGame/Index/115"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/WMFFC.png?_=20160805" /></a>-->
+                                                                        <a class="game_115" href="/OffcialOtherGame/Index/115"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/WMFFC.png?_=20160805"><span class="hot"><font>极速分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_111" href="/OffcialOtherGame/Index/111"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/LHC.png?_=20160805" /></a>-->
+                                                                        <a class="game_111" href="/OffcialOtherGame/Index/111"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/LHC.png?_=20160805"><span class="hot"><font>VR六合彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_112" href="/OffcialOtherGame/Index/112"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/SC.png?_=20160805" /></a>-->
+                                                                        <a class="game_112" href="/OffcialOtherGame/Index/112"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/SC.png?_=20160805"><span class="hot"><font>VR赛车</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_107" href="/OffcialOtherGame/Index/107"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/3FC.png?_=20160805" /></a>-->
+                                                                        <a class="game_107" href="/OffcialOtherGame/Index/107"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/3FC.png?_=20160805"><span class="hot"><font>VR3分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_108" href="/OffcialOtherGame/Index/108"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/CPBJL.png?_=20160805" /></a>-->
+                                                                        <a class="game_108" href="/OffcialOtherGame/Index/108"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/CPBJL.png?_=20160805"><span class="hot"><font>VR彩票百家乐</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_109" href="/OffcialOtherGame/Index/109"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/JX1.5FC.png?_=20160805" /></a>-->
+                                                                        <a class="game_109" href="/OffcialOtherGame/Index/109"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JX1.5FC.png?_=20160805"><span class="hot"><font>VR金星1.5分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_110" href="/OffcialOtherGame/Index/110"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/KT.png?_=20160805" /></a>-->
+                                                                        <a class="game_110" href="/OffcialOtherGame/Index/110"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/KT.png?_=20160805"><span class="hot"><font>VR快艇</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_44" href="/OffcialOtherGame/Index/44"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/PLSW.png?_=20160805" /></a>-->
+                                                                        <a class="game_44" href="/OffcialOtherGame/Index/44"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/PLSW.png?_=20160805"><span class="hot"><font>排列三、五</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_51" href="/OffcialOtherGame/Index/51"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/HGKLC.png?_=20160805" /></a>-->
+                                                                        <a class="game_51" href="/OffcialOtherGame/Index/51"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HGKLC.png?_=20160805"><span class="hot"><font>韩式1.5分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_64" href="/OffcialOtherGame/Index/64"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/AZKL8.png?_=20160805" /></a>-->
+                                                                        <a class="game_64" href="/OffcialOtherGame/Index/64"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/AZKL8.png?_=20160805"><span class="hot"><font>澳洲快乐8</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_72" href="/OffcialOtherGame/Index/72"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/SH11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_72" href="/OffcialOtherGame/Index/72"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/SH11X5.png?_=20160805"><span class="hot"><font>上海11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_77" href="/OffcialOtherGame/Index/77"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/SHSSL.png?_=20160805" /></a>-->
+                                                                        <a class="game_77" href="/OffcialOtherGame/Index/77"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/SHSSL.png?_=20160805"><span class="hot"><font>上海时时乐</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_32" href="/OffcialOtherGame/Index/32"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/SD11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_32" href="/OffcialOtherGame/Index/32"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/SD11X5.png?_=20160805"><span class="hot"><font>山东11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_50" href="/OffcialOtherGame/Index/50"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/HLJ11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_50" href="/OffcialOtherGame/Index/50"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HLJ11X5.png?_=20160805"><span class="hot"><font>黑龙江11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_30" href="/OffcialOtherGame/Index/30"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/FC3D.png?_=20160805" /></a>-->
+                                                                        <a class="game_30" href="/OffcialOtherGame/Index/30"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/FC3D.png?_=20160805"><span class="hot"><font>福彩3D</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_61" href="/OffcialOtherGame/Index/61"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/JNDKLC.png?_=20160805" /></a>-->
+                                                                        <a class="game_61" href="/OffcialOtherGame/Index/61"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JNDKLC.png?_=20160805"><span class="hot"><font>加拿大3.5分</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_68" href="/OffcialOtherGame/Index/68"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/AZ3FC.png?_=20160805" /></a>-->
+                                                                        <a class="game_68" href="/OffcialOtherGame/Index/68"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/AZ3FC.png?_=20160805"><span class="hot"><font>澳洲3分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_93" href="/OffcialOtherGame/Index/93"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/DJ1.5FC.png?_=20160805" /></a>-->
+                                                                        <a class="game_93" href="/OffcialOtherGame/Index/93"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/DJ1.5FC.png?_=20160805"><span class="hot"><font>东京1.5分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_97" href="/OffcialOtherGame/Index/97"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/XYFT.png?_=20160805" /></a>-->
+                                                                        <a class="game_97" href="/OffcialOtherGame/Index/97"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/XYFT.png?_=20160805"><span class="hot"><font>幸运飞艇</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_28" href="/OffcialOtherGame/Index/28"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/BJKL8.png?_=20160805" /></a>-->
+                                                                        <a class="game_28" href="/OffcialOtherGame/Index/28"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/BJKL8.png?_=20160805"><span class="hot"><font>北京快乐8</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_46" href="/OffcialOtherGame/Index/46"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/JX11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_46" href="/OffcialOtherGame/Index/46"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JX11X5.png?_=20160805"><span class="hot"><font>江西11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_59" href="/OffcialOtherGame/Index/59"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/TWBG.png?_=20160805" /></a>-->
+                                                                        <a class="game_59" href="/OffcialOtherGame/Index/59"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TWBG.png?_=20160805"><span class="hot"><font>台湾宾果</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_40" href="/OffcialOtherGame/Index/40"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/XJSSC.png?_=20160805" /></a>-->
+                                                                        <a class="game_40" href="/OffcialOtherGame/Index/40"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/XJSSC.png?_=20160805"><span class="hot"><font>新疆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_45" href="/OffcialOtherGame/Index/45"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/GD11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_45" href="/OffcialOtherGame/Index/45"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/GD11X5.png?_=20160805"><span class="hot"><font>广东11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_56" href="/OffcialOtherGame/Index/56"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/BJSSC.png?_=20160805" /></a>-->
+                                                                        <a class="game_56" href="/OffcialOtherGame/Index/56"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/BJSSC.png?_=20160805"><span class="hot"><font>北京时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!--<a class="game_62" href="/OffcialOtherGame/Index/62"><img src="https://qtjjzy14img.jm37.net//Content/dingsheng/images/gameIcon/JS11X5.png?_=20160805" /></a>-->
+                                                                        <a class="game_62" href="/OffcialOtherGame/Index/62"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JS11X5.png?_=20160805"><span class="hot"><font>江苏11选5</font></span></a>
+                                                                    </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="credit_play">
+                                                <div class="gamelist_tit clear">
+                                                    <h1 class="orange_style">信用玩法</h1>
+                                                    <div class="color">信</div>
+                                                </div>
+                                                <div class="high_wrap">
+                                                    <div class="gamelist_r">
+                                                        <ul>
+                                                                    <li>
+                                                                        <a class="game_135" href="/OtherGame/Index/135"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_KSFFC.png?_=20160805"><span class="hot"><font>极速快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_122" href="/OtherGame/Index/122"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_FFC.png?_=20160805"><span class="hot"><font>幸运分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_124" href="/OtherGame/Index/124"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_1D5FC.png?_=20160805"><span class="hot"><font>幸运1.5分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_126" href="/OtherGame/Index/126"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_SFC.png?_=20160805"><span class="hot"><font>幸运三分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_128" href="/OtherGame/Index/128"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_WFC.png?_=20160805"><span class="hot"><font>幸运时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_137" href="/OtherGame/Index/137"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TPZY_3FKS.png?_=20160805"><span class="hot"><font>幸运快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_118" href="/OtherGame/Index/118"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/BJK3.png?_=20160805"><span class="hot"><font>北京快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_22" href="/OtherGame/Index/22"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JSKS.png?_=20160805"><span class="hot"><font>江苏快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_81" href="/OtherGame/Index/81"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/AHK3.png?_=20160805"><span class="hot"><font>安徽快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_89" href="/OtherGame/Index/89"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/SHK3.png?_=20160805"><span class="hot"><font>上海快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_87" href="/OtherGame/Index/87"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HUBEIKUAI3.png.png?_=20160805"><span class="hot"><font>湖北快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_91" href="/OtherGame/Index/91"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/GXK3.png?_=20160805"><span class="hot"><font>广西快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_82" href="/OtherGame/Index/82"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HEBEIKUAI3.png?_=20160805"><span class="hot"><font>河北快三</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_1" href="/six/index"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/⑥HC.png?_=20160805"><span class="hot"><font>香港六合彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_7" href="/OtherGame/Index/7"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/ZQSSC.png?_=20160805"><span class="hot"><font>重庆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_15" href="/OtherGame/Index/15"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/BJPKS.png?_=20160805"><span class="hot"><font>北京PK拾</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_75" href="/OtherGame/Index/75"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/QQFFC.png?_=20160805"><span class="hot"><font>QQ分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_79" href="/OtherGame/Index/79"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/TXFFC.png?_=20160805"><span class="hot"><font>腾讯分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_114" href="/OtherGame/Index/114"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/WMFFC.png?_=20160805"><span class="hot"><font>极速分分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_104" href="/OtherGame/Index/104"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JND28.png?_=20160805"><span class="hot"><font>加拿大28</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_100" href="/OtherGame/Index/100"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/XY28.png?_=20160805"><span class="hot"><font>幸运28</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_101" href="/OtherGame/Index/101"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/DJ28.png?_=20160805"><span class="hot"><font>东京28</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_103" href="/OtherGame/Index/103"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HS28.png?_=20160805"><span class="hot"><font>韩式28</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_105" href="/OtherGame/Index/105"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/AZ28.png?_=20160805"><span class="hot"><font>澳洲28</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_5" href="/OtherGame/Index/5"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/GDKS.png?_=20160805"><span class="hot"><font>广东快十</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_6" href="/OtherGame/Index/6"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/GXKS.png?_=20160805"><span class="hot"><font>广西快十</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_4" href="/OtherGame/Index/4"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/GD11X5.png?_=20160805"><span class="hot"><font>广东11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_96" href="/OtherGame/Index/96"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/XYFT.png?_=20160805"><span class="hot"><font>幸运飞艇</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_60" href="/OtherGame/Index/60"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JNDKLC.png?_=20160805"><span class="hot"><font>加拿大3.5分</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_92" href="/OtherGame/Index/92"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/DJ1.5FC.png?_=20160805"><span class="hot"><font>东京1.5分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_10" href="/OtherGame/Index/10"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/XJSSC.png?_=20160805"><span class="hot"><font>新疆时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_13" href="/OtherGame/Index/13"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/ZQKS.png?_=20160805"><span class="hot"><font>幸运农场</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_53" href="/OtherGame/Index/53"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/HGKLC.png?_=20160805"><span class="hot"><font>韩式1.5分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_55" href="/OtherGame/Index/55"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/BJSSC.png?_=20160805"><span class="hot"><font>北京时时彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_63" href="/OtherGame/Index/63"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/JS11X5.png?_=20160805"><span class="hot"><font>江苏11选5</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_69" href="/OtherGame/Index/69"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/AZ3FC.png?_=20160805"><span class="hot"><font>澳洲3分彩</font></span></a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="game_73" href="/OtherGame/Index/73"><img src="https://qtjjzy14img.jm37.net//Content/default/images/gameIcon/SH11X5.png?_=20160805"><span class="hot"><font>上海11选5</font></span></a>
+                                                                    </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="triangles_back"></div>
+                                    </div>
+
+                            <!-- 体育游戏菜单集合 - vm生成 -->
+                            <div class="menu-child2" style="display: none;" id="sports_hall"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <script type="text/javascript" language="javascript">
+
+            //加入收藏
+
+            function AddFavorite(sURL, sTitle) {
+
+                sURL = encodeURI(sURL);
+                try {
+
+                    window.external.addFavorite(sURL, sTitle);
+
+                } catch (e) {
+
+                    try {
+
+                        window.sidebar.addPanel(sTitle, sURL, "");
+
+                    } catch (e) {
+
+                        alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+
+                    }
+
+                }
+
+            }
+        </script>
+        <!-- header end -->
+        <!--  插入内容  -->
+        
+<div class="main_wrap">
+    <div class="content">
+        <div class="home-con">
+            <div class="banner">
+                <div class="wrapper">
+                    <div class="swiper-container" style="height: 100%; cursor: -webkit-grab;">
+                        <div class="swiper-wrapper" style="height: 504px; width: 10704px; transform: translate3d(-1338px, 0px, 0px); transition: 0s; -webkit-transition: 0s;"><div class="swiper-slide swiper-slide-duplicate" style="background-image: url(https://qtjjzy14img.jm37.net//Content/images/banner/277224/W_20180709153352.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="background-image: url(https://qtjjzy14img.jm37.net//Content/images/banner/277224/W_20180714195904.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://image.yessfinewine.com//Img//2018/8/3/0fd34c1b186f4868808de8b001090475.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://qtjjzy14img.jm37.net//Content/images/banner/277224/W_20180716131118.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://qtjjzy14img.jm37.net//Content/images/banner/277224/W_20170527024503.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://qtjjzy14img.jm37.net//Content/images/banner/277224/W_20180718185307.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                                    <div class="swiper-slide" style="background-image: url(https://qtjjzy14img.jm37.net//Content/images/banner/277224/W_20180709153352.jpg); width: 1338px; height: 504px;">
+                                    </div>
+                        <div class="swiper-slide swiper-slide-duplicate" style="background-image: url(https://qtjjzy14img.jm37.net//Content/images/banner/277224/W_20180714195904.jpg); width: 1338px; height: 504px;">
+                                    </div></div>
+                        <div class="controller">
+                            <div id="prev_btn" class="prev prev-one">
+                                <img src="https://qtjjzy14img.jm37.net//Content/default/home/images/arrow_left.png" alt="" class="img_hidden">
+                            </div>
+                            <div id="next_btn" class="next next-one">
+                                <img src="https://qtjjzy14img.jm37.net//Content/default/home/images/arrow_right.png" alt="" class="img_hidden">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mq">
+                <div class="mq_content">
+                    <div class="mq_text"><span>最新公告</span><font>NEWS</font></div>
+                    <div class="mq-mask" id="notices">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="more_game">
+                <div class="middle_min">
+                    <div class="more_game_middle">
+                        <div class="columns">
+                            <div class="col_a clearfix">
+                                <div class="hot_game_toggle">
+                                    <a class="official-btn active" href="javascript:;"></a>
+                                    <a class="credit-btn" href="javascript:;"></a>
+                                </div>
+                                        <div class="official_games">
+                                            <h1 class="hotgame_tit"></h1>
+                                            <div class="hotgame_con clear">
+                                                <ul>
+                                                    <li class="official_game">官方玩法<span class="color" style="">官</span></li>
+                                                    <li class="high_frequency">高频游戏</li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/136">极速快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/123">幸运分分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/125">幸运1.5分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/127">幸运三分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/129">幸运时时彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/138">幸运快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/119">北京快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/39">江苏快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/80">安徽快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/88">上海快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/83">河北快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/90">广西快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/86">湖北快三<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/26">重庆时时彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/29">北京PK拾<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/78">腾讯分分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/74">QQ分分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/115">极速分分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/111">VR六合彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/112">VR赛车<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/107">VR3分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/108">VR彩票百家乐<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/109">VR金星1.5分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/110">VR快艇<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/51">韩式1.5分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/64">澳洲快乐8<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/72">上海11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/32">山东11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/50">黑龙江11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/61">加拿大3.5分<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/68">澳洲3分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/93">东京1.5分彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/97">幸运飞艇<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/28">北京快乐8<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/46">江西11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/59">台湾宾果<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/40">新疆时时彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/45">广东11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/56">北京时时彩<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/62">江苏11选5<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                </ul>
+                                                <ul class="play_hidden">
+                                                    <li class="low_frequency">低频游戏</li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/44">排列三、五<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/77">上海时时乐<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot15">
+                                                                <a href="/OffcialOtherGame/Index/30">福彩3D<i data-time="300" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="credit_games">
+                                            <h1 class="hotgame_tit"></h1>
+                                            <div class="hotgame_con clear">
+                                                <ul>
+                                                    <li class="credit_game">信用玩法<span class="color">信</span></li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/135">极速快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/122">幸运分分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/124">幸运1.5分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/126">幸运三分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/128">幸运时时彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/137">幸运快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/118">北京快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/22">江苏快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/81">安徽快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/89">上海快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/87">湖北快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/91">广西快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/82">河北快三 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/six/index">香港六合彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/7">重庆时时彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/15">北京PK拾 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/75">QQ分分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/79">腾讯分分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/114">极速分分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/104">加拿大28 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/100">幸运28 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/101">东京28 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/103">韩式28 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/105">澳洲28 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/5">广东快十 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/6">广西快十 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/4">广东11选5 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/96">幸运飞艇 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/60">加拿大3.5分 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/92">东京1.5分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/10">新疆时时彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/13">幸运农场 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/53">韩式1.5分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/55">北京时时彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/63">江苏11选5 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/69">澳洲3分彩 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                            <li class="navlot11">
+                                                                <a href="/OtherGame/Index/73">上海11选5 <i data-time="48000" style="float:right;" class="lottime_go"></i></a>
+                                                            </li>
+                                                </ul>
+                                                <ul class="play_hidden">
+                                                    <li class="caipiao_game">彩票游戏</li>
+                                                    <li><a href="javascript:;" onclick="popshow('popup_tc')">其他游戏</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                            </div>
+                        </div>
+                        <div class="col_b clearfix" style="display:none;">
+                            <h1 class="baccarat_tit"></h1>
+                            <div class="baccarat_con">
+                                <div class="baccarat">
+                                    <ul>
+                                        <li>
+                                            <a class="jnd28" href="/OffcialOtherGame/Index/29"><span>北京PK拾</span></a>
+                                        </li>
+                                        <li>
+                                            <a class="azcp" href="/OffcialOtherGame/Index/39"><span>江苏快三</span></a>
+                                        </li>
+                                        <li>
+                                            <a class="xy28" href="/OffcialOtherGame/Index/26"><span>重庆时时彩</span></a>
+                                        </li>
+                                        <li>
+                                            <a class="bjkl8" href="/Six/Index"><span>六合彩</span></a>
+                                        </li>
+                                        <li>
+                                            <a class="bjpk10" href="/OffcialOtherGame/Index/51"><span>韩国1.5分彩</span></a>
+                                        </li>
+                                        <li>
+                                            <a class="dgcp" href="/OffcialOtherGame/Index/78"><span>腾讯分分彩</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="others">
+                        <div class="advantages">
+                            <h2></h2>
+                            <div class="payment_date">
+                                <div class="payment_date_l">
+                                    <h3>存款</h3>
+                                    <p>到账平均时间</p>
+                                </div>
+                                <div class="payment_date_r">
+                                    <span class="pay_time">23<strong>秒</strong></span>
+                                </div>
+                                <div class="time_bar">
+                                    <span class="bar_slide"></span>
+                                </div>
+                            </div>
+                            <div class="payment_date">
+                                <div class="payment_date_l">
+                                    <h3>取款</h3>
+                                    <p>到账平均时间</p>
+                                </div>
+                                <div class="payment_date_r">
+                                    <span class="pay_time">1'02<strong>分</strong></span>
+                                </div>
+                                <div class="time_bar">
+                                    <span class="bar_slide_n"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile_down">
+                            <h2></h2>
+                            <div class="mobile_item">
+                                <p>移动互联网时代，机会一手把握</p>
+                                <p class="mobile_tex"><span class="item_L">全面<br>支持</span><span class="item_R">苹果APP 安卓APP 手机全部浏览器</span></p>
+                                <div class="down">
+                                    <span class="apple"><a href="/Mobile"></a></span>
+                                    <span class="android"><a href="/Mobile"></a></span>
+                                    <span class="browser"><a href="/Mobile"></a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="problem">
+                            <h2></h2>
+                            <div class="common">
+                                <p></p>
+                                <a class="pay_none" href="/Recharge/Index">全程担保</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<link href="https://qtjjzy14img.jm37.net//Scripts/Common/swiper2.7.6/css/idangerous.swiper.css?594fc7a57f" rel="stylesheet">
+<script src="https://qtjjzy14img.jm37.net//Scripts/Common/swiper2.7.6/js/idangerous.swiper.min.js?2073ab22ec"></script>
+<script>
+    $(function () {
+        //底部热门游戏 - [官|信] 切换
+        //$('.hot_game_toggle a').click(function () {
+        //    var index = $(this).index();
+        //    $('.hotgame_con div').eq(index).show().siblings().hide();
+        //    $(this).addClass('active').siblings().removeClass('active')
+        //});
+        var bannerItems = $('.swiper-container .swiper-slide');
+        //只有一张图片时不操作
+        if (bannerItems.length > 1) {
+            //轮播图
+            if (window.Swiper) {
+                var mySwiper = new Swiper('.swiper-container', {
+                    //pagination: '.swiper-pagination',
+                    loop: true,
+                    grabCursor: true,
+                    paginationClickable: true,
+                    autoplay: 3000,
+                    autoplayDisableOnInteraction: false,
+                    speed: 300
+                })
+                $('#prev_btn').on('click', function (e) {
+                    e.preventDefault();
+                    mySwiper.swipePrev();
+                })
+                $('#next_btn').on('click', function (e) {
+                    e.preventDefault();
+                    mySwiper.swipeNext();
+                });
+            }
+        } else {
+            $(".controller,.swiper-pagination").hide();
+        }
+    });
+</script>
+
+            <div class="footer">
+                <div class="bottom-info-main">
+                    <div class="footer_main clear">
+                        <!--银行卡类型-->
+                        <div class="bottom-info">
+                            <div class="new-box">
+                                <h1>
+                                    <em>银行卡类型</em>
+                                    <span>Bank card type</span>
+                                </h1>
+                                <div class="new-con clear">
+                                    <div class="footer_bank"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="bottom-info">
+                            <div class="new-box">
+                                <h1><em>使用帮助</em><span>Guide</span></h1>
+                                <div class="new-con">
+                                    <table class="guideTable">
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="/Help/Generalq">关于我们</a></td>
+                                                <td>
+                                                    <a href="http://login.53kf.com/webCompany.php?arg=10179477&amp;style=1" target="_blank">联络我们</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="/Help/Generalq">合作伙伴</a></td>
+                                                <td><a href="/Help/Deposit">存款帮助</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="/Help/Teller">取款帮助</a></td>
+                                                <td><a href="/Help/Generalq">常见问题</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-info">
+                            <div class="new-box">
+                                <h1><em>推荐浏览器</em><span>Browser</span></h1>
+                                <div class="new-con">
+                                    <div class="clear">
+                                        <ul class="browser-list commonlist notitle clear">
+                                            <li>
+                                                <a target="_blank" href="http://rj.baidu.com/soft/detail/14917.html"><i class="icon icon-browser icon-browserIE"></i><span>IE新版下载</span></a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="http://rj.baidu.com/soft/detail/14744.html?ald"><i class="icon icon-browser icon-browserFF"></i><span>Chrome浏览器</span></a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="http://rj.baidu.com/soft/detail/11843.html"><i class="icon icon-browser icon-browserGL"></i><span>Firefox浏览器</span></a>
+                                            </li>
+                                        </ul>
+                                        <div class="browser-tip">
+                                            <p>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer -->
+                <div class="main clear">
+                    <div class="copyright"> 未满18周岁禁止购买，Copyright © 2010-2018 幸运彩票保留所有权利</div>
+                    <a href="#" class="btn btn-gotop"><i class="icon icon-gotop"></i></a>
+                </div>
+            </div>
+        <!-- footer end -->
+    </div>
+    <!-- container end -->
+    <!--公告-->
+    <script type="text/html" id="tpl-message">
+        <div>
+            <div>
+                <div class="side_left" data-bind="foreach:dialogNotice">
+                    <div class="side_item">
+                        <a href="javascript:;" data-bind="click:$parent.active.bind($data,$index()),css:$parent.activeIndex() == $index() ? 'active' : ''">
+                            <span data-bind="text:FNoticeTitle"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="notice_main" data-bind="with:activeMessage">
+                    <div class="notice_title"><h1 data-bind="text:FNoticeTitle"></h1></div>
+                    <div class="notice_text">
+                        <div class="fleft notice_item" style="text-align:left;word-break:break-all;" data-bind="html:FNoticeContent"></div>
+                        <div class="fright" data-bind="visible: FIsShowTime">【<span data-bind="text:FLastEditTime"></span>】</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <!--公告  end--->
+    <input type="hidden" id="accountId" value="0">
+    <!-- 体育竞技 -->
+    <script type="text/html" id="sports_Fba">
+        <div class="sports-bg" data-bind="foreach:gameList">
+            <div class="sport" data-bind="style:{'background-image':'url(/Content/default/images/gameskin/ty'+($index()+1)+'.png)'}">
+                <a href="javascript:;" class="hvr-grow" data-bind="attr:{href:url},text:FName,style:{'background-image':'url(/Content/default/images/gameskin/ty'+($index()+1)+'-ico.png)'}"></a>
+            </div>
+        </div>
+    </script>
+    <!-- sideBar end -->
+        <div class="kefuw kefuw-left J-kefuw-fixed" id="pendant_wrap">
+            <span class="kefuw-left-01"><a class="mobdm" href="http://4440336.com/" target="_blank"></a></span>
+            <span class="kefuw-left-02"><a class="mobdm" href="/"></a></span>
+            <span class="kefuw-left-03"><a class="mobdm" href="/Mobile"></a></span>
+            <span class="kefuw-left-04"><a class="mobdm" href="http://4440336.com/" target="_blank"></a></span>
+            <div class="bott">
+                <a href="javascript:;" class="cols" onclick="popclose('pendant_wrap')">关闭</a>
+            </div>
+        </div>
+        <div class="kefuw kefuw-right J-kefuw-fixed" id="pendant_wrap1">
+            <span class="kefuw-right-01"><a class="mobdm" href="http://4440336.com/" target="_blank"></a></span>
+            <span class="kefuw-right-02"><a class="mobdm" href="http://login.53kf.com/webCompany.php?arg=10179477&amp;style=1" target="_blank"></a></span>
+            <span class="kefuw-right-03"><a class="mobdm" href="http://www.3550pay.com" target="_blank"></a></span>
+            
+            <span class="kefuw-left-04"><a class="mobdm" href="http://www.8899367.com/" target="_blank"></a></span>
+            <div class="bott">
+                <a href="javascript:;" class="cols" onclick="popclose('pendant_wrap1')">关闭</a>
+            </div>
+        </div>
+
+    <script src="https://qtjjzy14img.jm37.net//Scripts/Common/jquery.md5.min.js?b9a2f4d724"></script>
+    <script src="https://qtjjzy14img.jm37.net//Scripts/Home/WG.Home.Common.js?2aa4799d61"></script>
+
+    <script src="https://qtjjzy14img.jm37.net//Scripts/Home/reg.common.js?b5affa00dd"></script>
+    <script src="https://qtjjzy14img.jm37.net//Scripts/Home/WG.Home.Fn.js?942df6d305"></script>
+    <script src="https://qtjjzy14img.jm37.net//Scripts/WG.RegisterUser.js?3f388f115b"></script>
+    <script src="https://qtjjzy14img.jm37.net//Scripts/Common/jquery.signalR-2.1.1.min.js?40e112173f"></script>
+    <script type="text/javascript">
+        homeFn.menu("lot_sec_menu", ["SSC", "FFC", "PKS", "TYC", "KLC", "DPC", "PCDD", "K3", "VR"]);
+        var SignalrSite = 'https://zycccppp.websocketcdn.com:8862/signalr', st = '2018-08-08 12:29:20', iis = 'https://qtjjzy14img.jm37.net/';
+        function popshow(showId) { document.getElementById(showId).style.display = 'block'; }
+        function popclose(showId) { document.getElementById(showId).style.display = 'none'; }
+        $(function () {
+            var kefuw = $(".J-kefuw-fixed");
+            var kefuw0 = kefuw.eq(0);
+            var height = kefuw0.height();
+
+            $(window).scroll(function (evt) {
+                var top = $(document).scrollTop();
+                if (kefuw0.position().top + height < top - 40) {
+                    kefuw.css("top", top - 40 + "px");
+                }
+
+                kefuw.stop().animate({ top: 240 + top + "px" }, 500, "linear");
+            });
+        })
+        homeFn.message();
+    </script>
+
+<div id="redEnvelopesa" class="parcel parcel-animated rubberBand" style="display:none"></div><div class="parcel-wrap" style="display:none"><div class="parcel-box-wrap"><div class="parcel-box "><div class="parcel-open-controller"><div class="parcel-box-wrap-wrap parcel-open parcel-animated slideInDown"><div class="parcel-open-btn"></div></div></div><div class="parcel-result-win-controller" style="display:none"><div class="parcel-box-wrap-wrap parcel-result-win"><div class="win-money-box">获得<span class="win-money">888888</span>彩金</div><span class="parcel-result-win-btn"></span></div></div><div class="parcel-result-fail-controller" style="display:none"><div class="parcel-box-wrap-wrap parcel-result-fail"><div class="fail-money-box">很遗憾没中奖</div><span class="parcel-result-fail-btn"></span></div></div></div></div></div></body></html>

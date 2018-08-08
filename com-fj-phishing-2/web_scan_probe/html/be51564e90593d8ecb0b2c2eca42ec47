@@ -1,0 +1,692 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="keywords" content="彩票,福利彩票,体育彩票,彩票开奖查询,彩票走势图,免费资料大全">
+    <meta name="description" content="万彩吧提供福彩、体彩彩票开奖结果查询，主打高频彩彩票计划、汇集广大民间彩票高手、时时彩、11选5、快3、pk10赛车、快乐10分都有10中10的高手计划、更有双色球、大乐透、福彩3D、6彩、七星彩、七乐彩、排列3/5等热门彩票走势图分析、彩票资讯等一体化服务、彩民必备网站万彩吧彩票">
+     <title>万彩吧_彩票高手计划_彩票走势图_彩票开奖查询_免费资料大全</title>
+
+    <link rel="stylesheet" type="text/css" href="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/css/cjh/style.css">
+    <link rel="stylesheet" href="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/css/dialog.css">
+</head>
+<body style="background:#f1f1f1;">
+<div style="background-color: rgb(241, 241, 241); position: fixed; z-index: 10000; top: 50px; left: 0px; width: 100%; height: 100%; display: none; background-position: initial initial; background-repeat: initial initial;" id="div-zz">
+
+    </div>
+    <div id="CopyWx" data-clipboard-text="">
+
+        <header class="hjc_header" style="text-align:left;">
+            <a href="" class="hjc_logo" style="margin-left: 10px;"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/cjh/03.png"></a>
+            <div class="hjc_hdDZ" id="loginDiv"><a href="/Home/Login">登录</a><a href="/Home/Register">注册</a></div>
+        </header>
+
+        <!--公告-->
+        <div class="Notice">
+            <dl class="Notice_Dl">
+                <dt>公告</dt>
+                <dd>
+                    <marquee scrollamount="3">
+                        <p>万彩吧已升级,高手榜已全面更新,连中排行更及时,让您更快速可以找到各彩种高手资料,更好的助您中奖！</p>
+                    </marquee>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="CJH_NavOne">
+            <ul class="NavOne_Ul">
+                <li>
+                    <a href="/Home/Open.html">
+                        <div class="NavOne_Tu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/grids_icon_01.png"></div><p>开奖</p>
+                    </a>
+                </li>
+               
+                <li>
+                    <a href="/Html/PlanIndex.html">
+                        <div class="NavOne_Tu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/grids_icon_03.png"></div><p>计划</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/Html/ExpertIndex.html">
+                        <div class="NavOne_Tu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/grids_icon_06.png"></div><p>高手</p>
+                    </a>
+                </li>
+                <!--<li>
+                    <a href="javascript:kaifazhong()">
+                        <div class="NavOne_Tu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/grids_icon_06.png"></div><p>高手</p>
+                    </a>
+                </li>-->
+                <li>
+                    <a href="/News/Index/2.html">
+                        <div class="NavOne_Tu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/grids_icon_07.png"></div><p>资讯</p>
+                    </a>
+                </li>
+                <li class="btnApp" style="">
+                    <a href="/Home/Down">
+                        <div class="NavOne_Tu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/grids_icon_08.png"></div><p>App</p>
+                    </a>
+                </li>
+				 <li class="btnZoushi" style="display:none">
+                    <a href="javascript:kaifazhong()">
+                        <div class="NavOne_Tu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/grids_icon_02.png"></div><p>走势</p>
+                    </a>
+                </li>
+                <div style="clear:both"></div>
+            </ul>
+        </div>
+
+        <div class="CJH_GG_Box">
+            <p class="CJH_GuanGao" id="GuanGao1" style="display: none;"><a href="JavaScript:;"></a></p>
+        </div>
+
+        <!--全国彩-->
+        <div class="Species">
+            <div class="Species_Title">
+                <h3>全国彩</h3>
+                <p class="CJH_GuanGao" id="GuanGao2" style="display: none;"><a href="JavaScript:;"></a></p>
+            </div>
+            <div class="Species_Text">
+                <table width="100%" border="1" bordercolor="#f1f1f1" class="Species_Table">
+                    <tbody><tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/1.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo1.png">
+                                </div>
+                                <p class="Spe_TFont">福彩3D</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/2.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo2.png">
+                                </div>
+                                <p class="Spe_TFont">双色球</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/3.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo3.png">
+                                </div>
+                                <p class="Spe_TFont">七星彩</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle" id="lhcTd">
+                            <a href="/html/lhcNews.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/cjh/logo66.png">
+                                </div>
+                                <p class="Spe_TFont">6彩</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/6.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo6.png">
+                                </div>
+                                <p class="Spe_TFont">排列3</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/7.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo7.png">
+                                </div>
+                                <p class="Spe_TFont">排列5</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/8.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo8.png">
+                                </div>
+                                <p class="Spe_TFont">七乐彩</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/4.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo4.png">
+                                </div>
+                                <p class="Spe_TFont">大乐透</p>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+
+        <!--高频彩-->
+        <div class="Species">
+            <div class="Species_Title">
+                <h3>高频彩</h3>
+                <p class="CJH_GuanGao" id="GuanGao3" style="display: none;"><a href="JavaScript:;"></a></p>
+            </div>
+            <div class="Species_Text">
+                <table width="100%" border="1" bordercolor="#f1f1f1" class="Species_Table">
+                    <tbody><tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/63.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo63.png">
+                                </div>
+                                <p class="Spe_TFont">北京赛车</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/9.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo57.png">
+                                </div>
+                                <p class="Spe_TFont">重庆时时彩</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/13.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo61.png">
+                                </div>
+                                <p class="Spe_TFont">新疆时时彩</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/12.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo60.png">
+                                </div>
+                                <p class="Spe_TFont">天津时时彩</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/64.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo64.png">
+                                </div>
+                                <p class="Spe_TFont">幸运飞艇</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/51.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo45.png">
+                                </div>
+                                <p class="Spe_TFont">重庆快乐十分</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/52.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo46.png">
+                                </div>
+                                <p class="Spe_TFont">广东快乐十分</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/57.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo51.png">
+                                </div>
+                                <p class="Spe_TFont">山西快乐十分</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/55.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo49.png">
+                                </div>
+                                <p class="Spe_TFont">湖南快乐十分</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/58.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo52.png">
+                                </div>
+                                <p class="Spe_TFont">天津快乐十分</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/18.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo12.png">
+                                </div>
+                                <p class="Spe_TFont">广东11选5</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/22.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo16.png">
+                                </div>
+                                <p class="Spe_TFont">河北11选5</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/37.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo31.png">
+                                </div>
+                                <p class="Spe_TFont">浙江11选5</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/31.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo25.png">
+                                </div>
+                                <p class="Spe_TFont">上海11选5</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/30.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo24.png">
+                                </div>
+                                <p class="Spe_TFont">山东11选5</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/26.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo20.png">
+                                </div>
+                                <p class="Spe_TFont">江苏11选5</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/23.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo17.png">
+                                </div>
+                                <p class="Spe_TFont">黑龙江11选5</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/33.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo27.png">
+                                </div>
+                                <p class="Spe_TFont">山西11选5</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/47.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo41.png">
+                                </div>
+                                <p class="Spe_TFont">江苏快三</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/45.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo39.png">
+                                </div>
+                                <p class="Spe_TFont">湖北快三</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/44.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo38.png">
+                                </div>
+                                <p class="Spe_TFont">河北快三</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/38.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo32.png">
+                                </div>
+                                <p class="Spe_TFont">安徽快三</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/50.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo44.png">
+                                </div>
+                                <p class="Spe_TFont">上海快三</p>
+                            </a>
+                        </td>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/42.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo36.png">
+                                </div>
+                                <p class="Spe_TFont">广西快三</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="middle">
+                            <a href="/News/Index/46.html">
+                                <div class="Spe_Ttu">
+                                    <img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo40.png">
+                                </div>
+                                <p class="Spe_TFont">吉林快三</p>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </div>
+        <footer class="hjc_footer" style="margin-top: -5px; background: #eee;">
+            <div class="hjc_ftNav hjc_adlink">
+                <a href="javascript:;">首页</a>
+                |<a id="footer_appdown" href="/Home/Down.html">APP下载</a>
+                |<a href="javascript:;">用户反馈</a>
+                |<a href="javascript:scrollTo(0,0);">回顶部</a>
+            </div>
+            <div class="hjc_ftNav">
+                <p>©2001-2018 深圳市球讯网络科技有限公司</p>
+                <p>版权所有 粤ICP备14066812号-5</p>
+            </div>
+        </footer>
+        <!--底部悬浮-->
+        <div class="Opic" style="display:none">
+            <a href="/Home/Down.html">
+                <div class="Opic_tu f-l"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/cjh/c_03.png"></div>
+                <div class="Opic_off f-r"></div>
+                <div class="Opic_k">
+                    <span>下载万彩吧助您中大奖</span>
+                    <font id="btnDown">立即打开</font>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+<script src="https://hm.baidu.com/hm.js?80532a5c274806ae8e7937f925fb2b0e"></script><script type="text/javascript" src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/js/jquery.js"></script>
+<script src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/js/dialog.min.js"></script>
+<script src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/js/baidu-statistics.js"></script>
+<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/js/clipboard.min.js"></script>
+<script type="text/javascript">
+    var linkCode = GetQueryString("ad") || "";
+    var browser = {
+        versions: function() {
+            var u = navigator.userAgent, app = navigator.appVersion;
+            return {
+//移动终端浏览器版本信息
+                trident: u.indexOf('Trident') > -1, //IE内核
+                presto: u.indexOf('Presto') > -1, //opera内核
+                webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核
+                mobile: !!u.match(/AppleWebKit.*Mobile/i) || !!u.match(/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/), //是否为移动终端
+                ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+                iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器
+                iPad: u.indexOf('iPad') > -1, //是否iPad
+                webApp: u.indexOf('Safari') == -1 //是否web应该程序，没有头部与底部
+            };
+        }(),
+        language: (navigator.browserLanguage || navigator.language).toLowerCase()
+    }
+
+    //if  (document.referrer.indexOf("google.com")  >  -1  ||  document.referrer.indexOf("baidu.com")  >  -1)  {
+    //                alert("从google或baidu来");
+    //}
+    //alert(document.referrer);
+    if (document.referrer.length == 0) {
+        clearCookie("ebalbeAdvert");
+    }
+    function CopyWX(a) {
+        var value = $(a).text();
+        value = value.substring(value.indexOf("【") + 1, value.indexOf("】"))
+        console.log(value);
+        if (value != "" || value != undefined) {
+            $("#CopyWx").attr("data-clipboard-text", value);
+        }
+
+    }
+
+    $(function() {
+        $("#GuanGao1").hide();
+        $("#GuanGao2").hide();
+        $("#GuanGao3").hide();
+
+        var ad = GetQueryString("ad")
+
+        if (ad == "") {
+            ad = getCookie("ebalbeAdvert");
+        }
+
+        if (ad.length > 0) {
+            setCookie("ebalbeAdvert", ad, 7);
+            $(".NavOne_Ul").find(".btnZoushi").show();
+            $(".NavOne_Ul").find(".btnApp").hide();
+
+            var val = getCookie("ebalbeAdvert");
+
+            if (val == "toutiao") {
+                var tr = $("#lhcTd", "table").closest("tr");
+                var nTr = tr.next();
+                var nTd = nTr.find("td:eq(0)");
+                $("#lhcTd", "table").remove();
+                tr.append(nTd.clone(true));
+                nTd.remove();
+
+                var url = "https://c8-public.oss-cn-shenzhen.aliyuncs.com/client/android/caipiaojihua_toutiao_3.2.1.apk";
+                $(".Opic").find("a").attr("href", url).click(function() {
+                    //alert(0)
+                    _taq.push({ convert_id: "1603878034128916", event_type: "download_start" })
+                });
+                $(".Opic").show();
+                $(".NavOne_Ul").find(".btnZoushi").hide();
+                $(".NavOne_Ul").find(".btnApp").show().find("a").attr("href", url).click(function() {
+                    //alert(0)
+                    _taq.push({ convert_id: "1603878034128916", event_type: "download_start" })
+                });
+                $("#footer_appdown").attr("href", url).click(function() {
+                    // alert(0)
+                    _taq.push({ convert_id: "1603878034128916", event_type: "download_start" })
+                });;
+
+
+                (function(root) {
+                    root._tt_config = true;
+                    var ta = document.createElement('script');
+                    ta.type = 'text/javascript';
+                    ta.async = true;
+                    ta.src = document.location.protocol + '//' + 's1.pstatp.com/bytecom/resource/track_log/src/toutiao-track-log.js';
+                    ta.onerror = function() {
+                        var request = new XMLHttpRequest();
+                        var web_url = window.encodeURIComponent(window.location.href);
+                        var js_url = ta.src;
+                        var url = '//ad.toutiao.com/link_monitor/cdn_failed?web_url=' + web_url + '&js_url=' + js_url + '&convert_id=1603878034128916';
+                        request.open('GET', url, true);
+                        request.send(null);
+                    }
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(ta, s);
+                })(window);
+
+
+            } else if (val == "qq") {
+                var url = "https://c8-public.oss-cn-shenzhen.aliyuncs.com/client/android/caipiaojihua_qq_3.2.1.apk";
+                $(".Opic").find("a").attr("href", url);
+                $(".Opic").show();
+                $(".NavOne_Ul").find(".btnZoushi").hide();
+                $(".NavOne_Ul").find(".btnApp").show().find("a").attr("href", url);
+            } else if (val == "yidian") {
+                var tr = $("#lhcTd", "table").closest("tr");
+                var nTr = tr.next();
+                var nTd = nTr.find("td:eq(0)");
+                $("#lhcTd", "table").remove();
+                tr.append(nTd.clone(true));
+                nTd.remove();
+
+                $("#btnDown").html("点击下载");
+                var url = "https://c8-public.oss-cn-shenzhen.aliyuncs.com/client/android/caipiaojihua_gf_3.2.2.apk";
+                $(".Opic").find("a").attr("href", url);
+                $(".Opic").show();
+                $(".NavOne_Ul").find(".btnZoushi").hide();
+                $(".NavOne_Ul").find(".btnApp").show().find("a").attr("href", url);
+                $("#footer_appdown").attr("href", url)
+            }
+        } else {
+            $(".NavOne_Ul").find(".btnZoushi").hide();
+            $(".NavOne_Ul").find(".btnApp").show();
+        }
+
+        $.post("/Home/GetLoginUser", function(data) {
+            if (data.Id == 0) {
+                var html = "";
+                html += '<a href="/Home/Login">登录</a>';
+                html += '<a href="/Home/Register">注册</a>'
+                $("#loginDiv").html(html);
+            } else {
+                var html = "";
+                html += '<a href="/Personal/Index">Hi,' + data.Name + '</a>';
+                html += '<a href="/Personal/logOut">退出</a>'
+                $("#loginDiv").html(html);
+            }
+        });
+
+        if (!IsPC()) {
+            $.ajax({
+                type: "get",
+                data: { location: 0, adtype: 4 },
+                url: "/news/GetAdvertisementListJson2",
+                async: true,
+                success: function(data) {
+                    if (!data.Success)
+                        return;
+                    $(data.data).each(function() {
+                        if (this.Layer == 1) {
+                            $("#GuanGao1").show();
+                            $("#GuanGao1").find("a").attr("href", this.TransferUrl).text(this.Title);
+                            $("#GuanGao1").find("a").attr("onclick", "CopyWX(this);");
+                        }
+                        if (this.Layer == 2) {
+                            $("#GuanGao2").show();
+                            $("#GuanGao2").find("a").attr("href", this.TransferUrl).text(this.Title);
+                            $("#GuanGao2").find("a").attr("onclick", "CopyWX(this);");
+                        }
+                        if (this.Layer == 3) {
+                            $("#GuanGao3").show();
+                            $("#GuanGao3").find("a").attr("href", this.TransferUrl).text(this.Title);
+                            $("#GuanGao3").find("a").attr("onclick", "CopyWX(this);");
+                        }
+                    });
+                }
+            });
+        }
+    });
+
+    function kaifazhong() {
+        $(document).dialog({
+            type: "notice",
+            infoText: "开发中",
+            autoClose: 1500
+        });
+    }
+
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        var context = "";
+        if (r != null)
+            context = r[2];
+        reg = null;
+        r = null;
+        return context == null || context == "" || context == "undefined" ? "" : context;
+    }
+
+    function setCookie(name, value, days) {
+        var exp = new Date();
+        exp.setTime(exp.getTime() + days * 24 * 60 * 60 * 1000);
+        document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+    }
+
+    //清除cookie
+    function clearCookie(name) {
+        setCookie(name, "", -1);
+    }
+
+    function getCookie(c_name) {
+        if (document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=")
+            if (c_start != -1) {
+                c_start = c_start + c_name.length + 1
+                c_end = document.cookie.indexOf(";", c_start)
+                if (c_end == -1) c_end = document.cookie.length
+                return unescape(document.cookie.substring(c_start, c_end))
+            }
+        }
+        return ""
+    }
+
+    function IsPC() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = [
+            "Android", "iPhone",
+            "SymbianOS", "Windows Phone",
+            "iPad", "iPod"
+        ];
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
+</script>
+<script type="text/javascript" src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/js/ossjs/PvUvIpIndex.js"></script>
+<script>
+    function hiddivzz() {
+        $("#div-zz").hide();
+    }
+    $(function () {
+        var ad = GetQueryString("ad");
+        if (ad == "") {
+            ad = getCookie("ebalbeAdvert");
+        }
+        if (ad == "vivo" || ad == "oppo") {
+            $($(".Species_Table")[0]).html('<tr><td align="center" valign="middle"><a href="/News/Index/1.html"><div class="Spe_Ttu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo1.png"></div><p class="Spe_TFont">福彩3D</p></a></td><td align="center" valign="middle"><a href="/News/Index/2.html"><div class="Spe_Ttu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo2.png"></div><p class="Spe_TFont">双色球</p></a></td><td align="center" valign="middle"><a href="/News/Index/3.html"><div class="Spe_Ttu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo3.png"></div><p class="Spe_TFont">七星彩</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/4.html"><div class="Spe_Ttu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo4.png"></div><p class="Spe_TFont">大乐透</p></a></td><td align="center" valign="middle"><a href="/News/Index/6.html"><div class="Spe_Ttu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo6.png"></div><p class="Spe_TFont">排列3</p></a></td><td align="center" valign="middle"><a href="/News/Index/7.html"><div class="Spe_Ttu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo7.png"></div><p class="Spe_TFont">排列5</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/8.html"><div class="Spe_Ttu"><img src="https://c8-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo8.png"></div><p class="Spe_TFont">七乐彩</p></a></td></tr>');
+
+
+            $($(".Species_Table")[1]).html('<tr><td align="center" valign="middle"><a href="/News/Index/51.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo45.png"></div><p class="Spe_TFont">重庆快乐十分</p></a></td><td align="center" valign="middle"><a href="/News/Index/52.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo46.png"></div><p class="Spe_TFont">广东快乐十分</p></a></td><td align="center" valign="middle"><a href="/News/Index/55.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo49.png"></div><p class="Spe_TFont">湖南快乐十分</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/57.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo51.png"></div><p class="Spe_TFont">山西快乐十分</p></a></td><td align="center" valign="middle"><a href="/News/Index/58.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo52.png"></div><p class="Spe_TFont">天津快乐十分</p></a></td><td align="center" valign="middle"><a href="/News/Index/18.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo12.png"></div><p class="Spe_TFont">广东11选5</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/22.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo16.png"></div><p class="Spe_TFont">河北11选5</p></a></td><td align="center" valign="middle"><a href="/News/Index/23.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo17.png"></div><p class="Spe_TFont">黑龙江11选5</p></a></td><td align="center" valign="middle"><a href="/News/Index/26.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo20.png"></div><p class="Spe_TFont">江苏11选5</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/30.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo24.png"></div><p class="Spe_TFont">山东11选5</p></a></td><td align="center" valign="middle"><a href="/News/Index/31.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo25.png"></div><p class="Spe_TFont">上海11选5</p></a></td><td align="center" valign="middle"><a href="/News/Index/33.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo27.png"></div><p class="Spe_TFont">山西11选5</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/37.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo31.png"></div><p class="Spe_TFont">浙江11选5</p></a></td><td align="center" valign="middle"><a href="/News/Index/38.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo32.png"></div><p class="Spe_TFont">安徽快三</p></a></td><td align="center" valign="middle"><a href="/News/Index/42.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo36.png"></div><p class="Spe_TFont">广西快三</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/44.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo38.png"></div><p class="Spe_TFont">河北快三</p></a></td><td align="center" valign="middle"><a href="/News/Index/45.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo39.png"></div><p class="Spe_TFont">河北快三</p></a></td><td align="center" valign="middle"><a href="/News/Index/46.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo40.png"></div><p class="Spe_TFont">吉林快三</p></a></td></tr><tr><td align="center" valign="middle"><a href="/News/Index/47.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo41.png"></div><p class="Spe_TFont">江苏快三</p></a></td><td align="center" valign="middle"><a href="/News/Index/50.html"><div class="Spe_Ttu"><img src="https://cly-public.oss-cn-shenzhen.aliyuncs.com/res/images/logo44.png"></div><p class="Spe_TFont">上海快三</p></a></td></tr>');
+
+            $(".hjc_adlink").html('<a href="javascript:;">首页</a>| <a href="javascript:;">用户反馈</a>| <a href="javascript:scrollTo(0,0);">回顶部</a>');
+        } else {
+            $($(".Species_Table")[1]).find("a").each(function () {
+                var jsondata = { "福彩3D": 1, "双色球": 2, "七星彩": 3, "大乐透": 4, "6彩": 5, "排列3": 6, "排列5": 7, "七乐彩": 8, "重庆时时彩": 9, "黑龙江时时彩": 10, "内蒙古时时彩": 11, "天津时时彩": 12, "新疆时时彩": 13, "云南时时彩": 14, "安徽11选5": 15, "北京11选5": 16, "福建11选5": 17, "广东11选5": 18, "甘肃11选5": 19, "广西11选5": 20, "贵州11选5": 21, "河北11选5": 22, "黑龙江11选5": 23, "湖北11选5": 24, "吉林11选5": 25, "江苏11选5": 26, "江西11选5": 27, "辽宁11选5": 28, "内蒙古11选5": 29, "山东11选5": 30, "上海11选5": 31, "陕西11选5": 32, "山西11选5": 33, "天津11选5": 34, "新疆11选5": 35, "云南11选5": 36, "浙江11选5": 37, "安徽快三": 38, "北京快三": 39, "福建快三": 40, "甘肃快三": 41, "广西快三": 42, "贵州快三": 43, "河北快三": 44, "湖北快三": 45, "吉林快三": 46, "江苏快三": 47, "江西快三": 48, "内蒙古快三": 49, "上海快三": 50, "重庆快乐十分": 51, "广东快乐十分": 52, "广西快乐十分": 53, "黑龙江快乐十分": 54, "湖南快乐十分": 55, "陕西快乐十分": 56, "山西快乐十分": 57, "天津快乐十分": 58, "云南快乐十分": 59, "辽宁快乐十二": 60, "四川快乐十二": 61, "浙江快乐十二": 62, "北京赛车": 63, "幸运飞艇": 64, "北京快乐8": 65 };
+                var lname = $(this).find("p").text();
+                lname = $.trim(lname);
+                $(this).attr('href', '/News/Index/' + jsondata[lname] + '.html');
+            })
+        }
+        setTimeout("hiddivzz()", 100);
+    })
+</script>
+<script>
+    var btn = document.getElementById('CopyWx');
+    var clipboard = new ClipboardJS(btn);
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+</script></body></html>

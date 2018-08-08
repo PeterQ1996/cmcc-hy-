@@ -1,0 +1,224 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class="no-js md-flash md-no-videoautoplay md-canvas md-canvasblending md-todataurljpeg md-todataurlpng md-todataurlwebp md-canvaswinding md-canvastext md-contenteditable md-no-contextmenu md-cors md-svg md-svgasimg md-svgclippaths md-svgfilters md-svgforeignobject md-inlinesvg md-smil md-cssall md-cssanimations md-appearance md-lastchild md-cssmask md-no-nthchild md-csstransforms md-supports md-csstransforms3d md-csstransitions md-filereader md-no-filesystem md-json md-no-video md-no-videoloop md-no-videopreload md-no-webanimations md-websockets md-websocketsbinary" style=""><!--<![endif]--><head>
+
+  <meta charset="utf-8">
+  <title>无限娱乐</title>
+  <meta name="viewport" id="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes">
+  <meta name="keywords" content="无限娱乐">
+  <meta name="description" content="无限娱乐">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="renderer" content="webkit">
+  <style type="text/css">
+    .wm-loading{overflow:hidden}.wm-loader-wrapper{position:fixed;top:0;left:0;width:100%;height:100%;z-index:2000}.wm-loader{display:block;position:relative;left:50%;top:50%;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:3px solid transparent;border-top-color:#017880;animation:spin 2s linear infinite;z-index:1001}.wm-loader:after,.wm-loader:before{content:"";position:absolute}.wm-loader:before{top:5px;left:5px;right:5px;bottom:5px;border-radius:50%;border:3px solid transparent;border-top-color:#11c5b0;-webkit-animation:spin 3s linear infinite;animation:spin 3s linear infinite}.wm-loader:after{top:15px;left:15px;right:15px;bottom:15px;border-radius:50%;border:3px solid transparent;border-top-color:#37e4d0;-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.wm-loader-wrapper .loader-section{position:fixed;top:0;width:51%;height:100%;background:#262626;z-index:1000;transform:translateX(0)}.wm-loader-wrapper .loader-section.section-left{left:0}.wm-loader-wrapper .loader-section.section-right{right:0}.wm-loaded .wm-loader-wrapper .loader-section.section-left{transform:translateX(-100%)}.wm-loaded .wm-loader-wrapper .loader-section.section-right{transform:translateX(100%)}.wm-loaded .wm-loader{opacity:0;-webkit-transition:all .3s ease-out;transition:all .3s ease-out}.wm-loaded .wm-loader-wrapper{visibility:hidden;transform:translateY(-100%)}
+  </style>
+  <script>
+    var viewport = document.getElementById("viewport");
+    // console.log('screen.width:'+screen.width);
+    // console.log('window.innerWidth:'+window.innerWidth);
+    var rate = ((Math.floor((screen.width / window.innerWidth)*10))/10).toFixed(1);
+    if(rate<1){
+      viewport.content = "width=device-width,initial-scale="+rate+",user-scalable=yes";
+    }else{
+      viewport.content = "width=device-width,initial-scale=1.0,user-scalable=yes";
+    }
+    // function isMobile(){
+    //   var ua = navigator.userAgent.toLowerCase();
+    //   var StringPhoneReg = "\\b(ip(hone|od)|android|opera m(ob|in)i"
+    //     + "|windows (phone|ce)|blackberry"
+    //     + "|s(ymbian|eries60|amsung)|p(laybook|alm|rofile/midp"
+    //     + "|laystation portable)|nokia|fennec|htc[-_]"
+    //     + "|mobile|up.browser|[1-4][0-9]{2}x[1-4][0-9]{2})\\b";
+    //   var StringTableReg = "\\b(ipad|tablet|(Nexus 7)|up.browser"
+    //     + "|[1-4][0-9]{2}x[1-4][0-9]{2})\\b";
+    //
+    //   console.log(ua);
+    //   var isIphone = ua.match(StringPhoneReg),
+    //     isTable = ua.match(StringTableReg),
+    //     isMobile = isIphone || isTable;
+    //
+    //   if(isMobile) {
+    //     // window.location.href="fm.yb8.com";
+    //     console.log('跳转m端')
+    //     return true;
+    //   }else {
+    //     return false;
+    //   }
+    // }
+    // isMobile();
+
+  </script>
+
+  <script>
+
+    (function(){
+      var mobile_flag = isMobile(); // true为PC端，false为手机端
+
+      if(mobile_flag){
+        var goToMobile = confirm('是否前往触屏版？')
+        if(goToMobile){
+          window.location.href = getMobileDomain();
+        }
+      }
+    })();
+
+    function isMobile() {
+      var userAgentInfo = navigator.userAgent;
+
+      var mobileAgents = [ "Android", "iPhone", "SymbianOS", "Windows Phone", "iPad","iPod"];
+
+      var mobile_flag = false;
+
+      //根据userAgent判断是否是手机
+      for (var v = 0; v < mobileAgents.length; v++) {
+        if (userAgentInfo.indexOf(mobileAgents[v]) > 0) {
+          mobile_flag = true;
+          break;
+        }
+      }
+
+      var screen_width = window.screen.width;
+      var screen_height = window.screen.height;
+
+      //根据屏幕分辨率判断是否是手机
+      if(screen_width < 500 && screen_height < 800){
+        mobile_flag = true;
+      }
+
+      return mobile_flag;
+    }
+    function getMobileDomain(){
+      let hostName = window.location.hostname
+      let hostNameAttrArr = hostName.split('.')
+      let newHostNameAttrArr = []
+      newHostNameAttrArr.unshift(hostNameAttrArr.pop())
+      newHostNameAttrArr.unshift(hostNameAttrArr.pop())
+      let secondDomain = hostNameAttrArr.pop()
+      secondDomain = 'm'
+      newHostNameAttrArr.unshift(secondDomain)
+      console.log(newHostNameAttrArr.join('.'))
+      return 'http://' + newHostNameAttrArr.join('.')
+    }
+
+
+  </script>
+<link href="/vendor.styles.css?e9be645692ac471293c7" rel="stylesheet"><link href="/16.7f733ee453e23724ba0e.styles.css" rel="stylesheet"><link href="/base.7f733ee453e23724ba0e.styles.css" rel="stylesheet"><link href="/main.7f733ee453e23724ba0e.styles.css" rel="stylesheet"><script async="" src="https://static.hotjar.com/c/hotjar-834493.js?sv=6"></script><style type="text/css">.main-top[data-v-46f6c276]{min-width:1200px}</style><style type="text/css">.slide-trans-enter-active[data-v-23a360f0]{-webkit-transition:all 1s;-o-transition:all 1s;transition:all 1s}.slide-trans-enter[data-v-23a360f0]{-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);opacity:1}.slide-trans-old-leave-active[data-v-23a360f0]{-webkit-transition:all 1s;-o-transition:all 1s;transition:all 1s;opacity:0}.slide-show[data-v-23a360f0]{position:relative;margin:0 auto;width:100%;height:450px;overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.slide-img[data-v-23a360f0]{width:100%}.slide-img img[data-v-23a360f0]{width:1920px;height:100%;position:absolute;top:0;max-width:1920px;left:50%;margin-left:-960px}.slide-pages[data-v-23a360f0]{position:absolute;bottom:20px;margin-bottom:5px;padding:5px 20px;background:#000;background:rgba(0,0,0,.2);border-radius:20px}.slide-pages li[data-v-23a360f0]{display:inline-block}.slide-pages li a[data-v-23a360f0]{display:block;width:12px;height:12px;border-radius:50%;background:#fff;background:hsla(0,0%,100%,.3);margin-right:12.5px;margin-left:12.5px;cursor:pointer}.slide-pages li a.on[data-v-23a360f0]{background:#fff;background:hsla(0,0%,100%,.8)}</style><style type="text/css"></style><script async="" src="https://script.hotjar.com/modules-0554a704a4e49d5aa65caf82949c9503.js"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+
+<body class="loading wm-loaded">
+<!-- loader -->
+<div class="wm-loader-wrapper">
+  <div class="wm-loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
+
+<div data-v-46f6c276="" class="js-app-container"><div data-v-46f6c276="" class="main-top"><div data-v-ce4792a0="" data-v-46f6c276="" class="top-nav"><div data-v-ce4792a0="" class="back-to-old"><i data-v-ce4792a0="" class="fa fa-exchange"></i>&nbsp;返回旧版</div> <div data-v-ce4792a0="" class="header-main "><div data-v-ce4792a0="" class="header-assist"><a data-v-ce4792a0="" href="/change.html" class="header-left-link">线路中心</a> <a data-v-ce4792a0="" class="header-left-link">极速登录器</a> <a data-v-ce4792a0="" class="header-left-link">清理缓存</a></div> <div data-v-ce4792a0="" class="js-gl-service header-customer-entry  pull-right overflow-hidden"><span data-v-ce4792a0="" class="sfa sfa-customer-service"></span><span data-v-ce4792a0="" class="header-customer-text">客服</span></div> <div data-v-ce4792a0="" class="header-not-login pull-right"><button data-v-ce4792a0="" type="button" class="header-game ">免费试玩</button> <button data-v-ce4792a0="" type="button" class="header-login ">登录</button></div></div></div> <div data-v-46f6c276="" id="notice" class="notice-container"></div> <div data-v-385f7887="" data-v-46f6c276="" class="navbar-container"><div data-v-385f7887="" class="main-display"><div data-v-385f7887="" class="js-db-nav-main nav-main"><div data-v-385f7887=""><div data-v-385f7887="" class="gl-main-navbar"><a data-v-385f7887="" href="#/?dashboard=1" class="navbar-logo"></a> <ul data-v-385f7887="" class="nav js-navbar-nav" style="position: static;"><li data-v-385f7887="" data-index="1"><a data-v-385f7887="" href="#/game/sports" class="">
+                体育
+                <img data-v-385f7887="" src="/6d1f74e203053b69d1321aae8d0be8c5.png" class="sports-icon"></a></li> <li data-v-385f7887="" data-index="1"><a data-v-385f7887="">彩票
+                </a> <div data-v-b4fdeed6="" data-v-385f7887="" class=" nav-channel-container"><div data-v-b4fdeed6="" class="nav-channel-content"><div data-v-b4fdeed6="" class="nav-channel-main"><div data-v-b4fdeed6="" class="classic-title">时时彩</div> <ul data-v-b4fdeed6="" class="container-list constantly"><li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">无限MD5秒秒彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">QQ30秒</a> <span data-v-b4fdeed6="" class="navbar-ticket-icon-hot"></span></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">无限分分彩</a> <span data-v-b4fdeed6="" class="navbar-ticket-icon-hot"></span></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">无限三分彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">重庆时时彩</a> <span data-v-b4fdeed6="" class="navbar-ticket-icon-hot"></span></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">新疆时时彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">黑龙江时时彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">天津时时彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">韩国乐透1.5</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">东京1.5分彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">新加坡2分彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">QQ分分彩</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">腾讯分分彩</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li></ul> <div data-v-b4fdeed6="" class="classic-title">十一选五</div> <ul data-v-b4fdeed6="" class="container-list eleven"><li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">11选5分分彩</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">山东11选5</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">广东11选5</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">江西11选5</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">江苏11选5</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">北京11选5</a></li></ul> <div data-v-b4fdeed6="" class="classic-title">快乐彩</div> <ul data-v-b4fdeed6="" class="container-list happy"><li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">PK10</a> <span data-v-b4fdeed6="" class="navbar-ticket-icon-hot"></span></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">江苏快3</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">广西快3</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">湖北快3</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">上海快3</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">北京快3</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">河北快3</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li></ul> <div data-v-b4fdeed6="" class="classic-title">3D/低频</div> <ul data-v-b4fdeed6="" class="container-list 3d"><li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">QQ3D分分彩</a><i data-v-b4fdeed6="" class="sfa sfa-badge-new"></i></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">3D</a></li> <li data-v-b4fdeed6=""><span data-v-b4fdeed6="" class="navbar-ticket-chavon"></span> <a data-v-b4fdeed6="" href="javascript:void(0);">P3/P5</a></li></ul></div></div></div></li> <li data-v-385f7887="" data-index="18"><a data-v-385f7887="">双面盘
+                </a></li> <li data-v-385f7887="" data-index="2"><a data-v-385f7887="" href="#/rc" class="js-navbar-tab ">娱乐场
+                </a> <div data-v-f4d820d8="" data-v-385f7887="" class="nav-channel-container"><ul data-v-f4d820d8="" class="nav-channel-content"><div data-v-f4d820d8="" class="nav-channel-banner realPic"></div> <div data-v-f4d820d8="" class="nav-channel-entry-container"><li data-v-f4d820d8="" class="entry-item "><div data-v-f4d820d8="" class="entry-item-img icon-real-ag"></div> <div data-v-f4d820d8="" class="entry-item-content"><div data-v-f4d820d8="" class="entry-item-title">AG娱乐场</div> <div data-v-f4d820d8="" class="entry-item-desc">最具创新人气最旺</div> <a data-v-f4d820d8="" href="javascript:void(0);" class="btn entry-item-btn">进入游戏</a> <a data-v-f4d820d8="" href="javascript:void(0);" class="entry-down"><span data-v-f4d820d8="" class="entry-qrcode"></span>手机APP下载</a></div></li> <li data-v-f4d820d8="" class="entry-item "><div data-v-f4d820d8="" class="entry-item-img icon-real-ebet"></div> <div data-v-f4d820d8="" class="entry-item-content"><div data-v-f4d820d8="" class="entry-item-title">EBET娱乐场</div> <div data-v-f4d820d8="" class="entry-item-desc">亚洲最稳健的平台</div> <a data-v-f4d820d8="" href="javascript:void(0);" class="btn entry-item-btn">进入游戏</a> <a data-v-f4d820d8="" href="javascript:void(0);" class="entry-down"><span data-v-f4d820d8="" class="entry-qrcode"></span>手机APP下载</a></div></li> <li data-v-f4d820d8="" class="entry-item "><div data-v-f4d820d8="" class="entry-coming-soon"></div> <div data-v-f4d820d8="" class="entry-item-img icon-real-bbin"></div> <div data-v-f4d820d8="" class="entry-item-content"><div data-v-f4d820d8="" class="entry-item-title">BBIN娱乐场</div> <div data-v-f4d820d8="" class="entry-item-desc">移动娱乐第一品牌</div> <a data-v-f4d820d8="" href="javascript:void(0);" class="btn entry-item-btn disabled">进入游戏</a> <a data-v-f4d820d8="" href="javascript:void(0);" class="entry-down disabled"><span data-v-f4d820d8="" class="entry-qrcode "></span>手机APP下载</a></div></li></div></ul></div></li> <li data-v-385f7887="" data-index="3"><a data-v-385f7887="" href="#/sc" class="js-navbar-tab ">老虎机
+                </a> <div data-v-6ad8438d="" data-v-385f7887="" class="js-nav-channel-container nav-channel-container"><ul data-v-6ad8438d="" class="nav-channel-content"><div data-v-6ad8438d="" class="nav-channel-banner slotPic"></div> <div data-v-6ad8438d="" class="nav-channel-entry-container"><li data-v-6ad8438d="" class="entry-item slot"><div data-v-6ad8438d="" class="entry-item-img icon-slot-pt"></div> <div data-v-6ad8438d="" class="entry-item-content"><div data-v-6ad8438d="" class="entry-item-title">PT老虎机</div> <div data-v-6ad8438d="" class="entry-item-desc">玩法丰富，实力超群</div> <a data-v-6ad8438d="" href="javascript:void(0)" class="btn entry-item-btn">进入游戏</a> <a data-v-6ad8438d="" data-id="4" data-gameid="" data-type="1" class="js-nav-channel-btn nav-channel-link prominent-link">试玩版</a> <a data-v-6ad8438d="" data-id="4" data-gameid="" data-type="0" class="js-nav-channel-btn nav-channel-link">手机版</a></div></li> <li data-v-6ad8438d="" class="entry-item slot"><div data-v-6ad8438d="" class="entry-item-img icon-slot-mg"></div> <div data-v-6ad8438d="" class="entry-item-content"><div data-v-6ad8438d="" class="entry-item-title">MG老虎机</div> <div data-v-6ad8438d="" class="entry-item-desc">欧美最流行老虎机</div> <a data-v-6ad8438d="" href="javascript:void(0)" class="btn entry-item-btn">进入游戏</a> <a data-v-6ad8438d="" data-id="5" data-gameid="" data-type="1" class="js-nav-channel-btn nav-channel-link prominent-link">试玩版</a> <a data-v-6ad8438d="" data-id="5" data-gameid="" data-type="0" class="js-nav-channel-btn nav-channel-link">手机版</a></div></li></div></ul></div></li> <li data-v-385f7887="" data-index="4"><a data-v-385f7887="" href="#/fh" class="js-navbar-tab ">捕鱼
+                </a> <div data-v-4ea9d1ef="" data-v-385f7887="" class="js-nav-channel-container nav-channel-container"><ul data-v-4ea9d1ef="" class="nav-channel-content"><div data-v-4ea9d1ef="" class="nav-channel-banner fishPic"></div> <div data-v-4ea9d1ef="" class="nav-channel-entry-container"><li data-v-4ea9d1ef="" class="entry-item fish"><div data-v-4ea9d1ef="" class="entry-item-img icon-fish-ag"></div> <div data-v-4ea9d1ef="" class="entry-item-content"><div data-v-4ea9d1ef="" class="entry-item-title">AG捕鱼王</div> <div data-v-4ea9d1ef="" class="entry-item-desc">纯3D捕鱼，百万奖金</div> <a data-v-4ea9d1ef="" href="javascript:void(0);" class="btn entry-item-btn">进入游戏</a> <a data-v-4ea9d1ef="" href="javascript:void(0);" class="entry-down"><span data-v-4ea9d1ef="" class="entry-qrcode"></span>手机APP下载</a></div></li> <li data-v-4ea9d1ef="" class="entry-item fish"><div data-v-4ea9d1ef="" class="entry-item-img icon-fish-gg"></div> <div data-v-4ea9d1ef="" class="entry-item-content"><div data-v-4ea9d1ef="" class="entry-item-title">GG捕鱼天下</div> <div data-v-4ea9d1ef="" class="entry-item-desc">高清全景游戏画面</div> <a data-v-4ea9d1ef="" href="javascript:void(0);" class="btn entry-item-btn">进入游戏</a> <a data-v-4ea9d1ef="" href="javascript:void(0);" class="entry-down"><span data-v-4ea9d1ef="" class="entry-qrcode"></span>手机APP下载</a></div></li></div></ul></div></li> <li data-v-385f7887="" data-index="5"><a data-v-385f7887="" href="#/aa" class="js-navbar-tab">优惠活动</a></li> <li data-v-385f7887="" data-index="7"><a data-v-385f7887="" href="#/points" class="js-navbar-tab">积分商城<span data-v-385f7887="" class="nav-hot-icon"></span></a></li> <li data-v-385f7887="" data-index="6"><a data-v-385f7887="" href="#/mb" class="js-navbar-tab">手机投注</a></li> <div data-v-385f7887="" class="navbar-slide-underline js-navbar-slide-underline"></div></ul> <div data-v-385f7887="" class="nav-mall-sub js-nav-mall-sub hidden"><i data-v-385f7887="" class="sfa-up_icon"></i> <div data-v-385f7887="" class="mall-sub-title"><span data-v-385f7887="" class="sfa sfa-mall-entry-rec"></span> 商城最新推荐
+            </div> <ul data-v-385f7887="" class="js-nav-mall-sub-list"></ul> <div data-v-385f7887="" class="mall-more"><a data-v-385f7887="" href="#/ma" target="_blank">查看更多&gt;&gt;</a></div></div></div></div></div></div></div></div> <div data-v-46f6c276="" class="global-main wrapper m-center"><div data-v-46f6c276="" class="wrapper-main"><div data-v-46f6c276="" id="main" class="main-container clearfix"></div> <div data-v-46f6c276="" id="main-vue" class="main-container clearfix"><!----> <div data-v-2ad10804="" data-v-46f6c276=""><div data-v-2ad10804="" class="dashboard-banner"><div data-v-265ea6f6="" data-v-23a360f0="" data-v-2ad10804="" class="slide-show"><div data-v-23a360f0="" class="slide-img"><a data-v-23a360f0="" href="/#/act/betPlan"><img data-v-23a360f0="" src="http://game.pa68.com/info/imgs/public/27526"> <!----></a></div> <ul data-v-23a360f0="" class="slide-pages"><li data-v-23a360f0=""><a data-v-23a360f0="" class="on"></a></li><li data-v-23a360f0=""><a data-v-23a360f0="" class=""></a></li><li data-v-23a360f0=""><a data-v-23a360f0="" class=""></a></li></ul></div></div> <div data-v-2ad10804="" class="db-bulletin-container"><div data-v-2ad10804="" class="dashboard-bulletin"><div data-v-2ad10804="" class="db-notice"></div> <div data-v-2ad10804="" class="bulletin-content js-bulletin-marquee"><div data-v-487d5152="" data-v-2ad10804=""><div data-v-487d5152="" class="notice-content inline-block"><div data-v-487d5152="" class="marquee"><div class="content velocity-animating" style="left: 953.375341796875px;"><a data-v-487d5152="">【【投注挑战】每日激战，奖励翻番】每天登录平台领取任务，完成即获得双倍奖励
+          <span data-v-487d5152="" class="m-LR-sm">/</span></a><a data-v-487d5152="">【【第十期】八大彩种擂台赛，千万壕礼再起程】上榜得奖励，中奖夺大神奖励，周榜赏六万！
+          <span data-v-487d5152="" class="m-LR-sm">/</span></a><a data-v-487d5152="">【【07/23】平台更新说明】首创MD5秒秒彩，提前公布开奖加密字符串，开奖透明公开；新增湖北、广西、北京、河北、上海快3彩种，为玩家提供更多选择。
+          <!----></a></div></div></div> <!----></div></div></div></div> <div data-v-2ad10804="" class="dashboard-container"><div data-v-2ad10804="" class="dashboard-row"><div data-v-2ad10804="" class="col-md-9 db-shadow carousel slide"><ol data-v-2ad10804="" class="db-carousel-indicators"><li data-v-2ad10804="" class="active"></li><li data-v-2ad10804="" class=""></li><li data-v-2ad10804="" class=""></li></ol> <div data-v-2ad10804="" class="dashboard-carousel-table  carousel-inner"><div data-v-2ad10804="" class="dashboard-row-contant clearfix"><a data-v-2ad10804="" href="#/game/sports" class="db-game-ad db-sport-ad"></a> <div data-v-2ad10804="" class="carousel-table-content"><div data-v-2ad10804="" class="game-sport"><div data-v-2ad10804="" class="game-item"><div data-v-2ad10804="" class="team-info"><img data-v-2ad10804="" src="/info/imgs/public/27534" class="team-img"> <div data-v-2ad10804="" class="team-name">切尔西</div></div> <div data-v-2ad10804="" class="game-info"><div data-v-2ad10804="" class="game-name">国际冠军杯</div> <div data-v-2ad10804="" class="game-time">08-07 19:05</div> <a data-v-2ad10804="" href="#/game/sports" class="game-link">立即参与</a></div> <div data-v-2ad10804="" class="team-info"><img data-v-2ad10804="" src="/info/imgs/public/27535" class="team-img"> <div data-v-2ad10804="" class="team-name">里昂</div></div></div><div data-v-2ad10804="" class="game-item"><div data-v-2ad10804="" class="team-info"><img data-v-2ad10804="" src="/info/imgs/public/27536" class="team-img"> <div data-v-2ad10804="" class="team-name">皇家马德里</div></div> <div data-v-2ad10804="" class="game-info"><div data-v-2ad10804="" class="game-name">国际冠军杯</div> <div data-v-2ad10804="" class="game-time">08-08 0:05</div> <a data-v-2ad10804="" href="#/game/sports" class="game-link">立即参与</a></div> <div data-v-2ad10804="" class="team-info"><img data-v-2ad10804="" src="/info/imgs/public/27537" class="team-img"> <div data-v-2ad10804="" class="team-name">罗马</div></div></div></div></div></div> <div data-v-2ad10804="" class="dashboard-row-contant clearfix" style="display: none;"><a data-v-2ad10804="" href="#/rc" class="db-game-ad db-ah-ad"></a> <div data-v-2ad10804="" class="carousel-table-content"><div data-v-2ad10804="" class="dashboard-row-inner"><div data-v-2ad10804="" class="content-item-2x db-ah-bjl clearfix"><div data-v-2ad10804="" class="content-text"><div data-v-2ad10804="">百家乐游戏规则简单，是世界各地赌场中最受欢迎</div> <div data-v-2ad10804="">的扑克游戏</div></div> <div data-v-2ad10804="" class="db-ah-play-btn db-ah-play-btn-blue">立即游戏</div></div> <div data-v-2ad10804="" class="clearfix"></div></div> <div data-v-2ad10804="" class="dashboard-row-inner"><div data-v-2ad10804="" class="db-ah-sb clearfix"><div data-v-2ad10804="" class="content-text"><div data-v-2ad10804="">游戏节奏明快，投注组合丰富</div> <div data-v-2ad10804="">深受亚洲人喜爱</div></div> <div data-v-2ad10804="" class="db-ah-play-btn db-ah-play-btn-green ">立即游戏</div></div> <div data-v-2ad10804="" class="db-ah-lp clearfix"><div data-v-2ad10804="" class="content-text"><div data-v-2ad10804="">游戏规则简单，投注方式多样</div> <div data-v-2ad10804="">趣味十足</div></div> <div data-v-2ad10804="" class="db-ah-play-btn db-ah-play-btn-purple ">立即游戏</div></div> <div data-v-2ad10804="" class="clearfix"></div></div></div> <div data-v-2ad10804="" class="clearfix"></div></div> <div data-v-2ad10804="" class="dashboard-row-contant clearfix" style="display: none;"><a data-v-2ad10804="" href="#/fh" class="db-game-ad db-gg-ad "></a> <div data-v-2ad10804="" class="carousel-table-content"><div data-v-2ad10804="" class="game-gg"></div></div></div> <div data-v-2ad10804="" class="clearfix"></div></div></div> <div data-v-2ad10804="" class="col-md-3"><div data-v-44ec89c1="" data-v-2ad10804="" class="dashboard-mall db-shadow"><div data-v-44ec89c1="" class="db-block-border"></div> <div data-v-44ec89c1="" class="dashboard-mall-header"><div data-v-44ec89c1="" class="db-mall-title"></div></div> <div data-v-44ec89c1="" class="js-db-mall-content"><div data-v-44ec89c1="" class="dashboard-mall-content clearfix"><div data-v-44ec89c1="" class="info"><div data-v-44ec89c1="" class="title"><!---->
+            iPhone X 64GB
+          </div> <div data-v-44ec89c1="" class="ticket-name"></div> <div data-v-44ec89c1="" class="desc">革新世界的手机，用积分就能免费兑换</div></div> <div data-v-44ec89c1="" class="image-info"><img data-v-44ec89c1="" src="/info/imgs/public/27079"></div></div><div data-v-44ec89c1="" class="dashboard-mall-content clearfix"><div data-v-44ec89c1="" class="info"><div data-v-44ec89c1="" class="title"><span data-v-44ec89c1="" class="num">18<span class="font-sm">元</span></span>
+            代金券
+          </div> <div data-v-44ec89c1="" class="ticket-name">QQ30秒</div> <div data-v-44ec89c1="" class="desc">单笔投注满36元即可用</div></div> <div data-v-44ec89c1="" class="image-info"><span data-v-44ec89c1="" class="coupont-img coupont-5"></span></div></div><div data-v-44ec89c1="" class="dashboard-mall-content clearfix"><div data-v-44ec89c1="" class="info"><div data-v-44ec89c1="" class="title"><span data-v-44ec89c1="" class="num">18<span class="font-sm">元</span></span>
+            代金券
+          </div> <div data-v-44ec89c1="" class="ticket-name">无限分分彩</div> <div data-v-44ec89c1="" class="desc">单笔投注满36元即可用</div></div> <div data-v-44ec89c1="" class="image-info"><span data-v-44ec89c1="" class="coupont-img coupont-5"></span></div></div></div></div></div> <div data-v-2ad10804="" class="clearfix"></div></div> <div data-v-2ad10804="" class="dashboard-row"><div data-v-2ad10804="" class="col-md-9"><div data-v-2ad10804="" class="db-ticket db-shadow"><div data-v-2ad10804="" class="db-block-border"></div> <div data-v-2ad10804="" class="db-ticket-ad"></div> <div data-v-2ad10804="" class="db-ticket-game"><div data-v-501a5dbf="" data-v-2ad10804=""><ul data-v-501a5dbf="" class="db-ticket-game-type"><li data-v-501a5dbf="" class="active db-ticket-game-type-item">双面盘</li> <li data-v-501a5dbf="" class="db-ticket-game-type-item">经典彩票</li></ul> <a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-more">更多彩种<span data-v-501a5dbf="" class="sfa sfa-more-arrow-right-double"></span></a> <div data-v-501a5dbf="" class="ticket-game-main"><!----> <!----> <div data-v-501a5dbf="" class="db-ticket-game-type-container"><div data-v-501a5dbf=""><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-ssc-cq-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">重庆时时彩</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">2611</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 65.275%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-pk10-pk10-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">PK10</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">2118</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 52.95%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-mark6-mark6-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">香港六合彩</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">1532</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 38.3%;"></div></div></div></div></div> <div data-v-501a5dbf="" class="db-ticket-game-type-container" style="display: none;"><div data-v-501a5dbf=""><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-ssc-cq-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">重庆时时彩</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">2611</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 65.275%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-choose15-sd-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">山东11选5</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">1587</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 39.675%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-ssc-tx-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">腾讯分分彩</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">1637</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 40.925%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-ssc-ffc-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">无限分分彩</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">2449</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 61.225%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-ssc-hg-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">韩国乐透1.5</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">1603</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 40.075%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-pk10-pk10-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">PK10</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">2118</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 52.95%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-ssc-xjp-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">新加坡2分彩</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">1561</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 39.025%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-ssc-dj-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">东京1.5分彩</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">1579</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 39.475%;"></div></div></div><div data-v-501a5dbf="" class="db-ticket-item"><a data-v-501a5dbf="" href="javascript:void(0)" class="db-ticket-logo sfa-bc-quick3-jsk3-hot"></a> <div data-v-501a5dbf="" class="db-ticket-name">江苏快3</div> <div data-v-501a5dbf="" class="db-ticket-num"><span data-v-1bc8ec08="" data-v-501a5dbf="">1012</span>
+            人参与投注
+          </div> <div data-v-501a5dbf="" class="db-ticket-progress-bg"><div data-v-501a5dbf="" class="db-ticket-progress" style="width: 25.3%;"></div></div></div></div></div></div></div></div></div></div> <div data-v-2ad10804="" class="col-md-3"><div data-v-2ad10804="" class="db-activity db-shadow"><div data-v-2ad10804="" class="db-block-border"></div> <a data-v-2ad10804="" href="#/aa" class=""><div data-v-2ad10804="" class="db-activity-content"></div></a></div></div> <div data-v-2ad10804="" class="clearfix"></div></div></div></div></div></div></div> <div data-v-0ce89362="" data-v-46f6c276="" class="footer"><div data-v-0ce89362="" class="footer-container"><div data-v-0ce89362="" class="footer-content"><div data-v-0ce89362=""><div data-v-0ce89362="" class="link-list"><li data-v-0ce89362=""><a data-v-0ce89362="" href="#/au?page=AboutUs" class="">关于我们</a></li> <li data-v-0ce89362=""><a data-v-0ce89362="" href="#/au?page=RulesAndTerms" class="">规则与条款</a></li> <li data-v-0ce89362=""><a data-v-0ce89362="" href="#/hc?page=DepositProcess" class="">常见问题</a></li> <li data-v-0ce89362=""><a data-v-0ce89362="" href="#/hc?page=SscLottery" class="">游戏规则</a></li> <li data-v-0ce89362=""><a data-v-0ce89362="" href="#/hc?page=DnsCourse" class="">防劫持教程</a></li></div> <div data-v-0ce89362="" class="download"><span data-v-0ce89362="" class="download-list"><span data-v-0ce89362="">下载手机APP：</span> <a data-v-0ce89362="" href="#/mb" class="android-icon"></a> <a data-v-0ce89362="" href="#/mb" class="ios-icon"></a></span></div> <p data-v-0ce89362="">Copyright © 2016-2018 无限娱乐 版权所有</p> <p data-v-0ce89362="">无限娱乐郑重提示：彩票有风险，投注需谨慎，未满18周岁的青少年禁止购买</p> <div data-v-0ce89362="" class="desc-bottom"><span data-v-0ce89362="" class="cooperator-list"><span data-v-0ce89362="">合作伙伴：</span> <span data-v-0ce89362="" class="flex-row"><div data-v-0ce89362="" class="carousel-item cooperator-icon-1"></div><div data-v-0ce89362="" class="carousel-item cooperator-icon-2"></div><div data-v-0ce89362="" class="carousel-item cooperator-icon-3"></div><div data-v-0ce89362="" class="carousel-item cooperator-icon-4"></div><div data-v-0ce89362="" class="carousel-item cooperator-icon-5"></div><div data-v-0ce89362="" class="carousel-item cooperator-icon-6"></div></span></span></div></div> <div data-v-0ce89362=""><div data-v-0ce89362="" class="desc-company"><p data-v-0ce89362="">
+            作为行业挑战者，无限娱乐始终将品牌信誉作为发展的第一要务，
+            在游戏选择，产品设计，运营服务的创新上从未妥协。实力让情怀
+            落地，厚积薄发才能带给用户最极致的游戏体验。
+          </p></div> <div data-v-0ce89362="" class="follow"><span data-v-0ce89362="" class="follow-list"><span data-v-0ce89362="">关注我们：</span> <div data-v-0ce89362="" class="wechat-icon icon"></div> <a data-v-0ce89362="" href="https://weibo.com/6456736183/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo&amp;is_all=1" target="_blank" class="weibo-icon icon"></a> <a data-v-0ce89362="" href="https://www.facebook.com/wx.wx.547389" target="_blank" class="facebook-icon icon"></a> <a data-v-0ce89362="" href="https://twitter.com/wx_game" target="_blank" class="twitter-icon icon"></a></span></div> <div data-v-0ce89362="" class="duty"><span data-v-0ce89362="" class="duty-list"><span data-v-0ce89362="">博彩责任：</span> <span data-v-0ce89362="" class="flex-row"><div data-v-0ce89362="" class="carousel-item duty-icon-1"></div><div data-v-0ce89362="" class="carousel-item duty-icon-2"></div><div data-v-0ce89362="" class="carousel-item duty-icon-3"></div></span></span></div></div></div> <div data-v-0ce89362="" class="footer-bg"></div></div> <div data-v-0ce89362="" class="line"></div></div> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----></div>
+<div id="toolbar" class="home-toolbar-container js-toolbar-container"><div><div class="js-toolbar-option-container toolbar-option-container">
+  <div class="js-toolbar-option-operation-container hidden">
+    <div class="activity-panel js-activity-panel" id="js-activity-panel">
+      <!--<div class="js-novice-package novice-package hidden"></div>-->
+      <!--<a href="#/act/arena" class="js-arena-package arena-package hidden"></a>-->
+      <!--<a href="#/act/userReturn" class="js-user-return-package user-return-package hidden"></a>-->
+    </div>
+    <div class="js-toolbar-option toolbar-option" data-option="1">
+      <div class="money"></div>
+      资金管理
+    </div>
+    <div class="js-toolbar-option toolbar-option" data-option="2">
+      <div class="record"></div>
+      游戏记录
+    </div>
+    <div class="js-toolbar-option toolbar-option" data-option="3">
+      <div class="ticket"><span class="js-coupon-remind coupon-remind hidden"></span></div>
+      我的优惠券
+    </div>
+    <div class="js-toolbar-im-dialog toolbar-option">
+      <div class="chat"><span class="js-news-remind news-remind hidden"></span></div>
+      站内消息
+    </div>
+    <div class="js-toolbar-feedback-dialog toolbar-option">
+      <div class="feedback"></div>
+      意见反馈
+    </div>
+    <!--<div class="js-new-im-dialog toolbar-option">-->
+      <!--<div class="chat"><span class="js-news-remind news-remind hidden"></span></div>-->
+      <!--站内消息新版-->
+    <!--</div>-->
+  </div>
+  <div class="js-toolbar-scroll-to-top toolbar-option">
+    <div class="up"></div>
+    回到顶部
+  </div>
+</div>
+
+<div class="js-toolbar-sidebar toolbar-sidebar-container">
+</div>
+
+<!--<div class="js-sidebar-close mask-for-close hidden"></div>-->
+</div></div>
+
+<!--[if lt IE 10]>
+<style type="text/css">
+  *{margin:0;padding:0}.wm-loader-wrapper{display:none;}.js-wrapper{display:none;}.wm-loader-wrapper{display:none;}.js-app-container{display: none;}.home-toolbar-container{display: none;}.browser-warning{height:100%;background-color:#fff}.upgradeBrowser{height:100%;text-align:center}.upgradeBrowser .content{top:50%;left:50%;margin-left:-250px;margin-top:-100px;text-align:center;width:500px;height:200px;position:absolute;font-family:"Arial Normal","Arial";color:#000;}.upgradeBrowser .content .checkText1{font-size:32px;margin-bottom:25px;line-height:32px;font-weight:400}.upgradeBrowser .content .checkText2{font-size:20px;line-height:20px;margin-bottom:35px}.upgradeBrowser .content a.btn{background-color:#169bd5;border:0;font-size:20px;color:#fff;text-decoration:none;display:inline-block;width:160px;height:50px;line-height:50px}.upgradeBrowser .content a.btn:hover{background-color:#e8675d}
+</style>
+<div class="browser-warning" role="alert">
+  <div class="upgradeBrowser">
+    <div class="content">
+      <p class="checkText1"><span>检测到您的浏览器未升级</span></p>
+      <p class="checkText2"><span>为了达到最好的娱乐体验，请你务必升级到IE10或以上</span></p>
+      <p>
+        <a class="btn" href="http://sw.bos.baidu.com/sw-search-sp/software/f9c6599881784/BOIE10-Windows6.1-zh-cn.exe">立即升级</a>
+      </p>
+    </div>
+  </div>
+</div>
+<![endif]-->
+<div class="hidden">
+  <script type="text/javasdddcript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1262787394'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1262787394%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<script type="text/javascript" src="/vendor.js?3996fea6787cdcb7f6ed"></script><script type="text/javascript" src="/commons.7f733ee453e23724ba0e.bundle.js"></script><script type="text/javascript" src="/base.7f733ee453e23724ba0e.bundle.js"></script><script type="text/javascript" src="/main.7f733ee453e23724ba0e.bundle.js"></script>
+<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="诚信娱乐城">
+        <link href="images/favicon.ico?i=3.00" rel="Shortcut Icon">
+        <link rel="stylesheet" type="text/css" href="css/base.css?i=3.043">
+        <link rel="stylesheet" type="text/css" href="public/js/layer/skin/layer.css">
+        <link rel="stylesheet" type="text/css" href="css/index1.css?i=3.043">
+        <title>诚信娱乐城</title>
+    </head>
+    <body>
+    <!-- <div class="welcome">
+        <div class="welbox">
+            <a href="#1" onclick="$('.welcome').hide();">X</a>
+            <img src="images/welcome.jpg" />
+        </div>
+    </div> -->
+        <div class="container">
+          <div class="top-all top_bg">
+            <div class="top" id="about11">
+                <div class="line_m"></div>
+                <div class="w1000" style="position:relative;">
+                    <div class="logo">
+                    	<a href="javascript:;" class="th_index">
+                    	</a>
+                    </div>
+                    <div class="tip_m"></div>
+                    <!--<div class="url_m"></div>-->
+                    <div class="list_m">
+                        <div class="lans r mt10 mr20">
+                            丨<a class="th_jiameng" href="javascript:;">代理注册</a> 丨 <a href="http://10813.com/" target="_blank">线路检测</a> 丨 <a onclick="SetHome(window.location)" href="#">设为首页</a> 丨 <a onclick="AddFavorite(window.location,document.title)" href="#">加入收藏</a>丨
+                            <a href="javascript:;" class="dib vm fan"><img src="/images/header/lans_fan.png"></a>
+                            <a href="javascript:;" class="dib vm jian"><img src="/images/header/lans_jian.png"></a>
+                            <a href="javascript:;" class="dib vm english"><img src="/images/header/lans_english.png"></a>
+                        </div>
+                    </div>
+                    <div class="div_login"></div>                  
+                    <div class="cl"></div> 
+                </div> 
+            </div>
+            <div class="header" id="header">
+                <div class="nav" id="header_nav">
+                    <div class="w1000 nav-width">
+                       <div class="nav-inner"></div>
+                        <ul class="nav-list" id="nav" style="position: relative;">
+                            <li class="nLi"><a href="javascript:;" class="list-home th_index nav_index_bg1"></a></li>
+                              <li class="nLi">
+                                <a href="javascript:;" class="th_lottoed nav_index_bg4"></a>
+                                <ul class="sub">
+                                    <li id="xianlineOnline" style="position: relative;">
+                                        <a href="javascript:;" id="li_lottery" class="th_lottoed">KG经典彩</a>
+                                        <i class="iconstyleone glyphicon glyphicon-menu-right"></i>
+                                    <ul id="lotteryLine" class=" xianluonlineul"><li id="lotteryLine1"><a style="width: 150px;" target="_blank" data-url="https://p.cn0909.com/Default/IndexNew" class="th_lottoOnline">线路1：<span style="display: inline-block;" id="lotterySpeedLine1">--</span></a></li><li id="lotteryLine2"><a style="width: 150px;" target="_blank" data-url="https://p.gw0909.com/Default/IndexNew" class="th_lottoOnline">线路2：<span style="display: inline-block;" id="lotterySpeedLine2">--</span></a></li><li id="lotteryLine3"><a style="width: 150px;" target="_blank" data-url="https://p.tw0606.com/Default/IndexNew" class="th_lottoOnline">线路3：<span style="display: inline-block;" id="lotterySpeedLine3">--</span></a></li><li id="lotteryLine4"><a style="width: 150px;" target="_blank" data-url="https://p.win1618.com/Default/IndexNew" class="th_lottoOnline">线路4：<span style="display: inline-block;" id="lotterySpeedLine4">--</span></a></li><li id="lotteryLine5"><a style="width: 150px;" target="_blank" data-url="https://p.uk7708.com/Default/IndexNew" class="th_lottoOnline">线路5：<span style="display: inline-block;" id="lotterySpeedLine5">--</span></a></li></ul></li>
+                                    <!--<li><a href="javascript:;" class="th_lotto">KG经典彩</a></li>-->
+                                    <li style="position: relative;"><a href="javascript:;" class="th_fenfen" id="th_fenfen">KG官方彩<i class="iconstyleone glyphicon glyphicon-menu-right"></i></a><ul id="thFenFenLine" class=" xianluonlineul"><li id="lotteryLine11"><a style="width: 150px;" data-url="https://meetu01.cc" data-lid="10" class="th_FenFenOnline" href="javascript:;">线路1：<span style="display: inline-block;" id="lotterySpeedLine11">--</span></a></li><li id="lotteryLine12"><a style="width: 150px;" data-url="https://www.dsffc888.com" data-lid="10" class="th_FenFenOnline" href="javascript:;">线路2：<span style="display: inline-block;" id="lotterySpeedLine12">--</span></a></li><li id="lotteryLine13"><a style="width: 150px;" data-url="https://www.dsffc666.com" data-lid="10" class="th_FenFenOnline" href="javascript:;">线路3：<span style="display: inline-block;" id="lotterySpeedLine13">--</span></a></li></ul></li>
+                                    <li style="position: relative;"><a href="javascript:;" class="th_luckyLotto">DS-PC28<i class="iconstyleone glyphicon glyphicon-menu-right"></i></a><ul id="thLuckyLine" class=" xianluonlineul"><li id="lotteryLine6"><a style="width: 150px;" target="_blank" data-url="https://p.cn0909.com/Default/IndexNew" data-lid="10" class="th_LuckyOnline" href="javascript:;">线路1：<span style="display: inline-block;" id="lotterySpeedLine6">--</span></a></li><li id="lotteryLine7"><a style="width: 150px;" target="_blank" data-url="https://p.gw0909.com/Default/IndexNew" data-lid="10" class="th_LuckyOnline" href="javascript:;">线路2：<span style="display: inline-block;" id="lotterySpeedLine7">--</span></a></li><li id="lotteryLine8"><a style="width: 150px;" target="_blank" data-url="https://p.tw0606.com/Default/IndexNew" data-lid="10" class="th_LuckyOnline" href="javascript:;">线路3：<span style="display: inline-block;" id="lotterySpeedLine8">--</span></a></li><li id="lotteryLine9"><a style="width: 150px;" target="_blank" data-url="https://p.win1618.com/Default/IndexNew" data-lid="10" class="th_LuckyOnline" href="javascript:;">线路4：<span style="display: inline-block;" id="lotterySpeedLine9">--</span></a></li><li id="lotteryLine10"><a style="width: 150px;" target="_blank" data-url="https://p.uk7708.com/Default/IndexNew" data-lid="10" class="th_LuckyOnline" href="javascript:;">线路5：<span style="display: inline-block;" id="lotterySpeedLine10">--</span></a></li></ul></li>
+                                    <!--<li><a href="javascript:;" class="th_ds_lottery">KG-DS传统彩</a></li>-->
+                                    <!--<li><a href="javascript:;" class="th_ds_lotto">KG-DS香港彩</a></li>-->
+                                </ul>
+                            </li>
+                            <li class="nLi">
+                                <a href="javascript:;" class="th_live nav_index_bg2"></a>
+                                <ul class="sub"><li style="position: relative;"><a href="javascript:;" class="th_live_ag">AG贵宾厅</a></li><li style="position: relative;"><a href="javascript:;" class="th_live_lmg">DS-LMG荣耀厅</a></li><li style="position: relative;"><a href="javascript:;" class="th_live_bin">BBIN旗舰厅</a></li><li style="position: relative;"><a href="javascript:;" class="th_live_sun">申博富贵厅</a></li></ul>
+                            </li>
+                            <li class="nLi">
+                                <a class="th_dsgame nav_index_bg5" href="javascript:;"></a>
+                                <ul class="sub"><li style="position: relative;"><a class="th_aggame" href="javascript:;">AG 电游</a></li><li style="position: relative;"><a class="th_game" href="javascript:;">BBIN 电游</a></li><li style="position: relative;"><a class="th_mggame" href="javascript:;">MG 电游</a></li><li style="position: relative;"><a class="th_ptgame" href="javascript:;" title="PT 电游">PT 电游</a></li> <li style="position: relative;"><a class="th_sungame" href="javascript:;">申博电游</a></li> </ul>
+                            </li>
+                            <li class="nLi on">
+                                <a class="th_sport nav_index_bg3" href="javascript:;"></a>
+                                <ul class="sub"><li style="position: relative;"><a href="javascript:;" class="th_sport_h8">H8体育</a></li><li style="position: relative;"><a href="javascript:;" class="th_sport_bin">BBIN体育</a></li><li style="position: relative;"><a href="javascript:;" class="th_sport_ag">AG体育</a></li> </ul>
+                            </li>
+                            <li class="nLi" "=""><a href="javascript:;" class="th_kygame nav_index_bg10"></a></li>
+                            <li class="nLi" id="shan3"><a href="javascript:;" class="th_promos nav_index_bg6"></a></li>
+                            <li class="nLi"><a href="javascript:;" class="th_jiameng nav_index_bg9"></a></li>
+                            <li class="nLi"><a href="javascript:;" class=" nav_index_bg8 th_online"></a></li>
+                        </ul>
+                        <div class="cl"></div>
+
+                    </div>
+                </div>            
+            </div>
+          </div>                                           		                             
+            <div class="div_middle" style="min-height: 500px">
+
+            </div>
+            <div class="contact-link bottom f12" style="padding: 7px 0px;">
+                <div class="list_connect">
+                    <div class="lqq th_qq">客服QQ：506757999</div>
+                    <div class="lskype th_weixin">客服微信：cxvip88888（非公众号）</div>
+                    <div class="lemail th_mail">邮箱：dscxpc@163.com</div>
+                    <div class="lphone th_phone">客服电话：+63 9777777988</div>
+                    <span style="clear: left;"></span>
+                </div>
+                <div class="line_b"></div>
+                <div class="line_b2" style="top: 78px;"></div>
+                <div class="bottom_logo_more">
+                    <img src="/public/images/bottom_icons2.png" title="鼎泰科技—亚洲顶尖技术，提供包网服务——首页BB|波音|AG|包网|鼎泰科技|平台|鼎泰包网" usemap="#Map">
+			<map name="Map" id="Map">
+				<area shape="rect" coords="768,11,930,57" href="http://dtai888.co/" target="_blank" style="outline: none;">
+			</map>
+		
+                </div>
+                <div class="nav_footer">
+                    <div class="w1000">
+                        <p><a class="th_about" href="#about11">关于我们</a> ｜
+                            <a class="th_llwm" href="#about11">联系我们</a> ｜
+                            <a class="th_jiameng show" href="#about11">代理加盟</a>  ｜
+                            <a class="th_cunkuan" href="#about11">存取款帮助</a> ｜
+                            <a class="th_zeren" href="#about11">博彩责任</a> ｜
+                            <a class="th_yinsi" href="#about11">隐私政策</a> ｜
+                            <a class="" href="http://879295.com" target="_blank">备用网址</a>
+                        </p>
+                    </div>
+                    <div class="bottom_logo"></div>
+                    <p class="-mt15">Copyright © 2006-<span id="year-local">2018</span> 诚信娱乐城现金网 Reserved</p>
+                </div>
+            </div>
+      </div> 
+        <script type="text/javascript">
+            var noticeTypeNormal = 1;//滚动公告
+            var noticeTypeAlert = 2;//弹出公告
+            var noticeTypeCenter = 99; //会员中心表格显示
+
+            var siteID = '1027';
+        </script>
+        <script type="text/javascript" src="public/js/jquery/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="public/js/seajs/sea.js"></script>
+        <script type="text/javascript" src="public/js/jquery/jquery.cookie.js"></script>
+        <!--<script type="text/javascript" src="public/js/main/index.js"></script>-->
+        <script type="text/javascript" src="public/js/mount/float.js"></script> 
+        <!-- <script type="text/javascript" src="javascript/jquery.sticky.js"></script> -->
+        <script type="text/javascript">
+            var tt=Math.random();
+            $.cookie('gotopc','true',{path: '/','expires':1});
+            if (typeof($.cookie('tt')) == 'undefined' || $.cookie('tt') == null) {
+            $.cookie('tt', tt);//设置
+            }
+            var time=$.cookie('tt');
+            seajs.use(['/public/js/main/index.js?i=1'+time], function (){
+            seajs.use(['config','cookie','layer'], function (){//在线客服和在线qq
+                objClassStr.str_service_qq = "";
+                objClassStr.str_service_online = "";
+                var page_status = $.cookie(objClassStr.str_page_key);
+                switch (page_status) {//根据当前页cookie加载中间部分，刷新还在当前页
+                    case objClassStr.str_for_page_index:
+                        $(".th_index").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_live:
+                         $(".th_live").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_promos:
+                         $(".th_promos").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_sport:
+                         $(".th_sport").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_dsgame:
+                         $(".th_dsgame").parent(".nLi").addClass("on1");
+                        break;
+                    default:
+                         $(".th_index").parent(".nLi").addClass("on1");
+                        break;
+                   }
+            });
+            });
+            $(".sub").hover(function(){
+                $(this).parent(".nLi").addClass("on2");
+            },
+            function(){
+                $(this).parent(".nLi").removeClass("on2");
+            });
+            $(".nLi").click(function(){
+                $(this).parent(".nav-list").children().removeClass("on1");
+                $(this).addClass("on1");
+            });
+            $(function(){
+            	var myDate = new Date();
+            	var years = myDate.getFullYear();
+            	$('#year-local').append(years);						
+            });
+            function SetHome(url){
+                if (document.all) {
+                    document.body.style.behavior='url(#default#homepage)';
+                    document.body.setHomePage(url);
+                }else{
+                    alert("您好,您的浏览器不支持自动设置页面为首页功能，请您手动在浏览器里设置该页面为首页!");
+                }
+            }
+            function AddFavorite(sURL, sTitle) {
+                sURL = encodeURI(sURL);
+                try {
+                    window.external.addFavorite(sURL, sTitle);
+                } catch (e) {
+                    try {
+                        window.sidebar.addPanel(sTitle, sURL, "");
+                    } catch (e) {
+                        alert("放进收藏失败，请使用Ctrl+D进行添加，或手动在浏览器里进行设置.");
+                    }
+                }
+            }
+        $(".welcome a").click(function(){
+            $(".welcome").css("display","none");
+        })
+        </script>
+         <script type="text/javascript">
+            $(function () {
+                $(".back-to-top").click(function(){  
+                    $('body,html').animate({scrollTop:0},500);  
+                    return false;  
+                }); 
+            });
+        </script>
+
+	
+    
+
+</body></html>

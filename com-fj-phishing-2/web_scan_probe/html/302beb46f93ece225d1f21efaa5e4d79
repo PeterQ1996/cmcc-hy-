@@ -1,0 +1,1326 @@
+<html xmlns="http://www.w3.org/1999/xhtml" layer-full="1" style="overflow: hidden;"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Language" content="zh-cn">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>用户注册-爱彩网</title>
+	<link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/common/template/lottery/lecai/css/register_new.css?v=20180807221148" type="text/css">
+	<script type="text/javascript" src="/common/jquery/jquery-1.12.3.min.js"></script>
+	<script type="text/javascript" src="/common/js/layer/layer.js"></script><link rel="stylesheet" href="http://ac3355.com/common/js/layer/skin/layer.css" id="layui_layer_skinlayercss" style="">
+</head>
+<body>
+	
+
+<!--  该文件必须导入 -->
+
+<input type="hidden" value="" id="base">
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/style.css?v=201808072211481.1" type="text/css">
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/header.css?v=20180807221148" type="text/css">
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/layer_dialog.css?v=20180807221148" type="text/css">
+<script type="text/javascript" src="/common/template/lottery/lecai/js/jquery-browser.js"></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/jquery.ajax.js?v=1.1.12" path=""></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/base.js?v=2.11118"></script>
+<script type="text/javascript" src="/common/template/lottery/lecai/js/date.js"></script>
+<script type="text/javascript" src="/common/js/layer/layer.js"></script>
+<script type="text/javascript">
+	LECAI = {
+		base : '',
+		folder : "d383",
+		caipiao_version : '20180807221148',
+		caipiao : 'false',
+		code : '',
+		type : '',
+		fanShui : false,
+		version : 5,
+	}
+</script>
+
+<!-- 头部内容 如果需要更换头部则直接在已下id=header_plus内中替换，自己引入需要的css和js文件 -->
+<div class="header-plus" id="header_plus">
+	<div class="header-toptray-plus">
+		<div class="toptray-plus clearfix auto990">
+			<div class="toptray-left fl">
+				<span>hi，欢迎来到爱彩网</span>
+			</div>
+			<div class="toptray-right fr">
+				
+					
+					
+						<ul id="toptray_not_login" class="toptray-plus clearfix">
+							<li><a href="/loginPage.do" target="regLogin" class="colorRed">登录</a> &nbsp; <a href="/regpage.do" target="regLogin" class="colorRed">注册</a>
+								&nbsp; <a href="/lotteryV3/registerTestGuest.do" target="regLogin" class="colorRed">免费试玩</a></li>
+							<li style="margin-left: 5px;">
+								<a href=" /agtregpage.do" target="_blank" class="colorRed">代理加盟</a>
+							</li>
+							<li class="m14">|</li>
+							<li class="mylottery"><a href="javascript:void(0);" onclick="Base._goTo_open('/loginPage.do?reUrl=/center/member/meminfo/cp3Page.do','regLogin');" class="my-lottery color666">会员中心<em class="icon"></em></a></li>
+							<li><a href="javascript:void(0);" onclick="Base._goTo_open('/loginPage.do?reUrl=/center/banktrans/deposit/cp3Page.do','regLogin');" class="color666 mr10">充值</a> 
+							<a href="javascript:void(0);" onclick="Base._goTo_open('/loginPage.do?reUrl=/center/banktrans/draw/cp3Page.do','regLogin');" class="color666">提款</a></li>
+						</ul>
+					
+				
+			</div>
+		</div>
+	</div>
+	<style type="text/css">
+		.header-plus .cf{height:90px;}
+		.header-plus .logo{height:80px;}
+		.header-plus .logo img{width:200px;height:80px;}
+		.header-plus .kefuwrapper{top:66px;}
+		.header-plus .cf ul{height:80px;}
+		.header-plus .topBanner{height:70px;width:440px;}
+		.header-plus .topBanner img {max-width: 400px;max-height: 70px; width: 440px;}
+
+	</style>
+	<div class="cf">
+        <a href="" class="logo ct"><img title="爱彩网" alt="爱彩网" src="https://yb6.me/img/CByi/60FBG5rvn.jpg" style="width:200px;height:70px;">
+        </a>
+        <ul>
+        	
+        		
+        	
+        </ul>
+        
+
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/model/top_d026.css?v=20180807221148" type="text/css">
+
+     <ul class="header_d026_top">
+     	<li>
+     		<i class="icon icon_u"></i>
+     		<input class="top-reg-int" id="top_username_login" placeholder="用户名" maxlength="11" type="text" data="tc"></li>
+     	<li>
+     		<i class="icon icon_p"></i>
+     		<input class="top-reg-int" id="top_passwd_login" placeholder="密码" maxlength="16" type="password">
+     	</li>
+     	<li>
+     		<input class="top-codes-int" id="top_logVerifyCode" maxlength="4" placeholder="验证码" type="text">
+     		<img class="login_img" name="login_img" id="TopLogVerifyImg" onclick="Base.verifyImgFalse();" src="/verifycode.do?flag=false&amp;timestamp=1533703105816">
+     	</li>
+     	<li>
+     		<a href="javascript://" class="icon login-btn" title="登录" onclick="Base.vaildate.userLogin('top');"></a>
+     		<a href="javascript://" class="icon reg-btn" title="注册" style="background-position: -180px -90px;" onclick="location.href='/regpage.do'"></a>
+     	</li>
+     </ul>
+
+<script type="text/javascript">
+    	$(function(){
+    		Base.verifyImgFalse();
+    		$("#top_username_login").focus();
+    		$("#header_plus").keydown(function(event) {
+	            if (event.keyCode == "13") {//keyCode=13是回车键
+	            	Base.vaildate.userLogin('top');
+           	 	}
+       	 	});
+    	})
+    </script>
+        <div class="kefuwrapper">
+            <a href="http://f88.live800.com/live800/chatClient/chatbox.jsp?companyID=993498&amp;configID=149651&amp;jid=8927105087&amp;skillId=7809" target="_blank"> <img alt="" src="/images/zxkf.png" style="margin-top: -21px;float: right;">
+			</a>
+        </div>
+    </div>
+	<!-- <div class="head-toptray-logo clearfix auto990">
+		<div class="logo-box clearfix" style="width: 420px;">
+			<a title="爱彩网" href=""><h1>爱彩网</h1> <img
+				title="爱彩网" alt="爱彩网"
+				src="https://yb6.me/img/CByi/60FBG5rvn.jpg"
+				class="logo-index-hd"></a>
+			<a href="" title="" id="go_old"><img
+				alt="为梦想买单" src="/images/logo_dream.png"></a>
+		</div>
+	</div>-->
+
+
+	<div class="header-navbar-plus">
+		<div class="auto990 clearfix" id="header_box">
+			<div class="lottery-plus mr20" id="lotterys">
+				<h2>
+					全部彩种<a href="javascript://" class="dropdown-desc" style="margin-left: 50px;"><i class="icon arrow"></i></a>
+				</h2>
+					
+						
+
+<div class="part-1-left-nav mr20">
+	<div class="lotterys-list-hd" id="lotterysList" style="display:none;">
+		<ul class="lottery-list-box">
+			
+				
+					
+						
+							<li class="mainGame" style="padding-top: 18px; background-color: rgb(255, 255, 255);">
+								<a href="/lotteryV3/lotDetail.do?lotCode=FFC" class="mainA"><i class="icon_small FFC"></i><span class="color333">腾讯分分彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=FFC" class="status-desc"><em class="icon"></em><span>立即投注</span></a>
+							</li>
+						
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC" class="mainA"><i class="icon_small SFLHC"></i><span class="color333">极速六合彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=SFLHC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=BJSC" class="mainA"><i class="icon_small BJSC"></i><span class="color333">北京赛车</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=BJSC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=SFSC" class="mainA"><i class="icon_small SFSC"></i><span class="color333">极速赛车</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=SFSC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=CQSSC" class="mainA"><i class="icon_small CQSSC"></i><span class="color333">重庆时时彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=CQSSC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=WFC" class="mainA"><i class="icon_small WFC"></i><span class="color333">腾讯五分彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=WFC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+					
+						
+						
+							<li class="mainGame" style="background-color: rgb(255, 255, 255);"><a href="/lotteryV3/lotDetail.do?lotCode=LHC" class="mainA"><i class="icon_small LHC"></i><span class="color333">香港六合彩</span></a> <a href="/lotteryV3/lotDetail.do?lotCode=LHC" class="status-desc"><em class="icon"></em><span>立即投注</span></a></li>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			<li class="allGames clearfix">
+				<h3>
+					<span>高频</span>
+				</h3>
+				<ul class="clearfix game-list">
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</ul> <i class="icon open-btn" style="display: block;"></i>
+				<div class="line-fff" style="display: none;"></div>
+				<div class="moreGames clearfix" style="display: none;" id="moreGames_1">
+					<div class="moreGames-box fl">
+						<div class="otherGames num-games">
+							<h3>高频彩</h3>
+							<ol>
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="allGames clearfix">
+				<h3>
+					<span>低频</span>
+				</h3>
+				<ul class="clearfix game-list">
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=LHC">香港六合彩</a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</ul> <i class="icon open-btn" style="display: block;"></i>
+				<div class="line-fff" style="display: none;"></div>
+				<div class="moreGames clearfix" style="display: none;" id="moreGames_2">
+					<div class="moreGames-box fl">
+						<div class="otherGames num-games">
+							<h3>低频彩</h3>
+							<ol>
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+										
+											
+											
+												<li><a href="/lotteryV3/lotDetail.do?lotCode=LHC">香港六合彩</a></li>
+											
+										
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+									
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="allGames clearfix">
+				<h3>
+					<span>全部</span>
+				</h3>
+				<ul class="clearfix game-list">
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=FFC">腾讯分分彩</a></li>
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC">极速六合彩</a></li>
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=BJSC">北京赛车</a></li>
+						
+					
+						
+							<li><a href="/lotteryV3/lotDetail.do?lotCode=SFSC">极速赛车</a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</ul> <i class="icon open-btn" style="display: block;"></i>
+				<div class="line-fff" style="display: none;"></div>
+				<div class="moreGames clearfix" style="display: none;" id="moreGames_3">
+					<div class="moreGames-box fl">
+						<div class="otherGames num-games">
+							<h3>全部彩种</h3>
+							<ol>
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=FFC">腾讯分分彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SFLHC">极速六合彩</a></li>
+										
+									
+								
+									
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=BJSC" class="colorRed">北京赛车</a></li>
+										
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SFSC">极速赛车</a></li>
+										
+									
+								
+									
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=CQSSC" class="colorRed">重庆时时彩</a></li>
+										
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=WFC">腾讯五分彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=LHC">香港六合彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=GD11X5">广东11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=EFC">腾讯二分彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=GXK3">广西快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=CQXYNC">重庆幸运农场</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=JSSB3">江苏骰宝(快3)</a></li>
+										
+									
+								
+									
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=PCEGG" class="colorRed">PC蛋蛋</a></li>
+										
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=HNKLSF">湖南快乐十分</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=TJSSC">天津时时彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=XJSSC">新疆时时彩</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=GDKLSF">广东快乐十分</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=HBK3">湖北快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=AHK3">安徽快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SHHK3">上海快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=HEBK3">河北快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=XYFT">幸运飞艇</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=FC3D">福彩3D</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=PL3">排列三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SD11X5">山东11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=JX11X5">江西11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=SH11X5">上海11选5</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=JND28">加拿大28</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=BJK3">北京快三</a></li>
+										
+									
+								
+									
+										
+										
+											<li><a href="/lotteryV3/lotDetail.do?lotCode=GSK3">甘肃快三</a></li>
+										
+									
+								
+							</ol>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+					
+			</div>
+			<ul class="nav-plus clearfix">
+				<li class="navw1 "><a href="/lotteryV3/index.do">首页</a></li>
+				<li class="navw2 "><a href="/lotteryV3/lottery.do">购彩大厅</a></li>
+				
+				<li class="navw2 "><a href="/lotteryV3/draw.do" class="dropdown-desc">开奖公告</a></li>
+				<li class="navw2 "><a href="/lotteryV3/trend.do">走势图</a></li>
+				<li class="navw2 "><a href="/lotteryV3/news.do">资讯</a></li>
+				<li class="navw2 " style="position: relative"><a href="/lotteryV3/promotion.do">优惠活动</a></li>
+				<li class="navw2 " style="position: relative"><a href="/lotteryV3/mobile/show.do">手机购彩<em class="hot-icon"></em></a></li>
+				<li class="navw2"><a href="/lotteryV3/rule.do" target="_blank">游戏规则</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var iLogin = 2;
+$(function(){
+	if(iLogin == 2){return false;}
+	$.ajax({
+		url:'/center/news/message/messageCount.do',
+		success:function(res){
+			if(res.messageCount > 0){
+				$(".message_ts_p").text(res.messageCount).removeClass('hidn');
+				$("#unread_num_new").removeClass("icon");
+			}else{
+				$(".message_ts_p").addClass("hidn");
+				$("#unread_num_new").addClass("icon");
+			}
+		}
+	})
+})
+//在线客服
+///lotteryV3/service.do
+function zxkf(){
+	var open = window.open();
+	$.ajax({
+		url:"/memInfo/common/siteInfo/base.do",
+		dataType:"json",
+		success:function(j){
+			if(j.success){
+				var url = j.item;
+				if(url.indexOf('http://')==-1 && url.indexOf('https://')==-1){
+					url = 'http://' + url;
+				}
+				open.location = url;
+			}else{
+				$('#zxkf').attr('href','#').removeAttr('target');
+			}
+		}
+	});
+}
+</script>
+<div class="wrap-bg">
+    <div class="wrapper">
+        <div class="reg">
+            <div class="reg-tit">
+                <div class="fr">已有账号？<a class="orange" onclick="Base.flashed('regLogin','/loginPage.do');">立即登录</a></div><h3>用户注册</h3>
+            </div>
+            <div class="reg-info" id="reg_form_1">
+                <ul>
+                    <li>
+                        <div class="info-left"><span class="red">* </span>用户名：</div>
+                        <div class="info-right"><label class="fl-small-tip-icon fl-reg-account-tip-icon"></label><input id="account" unique="2" class="reg-int" maxlength="11" type="text"><div class="reg-notice-ok hidn"></div></div>
+                        <div class="info-txt" id="_focus">请输入5-11个字元, 仅可输入英文字母以及数字的组合!!</div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    <li>
+                        <div class="info-left"><span class="red">* </span>密码：</div>
+                        <div class="info-right"><label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label><input id="passwd" class="reg-int" maxlength="16" type="password"><div class="reg-notice-ok hidn"></div></div>
+                        <div class="info-txt" id="_focus" style="display:none;">请输入6-16个英文或数字，且符合0~9或a~z字元 </div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    <li>
+                        <div class="info-left"><span class="red">* </span>确认密码：</div>
+                        <div class="info-right"><label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label><input class="reg-int" maxlength="16" id="conpasswd" type="password"><div class="reg-notice-ok hidn"></div></div>
+                        <div class="info-txt" id="_focus" style="display:none;">请再次输入密码</div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    
+                    
+			<li>
+                <div class="info-left"><span class="red">* </span>真实姓名：</div>
+                	<div class="info-right">
+					
+					<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+					<input id="userName" type="text" class="reg-int" unique="2" t="true"><div class="reg-notice-ok hidn"></div>
+				
+				
+				
+				
+				
+				
+				
+				</div>
+				
+					<div class="info-txt" id="_focus" style="display:none;">必须与您的银行帐户名称相同，否则不能出款!</div>
+                	<div class="info-txt" id="_blur" style="display:none;"></div>
+				
+				
+            </li>
+	<li id="verifycode_div">
+                        <div class="info-left"><span class="red">* </span>验证码：</div>
+                        <div class="info-right info-codes" style="position:relative;">
+                        	<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+                            <input name="verify" id="regVerifyCode" class="reg-int codes-int " unique="2" maxlength="4" type="text"><div class="reg-notice-ok hidn"></div>
+                            <div id="need_captcha" class="reg_need_captcha">
+                                <div class="yanzhengma">
+                                   <span class="register_captcha_span" style="position:relative;">
+                                       <img name="login_img" id="regVerifyImg">
+                                       <a name="btn_refresh" onclick="Base.verifyImg();"><img src="/common/template/lottery/lecai/images/refresh_1.png" style="cursor: pointer;"></a>
+                                   </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-txt" id="_focus" style="display:none;">请输入4位数字验证码</div>
+                        <div class="info-txt" id="_blur" style="display:none;"></div>
+                    </li>
+                    <li>
+                        <div class="info-left">&nbsp;</div>
+                        <div class="info-right"><input name="reg_checkbox" checked="checked" type="checkbox">我已看过并同意<a class="orange" target="_blank" href="/lotteryV3/regAgreement.do">《爱彩网网络服务协议》</a></div>
+                    </li>
+                    <li>
+                        <div class="info-left">&nbsp;</div>
+                        <div class="info-right"><input id="btn-sub" onclick="Base.vaildate.userRegister()" class="submit" value="立即注册" type="submit"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+$(function(){
+	Base.verifyImg();
+	$("#account").focus();
+	$("body").keydown(function(event) {
+    	if (event.keyCode == "13") {//keyCode=13是回车键
+    		Base.vaildate.userRegister();
+	 	}
+	});
+})
+</script>
+
+
+<script>
+var param = 'register';
+$(function(){
+	$.ajax({
+		url : "/getConfig/getArticle.do",
+		data:{code:14},
+		type : "post",
+		dataType : 'json',
+		success : function(j) {
+			if(j.length>0){
+				switch(param){
+				case "index":
+					if(j[0].index){
+						dialogGg(j);
+					}
+					break;
+				case "register":
+					if(j[0].reg){
+						dialogGg(j);
+					}
+					break;
+				case "agentRegister":
+					if(j[0].mutil){
+						dialogGg(j);
+					}
+					break;
+				case "cpBuy":
+					if(j[0].cp){
+						dialogGg(j);
+					}
+					break;
+				}
+			}
+			
+		}
+	});
+});
+
+function dialogGg(j){
+	var stc = $('#tan_chuang_two').val();
+	if(stc){
+		dialogGg2(j);
+	}else{
+		dialogGg1(j);
+	}
+}
+
+function dialogGg1(j){
+	var title="";
+	var content="";
+	var fw = 550;
+	var fh = 550;
+	if(j[0].frameWidth){
+		fw = j[0].frameWidth;
+	}
+	if(j[0].frameHeight){
+		fh = j[0].frameHeight;
+	}
+	title = j[0].title;
+	if(!title){
+		title = " ";
+		temp = 1;
+	}
+	layer.open({
+		  type: 1, //page层
+		  area: [fw+'px', fh+'px'],
+		  title: title,
+		  shade: 0.6, //遮罩透明度
+		  skin:'layui-layer-rim',
+		  scrollbar: false,
+		  offset: '16%',//距离顶部
+		  moveType: 0, //拖拽风格，0是默认，1是传统拖动
+		  shift: 1, //0-6的动画形式，-1不开启
+		  btn: ['知道了'],
+		  content: '<div style="overflow-x: hidden;overflow-y:hidden;height:100%;">'+j[0].content+'</div>'
+	}); 
+}
+
+function dialogGg2(j){
+ var layerIndex;
+   if(j && j.length>0){
+    layer.closeAll(layerIndex);
+    var d = {list:j};
+    var notice_html = htmlHelp(j);
+	var fw = 550;
+	var fh = 550;
+	if(j[0].frameWidth){
+		fw = j[0].frameWidth;
+	}
+	if(j[0].frameHeight){
+		fh = j[0].frameHeight;
+	}
+    layerIndex = layer.open({
+       type: 1,
+       shade: .5,
+       scrollbar: false,
+       offset: '16%',//距离顶部
+       title: false, //不显示标题
+       moveType: 1,
+       area: [fw + 'px', fh + 'px'],
+       content: notice_html
+    });
+    var _notice = $(".noticeDialog");
+    _notice.find(".left-nav").on("click","ul li",function(){
+     var _this = $(this), index = _this.data("index") , id = _this.data("id");
+     _this.addClass("active").siblings("li").removeClass("active");
+     _this.parent().siblings(".content-border").find("#line").attr("class","line"+index);
+     _notice.find(".right-content .notice_index_" + index).addClass("active").siblings().removeClass("active");
+     _notice.find(".right-content .notice_index_" + index).show().siblings().hide();
+    })
+     $('.right-content .notice_content').css('overflow','auto');
+     $('.layui-layer .layui-layer-setwin a').css('transition','transform 0.5s cubic-bezier(.16,.81,.32,1), opacity 0.5s ease');
+     $('.layui-layer .layui-layer-setwin a').css('width','30px');
+     $('.layui-layer .layui-layer-setwin a').css('height','30px');
+   }
+}
+
+function htmlHelp(j){
+	var html = '<div class="noticeDialogTitle"><span>最新公告</span></div>';
+	    html += '<div class="noticeDialog"><div class="left-nav"><ul>';
+	    $.each(j,function(i,k){
+	    	html += '<li data-index="'+i+'" data-id="'+k.id+'" class="choose';
+	    	if(i == 0){
+	    		html += ' active';
+	    	}
+	    	html += '"><div class="icon"><i class="fa fa-clone"></i></div><span>'+k.title+'</span></li>';
+	    })
+	    html += '</ul><div class="content-border"><div class="line0"></div></div></div><div class="right-content">';
+	    $.each(j,function(i,k){
+	    	html += '<div class="notice_index_'+i+' notice_content ';
+	    	if(i == 0){
+	    		html += 'active" ';
+	    		html += 'style="display:block"';
+			}else{
+				html += '" style="display:none"';
+			}
+	    	html += '><p>'+k.content+'</p></div>';
+	    })
+	    html += '</div></div>';
+	    return html;
+}
+</script>
+
+
+<link rel="stylesheet" href="/common/template/lottery/lecai/css/footer.css?v=" type="text/css">
+
+
+
+<style>
+._float_AD.l_AD {
+    left: 0.6%;
+}
+._float_AD {
+    position: fixed;
+    z-index: 19;
+    top: 49%;
+    overflow: visible;
+    margin-top: -142px;
+}
+._float_AD>img {
+    display: block;
+    width: 140px;
+    height: 306px;
+    border: none;
+}
+._float_AD [name=close_btn] {
+    position: absolute;
+    z-index: 2;
+    width: 90px;
+    height: 37px;
+    left: 50%;
+    margin-left: -45px;
+    bottom: -3px;
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: 0;
+    border: none;
+    outline: none;
+}
+._float_AD .top1_btn {
+    position: absolute;
+    z-index: 2;
+    width: 128px;
+    height: 38px;
+    left: 50%;
+    margin-left: -64px;
+    top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0;
+    border: none;
+    outline: none;
+}
+._float_AD .top2_btn {
+    position: absolute;
+    z-index: 2;
+    width: 128px;
+    height: 38px;
+    left: 50%;
+    margin-left: -64px;
+    top: 61px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0;
+    border: none;
+    outline: none;
+}
+._float_AD .two_img {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 128px;
+    left: 23px;
+    z-index: 9;
+    overflow: hidden;
+}
+._float_AD .two_img img {
+    width: 95px;
+    height: 95px;
+}
+._float_AD.r_AD {
+    right: 0.6%;
+}
+    .float_left{
+        position: fixed;
+        top: 20%;
+        left: 0;
+    }
+    .float_right{
+        position: fixed;
+        top: 20%;
+        right: 0;
+    }
+</style>
+
+    <ul class="float_left">
+        <li>
+            <a href=""><img src="/images/left1.png" alt=""></a>
+        </li>
+        <li>
+            <a href="http://f88.live800.com/live800/chatClient/chatbox.jsp?companyID=993498&amp;configID=149651&amp;jid=8927105087&amp;skillId=7809" target="_blank"><img src="/images/left2.gif" alt=""></a>
+        </li>
+        <li>
+            <a href="http://ac5599.com/" target="_blank"><img src="/images/left3.png" alt=""></a>
+        </li>
+        <li>
+            <a href=""><img src="/images/left4.png" alt=""></a>
+        </li>
+        <li>
+            <a class="NO_1" href="##"><img src="/images/left5.png" alt=""></a>
+        </li>
+    </ul>
+    <ul class="float_right">
+        <li>
+            <a href="##"><img src="/images/right1.png" alt=""></a>
+        </li>
+        <li>
+            <a href="tencent://message/?uin=865086666&amp;Menu=yes"><img src="/images/right2.gif" alt=""></a>
+        </li>
+        <li>
+            <a href="/index/signNew.do"><img src="/images/right4.png" alt=""></a>
+        </li>
+        <li>
+            <a href="##"><img src="/images/lalala.png" alt=""></a>
+        </li>
+
+
+        <li>
+            <a class="NO_2" href="##"><img src="/images/left5.png" alt=""></a>
+        </li>
+
+    </ul>
+<script>
+    $(".NO_1").click(function () {
+        $(".float_left").remove()
+    });
+    $(".NO_2").click(function () {
+        $(".float_right").remove()
+    });
+</script>
+<!--<div id="_leftAD" class="_float_AD l_AD animated bounceInLeft">-->
+    <!--<img src="/images/float_left.png">-->
+    <!--<div name="close_btn"></div>-->
+    <!--<a class="top1_btn" href="javascript:void(0);"></a>-->
+    <!--<div class="top2_btn" onclick="window.open('/lotteryV3/registerTestGuest.do','reg')"></div>-->
+    <!--<div class="two_img">-->
+    <!---->
+    <!---->
+    	<!--<img src="https://yb8.me/qr?url=https://yb8.me/app/mg_Smvs">-->
+    <!---->
+    <!--</div>-->
+<!--</div>-->
+<!--<div id="_rightAD" class="_float_AD r_AD animated bounceInRight">-->
+    <!--<img src="/images/float_right.png">-->
+    <!--<div name="close_btn"></div>-->
+    <!--<div class="top1_btn" onclick="zxkf();"></div>-->
+    <!--<div class="top2_btn"></div>-->
+    <!--<div class="two_img">-->
+    	<!---->
+    <!---->
+    	<!--<img src="https://yb8.me/qr?url=https://yb8.me/app/mg_Smvs">-->
+    <!---->
+    <!--</div>-->
+<!--</div>-->
+<!--<script type="text/javascript">-->
+    <!--$(function(){-->
+        <!--$("#_leftAD [name=close_btn]").click(function(){-->
+            <!--$(this).parent().removeClass().addClass("_float_AD l_AD animated bounceOutLeft");-->
+        <!--});-->
+        <!--$("#_rightAD [name=close_btn]").click(function(){-->
+        	 <!--$(this).parent().removeClass().addClass("_float_AD r_AD animated bounceOutRight");-->
+        <!--})-->
+    <!--});-->
+<!--</script>-->
+
+<!-- 如需更换样板请直接更换一下内容 -->
+<div class="jc-footer">
+	<div class="footerBox">
+		<div class="about_box">
+			<p class="about_link">
+				<a target="_blank" href="/lotteryV3/help.do?code=1">关于我们</a>| <a target="_blank" href="/lotteryV3/help.do?code=2">取款帮助</a>|
+				<a target="_blank" href="/lotteryV3/help.do?code=3">存款帮助</a>| <a target="_blank" href="/lotteryV3/help.do?code=4">联盟方案</a>|
+				<a target="_blank" href="/lotteryV3/help.do?code=5">联盟协议</a>| <a target="_blank" href="/lotteryV3/help.do?code=6">联系我们</a>|
+				<a target="_blank" href="/lotteryV3/help.do?code=7">常见问题</a>
+			</p>
+			<p class="about_mt"></p>
+			<p class="about_mt remind">提醒：购买彩票有风险，在线投注需谨慎，不向未满18周岁的青少年出售彩票！</p>
+			<p>
+				<img src="/images/wljc.gif"><img src="/images/wangan.gif"><img src="/images/wsjy.gif"><img src="/images/xylh.gif"><img src="/images/kxwz.gif">
+			</p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="/regconf.do"></script>
+	<script id="regconflst_tpl" type="text/html">
+	{{each data as tl}}
+			<li>
+                <div class="info-left"><span class="red">* </span>{{tl.name}}：</div>
+                	<div class="info-right">
+					{{if tl.type==1}}
+					<label class="fl-small-tip-icon fl-reg-verify-tip-icon"></label>
+					<input id="{{tl.key}}" type="text" class="reg-int" unique="{{tl.uniqueVal}}" t="true"/><div class="reg-notice-ok hidn"></div>
+				{{/if}}
+				{{if tl.type==2}}
+					<select id="{{tl.key}}">
+						{{if tl.sourceLst}}
+						{{each tl.sourceLst as sel i}}
+							<option value="{{i+1}}">{{sel}}</option>
+						{{/each}}
+						{{/if}}
+					</select>
+				{{/if}}
+				{{if tl.type==3}}
+					{{if tl.sourceLst}}
+					{{each tl.sourceLst as rad i}}
+						<input type="radio" name="{{tl.key}}" value="{{i+1}}">{{rad}}</input>
+					{{/each}}
+					{{/if}}
+				{{/if}}
+				{{if tl.type==4}}
+					{{if tl.sourceLst}}
+					{{each tl.sourceLst as chk i}}
+						<input type="checkbox" name="{{tl.key}}" value="{{i+1}}">{{chk}}</input>
+					{{/each}}
+					{{/if}}
+				{{/if}}
+				{{if tl.type==5}}
+					<textarea id="{{tl.key}}"></textarea>
+				{{/if}}
+				{{if tl.type==6}}
+					<label class="fl-small-tip-icon fl-reg-pwd-tip-icon"></label>
+					<input type="password" id="{{tl.key}}" class="reg-int" unique="{{tl.uniqueVal}}" t="true"></input><div class="reg-notice-ok hidn"></div>
+				{{/if}}
+				{{$addValidateFiled tl}}
+				</div>
+				{{if tl.type==1 && tl.key== 'userName'}}
+					<div class="info-txt" id="_focus" style="display:none;">必须与您的银行帐户名称相同，否则不能出款!</div>
+                	<div class="info-txt" id="_blur" style="display:none;"></div>
+				{{/if}}
+				{{if tl.type==6}}
+					<div class="info-txt" id="_focus" style="display:none;">提款认证必须，请务必记住! </div>
+                	<div class="info-txt" id="_blur" style="display:none;"></div>
+				{{/if}}
+            </li>
+	{{/each}}
+	</script>
+	<script type="text/javascript" src="/common/js/artTemplate/template.js"></script>
+	<script type="text/javascript" src="/common/template/member/register/register.js" version="cp_v3"></script>
+
+<div class="layui-layer-shade" id="layui-layer-shade1" times="1" style="z-index:19891014; background-color:#000; opacity:0.6; filter:alpha(opacity=60);"></div><div class="layui-layer layer-anim-01 layui-layer-page layui-layer-rim" id="layui-layer1" type="page" times="1" showtime="0" contype="string" style="z-index: 19891015; width: 300px; height: 300px; top: 16%; left: 356px;"><div class="layui-layer-title" style="cursor: move;" move="ok">APP系统更新，敬请重新下载</div><div id="" class="layui-layer-content" style="height: 205px;"><div style="overflow-x: hidden;overflow-y:hidden;height:100%;">尊敬的会员您好，安卓APP系统全面更新<br>1.请复制以下网址使用浏览器打开进行下载更新：https://yb8.me/app/mg_Smvs<br>2.由于微信限制扫码，请使用支付宝，或者QQ浏览器扫一扫功能，扫描以下二维码进行下载<br><img src="http://ac668.com/images/lalala.png"><br><p></p></div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span><div class="layui-layer-btn"><a class="layui-layer-btn0">知道了</a></div></div></body></html>

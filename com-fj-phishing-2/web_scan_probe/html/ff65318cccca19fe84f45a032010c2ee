@@ -1,0 +1,572 @@
+<!DOCTYPE html><html><head>
+    <title>Welcome</title>
+	<meta name="”keyword”" content="”Welcome“"> 
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="icon" type="image/x-icon" href="https://img.sg88.ws/tb/tb_favicon.ico">
+    <link type="text/css" href="/nomaintb/css/global.css" rel="stylesheet">
+    <link rel="stylesheet" href="/nomaintb/css/layer.css" id="layui_layer_layercss" style="">
+    <link type="text/css" href="/nomaintb/css/bar.css" rel="stylesheet">
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="/js/jquery.js" type="text/javascript"></script>
+    <script src="/nomaindf/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="/nomaindf/js/jQuery.textSlider.js" type="text/javascript"></script>
+    <script src="/nomaindf/js/global.js" type="text/javascript"></script>
+    <script src="/nomaindf/js/home.js" type="text/javascript"></script>
+    <script src="/nomainjf/js/layer.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/libs.js"></script>
+  	<script type="text/javascript" src="/nomainjf/js/reg.js"></script>
+    <script type="text/javascript">
+        function hezuo() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>代理合作',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '85%'],
+                content: $('#m1')
+
+            });
+        }
+
+function youhui() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>最新优惠',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '85%'],
+                content: $('#youhui')
+
+            });
+        }
+
+        function answer() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>常见问题',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '80%'],
+                content: $('#m2')
+
+            });
+        }
+
+
+        function about() {
+            layer.open({
+                type: 1,
+                title: '<span class="gundong"></span>关于我们',
+                shadeClose: true,
+                shade: 0.8,
+                area: ['630px', '80%'],
+                content: $('#m3')
+
+            });
+        }
+        $(document).ready(function() {
+            $("#scrollDiv").load('getnotice?c=10',
+            	function(){
+            		$(this).textSlider({ line: 1, speed: 1000, timer: 6000 });
+            	}
+            );
+        });
+        function guestLogin() {
+    		$('form input[name=account],form input[name=password]').val('!guest!');
+    		$('form').submit();
+    	}
+        $(function(){$('#promodiv').load('promo');})
+    </script>
+<script type="text/javascript">
+  $(function(){
+      $("#username").focus(function(){ 
+	     $(this).addClass("input-txt");
+	  });
+	  $("#username").blur(function(){
+		 $(this).removeClass("input-txt");
+		 var txt_value =  $(this).val();   // 得到当前文本框的值
+			if(txt_value!=""){
+		       $(this).addClass("input-txt");
+			} 
+	  })
+
+	  $("#password_txt").focus(function(){
+	     $(this).addClass("input-txt");
+	  });
+	  $("#password_txt").blur(function(){
+	     $(this).removeClass("input-txt");
+		  var txt_value =  $(this).val();   // 得到当前文本框的值
+			if(txt_value!=""){
+		       $(this).addClass("input-txt");
+			} 
+	  })
+  });
+</script>
+    <style>
+        A.applink:hover {
+            border: 2px dotted #DCE6F4;
+            padding: 2px;
+            background-color: #ffff00;
+            color: green;
+            text-decoration: none;
+        }
+
+        A.applink {
+            border: 2px dotted #DCE6F4;
+            padding: 2px;
+            color: #2F5BFF;
+            background: transparent;
+            text-decoration: none;
+        }
+
+        A.info {
+            color: #2F5BFF;
+            background: transparent;
+            text-decoration: none;
+        }
+
+        A.info:hover {
+            color: green;
+            background: transparent;
+            text-decoration: underline;
+
+        }
+    </style>
+    
+
+<!--[if IE]> 
+<style type="text/css"> 
+    .ieimge {
+    position:relative;
+    top:-20px;
+    }
+</style> 
+<![endif]-->
+<style type="text/css">
+<!--
+.STYLE1 {color: #89643c}
+.STYLE2 {
+	color: #990000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.STYLE6 {font-size: 12px; color: #89643c; }
+.STYLE8 {color: #990000; font-weight: bold; }
+.STYLE9 {color: #CCCCCC}
+.STYLE10 {font-size: 12px}
+-->
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-93117741-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body style="">
+<div class="header">
+     <div class="logo">
+		<img src="https://img.sg88.ws/tb/logo.png" width="212" height="78">
+	 </div>
+     <div class="notice"> 
+          <div class="notice-div">
+               <span class="STYLE9">站内公告:</span>
+                <div class="scrollText" id="scrollDiv"><ul><li>尊敬的全体会员您好：北京时间8月8日起极速系列、澳洲系列的彩种都是23小时运行，早上07:00开盘到第二天06:00封盘，敬请需知，如有其他问题，欢迎您随时联系我们，谢谢！</li><li>尊敬的会员,银行账户：支付宝招商银行【北京同心恒瑞商贸有限公司】已停用，支付宝招商银行【北京纬线度科技有限公司】已停用，【西安文优白机电设备有限公司】已停用,【西安阿莱泽机电设备有限公司】已停用，请注意刷新获取新的充值账号，如有存错，概不负责。 </li><li>通博彩票欢迎您：国际品牌 信誉第一！ 支付宝 微信 网银 在线充值，最全面的支付方式。千万提款分钟到账~北京赛车pk10 计划交流聊天室【b76046.com】欢迎广大新老会员入群交流。</li><li>尊敬的通博全体会员您好：目前飞单系统已全面升级优化，公司提供全免费飞单软件，如代理会员有需要、或者您有代理合作意向均可联系通博代理客服QQ：6611003 详细洽谈 ，欢迎您加入通博彩票合作伙伴的行列，无须负担任何费用，就可以开始无上限的收入~</li><li>尊敬的会员：您好，通博彩票全新APP上线，让您享受更方便快捷的下注，请在首页扫描二维码下载即可，谢谢</li><li>尊敬的各位会员：本公司已经启用最新登录网址，详情请登录 www.51122.com进行登录查看，或咨询客服，谢谢</li></ul></div>
+       </div>
+           <div class="notice-bg"></div>
+     </div>
+     <div class="menu">
+         <ul>
+              <li><a href="register">立即开户</a></li>
+              <li><a href="javascript:hezuo()">代理合作</a></li>
+              <li><a href="javascript:youhui()">最新优惠</a></li>
+              <li><a href="javascript:answer()">常见问题</a></li>
+              <li><a href="javascript:about()">关于我们</a></li>
+         </ul>
+     </div>
+</div>
+<div class="main">
+    <div class="flash">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" name="gameobj" width="650" height="341" id="gameobj">
+  <param name="movie" value="/nomaintb/images/top.swf">
+  <param name="flashvars" value="">
+  <param name="quality" value="high">
+  <param name="bgcolor" value="#000">
+  <param name="allowScriptAccess" value="always">
+  <param name="wmode" value="transparent">
+  <embed src="/nomaintb/images/top.swf" width="650" type="application/x-shockwave-flash" id="gameobj_em" height="341" name="gameobj" flashvars="" allowscriptaccess="always" quality="high" bgcolor="#000" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" wmode="transparent">
+</object>
+    </div>
+    <div class="ui-top-nav">
+        <dl>
+            <dd>
+                <form action="login" method="post" id="login_form" style="position:relative;">
+                  <a href="https://skf1.chatinc.net/chat/chatClient/chatbox.jsp?companyID=732271&amp;s=1&amp;configID=58018&amp;jid=7713143344&amp;s=1" target="_blank"><img src="/nomaintb/images/support.png" style="position:absolute; left:165px; top:20px;"></a>  
+                    <div class="login-frm">
+                        <div class="login-ipt username">
+                            <label>帐号</label>
+                            <input type="text" value="" name="account" valid="account" maxlength="15" tabindex="1" autocomplete="off" class="txt-box" id="username">
+                        </div>
+    
+                        <div class="login-ipt password">
+                            <label>密码</label>
+                            <input type="password" value="" name="password" valid="password" maxlength="15" tabindex="2" class="txt-box" id="password_txt">
+                                <span id="password_container" style="display:none"></span>
+                            <a class="forgot-pwd" href="javascript:" onclick="javascript:getPwd();">
+                            <img src="/nomaintb/images/forgot-pwd.png"></a>
+                        </div>
+                    
+                     
+                        <div class="reg">
+                            <input type="submit" id="loginSubmitBtn" class="login-btn" tabindex="4">
+                            <a href="register" class="zhuce">免费注册</a>
+							<a href="javascript:guestLogin()" class="test">游客参观</a>
+                        </div>
+                    </div>
+                </form>
+            </dd>
+        </dl>
+    </div>
+
+	<script type="text/javascript" src="/default/js/qrcode.min.js"></script>
+    <div class="kf_t">
+    	<div class="appqr-wrapper">
+			<div class="appqrcode">
+				<div class="left_adv" id="qr" title="https://tbcpapp.com"><canvas width="256" height="256" style="display: none;"></canvas><img src="data:image/png;base64,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" style="display: block;"></div>
+			</div>
+			<div><img src="/nomaintb/images/qr_text.png"></div>
+		</div>
+		<div><a href="http://a52828.com/APP.html" target="_blank"><img src="/nomaintb/images/k_b3.png"></a></div>
+		<div><a href="javascript:void(0)" onclick="$('.kf_t').hide()"><img class="push-10" src="/nomaintb/images/close.png"></a></div>
+	</div>
+	
+	<script type="text/javascript">
+    var qr = "https://tbcpapp.com";
+    if(qr !== ""){
+			new QRCode(document.getElementById("qr"), qr);
+		}
+	</script>
+</div>
+<div id="youhui" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box">
+<div class="soll"></div>
+<div id="promodiv"><div class="promopanel">
+	<div class="promotitle">优惠三：</div>
+	<div class="promocontents"><hr>
+<br>
+<h1 style="text-align:center;">
+	<span style="font-size:29px;color:red;font-weight:bold;font-family:宋体;">邀请好友加入通博彩票网丰厚彩金等您来拿！</span> 
+</h1>
+<br>
+<hr>
+<p>
+	<strong>活动对象：</strong>通博彩票网所有注册会员
+</p>
+<p>
+	<strong>活动申明：</strong>本活动与代理无关，只限通博彩票网全体会员，谢谢大家！
+</p>
+<p>
+	独乐乐不如众乐乐，您还在单打独斗吗？立即呼唤请朋友好友体验组队娱乐的乐趣，每推荐一位好友即可领取通博彩票网为您贴心准备的推荐彩金！
+</p>
+<p>
+	<br>
+</p>
+<p>
+	</p><table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="428" style="width:427.5pt;border:none;">
+		<tbody>
+			<tr>
+				<td colspan="4" style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">礼金大回馈</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">介绍人数</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">存款次数</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">存款金额</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">彩金回馈</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">1</span></b><b><span style="font-family:宋体;color:red;">人以上</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">3</span></b><b><span style="font-family:宋体;color:red;">次</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">100</span></b><b><span style="font-family:宋体;color:red;">元</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+				<td style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-family:宋体;color:red;">58</span></b><b><span style="font-family:宋体;color:red;">元</span></b><b><span style="font-family:宋体;color:red;"></span></b> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" style="border:inset #999999 1.0pt;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:9.0pt;font-family:宋体;color:blue;">即日起您每成功推荐一位会员并存款次数达到</span></b><b><span style="font-size:9.0pt;font-family:宋体;color:blue;">3</span></b><b><span style="font-size:9.0pt;font-family:宋体;color:blue;">次以上、单次存款金额</span></b><b><span style="font-size:9.0pt;font-family:宋体;color:blue;">100</span></b><b><span style="font-size:9.0pt;font-family:宋体;color:blue;">元，即获得</span></b><b><span style="font-size:9.0pt;font-family:宋体;color:blue;">58</span></b><b><span style="font-size:9.0pt;font-family:宋体;color:blue;">元彩金红利回馈，介绍的朋友越多，您获得的奖金也就越多！！</span></b><b><span style="font-size:9.0pt;font-family:宋体;color:blue;"></span></b> 
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<p></p>
+<br>
+<p>
+	<strong>申请步骤：</strong> 
+</p>
+<p>
+	步骤一： 请联系在线客服提交您推荐的用户账号；
+</p>
+<p>
+	步骤二： 被推荐人需达到要求存款总额/次数；（被推荐人必须是没存款的新会员）
+</p>
+<p>
+	步骤三： 推荐人即可联系在线客服申请58元彩金红利，礼金无需倍数流水，即可提款。
+</p>
+<p>
+	<strong>活动规则：</strong> 
+</p>
+<p>
+	1.本次优惠活动即日起生效，优惠活动适用于通博彩票网全体会员；
+</p>
+<p>
+	2.彩金无须流水即可申请提款；
+</p>
+<p>
+	3.所有会员只能拥有一个帐号申请该优惠，同一个IP，同一存/提款卡视为同一客户。如果发现同一个人拥有
+两个或以上的帐号，重复的帐号将被冻结，每IP地址只能被推荐一次；
+</p>
+<p>
+	4.推荐人是不能注册成为自己的被推荐人，如有违反规则，将被没收彩金；
+</p>
+<p>
+	5.此活动可以与其他优惠同时进行享用；
+</p>
+<p>
+	6.通博彩票网保留所有权利在任何时候可以更改、停止、取消优惠活动并不会做出任何书面解释；
+</p>
+<br>
+<hr></div>
+</div>
+<div class="promopanel">
+	<div class="promotitle">回馈新老客户，高频彩票不计输赢、期期退水0.5%，双面盘1.990定位胆9.90全网赔率高！！！</div>
+	<div class="promocontents"><table border="1" bordercolor="#999999" cellpadding="0" cellspacing="1" width="570" style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;font-size:12px;background-color:#F7EFDF;">
+	<tbody>
+		<tr>
+			<th align="center" height="38" width="150" style="font-size:14px;">
+				<span style="font-size:10px;">会员级别</span> 
+			</th>
+			<th align="center" style="font-size:14px;">
+				<span style="font-size:10px;">返水比例</span> 
+			</th>
+		</tr>
+		<tr>
+			<th align="center" height="32" style="color:#FF0000;font-size:14px;">
+				<span style="color:#E53333;font-size:10px;">所有会员</span> 
+			</th>
+			<th align="center" style="color:#FF0000;font-size:14px;">
+				<span style="color:#E53333;font-size:10px;">高频彩有效投注额X0.5%</span> 
+			</th>
+		</tr>
+		<tr>
+			<th align="center" height="32" style="color:#FF0000;font-size:14px;">
+				<span style="color:#E53333;font-size:10px;">所有会员</span> 
+			</th>
+			<th align="center" style="color:#FF0000;font-size:14px;">
+				<span style="color:#E53333;font-size:10px;">香港彩特A 42.2倍 13% 特B 48.6倍 0%</span> 
+			</th>
+		</tr>
+	</tbody>
+</table>
+<p style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+	<strong>活动规则：</strong> 
+</p>
+<p style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+	1.本次优惠活动于2016年04月23日生效。优惠活动适用于所有会员，无需申请系统自动派发；
+</p>
+<p style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+	2.期期退水可享有：无上限优惠，无须打码量即可取款；
+</p>
+<p style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+	3.任何滥用优惠、下注套利、非法程序下注的行为，经查实将取消优惠以及优惠产生的赢利；
+</p>
+<p style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+	4.游戏过程中，出现对冲或对打投注,将取消优惠以及优惠产生的赢利（例如在北京赛车同局投注大/小）；
+</p>
+<p style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+	5.通博彩票网保留所有权利在任何时候可以更改、停止、取消优惠活动并不会做出任何书面解释。
+</p>
+<p>
+	<br>
+</p>
+<div class="promopanel" style="margin:0px;padding:0px;color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+</div></div>
+</div>
+</div>
+</div>
+
+
+<div id="m1" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box">
+<div class="soll"></div>
+<div style="height: 40px;  display:block;">
+<a href="https://ag.w6688.com/" class="daili" style="float:left">代理登陆</a>
+
+<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=6611003&amp;site=qq&amp;menu=yes" class="daili" style="float:right">代理注册</a>
+</div>
+<strong style="color:#990000; font-size:14px;">联盟方案：</strong>
+<p class="STYLE6">通博彩票网拥有多元化的产品，使用最公平、公正、公开的系统，在市场上的众多博彩网站中，我们自豪的提供会员最优惠的回馈，给予合作伙伴最优势的营利回报! 无论 拥有的是网络资源，或是人脉资源，都欢迎您来加入通博彩票网合作伙伴的行列，无须负担任何费用，就可以开始无上限的收入。 选择通博彩票网，绝对是您最聪明的选择!</p>
+<strong style="color:#990000; font-size:14px;">代理条件：</strong>
+<p class="STYLE6">a.具有便利的计算机上网设备。</p>
+<p class="STYLE6">b.有一定的人脉资源、网络资源或自己的广告网站。</p>
+<p class="STYLE6">c.每期都要有8个实际有效投注的会员以上，如达不到就累积到下期计算佣金！</p>
+<strong style="color:#990000; font-size:14px;">有效会员：</strong>
+<p class="STYLE6">月结区间内进行过最少五次有效下注且投注总额不低于2000RMB的会员！如联盟体系当月未达﹛月最低有效会员﹜最低门坎8人，则该月无法领取佣金回馈。联盟体系当月营利达到标准，而﹛月最低有效会员﹜人数未达相应最低门坎，则该月佣金比例依照﹛月最低有效会员﹜人数所达门坎相应的百分比进行退佣。</p>
+<strong style="color:#990000; font-size:14px;">代理收入：</strong>
+<p class="STYLE6">A：比如您本月的代理账号内有赢利的情况下，就可拥有以下收入:<br>
+  1.您的代理账号内纯赢利达到1000元-50000元，有效会员达到8人，可享受其中15%的佣金。<br>
+  2.您的代理账号内纯赢利达到50001元-100000元，有效会员达到10人，可享受其中20%的佣金。<br>
+  3.您的代理账号内纯赢利达到100001元-200000元，有效会员达到13人，可享受其中25%的佣金。<br>
+  4.您的代理账号内纯赢利达到200001元-500000元，有效会员达到16人，可享受其中30%的佣金。<br>
+  5.您的代理账号内纯赢利达到500001元以上，有效会员达到20人，可享受其中35%的佣金。</p>
+
+<span class="STYLE6"></span>
+<p></p>
+
+
+<strong style="color:#990000; font-size:14px;">请注意：</strong>
+<font color="red">＊每位加入合营商的客户，如果您在第一个月的有效会员未达到公司要求，但有产生佣金，您的佣金将累计到下个月。<br>
+*注:禁止代理商私自开设会员帐号进行非法投注套利。以及调整代理后台的任何赔率反水，不统计报表，唯一佣金是会员负盈利。任何使用不诚实方法骗取代理佣金或下线会员与代理商同IP的我们视为代理商自己开设会员游戏，将取消代理资格并永久冻结账户，佣金一律不予发放。同IP出现多个会员的话，将被视为无效会员，不得计算在内。 敬请联系代理专员QQ：6611003详细洽谈</font>
+</div>
+<div id="m2" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box">
+<strong style="color:#990000; font-size:14px;">◉一般常见问题</strong>
+    <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q1: 如何加入通博彩票网？<br>
+      A1: 您可以直接点选 "立即开户"，确实填写资料后，可立即登记成为通博彩票网会员。</p>
+    <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q2: 我可以直接在网络上存款提款吗？<br>
+    A2: 可以，通博彩票网提供多种线上存款选择，详情请参照 "存款提款"</p>
+    <div class="STYLE1" style="margin-left:0px; margin-right:0px">Q3: 我在哪里可以找到游戏规则？<br>A3: 在未登入前，您可以在游戏的最外层看到"游戏规则"选项，清楚告诉您游戏的玩法、规则及派彩方式。</div><div class="STYLE1" style="margin-left:0px; margin-right:0px">&nbsp; &nbsp; &nbsp; 在游戏视窗中,也有"规则"选项，让您在享受游戏乐趣的同时，弹跳视窗随时提醒您游戏规则。</div><p class="STYLE1" style="margin-left:0px; margin-right:0px">Q4:
+
+
+ 单注投注额最低是？<br>
+ A4: 
+
+
+ 我们单注最低投注额为人民币1元.
+
+</p>
+    <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q5: 
+
+
+ 最高投注额有限制吗？<br>
+ A5: 
+
+
+ 任何一家正规博彩和网络博彩公司对客户的帐户投注都有单注和单注限额，没有限额的公司都基本属于没有任何风险控制的私人或骗子公司，今天的控制是为了明天能保证100%提款给您，这点您可以自行分析。每个项目都有不同的限额设定，详细请登陆会员都在「会员资料」页面查看。</p>
+    <div style="margin-left:0px; margin-right:0px"><span style="color: #89643c">Q6:
+
+
+ 我帐户里面的帐怎麽结算？<br>
+A6: 
+
+
+ 请到登入会员，会员页面查看，「结算报表」按天显示每天的结算结果，点击退水后的结果一栏对应的结果数字进入明细！
+    </span>
+      <strong style="color:#990000; font-size:14px;">◉游戏及投注问题</strong>
+ <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q1: 请问如何加入通博现金网？<br>A1: 您可以直接点选 "立即开户"，确实填写资料后，可立即登记成为通博现金网会员</p></div><p class="STYLE1">Q2: 我哪里可以找到游戏的规则？<br>A2:  请查看"规则说明"页面，清楚告诉您游戏的玩法、规则及派彩方式。</p><p class="STYLE1">Q3:  如果忘记密码怎麽办？<br>A3:  你可以在首页点击“忘记密码”系统自助取回密码，或者联系24小时线上客服人员谘询协助取回你的帐号密码。 </p><p class="STYLE1">Q4: 当忘记提款密码时怎麽办？<br>A4: 你可通过24小时线上客服人员协助处理。</p>
+ <p class="STYLE1">Q5: 下注最多能几码呢？
+<br>A5: 最多只能7码，超过视为套利行为（投注站，下注员，收包请联系客服），情节严重，不予出款。</p>
+</div>
+<div id="m3" style="display: none; overflow: hidden; outline: none; cursor: -webkit-grab;" class="box"><strong style="color:#990000; font-size:14px;">◉关于我们</strong>
+      <p class="STYLE6" style="margin-left:0px; margin-right:0px">通博彩票网于2011
+
+年成立，专业经营各项博彩业务，现与US平台合作，推出高频彩票现金投注网，开种广东快乐十分、重庆时彩、北京快乐8、北京赛车PK10等项目，完全自助注册开户，现金开户， 现金投注
+
+。我们拥有稳定的平台，成熟的玩法，简单的下注流程、以及优质的客户服务。通博彩票网公司为彩票博彩爱好者提供最优惠的赔率和最优质的博彩服务。通博彩票网一直深受会员好评，一
+
+直以来以良好的信誉和服务得到许多会员的支持和肯定，接受业界各行业与会员的监督！如您对本公司有所疑惑，欢迎您对本公司的监督。通博彩票网为正派且稳健经营的网站，一直以最优
+
+惠的赔率和优质的服务深受会员好评，请放心进行投注，如您之前不了解本公司，欢迎您对本公司进行关注。</p>
+    <strong style="color:#990000; font-size:14px;">【菲律賓執照】</strong>
+      我們提供的所有產品和服務，是由菲律賓政府卡格揚河經濟特區 First Cagayan leisure and Resort Corporation. www.firstcagayan.com 所授權和監管。這是一家位於Cagayan特別經濟區和自由口岸 (CSEZFP) 的機構，並且是互動遊戲的授權者及管理者。<p></p>
+    <div class="STYLE6" style="margin-left:0px; margin-right:0px"></div>
+	    <strong style="color:#990000; font-size:14px;">【安全与保密】</strong>
+  我们采用了目前最好的加密技术（1024位RSA密钥交换和 448位blowfish）和防火墙系统保护你的安全、私隐，并保证你享受公平的 游戏。客户在本平台的所有动均严格保密，我们不会向第三方包括政府透露客户资料。所有银行交易由国际金融机构在高标准的安全 和机密的网络中进行。进入玩家帐户资料也必须有玩家唯一的登录ID和密码，确保客户的资金安全有保障。 通博彩票网拥有高素质的客户服务，无论在处理任何事情上，都以简单和快捷享誉全球。如免费开户，即时存款，实时QQ,MSN回复客户的询问以及处理客户的难题等。 通博彩票网全年24小时运营，全天候处理客户出入款等相关事宜，严格训练的客服团队，以专业、亲切的态度著称，尽速解决您对于网 站、游戏的种种疑难杂症，不但让所有客户皆有宾至如归的感觉，同时我们以业界前所未见的各种优惠方式回馈我们的客户，绝对是您最明智的选择！<p></p></div>
+
+<script type="text/javascript">
+$(".box").niceScroll({  
+	cursorcolor:"#CC0071",  
+	cursoropacitymax:1,  
+	touchbehavior:false,  
+	cursorwidth:"5px",  
+	cursorborder:"0",  
+	cursorborderradius:"5px"  
+}); 
+</script><div id="ascrail2000" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 15px; height: 20px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 15px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2001" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 1019px; height: 668px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2001-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 663px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2002" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 1019px; height: 676px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2002-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 671px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2003" class="nicescroll-rails" style="width: 5px; z-index: auto; cursor: -webkit-grab; position: absolute; top: 0px; left: 1019px; height: 404px; display: none;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div><div id="ascrail2003-hr" class="nicescroll-rails" style="height: 5px; z-index: auto; top: 399px; left: 0px; position: absolute; display: none;"><div style="position: relative; top: 0px; height: 5px; width: 0px; background-color: rgb(204, 0, 113); border: 0px; background-clip: padding-box; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;"></div></div>
+    <!--
+    <div id="homeBanner">
+        <div class="ctrl"><a id="prev" href="javascript:">prev</a><a id="next" href="javascript:">next</a></div>
+        <div class="banner" id="0" style="background: url(images/main-banner1.jpg) no-repeat center top"></div>
+        <div class="banner" id="1" style="background: url(images/main-banner2.jpg) no-repeat center top; display: none;"></div>
+        <div class="banner" id="2" style="background: url(images/main-banner3.jpg) no-repeat center top; display: none;"></div>
+    </div>
+    <div class="home-lottery">
+        <div><a class="game1" href="reg.aspx"></a><a class="game2" href="reg.aspx"></a><a class="game3" href="reg.aspx"></a><a class="game4" href="reg.aspx"></a><a class="game5" href="reg.aspx"></a><a class="game6" href="reg.aspx"></a><a class="game7" href="reg.aspx"></a><a class="game8" href="reg.aspx"></a></div>
+    </div>
+    <div class="ui-footer">
+        <dl>
+            <dt><a href="/">首页</a>|<a href="reg.aspx">开户注册</a>|<a href="/activity.aspx">最新优惠</a>|<a href="/deposit.aspx">存款取款</a>|<a href="/faq.aspx">常见问题</a>|<a href="/rule.aspx">规则说明</a>|<a href="/agent.aspx">代理加盟</a>|<a href="/about.aspx">关于我们</a>|<a href="/">代理登陆</a></dt>
+            <dd></dd>
+        </dl>
+</div>  
+    <div class="footer-img"></div>  -->
+    <!--<div id="floatTop"></div>-->
+    <!--[if IE 6]>
+	<script src="js/png.js" type="text/javascript"></script>
+	<script type="text/javascript">DD_belatedPNG.fix("*");</script>
+	<![endif]-->
+    <!-- <div class="hua"></div> -->
+    <div class="foot">
+		<div class="game" id="game">
+
+        </div>
+	
+	</div>
+
+
+
+<div class="footer">
+	<p class="payment-platform">
+		<img src="/nomaintb/images/cft.png" alt=""><img src="/nomaintb/images/zfb.png" alt=""><img src="/nomaintb/images/18+.png" alt=""><img src="/nomaintb/images/unionpay.png" alt=""><!--<img src="/nomaintb/images/sc_win.png" alt="SG-WIN"/>-->
+	</p>
+	<p class="copyright">©CopyRight 2016 通博彩票 Reserved.</p>
+</div>
+
+ 
+</body></html>

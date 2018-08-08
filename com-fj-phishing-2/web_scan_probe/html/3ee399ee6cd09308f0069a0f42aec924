@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+        <title>彩讯</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        <meta name="keywords" content="彩博，彩讯，pc蛋蛋，pc官网，北京PC28，加拿大PC28，幸运28，pc蛋蛋官网，彩讯开奖，pc28，pc28游戏，pc游戏群，pc蛋蛋游戏，时时彩，资讯网">
+        <meta name="description" content="{:C('descript')}">
+        <link rel="shortcut icon" href="/style/images/favicon.ico">
+        <style>
+            body,div,iframe,table,image{margin: 0px;padding:0px;border: none;text-align: center; }
+            iframe{margin: 0px;padding:0px;border: none; width: 100%;}
+        </style>
+    </head>
+    <body>
+        <iframe id="mainf" src="/index.php?m=Home&amp;c=WebIndex&amp;a=index" frameborder="0" border="0" width="100%" height="1899" style="height: 2012px;">
+            &lt;p&gt;Your browser does not support iframes.&lt;/p&gt;
+        </iframe>
+        <script type="text/javascript" src="/style/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/style/js/jquery.cookie.js"></script>
+        <script>
+            $(function () {
+                var url = $.cookie('nowurl');
+                var is = url.indexOf("WebIndex");
+                if(is == -1){
+                    $("#mainf").attr("src", url);
+                }
+            });
+        </script>
+        
+        <div style="display: none">
+       <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260257824'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260257824' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1260257824"><a href="http://www.cnzz.com/stat/website.php?web_id=1260257824" target="_blank" title="站长统计">站长统计</a></span><script src=" http://s95.cnzz.com/z_stat.php?id=1260257824" type="text/javascript"></script><script src="http://c.cnzz.com/core.php?web_id=1260257824&amp;t=z" charset="utf-8" type="text/javascript"></script>
+	   <script language="javascript" type="text/javascript" src="//js.users.51.la/19221783.js"></script><a href="https://www.51.la/?comId=19221783" title="51.La 网站流量统计系统" target="_blank"><span style="display:inline-block;background-color:;color:#fff;padding:2px 5px;font-family:arial;font-size:12px;font-weight:bold;">51La</span></a>
+<noscript>&lt;a href="//www.51.la/?19221783" target="_blank"&gt;&lt;img alt="&amp;#x6211;&amp;#x8981;&amp;#x5566;&amp;#x514D;&amp;#x8D39;&amp;#x7EDF;&amp;#x8BA1;" src="//img.users.51.la/19221783.asp" style="border:none" /&gt;&lt;/a&gt;</noscript>
+        </div>
+    
+
+</body></html>

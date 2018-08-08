@@ -1,0 +1,194 @@
+<html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://BaoruanShare.wapforum.org/DTD/wml_1.1.xml"&gt;
+&lt;wml&gt;
+	&lt;head&gt;
+	&lt;meta http-equiv='Cache-Control' content='no-Cache'/&gt;
+	&lt;meta http-equiv='Cache-Control' content='no-cache,must-revalidate'/&gt; 
+	&lt;meta http-equiv='Cache-Control' content='max-age=0'/&gt;
+	&lt;/head&gt;
+	&lt;card id="main" title="3G导航"&gt;   
+	&lt;p align="left"&gt;
+        
+	    &lt;a href="/user/login"&gt;登录&lt;/a&gt;|&lt;a href="/user/register"&gt;注册&lt;/a&gt;设定网址收藏夹&lt;br /&gt;
+            
+    &lt;img src="data:image/gif;base64,R0lGODlheAAeALMAAEVFRWaIkO7s7NCZi5CkqJYdAdrQzr1vWadILq3AxYiIiLu7u5wpCDMzMwAAAP///yH5BAAAAAAALAAAAAB4AB4AAAT/8MlJpSEhJ1G7/2AojmRpCkmmqoRhvnAszw/KJoaRYBmx0cCgUHRhGQQ6XYDA03CGtZwLCjIsppUFQYEd2VYETvP3KBpBgoF68REcGPD4YfBR2O/4fLdCcDgAHQ1+CiUCTSwSKRopCYkrAQpsFG5xcXQUA5WaDAcefp+goQ6SHgqDHaZ/L2YsHCg8G4YrCggFnRRvcAgIcaQGlQM5A7xwlxSiyH6kFAAAgg4NzVgE0YQwXyo4rkiHuQy2k5YSuQgTxAxdAnHlFZ/Lx8qeyAvN9fb39SGvj/wB53DgJhg4QPDJLzgSFoir4K3DJ0h57LiTB8AOAGXJMpKQxY9WnAIF/wDeApGJAbuSDJ6UyCjqnYRBd5RFnInnhCJ/AEGaJBbwg8Ji43TB+BQNn709Lx2YapDKJRUJA3R+QxBMQJpvIyv8M0Ysq5qvahzGC1ExDDwFFwPEI4DvxY4lSKOKdGWuZ4VKB7B0xaUpa1IHARYIHkw4ldKzWpo+MPzJxM0eKh/ILYDA6psDSGr5FTjAmyRyfPF2uMiypQTS0Jo9Y5MKtQkMYWyYhRoy5YMDOmthFQH6dhwKUvbyKR3K2gPUplMd91MoAxZGE6KCMxASJII3dpHkEPhb8sLQm0VM5NPaYjzlpJsHUCkgQ/SQdHBzWsBBM6bu3hFKOBfZNyeBhAVI2P8nkQwGTwYSjbIYc+ltlEF/WMjlgnwq2ccdUAII98BPxUgxDBwjIUdcKAINAo1i6TXoxYM1+BCZXBzI11l9dvm3SRcobQLiBCKO2FhCflCjVDwpMlcCBi6018N7tskXEo1+XbUOZh2k8Y8cxlgxmJACEkjYBH2MAlE8fgCi4ggGLCGBbExysIBOt1hY5REkSIEmge2MVUEqUzRlQJnLOfAAAUcGMEV7hNJWwCVqJJlJjU95gBp741XwzARNpUIIaX8eJoIsLaSQqGQhVTaBldWFFylwZdKH1jMKZgEoWp+E6YALpD2TKH4dPDbqZNcR9A1I8FHQwLHIJqvsssw2y2xgKEjpWgYorZ0GrQS8zrnDr7UR6y1V/fko7rinVGnKE4IAQKgBDUxhK2ATZEuCXB+FdIBTGwqo77789ksYUhX0t+oH9FoXzMAIJ2yCdJQNILDCEEcMFScAS2zxxRhnLEMEADs=" alt="3G导航" /&gt;&lt;br /&gt;
+    
+    &lt;a href="/class"&gt;分类&lt;/a&gt;.&lt;a href="/go/800"&gt;必备&lt;/a&gt;.&lt;a href="/class/sub/id/27"&gt;便民&lt;/a&gt;.&lt;a href="/go/397"&gt;彩票&lt;/a&gt;.&lt;a href='/cai'&gt;彩版&lt;/a&gt;&lt;br /&gt;
+      
+  		 
+    &lt;input name="keyword" type="test" size="8" maxlength="28"/&gt;&lt;anchor&gt; 网址直达&lt;go href="/search" method="get"&gt;&lt;postfield name="keyword" value="$(keyword)"/&gt;&lt;/go&gt;&lt;/anchor&gt;&lt;br/&gt;
+    【名站推荐】&lt;a href="/default/visit"&gt;最近访问&lt;/a&gt;&lt;br /&gt;
+                   &lt;a href="/go/524"&gt;新浪&lt;/a&gt;
+                            &lt;a href="/go/526"&gt;腾讯&lt;/a&gt;
+                            &lt;a href="/go/528"&gt;搜狐&lt;/a&gt;
+                            &lt;a href="/go/43"&gt;淘宝&lt;/a&gt;
+                            &lt;a href="/go/531"&gt;梦网&lt;/a&gt;
+        &lt;br/&gt;                    &lt;a href="/go/797"&gt;百度&lt;/a&gt;
+                            &lt;a href="/go/525"&gt;3G&lt;/a&gt;
+                            &lt;a href="/go/795"&gt;谷歌&lt;/a&gt;
+                            &lt;a href="/go/3358"&gt;宜搜&lt;/a&gt;
+                            &lt;a href="/go/4927"&gt;宝软&lt;/a&gt;
+        &lt;br/&gt;                    &lt;a href="/go/267"&gt;泡椒&lt;/a&gt;
+                            &lt;a href="/go/533"&gt;网易&lt;/a&gt;
+                            &lt;a href="/go/7"&gt;起点&lt;/a&gt;
+                            &lt;a href="/go/3758"&gt;乐玩&lt;/a&gt;
+                            &lt;a href="/go/74"&gt;当乐&lt;/a&gt;
+        &lt;br/&gt;                    &lt;a href="/go/529"&gt;凤凰&lt;/a&gt;
+                            &lt;a href="/go/60"&gt;建行&lt;/a&gt;
+                            &lt;a href="/go/6860"&gt;精准&lt;/a&gt;
+                            &lt;a href="/go/895"&gt;赶集&lt;/a&gt;
+                            &lt;a href="/go/326"&gt;央视&lt;/a&gt;
+        &lt;br/&gt;            【热门网址】&lt;a href="/go/800"&gt;装机必备&lt;/a&gt;&lt;br /&gt;
+        		    [&lt;a href="/class/sub/id/26"&gt;彩票&lt;/a&gt;]
+	    	    	&lt;a href="/go/7363"&gt;彩票&lt;/a&gt;
+			    	&lt;a href="/go/6860"&gt;精准&lt;/a&gt;
+			    	&lt;a href="/go/6896"&gt;高手&lt;/a&gt;
+			    	&lt;a href="/go/7221"&gt;多彩&lt;/a&gt;
+			    	&lt;a href="/go/7049"&gt;福彩&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/18"&gt;新闻&lt;/a&gt;]
+	    	    	&lt;a href="/go/318"&gt;新浪&lt;/a&gt;
+			    	&lt;a href="/go/324"&gt;腾讯&lt;/a&gt;
+			    	&lt;a href="/go/342"&gt;网易&lt;/a&gt;
+			    	&lt;a href="/go/320"&gt;人民&lt;/a&gt;
+			    	&lt;a href="/go/316"&gt;新闻&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/19"&gt;小说&lt;/a&gt;]
+	    	    	&lt;a href="/go/936"&gt;13G&lt;/a&gt;
+			    	&lt;a href="/go/2173"&gt;一品&lt;/a&gt;
+			    	&lt;a href="/go/3285"&gt;烽火&lt;/a&gt;
+			    	&lt;a href="/go/4555"&gt;儒豹&lt;/a&gt;
+			    	&lt;a href="/go/5305"&gt;书客&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/16"&gt;游戏&lt;/a&gt;]
+	    	    	&lt;a href="/go/3758"&gt;乐玩&lt;/a&gt;
+			    	&lt;a href="/go/3866"&gt;爱玩&lt;/a&gt;
+			    	&lt;a href="/go/82"&gt;天游&lt;/a&gt;
+			    	&lt;a href="/go/948"&gt;九游&lt;/a&gt;
+			    	&lt;a href="/go/78"&gt;百分&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/21"&gt;图片&lt;/a&gt;]
+	    	    	&lt;a href="/go/7250"&gt;制服&lt;/a&gt;
+			    	&lt;a href="/go/4208"&gt;妖图&lt;/a&gt;
+			    	&lt;a href="/go/4260"&gt;私房&lt;/a&gt;
+			    	&lt;a href="/go/2279"&gt;私图&lt;/a&gt;
+			    	&lt;a href="/go/3050"&gt;写真&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/17"&gt;影视&lt;/a&gt;]
+	    	    	&lt;a href="/go/3289"&gt;电影&lt;/a&gt;
+			    	&lt;a href="/go/168"&gt;宽频&lt;/a&gt;
+			    	&lt;a href="/go/3367"&gt;看片&lt;/a&gt;
+			    	&lt;a href="/go/2216"&gt;激动&lt;/a&gt;
+			    	&lt;a href="/go/1899"&gt;我乐&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/4"&gt;音乐&lt;/a&gt;]
+	    	    	&lt;a href="/go/98"&gt;乐天&lt;/a&gt;
+			    	&lt;a href="/go/105"&gt;DJ网&lt;/a&gt;
+			    	&lt;a href="/go/3359"&gt;宜搜&lt;/a&gt;
+			    	&lt;a href="/go/97"&gt;动听&lt;/a&gt;
+			    	&lt;a href="/go/96"&gt;酷狗&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/201"&gt;搜索&lt;/a&gt;]
+	    	    	&lt;a href="/go/797"&gt;百度&lt;/a&gt;
+			    	&lt;a href="/go/795"&gt;谷歌&lt;/a&gt;
+			    	&lt;a href="/go/3358"&gt;宜搜&lt;/a&gt;
+			    	&lt;a href="/go/796"&gt;易查&lt;/a&gt;
+			    	&lt;a href="/go/786"&gt;宜搜&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/25"&gt;社区&lt;/a&gt;]
+	    	    	&lt;a href="/go/300"&gt;婚恋&lt;/a&gt;
+			    	&lt;a href="/go/255"&gt;人人&lt;/a&gt;
+			    	&lt;a href="/go/256"&gt;天下&lt;/a&gt;
+			    	&lt;a href="/go/259"&gt;泡吧&lt;/a&gt;
+			    	&lt;a href="/go/260"&gt;猫扑&lt;/a&gt;
+		&lt;br/&gt;
+	    		    [&lt;a href="/class/sub/id/2"&gt;购物&lt;/a&gt;]
+	    	    	&lt;a href="/go/5317"&gt;网购&lt;/a&gt;
+			    	&lt;a href="/go/3639"&gt;当当&lt;/a&gt;
+			    	&lt;a href="/go/3642"&gt;天猫&lt;/a&gt;
+			    	&lt;a href="/go/4202"&gt;京东&lt;/a&gt;
+			    	&lt;a href="/go/4689"&gt;拍拍&lt;/a&gt;
+		&lt;br/&gt;
+		
+    【其它分类】&lt;a href="/class"&gt;更多分类&lt;/a&gt;&lt;br /&gt;
+              &lt;a href="/class/sub/id/125"&gt;名站&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/129"&gt;娱乐&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/40"&gt;时尚&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/24"&gt;交友&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/31"&gt;银行&lt;/a&gt; 
+    &lt;br/&gt; 
+        &lt;a href="/class/sub/id/205"&gt;星座&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/57"&gt;英语&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/39"&gt;女性&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/22"&gt;体育&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/23"&gt;NBA &lt;/a&gt; 
+    &lt;br/&gt; 
+        &lt;a href="/class/sub/id/29"&gt;财经&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/35"&gt;汽车&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/20"&gt;军事&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/37"&gt;健康&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/214"&gt;团购&lt;/a&gt; 
+    &lt;br/&gt; 
+        &lt;a href="/class/sub/id/33"&gt;房产&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/34"&gt;美食&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/44"&gt;手机&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/46"&gt;招聘&lt;/a&gt; 
+      
+        &lt;a href="/class/sub/id/66"&gt;法律&lt;/a&gt; 
+    &lt;br/&gt; 
+          【实用查询】&lt;a href="/class/sub/id/27"&gt;更多查询&lt;/a&gt;&lt;br /&gt;
+      &lt;a href="/go/467"&gt;查归属&lt;/a&gt;|&lt;a href="/go/453"&gt;查天气&lt;/a&gt;|&lt;a href="/go/469"&gt;身份证&lt;/a&gt;|&lt;a href="/go/455"&gt;解梦&lt;/a&gt;&lt;br/&gt;&lt;a href="/go/461"&gt;查火车&lt;/a&gt;|&lt;a href="/go/488"&gt;安全期&lt;/a&gt;|&lt;a href="/go/487"&gt;查疾病&lt;/a&gt;|&lt;a href="/go/470"&gt;查IP&lt;/a&gt;&lt;br/&gt;&lt;a href="/go/483"&gt;查吉日&lt;/a&gt;|&lt;a href="/go/459"&gt;查词典&lt;/a&gt;|&lt;a href="/go/468"&gt;查邮编&lt;/a&gt;|&lt;a href="/go/472"&gt;社保&lt;/a&gt;&lt;br/&gt;&lt;a href="/go/454"&gt;查农历&lt;/a&gt;|&lt;a href="/go/462"&gt;查客车&lt;/a&gt;|&lt;a href="/go/460"&gt;查快递&lt;/a&gt;|&lt;a href="/go/466"&gt;地图&lt;/a&gt;&lt;br/&gt;
+      &lt;input name="key" format="*m" size="8" maxlength="50" value="性感"/&gt;
+      &lt;anchor&gt;易查&lt;go method="get" href="http://u.yicha.cn/psearch/waprootjsp/wapResult.jsp"&gt;
+&lt;postfield name="keyword" value="$(key)"&gt;&lt;/postfield&gt;
+&lt;postfield name="title" value="3G导航手机搜索"&gt;&lt;/postfield&gt;
+&lt;postfield name="bottomAnchor" value="3G导航首页"&gt;&lt;/postfield&gt;
+&lt;postfield name="bottomLink" value="http://3gdh.cn"&gt;&lt;/postfield&gt;
+&lt;postfield name="site" value="2145914154"&gt;&lt;/postfield&gt;
+&lt;postfield name="pageBegin" value="1"&gt;&lt;/postfield&gt;&lt;/go&gt;
+&lt;/anchor&gt;
+&lt;anchor&gt;
+
+百度
+
+
+&lt;go href="http://baidu.mobi/s" method="get"&gt;
+
+   &lt;postfield name="word" value="$(key)"/&gt;
+
+   &lt;postfield name="from" value="1764a"/&gt;
+
+&lt;/go&gt;
+
+&lt;/anchor&gt;
+
+&lt;anchor&gt;宜搜&lt;go href="http://ad2.easou.com:8080/j10ad/ea.jsp" method="get" sendreferer="true"&gt;
+&lt;postfield name="channel" value="11"/&gt;
+ &lt;postfield name="cid" value="bcgn3508_46217_D_1"/&gt;
+ &lt;postfield name="key" value="$(key)" /&gt;&lt;/go&gt;
+ &lt;/anchor&gt; &lt;br/&gt;
+
+ 【客服中心】&lt;br /&gt;
+    &lt;a href="/service"&gt;客服&lt;/a&gt; &lt;a href="/service/fav"&gt;书签&lt;/a&gt; &lt;a href="/service/about"&gt;关于&lt;/a&gt; &lt;a href="/cooperation/index"&gt;加盟&lt;/a&gt;&lt;br /&gt;
+
+
+        手机上网导航门户&lt;br/&gt;3G导航&lt;a href="/soft/548.jar"&gt;安装书签&lt;/a&gt;&lt;br /&gt;
+Copyright@2018&lt;br/&gt;
+    &lt;/p&gt;
+    
+  &lt;/card&gt;
+&lt;/wml&gt;</pre></body></html>

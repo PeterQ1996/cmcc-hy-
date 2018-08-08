@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="zh-CN" xml:lang="zh-CN"><head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta name="renderer" content="webkit">
+        <meta charset="UTF-8">
+        <title>老钱庄-彩民乐园</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="/style/css/share.min.css" rel="stylesheet">
+        <script type="text/javascript">
+            var _tempGoStr = "#6.1";
+        </script>
+        <script src="/style/js/share.min.js"></script>
+        <script type="text/javascript">
+            gl.webName = "老钱庄-彩民乐园";
+        </script>
+        <style>.cont_1{display:block;padding: 5px;border-radius: 4px;margin: 10px auto; line-height: 22px;font-size: 14px;text-decoration: none;color:#fff;text-align:center;}</style>
+    </head>
+
+    <body class="sigin">
+        <!--[if lt IE 9]>
+            <script type="text/javascript">
+                window.location.href = '/Warn/LowVersion';
+            </script>
+        <![endif]-->
+        <div id="content-wrap">
+            <div class="main" id="content">
+                <input name="__RequestVerificationToken" type="hidden" value="0">
+                <div class="row sign-panel" id="sp-login">
+                    <div class="logo"> <span></span> </div>
+                    <div class="tab-box">
+                        <ul class="tb-nav">
+                            <li id="menu_0" class="active" style="margin-right:0px;"><a href="javascript:changemenu(0);">会员登录</a></li>
+                                                    </ul>
+                        <div class="guest-tip">
+                            <i>&nbsp;</i>
+                            <span>有问题？咨询在线客服</span>
+                            <a href="javascript:openagwin('http://tb.53kf.com/code/client/10138188/1');">点击此处</a>
+                        </div>
+                    </div>
+                    <div class="row panel">
+                        <div class="column b-35">
+                            <div id="cont_0" class="form-table">
+                                <div class="form-row">
+                                    <div class="tp-ui-item tp-ui-forminput tp-ui-text tp-ui-text-base"><div class="tp-ui-sub tp-ui-text-base tp-ui-iconat-base"><input type="text" tabindex="1" id="txt_username" placeholder="用户名" class="signin-form-text" data-icon="sigin-user"></div><div class="tp-ui-icon tp-ui-icon-base icon-sigin-user"><i>&nbsp;</i></div></div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="tp-ui-item tp-ui-forminput tp-ui-text tp-ui-text-base"><div class="tp-ui-sub tp-ui-text-base tp-ui-iconat-base"><input type="password" tabindex="2" placeholder="密码" id="txt_pwd" class="signin-form-text signin-login-password" data-icon="sigin-password"></div><div class="tp-ui-icon tp-ui-icon-base icon-sigin-password"><i>&nbsp;</i></div></div>
+                                    <a href="/Login/ForgetPwd" title="忘记密码？点击找回" class="input-in-option" id="repassword-pop"><i>忘记密码？</i></a>
+                                    <a href="javascript:void(0);" title="显示密码" class="input-in-option" id="show-password-text"><i>显示密码</i></a>
+                                </div>
+                                <div class="form-row" style="display: none;" id="row-valicode">
+                                    <div class="vercode">
+                                        <div class="tp-ui-item tp-ui-forminput tp-ui-text tp-ui-text-base"><div class="tp-ui-sub tp-ui-text-base tp-ui-iconat-base"><input type="text" id="txt_valcode" tabindex="3" placeholder="验证码" class="signin-form-text" data-icon="sigin-vercode"></div><div class="tp-ui-icon tp-ui-icon-base icon-sigin-vercode"><i>&nbsp;</i></div></div>
+                                        <a href="javascript:void(0);" class="image" name="valcodebtn"><img id="img-valcode" src="" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="tp-ui-item tp-ui-forminput tp-ui-button-noselect tp-ui-button tp-ui-button-submit"><div class="tp-ui-sub tp-ui-button-base"><input type="submit" tabindex="4" id="login-submit-button" class="signin-form-submit" data-type="submit" value="会员登录"></div></div>
+                                </div>
+                                <div class="form-row" id="hyzc"></div>
+                            </div>
+                            <div id="cont_1" class="form-table" style=" display:none; ">
+                                                            </div>
+                            <input type="hidden" name="hd_menu" id="hd_menu" value="0">
+                            <div class="login-options">
+                                <span class="lo-mobile-token"><a href="/fjc" target="_blank">域名防劫持教程</a><a href="javascript:alert('信誉、安全、公正、公平、合理，值得信赖！');" id="loginastr">信誉第一平台</a></span>
+                            </div>
+                        </div>
+                        <div class="column b-65">
+                            <div id="login-banner"><a href="javascript:void(0);"><img src="/uploads/1533194751.jpg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="browser-mode-fixed">
+            <ul class="bmf-browser">
+                <li><a class="b-b-chrome" href="http://rj.baidu.com/soft/detail/14744.html?ald" title="快速、简单且安全的浏览器" target="_blank">google Chrome</a></li>
+                <li><a class="b-b-firefox" href="http://rj.baidu.com/soft/detail/11843.html?ald" title="屡获大奖的开源浏览器" target="_blank">Mozilla Firefox</a></li>
+                <li><a class="b-b-safari" href="http://rj.baidu.com/soft/detail/12966.html?ald" title="提供极致愉悦的网络体验方式" target="_blank">Apple safari</a></li>
+                <li><a class="b-b-ie" href="http://rj.baidu.com/soft/detail/14917.html?ald" title="全面升级的IE浏览器" target="_blank">Internet Explorer 10</a></li>
+            </ul>
+            <p>为了获得更好的操作体验，建议使用Google Chrome 或IE10浏览器，点击图标下载。</p>
+        </div>
+    
+
+<script type="text/javascript">
+    $(function () {
+        $("#txt_username").focus();
+        document.title = gl.webName;
+    });
+
+    function changemenu(id) {
+        var val = $('#hd_menu').val();
+        if (val != id) {
+            if (id == 1) {
+                $('#menu_0').removeClass();
+                $('#menu_1').addClass("active")
+                $('#cont_0').hide();
+                $('#cont_1').show();
+                tim=0,n=0;
+                ctid=setInterval("tim++", 10);
+                run();
+            } else {
+                $('#menu_1').removeClass();
+                $('#menu_0').addClass("active")
+                $('#cont_1').hide();
+                $('#cont_0').show();
+            }
+            $('#hd_menu').val(id);
+        }
+    }
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null)
+            return  unescape(r[2]);
+        return null;
+    }
+    var k_host2 = document.domain;
+    var arrreg = {'ssc.vip': '0000'};
+    var reg = arrreg[k_host2] || GetQueryString("init")
+    if (reg != null) {
+        $('#hyzc').append('<input type="button" tabindex="4" id="login-submit-button" class="signin-form-submit" data-type="submit" value="会员注册" onclick="window.location.href=\'/in/index/i/' + reg + '\' "/>')
+    }
+</script>
+<div class="tp-ui-item tp-ui-media tp-ui-media-audio"><div class="tp-ui-sub tp-ui-media-player"><audio></audio></div></div><div class="tp-ui-item tp-ui-media tp-ui-media-audio"><div class="tp-ui-sub tp-ui-media-player"><audio></audio></div></div><div style="position: fixed; width: 100%; left: 0px; top: 0px; z-index: 999;"><div class="tp-ui-item tp-ui-loading tp-ui-loading-base" style="position: absolute; left: 0px; top: 0px; width: 1024px; height: 768px; display: none;"><div class="tp-ui-sub tp-ui-loading-content" style="position: absolute; top: 50%; left: 50%; margin-top: -40px; margin-left: -40px;"><div class="tp-ui-sub tp-ui-loading-content-inner"><div class="tp-ui-sub tp-ui-loading-image tp-ui-loading-image-base"></div></div></div><div class="tp-ui-mask tp-ui-loading-base"></div></div></div></body></html>

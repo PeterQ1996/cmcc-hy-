@@ -1,0 +1,241 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<title> 爱分期 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content=" 一款基于移动端的信用借款APP。我们主要解决大学生和年轻白领在日常生活中的借款需求，用互联网大数据方式，提供最快最便捷的金融服务！ ">
+<meta name="Keywords" content=" 99分期，分期，大学生分期，年轻人分期，分期购物，手机分期，电脑分期 ">
+<!-- 忽略页面中的数字识别为电话号码 -->
+<meta name="format-detection" content="telephone=no,email=no">
+<link rel="shortcut icon" href="/Public/home/images/logo.ico">
+<link rel="stylesheet" type="text/css" href="/Public/home/css/mui.min.css">
+<link rel="stylesheet" type="text/css" href="/Public/home/css/feiqi-ee5401a8e6.css">
+<link rel="stylesheet" type="text/css" href="/Public/home/css/newpay-bb7fcb5546.css">
+<link rel="stylesheet" type="text/css" href="/Public/home/css/newindex-09d04b32f3.css">
+<script src="/Public/home/js/jquery.js"></script>
+<script src="/Public/home/js/jquery.slider-min.js"></script>
+<script src="/Public/home/js/jquery.dependClass.js"></script>
+<style>
+.gundong{
+	line-height: 26px;
+    font-size: 18px;
+    background-color: #f5f5f9;
+}
+.gundong_phone{
+	color: #fb6f00;
+}
+.gundong_money{
+	color:red;
+}
+</style>
+</head>
+<body class="whitebg newindex">
+<!--头部-->
+<header>
+    <section class="pr new-huahead">
+        <div class="new-smoney">申请金额(元)</div>
+        <div class="new-money" id="money_str">30000.00</div>
+    </section>
+</header>
+<!--表单-->
+<form id="submitform">
+    <section class="new-form">
+        <!--滑块部分-->
+        <div class="sliderwarp">
+            <div class="minmoney commoney">10000元</div>
+            <div class="maxmoney commoney">200000元</div>
+            <div id="subtract" class="subtract new-btn"></div>
+            <div id="tap1" class="layout-slider">
+				<input id="SliderSingle11" type="slider" name="money" value="0;30000;" style="display: none"><span class="jslider jslider_round"><table><tbody><tr><td><div class="jslider-bg"><i class="l"><i></i></i><i class="r"><i></i></i><i class="v" style="left: 0%; width: 10.5%;"><i></i></i></div><div class="jslider-pointer" style="left: 0%; background-image: url(http://a.silgefk.cn.com/Public//home/imgs/coin.png);"><i></i></div><div class="jslider-pointer jslider-pointer-to" style="left: 10.5%; background-image: url(http://a.silgefk.cn.com/Public//home/imgs/coin.png);"><i></i></div><div class="jslider-label" style=""><span>10 000</span></div><div class="jslider-label jslider-label-to" style="display: block;"><span>200 000</span></div><div class="jslider-value" style="visibility: visible; left: 0%; margin-left: 0px; right: auto;"><span>10 000&nbsp;–&nbsp;30 000</span></div><div class="jslider-value jslider-value-to" style="visibility: hidden; left: 10.5%; margin-left: 0px; right: auto;"><span>30 000</span></div><div class="jslider-scale"></div></td></tr></tbody></table></span>
+            </div>
+            <div id="plus" class="plus new-btn"></div>
+        </div>
+        <!--借款期限-->
+        <section class="time">
+            <h3>借款期限</h3>
+            <div class="timelimit">
+
+            <button id="0m" class="timeBtn"><span id="timeSpanVal_0">6</span>个月</button><button id="1m" class="timeBtn  act"><span id="timeSpanVal_1">12</span>个月</button><button id="2m" class="timeBtn"><span id="timeSpanVal_2">18</span>个月</button><button id="3m" class="timeBtn"><span id="timeSpanVal_3">24</span>个月</button><button id="4m" class="timeBtn"><span id="timeSpanVal_4">36</span>个月</button></div>
+        </section>
+        <!--每期还款-->
+        <section class="huankuan mui-clearfix">
+            <h3>每期还款</h3>
+            <div class="huankuan-right">
+                <i id="yuegong">2704.00</i>元
+                <span>&nbsp;&nbsp;(含日利率<span id="rixi">0.02</span>% ￥<i id="fuwufei">204.00</i>元)</span>
+            </div>
+        </section>
+        <!--条款-->
+        <section class="tiaokuan">
+            <div class="cf mt20">
+                <label class="fl rev">
+                    <input type="checkbox" checked="checked" id="xieyi">
+                    <em></em>
+                </label>
+                <span class="fl arge">同意
+                    <a class="" id="qbtn5" href="javascript:;">《委托授权协议》</a>
+                    <a class="" id="qbtn33" href="javascript:;">《借款协议》</a>
+                    <a class="" id="qbtn4" href="javascript:;">《平台服务协议》</a>
+                </span>
+            </div>
+        </section>
+        <!--申请接借贷-->
+        <div class="protit sevagreee ">
+            <a class="logBtn" href="javascript:subForm();">立即借款</a>
+        </div>
+        <!--other-->
+		<div class="gundong">
+			<marquee scrollamount="2" scrolldelay="50" direction="up" style="    text-align: center;    font-size: 16px;width: 100%;height: 65px;">
+			<span>2018-08-08</span> : <span class="gundong_phone">170****4275</span> 成功借款 <span class="gundong_money">192100</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">155****7203</span> 成功借款 <span class="gundong_money">14200</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">157****3326</span> 成功借款 <span class="gundong_money">58000</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">173****7473</span> 成功借款 <span class="gundong_money">28300</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">177****4277</span> 成功借款 <span class="gundong_money">63900</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">159****1794</span> 成功借款 <span class="gundong_money">53500</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">170****9346</span> 成功借款 <span class="gundong_money">38500</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">177****7616</span> 成功借款 <span class="gundong_money">180200</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">158****5914</span> 成功借款 <span class="gundong_money">44200</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">135****7189</span> 成功借款 <span class="gundong_money">105000</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">177****7832</span> 成功借款 <span class="gundong_money">25900</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">171****6166</span> 成功借款 <span class="gundong_money">23500</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">171****8962</span> 成功借款 <span class="gundong_money">92600</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">186****7892</span> 成功借款 <span class="gundong_money">164700</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">182****7845</span> 成功借款 <span class="gundong_money">15700</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">152****8126</span> 成功借款 <span class="gundong_money">142100</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">158****3559</span> 成功借款 <span class="gundong_money">123100</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">134****3022</span> 成功借款 <span class="gundong_money">63100</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">138****7059</span> 成功借款 <span class="gundong_money">166200</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">187****9667</span> 成功借款 <span class="gundong_money">132800</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">131****7391</span> 成功借款 <span class="gundong_money">128200</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">180****0324</span> 成功借款 <span class="gundong_money">119900</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">173****5494</span> 成功借款 <span class="gundong_money">49500</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">172****6067</span> 成功借款 <span class="gundong_money">95100</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">182****9923</span> 成功借款 <span class="gundong_money">195800</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">176****0080</span> 成功借款 <span class="gundong_money">87900</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">137****5041</span> 成功借款 <span class="gundong_money">132500</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">152****5362</span> 成功借款 <span class="gundong_money">170700</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">173****2816</span> 成功借款 <span class="gundong_money">78200</span>元! <br><span>2018-08-08</span> : <span class="gundong_phone">153****8494</span> 成功借款 <span class="gundong_money">112000</span>元! <br>			</marquee>
+		</div>
+        <section class="other">
+            <a id="dnapp" href="javascript:;">
+            	<img src="/Public/home/imgs/other.png" alt="">
+            </a>
+        </section>
+        <div class="com" style="text-align: center;">
+        	<br>京ICP备15001516号        </div>
+    </section>
+    <!-- 底部固定栏 -->
+    <!-- bottom bar -->
+    <nav class="mui-bar mui-bar-tab bottom-bar">
+        <a class="mui-tab-item cur" href="/index.php?m=Index&amp;a=index">
+                <span class="mui-icon mui-icon-home home cur">
+        </span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item" href="/index.php?m=Help&amp;a=index">
+            <span class="mui-icon mui-icon-contact muihelp"></span>
+            <span class="mui-tab-label">客服</span>
+        </a>
+        <a class="mui-tab-item" href="/index.php?m=User&amp;a=index">
+            <span class="mui-icon mui-icon-email myself"></span>
+            <span class="mui-tab-label">我</span>
+        </a>
+    </nav>
+</form>
+
+
+
+
+<!-- 加减提示 -->
+<div class="plusmore">不能大于最大金额</div>
+<div class="subtractmore">不能小于最小金额</div>
+<div class="deowin" style="display: none; padding: 0px 6%; margin-top: -210px;" id="deowin4">
+    <div class="deocon">
+    <h3 style="text-align: center;font-size: 16px; color:#fb6f00;height: 40px;line-height: 40px;border-bottom: 1px solid #fb6f00;">《平台服务协议》</h3>
+        <div class="divpad" style="height: 340px;overflow-y: auto;">
+            <iframe src="" style="width:100%;height:100%;border:none;"></iframe>
+        </div>
+        <div class="wobtn">
+            <!-- 一个按钮用这个结构 -->
+                <a style="color:#fb6f00;" id="winbtn4" href="javascript:;">关闭</a>
+        </div>
+    </div>
+</div>
+<div class="deowin" style="display: none; padding: 0px 6%; margin-top: -210px;" id="deowin33">
+    <div class="deocon">
+    <h3 style="text-align: center;font-size: 16px; color:#fb6f00;height: 40px;line-height: 40px;border-bottom: 1px solid #fb6f00;">《借款协议》</h3>
+        <div class="divpad" style="height: 340px;overflow-y: auto;">
+            <iframe src="" style="width:100%;height:100%;border:none;"></iframe>
+        </div>
+        <div class="wobtn">
+            <!-- 一个按钮用这个结构 -->
+                <a style="color:#fb6f00;" id="winbtn33" href="javascript:;">关闭</a>
+        </div>
+    </div>
+</div>
+<div class="deowin" style="display: none; padding: 0px 6%; margin-top: -210px;" id="deowin5">
+    <div class="deocon">
+    <h3 style="text-align: center;font-size: 16px; color:#fb6f00;height: 40px;line-height: 40px;border-bottom: 1px solid #fb6f00;">《委托授权协议》</h3>
+        <div class="divpad" style="height: 340px;overflow-y: auto;">
+            <iframe src="" style="width:100%;height:100%;border:none;"></iframe>
+        </div>
+        <div class="wobtn">
+            <!-- 一个按钮用这个结构 -->
+                <a style="color:#fb6f00;" id="winbtn5" href="javascript:;">关闭</a>
+        </div>
+    </div>
+</div>
+<div class="emask" id="mask3" style="display: none;"></div>
+<div class="deowin2" style="display:none;" id="deowin31">
+    <div class="deocon2">
+        <div class="divpad2" style="text-align:center;height:110px">
+            <p class="tex" style="color: #4c4c4c;line-height: 30px;font-size:16px;"></p>
+        </div>
+        <div class="wobtn">
+            <!-- 一个按钮用这个结构 -->
+                <a id="winbtn3" href="javascript:;">确定</a>
+        </div>
+    </div>
+</div>
+<div style="display:none;">
+<form action="/index.php?m=Order&amp;a=daikuan" method="post" id="orderform">
+	<input type="hidden" name="money" value="30000.00" id="order_money">
+	<input type="hidden" name="month" value="12" id="order_month">
+</form>
+</div>
+<script>
+var num = 0;
+var MINMONEY = 10000;
+var MAXMONEY = 200000;
+var nowmoney = {};
+var feilv_value = "8,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68,0.68";
+var months=[6,12,18,24,36];
+var definamonth = 12;
+var feilv = feilv_value.split(',');
+var STEP = 100;
+var user_id = '0';
+var SliderSingle1 = jQuery("#SliderSingle11");
+var LoginUrl = "/index.php?m=User&a=login";
+var PublicUrl = "http://a.silgefk.cn.com/Public/";
+function subForm(){
+    if(user_id=='0'){
+        window.location.href = LoginUrl;
+        return false;
+    }
+    if(!$('#xieyi').attr('checked')){
+        $(".tex").html('请您同意并勾选协议');
+        $("#deowin31").show();
+        $('#mask3').show();
+        return false;
+    }
+    //判断失败订单是否超过预期
+    $.post(
+    	"/index.php?m=Order&a=checkorder",
+    	{},
+    	function(data,state){
+    		if(state != "success"){
+		        $(".tex").html('请求数据失败!');
+		        $("#deowin31").show();
+		        $('#mask3').show();
+    		}else if(data.status == 1){
+    			$("#orderform").submit();
+    		}else{
+		        $(".tex").html(data.msg);
+		        $("#deowin31").show();
+		        $('#mask3').show();
+    		}
+    	}
+    );
+}
+$(function(){
+	for(var i=0;i<months.length;i++){
+		var tmp;
+		tmp = months[i];
+		var html = '<button id="'+i+'m" class="timeBtn "><span id="timeSpanVal_'+i+'">'+tmp+'</span>个月</button>';
+		$(".timelimit").append(html);
+	}
+
+    	$('#winbtn33').click(function(){
+            $('#deowin33').hide();
+            $('#mask3').hide();
+            $('#deowin33 iframe').attr('src','');      
+
+       });
+});
+</script>
+<script src="/Public/home/appjs/Index.js"></script>
+<div style="display: none;">
+	</div>
+
+</body></html>

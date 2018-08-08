@@ -1,0 +1,594 @@
+<!DOCTYPE html><html><head>
+        <meta charset="utf-8">
+        <title>囊括千金  永不止步。 极限挑战 乐在其中</title>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+        <link rel="apple-touch-icon-precomposed" href="https://www.tbk-app.com/g1446/version/pkg/icon.png">
+        <link href="//static3w.dgalei8.cn/mobile_static/pack/vendor.css?1531894702_231f3c9b6f0e6513323869c8c4cc20ea" rel="stylesheet">
+        <link href="//static3w.dgalei8.cn/mobile_static/pack/app.css?1532412793_1a0cef9104d5aedff5390410e48cd9e0" rel="stylesheet">
+    <style type="text/css">
+.common-module-home .page-top-area{
+    background: linear-gradient(rgb(150,76,76),rgb(61,0,0));
+}
+.common-module-home .user-info .icon{
+    color: rgb(180,127,127);
+}
+.btn-primary{
+    background-color: rgb(143,63,63) !important;
+}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active{
+    background-color: rgb(120,25,25) !important;
+}
+.layout-bottom .main-menu-area > div > a:focus,.layout-bottom .main-menu-area > div > a:active{
+    color: rgb(135,51,51) !important;
+}
+.common-module-home .notice-area{
+    box-shadow: 1px 1px 8px rgb(165,102,102);
+}
+.common-module-home .notice-area .notice-icon{
+    color: rgb(150,76,76);
+}
+.common_style .module-top{
+    background: linear-gradient(rgb(150,76,76),rgb(61,0,0));
+}
+.module-main .list-group-item:nth-child(even), .modal-body .list-group-item:nth-child(even){
+    background-color: rgb(247,242,242);
+}
+.main-container.menu-area .list-group-item:active, .common-module-moreMenu .list-group-item:active, .sport-module-index .list-group-item .item-area:active, .member-module-recharge .list-group-item:active, .member-module-rechargeBank .list-group-item:active, .sport-module .rate-btn:active{
+    background-color: rgb(250,247,247);
+}
+.common_style .top-menu-area .active-tab{
+    background-color: rgb(135,51,51);
+}
+.module-main .panel-heading{
+    background-color: rgb(150,76,76);
+}
+.sport-module .team-info{
+    background-color: rgb(150,76,76);
+}
+.sport-module .team-h-txt, .sport-module .team-c-txt{
+    background-color: rgb(180,127,127);
+}
+.sport-module .match-item .rate-row:nth-child(even), .sport-result-module .rate-row:nth-child(even){
+    background-color: rgb(243,234,234);
+}
+.sport-module .match-item .rate-row > div, .sport-result-module .rate-row>div{
+    border-color:rgb(249,244,244);
+}
+.sport-result-module .common-container{
+    background-color: rgb(243,234,234);
+}
+.sport-result-module .common-container .txt-important{
+    border-left: 1px solid rgb(249,244,244);
+}
+.layout-bottom .money-menu .icon{
+    color: rgb(135,51,51);
+}
+.main-container.menu-area .list-group-item .glyphicon, .main-container.menu-area .list-group-item .fa{
+    color: rgb(165,102,102);
+}
+.btn.order-item:before{
+    color: rgb(165,102,102);
+}
+.member-module-login .form-group > label, .member-module-gestureSetting .form-group > label{
+    color: rgb(150,76,76);
+}
+.main-container.menu-area .member-info-area .member-info{
+    background-color: rgba(106,0,0,0.5);
+}
+.main-container.menu-area .member-info-area .more-info{
+    background-color: rgba(106,0,0,0.8);
+}
+.common-module-home .module-main{
+    background-color: rgb(247,242,242);
+}
+.top-container .dropdown-menu .menu-head{
+    background: linear-gradient(rgb(150,76,76),rgb(61,0,0));
+}
+.sport-module-index .module-main .list-group-item .item-area-active{
+    background-color: rgb(135,51,51);
+}
+
+.common-module-youhui .module-main .list-group-item{
+    background-color: rgb(240,229,229);
+}
+.common-module-youhui .module-main .list-group-item:nth-child(even){
+    background-color: rgb(240,229,229);
+}
+
+
+.common-module-home .menu-area-wrap{
+    margin-top: -36px;
+    padding-top: 36px;
+    background-image: url("//static3w.dgalei8.cn/upload/714/image/171030020623.jpg");
+    background-size: 100% 100%;
+}
+.common-module-home .menu-btn-area .pc-switch-btn{
+    color: #fff !important;
+}
+
+
+.member-module-login .right-menu .btn{
+    color: #fff !important;
+}
+.member-module-login .module-main{
+    background: linear-gradient(rgb(180,127,127),rgb(61,0,0));
+}
+.member-module-login .left-menu span{
+    color: #fff !important;
+}
+.common-module-dzp .module-main{
+    background: #f02d2f;
+}
+.ad-dialog-main .modal-header{
+    background: linear-gradient(rgb(180,127,127),rgb(61,0,0));
+    color: #fff;
+    border-bottom: none;
+    padding: 8px;
+}
+.ad-dialog-main .modal-content{
+    border-radius: 0;
+}
+.carousel-indicators li{
+    border-color: rgb(210,178,178) !important;
+}
+.carousel-indicators li.active{
+    background: rgb(210,178,178) !important;
+}
+</style></head>
+    <body class="common_style">
+		
+        <div class="layout-main" style="height: 704px;"><div class="common-module common-module-home"><div class="module-top">
+
+<div class="page-top-area">
+    <div class="top-container">
+        <div class="left-area">
+            <img src="//static3w.dgalei8.cn/upload/714/image/160811011957.png" alt="站标">
+        </div>
+    
+
+
+
+<div class="right-area">
+    <a href="#module/member/action/register" class="btn btn-primary">注册</a>
+    <a href="#module/member/action/login" class="btn btn-primary">登录</a>
+</div>
+
+
+
+</div>
+</div>
+
+
+</div><div class="module-main diy-scrollbar" style="height: 646px; overflow: hidden;"><div style="transition: transform 0ms; -webkit-transition: transform 0ms; transform-origin: 0px 0px; transform: translate(0px, 0px) translateZ(0px);"><div style="min-height: 646px;">
+
+<div class="carousel-container" style="height: auto;">
+    <div id="mdl-0-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            
+            <li data-target="#mdl-0-carousel" data-slide-to="0" class="active"></li>
+            
+            <li data-target="#mdl-0-carousel" data-slide-to="1"></li>
+            
+            <li data-target="#mdl-0-carousel" data-slide-to="2"></li>
+            
+            <li data-target="#mdl-0-carousel" data-slide-to="3"></li>
+            
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            
+            <div class="item active">
+                <img src="//static3w.dgalei8.cn/upload/714/image/180628071205.jpg" alt="图片">
+            </div>
+            
+            <div class="item">
+                <img src="//static3w.dgalei8.cn/upload/714/image/180223001943.png" alt="图片">
+            </div>
+            
+            <div class="item">
+                <img src="//static3w.dgalei8.cn/upload/714/image/171204031107.jpg" alt="图片">
+            </div>
+            
+            <div class="item">
+                <img src="//static3w.dgalei8.cn/upload/714/image/171216030904.jpg" alt="图片">
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div class="notice-area">
+    <span aria-hidden="true" class="glyphicon glyphicon-volume-up notice-icon"></span>
+    <div class="marquee"><span class="info" style="cursor: pointer; -webkit-animation: scroll-left 218s linear infinite; animation: scroll-left 218s linear infinite;"><span class="info-txt" style="display: inline-block; width: 6820px; font-size: 14px;"><span style="padding:0 10px;">尊敬的澳门永利会员，您好，今日六合彩马上即将开始，请您及时入款别误了投注的最佳良机，另外我司全新推出七夕活动哦！
+1：活动时间：8.1号——8.17号，单笔入款520元即可联系客服专员领取1次抢红包机会哦！当日最高5次机会！，红包网址【yl8553hb.com】，
+2：签到活动凌晨开始全勤既是黄金段位，签到网址【8553qd.com】您还在等什么，快来签到吧！
+3：8月18日九周年活动将全新开启，澳门永利与您相约，8月18日不见不散！</span><span style="padding:0 10px;">★【签到送彩金——豪礼送不停】签到活动已经到17天了哦，还有3天即将进入黄金阶段，奖励更丰厚哦！记得每天设置闹钟签到哦！签到网站：8553qd.com</span><span style="padding:0 10px;">★【温馨提示】：为了广大会员的方便，我司线上银联支付全面恢复，安全又快捷，请放心使用！</span><span style="padding:0 10px;">★【周年庆典 签到彩金】金秋佳节缤纷乐，天天签到免费拿！签到天数越多，彩金拿的越多 活动时间：北京时间：7.15-8.18共：35天 每天登陆签到可以得到免费彩金！每天每天仅可签到一天！ 彩金派送：签到之后彩金将在2小时之内派送到你的会员账号！ 彩金要求：只需一倍流水即可申请提款！ 注：累计签到天数达到：10，15，20，25，30有额外彩金赠送！ 签到网址：【8553qd.com】</span></span></span></div>
+</div>
+<div class="menu-area-wrap">
+    <div class="menu-btn-area" style="min-height: 218px;">
+        <div class="menu-btns">
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;ag&quot;,&quot;name&quot;:&quot;AG国际厅&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/ag/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/ag_ls.png" alt="AG国际厅" style="width: auto; height: 162.81645569620252px;">
+                        <span>AG国际厅</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;tt&quot;,&quot;name&quot;:&quot;天天彩票&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/tt/index&quot;,&quot;login&quot;:&quot;1&quot;,&quot;tag&quot;:&quot;hot&quot;}">
+                    
+                    <span class="burst-sharp hot">
+                        <span>
+                            <span>
+                                <span>热门</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/tt.png" alt="天天彩票" style="width: auto; height: 162.81645569620252px;">
+                        <span>天天彩票</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;vr&quot;,&quot;name&quot;:&quot;VR彩票&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/vr&quot;,&quot;login&quot;:&quot;1&quot;,&quot;tag&quot;:&quot;new&quot;}">
+                    
+                    
+                    <span class="burst-sharp new">
+                        <span>
+                            <span>
+                                <span>新</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/vr.png" alt="VR彩票" style="width: auto; height: 162.81645569620252px;">
+                        <span>VR彩票</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;jl&quot;,&quot;name&quot;:&quot;吉利彩票&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/jl/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/jl.png" alt="吉利彩票" style="width: auto; height: 162.81645569620252px;">
+                        <span>吉利彩票</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;ab&quot;,&quot;name&quot;:&quot;AB欧洲厅&quot;,&quot;mode&quot;:&quot;sub&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/ab/index&quot;,&quot;login&quot;:&quot;1&quot;,&quot;target&quot;:&quot;AB&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/ab.png" alt="AB欧洲厅" style="width: auto; height: 162.81645569620252px;">
+                        <span>AB欧洲厅</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;bv&quot;,&quot;name&quot;:&quot;BG视讯厅&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/bv/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/bv.png" alt="BG视讯厅" style="width: auto; height: 162.81645569620252px;">
+                        <span>BG视讯厅</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;og&quot;,&quot;name&quot;:&quot;OG东方厅&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/og/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/og.png" alt="OG东方厅" style="width: auto; height: 162.81645569620252px;">
+                        <span>OG东方厅</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;bb&quot;,&quot;name&quot;:&quot;BBIN视讯&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/bbin/index&quot;,&quot;login&quot;:&quot;1&quot;,&quot;target&quot;:&quot;BB&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/bbin.png" alt="BBIN视讯" style="width: auto; height: 162.81645569620252px;">
+                        <span>BBIN视讯</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;ts&quot;,&quot;name&quot;:&quot;三昇体育&quot;,&quot;mode&quot;:&quot;sub&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/ts/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/ts.png" alt="三昇体育" style="width: auto; height: 162.81645569620252px;">
+                        <span>三昇体育</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;ug&quot;,&quot;name&quot;:&quot;新皇冠体育&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/ug&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/ug.png" alt="新皇冠体育" style="width: auto; height: 162.81645569620252px;">
+                        <span>新皇冠体育</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;sp&quot;,&quot;name&quot;:&quot;沙巴体育&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/sp/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/sp.png" alt="沙巴体育" style="width: auto; height: 162.81645569620252px;">
+                        <span>沙巴体育</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;st&quot;,&quot;name&quot;:&quot;皇冠体育&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/sport&quot;,&quot;login&quot;:&quot;1&quot;,&quot;diy&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/hg_sports.png" alt="皇冠体育" style="width: auto; height: 162.81645569620252px;">
+                        <span>皇冠体育</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;ky&quot;,&quot;name&quot;:&quot;开元棋牌&quot;,&quot;mode&quot;:&quot;sub&quot;,&quot;orientation&quot;:&quot;h&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/ky/index&quot;,&quot;login&quot;:&quot;1&quot;,&quot;target&quot;:&quot;KY&quot;,&quot;tag&quot;:&quot;new&quot;}">
+                    
+                    
+                    <span class="burst-sharp new">
+                        <span>
+                            <span>
+                                <span>新</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/ky.png" alt="开元棋牌" style="width: auto; height: 162.81645569620252px;">
+                        <span>开元棋牌</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;by&quot;,&quot;name&quot;:&quot;AG捕鱼王&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;h&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/by/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/by.png" alt="AG捕鱼王" style="width: auto; height: 162.81645569620252px;">
+                        <span>AG捕鱼王</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;vg&quot;,&quot;name&quot;:&quot;VG棋牌&quot;,&quot;mode&quot;:&quot;sub&quot;,&quot;orientation&quot;:&quot;h&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;/vg/index&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/vg.png" alt="VG棋牌" style="width: auto; height: 162.81645569620252px;">
+                        <span>VG棋牌</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;pt&quot;,&quot;name&quot;:&quot;PT电子&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;app&quot;:&quot;0&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/game/source/pt&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/pt.png" alt="PT电子" style="width: auto; height: 162.81645569620252px;">
+                        <span>PT电子</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;mg&quot;,&quot;name&quot;:&quot;MG电子&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/game/source/mg&quot;,&quot;login&quot;:&quot;1&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/mg.png" alt="MG电子" style="width: auto; height: 162.81645569620252px;">
+                        <span>MG电子</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;bg&quot;,&quot;name&quot;:&quot;BB电子&quot;,&quot;app&quot;:&quot;0&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;1&quot;,&quot;url&quot;:&quot;#module/game/source/bbin&quot;,&quot;login&quot;:&quot;1&quot;,&quot;target&quot;:&quot;BB&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/bbin.png" alt="BB电子" style="width: auto; height: 162.81645569620252px;">
+                        <span>BB电子</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;hb&quot;,&quot;name&quot;:&quot;HB电子&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/game/source/hb&quot;,&quot;login&quot;:&quot;1&quot;,&quot;tag&quot;:&quot;hot&quot;}">
+                    
+                    <span class="burst-sharp hot">
+                        <span>
+                            <span>
+                                <span>热门</span>
+                            </span>
+                        </span>
+                    </span>
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/hb.png" alt="HB电子" style="width: auto; height: 162.81645569620252px;">
+                        <span>HB电子</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;yh&quot;,&quot;name&quot;:&quot;优惠活动&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/common/action/youhui&quot;,&quot;login&quot;:&quot;0&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/yh.png" alt="优惠活动" style="width: auto; height: 162.81645569620252px;">
+                        <span>优惠活动</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;webchat&quot;,&quot;name&quot;:&quot;在线客服&quot;,&quot;mode&quot;:&quot;inappbrowser&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=883006&amp;configID=74308&amp;jid=3603620033&amp;s=1&quot;,&quot;login&quot;:&quot;0&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/ocs.png" alt="在线客服" style="width: auto; height: 162.81645569620252px;">
+                        <span>在线客服</span>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="col-xs-3">
+                <a href="javascript:;" data-item="{&quot;id&quot;:&quot;moreMenu&quot;,&quot;name&quot;:&quot;更多&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;1&quot;,&quot;url&quot;:&quot;#module/common/action/moreMenu&quot;,&quot;login&quot;:&quot;0&quot;}">
+                    
+                    
+                    <div class="menu-btn" style="text-align:center;">
+                        <img src="//static3w.dgalei8.cn/mobile_static/images/menu_btns/more.png" alt="更多" style="width: auto; height: 162.81645569620252px;">
+                        <span>更多</span>
+                    </div>
+                </a>
+            </div>
+        
+        </div>
+    
+    <div class="switch-btn-area" style="position:absolute;bottom:8px;left:0;">
+        <a href="http://www.ylvip05.com/?desktop=true" class="home-bottom-btn"><span aria-hidden="true" class="fa fa-laptop"></span> 电脑版</a>
+    </div>
+    
+    </div>
+</div>
+
+</div></div><div style="position: absolute; z-index: 100; width: 7px; bottom: 2px; top: 2px; right: 1px; pointer-events: none; transition: opacity 0ms 0ms; -webkit-transition: opacity 0ms 0ms; overflow: hidden; opacity: 1;"><div style="position: absolute; z-index: 100; background-clip: padding-box; background-color: rgba(0, 0, 0, 0.498039); border: 1px solid rgba(255, 255, 255, 0.901961); box-sizing: border-box; width: 100%; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; pointer-events: none; transition: transform 0ms cubic-bezier(0.33, 0.66, 0.66, 1); -webkit-transition: transform 0ms cubic-bezier(0.33, 0.66, 0.66, 1); transform: translate(0px, 0px) translateZ(0px); height: 244px;"></div></div></div><div class="module-bottom"></div></div></div><div class="layout-bottom">
+<div class="common-container money-menu" style="display:none;">
+    
+    <div data-item="{&quot;iconClass&quot;:&quot;glyphicon glyphicon-piggy-bank icon&quot;,&quot;name&quot;:&quot;在线存款&quot;,&quot;url&quot;:&quot;#module/member/action/recharge&quot;,&quot;login&quot;:&quot;1&quot;,&quot;mode&quot;:&quot;main&quot;}">
+           <span aria-hidden="true" class="glyphicon glyphicon-piggy-bank icon"></span>
+           
+           <p>在线存款</p>
+           
+    </div>
+    
+    <div data-item="{&quot;iconClass&quot;:&quot;glyphicon glyphicon-new-window icon&quot;,&quot;name&quot;:&quot;在线取款&quot;,&quot;url&quot;:&quot;#module/member/action/draw&quot;,&quot;login&quot;:&quot;1&quot;,&quot;mode&quot;:&quot;main&quot;}">
+           <span aria-hidden="true" class="glyphicon glyphicon-new-window icon"></span>
+           
+           <p>在线取款</p>
+           
+    </div>
+    
+</div>
+<div class="main-menu-area navbar-nav">
+    
+    <div class="dropup more-menu" data-id="home" style="width: 20%;">
+        
+        <a href="javascript:;" data-item="{&quot;id&quot;:&quot;home&quot;,&quot;name&quot;:&quot;首页&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/common/action/home&quot;,&quot;login&quot;:&quot;0&quot;}" tabindex="1" style="outline-style: none;">
+        
+            <span aria-hidden="true" class="fa fa-home"></span>
+            
+            <span>首页</span>
+            
+         </a>
+        
+    </div>
+    
+    <div class="dropup more-menu" data-id="all" style="width: 20%;">
+        
+        <a href="javascript:;" data-item="{&quot;id&quot;:&quot;all&quot;,&quot;name&quot;:&quot;娱乐中心&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;1&quot;,&quot;url&quot;:&quot;#module/common/action/moreMenu&quot;,&quot;login&quot;:&quot;0&quot;}" tabindex="1" style="outline-style: none;">
+        
+            <span aria-hidden="true" class="fa fa-gamepad"></span>
+            
+            <span>娱乐中心</span>
+            
+         </a>
+        
+    </div>
+    
+    <div class="dropup more-menu" data-id="money" style="width: 20%;">
+        
+        <a href="javascript:;" data-item="{&quot;id&quot;:&quot;money&quot;,&quot;name&quot;:&quot;充值提现&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/common/action/moneyMenu&quot;,&quot;login&quot;:&quot;1&quot;}" tabindex="1" style="outline-style: none;">
+        
+            <span aria-hidden="true" class="icon icon-uniE617"></span>
+            
+            <span>充值提现</span>
+            
+         </a>
+        
+    </div>
+    
+    <div class="dropup more-menu" data-id="info" style="width: 20%;">
+        
+        <a href="javascript:;" data-item="{&quot;id&quot;:&quot;info&quot;,&quot;name&quot;:&quot;会员中心&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/common/action/memberMenu&quot;,&quot;login&quot;:&quot;1&quot;}" tabindex="1" style="outline-style: none;">
+        
+            <span aria-hidden="true" class="fa fa-user"></span>
+            
+            <span>会员中心</span>
+            
+         </a>
+        
+    </div>
+    
+    <div class="dropup more-menu" data-id="exchange" style="width: 20%;">
+        
+        <a href="javascript:;" data-item="{&quot;id&quot;:&quot;exchange&quot;,&quot;name&quot;:&quot;额度转换&quot;,&quot;mode&quot;:&quot;main&quot;,&quot;orientation&quot;:&quot;s&quot;,&quot;showLogo&quot;:&quot;0&quot;,&quot;url&quot;:&quot;#module/memberExchange&quot;,&quot;login&quot;:&quot;1&quot;}" tabindex="1" style="outline-style: none;">
+        
+            <span aria-hidden="true" class="glyphicon glyphicon-transfer"></span>
+            
+            <span>额度转换</span>
+            
+         </a>
+        
+    </div>
+    
+</div>
+</div>
+        <script type="text/javascript" src="//static3w.dgalei8.cn/mobile_static/pack/vendor.js?1528452652_1319fac89e6107575c2a5582c987db1f"></script>
+        <script type="text/javascript" src="//static3w.dgalei8.cn/mobile_static/pack/core.js?1529474318_666ec8cabcc7a0234fc714b9b5f1aa73"></script>
+        <script type="text/javascript" src="//static3w.dgalei8.cn/mobile_static/pack/app.js?1533523704_37b5a6e7b6bf11bd5b581581e70c4f4c"></script>
+        <script type="text/javascript" src="//static3w.dgalei8.cn/mobile_static/pack/tpl.js?1533177622_cee84ec13e2aa497f50c80ff9ace1dbd"></script>
+        <script type="text/javascript">
+            window.MainJS = new BaseJS.classes.MainController({
+                layoutCfg: {
+                    bodyMain: $(".layout-main")
+                },
+                cdnUrl: "\/\/static3w.dgalei8.cn",
+                siteTitle: "\u56ca\u62ec\u5343\u91d1  \u6c38\u4e0d\u6b62\u6b65\u3002 \u6781\u9650\u6311\u6218 \u4e50\u5728\u5176\u4e2d",
+                serverOffsetHour: -4,
+                maintence: "",
+                data: {"system":"TBK","platform":"m","logo":"\/upload\/714\/image\/160811011957.png","homePic":"\/upload\/714\/image\/171030020623.jpg","styleColor":"#6a0000","jsCode":null,"popNotice":"\u5c0a\u656c\u7684\u6fb3\u95e8\u6c38\u5229\u4f1a\u5458\uff0c\u60a8\u597d\uff0c\u4eca\u65e5\u516d\u5408\u5f69\u9a6c\u4e0a\u5373\u5c06\u5f00\u59cb\uff0c\u8bf7\u60a8\u53ca\u65f6\u5165\u6b3e\u522b\u8bef\u4e86\u6295\u6ce8\u7684\u6700\u4f73\u826f\u673a\uff0c\u53e6\u5916\u6211\u53f8\u5168\u65b0\u63a8\u51fa\u4e03\u5915\u6d3b\u52a8\u54e6\uff01\r\n1\uff1a\u6d3b\u52a8\u65f6\u95f4\uff1a8.1\u53f7\u2014\u20148.17\u53f7\uff0c\u5355\u7b14\u5165\u6b3e520\u5143\u5373\u53ef\u8054\u7cfb\u5ba2\u670d\u4e13\u5458\u9886\u53d61\u6b21\u62a2\u7ea2\u5305\u673a\u4f1a\u54e6\uff01\u5f53\u65e5\u6700\u9ad85\u6b21\u673a\u4f1a\uff01\uff0c\u7ea2\u5305\u7f51\u5740\u3010yl8553hb.com\u3011\uff0c\r\n2\uff1a\u7b7e\u5230\u6d3b\u52a8\u51cc\u6668\u5f00\u59cb\u5168\u52e4\u65e2\u662f\u9ec4\u91d1\u6bb5\u4f4d\uff0c\u7b7e\u5230\u7f51\u5740\u30108553qd.com\u3011\u60a8\u8fd8\u5728\u7b49\u4ec0\u4e48\uff0c\u5feb\u6765\u7b7e\u5230\u5427\uff01\r\n3\uff1a8\u670818\u65e5\u4e5d\u5468\u5e74\u6d3b\u52a8\u5c06\u5168\u65b0\u5f00\u542f\uff0c\u6fb3\u95e8\u6c38\u5229\u4e0e\u60a8\u76f8\u7ea6\uff0c8\u670818\u65e5\u4e0d\u89c1\u4e0d\u6563\uff01","lunbo":["\/upload\/714\/image\/180628071205.jpg","\/upload\/714\/image\/180223001943.png","\/upload\/714\/image\/171204031107.jpg","\/upload\/714\/image\/171216030904.jpg"],"config":{"homeMenu":[{"id":"ag","name":"AG\u56fd\u9645\u5385","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/ag\/index","login":"1"},{"id":"tt","name":"\u5929\u5929\u5f69\u7968","mode":"main","orientation":"s","showLogo":"0","url":"\/tt\/index","login":"1","tag":"hot"},{"id":"vr","name":"VR\u5f69\u7968","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/vr","login":"1","tag":"new"},{"id":"jl","name":"\u5409\u5229\u5f69\u7968","mode":"main","orientation":"s","showLogo":"0","url":"\/jl\/index","login":"1"},{"id":"ab","name":"AB\u6b27\u6d32\u5385","mode":"sub","orientation":"s","showLogo":"0","url":"\/ab\/index","login":"1","target":"AB"},{"id":"bv","name":"BG\u89c6\u8baf\u5385","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/bv\/index","login":"1"},{"id":"og","name":"OG\u4e1c\u65b9\u5385","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/og\/index","login":"1"},{"id":"bb","name":"BBIN\u89c6\u8baf","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/bbin\/index","login":"1","target":"BB"},{"id":"ts","name":"\u4e09\u6607\u4f53\u80b2","mode":"sub","orientation":"s","showLogo":"0","url":"\/ts\/index","login":"1"},{"id":"ug","name":"\u65b0\u7687\u51a0\u4f53\u80b2","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/ug","login":"1"},{"id":"sp","name":"\u6c99\u5df4\u4f53\u80b2","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/sp\/index","login":"1"},{"id":"st","name":"\u7687\u51a0\u4f53\u80b2","mode":"main","orientation":"s","showLogo":"0","url":"#module\/sport","login":"1","diy":"1"},{"id":"ky","name":"\u5f00\u5143\u68cb\u724c","mode":"sub","orientation":"h","showLogo":"0","url":"\/ky\/index","login":"1","target":"KY","tag":"new"},{"id":"by","name":"AG\u6355\u9c7c\u738b","mode":"inappbrowser","orientation":"h","showLogo":"0","url":"\/by\/index","login":"1"},{"id":"vg","name":"VG\u68cb\u724c","mode":"sub","orientation":"h","showLogo":"0","url":"\/vg\/index","login":"1"},{"id":"pt","name":"PT\u7535\u5b50","mode":"main","app":"0","orientation":"s","showLogo":"0","url":"#module\/game\/source\/pt","login":"1"},{"id":"mg","name":"MG\u7535\u5b50","mode":"main","orientation":"s","showLogo":"0","url":"#module\/game\/source\/mg","login":"1"},{"id":"bg","name":"BB\u7535\u5b50","app":"0","mode":"main","orientation":"s","showLogo":"1","url":"#module\/game\/source\/bbin","login":"1","target":"BB"},{"id":"hb","name":"HB\u7535\u5b50","mode":"main","orientation":"s","showLogo":"0","url":"#module\/game\/source\/hb","login":"1","tag":"hot"},{"id":"yh","name":"\u4f18\u60e0\u6d3b\u52a8","mode":"main","orientation":"s","showLogo":"0","url":"#module\/common\/action\/youhui","login":"0"},{"id":"webchat","name":"\u5728\u7ebf\u5ba2\u670d","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"https:\/\/f18.livechatvalue.com\/chat\/chatClient\/chatbox.jsp?companyID=883006&configID=74308&jid=3603620033&s=1","login":"0"},{"id":"moreMenu","name":"\u66f4\u591a","mode":"main","orientation":"s","showLogo":"1","url":"#module\/common\/action\/moreMenu","login":"0"}],"secondMenu":[{"id":"tiyu","name":"\u4f53\u80b2","sub":[{"id":"st","name":"\u7687\u51a0\u4f53\u80b2","mode":"main","orientation":"s","showLogo":"0","url":"#module\/sport","login":"1","diy":"1"},{"id":"ts","name":"\u4e09\u6607\u4f53\u80b2","mode":"sub","orientation":"s","showLogo":"0","url":"\/ts\/index","login":"1"},{"id":"ug","name":"\u65b0\u7687\u51a0\u4f53\u80b2","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/ug","login":"1"},{"id":"sp","name":"\u6c99\u5df4\u4f53\u80b2","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/sp\/index","login":"1"}]},{"id":"caipiao","name":"\u5f69\u7968","sub":[{"id":"tt","name":"\u5929\u5929\u5f69\u7968","mode":"main","orientation":"s","showLogo":"0","url":"\/tt\/index","login":"1","tag":"hot"},{"id":"jl","name":"\u5409\u5229\u5f69\u7968","mode":"main","orientation":"s","showLogo":"0","url":"\/jl\/index","login":"1"},{"id":"jc","name":"\u5409\u5229\u5f69\u7968<\u7535\u8111\u7248>","mode":"sub","orientation":"s","showLogo":"0","url":"\/jl\/index\/WEB","login":"1"},{"id":"vr","name":"VR\u5f69\u7968","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/vr","login":"1","tag":"new"}]},{"id":"shixun","name":"\u89c6\u8baf","sub":[{"id":"ag","name":"AG\u56fd\u9645\u5385","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/ag\/index","login":"1"},{"id":"bv","name":"BG\u89c6\u8baf\u5385","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/bv\/index","login":"1"},{"id":"ds","name":"DS\u8d35\u5bbe\u5385","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/ds\/index","login":"1","target":"DS"},{"id":"ab","name":"AB\u6b27\u6d32\u5385","mode":"sub","orientation":"s","showLogo":"0","url":"\/ab\/index","login":"1","target":"AB"},{"id":"og","name":"OG\u4e1c\u65b9\u5385","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/og\/index","login":"1"},{"id":"bb","name":"BBIN\u89c6\u8baf","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"\/bbin\/index","login":"1","target":"BB"},{"id":"sg","name":"SG\u6027\u611f\u5385","mode":"inappbrowser","orientation":"h","showLogo":"0","url":"\/sg\/index","login":"1","tag":"new"}]},{"id":"dianzi","name":"\u7535\u5b50","sub":[{"id":"hb","name":"HB\u7535\u5b50","mode":"main","orientation":"s","showLogo":"0","url":"#module\/game\/source\/hb","login":"1","tag":"hot"},{"id":"mg","name":"MG\u7535\u5b50","mode":"main","orientation":"s","showLogo":"0","url":"#module\/game\/source\/mg","login":"1"},{"id":"pt","name":"PT\u7535\u5b50","mode":"main","app":"0","orientation":"s","showLogo":"0","url":"#module\/game\/source\/pt","login":"1"},{"id":"bg","name":"BB\u7535\u5b50","app":"0","mode":"main","orientation":"s","showLogo":"1","url":"#module\/game\/source\/bbin","login":"1","target":"BB"},{"id":"yg","name":"YG\u7535\u5b50","mode":"main","orientation":"s","showLogo":"0","url":"#module\/game\/source\/yg","login":"1"},{"id":"ps","name":"SW\u7535\u5b50","mode":"inappbrowser","orientation":"h","showLogo":"0","url":"#module\/game\/source\/ps","login":"1","tag":"new"},{"id":"qp","name":"TBK\u68cb\u724c","mode":"sub","orientation":"h","showLogo":"0","url":"\/qp\/index","login":"1"},{"id":"vg","name":"VG\u68cb\u724c","mode":"sub","orientation":"h","showLogo":"0","url":"\/vg\/index","login":"1"},{"id":"ky","name":"\u5f00\u5143\u68cb\u724c","mode":"sub","orientation":"h","showLogo":"0","url":"\/ky\/index","login":"1","target":"KY","tag":"new"},{"id":"by","name":"AG\u6355\u9c7c\u738b","mode":"inappbrowser","orientation":"h","showLogo":"0","url":"\/by\/index","login":"1"},{"id":"le","name":"\u4e50\u6e38\u68cb\u724c","mode":"sub","orientation":"h","showLogo":"0","url":"\/le\/index","login":"1","target":"LE","tag":"new"}]},{"id":"other","name":"\u5176\u5b83","sub":[{"id":"yh","name":"\u4f18\u60e0\u6d3b\u52a8","mode":"main","orientation":"s","showLogo":"0","url":"#module\/common\/action\/youhui","login":"0"},{"id":"webchat","name":"\u5728\u7ebf\u5ba2\u670d","mode":"inappbrowser","orientation":"s","showLogo":"0","url":"https:\/\/f18.livechatvalue.com\/chat\/chatClient\/chatbox.jsp?companyID=883006&configID=74308&jid=3603620033&s=1","login":"0"}]}],"mainMenu":[{"id":"home","name":"\u9996\u9875","mode":"main","orientation":"s","showLogo":"0","url":"#module\/common\/action\/home","login":"0"},{"id":"all","name":"\u5a31\u4e50\u4e2d\u5fc3","mode":"main","orientation":"s","showLogo":"1","url":"#module\/common\/action\/moreMenu","login":"0"},{"id":"money","name":"\u5145\u503c\u63d0\u73b0","mode":"main","orientation":"s","showLogo":"0","url":"#module\/common\/action\/moneyMenu","login":"1"},{"id":"info","name":"\u4f1a\u5458\u4e2d\u5fc3","mode":"main","orientation":"s","showLogo":"0","url":"#module\/common\/action\/memberMenu","login":"1"},{"id":"exchange","name":"\u989d\u5ea6\u8f6c\u6362","mode":"main","orientation":"s","showLogo":"0","url":"#module\/memberExchange","login":"1"}],"epayUrl":"http:\/\/8553pay.vip","payConfig":{"custom":{"open":1,"weight":20},"epay":{"open":1,"weight":19},"yjpay":{"open":0,"weight":16},"bank":{"open":1,"weight":14},"alipay":{"open":0,"weight":20},"weixin":{"open":1,"weight":19},"qqpay":{"open":1,"weight":21},"tenpay":{"open":0,"weight":11},"jdpay":{"open":0,"weight":17},"bdpay":{"open":0,"weight":10},"ylpay":{"open":1,"weight":20}},"rechargeConfig":[{"id":"qqpay","name":"QQ\u94b1\u5305"},{"id":"custom","name":"\u5feb\u901f\u5145\u503c"},{"id":"ylpay","name":"\u94f6\u8054\u626b\u7801"},{"id":"epay","name":"\u5728\u7ebf\u652f\u4ed8"},{"id":"weixin","name":"\u5fae\u4fe1\u4ed8\u6b3e"},{"id":"bank","name":"\u94f6\u884c\u6c47\u6b3e"}]},"QRCode":"https:\/\/www.tbk-app.com\/g1446\/QRCode.png","appDownload":"https:\/\/www.tbk-app.com\/g1446\/version\/download.html","games":{"gameTypes":[{"key":"TY","name":"\u4f53\u80b2\u8d5b\u4e8b"},{"key":"CP","name":"\u5f69\u7968\u6e38\u620f"},{"key":"SX","name":"\u771f\u4eba\u89c6\u8baf"},{"key":"DZ","name":"\u7535\u5b50\u6e38\u827a"},{"key":"QP","name":"\u68cb\u724c\u6e38\u620f"}],"gameConfig":[{"type":"TY","open":1,"exchange":0,"bet":1,"link":1,"shui":"sport","id":"ST","name":"\u7687\u51a0\u4f53\u80b2"},{"type":"TY","open":1,"exchange":0,"bet":1,"link":1,"shui":"ug","id":"UG","name":"\u65b0\u7687\u51a0\u4f53\u80b2"},{"type":"TY","open":1,"exchange":1,"bet":1,"link":1,"shui":"sp","id":"SP","name":"\u6c99\u5df4\u4f53\u80b2"},{"type":"TY","open":1,"exchange":1,"bet":1,"link":1,"shui":"ts","id":"TS","name":"\u4e09\u6607\u4f53\u80b2"},{"type":"CP","open":1,"exchange":1,"bet":0,"link":1,"shui":"jl","id":"JL","name":"\u5409\u5229\u5f69\u7968"},{"type":"CP","open":1,"exchange":1,"bet":0,"link":1,"shui":"tt","id":"TT","name":"\u5929\u5929\u5f69\u7968"},{"type":"CP","open":1,"exchange":1,"bet":1,"link":1,"shui":"vr","id":"VR","name":"VR\u5f69\u7968"},{"type":"CP","open":0,"exchange":0,"bet":0,"link":0,"shui":"lx","id":"LX","name":"\u5229\u946b\u5f69\u7968"},{"type":"SX","open":1,"exchange":1,"bet":1,"link":1,"shui":"video","id":"AG","name":"AG\u56fd\u9645\u5385"},{"type":"SX","open":1,"exchange":1,"bet":1,"link":1,"shui":"video","id":"OG","name":"OG\u4e1c\u65b9\u5385"},{"type":"SX","open":1,"exchange":1,"bet":1,"link":1,"shui":"video","id":"BB","name":"BBIN\u6ce2\u97f3\u5385"},{"type":"SX","open":1,"exchange":1,"bet":1,"link":1,"shui":"video","id":"AB","name":"AB\u6b27\u6d32\u5385"},{"type":"SX","open":1,"exchange":1,"bet":1,"link":1,"shui":"video","id":"DS","name":"DS\u8d35\u5bbe\u5385"},{"type":"SX","open":1,"exchange":1,"bet":1,"link":1,"shui":"video","id":"BV","name":"BG\u89c6\u8baf\u5385"},{"type":"SX","open":1,"exchange":1,"bet":1,"link":1,"shui":"video","id":"SG","name":"SG\u6027\u611f\u5385"},{"type":"SX","open":0,"exchange":0,"bet":0,"link":0,"shui":"video","id":"EB","name":"EB\u6613\u535a\u5385"},{"type":"DZ","open":1,"exchange":1,"bet":1,"link":1,"shui":"mg","id":"MG","name":"MG\u7535\u5b50"},{"type":"DZ","open":1,"exchange":1,"bet":1,"link":1,"shui":"pt","id":"PT","name":"PT\u7535\u5b50"},{"type":"DZ","open":1,"exchange":1,"bet":1,"link":1,"shui":"hb","id":"HB","name":"HB\u7535\u5b50"},{"type":"DZ","open":1,"exchange":1,"bet":1,"link":1,"shui":"yyg","id":"YG","name":"YG\u7535\u5b50"},{"type":"DZ","open":1,"exchange":0,"bet":1,"link":1,"shui":"bbgame","id":"BG","name":"BB\u7535\u5b50"},{"type":"DZ","open":1,"exchange":1,"bet":1,"link":1,"shui":"ps","id":"PS","name":"SW\u7535\u5b50"},{"type":"QP","open":1,"exchange":1,"bet":1,"link":1,"shui":"vg","id":"VG","name":"VG\u68cb\u724c"},{"type":"QP","open":1,"exchange":0,"bet":1,"link":1,"shui":"fish","id":"BY","name":"AG\u6355\u9c7c\u738b"},{"type":"QP","open":1,"exchange":1,"bet":1,"link":1,"shui":"qp","id":"QP","name":"TBK\u68cb\u724c"},{"type":"QP","open":1,"exchange":1,"bet":1,"link":1,"shui":"ky","id":"KY","name":"\u5f00\u5143\u68cb\u724c"},{"type":"QP","open":1,"exchange":1,"bet":1,"link":1,"shui":"le","id":"LE","name":"\u4e50\u6e38\u68cb\u724c"}]}} 
+            });
+            MainJS.init();
+        </script>
+    
+</body></html>

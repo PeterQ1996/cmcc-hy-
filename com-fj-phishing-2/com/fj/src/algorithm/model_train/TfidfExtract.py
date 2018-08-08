@@ -1,9 +1,9 @@
 # _*_ coding=utf-8 _*_
-
+#第四步
 import sys
 import os
 projectPath=os.getcwd()
-# sys.path.append(projectPath)
+sys.path.append(projectPath)
 from sklearn.feature_extraction.text import TfidfVectorizer
 from com.fj.src.algorithm.model_train import ModelRun
 

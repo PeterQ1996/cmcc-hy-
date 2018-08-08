@@ -1,0 +1,290 @@
+<!DOCTYPE html><html><head>
+    <title>红包大作战</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/Public/WebUser/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/Public/WebUser/css/newYear.css">
+    <link rel="stylesheet" href="/Public/layui/css/layui.css">
+    <script src="/Public/zhuanpan/js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Public/WebUser/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Public/WebUser/js/newyear.js"></script><style>html{font-size:100px;}</style>
+<style type="text/css">
+</style><link id="layuicss-skinlayercss" rel="stylesheet" href="http://135cj.com/Public/layui/css/modules/layer/default/layer.css?v=3.0.11110" media="all"><link id="layuicss-http:135cjcomPubliclayuicssmoduleslayermyskinstylecss" rel="stylesheet" href="http://135cj.com/Public/layui/css/modules/layer/myskin/style.css" media="all"></head>
+
+
+<body style="background-image: url(http://135cj.com/Uploads/PrizeImg/5aaa10981babe.png); background-size: cover; font-size: 16px; background-position: 50% 0%; background-repeat: no-repeat no-repeat;">
+    <div class="immDiv">
+        <div class="col-xs-8 col-xs-offset-2 immDivOne" style="text-align: center;"><img class="immBtn" src="/Public/WebUser/images/immBtn.png">
+        </div>
+    </div>
+    <!--     <div class="sendDiv">
+        <div class="col-xs-8 col-xs-offset-2">
+            <input type="text" name="memberId" placeholder="请输入您的会员账号" class="memberId" maxlength="20">
+        </div>
+        <div class="col-xs-8 col-xs-offset-2">
+            <input type="text" name="weixinNum" placeholder="请输入您的微信账号" class="weixinNum">
+        </div>
+        <div class="col-xs-8 col-xs-offset-2">
+            <input type="button" name="send" value="立即发送" class="immSend">
+        </div>
+    </div> -->
+    <div class="immDivDraw col-xs-12">
+        <div class="col-xs-8 col-xs-offset-2" style="text-align: center;">
+            <img class="immBtn1" src="/Public/WebUser/images/immDivlottery.png">
+        </div>
+    </div>
+    <div class="loginDiv">
+        <div class="col-xs-8 col-xs-offset-2">
+            <input type="text" name="memberId" placeholder="请输入您的会员账号" class="memberIdLogin">
+        </div>
+        <div class="col-xs-8 col-xs-offset-2">
+            <input type="text" name="weixinNum" placeholder="请输入您的微信账号" class="weixinNum">
+        </div>
+        <div class="col-xs-8 col-xs-offset-2">
+            <input type="button" name="sendLogin" value="立即参与" class="immSendLogin">
+        </div>
+    </div>
+    <div class="returnDiv col-xs-8 col-xs-offset-2">
+        <p>你的账号正在审核</p>
+    </div>
+    <div class="expect col-xs-8 col-xs-offset-2" style="text-align: center;">
+        <img class="expectBtn" src="/Public/WebUser/images/expect.png">
+    </div>
+    <p id="timer" class="col-xs-8 col-xs-offset-2">
+        </p><p>
+            </p><div class="activityDiv col-xs-12">
+                <div class="activityDivRule ">
+                    <p>活动细则</p>
+                    <p>1、请照上述提示如实填写信息，方便系统进行登记。</p>
+                    <p>2、登记完，即可参与红包大抽奖。</p>
+                    <p>注:参与该活动必须进行发送登记，否则无法参加。</p>
+                </div>
+            </div>
+        <p></p>
+    <p></p>
+    <script type="text/javascript" src="/Public/layui/layui.js"></script>
+    <script type="text/javascript">
+    /*页面点击事件*/
+    $(document).ready(function() {
+        // 倒计时
+        var _ordertimer = null;
+        var data = new Date();
+        /*document.getElementById("date2").value=data.getFullYear()+'-'+(data.getMonth()+1)+'-'+data.getDate()+' '+data.getHours()+':'+data.getMinutes()+':'+data.getSeconds();//*/
+        /*当前时间*/
+        layui.use('layer', function() { //独立版的layer无需执行这一句
+            var $ = layui.jquery,
+                layer = layui.layer;
+        });
+
+        /*   function go() {
+               var v = "2018-1-22 19:42:0";
+               var date1 = new Date(),
+                   data2 = new Date(v);
+               if (data2 < date1) { //设置的时间小于现在时间退出并且跳转到转盘页面
+                   window.location.href = "file:///C:/Users/Administrator/Desktop/zhuanpan/index.html";
+               } else {
+                
+               }
+           }*/
+        /*抽奖请求*/
+
+    });
+    window.onload = function() {
+        layui.use('layer', function() { //独立版的layer无需执行这一句
+            var $ = layui.jquery,
+                layer = layui.layer;
+        });
+        layer.config({
+            extend: 'myskin/style.css', //加载您的扩展样式
+            skin: 'layui-ext-myskin', //同样需要加载新皮肤
+        });
+        $('.immSendLogin').click(function() {
+            var memberIdLogin = $('.memberIdLogin').val();
+            var weixinNumLogin = $('.weixinNum').val();
+            sessionStorage.setItem("memberIdLogin", memberIdLogin);
+            var content;
+            var content1;
+            if (memberIdLogin == null || weixinNumLogin == "") {
+                content = '短信发送不成功，请点击重发按钮重新发送;如果短信没自动填写号码及内容，请您复制以下内容：' + '<br/>' + '<span class="test" style="color:red">' + "您的会员号:" + memberIdLogin + '</span>' + '<br/>' + '<span class="test" style="color:red">' + "您的微信号:" + weixinNumLogin + '</span>' + '<br/>' + '发送到：13130419700';
+                content1 = '已经帮你报名，请点击发送按钮发送短信;如果短信没自动填写号码及内容，请您复制以下内容：' + '<br/>' + '<span class="test" style="color:red">' + "您的会员号:" + memberIdLogin + '</span>'+ '<br/>' + '<span class="test" style="color:red">' + "您的微信号:" + weixinNumLogin + '</span>' + '<br/>' + '发送到：13130419700';
+            } else {
+                content = '短信发送不成功，请点击重发按钮重新发送;如果短信没自动填写号码及内容，请您复制以下内容：' + '<br/>' + '<span class="test" style="color:red">' + "您的会员号:" + memberIdLogin + '</span>' + '<br/>' + '<span class="test" style="color:red">' + "您的微信号:" + weixinNumLogin + '</span>'+ '<br/>' + '发送到：13130419700';
+                content1 = '已经帮你报名，请点击发送按钮发送短信;如果短信没自动填写号码及内容，请您复制以下内容：' + '<br/>' + '<span class="test"style="color:red">' + "您的会员号:" + memberIdLogin + '</span>' + '<br/>' + '<span class="test" style="color:red">' + "您的微信号:" + weixinNumLogin + '</span>'+ '<br/>' + '发送到： 13130419700';
+            }
+            if (memberIdLogin == null || memberIdLogin == '') {
+                layer.open({
+                    title: " ",
+                    skin: 'layui-ext-myskin',
+                    closeBtn: 0,
+                    content: "请输入您的会员账号！",
+                    shadeClose: true,
+                    shade: [0.8, '#000000']
+                });
+            } else {
+                /*AJAX 请求*/
+                $.ajax({
+                    type: "POST",
+                    url: "/index.php/WebUser/check_user",
+                    data: {
+                        memberIdLogin: memberIdLogin
+                    },
+                    dataType: "json",
+                    success: function(data) {
+                        /*data.type==1 表示正在审核*/
+                        /*data.type==2 短信发送不成功*/
+                        /*data.type==0 成功报名并且审核通过*/
+                        if (data == 120) {
+                            $('.returnDiv p').html(data.content);
+                            layer.open({
+                                title: " ",
+                                area: ['8rem', 'auto'],
+                                offset: 'auto',
+                                shadeClose: true,
+                                skin: 'layui-ext-myskin',
+                                shade: [0.6, '#000000'],
+                                content: "您的账号不对，请重新输入",
+                            });
+
+                        } else if (data == 130) {
+                            layer.config({
+                                extend: 'myskin/style.css', //加载您的扩展样式
+                                skin: 'layui-ext-myskin-2', //同样需要加载新皮肤
+                            });
+                            layer.open({
+                                title: " ",
+                                shadeClose: true,
+                                skin: 'layui-ext-myskin-2',
+                                content: content,
+                                shade: [0.6, '#000000'],
+                                btn: ["重发"],
+                                yes: function() {
+                                    //这里需要发送短信到某个地方
+                                   window.location.href = "sms:13130419700?&body=您的会员号：" + memberIdLogin + ",微信号：" + weixinNumLogin + "，点击发送按钮进行报名";
+                                }
+                            });
+                        } else if (data == 140) {
+    
+                            var date1 = new Date(),
+                                data2 = '';
+                            if (data2 < date1) {
+                                layer.config({
+                                    extend: 'myskin/style.css', //加载您的扩展样式
+                                    skin: 'layui-ext-myskin-2', //同样需要加载新皮肤
+                                });
+                                layer.open({
+                                    title: " ",
+                                    shadeClose: true,
+                                    skin: 'layui-ext-myskin-2',
+                                    content: "审核已经通过，是否马上抽奖",
+                                    shade: [0.6, '#000000'],
+                                    btn: ["转盘" /*, "九宫格"*/ ],
+                                    btn1: function() {
+                                        // 跳转到转盘
+                                        window.location.href = "/Index.php/WebUser/turntable/activity_id/10/user_name/" + memberIdLogin;
+                                    }
+                                    // btn2:function(){
+                                    //     // 跳转到九宫格
+                                    //    // window.location.href="/Index.php/WebUser/jiugongge"; 
+                                    //    layer.msg("暂未上线")
+                                    // },
+                                });
+                            } else {
+                                function leftTimer(enddate) {
+                                    var leftTime = (new Date(enddate)) - new Date(); //计算剩余的毫秒数
+                                    var days = parseInt(leftTime / 1000 / 60 / 60 / 24, 10); //计算剩余的天数
+                                    var hours = parseInt(leftTime / 1000 / 60 / 60 % 24, 10); //计算剩余的小时
+                                    var minutes = parseInt(leftTime / 1000 / 60 % 60, 10); //计算剩余的分钟
+                                    var seconds = parseInt(leftTime / 1000 % 60, 10); //计算剩余的秒数
+                                    days = checkTime(days);
+                                    hours = checkTime(hours);
+                                    minutes = checkTime(minutes);
+                                    seconds = checkTime(seconds);
+                                    if (days > 0 || hours > 0 || minutes > 0 || seconds > 0) {
+                                        $('.loginDiv').hide();
+                                        $('.expect').show();
+                                        document.getElementById("timer").innerHTML = "倒计时：" + days + "天" + hours + "小时" + minutes + "分" + seconds + "秒";
+                                    }
+                                    if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
+                                        layer.config({
+                                            extend: 'myskin/style.css', //加载您的扩展样式
+                                            skin: 'layui-ext-myskin-1', //同样需要加载新皮肤
+                                        });
+                                        layer.open({
+                                            title: " ",
+                                            shadeClose: true,
+                                            skin: 'layui-ext-myskin-1',
+                                            content: "开奖时间到。马上抽奖",
+                                            shade: [0.6, '#000000'],
+                                            btn: ["转盘", "九宫格"],
+                                            btn1: function() {
+                                                // 跳转到转盘
+                                                window.location.href = "/Index.php/WebUser/turntable/activity_id/10/user_name/" + memberIdLogin;
+                                            },
+                                            // btn2:function(){
+                                            //     // 跳转到九宫格
+                                            //     window.location.href="/Index.php/WebUser/jiugongge"; 
+                                            // },
+                                        });
+                                    }
+                                }
+
+                                function checkTime(i) { //将0-9的数字前面加上0，例1变为01
+                                    if (i < 10) {
+                                        i = "0" + i;
+                                    }
+                                    return i;
+                                }
+                                _ordertimer = setInterval(function() { leftTimer(data2); }, 1000);
+                                layer.open({
+                                    title: " ",
+                                    shadeClose: true,
+                                    skin: 'layui-ext-myskin',
+                                    content: "审核已经通过，请等开奖时间",
+                                    shade: [0.6, '#000000'],
+                                });
+                                $("#timer").show();
+                            }
+                            // $('.loginDiv').fadeOut(500);
+                            // go();
+                        } else if (data == 110) {
+                            layer.config({
+                                extend: 'myskin/style.css', //加载您的扩展样式
+                                skin: 'layui-ext-myskin-2', //同样需要加载新皮肤
+                            });
+                            layer.open({
+                                title: " ",
+                                shadeClose: true,
+                                skin: 'layui-ext-myskin-2',
+                                area: ['6rem', 'auto'],
+                                content: content1,
+                                btn: ["发送"],
+                                shade: [0.6, '#000000'],
+                                yes: function() {
+                                    window.location.href = "sms:13130419700?&body=您的会员号：" + memberIdLogin + ",微信号：" + weixinNumLogin + "，点击发送按钮进行报名";
+                                }
+                            });
+                        } else if (data == 100) {
+                            layer.open({
+                                title: " ",
+                                skin: 'layui-ext-myskin',
+                                content: "您的账号正在审核，请稍后！",
+                                shade: [0.6, '#000000'],
+                                shadeClose: true,
+                            });
+                        }
+                    }
+                });
+            }
+        });
+        /*报名请求*/
+
+        /*点击抽奖按钮弹出登录框架*/
+        $('.immBtn1').click(function() {
+            $(this).hide();
+            $('.loginDiv').show();
+        });
+
+    };
+    </script>
+
+
+</body></html>

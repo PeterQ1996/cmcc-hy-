@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>吉祥彩票</title>
+<link href="/jiXiangCPLoginWeb/images/CN/jiXiangCP/pc/bitbug_favicon.ico" rel="shortcut icon">
+<script type="text/javascript" src="/jiXiangCPLoginWeb/js/jquery-1.8.3.min.js"></script>
+
+<link type="text/css" href="/jiXiangCPLoginWeb/css/lightbox.css?v=v2.1608230422.897" rel="stylesheet">
+<script src="/jiXiangCPLoginWeb/js/jquery.lightbox.js?v=v2.1608230422.897" type="text/javascript"></script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+	$("#home").addClass("actives");
+	var ind = 0;
+	$('.tabSection .tabBox').hide();
+	$('.tabSection .tabBox').eq(0).show();
+
+	$('.tabSection .tabUl li a').hover(function(){
+		var ind=$(this).parent('li').index();
+		
+		$(this).parent('li').addClass('on').siblings().removeClass('on');
+		$('.tabSection .tabBox').hide();		
+		$('.tabSection .tabBox:eq('+ind+')').show();
+		return false;
+	});	
+	var islogin = false;
+	if (islogin == false) {
+		var isShow = 1;
+		if(isShow == 1){
+			/* base_url = document.location.href.substring(0, document.location.href.indexOf('index.html'), 0); */
+		    
+			$(".lightbox").lightbox({
+			    fitToScreen: true,
+			    imageClickClose: false
+		    });
+			/* $("#dialog_show_img").show(); */
+			
+		}
+		$(function(){$("#lightbox").click();})
+	}
+});
+
+
+</script>
+<script>
+var myArray=new Array();
+
+	myArray["0"] = "https://file.ppbk9.com/img/jxcp/67d7a355-319d-4ce0-a1a3-a64f4650210d.jpg";
+
+	myArray["1"] = "https://file.ppbk9.com/img/jxcp/6ab2fb20-4dd4-4174-9750-81f40774155d.png";
+
+	myArray["2"] = "https://file.ppbk9.com/img/jxcp/f0479b4c-5aef-4c42-8c41-31b91233c7b1.jpg";
+
+	myArray["3"] = "https://file.ppbk9.com/img/jxcp/5d1141ba-1451-4cdd-a78e-c404c07941b4.jpg";
+
+	myArray["4"] = "https://file.ppbk9.com/img/jxcp/b785b223-ad9d-495e-86f8-3dad1ac66f39.png";
+
+$(function(){
+	 $(".mainImg .foo").backstretch(myArray, 
+		{	fade: 750,
+        	duration: 4000
+    });
+	$(".mainImg .foo").on("backstretch.before", function (e, instance, index) {
+		$('.mainImg .foopage a:eq('+index+')').addClass('selected').siblings('a').removeClass('selected');
+	});
+	$('.mainImg .foopage a').click(function(){
+		var index = $(this).index();
+		$(".mainImg .foo").backstretch('show',index);
+		return false;
+	});
+	$('.mainImg .prev a').click(function(){
+		$(".mainImg .foo").backstretch("prev");
+		return false;
+	});
+	$('.mainImg .next a').click(function(){
+		$(".mainImg .foo").backstretch("next");
+		return false;
+	}); 
+	
+		//tab切换
+	var ind = 0;
+	$('.tabSection .tabBox').hide();
+	$('.tabSection .tabBox').eq(0).show();
+
+	$('.tabSection .tabUl li a').hover(function(){
+		var ind=$(this).parent('li').index();
+		$(this).parent('li').addClass('on').siblings().removeClass('on');
+		$('.tabSection .tabBox').hide();		
+		$('.tabSection .tabBox:eq('+ind+')').show();
+		return false;
+	});	
+
+});
+</script>
+</head>
+
+<body id="index">
+<input type="hidden" id="page" value="home">
+<input type="hidden" id="twoOhter" value="idTwo">
+<div id="container"><!-- #BeginLibraryItem "/Library/header.lbi" -->
+
+<script type="text/javascript">
+/* $(document).scroll(function(){
+ 		if($(document).scrollTop()>=100)
+ 		{
+ 			$(".headbottom").fadeIn();
+ 		}
+ 		else
+ 		{
+ 			$(".headbottom").fadeOut();
+ 		}
+}); */
+function img11show(){
+	 if($(".img11").hasClass("hide")){
+		 $(".img11").removeClass("hide");
+	 }
+	
+	 if($(".img12").hasClass("show")){
+	 	$(".img12").removeClass("show");
+	 }
+	 $(".img11").addClass("show");
+	 $(".img12").addClass("hide");
+}
+function img12show(){
+	if($(".img11").hasClass("show")){
+	 $(".img11").removeClass("show");
+	}
+	 
+	 if($(".img12").hasClass("hide")){
+	 $(".img12").removeClass("hide");
+	 }
+	 $(".img11").addClass("hide");
+	 $(".img12").addClass("show");
+}
+function img21show(){
+	if($(".img22").hasClass("show")){
+	 	$(".img22").removeClass("show");
+	 }
+	if($(".img21").hasClass("hide")){
+	 	$(".img21").removeClass("hide");
+	}
+	 $(".img22").addClass("hide");
+	 $(".img21").addClass("show");
+}
+function img22show(){
+	if($(".img21").hasClass("show")){
+	 $(".img21").removeClass("show");
+	}
+	if($(".img22").hasClass("hide")){
+	 $(".img22").removeClass("hide");
+	}
+	 $(".img21").addClass("hide");
+	 $(".img22").addClass("show");
+}
+
+
+</script>
+<input type="hidden" id="page" value="home">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="/jiXiangCPLoginWeb/js/jquery.json-2.3.min.js"></script>
+<script type="text/javascript" src="/jiXiangCPLoginWeb/js/autoNumeric.js"></script>
+<script type="text/javascript" src="/jiXiangCPLoginWeb/language/CN/main.js"></script>
+	
+
+<script type="text/javascript" src="/jiXiangCPLoginWeb/js/commons.js"></script>
+<script src="/jiXiangCPLoginWeb/js/jquery.SuperSlide.2.1.1.js"></script>
+<script src="/jiXiangCPLoginWeb/js/jquery.carouFredSel-6.1.0.js"></script></div></body></html>

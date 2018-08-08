@@ -1,0 +1,887 @@
+<html><head><script src="/assets/tinymce-516b52a4966840392f83df02785cd872de874f68bd49daf34e61468681fcb96c.js"></script>
+<link rel="stylesheet" media="all" href="/assets/pc-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+<script src="/assets/pc-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js"></script>
+
+</head><body><input id="controller_name" type="hidden" value="pc">
+<input id="current_controller_name" type="hidden" value="pc">
+<input id="current_action_name" type="hidden" value="index">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="author" content="小财神计划(641158.com)">
+<meta name="copyright" content="Copyright @641158.com 版权所有">
+<meta name="Keywords" content="小财神彩票计划,彩票计划,时时彩计划,北京赛车计划,PK10计划,重庆时时彩走势图,北京赛车走势图,新时时彩走势图,时时彩走势图,老时时彩走势图,PK10走势图,天津时时彩走势图,安徽快三走势图,11选5走势图">
+<meta name="Description" content="【小财神彩票计划】为您提供近2000期重庆时时彩基本走势图、K线走势图、直方图、遗漏统计、开奖数据、高级走势，主要包括开奖结果走势、号码遗漏、和值走势、位置出号走势图等相关走势，让您最全面了解老时时彩走势图数据。">
+<title>重庆时时彩计划_老时时彩计划_老时时彩计划_彩票计划_北京赛车开奖计划_PK10计划_老时时彩开奖结果_小财神计划_安全全面彩票计划</title>
+<link rel="stylesheet" href="/pc/css/fbUi.css">
+<link rel="stylesheet" href="/pc/css/main.css?v=20180625">
+
+<link rel="stylesheet" href="/css/swiper.min.css">
+<script src="/pc/js/jquery-1.7.2.min.js"></script>
+<script src="/pc/js/fbUi.js"></script>
+<script src="/js/common.min.js?v=20180516"></script>
+<script src="/pc/js/index.min.js?v=20180624"></script>
+<script src="/js/swiper.min.js"></script>
+<link rel="stylesheet" href="/css/user_adv.css">
+<link rel="stylesheet" href="/css/headorfood.css">
+<script src="/js/bootstrap-3.3.0/js/tests/vendor/jquery.min.js"></script>
+<script src="/js/bootstrap-3.3.0/dist/js/bootstrap.min.js"></script>
+
+<!--头部-->
+    <div class="header">
+        <div class="header_title">
+            <div class="w1200">
+                <div class="logo fb-float-left"><a href="/"><img src="/custom/logo_pc.jpg" alt=""></a></div>                
+                <div class="goWeb fb-float-right">
+                    <a>下载APP</a>
+                </div>
+                <div class="goWeb2 fb-float-right">
+                    <a href="http://888.31967777.com:8088/Register/index/6B697CCC44ACB23E97F64D3EFD37BC978862288F162A78CA" target="_blank">平台注册</a> 
+                </div>
+                <div class="goWeb2 fb-float-right">
+                    <a href="https://www.68963.com/" target="_blank">平台登入</a> 
+                </div>
+                <div class="goWeb2 fb-float-right">
+                    <a href="http://tb.53kf.com/code/client/10173417/1" target="_blank">平台客服</a> 
+                </div>
+                <!--<div class="goWeb2 fb-float-right">
+                    <a href="http://tb.53kf.com/code/client/10173417/1" target="_blank">团队客服</a> 
+                </div>-->
+                <div class="codeBox">
+                    <div class="codeItem" style="display: block;">
+                        <img src="/custom/qr_pc.png" alt="">
+                    </div>
+                    <div class="codeItem">
+                        <img src="/custom/qr_pc.png" alt="">
+                    </div>
+                    <div class="code_span">
+                        <span class="active">Android</span>
+                        <span>Ios</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menubannbox heightauto orangeBG">
+	<div class="menubox">
+		<div class="menuboxr">
+			<ul>
+				<li class="nav_li li_checked" id="homepage" style="width:160px;">
+					<a href="/pc">首页</a>
+				</li>
+				<li class="cphost nav_li" id="cphost">
+					<a href="javascript:void(0)">重庆时时彩
+						<img class="cphost_pic1" src="/pc/images/cpdt_white.png?v=20171221828" alt="">
+						<img class="cphost_pic2" src="/pc/images/cpdt_red.png?v=20171221828" alt="" style="display:none;">
+					</a>
+					<div class="cphost_content">
+						<div class="content_middle">
+							<div class="RMC">
+								<div class="LineOne">
+									<ul class="RMC_List">
+										<li>
+											<a class="6hch" href="/pc/sscgw">个位计划</a>
+										</li>
+										<li>
+											<a href="/pc/ssc2">后二直选</a>
+										</li>
+										<li>
+											<a href="/pc/ssc3">后三直选</a>
+										</li>		
+										<li>
+											<a href="/pc/ssc6">后三组六</a>
+										</li>										
+									</ul>
+								</div>
+
+							</div>
+														
+						</div>
+					</div>
+				</li>
+				<li class="zixun_nav nav_li" id="cphostbjsc" style="width:160px;">
+					<a href="/pc/bjsc">北京赛车</a>
+				</li>			
+				<li class="zixun_nav nav_li" id="cphost_shifc" style="width:160px;">
+					<a href="/pc/shifc">韩国十分彩</a>
+				</li>	
+  			<li class="zixun_nav nav_li" id="cphost5" style="width:160px;">
+					<a href="/pc/wfc">韩国五分彩</a>
+				</li>
+				<li class="zixun_nav nav_li" id="cphost3" style="width:160px;">
+					<a href="/pc/sfc">韩国三分彩</a>
+				</li>
+				<li class="zixun_nav nav_li" id="cphost1" style="width:160px;">
+					<a href="/pc/ffc">韩国分分彩</a>
+				</li>				
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+
+<script>
+		//shifc
+		$("#cphost_shifc").on("mouseover", function() {
+			$("#cphost_shifc .cphost_pic1").hide();
+			$("#cphost_shifc .cphost_pic2").show();
+			$("#cphost_shifc .cphost_content").show();
+		});
+		$("#cphost_shifc").on("mouseout", function() {
+			$("#cphost_shifc .cphost_pic1").show();
+			$("#cphost_shifc .cphost_pic2").hide();
+			$("#cphost_shifc .cphost_content").hide();
+		});
+		//cqssc
+		$("#cphost").on("mouseover", function() {
+			$("#cphost .cphost_pic1").hide();
+			$("#cphost .cphost_pic2").show();
+			$("#cphost .cphost_content").show();
+		});
+		$("#cphost").on("mouseout", function() {
+			$("#cphost .cphost_pic1").show();
+			$("#cphost .cphost_pic2").hide();
+			$("#cphost .cphost_content").hide();
+		});
+		//wfc
+		$("#cphost11x5").on("mouseover", function() {
+			$("#cphost11x5 .cphost_pic1").hide();
+			$("#cphost11x5 .cphost_pic2").show();
+			$("#cphost11x5 .cphost_content").show();
+		});
+		$("#cphost11x5").on("mouseout", function() {
+			$("#cphost11x5 .cphost_pic1").show();
+			$("#cphost11x5 .cphost_pic2").hide();
+			$("#cphost11x5 .cphost_content").hide();
+		});
+</script>
+    </div>
+<!--头部 en-->
+    <div class="main fb-clearfix">
+        <div class="w1200">
+            <div class="main_title">
+                <!--<div class="banner fb-float-left">
+                    <img src="/pc/images/banner.gif" alt="">
+                </div>-->
+                <div class="banner fb-float-left swiper-container swiper-container-horizontal">
+                      <div class="swiper-wrapper" style="transform: translate3d(-720px, 0px, 0px); transition: 0ms; -webkit-transition: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 720px;"><img width="100%" src="/custom/banner3.jpg?v=2018060401" alt=""></div>
+                          <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 720px;"><img width="100%" src="/custom/banner1.jpg?v=2018060401" alt=""></div>
+                          <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 720px;"><img width="100%" src="/custom/banner2.jpg?v=2018060401" alt=""></div>
+                          <div class="swiper-slide" data-swiper-slide-index="2" style="width: 720px;"><img width="100%" src="/custom/banner3.jpg?v=2018060401" alt=""></div>
+                      <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 720px;"><img width="100%" src="/custom/banner1.jpg?v=2018060401" alt=""></div></div>
+                      <!-- Add Pagination -->
+                      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+                </div>
+                <div class="news fb-float-right">
+                    <div class="news_title">
+                        <a>新闻公告</a>
+                    </div>
+                    <div class="news_list" id="news_list"><div class="news_item"><a href="/pc/gonggao?showid=59dba0441d41c823e96738b2"><p>新手必看-彩种玩法</p><span>2017-10-10</span></a></div></div>
+                </div>
+            </div>
+            <div class="main_left fb-float-left">
+            	  <!--五分彩-->
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/wfc"><img src="/pc/images/wfc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_wfc"><a href="/pc/wfc">韩国五分彩045期 等开</a></div>
+                            <p>全部251期 </p>
+                            <p id="remain_wfc">当前044期，剩余207期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_wfc">距开奖时间 08:02:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_wfc"><span>1</span><span>3</span><span>4</span><span>6</span><span>7</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_wfc">1倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" id="oldyucediv_wfc" style="display: none;">
+                            <div class="old_con fb-float-left" id="oldyuce_wfc">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                            </div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_wfc">24倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_wfc"><label>044期开奖号码</label><span>4</span><span>3</span><span>4</span><span>1</span><span>4</span></div>
+                    <div class="prize_tongji">
+												<a href="/pc/wfc?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/wfc?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/wfc?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/wfc?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/wfc?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+                <!--五分彩结束-->
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/sscgw"><img src="/pc/images/ssc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_sscgw"><a href="/pc/sscgw">时时彩(个位计划）041期 等开</a></div>
+                            <p>全部120期</p>
+                            <p class="remain_ssc">当前040期，剩余80期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_sscgw">距开奖时间 08:05:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_gewei"><span>0</span><span>1</span><span>2</span><span>6</span><span>7</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_gewei">8倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" id="oldyucediv_gewei">
+                            <div class="old_con fb-float-left" id="oldyuce_gewei"><span>0</span><span>2</span><span>3</span><span>4</span><span>6</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_gewei">648倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_sscgw"><label>040期开奖号码</label><span>8</span><span>6</span><span>4</span><span>7</span><span>9</span></div>
+                    <div class="prize_tongji">
+	                    	<a href="/pc/sscgw?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/sscgw?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/sscgw?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/sscgw?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/sscgw?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/ssc3"><img src="/pc/images/ssc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_hou3"><a href="/pc/ssc3">时时彩(后三直选计划）041期 等开</a></div>
+                            <p>全部120期</p>
+                            <p class="remain_ssc">当前040期，剩余80期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_hou3">距开奖时间 08:05:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_hszx3"><span>0</span><span>1</span><span>2</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span></div>
+                            <div class="new_con fb-float-left" id="yuce_hszx2"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>8</span><span>9</span></div>
+                            <div class="new_con fb-float-left" id="yuce_hszx1"><span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>8</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_hszx">8倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" hidden="" id="oldyucediv_hszx" style="display: none;">
+                            <div class="old_con fb-float-left" id="oldyuce_hszx3">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                                <span>06</span>
+                                <span>07</span>
+                                <span>08</span>
+                            </div>
+                            <div class="old_con fb-float-left" id="oldyuce_hszx2">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                                <span>06</span>
+                                <span>07</span>
+                                <span>08</span>
+                            </div>
+                            <div class="old_con fb-float-left" id="oldyuce_hszx1">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                                <span>06</span>
+                                <span>07</span>
+                                <span>08</span>
+                            </div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_hszx">1092倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_hou3"><label>040期开奖号码</label><span>8</span><span>6</span><span>4</span><span>7</span><span>9</span></div>
+                    <div class="prize_tongji">
+												<a href="/pc/ssc3?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/ssc3?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/ssc3?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/ssc3?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/ssc3?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/bjsc"><img src="/pc/images/pk10.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_bjsc"><a href="/pc/bjsc">北京赛车697216期 等开</a></div>
+                            <p>全部179期 </p>
+                            <p id="remain_bjsc">当前697215期，剩余135期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_bjsc">距开奖时间 07:59:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_bjsc"><span>05</span><span>06</span><span>07</span><span>08</span><span>09</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_bjsc">3倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" id="oldyucediv_bjsc" style="display: none;">
+                            <div class="old_con fb-float-left" id="oldyuce_bjsc">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                                <span>06</span>
+                                <span>07</span>
+                                <span>08</span>
+                                <span>09</span>
+                                <span>10</span>
+                            </div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_bjsc">1倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_bjsc"><label>697215期开奖号码</label><span>04</span><span>08</span><span>06</span><span>02</span><span>05</span><span>09</span><span>03</span><span>10</span><span>07</span><span>01</span></div>
+                    <div class="prize_tongji">
+                    		<a href="/pc/bjsc?pagename=jibenzoushi10">基本走势</a>
+	                    	<a href="/pc/bjsc?pagename=haomatongji10">号码统计</a>
+	                    	<a href="/pc/bjsc?pagename=changlongtixing10">长龙提示</a>
+	                      <a href="/pc/bjsc?pagename=lengrehaoma10">冷热号码</a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="main_right fb-float-right">
+                <!--十分彩-->
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/shifc"><img src="/images/shifc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_shifc"><a href="/pc/shifc">韩国十分彩023期 等开</a></div>
+                            <p>全部126期 </p>
+                            <p id="remain_shifc">当前022期，剩余104期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_shifc">距开奖时间 08:04:45</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_shifc"><span>2</span><span>3</span><span>5</span><span>6</span><span>7</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_shifc">1倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" id="oldyucediv_shifc" style="display: none;">
+                            <div class="old_con fb-float-left" id="oldyuce_shifc">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                            </div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_shifc">24倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_shifc"><label>022期开奖号码</label><span>9</span><span>4</span><span>5</span><span>3</span><span>6</span></div>
+                    <div class="prize_tongji">
+												<a href="/pc/shifc?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/shifc?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/shifc?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/shifc?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/shifc?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+                <!--十分彩结束-->
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/ssc2"><img src="/pc/images/ssc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_hou2"><a href="/pc/ssc2">时时彩(后二直选计划）041期 等开</a></div>
+                            <p>全部120期</p>
+                            <p class="remain_ssc">当前040期，剩余80期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_hou2">距开奖时间 08:05:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_hezx2"><span>2</span><span>3</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span></div>
+                            <div class="new_con fb-float-left" id="yuce_hezx1"><span>0</span><span>1</span><span>3</span><span>4</span><span>5</span><span>8</span><span>9</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_hezx">1倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" hidden="" id="oldyucediv_hezx" style="display: none;">
+                            <div class="old_con fb-float-left" id="oldyuce_hezx2">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                                <span>06</span>
+                                <span>07</span>
+                            </div>
+                            <div class="old_con fb-float-left" id="oldyuce_hezx1">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                                <span>06</span>
+                                <span>07</span>
+                            </div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_hezx">24倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_hou2"><label>040期开奖号码</label><span>8</span><span>6</span><span>4</span><span>7</span><span>9</span></div>
+                    <div class="prize_tongji">
+                    		<a href="/pc/ssc2?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/ssc2?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/ssc2?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/ssc2?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/ssc2?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/ssc6"><img src="/pc/images/ssc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_hou6"><a href="/pc/ssc6">时时彩(后三组六计划）041期 等开</a></div>
+                            <p>全部120期</p>
+                            <p class="remain_ssc">当前040期，剩余80期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_hou6">距开奖时间 08:05:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_hszl"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_hszl">1倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" hidden="" id="oldyucediv_hszl" style="display: none;">
+                            <div class="old_con fb-float-left" id="oldyuce_hszl">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                                <span>06</span>
+                                <span>07</span>
+                                <span>08</span>
+                                <span>09</span>
+                            </div>
+                           
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_hszl">1092倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_hou6"><label>040期开奖号码</label><span>8</span><span>6</span><span>4</span><span>7</span><span>9</span></div>
+                    <div class="prize_tongji">
+                    		<a href="/pc/ssc6?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/ssc6?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/ssc6?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/ssc6?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/ssc6?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/sfc"><img src="/pc/images/sfc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_sfc"><a href="/pc/sfc">韩国三分彩076期 等开</a></div>
+                            <p>全部420期 </p>
+                            <p id="remain_sfc">当前075期，剩余345期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_sfc">距开奖时间 08:02:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_sfc"><span>1</span><span>3</span><span>4</span><span>7</span><span>8</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_sfc">1倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" hidden="" id="oldyucediv_sfc" style="display: block;">
+                            <div class="old_con fb-float-left" id="oldyuce_sfc"><span>3</span><span>5</span><span>7</span><span>8</span><span>9</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_sfc">24倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_sfc"><label>075期开奖号码</label><span>4</span><span>4</span><span>7</span><span>1</span><span>6</span></div>
+                    <div class="prize_tongji">
+                    		<a href="/pc/sfc?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/sfc?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/sfc?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/sfc?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/sfc?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+                <div class="prize_item">
+                    <div class="prize_title fb-clearfix fb-position-relative">
+                        <div class="img fb-float-left"><a href="/pc/ffc"><img src="/pc/images/ffc.png" alt=""></a></div>
+                        <div class="test fb-float-left">
+                            <div class="name" id="nextQishu_ffc"><a href="/pc/ffc">韩国分分彩0226期 等开</a></div>
+                            <p>全部1260期 </p>
+                            <p id="remain_ffc">当前0225期，剩余1035期</p>
+                        </div>
+                        <div class="date fb-position-absolute" id="waitKJtime_ffc">距开奖时间 08:00:25</div>
+                    </div>
+                    <div class="prize_con">
+                        <div class="prize_new fb-clearfix">
+                            <div class="new_con fb-float-left" id="yuce_ffc"><span>1</span><span>6</span><span>7</span><span>8</span><span>9</span></div>
+                            <div class="label fb-float-right">
+                                <label for="">新</label>
+                                <p id="beishu_ffc">3倍</p>
+                            </div>
+                        </div>
+                        <div class="prize_old  fb-clearfix" hidden="" id="oldyucediv_ffc" style="display: none;">
+                            <div class="old_con fb-float-left" id="oldyuce_ffc">
+                                <span>01</span>
+                                <span>02</span>
+                                <span>03</span>
+                                <span>04</span>
+                                <span>05</span>
+                            </div>
+                            <div class="label fb-float-right">
+                                <label for="">老</label>
+                                <p id="oldbeishu_ffc">24倍</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prize_bottom fb-clearfix" id="recentZjhm_ffc"><label>0225期开奖号码</label><span>9</span><span>0</span><span>6</span><span>5</span><span>0</span></div>
+                    <div class="prize_tongji">
+                    		<a href="/pc/ffc?pagename=jibenzoushi">基本走势</a>
+	                    	<a href="/pc/ffc?pagename=haomatongji">号码统计</a>
+	                    	<a href="/pc/ffc?pagename=changlongtixing">长龙提示</a>
+	                      <a href="/pc/ffc?pagename=xingtaizoushi">形态走势</a>
+	                      <a href="/pc/ffc?pagename=lengrehaoma">冷热号码</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fixed_box" style="display: none;">
+        <div class="fixed_item01"><a></a></div>
+        <div class="fixed_item02"><a href="/"></a></div>
+        <div class="fixed_item03"><a href="http://tb.53kf.com/code/client/10173417/1" target="_blank"></a></div>
+    </div>
+    <!--开始导航-->
+    <div class="fixedgoBack">
+				<div class="fix1200 leftright">
+					<!--<div class="wxewmicon" style="display: none;"></div>-->
+					<ul>
+							<li><a class="backold" target="_blank" href="https://www.3196.com"></a></li>
+							<li><a class="wxkefuicon" href="/"></a></li>
+							<li><a class="kefuicon" target="_blank" href="http://tb.53kf.com/code/client/10173417/1"></a></li>
+							<li><span class="fankuicon fankuicon_a" data-toggle="modal" data-target="#myModal"><span class="fankuicons"></span></span></li>
+							<li><a class="topicon" id="gotop" href="javascript:" style="display: none;"></a></li>
+					</ul>
+					</div>
+		</div>
+		<!--结束导航-->
+		<!--模态框-->
+		<div id="user_adv">
+			<div class="modal fade" style="z-index: 999; display: none;" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+				<div class="modal-backdrop fade"></div>
+				<div class="modal-dialog" style="margin: 30px auto;margin-top: 130px;">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="width:24px;height:21px;"><img src="/images/close.png?v=20181261734" alt=""></button>
+							<h4 class="modal-title" id="myModalLabel">在线反馈</h4>
+						</div>
+						<div class="modal-body">
+							<div class="info" id="info1" style="display: block;">
+								<div class="div_top">欢迎对小财神团队提出宝贵的建议或意见</div>
+								<div class="div_middle">
+								<div class="middle_l">
+									<div class="l_div">称呼</div>
+									<div class="r_div"><input type="" placeholder="" class="input_l" id="nickName"></div>
+								</div>
+								<div class="middle_r">
+									<select name="" class="middle_select" id="linkType" style="width: 63px;margin-right: 2px;-webkit-appearance: menulist;">
+										<option value="QQ">QQ</option>
+										<option value="电话">电话</option>
+										<option value="邮箱">邮箱</option>										
+										<option value="微信">微信</option>
+									</select>
+									<input type="text" class="input_r" id="linkNumber" style="vertical-align: top;">
+								</div>
+							</div>
+							<div class="div_down">
+								<textarea name="" rows="" cols="" id="advice" placeholder="请写下您宝贵的意见..."></textarea>
+							</div>
+							<div>
+								<button type="button" class="btn btn_submit" id="btn_submit">提交</button>
+								<button type="button" class="btn btn_submiting" id="btn_submiting">正在提交...</button> 
+							</div>
+						</div><!--info1-->
+						<div class="info" id="info2" style="display: none;">
+							<div class="success_div">
+								<div class="pic"><img src="../../img/tishi.png?v=20181261734" alt=""></div>
+								<div class="success_h">
+									<h1>提交成功</h1>
+									<p>感谢您反馈，我们将尽快做出相应的调整！</p>
+								</div>
+							</div>
+						</div><!--info2-->
+						<div class="info" id="info3" style="display: none;">
+							<div class="success_div">
+								<div class="pic"><img src="../../img/fankuidh.gif?v=20181261734" alt=""></div>
+								<div class="success_h">
+									<h1>您已提交</h1>
+									<p>请您稍适休息，喝杯咖啡，谢谢您的支持！</p>
+								</div>
+							</div>
+						</div><!--info2-->
+					</div> 					
+				</div>
+			</div>
+			</div>
+		</div>
+		<!--结束模态框-->
+<!--banner-->
+
+
+<!--banner end-->
+<div id="fooderbox">
+	<div class="footer1" style="width:100%;height:80px;background: #3f404f;margin-top: 40px; margin:0 auto;">
+		<ul>
+			<!--<li class="lileft">
+				<!--<img src="../../img/logobot.png?v=2017981058">
+				<p>最专业的彩票开奖网站</p>
+				<p>数据分析最全面的开奖数据平台 </p>
+			</li>-->
+			<li class="about_li">
+				<div><span class="about" style="background:url(/images/aboutus.png) no-repeat center;"></span><span class="">关于我们</span></div>
+				<!--<p class="p1">
+					<a href="">关于我们</a>
+				</p>
+				<p>
+					<a href="../about_us/cus_serv.html">客服中心</a>
+				</p>
+				<p>
+					<a href="../about_us/coop_com.html">商务合作</a>
+				</p>
+				<p>
+					<a href="../about_us/disclaimer.html">免责声明</a>
+				</p>-->
+			</li>
+			<li class="about_li">
+				<div><span class="rewards" style="background:url(/images/shenqi.png) no-repeat center;"></span><span class="">中奖神器</span></div>
+				<!--<p class="p1">
+					<a href="../../html/PK10/pk10kai.html">开奖号码</a>
+				</p>
+				<p>
+					<a href="../../html/zoushitb/zoushitb.html">走势图表</a>
+				</p>
+				<p>
+					<a href="../../html/wanfaguize/PK10_wanfaguize.html">玩法规则</a>
+				</p>-->
+				<!--<p>
+								<a href="javascript:void(0)">遗漏数据</a>
+							</p>-->
+			</li>
+			<li class="about_li">
+				<div><span class="call" style="background:url(/images/diaoyong.png) no-repeat center;"></span><span class="">免费调用</span></div>
+				<!--<p class="p1">
+								<a href="javascript:void(0)">彩票开奖联盟</a>
+							</p>-->
+				<!--<p class="p1">
+					<a href="http://168kai.com/" target="_blank">自助网址导航</a>
+				</p>
+				<p>
+					<a href="http://kj.1680210.com/" target="_blank">开奖调用</a>
+				</p>-->
+			</li>
+			<li>
+				<!--<div><img src="../../img/icon/gongzh.png?v=2017981058" alt="" style="width: 100%;"/></div>
+				<p>扫一扫，关注168公众号</p>-->
+			</li>
+		</ul>
+	</div>
+
+	<div class="footer3" style="width: 100%; height: 60px;">
+		<div class="footer3c" style="width:1200px;margin:0 auto;height:60px;line-height:60px;background: #f0f0f0;color: #999;font-size: 12px;text-align: center;">
+			Copyright @www.641158.com rights reserved 小财神计划网 版权所有 ICP号
+
+<script type="text/javascript" src="//js.users.51.la/19429491.js"></script>
+
+
+		</div>
+	</div>
+</div>
+
+
+<script>
+$(".goWeb ").on("click",function(){
+    $(".codeBox").fadeToggle(100)
+})
+$(".codeBox .code_span span").on("click",function(){
+    var i =$(this).index(" .code_span span");
+    $(this).addClass("active").siblings("span").removeClass("active");
+    $(".codeBox .codeItem").eq(i).fadeIn(100).siblings(".codeItem").hide();
+})
+
+$(".fixed_item01").on("click",function(){
+    $('body').animate({
+        "scrollTop":0
+    })
+})
+
+  var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      loop:true,
+      autoplay: 5000
+  });
+/////// beg nav ///////////////////////
+        $(document).scroll(function() {
+					if($(this).scrollTop() > 10) {						
+						$("#gotop").css('display','block'); 
+					} else {
+						$("#gotop").hide();						
+					}
+				})
+				
+				//回到顶部
+				$("#gotop").click(function() {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 500);
+					$(this).hide();
+					return false;
+				});
+				
+				$("#btn_submit").click(function()
+				{
+					strName=$("#nickName").val();
+					strLinkType=$("#linkType").val();
+					strLinkNumber=$("#linkNumber").val();
+					strAdvice=$("#advice").val();
+					if(strName.trim()=="")
+					{
+							alert("请填写您的称呼！");
+							return;
+					}
+					if(strLinkNumber.trim()=="")
+					{
+							alert("请填写您的联系方式！");
+							return;
+					}
+					if(strAdvice.trim()=="")
+					{
+							alert("请填写您的宝贵意见！");
+							return;
+					}
+					var o={nickName:strName, linkType:strLinkType, linkNumber:strLinkNumber, advice:strAdvice};
+					$.ajax({url:"/pc/myadvice", type:"GET",data:o, success:function(e){$('#myModal').modal('hide');} });
+					//requestJson('/pc/myadvice?nickName='+strName+'&playType=gewei', 1, null);
+				})
+/////// end nav /////////////////////////////
+    var mTimer_ssc;
+    var mTimer_wfc;
+    var mTimer_sfc;
+    var mTimer_shifc;
+    var mTimer_ffc;
+    var mTimer_bjsc;
+    /**/
+    var mRecentQishu_ssc="0";
+    var mRecentQishu_wfc="0";
+    var mRecentQishu_sfc="0";
+    var mRecentQishu_shifc="0";
+    var mRecentQishu_ffc="0";
+    var mRecentQishu_bjsc="0";
+    /*wait seconds*/
+    var mWaitSeconds_ssc = 0;
+    var mWaitSeconds_wfc = 0;
+    var mWaitSeconds_sfc = 0;
+    var mWaitSeconds_shifc = 0;
+    var mWaitSeconds_ffc = 0;
+    var mWaitSeconds_bjsc = 0;
+    $(function(){
+        $("#homepage").addClass("li_checked");
+        initData();
+    });
+
+function urlredirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase(); 
+    if ((sUserAgent.match(/(ipod|iphone os|midp|ucweb|android|windows ce|windows mobile)/i))) {
+        // PC跳转移动端
+        var thisUrl = window.location.href;
+        window.location.href = thisUrl.substr(0,thisUrl.lastIndexOf('/')+1)+'wap/';
+         
+    }
+}
+urlredirect();
+
+
+</script>
+<div id="select_modal"></div>
+<script>
+  var scripts = [null, null]
+  $('.page-content-area').ace_ajax('loadScripts', scripts, function() {
+  //inline scripts related to this page
+  });
+  
+  $('a').each(function(){
+    if ($(this).attr('data-href') !== undefined) {
+      var href = $(this).attr('data-href');
+      console.log('application.html.haml---' + href);
+      $(this).attr('data-url', href);
+      $(this).attr('href', '#' + href);
+    }
+  })
+  
+  if("undefined" == typeof gon || "undefined" == typeof gon.searchBar) {
+    $("#nav-search").hide();
+  }
+  else {
+    console.log(gon);
+    $("#nav-search").show();
+    delete gon.searchBar;
+  }
+  
+  //jquery 初始化函数
+  $(function(){
+      //添加表单提交按钮重复提交雁阵
+      $("input[type='submit']").attr('data-disable-with',"Please wait...");
+      $(".no_repeat_submit").attr('data-disable-with',"Please wait...");
+  
+  });
+</script>
+</body></html>

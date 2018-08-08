@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head>
+	<title>乐橙 · 欢乐驿站</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+
+</head>
+<body>
+
+	<center>
+		<div style="background:orange;color:white;width:50%;height:300px;margin-top:10%;border-radius:20px;padding-top:100px;">
+		<h2 style="">乐橙 · 欢乐驿站</h2>
+		<div>www.999LC.com</div>
+		<a href="https://www.999lc.com/" style="text-decoration: none;color:white;"><div style="margin-top:20px;border:1px white solid;width:100px"> <span id="clock">3</span> 秒后进入	</div></a>
+		</div>
+	<center>
+
+
+
+<script>
+	var c=setInterval(function(){
+		var num=parseInt($('#clock').html());
+		if(num==1){
+			clearInterval(c)
+			window.location="https://www.999lc.com/"
+		}	
+		
+		$('#clock').html(num-1);
+		
+			
+	},1000)
+</script>
+</center></center></body></html>

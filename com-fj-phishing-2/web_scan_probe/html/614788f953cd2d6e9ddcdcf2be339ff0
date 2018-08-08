@@ -1,0 +1,639 @@
+<!DOCTYPE html><html style="font-size: 7.5px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>全网通4G+大屏智能手机</title>
+<meta name="description" content="全网通4G+大屏智能手机">
+<meta name="keywords" content="全网通4G+大屏智能手机">
+<style type="text/css">
+*{margin:0;padding:0;}
+.wrap{ max-width:750px; min-width:320px;margin:0 auto;background:#ddd;color:#000;padding-bottom:25px;}
+.wrap div img{display:block;}
+.retime{position:relative;}
+#timer .n{position:absolute;top:48%;font-size:10rem;font-weight:bold;}
+#timer .n1{left:9%;}
+#timer .n2{left:31%;}
+#timer .n3{left:53%;}
+#timer .n4{left:75%;}
+.bot-fix-nav{position:fixed;bottom:0;left:0;width:100%;height:48px;background:#EE3300;list-style:none;z-index:9999}
+.bot-fix-nav li{float:left;width:33.3%;border-left:1px #f60 solid;box-sizing:border-box;}
+.bot-fix-nav li:first-child{border-left:0;}
+.bot-fix-nav li a{display:block;line-height:48px;color:#fff;font-size:2.2rem;text-align:center;text-decoration:none;}
+.bot-fix-nav li a img{height:40px;vertical-align:middle;margin-top:-2px}
+@media only screen and (max-width: 750px) {
+.wrap{width:100%;}
+.wrap div img{width:100%;height:auto;}
+#timer .n{font-size:9.5rem;}
+.bot-fix-nav li a{font-size:3.8rem;}
+}
+</style>
+ <style type="text/css">
+        .top {
+            height: 60px;
+             background-color:#6d1730;
+        }
+
+            .top h1 {
+                width: 40px;
+                height: 40px;
+                float: left;
+                margin: 10px 5px 0px 0px;
+            }
+
+            .top img {
+                width: 100%;
+                vertical-align: top;
+            }
+
+            .top dl {
+                float: left;
+            }
+
+                .top dl dt {
+                    height: 18px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                    color: #fff;
+                    line-height: 16px;
+                    font-weight: bold;
+                }
+
+                .top dl dd li {
+                    height: 18px;
+                    float: left;
+                    background: #C6091D;
+                    color: #FFF;
+                    padding: 0px 5px;
+                    line-height: 18px;
+                    font-size: 12px;
+                }
+
+                .top .dl {
+                float: left;
+            }
+
+                .top .dd {
+                    height: 18px;
+                    margin-top: 10px;
+                    font-size: 15px;
+                    color: #fff;
+                    line-height: 16px;
+                    font-weight: bold;
+                }
+
+                .top li {
+                    height: 18px;
+                    float: left;
+                    background: #C6091D;
+                    color: #FFF;
+                    padding: 0px 5px;
+                    line-height: 18px;
+                    font-size: 12px;
+                }
+
+        .marright5 {
+            margin-right: 5px;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+    </style>
+
+</head>
+<body>
+<!--
+<script type="text/javascript">  
+    //平台、设备和操作系统  
+    var system ={  
+        win : false,  
+        mac : false,  
+        xll : false  
+    };  
+    //检测平台  
+    var p = navigator.platform;  
+    /**var sUserAgent = navigator.userAgent.toLowerCase(); 
+    alert(sUserAgent);*/  
+    system.win = p.indexOf("Win") == 0;  
+    system.mac = p.indexOf("Mac") == 0;  
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);  
+    //跳转语句  
+    if(system.win||system.mac||system.xll){//转向后台登陆页面  
+        window.location.href="pc/index.html";  
+    }else{  
+        window.location.href="#";  
+    }  
+</script>
+-->
+ <div id="wrap" class="wrap">
+        <div class="top">
+	<h1>
+		<img src="images/dian.jpg"> 
+	</h1>
+	<div class="dl">
+		<div class="dd">
+			<a href="" id="clickMe" target="_parent">.</a>数码商城旗舰店
+		</div>
+		<div>
+			<li class="marright5">
+				正品保证
+			</li>
+			<li class="marright5">
+				货到付款
+			</li>
+			<li>
+				7天退货+30天换货+3年保修
+			</li>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<a name="sy">
+
+	 
+	<div><img src="https://img.alicdn.com/imgextra/i3/685379579/TB2VbvjiDdYBeNkSmLyXXXfnVXa_!!685379579.jpg" alt=" img.jpg"></div>
+	<div class="retime"><img src="images/TB2IO6xXPTlJKJjSszbXXXS1FXa_!!366516626.jpg"><div id="timer"><span class="n n1">19</span><span class="n n2">06</span><span class="n n3">53</span><span class="n n4">84</span></div></div>
+	<script async="" src="js/analytics.js"></script><script>
+		//根字号
+		function fsrem(){
+			document.getElementsByTagName("html")[0].style.fontSize = document.getElementById("wrap").offsetWidth/100+"px";
+		}
+		fsrem();
+		window.onresize = function(){
+			fsrem();
+		}
+		//倒计时
+		function show_retime(){
+			window.setTimeout("show_retime()", 1); 
+			var ObjDay=new Date("2100-12-31 00:00:00".replace(/-/g,'/'));//设置时间以24小时倒计时循环，可忽略日期
+			today=new Date(); 
+			timeold=(ObjDay.getTime()-today.getTime()); 
+			sectimeold=timeold/1000 
+			secondsold=Math.floor(sectimeold); 
+			msPerDay=24*60*60*1000 
+			e_daysold=timeold/msPerDay 
+			daysold=Math.floor(e_daysold); 
+			e_hrsold=(e_daysold-daysold)*24; 
+			hrsold=Math.floor(e_hrsold); 
+			e_minsold=(e_hrsold-hrsold)*60;
+			minsold=Math.floor((e_hrsold-hrsold)*60); 
+			e_seconds = (e_minsold-minsold)*60;
+			seconds=Math.floor((e_minsold-minsold)*60); 
+			ms = e_seconds-seconds;
+			ms = new String(ms)
+			ms = ms.substr(2,2);
+			document.getElementById("timer").innerHTML = "<span class='n n1'>"+(hrsold<10?'0'+hrsold:hrsold)+"</span><span class='n n2'>"+(minsold<10?'0'+minsold:minsold)+"</span><span class='n n3'>"+(seconds<10?'0'+seconds:seconds)+"</span><span class='n n4'>"+ms+"</span>";
+		} 
+		show_retime();
+	</script>
+<div><img src="https://img.alicdn.com/imgextra/i1/685379579/TB2f8AScHsrBKNjSZFpXXcXhFXa_!!685379579.jpg" alt=" images_01.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB252QSkASWBuNjSszdXXbeSpXa_!!685379579.gif" alt=" TB2A79Mo2DH8KJjy1XcXXcpdXXa_!!685379579.gif">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2R_igoACWBuNjy0FaXXXUlXXa_!!685379579.jpg" alt=" img_03.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2mhFqoxSYBuNjSsphXXbGvVXa_!!685379579.jpg" alt=" img_04.jpg">
+<img src="https://img.alicdn.com/imgextra/i1/685379579/TB2qIFCoruWBuNjSszgXXb8jVXa_!!685379579.jpg" alt=" img_02.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2DlKAox9YBuNjy0FfXXXIsVXa_!!685379579.jpg" alt=" img_37.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2PV0_ouuSBuNjSsziXXbq8pXa_!!685379579.jpg" alt=" img_38.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2wTBlowaTBuNjSszfXXXgfpXa_!!685379579.jpg" alt=" img_05.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2Pq9iov1TBuNjy0FjXXajyXXa_!!685379579.jpg" alt=" img_06.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2JglRouSSBuNjy0FlXXbBpVXa_!!685379579.jpg" alt=" img_07.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2DytPfljTBKNjSZFuXXb0HFXa_!!685379579.jpg" alt=" img_07_1.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2NKcqf5CYBuNkHFCcXXcHtVXa_!!685379579.jpg" alt=" img_08.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2MxICf3KTBuNkSne1XXaJoXXa_!!685379579.jpg" alt=" img_09.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB29ktZouGSBuNjSspbXXciipXa_!!685379579.jpg" alt=" img_10.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2q4MpeoOWBKNjSZKzXXXfWFXa_!!685379579.jpg" alt=" img_11.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB20nTboCtYBeNjSspkXXbU8VXa_!!685379579.jpg" alt=" img_12.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB29jiTg8jTBKNjSZFDXXbVgVXa_!!685379579.jpg" alt=" img_12_1.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2cgBRouSSBuNjy0FlXXbBpVXa_!!685379579.jpg" alt=" img_13.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2ahNHopuWBuNjSszbXXcS7FXa_!!685379579.jpg" alt=" img_14.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2i1sqf5CYBuNkHFCcXXcHtVXa_!!685379579.jpg" alt=" img_15.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2RaU5f_XYBeNkHFrdXXciuVXa_!!685379579.jpg" alt=" img_16.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2uJN7or5YBuNjSspoXXbeNFXa_!!685379579.jpg" alt=" img_17.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2irOooER1BeNjy0FmXXb0wVXa_!!685379579.jpg" alt=" img_18.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2PW35f_XYBeNkHFrdXXciuVXa_!!685379579.jpg" alt=" img_19.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2NmSBxxSYBuNjSsphXXbGvVXa_!!685379579.jpg" alt=" img_19_1.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2VxFOov5TBuNjSspcXXbnGFXa_!!685379579.jpg" alt=" img_20.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2yFuDoxGYBuNjy0FnXXX5lpXa_!!685379579.jpg" alt=" img_21.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2q9EDf2uSBuNkHFqDXXXfhVXa_!!685379579.jpg" alt=" img_22.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB28qhFoqSWBuNjSsrbXXa0mVXa_!!685379579.jpg" alt=" img_23.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2yalFoqSWBuNjSsrbXXa0mVXa_!!685379579.jpg" alt=" img_24.jpg">
+<img src="https://img.alicdn.com/imgextra/i1/685379579/TB2Yh5koASWBuNjSszdXXbeSpXa_!!685379579.jpg" alt=" img_25.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2AhFopCBYBeNjy0FeXXbnmFXa_!!685379579.jpg" alt=" img_25-1.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2br9ooER1BeNjy0FmXXb0wVXa_!!685379579.jpg" alt=" img_26.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2X.plowaTBuNjSszfXXXgfpXa_!!685379579.jpg" alt=" img_27.jpg">
+<img src="https://img.alicdn.com/imgextra/i1/685379579/TB283l2ouOSBuNjy0FdXXbDnVXa_!!685379579.jpg" alt=" img_28.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2H3RXopmWBuNjSspdXXbugXXa_!!685379579.jpg" alt=" img_29.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2SrceoDtYBeNjy1XdXXXXyVXa_!!685379579.jpg" alt=" img_30.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2CAqVoDlYBeNjSszcXXbwhFXa_!!685379579.jpg" alt=" img_31.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB25OXforSYBuNjSspiXXXNzpXa_!!685379579.jpg" alt=" img_32.jpg">
+<img src="https://img.alicdn.com/imgextra/i1/685379579/TB2yR.yfZuYBuNkSmRyXXcA3pXa_!!685379579.jpg" alt=" img_33.jpg">
+<img src="https://img.alicdn.com/imgextra/i1/685379579/TB2EMZqf2iSBuNkSnhJXXbDcpXa_!!685379579.jpg" alt=" img_34.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2uyICf3KTBuNkSne1XXaJoXXa_!!685379579.jpg" alt=" img_35.jpg">
+<img src="https://img.alicdn.com/imgextra/i2/685379579/TB2BrE5f_XYBeNkHFrdXXciuVXa_!!685379579.jpg" alt=" img_36.jpg">
+<img src="https://img.alicdn.com/imgextra/i4/685379579/TB2DlKAox9YBuNjy0FfXXXIsVXa_!!685379579.jpg" alt=" img_37.jpg">
+<img src="https://img.alicdn.com/imgextra/i3/685379579/TB2PV0_ouuSBuNjSsziXXbq8pXa_!!685379579.jpg" alt=" img_38.jpg">
+<img src="https://img.alicdn.com/imgextra/i1/685379579/TB2qIFCoruWBuNjSszgXXb8jVXa_!!685379579.jpg" alt=" img_02.jpg"></div>
+	</a><div><a name="sy">
+	</a><a name="ordering">
+	<iframe id="aliziIframe" name="aliziIframe" src="http://wap.bjsdcm.cn/index.php?m=Order&amp;id=MB0001&amp;uid=1&amp;gzid=MB1" width="100%" height="1260px" scrolling="no" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe>
+	</a>
+    </div><a name="ordering">
+        <div><img src="images/TB2tJDUXDzGK1JjSspmXXaq7pXa_!!366516626.jpg"></div>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	</a><a name="pj">
+	<script src="js/pl.js"></script><style>
+.yh1_plc { overflow: hidden; zoom: 1; padding: 1rem 0rem;background:#fff}
+.yh1_plc ul{list-style:none;padding:0 1rem}
+.yh1_plc ul li { margin-top: 1.5rem; padding-bottom: 1.2rem; border-bottom: #d7d7d7 0.1rem solid; overflow: hidden; zoom: 1; }
+.yh1_plc ul li dl {float: left; width: 5rem; height: 5rem; margin-right: 1rem;}
+.yh1_plc ul li dl dt img {max-width:100%;border-radius: 0.6rem; }
+.autohei {overflow:hidden}
+.yh1_plc ul li p { color: #303030; font-size: 3.8rem; line-height: 1.5; word-wrap: break-word; padding-top:4px;}
+.yh1_plc ul li h2 {color: #aaa; font-size: 4rem; line-height:1.8;padding:2px 0 2px 5px;background: #EEE9E6;}
+.yh1_plc ul li h2:before { content: "▼"; color: #948157;}
+.yh1_plc ul li h2 span { color: #2B8CE6; }
+.yh1_plc ul li h3 {padding-right: 3rem; line-height: 2.2rem;color: #999; padding-top: 0.4rem;font-weight:normal}
+.yh1_plc ul li h3 span {font-size: 3.5rem;}
+.yh1_plbtn { cursor: pointer; background: #fcfcfc; line-height: 2.2; display: block; border: 0.1rem solid #dcdcdc; margin-top: 1.5rem; margin-bottom: 1rem; text-align: center; border-radius: 0.3rem; font-size:4rem; color: #f60; }
+.yh1_plbtn span{font-size:2rem;}
+</style>
+            <div class="yh1_plc">
+                <ul>
+                    <li style="display: list-item;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i3/366516626/TB2WoLoXe2CK1JjSZFMXXbVPpXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>悠悠</span> (游客)</h2>
+                            <p>收到这部手机真是惊喜，内存够大反应也很灵敏，颜值也很高，感觉比一直用的苹果6p还要好，快递也很快一天就到了</p>
+                            <h3><span id="date18"><script>getdates(0);</script>2018.8.7
+</span>&nbsp;<span> 16:35</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i3/366516626/TB22SLrXhHBK1JjSZFpXXamrXXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/2.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>Ami</span> (游客)</h2>
+                            <p>像素清晰，屏幕美观 运行速度快，打王者荣耀耀一点不卡 拍照清晰 电池续航: 我买这个主要是打王者荣耀，非常流畅，899元买到这样的手机特别值</p>
+                            <h3><span id="date4"><script>getdates(0);</script>2018.8.7
+</span>&nbsp;<span> 16:20</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2aJPlXo6EK1JjSZFDXXcIqFXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/3.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>布川袜子</span> (游客)</h2>
+                            <p>其实暂时不需首先手机不会出现卡顿的现象，电池也很耐用，在就是拍出来的照片像素很高，高清的，喜欢的不得了，很适合女士哦，想要的赶快行动吧！</p>
+                            <h3><span id="date12"><script>getdates(1);</script>2018.8.6
+</span>&nbsp;<span> 16:18</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i3/366516626/TB2UKrpXeYCK1JjSZFmXXbCyVXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/4.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>俏佳人—小宝</span> (游客)</h2>
+                            <p>非常实用的一款手机，充电速度杠杠滴，5.5寸大屏幕像素也很好，拍照跟清晰，充电也很快哦，总之很满意下次有需要还会再来</p>
+                            <h3><span id="date13"><script>getdates(1);</script>2018.8.6
+</span>&nbsp;<span> 16:15</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i4/366516626/TB22GbsXhDBK1JjSZFlXXcpCVXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/5.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>栀子花</span> (游客)</h2>
+                            <p>非常实用的一款手机，充电速度杠杠的，5.5大屏蔽像素功能非常强大，拍的照片很是清晰，待机时间也长，五分钟就充满电了。</p>
+                            <h3><span id="date1"><script>getdates(2);</script>2018.8.5
+</span>&nbsp;<span> 16:11</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2DqzrXhHBK1JjSZFkXXbg9VXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/6.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>会吐泡泡的鱼</span> (游客)</h2>
+                            <p>说实话第一次用这款手机，收到货挺激动的当下就迫不及待的拆开包裹了，包装精美一看就是专业打包的。 像素非常高，本人爱自拍所以说这款手机非常适合我。</p>
+                            <h3><span id="date17"><script>getdates(2);</script>2018.8.5
+</span>&nbsp;<span> 16:08</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2a0zpXe2CK1JjSZFsXXX6AVXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/7.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>炊烟宝宝</span> (游客)</h2>
+                            <p>拍照效果真的很好！色彩艳丽，照片清晰。电池容量大。充一次电能用两天半。闪充一个多小时就充好了。外观也漂亮，很薄，很时尚，又灵敏。非常满意的一次购物。</p>
+                            <h3><span id="date23"><script>getdates(3);</script>2018.8.4
+</span>&nbsp;<span> 16:00</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB24DnqXhDBK1JjSZFhXXXFFFXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/8.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>流浪猫</span> (游客)</h2>
+                            <p>忘记拍照了，还担心在网上买会有假货，原来真真真的！很满意这次购物，虽然是分期的，可是还是觉得很好，速度快，像素也很好</p>
+                            <h3><span id="date22"><script>getdates(3);</script>2018.8.4
+</span>&nbsp;<span> 15:58</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2upzmXdHEK1JjSZFGXXcjVFXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/9.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>木木</span> (游客)</h2>
+                           <p>手机用着很好，外形漂亮，不卡，是正品，流畅，屏幕清晰，电话特别轻，像素好</p>
+                            <h3><span id="date21"><script>getdates(4);</script>2018.8.3
+</span>&nbsp;<span> 15:56</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i4/366516626/TB2taPqXe2CK1JjSZFwXXcoGXXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/10.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>冬日暖阳</span> (游客)</h2>
+                            <p>收到货很多天了，使用情况很好，客服涵涵态度很好，充电速度很快，没有卡顿情况，照相画面很清晰，玩游戏手机也不烫手，这个价格已经非常棒了，值得推荐！</p>
+                            <h3><span id="date20"><script>getdates(4);</script>2018.8.3
+</span>&nbsp;<span> 15:55</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2e2KrXcrHK1JjSspdXXXNFpXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/11.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>锦衣卫</span> (游客)</h2>
+                         <p>买给女朋友的，她很喜欢，颜色也挺喜欢的。配置方面都还算可以，就是屏幕有点大，5.5的屏，虽然不是我用，觉得还是有点大了</p>
+                            <h3><span id="date19"><script>getdates(5);</script>2018.8.2
+</span>&nbsp;<span> 15:40</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i3/366516626/TB2XffqXhHBK1JjSZFuXXXRSpXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/12.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>小烟</span> (游客)</h2>
+                            <p>整体感觉很好，像素尤佳，这个价位的性能已经完全满足自拍发烧友的需求，客服满满的态度很好，服务狠专业，推荐的机型满意！。</p>
+                            <h3><span id="date16"><script>getdates(5);</script>2018.8.2
+</span>&nbsp;<span> 15:30</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2U8npXe2CK1JjSZFIXXa3OpXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/13.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>燕子</span> (游客)</h2>
+                            <p>好快，本来以为要等个几天，前天半夜下单昨天下午就收到了，原装壳配黑色手机完美，用了一天觉得很流畅！</p>
+                            <h3><span id="date15"><script>getdates(6);</script>2018.8.1
+</span>&nbsp;<span> 15:21</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2wWzlXnPEK1JjSZFAXXbZuXXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/14.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>王艳</span> (游客)</h2>
+                            <p>手机也是相当满意，外型漂亮炫酷。操作与反应速度也是相当的顺畅</p>
+                            <h3><span id="date14"><script>getdates(6);</script>2018.8.1
+</span>&nbsp;<span> 15:17</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2NVSrXf_HK1JjSszgXXazDFXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/15.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>溺水的鱼</span> (游客)</h2>
+                            <p>非常实用的一款手机，充电速度杠杠滴，5.5寸的大屏幕像素也很好，拍照跟清晰，充电也很快哦，总之很满意下次有需要还会再来</p>
+                            <h3><span id="date11"><script>getdates(7);</script>2018.8.0
+</span>&nbsp;<span> 14:52</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2SUSsXo6FK1Jjy1XcXXbDEXXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/16.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>小精灵</span> (游客)</h2>
+                            <p>很喜欢 一直用苹果来着 一直想换终于换了 就是好几年没有用过安卓系统有点生 但是 照相真心不错呀 喜欢喜欢嘻嘻 还送了很多礼物。</p>
+                            <h3><span id="date10"><script>getdates(7);</script>2018.8.0
+</span>&nbsp;<span>14:42 </span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2gUSsXo6FK1Jjy1XcXXbDEXXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/17.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>小夏</span> (游客)</h2>
+                            <p>机身漂亮，手感很好，像素很棒？美观美丽，服务很棒。之前一直非常喜欢，想了好久才入手。相信会给我带来更多的惊喜，愉快啦！</p>
+                            <h3><span id="date2"><script>getdates(8);</script>2018.7.30
+</span>&nbsp;<span> 14:14</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2vd1sXgvGK1Jjy0FdXXaxzVXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/18.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>水果糖</span> (游客)</h2>
+                            <p>我想要的，屏大，冲一次电可用很久，待机的情况下估计要三天，反应也挺快！一直想要一款拍照手机！个人感觉外放声音音质一般，最大音有点吵的感觉</p>
+                            <h3><span id="date3"><script>getdates(8);</script>2018.7.30
+</span>&nbsp;<span> 13:52</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2SzmsXo6FK1Jjy0FpXXbFqVXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/19.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>欣欣</span> (游客)</h2>
+                            <p>呵呵，儿子看到都很激动，宝贝做工很精致，容易上手，调试了一下，不错，看远处也能够很清晰</p>
+                            <h3><span id="date5"><script>getdates(9);</script>2018.7.29
+</span>&nbsp;<span> 12:33</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2HW5rXf_HK1JjSszfXXc1pVXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/20.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>小公主</span> (游客)</h2>
+                            <p>机拿在手里的触感很不错哦，反应也蛮快的，粉色好好看呀，满足了我的少女心，哈哈哈哈！</p>
+                            <h3><span id="date6"><script>getdates(9);</script>2018.7.29
+</span>&nbsp;<span> 12:21</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i3/366516626/TB2XCKsXo6FK1Jjy1XbXXXovXXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/21.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>一根筋</span> (游客)</h2>
+                            <p>特意用了几天才来评价，性能还不错，玩王者荣耀一点也不发热，超级顺…电池也很耐用，很不错的一款国产机</p>
+                            <h3><span id="date7"><script>getdates(10);</script>2018.7.28
+</span>&nbsp;<span> 11:42</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i4/366516626/TB2GE1sXo6FK1Jjy1XcXXbDEXXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/22.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>宁静夏天</span> (游客)</h2>
+                            <p>首先手机不会出现卡顿的现象，电池也很耐用，在就是拍出来的照片真的美到爆啊，喜欢的不得了，很适合女士哦，想要的赶快行动吧！</p>
+                            <h3><span id="date8"><script>getdates(10);</script>2018.7.28
+</span>&nbsp;<span> 11:16</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2Rd5rXgfHK1Jjy1zbXXahRFXa_!!366516626.jpg" *tpa="http://jgsz.ordronet.com/bgswyj/images/images/23.png*/"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>萍萍</span> (游客)</h2>
+                            <p>收到这部手机真是惊喜，内存够大反应也很灵敏，颜值也很高，感觉比一直用的苹果6p还要好，快递也很快一天就到了，最主要价格很美丽还可以分期，赞</p>
+                            <h3><span id="date9"><script>getdates(11);</script>2018.7.27
+</span>&nbsp;<span> 10:32</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2rG5jXcrHK1JjSszeXXcuMFXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>谢可</span> (游客)</h2>
+                            <p>我自己用的红色的黑老公买黑色的质量非常好，与卖家描述的完全一致，非常满意,真的很喜欢，完全超出期望值，发货速度非常快，包装非常仔细、严实，物流公司服务态度很好，主要卖家送了不少礼品。很满意的一次购物</p>
+                            <h3><span id="date9"><script>getdates(11);</script>2018.7.27
+</span>&nbsp;<span> 09:20</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2oi2cXe2CK1JjSZFIXXa3OpXa_!!366516626.jpg" <="" dt="">
+                        </dt></dl>
+                        <div class="autohei">
+                            <h2><span>紫蔷薇</span> (游客)</h2>
+                            <p>我一般是用了一段时间才会评价的，这款手机确实不错，以前一直都是用华为的，我想说的是，除了品牌之外，性能、外观不必中兴、华为差。玩王者荣耀、微信一点都不卡。外观还大气上档次。</p>
+                            <h3><span id="date9"><script>getdates(12);</script>2018.7.26
+</span>&nbsp;<span> 12:02</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i4/366516626/TB2jdrdXhHBK1JjSZFuXXXRSpXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>泥里花</span> (游客)</h2>
+                            <p>用了几天了感觉手机很好，外观精致，处理器反应速度快，分辨率很高，各方面感觉比之前其它品牌手机都要好，一千多的手机也不定有这款手机好，打游戏什么都是很OK的，这个价格绝对值，还有服务态度也是蛮好的。</p>
+                            <h3><span id="date9"><script>getdates(12);</script>2018.7.26
+</span>&nbsp;<span> 15:38</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB278HXXmrDK1JjSZFLXXbk4FXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>晓莲</span> (游客)</h2>
+                            <p>物流超级快，两天就到了，宝贝回来赶紧拆开看看，这是我第一次在网上面买手机，开始都不敢买，硬着头皮买了回来一看大爱，正品绝对的值，卖家还送了好多东西。手机像素好的没话说，反应也超快，没有下手的宝宝们可以放心购买。宝贝绝对的好！</p>
+                            <h3><span id="date9"><script>getdates(13);</script>2018.7.25
+</span>&nbsp;<span> 14:26</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i2/366516626/TB2WyakXo6FK1Jjy1XaXXbafpXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>Minicool</span> (游客)</h2>
+                            <p>像素清晰，屏幕美观 运行速度快，打王者荣耀耀一点不卡 拍照清晰 电池续航: 打游戏能坚持一个多小时 我买这个主要是打王者荣耀，这款手机玩起来一点也不差</p>
+                            <h3><span id="date9"><script>getdates(13);</script>2018.7.25
+</span>&nbsp;<span> 10:03</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i1/366516626/TB2PdajXcrHK1JjSspeXXcOEXXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>杰仔妈</span> (游客)</h2>
+                            <p>手机收到了，真的非常的好。这是我第一次在网上买电子产品，本来还是有点担心的，但手机拿到以后我试用了一段时间真的没有任何问题，完全超出预期，凭着自己的良心给卖家做的评价。</p>
+                            <h3><span id="date9"><script>getdates(14);</script>2018.7.24
+</span>&nbsp;<span> 12:59</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i4/366516626/TB20_CiXf_HK1JjSsziXXagrVXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>冬儿</span> (游客)</h2>
+                            <p>用了一段时间了，总体来说就俩字。好用！黑色外观最好看，没有黑边屏幕浑然一体，配置均衡，手感比外观更薄，系统流畅好用。低发热，续航时间长，拍照天下无敌，对于一部手机来说，这些就够了。</p>
+                            <h3><span id="date9"><script>getdates(14);</script>2018.7.24
+</span>&nbsp;<span> 13:48</span></h3>
+                        </div>
+                    </li>
+                    <li style="display: none;">
+                        <dl>
+                            <dt><img src="https://img.alicdn.com/imgextra/i3/366516626/TB2S2ujXnzGK1JjSsplXXbdspXa_!!366516626.jpg"></dt>
+                        </dl>
+                        <div class="autohei">
+                            <h2><span>密嘴</span> (游客)</h2>
+                            <p>颜色靓，够薄够大屏，操作很简单，颠覆了我对国产安卓机的不好印象，2000万像素杠杠滴。送的手机壳虽然套起来更厚了，没有裸机手感好，但是壳的质量绝对秒杀其他淘宝货。</p>
+                            <h3><span id="date9"><script>getdates(15);</script>2018.7.23
+</span>&nbsp;<span> 17:04</span></h3>
+                        </div>
+                    </li>
+                </ul>
+                <div class="yh1_plbtn">查看更多评论<span>▼</span></div>
+            </div>
+            <script type="text/javascript">showall('.yh1_plc ul li','.yh1_plbtn',5,3)</script>
+<style>
+.yh1_plc { overflow: hidden; zoom: 1; padding: 1rem 0rem;background:#fff}
+.yh1_plc ul{list-style:none;padding:0 1rem}
+.yh1_plc ul li { margin-top: 1.5rem; padding-bottom: 1.2rem; border-bottom: #d7d7d7 0.1rem solid; overflow: hidden; zoom: 1; }
+.yh1_plc ul li dl {float: left; width: 5rem; height: 5rem; margin-right: 1rem;}
+.yh1_plc ul li dl dt img {max-width:100%;border-radius: 0.6rem; }
+.autohei {overflow:hidden}
+.yh1_plc ul li p { color: #303030; font-size: 3.8rem; line-height: 1.5; word-wrap: break-word; padding-top:4px;}
+.yh1_plc ul li h2 {color: #aaa; font-size: 4rem; line-height:1.8;padding:2px 0 2px 5px;background: #EEE9E6;}
+.yh1_plc ul li h2:before { content: "▼"; color: #948157;}
+.yh1_plc ul li h2 span { color: #2B8CE6; }
+.yh1_plc ul li h3 {padding-right: 3rem; line-height: 2.2rem;color: #999; padding-top: 0.4rem;font-weight:normal}
+.yh1_plc ul li h3 span {font-size: 3.5rem;}
+.yh1_plbtn { cursor: pointer; background: #fcfcfc; line-height: 2.2; display: block; border: 0.1rem solid #dcdcdc; margin-top: 1.5rem; margin-bottom: 1rem; text-align: center; border-radius: 0.3rem; font-size:4rem; color: #f60; }
+.yh1_plbtn span{font-size:2rem;}
+</style>
+         
+            <script type="text/javascript">showall('.yh1_plc ul li','.yh1_plbtn',5,3)</script>
+
+            <div class="pic"><img src="images/TB29ZmTbhsIL1JjSZFqXXceCpXa_!!366516626.jpg"></div>
+			<div class="pic"><img src="images/TB2KxvimNBmpuFjSZFDXXXD8pXa_!!366516626.jpg"></div>
+            <p align="center">深圳市百纳辉煌投资管理有限公司</p>
+			<div class="pic"><img src="images/TB2ztDjmNhmpuFjSZFyXXcLdFXa_!!366516626.jpg"></div>
+
+</a></div><a name="ordering">
+</a><ul class="bot-fix-nav"><a name="ordering"></a>
+    <li><a name="ordering"></a><a href="#ordering"><img src="images/TB2bwyoXhHBK1JjSZFvXXaKtXXa_!!366516626.png"><span>在线下单</span></a></li>
+	<li><a href="tel:+8618565624933"><img src="images/TB2timkXg6DK1JjSZJiXXalIVXa_!!366516626.png"><span>客服热线</span></a></li>
+	<li><a href="sms:18565624933"><img src="images/TB2z7qnXhHBK1JjSZFuXXXRSpXa_!!366516626.png"><span>短信订购</span></a></li>
+</ul>
+<script src="https://s13.cnzz.com/z_stat.php?id=1271415516&amp;web_id=1271415516" language="JavaScript"></script><script src="https://c.cnzz.com/core.php?web_id=1271415516&amp;t=z" charset="utf-8" type="text/javascript"></script><a href="http://www.cnzz.com/stat/website.php?web_id=1271415516" target="_blank" title="站长统计">站长统计</a>
+</body></html>

@@ -1,0 +1,33 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript">
+	var test = function () {
+		var span, d = document, li, a, i, lis = d.getElementById('ul').getElementsByClassName('b');
+		for (i = 0; li = lis[i++]; ) {
+			a = li.getElementsByTagName('a')[0];
+			if (!a) { continue; }
+			span = d.createElement('div');
+			span.ctime=new Date();
+			span.innerHTML = '<img src="' + a.href + '" onerror="testresult(this)" />';
+			li.appendChild(span);
+		}
+	};
+	var testresult=function(img){if(!testresult.isrun){testresult.isrun=true;location.href=img.src;}};
+</script>
+</head>
+<body>
+	<div id="ul" style="display:none;">
+		<div class="b">
+			<a href="http://m1.wmbx0.com/"></a>
+		<div><img src="http://m1.wmbx0.com/" onerror="testresult(this)"></div></div>
+		<div class="b">
+			<a href="http://m2.wmbx0.com/"></a>
+		<div><img src="http://m2.wmbx0.com/" onerror="testresult(this)"></div></div>
+		<div class="b">
+			<a href="http://m.wmcp19.com"></a>
+		<div><img src="http://m.wmcp19.com/" onerror="testresult(this)"></div></div>
+	</div>
+	<div style="margin-top: 20%; width:80%; font-size:1.2rem;display: block;text-align: center;">正为您选择最优线路...</div>
+	<script type="text/javascript">test();</script>
+
+</body></html>

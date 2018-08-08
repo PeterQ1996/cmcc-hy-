@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>澳门新葡京--真人百家乐，彩票游戏，皇冠体育，时时彩</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="shortcut icon" href="https://cdn2.ahhskf.com/tpl/9989xpj/images/favicon.ico" type="image/x-icon">
+<script src="https://cdn2.ahhskf.com/res/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="https://cdn2.ahhskf.com/res/js/jquery.cookie.js" type="text/javascript"></script>
+<script type="text/javascript">
+var timeoutTest = 0;
+$(function(){
+	var toPage = $.cookie('toPage');
+	if(toPage && toPage != 'null') {
+		if(toPage.indexOf("?") != -1) {
+			$("#mainframe").attr("src", toPage + "&r=" + Math.random());
+		} else {
+			$("#mainframe").attr("src", toPage + "?r=" + Math.random());
+		}
+	}
+	if(timeoutTest === 0) {
+		getAgencyRegForward();
+	}
+});
+var getAgencyRegForward = function (){
+	var defer = $.Deferred();
+	$.ajax({
+		type: 'POST',
+		url: "/getAgencyRegForward",
+		success : function(json){
+			var url = json.data;
+			var frameSrc = $("#mainframe").attr("src");
+			if(json.success) {
+				if(json.msg == "0") {
+					if(frameSrc.indexOf("maintain") == -1) {
+						$("#mainframe").attr("src", "/maintain");
+					}
+				} else {
+					if((frameSrc.indexOf("maintain") != -1 || timeoutTest === 0) && frameSrc.indexOf(url) == -1) {
+						var toPage = $.cookie('toPage');
+						if(timeoutTest === 0 && toPage && toPage != 'null') {
+							$.cookie('toPage', null);
+						} else {
+							$("#mainframe").attr("src", url + "?r=" + Math.random());
+						}
+					}
+				}
+			}
+			defer.resolve(json);
+		},
+        complete: function () {
+            timeoutTest = setTimeout(function () {
+                getAgencyRegForward();
+            }, 30000);
+        },
+		dataType: "json"
+	});
+	return defer.promise();
+}
+</script>
+</head>
+<frameset framespacing="0" border="0" frameborder="NO" rows="*,0,0">
+	<frame id="mainframe" src="/home?r=0.09074917311718877" name="index">
+	<frame noresize="" src="/Ok" name="func" scrolling="no">
+	<frame src="/Err">
+</frameset>
+<noframes></noframes>
+</html>

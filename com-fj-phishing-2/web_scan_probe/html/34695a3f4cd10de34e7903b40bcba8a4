@@ -1,0 +1,323 @@
+<!DOCTYPE html><html class="login-page"><head><script src="https://www.t5582.com/static/data/messages.js?0.12748803925408503"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>同乐彩欢迎您</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://www.t5582.com/home/js/layer/skin/default/layer.css?v=3.0.11110" id="layuicss-skinlayercss"></head>
+
+<body id="bodyid">
+    <!-- 头部 start -->
+    <div class="jc-header">
+        <div class="jc-layout">
+            <div class="jc-logo">
+                <object width="220" height="88" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+                    <param value="img/logo.swf" name="movie">
+                    <param value="transparent" name="wmode">
+                    <param value="high" name="quality">
+                    <param value="Show all" name="scale">
+                    <embed width="220" height="88" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" quality="high" scale="Show all" type="application/x-shockwave-flash" src="img/logo.swf">
+                </object>
+                <object width="160" height="88" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+                    <param value="img/logoad.swf" name="movie">
+                    <param value="transparent" name="wmode">
+                    <param value="high" name="quality">
+                    <param value="Show all" name="scale">
+                    <embed width="160" height="88" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" quality="high" scale="Show all" type="application/x-shockwave-flash" src="img/logoad.swf">
+                </object>
+            </div>
+            <div class="site-notice">
+                <h3>站内公告：</h3>
+                <div class="notice-content">
+                    <ul class="notice-list" id="notice-list"></ul>
+                </div>
+            </div>
+            <div class="jc-nav">
+                <a href="reg.html" target="_self">立即开户</a>
+                <a href="javascript:void(0);" class="open-le">最新优惠</a>
+                <a href="javascript:void(0);" class="open-mo">手机投注</a>
+                <a href="javascript:void(0);" class="open-aj">代理加盟</a>
+                <a href="javascript:void(0);" class="open-faq">常见问题</a>
+                <a href="javascript:void(0);" class="open-au">关于我们</a>
+                <a href="javascript:BBOnlineService();">联系客服</a>
+            </div>
+        </div>
+    </div>
+    <!-- 头部 end -->
+    <!-- 内容 start -->
+    <div class="jc-content">
+        <!-- 主内容 start -->
+        <div class="jc-layout">
+            <div class="user-login">
+                <a target="_blank" href="javascript:BBOnlineService();" class="btn btn-bg btn-os"></a>
+                <form class="login-form" onsubmit="loginNoValiCode();return false;" autocomplete="off">
+                    <div class="input-group">
+                        <input type="text" value="" id="userName" maxlength="15" class="ipt" placeholder="请输入您的账号">
+                    </div>
+                    <div class="input-group">
+                        <input type="password" value="" id="userPwd" maxlength="20" class="ipt" placeholder="您的密码">
+                    </div>
+                    <div class="btn-group">
+                        <input type="submit" value="" class="btn btn-bg btn-login" id="btnlogin">
+                        <a href="reg.html" target="_blank" class="btn btn-bg btn-reg"></a>
+                    </div>
+                    <div class="btn-group">
+                        <a href="javascript:guestLogin();" class="btn btn-bg btn-visit"></a>
+                    </div>
+					<!--
+                    <div class="btn-group">
+                        <a href="http://www.t5511.com/" target="_blank" class="btn btn-bg btn-jh"></a>
+                    </div>-->
+                </form>
+            </div>
+            <div class="yun">
+                <div class="bd">
+                    <ul>
+                        <li><img class="y" src="img/yun.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="login-ad">
+                <object width="650" height="400" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000">
+                    <param value="img/ad.swf" name="movie">
+                    <param value="transparent" name="wmode">
+                    <param value="high" name="quality">
+                    <param value="Show all" name="scale">
+                    <embed width="650" height="400" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" quality="high" scale="Show all" type="application/x-shockwave-flash" src="img/ad.swf">
+                </object>
+            </div>
+            <div class="car-wr">
+                <div class="car-con car-con1">
+                    <div class="car car3">
+                        <img src="img/car3.png" alt="">
+                    </div>
+                    <div class="car car2">
+                        <img src="img/car2.png" alt="">
+                    </div>
+                    <div class="car car1">
+                        <img src="img/car1.png" alt="">
+                    </div>
+                </div>
+                <div class="car-con car-con2">
+                    <div class="car car3">
+                        <img src="img/car3.png" alt="">
+                    </div>
+                    <div class="car car2">
+                        <img src="img/car2.png" alt="">
+                    </div>
+                    <div class="car car1">
+                        <img src="img/car1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 主内容 end -->
+    </div>
+    <!-- 内容 end -->
+    <!-- 底部 start -->
+    <div class="jc-footer">
+        <div class="jc-layout">
+            <!--<p><img src="img/combo_image.png" alt=""></p>-->
+            <p>Copyright © 同乐彩 All Rights Reserved.</p>
+        </div>
+    </div>
+    <!-- 底部 end -->
+    <!-- 手机投注 -->
+    <div class="jc-model hide" id="mobile">
+        <div class="model-content">
+            <div class="jc-mob">
+                <img src="img/mob.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 常见问题 -->
+    <div class="jc-model hide" id="faq">
+        <div class="model-content">
+            <div class="jc-faq">
+                <h4><i class="icon icon-doubt"></i>一般常见问题</h4>
+                <p>
+                    Q1: 如何加入同乐彩？
+                    <br> A1: 您可以直接点选 “立即开户”，确实填写资料后，可立即登记成为同乐彩会员。
+                    <br> Q2: 我可以直接在网络上存款提款吗？
+                    <br> A2: 可以，同乐彩提供多种线上存款选择。
+                    <br> Q3: 我在哪里可以找到游戏规则？
+                    <br> A3: 在未登入前，您可以在游戏的最外层看到”游戏规则”选项，清楚告诉您游戏的玩法、规则及派彩方式。在游戏视窗中,也有”规则”选项，让您在享受游戏乐趣的同时，弹跳视窗随时提醒您游戏规则。
+                    <br> Q4: 单注投注额最低是？
+                    <br> A4: 我们单注最低投注额为人民币1元.
+                    <br> Q5: 最高投注额有限制吗？
+                    <br> A5: 任何一家正规博彩和网络博彩公司对客户的帐户投注都有单注和单注限额，没有限额的公司都基本属于没有任何风险控制的私人或骗子公司，今天的控制是为了明天能保证100%提款给您，这点您可以自行分析。每个项目都有不同的限额设定，详细请登陆会员都在「会员资料」页面查看。
+                    <br> Q6: 我帐户里面的帐怎麽结算？
+                    <br> A6: 请到登入会员，会员页面查看，「结算报表」按天显示每天的结算结果，点击退水后的结果一栏对应的结果数字进入明细！
+                </p>
+                <h4><i class="icon icon-doubt"></i>游戏及投注问题</h4>
+                <p>
+                    Q1: 请问如何加入同乐彩？
+                    <br> A1: 您可以直接点选 “立即开户”，确实填写资料后，可立即登记成为同乐彩现金网会员
+                    <br> Q2: 我哪里可以找到游戏的规则？
+                    <br> A2: 请查看”规则说明”页面，清楚告诉您游戏的玩法、规则及派彩方式。
+                    <br> Q3: 如果忘记密码怎麽办？
+                    <br> A3: 你可以在首页点击“忘记密码”系统自助取回密码，或者联系24小时线上客服人员谘询协助取回你的帐号密码。
+                    <br> Q4: 当忘记提款密码时怎麽办？
+                    <br> A4: 你可通过24小时线上客服人员协助处理。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 关于我们 -->
+    <div class="jc-model hide" id="aboutus">
+        <div class="model-content">
+            <div class="jc-aboutus">
+                <h4><i class="icon icon-i"></i>关于我们</h4>
+                <p>同乐彩于2011 年成立，推出高频彩票现金投注网，开种北京赛车PK10、广东快乐十分、重庆时时彩、天津时时彩、新疆时时彩、幸运飞艇、重庆幸运农场提供24小时游戏等项目，完全自助注册开户，现金开户， 现金投注 。我们拥有稳定的平台，成熟的玩法，简单的下注流程、以及优质的客户服务。同乐彩公司为彩票博彩爱好者提供最优惠的赔率和最优质的博彩服务。同乐彩一直深受会员好评，一 直以来以良好的信誉和服务得到许多会员的支持和肯定，接受业界各行业与会员的监督！如您对本公司有所疑惑，欢迎您对本公司的监督。同乐彩为正派且稳健经营的网站，一直以最优惠的赔率和优质的服务深受会员好评，请放心进行投注，如您之前不了解本公司，欢迎您对本公司进行关注。
+                </p>
+                <h4>【菲律賓執照】</h4>
+                <p>我們提供的所有產品和服務，是由菲律賓政府卡格揚河經濟特區 First Cagayan leisure and Resort Corporation. www.firstcagayan.com 所授權和監管。這是一家位於Cagayan特別經濟區和自由口岸 (CSEZFP)的機構，並且是互動遊戲的授權者及管理者</p>
+                <h4>【安全与保密】</h4>
+                <p>我们采用了目前最好的加密技术（1024位RSA密钥交换和448位blowfish）和防火墙系统保护你的安全、私隐，并保证你享受公平的 游戏。客户在本平台的所有动均严格保密，我们不会向第三方包括政府透露客户资料。所有银行交易由国际金融机构在高标准的安全和机密的网络中进行。进入玩家帐户资料也必须有玩家唯一的登录ID和密码，确保客户的资金安全有保障。 同乐彩拥有高素质的客户服务，无论在处理任何事情上，都以简单和快捷享誉全球。如免费开户，即时存款，实时QQ,MSN回复客户的询问以及处理客户的难题等。 同乐彩全年24小时运营，全天候处理客户出入款等相关事宜，严格训练的客服团队，以专业、亲切的态度著称，尽速解决您对于网 站、游戏的种种疑难杂症，不但让所有客户皆有宾至如归的感觉，同时我们以业界前所未见的各种优惠方式回馈我们的客户，绝对是您最明智的选择！</p>
+            </div>
+        </div>
+    </div>
+    <!-- 最新优惠 -->
+    <div class="jc-model hide" id="latestEvents">
+        <div class="model-content">
+            <div class="jc-promotion">
+                <h3>中秋团圆夜，博饼皆同乐</h3>
+                <p>
+                     月亮是诗，星空是画，愿所有的幸福伴随您，问候是春，关心是夏，温柔是秋，浪漫是冬，愿所有快乐跟随您，为感谢广大彩友对同乐彩（T55.COM)的鼎力支持，公司决定于2017年10月3日至10月6日举行大型博饼优惠活动，具体活动详情如下：
+                </p>
+                <h5>主题活动一：共博状元郎</h5>
+                <p>
+                    参与 对 象：2017年10月3日前，同乐彩存款100元以上所有会员。<br>
+                    参与 次 数：1次，100%中奖率<br>
+                    参与 时 间：2017年10月3日18:00-21:00,10月4日18:00-21:00 <br>
+                    现金添加时间：24小时内
+                </p>
+                <h5>主题活动一：共博状元郎</h5>
+                <p>
+                    参与 对 象：2017年10月3日前，同乐彩存款100元以上所有会员。<br>
+                    参与 次 数：1次，100%中奖率<br>
+                    参与 时 间：2017年10月3日18:00-21:00,10月4日18:00-21:00 <br>
+                    现金添加时间：24小时内
+                </p>
+                <h5>活动规则及奖励办法：</h5>
+                <div style="margin-top: 20px" align="center">
+                    <img style="width: 70%" src="./img/promo.jpg" alt="">
+                    <p style="color: #F00">备注：因各地博饼规则不一致，博饼中所出现的图样，需与官方发布的图样一致，其他样式均不计中奖。</p>
+                </div>
+                <p>
+                    例如：A会员博中五个3，五个5，五个6视为状元（五子登科），中奖，<br>
+                    B会员博中四个3，四个5，四个6，视为进士，中奖 <br>
+                    任何团队或个人，套利之行为，对冲或对打以及无风险投注，取消活动资格；<br>
+                    同乐彩保留对活动的最终解释权，持有终止、修正等权利。<br>
+                </p>
+            </div>
+            <hr>
+            <br>
+            <div class="jc-promotion">
+                <h3>感恩在行动，高频彩不计输赢，双面赔率1.996，定位9.96，全网超高赔率！</h3>
+                <table class="prom-table">
+                    <thead>
+                        <tr>
+                            <th>会员级别</th>
+                            <th>返水比例</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>所有会员</td>
+                            <td>香港六合彩特A 42.5倍 13% 特B 48.6倍 0%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    活动规则：
+                    <br> 1.本次优惠活动于2017年5月1日生效。优惠活动适用于所有会员，无需申请系统自动派发；
+                    <br> 2.任何滥用优惠、下注套利、非法程序下注的行为，经查实将取消优惠以及优惠产生的赢利；
+                    <br> 3.游戏过程中，出现对冲或对打投注,将取消优惠以及优惠产生的赢利（例如在北京赛车同局投注大/小）；
+                    <br> 4.同乐彩保留所有权利在任何时候可以更改、停止、取消优惠活动并不会做出任何书面解释。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 代理加盟 -->
+    <div class="jc-model hide" id="agencyJoin">
+        <div class="model-content">
+            <div class="jc-agency">
+                <div class="agency-actions">
+                    <a href="agent.html" class="btn btn-login">代理注册</a>
+                    <a href="javascript:agentLogin();" class="btn btn-reg">代理登录</a>
+                    <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=566778&amp;site=qq&amp;menu=yes" target="_blank"><span class="dl">代理QQ: 566778</span></a>
+                </div>
+                <h4>联盟方案：</h4>
+                <p>同乐彩拥有多元化的产品，使用最公平、公正、公开的系统，在市场上的众多博彩网站中，我们自豪的提供会员最优惠的回馈，给予合作伙伴最优势的营利回报! 无论 拥有的是网络资源，或是人脉资源，都欢迎您来加入同乐彩合作伙伴的行列，无须负担任何费用，就可以开始无上限的收入。 选择同乐彩，绝对是您最聪明的选择!</p>
+                <h4>代理条件：</h4>
+                <p>
+                    a.具有便利的计算机上网设备。
+                    <br> b.有一定的人脉资源、网络资源或自己的广告网站。
+                    <br> c.每期都要有10个实际有效投注的会员以上，如达不到就累积到下期计算佣金！
+                </p>
+                <h4>有效会员：</h4>
+                <p>月结区间内进行过最少五次有效下注且投注总额不低于1000RMB的会员！如联盟体系当月未达﹛月最低有效会员﹜最低门坎10人，则该月无法领取佣金回馈。联盟体系当月营利达到标准，而﹛月最低有效会员﹜人数未达相应最低门坎，则该月佣金比例依照﹛月最低有效会员﹜人数所达门坎相应的百分比进行退佣。</p>
+                <h4>代理收入：</h4>
+                <p>
+                    A：比如您本月的代理账号内有赢利的情况下，就可拥有以下收入:
+                    <br> 1.一个月内公司在您的代理账号内纯赢利达到1000元-50000元，可享受其中15%的佣金。
+                    <br> 2.一个月内公司在您的代理账号内纯赢利达到50001元-100000元，可享受其中20%的佣金。
+                    <br> 3.一个月内公司在您的代理账号内纯赢利达到100001元-200000元，可享受其中25%的佣金。
+                    <br> 4.一个月内公司在您的代理账号内纯赢利达到200001元-500000元，可享受其中30%的佣金。
+                    <br> 5.一个月内公司在您的代理账号内纯赢利达到500001元以上，可享受其中35%的佣金。
+                </p>
+                <h4>请注意：</h4>
+                <p class="warn">
+                    ＊每位加入合营商的客户，如果您在第一个月的有效会员未达到公司要求，但有产生佣金，您的佣金将累计到下个月。
+                    <br> ＊注:禁止代理商私自开设会员帐号进行非法投注套利。以及调整代理后台的任何赔率返水，不统计报表，唯一佣金是会员负盈利。任何使用不诚实方法骗取代理佣金或下线会员与代理商同IP的我们视为代理商自己开设会员游戏，将取消代理资格并永久冻结账户，佣金一律不予发放。同IP出现多个会员的话，将被视为无效会员，不得计算在内。
+                    <br>详情请联系代理专员，QQ:<span class="cfgMainAgentQQ"></span>。
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="float" id="float">
+    <ul>        
+        <li>
+            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=516555&amp;site=qq&amp;menu=yes" target="_blank"><img src="img/float/1.png" alt=""></a>
+        </li>
+    </ul>
+</div>
+<!-- 
+<div class="float2" id="float2">
+	<a href="http://www.1670055.com" target="_blank"><img src="img/activity/float.png" alt=""></a>
+</div>
+ -->
+    <link type="text/css" href="/static/lib/remodal-1.1.0/remodal.min.css" rel="stylesheet">
+
+
+<script src="/conf/config.js"></script>
+<script src="js/home_main.min.js"></script><div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc" data-remodal-options="hashTracking: false" style="width: 250px" tabindex="-1">
+    <div>
+        <p id="modal1Desc" style="color: #000"></p>
+        <span class="btnclose">关闭</span>
+    </div>
+</div></div>
+
+    <script type="text/javascript" src="js/layer/layer.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script src="/static/lib/float.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+    initNoticeData(function(notice) {
+        var $nl = $('#notice-list');
+        $nl.html(notice.reduce(function(p, n) {
+            return p += '<li data-content="' + n.message + '">' + n.title + '</li>';
+        }, ''))
+        App.init();
+        init();
+    })
+    //$("#float").Float();
+    </script>
+
+
+
+</body></html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="zh" class="ui-mobile"><head><base href="http://app.li960.com/index/user/login">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>
+                用户登录
+            </title>
+    <meta name="viewport" content="width=device-width" initial-scale="1">
+    <link href="/template/jquerymobile/jquery.mobile-1.4.3.min.css" rel="stylesheet" type="text/css">
+    <script src="/template/js/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="/template/jquerymobile/jquery.mobile-1.4.3.min.js" type="text/javascript"></script>
+</head>
+<body class="ui-mobile-viewport ui-overlay-a">
+    <div data-role="page" data-theme="a" id="page1" data-url="page1" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" style="min-height: 768px;">
+        <div data-role="header" data-theme="b" role="banner" class="ui-header ui-bar-b">
+            <h1 class="ui-title" role="heading" aria-level="1">
+                用户登录
+            </h1>
+        </div>
+        <div data-role="content" class="ui-content" role="main">
+            <ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+                <li data-role="list-divider" role="heading" class="ui-li-divider ui-bar-inherit ui-first-child">用户登录</li>
+                <li data-role="fieldcontain" class="ui-field-contain ui-li-static ui-body-inherit">
+                    <label for="UserName">
+                        用户名
+                    </label>
+                    <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input id="UserName" name="UserName" type="text" value=""></div>
+                </li>
+                <li data-role="fieldcontain" class="ui-field-contain ui-li-static ui-body-inherit">
+                    <label for="Password">
+                        密码
+                    </label>
+                    <div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input id="Password" name="Password" type="password" value=""></div>
+                </li>
+                <li data-role="fieldcontain" class="ui-field-contain ui-li-static ui-body-inherit">
+                    <div class="ui-grid-a">
+                    	<div class="ui-block-a" style="width:60%;"><label for="code">验证码</label><div class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset"><input id="code" name="code" maxlength="4" autocomplete="off" type="number" value=""></div></div>
+                        <div class="ui-block-b" style="width:25%;"><img style="height:32px; margin-top:1.9em; margin-left:10px;" id="codeimg" src="/model/checkcode.php" alt="看不清楚可点击这里更换！"></div>
+                   	</div>
+                </li>
+                <li data-role="fieldcontain" class="ui-field-contain ui-li-static ui-body-inherit">
+                	<div class="ui-checkbox"><label for="check" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-checkbox-off">记住密码</label><input type="checkbox" id="check" name="check"></div>
+                </li>
+                <li data-role="fieldcontain" class="ui-field-contain ui-li-static ui-body-inherit ui-last-child">
+                    <button class="ui-btn ui-btn-b ui-icon-check ui-btn-icon-left ui-shadow ui-corner-all" id="submit">
+                        登录</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+			$('#codeimg').click(function(){
+				$('#codeimg').attr('src',$('#codeimg').attr('src')+'?'+Math.random());
+			});	
+            $("#submit").click(function () {
+                var userName = $("#UserName").val();
+                var password = $("#Password").val();
+				var code = $("#code").val();
+				var check = 0;
+				if($('#check').is(':checked')){
+					check =1;
+				}
+                if (userName.length < 3 || userName.length > 15) {
+                    showMsg("用户名输入有误");
+                    return false;
+                }
+                if (password.length < 6 || password.length > 16) {
+                    showMsg("密码输入有误"); ; return false;
+                }
+				if (code.length!==4) {
+                    showMsg("验证码输入有误");
+					return false;
+                }
+                $.mobile.loading("show", { text: "正在登录", textVisible: true, theme: "b", textonly: false, html: "" });
+                $.ajax({
+                    url: "/ajax/user/log", dataType: "json", type: "POST",
+                    data: { username: userName, password: password, code: code, check: check },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) { showMsg(errorThrown); },
+                    success: function (data) {
+						var data_error = data['error'];
+						var data_msg = data['msg'];
+						
+                        if (data_error==0) {
+                            window.location = "/index/";
+                        } else {
+                            $('#codeimg').click();
+							showMsg(data_msg);
+                        }
+                    }
+                });
+            });
+            function showMsg(msg) {
+                $.mobile.loading("show", { text: msg, textVisible: true, theme: "b", textonly: true, html: "" });
+                setTimeout(function () { $.mobile.loading("hide"); }, 2000);  //san秒后关闭
+            }
+        });
+    </script>
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon-loading"></span><h1>loading</h1></div></body></html>

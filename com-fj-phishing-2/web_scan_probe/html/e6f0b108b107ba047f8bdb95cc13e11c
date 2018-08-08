@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <link href="/UploadImages/180228180035171429.ico" rel="shortcut icon">
+
+    <link rel="stylesheet" type="text/css" href="/Content/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/Content/Web/site.css" media="all">
+
+    <script type="text/javascript" src="/Scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/Content/layui/layui.js"></script>
+    <script type="text/javascript" src="/Content/Web/common.js"></script>
+
+    <title>东方彩票-天天红包雨，最高8888元</title>
+<link id="layuicss-layer" rel="stylesheet" href="http://91nbt.com/Content/layui/css/modules/layer/default/layer.css?v=3.1.1" media="all"></head>
+
+<body>
+    <!--[if lt IE 9]>
+      <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+      <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <input type="hidden" id="bonusId" value="1">
+    <input type="hidden" id="startTime" value="1533729600">
+    <input type="hidden" id="endTime" value="1533740400">
+    <input id="activityContent" value="&lt;p&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;● 活动对象：东方彩票全体会员皆可参与。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;● 当日存款单笔达到100元以上，即可在当天北京时间 20:00-23:00 享有一次抢红包的机会！&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;●亿万现金红包网址【&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;&lt;strong&gt;91nbt.com&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;】红包享不停 惊喜抢不停，还等什么？快快叫上好友一起分享吧！&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;table style=&quot;width:100%;&quot; border=&quot;1&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;firstRow&quot;&gt;&lt;td&gt;当日存款&lt;br/&gt;&lt;/td&gt;&lt;td&gt;抢红包次数&lt;br/&gt;&lt;/td&gt;&lt;td&gt;最高金额&lt;br/&gt;&lt;/td&gt;&lt;td&gt;流水限制&lt;br/&gt;&lt;/td&gt;&lt;td&gt;抽奖时间&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;单笔100+&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;8888&lt;/td&gt;&lt;td&gt;1倍&lt;/td&gt;&lt;td style=&quot;word-break: break-all;&quot;&gt;北京时间 20:00 开抢&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;" type="hidden">
+    <input id="discountContent" value="&lt;ul class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;此活动为东方彩票系统程序自动运行，获奖的概率完全遵循力学及自然概率，不涉及任何人工操作，抽奖结果以系统判定为准，不得争议。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;每位会员，每一相同IP，每一电子邮箱，每一电话号码，相同支付方式（借记卡/信用卡/银行账户）只能享受一次优惠；若会员有重复申请账号行为，公司保留取消或收回会员优惠彩金的权利。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;span style=&quot;line-height:1.5;&quot;&gt;东方彩票的所有优惠特为玩家而设，如发现任何团体或个人，以不诚实方式套取红利或任何威胁、滥用公司优惠等行为，公司保留冻结、取消该团体或个人账户及账户结余的权利。&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;若会员对活动有争议时，为确保双方利益，杜绝身份盗用行为，东方彩票有权要求会员向公司提供充足有效文件，以确认是否享有该优惠的资质。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;东方彩票保留对活动的最终解释权；以及在无通知的情况下修改、终止活动的权利；适用于所有优惠。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" type="hidden">
+    <input id="ruleContent" value="&lt;ul class=&quot; list-paddingleft-2&quot;&gt;&lt;li&gt;&lt;p&gt;会员今天存款金额达到100元起，即可在当天北京时间 20:00—23:00 获得抢红包一次！&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;所获得红包金额只要达到一倍流水即可出款。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;会员存款金额均由系统自动统计，若有任何异议，以东方彩票查询为准。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;如果您今天单笔存款达到抢红包条件，规定时间内没有完成的，视为会员自动放弃活动资格。&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;获得的红包金额，无需申请，系统将自动派送到您的会员账号，请耐心等待。&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;如果IP一致，以抢的时间为标准，最先抢的有效，后面抢的一律无效。&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" type="hidden">
+    <input id="newsContent" value="&lt;p&gt;【东方彩票亿万现金红包】火热进行中，单笔充值100起就能抢红包，最高金额8888元，每天20:00开抢，感谢您的参与！&lt;/p&gt;" type="hidden">
+    
+
+
+<script type="text/javascript" src="/Content/Web/Theme4/pc/jquery.scrollbox.js"></script>
+<script type="text/javascript" src="/Content/Web/Theme4/pc/lottery.js"></script>
+<link href="/Content/Web/Theme4/pc/theme4.css" rel="stylesheet" type="text/css">
+
+<div class="header">
+    <div class="wrap">
+        <ul class="fl">
+            <li class="current"><a href="http://df90888.com/index" target="_blank">官网首页</a></li>
+            <li><a href="http://df90888.com/index" target="_blank">会员注册</a></li>
+            <li><a href="#" id="bonusQuery">红包查询</a></li>
+        </ul>
+        <a href="/">
+            <img class="logo fl" src="/UploadImages/红色.png" width="242" height="220">
+            
+        </a>
+        <ul class="fr">
+            <li><a href="http://df90888.com/activity" target="_blank">优惠活动</a></li>
+            <li><a href="http://91nbt.com/Theme4" target="_blank">优惠申请</a></li>
+            <li><a href="https://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=942058&amp;configID=58767&amp;jid=2803699421&amp;s=1" target="_blank">在线客服</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+
+<div class="banner">
+    <div class="banner-bg">
+        <div class="banner-1"></div>
+        <div class="banner-2"></div>
+        <div class="banner-3"></div>
+        <div class="banner-4"></div>
+        <div class="banner-5"></div>
+        <div class="banner-6"></div>
+    </div>
+    <div class="news">
+        <div class="wrap">
+            <span class="fl">最新消息：</span>
+            <div class="d1" id="scrollLeft">
+                <ul>
+                    <li>
+                        <marquee scrollamount="2" width="1000" onmouseover="stop()" onmouseout="start()" id="divNewsContent"><p>【东方彩票亿万现金红包】火热进行中，单笔充值100起就能抢红包，最高金额8888元，每天20:00开抢，感谢您的参与！</p></marquee>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="time">
+            
+            <div class="hongbjies" id="divMsg" style="display:none;"></div>
+            <div id="divTime" style="display: block;">
+                <label class="hongbjies" id="timePartPrefix">开抢时间</label>
+                <div class="cl"></div>
+                <div class="juhd">
+                    <span id="timePartDay">00</span>
+                    <em>天</em>
+                    <span id="timePartHour">07</span>
+                    <em>小时</em>
+                    <span id="timePartMinute">15</span>
+                    <em>分</em>
+                    <span id="timePartSeconds">49</span>
+                    <em>秒</em>
+                </div>
+                <div class="cl"></div>
+            </div>
+        </div>
+        <form class="layui-form form" id="form" action="#">
+            <input id="username" name="username" class="fl" type="text" placeholder="请输入会员账号">
+            <input type="submit" id="btnGet" class="fr btn" value="" lay-submit="" lay-filter="qiang">
+        </form>
+    </div>
+<div data-key="logn" class="snow snow-2" style="left: 348.36499803499635px; opacity: 0.39612868535883944; font-size: 21.147662164389814px; top: 275.29111334409845px;"><div></div></div><div data-key="logn" class="snow snow-2" style="left: 375.7092764405953px; opacity: 0.4151867506971314; font-size: 36.94778146840958px; top: 174.4623611935441px;"><div></div></div><div data-key="logn" class="snow snow-2" style="left: 579.8906219204222px; opacity: 0.5836037159005575; font-size: 11.29510643253056px; top: 120.43294170874594px;"><div></div></div><div data-key="logn" class="snow snow-1" style="left: 478.56248696261224px; opacity: 0.6263014127608766; font-size: 33.01500085680103px; top: 144.88002180197148px;"><div></div></div><div data-key="logn" class="snow snow-2" style="left: 303.14751507904214px; opacity: 0.8569614560630259; font-size: 29.445166850587242px; top: 121.28715948690808px;"><div></div></div><div data-key="logn" class="snow snow-2" style="left: 231.4125963209653px; opacity: 0.8995818245326034; font-size: 36.872268098237px; top: 85.6901763988451px;"><div></div></div><div data-key="logn" class="snow snow-2" style="left: 109.9024455082979px; opacity: 0.911190177750228; font-size: 25.43792304304442px; top: 75.78438165313872px;"><div></div></div><div data-key="logn" class="snow snow-1" style="left: 585.9916604089384px; opacity: 0.505574733189987; font-size: 20.107513207673392px; top: 80.70890219869364px;"><div></div></div><div data-key="logn" class="snow snow-1" style="left: 115.75364358539727px; opacity: 0.924949836515385; font-size: 18.722190180069898px; top: 64.04280617353814px;"><div></div></div><div data-key="logn" class="snow snow-1" style="left: 139.48216620743455px; opacity: 0.7145642892136626; font-size: 23.61556534997557px; top: 40.43917826937718px;"><div></div></div><div data-key="logn" class="snow snow-1" style="left: 751.1327260558243px; opacity: 0.915575548430382; font-size: 16.772323878576167px; top: 31.868551618415438px;"><div></div></div><div data-key="logn" class="snow snow-3" style="left: 547.1141093466382px; opacity: 0.9802765795510058; font-size: 34.888546712646175px; top: 16.83065211647508px;"><div></div></div><div data-key="logn" class="snow snow-1" style="left: 765.7983949191312px; opacity: 0.8111301931225842; font-size: 12.16015933851515px; top: 5.517095373178876px;"><div></div></div></div>
+<div class="title" style=" margin:40px auto 0">
+    <img src="/Content/Web/Theme4/pc/img/title1.png">
+</div>
+<div class="main wrap">
+    <div class="con">
+        <div id="divActivityContent"><p><span style="line-height:1.5;">● 活动对象：东方彩票全体会员皆可参与。</span></p><p><span style="line-height:1.5;">● 当日存款单笔达到100元以上，即可在当天北京时间 20:00-23:00 享有一次抢红包的机会！</span><br><span style="line-height:1.5;">●亿万现金红包网址【</span><span style="line-height:1.5;"><strong>91nbt.com</strong></span><span style="line-height:1.5;">】红包享不停 惊喜抢不停，还等什么？快快叫上好友一起分享吧！</span></p><p><br></p><table style="width:100%;" border="1"><tbody><tr class="firstRow"><td>当日存款<br></td><td>抢红包次数<br></td><td>最高金额<br></td><td>流水限制<br></td><td>抽奖时间<br></td></tr><tr><td>单笔100+</td><td>1</td><td>8888</td><td>1倍</td><td style="word-break: break-all;">北京时间 20:00 开抢<br></td></tr></tbody></table><p><br></p></div>
+        <h3 class="yellow">红包获得名单：</h3>
+        <div class="luntop" id="winning">
+            <ul id="js-scroll-content"><li><span class="first">恭喜 188...</span><span class="w150"> 获得 <b>31.55元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 wan...</span><span class="w150"> 获得 <b>37.43元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 105...</span><span class="w150"> 获得 <b>25.17元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 zha...</span><span class="w150"> 获得 <b>16.78元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 312...</span><span class="w150"> 获得 <b>34.79元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 878...</span><span class="w150"> 获得 <b>14.72元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 464...</span><span class="w150"> 获得 <b>23.16元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 654...</span><span class="w150"> 获得 <b>9.09元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 185...</span><span class="w150"> 获得 <b>25.48元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li><li><span class="first">恭喜 all...</span><span class="w150"> 获得 <b>30.71元</b> 红包</span><span class="w80"><small>2018-08-07</small></span></li></ul>
+        </div>
+    </div>
+</div>
+<div class="title"><img src="/Content/Web/Theme4/pc/img/title2.png"></div>
+<div class="main wrap">
+    <div class="con" id="divRuleContent"><ul class=" list-paddingleft-2"><li><p>会员今天存款金额达到100元起，即可在当天北京时间 20:00—23:00 获得抢红包一次！</p></li><li><p>所获得红包金额只要达到一倍流水即可出款。</p></li><li><p>会员存款金额均由系统自动统计，若有任何异议，以东方彩票查询为准。</p></li><li><p>如果您今天单笔存款达到抢红包条件，规定时间内没有完成的，视为会员自动放弃活动资格。</p></li><li><p>获得的红包金额，无需申请，系统将自动派送到您的会员账号，请耐心等待。<br></p></li><li><p>如果IP一致，以抢的时间为标准，最先抢的有效，后面抢的一律无效。</p></li></ul></div>
+</div>
+<div class="title"><img src="/Content/Web/Theme4/pc/img/title3.png"></div>
+<div class="main wrap">
+    <div class="con" id="divDiscountContent"><ul class=" list-paddingleft-2"><li><p>此活动为东方彩票系统程序自动运行，获奖的概率完全遵循力学及自然概率，不涉及任何人工操作，抽奖结果以系统判定为准，不得争议。</p></li><li><p>每位会员，每一相同IP，每一电子邮箱，每一电话号码，相同支付方式（借记卡/信用卡/银行账户）只能享受一次优惠；若会员有重复申请账号行为，公司保留取消或收回会员优惠彩金的权利。</p></li><li><p><span style="line-height:1.5;">东方彩票的所有优惠特为玩家而设，如发现任何团体或个人，以不诚实方式套取红利或任何威胁、滥用公司优惠等行为，公司保留冻结、取消该团体或个人账户及账户结余的权利。</span></p></li><li><p>若会员对活动有争议时，为确保双方利益，杜绝身份盗用行为，东方彩票有权要求会员向公司提供充足有效文件，以确认是否享有该优惠的资质。</p></li><li><p>东方彩票保留对活动的最终解释权；以及在无通知的情况下修改、终止活动的权利；适用于所有优惠。</p></li></ul></div>
+</div>
+<div class="bottom yellow">Copyright © 2017-2018 东方彩票 版权所有 All Rights Reserved</div>
+<!-- 领取窗口 start -->
+<div class="tanchuceng" id="getWin" style="display:none;  z-index:99999999">
+    <div class="tanin" style="height:250px">
+        <div class="chacha" onclick="closeGetWin();">×</div>
+        <div class="tantoux">输入会员账号领取</div>
+        <div class="cl h35"></div>
+        <div class="tac shuzangh">
+            <span class="">会员账号：</span>
+            <input id="username" type="text" class="shuimsnt" value="">
+
+        </div>
+        <div class="cl h15"></div>
+        <div class="tac shuzangh">
+            <a href="javascript:;" class="chaaa" onclick="getPacket();"><img src="/Content/Web/Theme4/pc/img/submit.jpg" class="vm" alt=""></a>
+        </div>
+        <div class="cl h35"></div>
+    </div>
+</div>
+<!-- 领取窗口 end -->
+<!-- 查询窗口 start -->
+<div class="tanchuceng" id="querywin" style="display:none; z-index:99999999">
+    <div class="tanin">
+        <div class="chacha" onclick="closeQueryWin();">×</div>
+        <div class="tantoux">输入会员账号查询</div>
+        <div class="cl h35"></div>
+        <div class="tac shuzangh">
+            <span class="">会员账号：</span>
+            <input id="username-query" type="text" class="shuimsnt" value="">
+            <a href="javascript:;" class="chaaa" onclick="query();"><img src="/Content/Web/Theme4/pc/img/chaa.png" class="vm" alt=""></a>
+        </div>
+        <div class="cl h15"></div>
+        <div class="chatablewa">
+            <table class="chtable">
+                <tbody><tr class="toum">
+                    <td>红包金额</td>
+                    <td>领取时间</td>
+                    <td>是否派彩</td>
+                </tr>
+                </tbody><tbody id="query-result"></tbody>
+            </table>
+        </div>
+        <div class="cl h35"></div>
+    </div>
+</div>
+<!-- 查询窗口 end -->
+<!--在线客服start-->
+<div class="kefu">
+    <a href="https://chat.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=942058&amp;configID=58767&amp;jid=2803699421&amp;s=1" target="_blank"><img src="/Content/Web/Theme4/pc/img/kefu.png" border="0"></a>
+    <a href="javascript:close();"><img src="/Content/Web/Theme4/pc/img/kefu_close.png" border="0"></a>
+</div>
+<!--在线客服end-->
+
+<script type="text/javascript">
+    $('#divNewsContent').html($('#newsContent').val());
+    $('#divActivityContent').html($('#activityContent').val());
+    $('#divDiscountContent').html($('#discountContent').val());
+    $('#divRuleContent').html($('#ruleContent').val());
+
+    $('#winning').scrollbox({ switchItems: 2 });
+</script>
+
+<script type="text/javascript">
+    getLatestReward();
+    setInterval(function () {
+        getLatestReward();
+    }, 3000);
+
+    function getLatestReward() {
+        var url = '/Home/GetLatestReward';
+        $.ajax({
+            url: url,
+            method: 'post',
+            success: function (data) {
+                $('#js-scroll-content').html('');
+                for (var i = 0; i < data.length; i++) {
+                    var userName = data[i].UserName.substr(0, 3) + '...';
+                    var money = data[i].Money;
+                    var time = convertToLocalDate(data[i].CreateTime);
+
+                    //<li><span class="first">恭喜 zyo...</span><span class="w150"> 获得 <b>22.24元</b> 红包</span><span class="w80"><small>2018-04-23 05:53:03</small></span></li>
+                    var html = '<li><span class="first">恭喜 ' + userName + '</span><span class="w150"> 获得 <b>' + money + '元</b> 红包</span><span class="w80"><small>' + time + '</small></span></li>';
+                    $('#js-scroll-content').append(html);
+                }
+            }
+        });
+    }
+</script>
+
+    
+
+    <input id="noteHidden" type="hidden" value="">
+
+    <script type="text/javascript" src="/Content/Web/site.js"></script>
+    <script type="text/javascript">
+        layui.use('layer', function () {
+            var layer = layui.layer;
+
+            if ('False' == 'True') {
+                var note = $('#noteHidden').val();
+                layer.open({
+                    type: 1,
+                    title: '系统公告',
+                    closeBtn: false,
+                    shade: 0.5,
+                    id: 'idNotePop',
+                    btn: '我知道了',
+                    offset: '150px',
+                    area: ['500px'],
+                    btnAlign: 'c',
+                    content: '<div class="div-pop">' + note + '</div>'
+                });
+            }
+        });
+    </script>
+
+</body></html>
