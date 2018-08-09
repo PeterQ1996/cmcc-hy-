@@ -65,13 +65,13 @@ if __name__ == "__main__":
 
                         sm.getIpList()
 
-                        ContentGet_360.ContentGet_360().run(param=black)
+                        # ContentGet_360.ContentGet_360().run(param=black)
                         # AsynchronousCrawler.AsynchronousCrawlerTxt().readUrl(domainInfo=param)
 
                         try:
                             g.close()
                         except:
-                            print('wrong')
+                            print('关闭失败')
                         # MySqlSave.ConnectToSql()#存入数据库
                         # ModelRun.modelrun()
 
