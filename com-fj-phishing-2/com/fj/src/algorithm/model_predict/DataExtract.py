@@ -1,4 +1,5 @@
 # _*_ coding=utf-8 _*_
+#第二步
 import os
 
 box=[]
@@ -8,7 +9,7 @@ boxes=[]
 projectPath=os.getcwd()
 def dataExtract():
     f=open(projectPath+"/data/unknowndata03.txt",'w')
-    for dirs,dirlist,filelist in os.walk(projectPath+"/html2/"):
+    for dirs,dirlist,filelist in os.walk(projectPath+"/web_scan_probe/html2/"):
       for file in filelist:
         box=[]
         filename=os.path.join(dirs+file)

@@ -1,12 +1,15 @@
 
 # _*_ coding=utf-8 _*_
-
+#第一步
 import re
 import os
 import jieba
 import traceback
 
 projectPath=os.getcwd()
+if not os.path.exists(projectPath+'/web_scan_probe/html2'):
+    os.makedirs(projectPath+'/web_scan_probe/html2')
+
 def getChineseContent(raw_page_content):
     raw_page_content_1 = raw_page_content.decode("utf-8").encode('unicode_escape').decode('unicode_escape') #str
 
@@ -28,16 +31,15 @@ def getChineseContent(raw_page_content):
     return ",".join(content_list_encode)
 
 
-if not os.path.exists(projectPath+'/html2'):
-    os.makedirs(projectPath+'/html2')
+
 def dataQingXi():
-    f = open(projectPath+"/data/web-content", 'r')
+    f=open(projectPath + "/web_scan_probe/model-web-content",'r')
     for line in f.readlines():
         try:
             hostname, ip, ipBelong, firstVisitTime, lastestVisitTime, userSet, visitNum, similarityValue, imitate,\
                      md5_filename= line.strip("\r\n").split(',')
-            filepath = md5_filename.strip("\r\n").replace("'","").replace(" ","")
-            e = open(projectPath+"/html" + "/" + filepath,
+            filepath = md5_filename.strip("\r\n").replace("\'","").replace(" ","")
+            e = open(projectPath+"/web_scan_probe/html" + "/" + filepath,
                      'rb')
 
             zh = getChineseContent(e.read())
@@ -50,7 +52,7 @@ def dataQingXi():
             # c.write(label.encode('utf-8') + ',' + '\n')
             # for i in t:
             #     c.write(i.encode("utf-8") + '\n')
-            c = open(projectPath+"/html2" + "/" + filepath, "w")
+            c = open(projectPath+"/web_scan_probe/html2" + "/" + filepath, "w")
 
             t = zh.strip().split(",")
 
@@ -62,5 +64,4 @@ def dataQingXi():
             c.close()
         except :
             traceback.print_exc()
-
     f.close()

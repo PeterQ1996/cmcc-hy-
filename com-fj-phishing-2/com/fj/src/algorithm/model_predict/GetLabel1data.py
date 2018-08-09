@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# _*_ coding=utf-8 _*_
 __author__ = 'qianhuhai'
 import os
 
@@ -12,7 +12,7 @@ def getlabel1(param):
           if j=="1":
               l.append(i)
 
-     with open(projectPath+"/data/web-content","r") as G:
+     with open(projectPath+"/web_scan_probe/model-web-content","r") as G:
                for m,n in  enumerate(G.readlines()):
                    if m in l:
                        c.append(n)
