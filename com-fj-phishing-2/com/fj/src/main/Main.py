@@ -72,11 +72,12 @@ if __name__ == "__main__":
                         try:
                             g.close()
                         except:
-                            print('wrong')
+                            print('关闭错误')
                         # MySqlSave.ConnectToSql()#存入数据库
                         # ModelRun.modelrun()
 
                         TextClean.TextClean()
+
                         if os.path.isfile(projectPath + "web_scan_probe/web-content"):
                             os.remove(projectPath + "/web_scan_probe/web-content")
                         try:
