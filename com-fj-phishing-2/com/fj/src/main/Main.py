@@ -61,12 +61,12 @@ if __name__ == "__main__":
                         black=DomainClean(param,whitePath).cleanDomain() #清洗一下
 
 
-                        # sm=SeleniumMethod(phantomJsPath,proxy,black,url360,user_agent)
+                        # sm=SeleniumMethod(phantomJsPath,proxy,black,url360,user_agent)   //360爬虫
                         #
                         # sm.getIpList()
 
                         ContentGet_360.ContentGet_360().run(param=black)
-                        ModelRun.modelrun()
+                        ModelRun.modelrun()  #fixme change
                         # AsynchronousCrawler.AsynchronousCrawlerTxt().readUrl(domainInfo=param)
 
                         try:
