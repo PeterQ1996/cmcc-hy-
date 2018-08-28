@@ -1,3 +1,5 @@
+1.3  改动了com.fj.src.spyder.web_scan_probe.ContentGet_360.py
+1.2  改动了TextClean.py文件，增加了图片服务器后缀
 1.1  新增了flashtext,增加了过滤白名单的功能
 1.0  版新增了bs4,selenium,phantomjs
 
