@@ -32,7 +32,7 @@ def TextClean():
         strHostName=hostname
         strIp=ip
         strImitate=imitate
-        strMd5_Filename= 'png/'+md5_filename
+        strMd5_Filename= 'png/'+md5_filename +'.png'
         lastestVisitTime=int(lastestVisitTime)
         lastestVisitTime=int(lastestVisitTime/1000)
 
