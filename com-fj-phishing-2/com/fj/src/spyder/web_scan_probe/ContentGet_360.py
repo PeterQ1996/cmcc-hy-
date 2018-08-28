@@ -132,7 +132,7 @@ class ContentGet_360(ContentGetHtml):
                             K.write(html1)
 
 
-                        with open(projectPath + "/web_scan_probe/png" + "/" + md5_filename,
+                        with open(projectPath + "/web_scan_probe/png" + "/" + md5_filename+".png",
                                   "wb") as J:
                             J.write(png)
 
