@@ -38,8 +38,8 @@ logger.setLevel(logging.DEBUG)
 程序入口
 '''
 if __name__ == "__main__":
-    # day = sys.argv[1]
-    day = "20180725"
+    day = sys.argv[1]
+    # day = "20180725"
     phantomJsPath = projectPath+"/phantomjs-2.1.1-linux-x86_64/bin/phantomjs"
     url360 = "http://webscan.360.cn/index/checkwebsite?url="
     user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
@@ -52,20 +52,20 @@ if __name__ == "__main__":
             rootPath = "/data/qianhuhai/" + day + '/' + dirname #/data/qianhuhai/20180725/2018072523
             logger.debug(rootPath)
 
-            for parent, dirnames, filenames in os.walk(rootPath):
+            for parent, dirs, files in os.walk(rootPath):
 
-                if len(filenames) == 0:
+                if len(files) == 0:
                     logger.info("/data/qianhuhai/" + day + '/' + dirname+ ",目录下没有内容")  #  "/data/qianhuhai/" + day + '/' + dirname 目录下没有内容
                     break
                 try:
-                    for filename in filenames:
+                    for file in files:
 
-                        if not os.path.isfile("/data/qianhuhai/" + day + '/' + dirname + '/' + filename):
+                        if not os.path.isfile("/data/qianhuhai/" + day + '/' + dirname + '/' + file):
                             logger.debug("/data/qianhuhai/" + day + '/' + dirname+ ",目录下没有内容")
                             break
                         else:
-                            g = open("/data/qianhuhai/" + day + '/' + dirname + '/' + filename, 'r')  # 输入待检测网站
-                            logger.debug("/data/qianhuhai/" + day + '/' + dirname + '/' + filename)
+                            g = open("/data/qianhuhai/" + day + '/' + dirname + '/' + file, 'r')  # 输入待检测网站
+                            logger.debug("/data/qianhuhai/" + day + '/' + dirname + '/' + file)
                             logger.debug("/data/qianhuhai/" + day + '/' + dirname+ ",下有内容")
 
 
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
                         sm.getIpList()
 
-                        ContentGet_360.ContentGet_360().run(param=black)
+                        ContentGet_360.ContentGet_360().run(param=black , param_day=day)
                         # AsynchronousCrawler.AsynchronousCrawlerTxt().readUrl(domainInfo=param)
 
 
@@ -100,10 +100,13 @@ if __name__ == "__main__":
                                 os.makedirs(projectPath + '/data_copy'+'/'+day )
                             if not os.path.exists(projectPath + '/data_copy' + '/'+day +'/'+dirname):
                                 os.makedirs(projectPath + '/data_copy' + '/' + day +'/'+dirname)
-                            shutil.move("/data/qianhuhai/" + day + '/' + dirname + '/' + filename,
-                                        projectPath+'/data_copy'+'/'+ day +'/'+dirname +'/'+filename)
-                            os.remove("/data/qianhuhai/" + day + '/' + dirname + '/' + filename)
+                            shutil.move("/data/qianhuhai/" + day + '/' + dirname + '/' + file,
+                                        projectPath+'/data_copy'+'/'+ day +'/'+dirname +'/'+file)
+                            os.remove("/data/qianhuhai/" + day + '/' + dirname + '/' + file)
                         except:
                             logger.error("移出文件出错！")
                 except:
                    logger.error("系统未知错误！")
+
+
+

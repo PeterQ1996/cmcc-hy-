@@ -27,7 +27,7 @@ class ContentGetHtml():
 #
 #对比源码内容，查看敏感词
 #
-    def run(self,param):
+    def run(self,param , param_day):
 
       #获取相应的根目录
       if not os.path.exists(projectPath + '/data'):
