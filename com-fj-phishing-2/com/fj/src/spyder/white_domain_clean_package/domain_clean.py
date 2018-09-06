@@ -1,5 +1,7 @@
 # -*-coding:utf-8-*-
-
+'''
+过滤白名单
+'''
 
 import os,sys
 import re
