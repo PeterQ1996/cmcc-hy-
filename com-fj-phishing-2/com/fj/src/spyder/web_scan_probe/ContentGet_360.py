@@ -21,7 +21,7 @@ from io import StringIO
 
 
 
-timeout = 10
+timeout = 5
 socket.setdefaulttimeout(timeout)  #设置超时，　网页请求超时，则返回空，
 
 cp=configparser.ConfigParser() #配置文件
@@ -31,8 +31,8 @@ cp.read('config.conf')#获取本机IP
 IP=cp.get('localhost_ip','IP')
 #-*-
 #
-SEC=5
-randomSEC=SEC+random.randint(0,9)/10
+# SEC=5
+# randomSEC=SEC+random.randint(0,9)/10
 # 解析３６０diaoyu_sec。判断是否是钓鱼网站
 def parse_diaoyu_sec(param,conf):
     try:
@@ -83,8 +83,8 @@ class ContentGet_360(ContentGetHtml):
 
         if not os.path.exists("/data/qianhuhai/png"):
             os.makedirs("/data/qianhuhai/png")
-        if not os.path.exists("/data/qianhuhai/png"+param_day):
-            os.makedirs("/data/qianhuhai/png"+param_day)
+        if not os.path.exists("/data/qianhuhai/png/"+param_day):
+            os.makedirs("/data/qianhuhai/png/"+param_day)
 
         for i in param:
             try:
@@ -103,11 +103,12 @@ class ContentGet_360(ContentGetHtml):
                 html1 = request.urlopen(url_request).read().decode("utf-8")  # str
 
 
-                params_png = "&render_all=0&wait=0.5"  ###
+                params_png = "&render_all=0&wait=0.5"  ### 加载时间等待2s
                 splash_url_png = "http://"+IP+":8050/render.png?"  ###
                 oneUrlPng = splash_url_png + detect_url + params_png  ###
                 url_request = request.Request(oneUrlPng)  ###query下载图片
                 png = request.urlopen(url_request).read()
+
 
                 '''
                 360验证结果
@@ -131,20 +132,19 @@ class ContentGet_360(ContentGetHtml):
                     hmd = hashlib.md5()  #
                     hmd.update(hostname_encode)  # 生成文件的MD5值，MD5是一种哈希算法
                     md5_filename = hmd.hexdigest()  #
-
+                    print(md5_filename)
                     if not os.path.isfile(projectPath+'/web_scan_probe/html'+'/'+md5_filename) :
 
                         with open(projectPath + "/web_scan_probe/html" + "/" + md5_filename,
                                   "w") as K:
                             K.write(html1)
+                        if len(png) != '':
+                            with open(projectPath + "/web_scan_probe/png" + "/" + md5_filename + ".png",
+                                      "wb") as J:
+                                J.write(png)
 
-
-                        with open(projectPath + "/web_scan_probe/png" + "/" + md5_filename+".png",
-                                  "wb") as J:
-                            J.write(png)
-
-                        with open("/data/qianhuhai/png/" +param_day +md5_filename +".png","wb") as L:
-                            L.write(png)
+                            with open("/data/qianhuhai/png/" + param_day + '/' + md5_filename + ".png", "wb") as L:
+                                L.write(png)
 
                         # with open(projectPath + '/web_scan_probe/web_360_level'+'/'+md5_filename,
                         #           'w') as f:
@@ -212,10 +212,11 @@ if __name__ == '__main__':
             os.makedirs(projectPath + "/web_scan_probe/png_dangers")
 
 
-    param = ["tk.haotibang.com;101.200.86.162:80;其他;0;1526426870510;1;18;0.5625;taobao.com"
+    param = ["baidu.com;101.200.86.162:80;其他;0;1526426870510;1;18;0.5625;taobao.com",
+        "tk.haotibang.com;101.200.86.162:80;其他;0;1526426870510;1;18;0.5625;taobao.com"
                          ,"zs.ylzpay.com;202.101.157.200:8060;其他;0;1526426405595;1;4;0.61538464;alipay.com"
-                            ,"zf.crv.com.cn;120.192.82.239:80;其他;0;1526427860332;1;5;0.61538464;cmbc.com.cn"
+                            ,"https://splash.readthedocs.io/en/stable/api.html;120.192.82.239:80;其他;0;1526427860332;1;5;0.61538464;cmbc.com.cn"
                             ,"tech.cpic.com.cn;117.131.74.128:80;其他;0;1526428690318;5;18;0.625;epicc.com.cn"
                             ,"www.100585.cn;47.90.53.47:80;其他;0;1526427560271;3;46;0.53846157;10086.cn"]
 
-    ContentGet_360().run(param=param)
+    ContentGet_360().run(param=param,param_day='20180725')
